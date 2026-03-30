@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T05:18:19.444314+00:00",
-  "totalAgents": 47,
+  "lastUpdated": "2026-03-30T05:21:28.664571+00:00",
+  "totalAgents": 48,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -17,6 +17,14 @@
       "name": "Canvas Design",
       "desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user ",
       "emoji": "🖼"
+    },
+    {
+      "id": "grant-accounting",
+      "type": "skill",
+      "category": "dev",
+      "name": "Grant Accounting",
+      "desc": ">",
+      "emoji": "🔹"
     },
     {
       "id": "hwpx",
