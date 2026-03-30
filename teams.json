@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T05:22:14.891727+00:00",
+  "lastUpdated": "2026-03-30T05:26:07.605357+00:00",
   "teams": [
     {
       "id": "dev",
@@ -9,6 +9,11 @@
       "bg": "#eff6ff",
       "desc": "소프트웨어 개발, 배포, 인프라, 코드 리뷰를 담당하는 팀.",
       "agents": [
+        {
+          "id": "code-evaluator",
+          "name": "code-evaluator",
+          "desc": "|"
+        },
         {
           "id": "nodetreehome-web",
           "name": "nodetreehome-web",

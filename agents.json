@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T05:22:14.891727+00:00",
-  "totalAgents": 48,
+  "lastUpdated": "2026-03-30T05:26:07.605357+00:00",
+  "totalAgents": 49,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -313,6 +313,15 @@
       "name": "pencil",
       "desc": "MCP: /Users/kanghyunjung/.cursor/extensions/highagency.pencildev-",
       "emoji": "🔌"
+    },
+    {
+      "id": "code-evaluator",
+      "type": "agent",
+      "team": "dev",
+      "name": "code-evaluator",
+      "desc": "|",
+      "emoji": "■",
+      "category": "dev"
     },
     {
       "id": "nodetreehome-web",
