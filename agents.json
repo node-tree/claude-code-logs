@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T04:58:16.398594+00:00",
-  "totalAgents": 45,
+  "lastUpdated": "2026-03-30T05:00:45.861848+00:00",
+  "totalAgents": 46,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -137,6 +137,14 @@
       "name": "Web Audio Synth",
       "desc": "Create web-based synthesizers and audio applications using Strudel, Tone.js, and Web Audio API. Use when (1) integrating",
       "emoji": "🎵"
+    },
+    {
+      "id": "xlsx",
+      "type": "skill",
+      "category": "dev",
+      "name": "Xlsx",
+      "desc": ">",
+      "emoji": "🔹"
     },
     {
       "id": "youtube-study",
