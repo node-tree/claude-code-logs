@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T04:08:34.441952+00:00",
-  "totalAgents": 44,
+  "lastUpdated": "2026-03-30T04:13:18.044875+00:00",
+  "totalAgents": 43,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -41,14 +41,6 @@
       "name": "Notebooklm Research",
       "desc": "URL을 NotebookLM으로 분석하고 Obsidian에 저장. Use when: user says '/research', 'URL 분석', 'NotebookLM으로 분석', 'URL 리서치', or provide",
       "emoji": "🔬"
-    },
-    {
-      "id": "openclaw-intel",
-      "type": "skill",
-      "category": "research",
-      "name": "Openclaw Intel",
-      "desc": ">",
-      "emoji": "🦾"
     },
     {
       "id": "pdf",
