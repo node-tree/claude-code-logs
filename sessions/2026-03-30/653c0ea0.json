@@ -2,8 +2,8 @@
   "sessionId": "653c0ea0-893f-40b5-8be5-bfcc437ba7f1",
   "date": "2026-03-30",
   "startTime": "2026-03-30T01:51:02.288000+00:00",
-  "endTime": "2026-03-30T05:26:49.419000+00:00",
-  "durationSeconds": 12947,
+  "endTime": "2026-03-30T05:32:08.442000+00:00",
+  "durationSeconds": 13266,
   "model": {
     "raw": "",
     "tier": "sonnet"
