@@ -2,8 +2,8 @@
   "sessionId": "653c0ea0-893f-40b5-8be5-bfcc437ba7f1",
   "date": "2026-03-30",
   "startTime": "2026-03-30T01:51:02.288000+00:00",
-  "endTime": "2026-03-30T05:02:36.143000+00:00",
-  "durationSeconds": 11493,
+  "endTime": "2026-03-30T05:11:35.619000+00:00",
+  "durationSeconds": 12033,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,15 +13,15 @@
     "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
   },
   "activity": {
-    "toolCallCount": 221,
+    "toolCallCount": 237,
     "toolCounter": {
       "Skill": 3,
-      "Bash": 116,
-      "Write": 18,
-      "Agent": 3,
-      "Read": 19,
-      "Edit": 55,
-      "Grep": 2,
+      "Bash": 120,
+      "Write": 21,
+      "Agent": 4,
+      "Read": 20,
+      "Edit": 59,
+      "Grep": 5,
       "ToolSearch": 2,
       "RemoteTrigger": 2,
       "Glob": 1
