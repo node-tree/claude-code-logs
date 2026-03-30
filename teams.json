@@ -1,0 +1,100 @@
+{
+  "lastUpdated": "2026-03-30T03:56:09.489718+00:00",
+  "teams": [
+    {
+      "id": "dev",
+      "name": "개발팀",
+      "emoji": "💻",
+      "color": "#1d4ed8",
+      "bg": "#eff6ff",
+      "desc": "소프트웨어 개발, 배포, 인프라",
+      "skills": [
+        "vercel-react-best-practices",
+        "kicad-pcb-design",
+        "clangd-lsp",
+        "cli-anything",
+        "mcp-playwright",
+        "mcp-pencil"
+      ],
+      "agents": []
+    },
+    {
+      "id": "research",
+      "name": "리서치팀",
+      "emoji": "🔬",
+      "color": "#b45309",
+      "bg": "#fffbeb",
+      "desc": "정보 수집, 분석, 지식 정리",
+      "skills": [
+        "notebooklm-research",
+        "openclaw-intel",
+        "youtube-study"
+      ],
+      "agents": []
+    },
+    {
+      "id": "art",
+      "name": "예술작업팀",
+      "emoji": "🎨",
+      "color": "#7c3aed",
+      "bg": "#f5f3ff",
+      "desc": "사운드 아트, 영상, 설치, 생성 예술",
+      "skills": [
+        "algorithmic-art",
+        "supercollider-sound-art",
+        "supercollider-sound-art-for-daisy",
+        "td-guide",
+        "web-audio-synth",
+        "remotion-best-practices",
+        "canvas-design"
+      ],
+      "agents": []
+    },
+    {
+      "id": "accounting",
+      "name": "회계팀",
+      "emoji": "📊",
+      "color": "#059669",
+      "bg": "#ecfdf5",
+      "desc": "재무 관리, 예산, 지출 추적",
+      "skills": [
+        "pdf",
+        "hwpx",
+        "pptx"
+      ],
+      "agents": []
+    },
+    {
+      "id": "design",
+      "name": "디자인 및 홍보팀",
+      "emoji": "✨",
+      "color": "#e11d48",
+      "bg": "#fff1f2",
+      "desc": "UI/UX 디자인, 브랜딩, 마케팅, 홍보",
+      "skills": [
+        "pencil-design",
+        "taste-skill",
+        "frontend-design",
+        "photo-grading",
+        "figma-generate-design",
+        "figma-implement-design"
+      ],
+      "agents": []
+    },
+    {
+      "id": "planning",
+      "name": "기획팀",
+      "emoji": "📋",
+      "color": "#0891b2",
+      "bg": "#ecfeff",
+      "desc": "프로젝트 기획, 제안서, 문서 작성",
+      "skills": [
+        "pptx",
+        "hwpx",
+        "pdf",
+        "skill-creator"
+      ],
+      "agents": []
+    }
+  ]
+}
