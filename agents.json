@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-30T02:50:20.964526+00:00",
-  "totalAgents": 27,
+  "lastUpdated": "2026-03-30T02:52:37.916768+00:00",
+  "totalAgents": 35,
   "agents": [
     {
       "id": "algorithmic-art",
       "type": "skill",
       "category": "art",
       "name": "Algorithmic Art",
-      "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. U",
+      "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users r",
       "emoji": "🎨"
     },
     {
@@ -15,18 +15,48 @@
       "type": "skill",
       "category": "art",
       "name": "Canvas Design",
-      "desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this ",
+      "desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user ",
       "emoji": "🖼"
     },
     {
-      "id": "frontend-design",
-      "type": "plugin",
-      "category": "art",
-      "name": "Frontend Design",
-      "desc": "Production-grade frontend interfaces",
-      "emoji": "🖥",
-      "version": "1.0.0",
-      "installedAt": "2026-01-14T01:39:47.224Z"
+      "id": "hwpx",
+      "type": "skill",
+      "category": "document",
+      "name": "Hwpx",
+      "desc": "HWPX 문서(.hwpx) 생성·읽기·편집 통합 스킬. '한글 문서', 'hwpx', 'HWPX', '한글파일', '.hwpx 만들어줘', '보고서', '공문', '기안문', '한글로 작성', '회의록', '제안서'",
+      "emoji": "📄"
+    },
+    {
+      "id": "kicad-pcb-design",
+      "type": "skill",
+      "category": "dev",
+      "name": "Kicad Pcb Design",
+      "desc": ">",
+      "emoji": "⚡"
+    },
+    {
+      "id": "notebooklm-research",
+      "type": "skill",
+      "category": "research",
+      "name": "Notebooklm Research",
+      "desc": "URL을 NotebookLM으로 분석하고 Obsidian에 저장. Use when: user says '/research', 'URL 분석', 'NotebookLM으로 분석', 'URL 리서치', or provide",
+      "emoji": "🔬"
+    },
+    {
+      "id": "openclaw-intel",
+      "type": "skill",
+      "category": "research",
+      "name": "Openclaw Intel",
+      "desc": ">",
+      "emoji": "🦾"
+    },
+    {
+      "id": "pdf",
+      "type": "skill",
+      "category": "document",
+      "name": "Pdf",
+      "desc": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, a",
+      "emoji": "📋"
     },
     {
       "id": "pencil-design",
@@ -41,26 +71,16 @@
       "type": "skill",
       "category": "art",
       "name": "Photo Grading",
-      "desc": "유명 감성 사진작가 스타일 보정",
+      "desc": "Automatically apply famous photographer color grading presets to photos using Pillow.",
       "emoji": "📷"
     },
     {
-      "id": "taste-skill",
+      "id": "pptx",
       "type": "skill",
-      "category": "art",
-      "name": "Taste Skill",
-      "desc": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-b",
-      "emoji": "💎"
-    },
-    {
-      "id": "claude-qwen-tts",
-      "type": "plugin",
-      "category": "audio",
-      "name": "Claude Qwen Tts",
-      "desc": "Speech synthesis & voice cloning",
-      "emoji": "🎤",
-      "version": "1.0.0",
-      "installedAt": "2026-02-23T01:36:31.754Z"
+      "category": "document",
+      "name": "Pptx",
+      "desc": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creati",
+      "emoji": "📊"
     },
     {
       "id": "remotion-best-practices",
@@ -69,6 +89,14 @@
       "name": "Remotion Best Practices",
       "desc": "Best practices for Remotion - Video creation in React",
       "emoji": "🎬"
+    },
+    {
+      "id": "skill-creator",
+      "type": "skill",
+      "category": "meta",
+      "name": "Skill Creator",
+      "desc": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exist",
+      "emoji": "🛠"
     },
     {
       "id": "supercollider-sound-art",
@@ -83,78 +111,176 @@
       "type": "skill",
       "category": "audio",
       "name": "Supercollider Sound Art For Daisy",
-      "desc": "SuperCollider prototyping for Daisy Patch SM hardware synthesis. Create experimental sound design co",
+      "desc": "SuperCollider prototyping for Daisy Patch SM hardware synthesis. Create experimental sound design combining Ikeda Ryoji'",
       "emoji": "🎛"
+    },
+    {
+      "id": "taste-skill",
+      "type": "skill",
+      "category": "art",
+      "name": "Taste Skill",
+      "desc": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict c",
+      "emoji": "💎"
     },
     {
       "id": "td-guide",
       "type": "skill",
       "category": "audio",
       "name": "Td Guide",
-      "desc": "Provides patterns and best practices for TouchDesigner via MCP API - operator creation, network layo",
+      "desc": "Provides patterns and best practices for TouchDesigner via MCP API - operator creation, network layout, rendering, GLSL ",
       "emoji": "🌐"
-    },
-    {
-      "id": "web-audio-synth",
-      "type": "skill",
-      "category": "audio",
-      "name": "Web Audio Synth",
-      "desc": "Create web-based synthesizers and audio applications using Strudel, Tone.js, and Web Audio API. Use ",
-      "emoji": "🎵"
-    },
-    {
-      "id": "clangd-lsp",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Clangd Lsp",
-      "desc": "C/C++ language server",
-      "emoji": "🔧",
-      "version": "1.0.0",
-      "installedAt": "2025-12-30T05:10:17.332Z"
-    },
-    {
-      "id": "cli-anything",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Cli Anything",
-      "desc": "CLI tool integration",
-      "emoji": "💻",
-      "version": "f5cfa05ea294",
-      "installedAt": "2026-03-13T04:57:42.551Z"
-    },
-    {
-      "id": "figma",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Figma",
-      "desc": "Official Figma MCP — read/write designs",
-      "emoji": "🎭",
-      "version": "2.0.2",
-      "installedAt": "2026-01-14T01:40:43.971Z"
-    },
-    {
-      "id": "kicad-pcb-design",
-      "type": "skill",
-      "category": "dev",
-      "name": "Kicad Pcb Design",
-      "desc": ">",
-      "emoji": "⚡"
     },
     {
       "id": "vercel-react-best-practices",
       "type": "skill",
       "category": "dev",
       "name": "Vercel React Best Practices",
-      "desc": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be ",
+      "desc": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r",
       "emoji": "⚛️"
     },
     {
-      "id": "mcp-pencil",
-      "type": "mcp",
+      "id": "web-audio-synth",
+      "type": "skill",
+      "category": "audio",
+      "name": "Web Audio Synth",
+      "desc": "Create web-based synthesizers and audio applications using Strudel, Tone.js, and Web Audio API. Use when (1) integrating",
+      "emoji": "🎵"
+    },
+    {
+      "id": "youtube-study",
+      "type": "skill",
+      "category": "research",
+      "name": "Youtube Study",
+      "desc": "youtube-study",
+      "emoji": "▶️"
+    },
+    {
+      "id": "clangd-lsp",
+      "type": "plugin",
       "category": "dev",
-      "name": "pencil",
-      "desc": "MCP: /Users/kanghyunjung/.cursor/extensions/highagency.pencildev-0.6.36-universa",
-      "emoji": "🔌"
+      "name": "Clangd Lsp",
+      "desc": "clangd-lsp",
+      "emoji": "🔧",
+      "version": "1.0.0"
+    },
+    {
+      "id": "frontend-design",
+      "type": "skill",
+      "category": "art",
+      "name": "Frontend Design",
+      "desc": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to ",
+      "emoji": "🖥",
+      "parentPlugin": "frontend-design"
+    },
+    {
+      "id": "figma",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Figma",
+      "desc": "7개 스킬 포함",
+      "emoji": "🎭",
+      "version": "2.0.2",
+      "subSkillCount": 7
+    },
+    {
+      "id": "figma-generate-design",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Generate Design",
+      "desc": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout",
+      "emoji": "🎨",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-create-new-file",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Create New File",
+      "desc": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a n",
+      "emoji": "📄",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-implement-design",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Implement Design",
+      "desc": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code ",
+      "emoji": "🖥",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-generate-library",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Generate Library",
+      "desc": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables",
+      "emoji": "📚",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-use",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Use",
+      "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` direc",
+      "emoji": "🔗",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-code-connect-components",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Code Connect Components",
+      "desc": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\",",
+      "emoji": "🔌",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-create-design-system-rules",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Create Design System Rules",
+      "desc": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate",
+      "emoji": "📐",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "claude-qwen-tts",
+      "type": "plugin",
+      "category": "audio",
+      "name": "Claude Qwen Tts",
+      "desc": "1개 스킬 포함",
+      "emoji": "🎤",
+      "version": "1.0.0",
+      "subSkillCount": 1
+    },
+    {
+      "id": "tts-narrator",
+      "type": "skill",
+      "category": "audio",
+      "name": "Tts Narrator",
+      "desc": "Automatically generate audio narration from text or scripts. Use when user asks to \"read this script\", \"convert to audio",
+      "emoji": "🎙",
+      "parentPlugin": "claude-qwen-tts"
+    },
+    {
+      "id": "skill-creator",
+      "type": "skill",
+      "category": "meta",
+      "name": "Skill Creator",
+      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
+      "emoji": "🛠",
+      "parentPlugin": "skill-creator"
+    },
+    {
+      "id": "cli-anything",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Cli Anything",
+      "desc": "cli-anything",
+      "emoji": "💻",
+      "version": "f5cfa05ea294"
     },
     {
       "id": "mcp-playwright",
@@ -165,70 +291,12 @@
       "emoji": "🔌"
     },
     {
-      "id": "hwpx",
-      "type": "skill",
-      "category": "document",
-      "name": "Hwpx",
-      "desc": "HWPX 문서(.hwpx) 생성·읽기·편집 통합 스킬. '한글 문서', 'hwpx', 'HWPX', '한글파일', '.hwpx 만들어줘', '보고서', '공문', '기안문', '한",
-      "emoji": "📄"
-    },
-    {
-      "id": "pdf",
-      "type": "skill",
-      "category": "document",
-      "name": "Pdf",
-      "desc": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/sp",
-      "emoji": "📋"
-    },
-    {
-      "id": "pptx",
-      "type": "skill",
-      "category": "document",
-      "name": "Pptx",
-      "desc": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx fi",
-      "emoji": "📊"
-    },
-    {
-      "id": "skill-creator",
-      "type": "skill",
-      "category": "meta",
-      "name": "Skill Creator",
-      "desc": "Guide for creating effective skills. This skill should be used when users want to create a new skill",
-      "emoji": "🛠"
-    },
-    {
-      "id": "skill-creator",
-      "type": "plugin",
-      "category": "meta",
-      "name": "Skill Creator",
-      "desc": "Official skill creation & evaluation",
-      "emoji": "⚙️",
-      "version": "unknown",
-      "installedAt": "2026-03-09T07:37:52.520Z"
-    },
-    {
-      "id": "notebooklm-research",
-      "type": "skill",
-      "category": "research",
-      "name": "Notebooklm Research",
-      "desc": "URL을 NotebookLM으로 분석하고 Obsidian에 저장. Use when: user says '/research', 'URL 분석', 'NotebookLM으로 분석', '",
-      "emoji": "🔬"
-    },
-    {
-      "id": "openclaw-intel",
-      "type": "skill",
-      "category": "research",
-      "name": "Openclaw Intel",
-      "desc": ">",
-      "emoji": "🦾"
-    },
-    {
-      "id": "youtube-study",
-      "type": "skill",
-      "category": "research",
-      "name": "Youtube Study",
-      "desc": "YouTube 영상 분석 및 학습",
-      "emoji": "▶️"
+      "id": "mcp-pencil",
+      "type": "mcp",
+      "category": "dev",
+      "name": "pencil",
+      "desc": "MCP: /Users/kanghyunjung/.cursor/extensions/highagency.pencildev-",
+      "emoji": "🔌"
     }
   ]
 }
