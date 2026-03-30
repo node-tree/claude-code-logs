@@ -10,7 +10,17 @@
     "sessionId": "e51673fb"
   },
   "code-evaluator": {
-    "lastActive": "2026-03-30T15:19:54.301000+00:00",
+    "lastActive": "2026-03-30T15:22:45.214000+00:00",
+    "lastProject": "nodetree-claude-config",
+    "sessionId": "087dcc30"
+  },
+  "grant-writer": {
+    "lastActive": "2026-03-30T15:22:45.214000+00:00",
+    "lastProject": "nodetree-claude-config",
+    "sessionId": "087dcc30"
+  },
+  "visual-design": {
+    "lastActive": "2026-03-30T15:22:45.214000+00:00",
     "lastProject": "nodetree-claude-config",
     "sessionId": "087dcc30"
   }
