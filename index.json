@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-03-30T05:02:43.328511+00:00",
-  "totalSessions": 25,
+  "lastUpdated": "2026-03-30T05:08:51.825765+00:00",
+  "totalSessions": 26,
   "sessions": [
+    {
+      "sessionId": "814c3774",
+      "date": "2026-03-30",
+      "startTime": "2026-03-28T12:18:07.086000+00:00",
+      "durationSeconds": 147037,
+      "modelTier": "sonnet",
+      "projectName": "Desktop",
+      "toolCallCount": 0,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": []
+    },
     {
       "sessionId": "653c0ea0",
       "date": "2026-03-30",
