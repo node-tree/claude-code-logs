@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T04:53:40.708964+00:00",
+  "lastUpdated": "2026-03-30T04:56:27.026480+00:00",
   "teams": [
     {
       "id": "dev",
@@ -104,6 +104,11 @@
       "bg": "#ecfdf5",
       "desc": "재무 관리, 예산 분석, 지출 추적을 담당하는 팀.",
       "agents": [
+        {
+          "id": "grant-accounting-agent",
+          "name": "grant-accounting-agent",
+          "desc": "Use this agent when handling accounting and financial management tasks related to government-supported grant projects, i"
+        },
         {
           "id": "saengsanso-accounting",
           "name": "saengsanso-accounting",

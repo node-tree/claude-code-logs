@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T04:53:40.708964+00:00",
-  "totalAgents": 44,
+  "lastUpdated": "2026-03-30T04:56:27.026480+00:00",
+  "totalAgents": 45,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -370,6 +370,15 @@
       "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou",
       "emoji": "▲",
       "category": "art"
+    },
+    {
+      "id": "grant-accounting-agent",
+      "type": "agent",
+      "team": "accounting",
+      "name": "grant-accounting-agent",
+      "desc": "Use this agent when handling accounting and financial management tasks related to government-supported grant projects, i",
+      "emoji": "□",
+      "category": "accounting"
     },
     {
       "id": "saengsanso-accounting",
