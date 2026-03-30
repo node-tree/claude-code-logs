@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T04:48:28.368642+00:00",
+  "lastUpdated": "2026-03-30T04:49:14.868188+00:00",
   "totalAgents": 43,
   "agents": [
     {
@@ -296,7 +296,7 @@
       "team": "dev",
       "name": "nodetreehome-web",
       "desc": "Use this agent when the user needs to develop or modify the nodetreeHome web project, including React components, API ro",
-      "emoji": "💻",
+      "emoji": "■",
       "category": "dev"
     },
     {
@@ -305,7 +305,7 @@
       "team": "planning",
       "name": "doc-design",
       "desc": "Use this agent when the user needs to create portfolios, catalogs, official documents, or formatted reports for NODE TRE",
-      "emoji": "📋",
+      "emoji": "◆",
       "category": "planning"
     },
     {
@@ -314,7 +314,7 @@
       "team": "planning",
       "name": "grant-writer",
       "desc": "Use this agent when the user needs to write or draft grant applications, artist statements, or project descriptions for ",
-      "emoji": "📋",
+      "emoji": "◆",
       "category": "planning"
     },
     {
@@ -323,7 +323,7 @@
       "team": "planning",
       "name": "project-planner",
       "desc": "Use this agent when the user needs to plan project timelines, budgets, task assignments, or manage project progress in O",
-      "emoji": "📋",
+      "emoji": "◆",
       "category": "planning"
     },
     {
@@ -332,7 +332,7 @@
       "team": "design",
       "name": "pr-content",
       "desc": "Use this agent when the user needs to write promotional content, exhibition texts, press releases, or SNS captions for N",
-      "emoji": "✨",
+      "emoji": "●",
       "category": "design"
     },
     {
@@ -341,7 +341,7 @@
       "team": "design",
       "name": "visual-design",
       "desc": "Use this agent when the user needs to create posters, SNS images, exhibition graphics, or promotional visuals for NODE T",
-      "emoji": "✨",
+      "emoji": "●",
       "category": "design"
     },
     {
@@ -350,7 +350,7 @@
       "team": "research",
       "name": "grant-research",
       "desc": "Use this agent when the user needs to find grant opportunities, residencies, or competitions suitable for NODE TREE, or ",
-      "emoji": "🔬",
+      "emoji": "○",
       "category": "research"
     },
     {
@@ -359,7 +359,7 @@
       "team": "research",
       "name": "nodetree-research",
       "desc": "Use this agent when the user needs to research artworks, artists, theoretical concepts, or technical tools related to NO",
-      "emoji": "🔬",
+      "emoji": "○",
       "category": "research"
     },
     {
@@ -368,7 +368,7 @@
       "team": "art",
       "name": "media-art-pipeline",
       "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou",
-      "emoji": "🎨",
+      "emoji": "▲",
       "category": "art"
     }
   ]
