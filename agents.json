@@ -1,0 +1,207 @@
+{
+  "lastUpdated": "2026-03-30T02:34:34.059472+00:00",
+  "totalAgents": 25,
+  "agents": [
+    {
+      "id": "algorithmic-art",
+      "type": "skill",
+      "category": "art",
+      "name": "Algorithmic Art",
+      "desc": "p5.js generative art, flow fields, particle systems",
+      "emoji": "🎨"
+    },
+    {
+      "id": "canvas-design",
+      "type": "skill",
+      "category": "art",
+      "name": "Canvas Design",
+      "desc": "Visual art in .png/.pdf with design philosophy",
+      "emoji": "🖼"
+    },
+    {
+      "id": "photo-grading",
+      "type": "skill",
+      "category": "art",
+      "name": "Photo Grading",
+      "desc": "유명 감성 사진작가 스타일 보정",
+      "emoji": "📷"
+    },
+    {
+      "id": "pencil-design",
+      "type": "skill",
+      "category": "art",
+      "name": "Pencil Design",
+      "desc": "Web/mobile UI in .pen files",
+      "emoji": "✏️"
+    },
+    {
+      "id": "taste-skill",
+      "type": "skill",
+      "category": "art",
+      "name": "Design Taste",
+      "desc": "Senior UI/UX engineering, metric-based rules",
+      "emoji": "💎"
+    },
+    {
+      "id": "web-audio-synth",
+      "type": "skill",
+      "category": "audio",
+      "name": "Web Audio Synth",
+      "desc": "Strudel, Tone.js, Web Audio API",
+      "emoji": "🎵"
+    },
+    {
+      "id": "supercollider-sound-art",
+      "type": "skill",
+      "category": "audio",
+      "name": "SuperCollider",
+      "desc": "Generative music & audio installations",
+      "emoji": "🔊"
+    },
+    {
+      "id": "supercollider-sound-art-for-daisy",
+      "type": "skill",
+      "category": "audio",
+      "name": "SuperCollider × Daisy",
+      "desc": "Daisy Patch SM hardware synthesis",
+      "emoji": "🎛"
+    },
+    {
+      "id": "td-guide",
+      "type": "skill",
+      "category": "audio",
+      "name": "TouchDesigner",
+      "desc": "TD operator patterns, GLSL shaders",
+      "emoji": "🌐"
+    },
+    {
+      "id": "remotion-best-practices",
+      "type": "skill",
+      "category": "audio",
+      "name": "Remotion",
+      "desc": "Video creation in React",
+      "emoji": "🎬"
+    },
+    {
+      "id": "hwpx",
+      "type": "skill",
+      "category": "document",
+      "name": "HWPX",
+      "desc": "한글 문서 생성·편집",
+      "emoji": "📄"
+    },
+    {
+      "id": "pdf",
+      "type": "skill",
+      "category": "document",
+      "name": "PDF",
+      "desc": "PDF manipulation, forms, merging",
+      "emoji": "📋"
+    },
+    {
+      "id": "pptx",
+      "type": "skill",
+      "category": "document",
+      "name": "PPTX",
+      "desc": "Presentation creation & editing",
+      "emoji": "📊"
+    },
+    {
+      "id": "kicad-pcb-design",
+      "type": "skill",
+      "category": "dev",
+      "name": "KiCad PCB",
+      "desc": "Eurorack PCB design, Daisy Patch SM",
+      "emoji": "⚡"
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "type": "skill",
+      "category": "dev",
+      "name": "Vercel/React",
+      "desc": "React & Next.js performance optimization",
+      "emoji": "⚛️"
+    },
+    {
+      "id": "notebooklm-research",
+      "type": "skill",
+      "category": "research",
+      "name": "NotebookLM Research",
+      "desc": "URL → NotebookLM 분석 → Obsidian 저장",
+      "emoji": "🔬"
+    },
+    {
+      "id": "openclaw-intel",
+      "type": "skill",
+      "category": "research",
+      "name": "OpenClaw Intel",
+      "desc": "AI agent platform intelligence gathering",
+      "emoji": "🦾"
+    },
+    {
+      "id": "youtube-study",
+      "type": "skill",
+      "category": "research",
+      "name": "YouTube Study",
+      "desc": "YouTube 영상 분석 및 학습",
+      "emoji": "▶️"
+    },
+    {
+      "id": "skill-creator",
+      "type": "skill",
+      "category": "meta",
+      "name": "Skill Creator",
+      "desc": "Create & optimize new skills",
+      "emoji": "🛠"
+    },
+    {
+      "id": "figma",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Figma",
+      "desc": "Official Figma MCP — read/write designs",
+      "emoji": "🎭",
+      "version": "2.0.2"
+    },
+    {
+      "id": "frontend-design",
+      "type": "plugin",
+      "category": "art",
+      "name": "Frontend Design",
+      "desc": "Production-grade frontend interfaces",
+      "emoji": "🖥"
+    },
+    {
+      "id": "clangd-lsp",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Clangd LSP",
+      "desc": "C/C++ language server",
+      "emoji": "🔧"
+    },
+    {
+      "id": "claude-qwen-tts",
+      "type": "plugin",
+      "category": "audio",
+      "name": "Claude Qwen TTS",
+      "desc": "Speech synthesis & voice cloning",
+      "emoji": "🎤"
+    },
+    {
+      "id": "skill-creator-plugin",
+      "type": "plugin",
+      "category": "meta",
+      "name": "Skill Creator Plugin",
+      "desc": "Official skill creation & evaluation",
+      "emoji": "⚙️"
+    },
+    {
+      "id": "cli-anything",
+      "type": "plugin",
+      "category": "dev",
+      "name": "CLI Anything",
+      "desc": "CLI tool integration",
+      "emoji": "💻"
+    }
+  ]
+}
