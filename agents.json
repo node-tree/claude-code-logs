@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T05:02:53.334014+00:00",
-  "totalAgents": 46,
+  "lastUpdated": "2026-03-30T05:08:17.803196+00:00",
+  "totalAgents": 47,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -33,6 +33,14 @@
       "name": "Kicad Pcb Design",
       "desc": ">",
       "emoji": "⚡"
+    },
+    {
+      "id": "korea-accounting",
+      "type": "skill",
+      "category": "dev",
+      "name": "Korea Accounting",
+      "desc": "korea-accounting",
+      "emoji": "🔹"
     },
     {
       "id": "notebooklm-research",
