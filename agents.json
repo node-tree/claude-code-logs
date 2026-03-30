@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T06:38:31.912001+00:00",
-  "totalAgents": 49,
+  "lastUpdated": "2026-03-30T06:46:53.188530+00:00",
+  "totalAgents": 50,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -48,6 +48,14 @@
       "category": "dev",
       "name": "Korea Accounting",
       "desc": ">",
+      "emoji": "🔹"
+    },
+    {
+      "id": "korean-cinema",
+      "type": "skill",
+      "category": "dev",
+      "name": "Korean Cinema",
+      "desc": "영화 이론, 독립영화, 한국 예술영화(박찬경·박찬욱·봉준호·홍상수·이창동) 방법론 및 미디어아트-영화 교차점 전문 스킬. Use when: (1) 영화 비평/분석 요청, (2) 작가 노트/감독 노트 작성, (3) 영",
       "emoji": "🔹"
     },
     {
