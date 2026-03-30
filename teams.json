@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T04:49:31.019725+00:00",
+  "lastUpdated": "2026-03-30T04:53:24.710866+00:00",
   "teams": [
     {
       "id": "dev",
@@ -103,7 +103,13 @@
       "color": "#059669",
       "bg": "#ecfdf5",
       "desc": "재무 관리, 예산 분석, 지출 추적을 담당하는 팀.",
-      "agents": []
+      "agents": [
+        {
+          "id": "saengsanso-accounting",
+          "name": "saengsanso-accounting",
+          "desc": "Use this agent when any accounting, financial, or corporate administration task related to 주식회사 생산소 needs to be handled."
+        }
+      ]
     }
   ]
 }

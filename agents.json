@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T04:49:31.019725+00:00",
-  "totalAgents": 43,
+  "lastUpdated": "2026-03-30T04:53:24.710866+00:00",
+  "totalAgents": 44,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -370,6 +370,15 @@
       "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou",
       "emoji": "▲",
       "category": "art"
+    },
+    {
+      "id": "saengsanso-accounting",
+      "type": "agent",
+      "team": "accounting",
+      "name": "saengsanso-accounting",
+      "desc": "Use this agent when any accounting, financial, or corporate administration task related to 주식회사 생산소 needs to be handled.",
+      "emoji": "□",
+      "category": "accounting"
     }
   ]
 }
