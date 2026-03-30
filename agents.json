@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T04:04:01.804848+00:00",
-  "totalAgents": 35,
+  "lastUpdated": "2026-03-30T04:04:56.476516+00:00",
+  "totalAgents": 44,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -297,6 +297,87 @@
       "name": "pencil",
       "desc": "MCP: /Users/kanghyunjung/.cursor/extensions/highagency.pencildev-",
       "emoji": "🔌"
+    },
+    {
+      "id": "nodetreehome-web",
+      "type": "agent",
+      "team": "dev",
+      "name": "nodetreehome-web",
+      "desc": "Use this agent when the user needs to develop or modify the nodetreeHome web project, including React components, API ro",
+      "emoji": "💻",
+      "category": "dev"
+    },
+    {
+      "id": "doc-design",
+      "type": "agent",
+      "team": "planning",
+      "name": "doc-design",
+      "desc": "Use this agent when the user needs to create portfolios, catalogs, official documents, or formatted reports for NODE TRE",
+      "emoji": "📋",
+      "category": "planning"
+    },
+    {
+      "id": "grant-writer",
+      "type": "agent",
+      "team": "planning",
+      "name": "grant-writer",
+      "desc": "Use this agent when the user needs to write or draft grant applications, artist statements, or project descriptions for ",
+      "emoji": "📋",
+      "category": "planning"
+    },
+    {
+      "id": "project-planner",
+      "type": "agent",
+      "team": "planning",
+      "name": "project-planner",
+      "desc": "Use this agent when the user needs to plan project timelines, budgets, task assignments, or manage project progress in O",
+      "emoji": "📋",
+      "category": "planning"
+    },
+    {
+      "id": "pr-content",
+      "type": "agent",
+      "team": "design",
+      "name": "pr-content",
+      "desc": "Use this agent when the user needs to write promotional content, exhibition texts, press releases, or SNS captions for N",
+      "emoji": "✨",
+      "category": "design"
+    },
+    {
+      "id": "visual-design",
+      "type": "agent",
+      "team": "design",
+      "name": "visual-design",
+      "desc": "Use this agent when the user needs to create posters, SNS images, exhibition graphics, or promotional visuals for NODE T",
+      "emoji": "✨",
+      "category": "design"
+    },
+    {
+      "id": "grant-research",
+      "type": "agent",
+      "team": "research",
+      "name": "grant-research",
+      "desc": "Use this agent when the user needs to find grant opportunities, residencies, or competitions suitable for NODE TREE, or ",
+      "emoji": "🔬",
+      "category": "research"
+    },
+    {
+      "id": "nodetree-research",
+      "type": "agent",
+      "team": "research",
+      "name": "nodetree-research",
+      "desc": "Use this agent when the user needs to research artworks, artists, theoretical concepts, or technical tools related to NO",
+      "emoji": "🔬",
+      "category": "research"
+    },
+    {
+      "id": "media-art-pipeline",
+      "type": "agent",
+      "team": "art",
+      "name": "media-art-pipeline",
+      "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou",
+      "emoji": "🎨",
+      "category": "art"
     }
   ]
 }

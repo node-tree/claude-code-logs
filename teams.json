@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T03:56:09.489718+00:00",
+  "lastUpdated": "2026-03-30T04:04:56.476516+00:00",
   "teams": [
     {
       "id": "dev",
@@ -7,79 +7,14 @@
       "emoji": "💻",
       "color": "#1d4ed8",
       "bg": "#eff6ff",
-      "desc": "소프트웨어 개발, 배포, 인프라",
-      "skills": [
-        "vercel-react-best-practices",
-        "kicad-pcb-design",
-        "clangd-lsp",
-        "cli-anything",
-        "mcp-playwright",
-        "mcp-pencil"
-      ],
-      "agents": []
-    },
-    {
-      "id": "research",
-      "name": "리서치팀",
-      "emoji": "🔬",
-      "color": "#b45309",
-      "bg": "#fffbeb",
-      "desc": "정보 수집, 분석, 지식 정리",
-      "skills": [
-        "notebooklm-research",
-        "openclaw-intel",
-        "youtube-study"
-      ],
-      "agents": []
-    },
-    {
-      "id": "art",
-      "name": "예술작업팀",
-      "emoji": "🎨",
-      "color": "#7c3aed",
-      "bg": "#f5f3ff",
-      "desc": "사운드 아트, 영상, 설치, 생성 예술",
-      "skills": [
-        "algorithmic-art",
-        "supercollider-sound-art",
-        "supercollider-sound-art-for-daisy",
-        "td-guide",
-        "web-audio-synth",
-        "remotion-best-practices",
-        "canvas-design"
-      ],
-      "agents": []
-    },
-    {
-      "id": "accounting",
-      "name": "회계팀",
-      "emoji": "📊",
-      "color": "#059669",
-      "bg": "#ecfdf5",
-      "desc": "재무 관리, 예산, 지출 추적",
-      "skills": [
-        "pdf",
-        "hwpx",
-        "pptx"
-      ],
-      "agents": []
-    },
-    {
-      "id": "design",
-      "name": "디자인 및 홍보팀",
-      "emoji": "✨",
-      "color": "#e11d48",
-      "bg": "#fff1f2",
-      "desc": "UI/UX 디자인, 브랜딩, 마케팅, 홍보",
-      "skills": [
-        "pencil-design",
-        "taste-skill",
-        "frontend-design",
-        "photo-grading",
-        "figma-generate-design",
-        "figma-implement-design"
-      ],
-      "agents": []
+      "desc": "소프트웨어 개발, 배포, 인프라, 코드 리뷰를 담당하는 팀.",
+      "agents": [
+        {
+          "id": "nodetreehome-web",
+          "name": "nodetreehome-web",
+          "desc": "Use this agent when the user needs to develop or modify the nodetreeHome web project, including React components, API ro"
+        }
+      ]
     },
     {
       "id": "planning",
@@ -87,13 +22,87 @@
       "emoji": "📋",
       "color": "#0891b2",
       "bg": "#ecfeff",
-      "desc": "프로젝트 기획, 제안서, 문서 작성",
-      "skills": [
-        "pptx",
-        "hwpx",
-        "pdf",
-        "skill-creator"
-      ],
+      "desc": "프로젝트 기획, 문서 작성, 제안서 및 보고서를 담당하는 팀.",
+      "agents": [
+        {
+          "id": "doc-design",
+          "name": "doc-design",
+          "desc": "Use this agent when the user needs to create portfolios, catalogs, official documents, or formatted reports for NODE TRE"
+        },
+        {
+          "id": "grant-writer",
+          "name": "grant-writer",
+          "desc": "Use this agent when the user needs to write or draft grant applications, artist statements, or project descriptions for "
+        },
+        {
+          "id": "project-planner",
+          "name": "project-planner",
+          "desc": "Use this agent when the user needs to plan project timelines, budgets, task assignments, or manage project progress in O"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "디자인및홍보팀",
+      "emoji": "✨",
+      "color": "#e11d48",
+      "bg": "#fff1f2",
+      "desc": "UI/UX 디자인, 브랜딩, 마케팅, 홍보를 담당하는 팀.",
+      "agents": [
+        {
+          "id": "pr-content",
+          "name": "pr-content",
+          "desc": "Use this agent when the user needs to write promotional content, exhibition texts, press releases, or SNS captions for N"
+        },
+        {
+          "id": "visual-design",
+          "name": "visual-design",
+          "desc": "Use this agent when the user needs to create posters, SNS images, exhibition graphics, or promotional visuals for NODE T"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "리서치팀",
+      "emoji": "🔬",
+      "color": "#b45309",
+      "bg": "#fffbeb",
+      "desc": "정보 수집, 분석, 지식 정리를 담당하는 팀.",
+      "agents": [
+        {
+          "id": "grant-research",
+          "name": "grant-research",
+          "desc": "Use this agent when the user needs to find grant opportunities, residencies, or competitions suitable for NODE TREE, or "
+        },
+        {
+          "id": "nodetree-research",
+          "name": "nodetree-research",
+          "desc": "Use this agent when the user needs to research artworks, artists, theoretical concepts, or technical tools related to NO"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "name": "예술작업팀",
+      "emoji": "🎨",
+      "color": "#7c3aed",
+      "bg": "#f5f3ff",
+      "desc": "사운드 아트, 영상, 설치, 생성 예술 작업을 담당하는 팀.",
+      "agents": [
+        {
+          "id": "media-art-pipeline",
+          "name": "media-art-pipeline",
+          "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou"
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "name": "회계팀",
+      "emoji": "📊",
+      "color": "#059669",
+      "bg": "#ecfdf5",
+      "desc": "재무 관리, 예산 분석, 지출 추적을 담당하는 팀.",
       "agents": []
     }
   ]
