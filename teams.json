@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T15:20:04.413318+00:00",
+  "lastUpdated": "2026-03-30T15:22:55.344535+00:00",
   "teams": [
     {
       "id": "dev",
@@ -35,6 +35,11 @@
           "desc": "Use this agent when the user needs to create portfolios, catalogs, official documents, or formatted reports for NODE TRE"
         },
         {
+          "id": "doc-evaluator",
+          "name": "doc-evaluator",
+          "desc": "|"
+        },
+        {
           "id": "grant-writer",
           "name": "grant-writer",
           "desc": "Use this agent when the user needs to write or draft grant applications, artist statements, or project descriptions for "
@@ -54,6 +59,11 @@
       "bg": "#fff1f2",
       "desc": "UI/UX 디자인, 브랜딩, 마케팅, 홍보를 담당하는 팀.",
       "agents": [
+        {
+          "id": "design-evaluator",
+          "name": "design-evaluator",
+          "desc": "|"
+        },
         {
           "id": "pr-content",
           "name": "pr-content",

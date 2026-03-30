@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T15:20:04.413318+00:00",
-  "totalAgents": 50,
+  "lastUpdated": "2026-03-30T15:22:55.344535+00:00",
+  "totalAgents": 52,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -350,6 +350,15 @@
       "category": "planning"
     },
     {
+      "id": "doc-evaluator",
+      "type": "agent",
+      "team": "planning",
+      "name": "doc-evaluator",
+      "desc": "|",
+      "emoji": "◆",
+      "category": "planning"
+    },
+    {
       "id": "grant-writer",
       "type": "agent",
       "team": "planning",
@@ -366,6 +375,15 @@
       "desc": "Use this agent when the user needs to plan project timelines, budgets, task assignments, or manage project progress in O",
       "emoji": "◆",
       "category": "planning"
+    },
+    {
+      "id": "design-evaluator",
+      "type": "agent",
+      "team": "design",
+      "name": "design-evaluator",
+      "desc": "|",
+      "emoji": "●",
+      "category": "design"
     },
     {
       "id": "pr-content",
