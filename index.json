@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-03-30T14:33:30.534717+00:00",
-  "totalSessions": 64,
+  "lastUpdated": "2026-03-30T14:35:38.454217+00:00",
+  "totalSessions": 65,
   "sessions": [
+    {
+      "sessionId": "087dcc30",
+      "date": "2026-03-30",
+      "startTime": "2026-03-30T06:47:16.014000+00:00",
+      "durationSeconds": 28102,
+      "modelTier": "sonnet",
+      "projectName": "nodetree-claude-config",
+      "toolCallCount": 96,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": []
+    },
     {
       "sessionId": "087dcc30",
       "date": "2026-03-30",
