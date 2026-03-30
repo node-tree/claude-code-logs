@@ -2,25 +2,25 @@
   "sessionId": "653c0ea0-893f-40b5-8be5-bfcc437ba7f1",
   "date": "2026-03-30",
   "startTime": "2026-03-30T01:51:02.288000+00:00",
-  "endTime": "2026-03-30T05:32:08.442000+00:00",
-  "durationSeconds": 13266,
+  "endTime": "2026-03-30T05:39:07.117000+00:00",
+  "durationSeconds": 13684,
   "model": {
     "raw": "",
     "tier": "sonnet"
   },
   "project": {
-    "name": "nodetreeHome",
-    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
+    "name": ".claude",
+    "path": "/Users/kanghyunjung/.claude"
   },
   "activity": {
-    "toolCallCount": 265,
+    "toolCallCount": 280,
     "toolCounter": {
       "Skill": 3,
-      "Bash": 134,
-      "Write": 28,
+      "Bash": 143,
+      "Write": 31,
       "Agent": 5,
-      "Read": 22,
-      "Edit": 63,
+      "Read": 23,
+      "Edit": 65,
       "Grep": 5,
       "ToolSearch": 2,
       "RemoteTrigger": 2,
