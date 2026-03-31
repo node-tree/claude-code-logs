@@ -1,0 +1,24 @@
+{
+  "sessionId": "dc263c43-8228-4d72-a057-57b0d52b6a96",
+  "date": "2026-03-31",
+  "startTime": "2026-03-31T23:56:52.248000+00:00",
+  "endTime": "2026-03-31T23:57:05.536000+00:00",
+  "durationSeconds": 13,
+  "model": {
+    "raw": "",
+    "tier": "sonnet"
+  },
+  "project": {
+    "name": "Desktop",
+    "path": "/Users/kanghyunjung/Desktop"
+  },
+  "activity": {
+    "toolCallCount": 3,
+    "toolCounter": {
+      "Skill": 1,
+      "Read": 1,
+      "Edit": 1
+    }
+  },
+  "firstPrompt": "\"autoUpdatesChannel\"을 latest로 해줘"
+}
