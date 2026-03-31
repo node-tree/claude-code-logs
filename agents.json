@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T23:40:21.264532+00:00",
+  "lastUpdated": "2026-03-31T00:18:10.938621+00:00",
   "totalAgents": 52,
   "agents": [
     {
@@ -203,7 +203,7 @@
       "name": "Figma",
       "desc": "7개 스킬 포함",
       "emoji": "🎭",
-      "version": "2.0.2",
+      "version": "2.0.7",
       "subSkillCount": 7
     },
     {
@@ -252,12 +252,12 @@
       "parentPlugin": "figma"
     },
     {
-      "id": "figma-code-connect-components",
+      "id": "figma-code-connect",
       "type": "skill",
       "category": "dev",
-      "name": "Figma Code Connect Components",
-      "desc": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\",",
-      "emoji": "🔌",
+      "name": "Figma Code Connect",
+      "desc": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user me",
+      "emoji": "🔹",
       "parentPlugin": "figma"
     },
     {
