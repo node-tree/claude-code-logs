@@ -1,7 +1,33 @@
 {
-  "lastUpdated": "2026-03-31T00:56:40.434783+00:00",
-  "totalSessions": 82,
+  "lastUpdated": "2026-03-31T00:58:19.360331+00:00",
+  "totalSessions": 83,
   "sessions": [
+    {
+      "sessionId": "6c30ac17",
+      "date": "2026-03-31",
+      "startTime": "2026-03-31T00:17:21.578000+00:00",
+      "durationSeconds": 2446,
+      "modelTier": "sonnet",
+      "projectName": "nodetreeHome",
+      "toolCallCount": 91,
+      "firstPrompt": "노드트리 에이전트 시스템에서 하네스 엔지니어링이 실제로 어떻게 작동하는지 알아보자",
+      "agentsUsed": [
+        "code-evaluator",
+        "design-evaluator",
+        "doc-design",
+        "doc-evaluator",
+        "grant-accounting-agent",
+        "grant-research",
+        "grant-writer",
+        "media-art-pipeline",
+        "nodetree-research",
+        "nodetreehome-web",
+        "pr-content",
+        "project-planner",
+        "saengsanso-accounting",
+        "visual-design"
+      ]
+    },
     {
       "sessionId": "6c30ac17",
       "date": "2026-03-31",
