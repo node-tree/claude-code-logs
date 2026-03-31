@@ -36,11 +36,17 @@ jobs:
 
           # Claude 응답에서 JSON 본문 추출
           echo "$RESPONSE" | python3 -c "
-          import sys, json
+          import sys, json, re
           data = json.load(sys.stdin)
           text = data['content'][0]['text'].strip()
-          # 유효한 JSON인지 검증
-          parsed = json.loads(text)
+          # 마크다운 코드 펜스 제거 (claude가 \`\`\`json ... \`\`\` 감쌀 경우)
+          text = re.sub(r'^\`\`\`(?:json)?\s*', '', text)
+          text = re.sub(r'\s*\`\`\`$', '', text.strip())
+          # JSON 객체 추출
+          match = re.search(r'\{.*\}', text, re.DOTALL)
+          if not match:
+              raise ValueError('No JSON object found in response: ' + text[:300])
+          parsed = json.loads(match.group())
           print(json.dumps(parsed, ensure_ascii=False, indent=2))
           " > recommendations.json
 
