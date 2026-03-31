@@ -2,8 +2,8 @@
   "sessionId": "8adcbe07-a412-4ea0-9611-73882848f29f",
   "date": "2026-03-31",
   "startTime": "2026-03-31T04:42:04.859000+00:00",
-  "endTime": "2026-03-31T04:46:47.292000+00:00",
-  "durationSeconds": 282,
+  "endTime": "2026-03-31T04:47:29.260000+00:00",
+  "durationSeconds": 324,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,11 +13,12 @@
     "path": "/Users/kanghyunjung/Desktop"
   },
   "activity": {
-    "toolCallCount": 9,
+    "toolCallCount": 13,
     "toolCounter": {
       "Glob": 2,
-      "Bash": 6,
-      "Read": 1
+      "Bash": 7,
+      "Read": 2,
+      "Edit": 2
     }
   },
   "firstPrompt": "현재 설치된 mcp와 스킬을 분석해서 지워도 될것들을 정리해보자"
