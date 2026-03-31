@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-03-31T14:36:01+09:00",
+  "lastUpdated": "2026-03-31T14:36:19+09:00",
   "calendarId": "nodetreemedia@gmail.com",
   "daysAhead": 90,
-  "events": []
+  "events": [
+    {
+      "uid": "of3gmfrcvr3l72jbc52u1jnibs@google.com",
+      "title": "Stay at 더블룸(4.3)｜안국·종로3가 8분, 공용 세탁실·라운지, 옷장이 있는 아늑한 객실",
+      "start": "2025-10-28",
+      "end": "2025-10-29",
+      "description": "이처럼 자동으로 생성된 일정의 세부정보를 확인하려면 공식 Google Calendar 앱을 사용하세요. https://g.co/calendar\n\nGmail에서 수신한 이메일에서 생성된 일정입니다. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DNOms4k0IK6s7AKW6Xd6lMwVkF0r2HIuLM",
+      "location": "더블룸(4.3)｜안국·종로3가 8분, 공용 세탁실·라운지, 옷장이 있는 아늑한 객실, Seoul",
+      "status": "CONFIRMED",
+      "daysUntil": -154,
+      "isPast": true
+    }
+  ]
 }
