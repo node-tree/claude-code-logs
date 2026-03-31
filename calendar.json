@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T14:41:46+09:00",
+  "lastUpdated": "2026-03-31T14:43:53+09:00",
   "calendarId": "nodetreemedia@gmail.com",
   "daysAhead": 90,
   "events": [
@@ -13,6 +13,17 @@
       "status": "CONFIRMED",
       "daysUntil": -154,
       "isPast": true
+    },
+    {
+      "uid": "0mq8s6cocpgohjt8tvqu0suj9a@google.com",
+      "title": "검은여제 촬영",
+      "start": "2026-04-03",
+      "end": "2026-04-03",
+      "description": null,
+      "location": null,
+      "status": "CONFIRMED",
+      "daysUntil": 3,
+      "isPast": false
     }
   ]
 }
