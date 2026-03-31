@@ -2,8 +2,8 @@
   "sessionId": "97535417-678d-4e86-857b-880b69462464",
   "date": "2026-03-31",
   "startTime": "2026-03-31T07:12:11.472000+00:00",
-  "endTime": "2026-03-31T07:25:09.888000+00:00",
-  "durationSeconds": 778,
+  "endTime": "2026-03-31T07:26:45.367000+00:00",
+  "durationSeconds": 873,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,13 +13,13 @@
     "path": "/Users/kanghyunjung/Desktop"
   },
   "activity": {
-    "toolCallCount": 16,
+    "toolCallCount": 19,
     "toolCounter": {
       "Skill": 1,
       "ToolSearch": 3,
-      "mcp__plugin_figma_figma__get_design_context": 2,
-      "mcp__plugin_figma_figma__use_figma": 5,
-      "mcp__plugin_figma_figma__get_screenshot": 3,
+      "mcp__plugin_figma_figma__get_design_context": 3,
+      "mcp__plugin_figma_figma__use_figma": 6,
+      "mcp__plugin_figma_figma__get_screenshot": 4,
       "WebSearch": 2
     }
   },
