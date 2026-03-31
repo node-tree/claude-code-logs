@@ -1,0 +1,181 @@
+{
+  "lastUpdated": "2026-03-31T00:00:00.000Z",
+  "note": "매주 월요일 09:00 KST — grant-research 에이전트가 자동 갱신. 국내: 예술위·서울문화재단·국가유산청·문체부 등 / 해외: 국제 레지던시·미디어아트 그랜트",
+  "grants": [
+    {
+      "id": "arko-visual-2026",
+      "title": "한국문화예술위원회 시각예술 창작산실",
+      "organization": "한국문화예술위원회",
+      "region": "domestic",
+      "category": "현대예술",
+      "deadline": "2026-04-30",
+      "openDate": "2026-03-17",
+      "url": "https://www.arko.or.kr",
+      "amount": "최대 3,000만원",
+      "notes": "개인·단체 신청 가능"
+    },
+    {
+      "id": "arko-media-2026",
+      "title": "아르코 미디어아트 지원사업",
+      "organization": "한국문화예술위원회",
+      "region": "domestic",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-05-15",
+      "url": "https://www.arko.or.kr",
+      "amount": "최대 2,000만원"
+    },
+    {
+      "id": "sfc-local-2026",
+      "title": "서울문화재단 예술지원 (지역특성화)",
+      "organization": "서울문화재단",
+      "region": "domestic",
+      "category": "현대예술",
+      "deadline": "2026-04-18",
+      "openDate": "2026-03-25",
+      "url": "https://www.sfac.or.kr",
+      "amount": "500~1,500만원"
+    },
+    {
+      "id": "cha-heritage-media-2026",
+      "title": "국가유산청 문화유산 미디어콘텐츠 제작",
+      "organization": "국가유산청",
+      "region": "domestic",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-04-10",
+      "openDate": "2026-03-10",
+      "url": "https://www.cha.go.kr",
+      "amount": "최대 5,000만원",
+      "notes": "핵심 공모 — 국가유산청 미디어콘텐츠 주력"
+    },
+    {
+      "id": "cha-edu-2026",
+      "title": "국가유산청 문화유산 교육프로그램 개발",
+      "organization": "국가유산청",
+      "region": "domestic",
+      "category": "문화예술교육",
+      "deadline": "2026-04-25",
+      "url": "https://www.cha.go.kr",
+      "amount": "최대 3,000만원"
+    },
+    {
+      "id": "arte-edu-2026",
+      "title": "한국문화예술교육진흥원 꿈다락 토요문화학교",
+      "organization": "한국문화예술교육진흥원",
+      "region": "domestic",
+      "category": "문화예술교육",
+      "deadline": "2026-05-02",
+      "url": "https://www.arte.or.kr",
+      "amount": "최대 4,000만원"
+    },
+    {
+      "id": "arte-school-2026",
+      "title": "학교 문화예술교육 지원사업",
+      "organization": "한국문화예술교육진흥원",
+      "region": "domestic",
+      "category": "문화예술교육",
+      "deadline": "2026-05-20",
+      "url": "https://www.arte.or.kr"
+    },
+    {
+      "id": "busan-art-2026",
+      "title": "부산문화재단 지역문화예술 활성화",
+      "organization": "부산문화재단",
+      "region": "domestic",
+      "category": "현대예술",
+      "deadline": "2026-04-20",
+      "url": "https://www.bfac.or.kr",
+      "amount": "500~2,000만원"
+    },
+    {
+      "id": "nfc-indie-2026",
+      "title": "영화진흥위원회 독립·예술영화 제작지원",
+      "organization": "영화진흥위원회",
+      "region": "domestic",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-06-01",
+      "url": "https://www.kofic.or.kr",
+      "amount": "최대 1억원"
+    },
+    {
+      "id": "mcst-global-2026",
+      "title": "문화체육관광부 한국문화 세계화 프로젝트",
+      "organization": "문화체육관광부",
+      "region": "domestic",
+      "category": "현대예술",
+      "deadline": "2026-05-30",
+      "url": "https://www.mcst.go.kr",
+      "amount": "최대 5,000만원"
+    },
+    {
+      "id": "paf-2026",
+      "title": "Prince Claus Fund — Cultural Emergency Response",
+      "organization": "Prince Claus Fund",
+      "region": "international",
+      "category": "현대예술",
+      "deadline": "2026-04-15",
+      "url": "https://princeclausfund.org",
+      "amount": "Up to €25,000",
+      "notes": "Rolling basis — 수시 접수"
+    },
+    {
+      "id": "rhizome-2026",
+      "title": "Rhizome Microgrants — Net Art & New Media",
+      "organization": "Rhizome",
+      "region": "international",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-05-01",
+      "url": "https://rhizome.org/commissions",
+      "amount": "Up to $5,000"
+    },
+    {
+      "id": "asiarts-2026",
+      "title": "Asia Arts Creative Fellows",
+      "organization": "Asia Society",
+      "region": "international",
+      "category": "현대예술",
+      "deadline": "2026-04-30",
+      "url": "https://asiasociety.org/arts/creative-fellows",
+      "amount": "Fellowship + travel grant"
+    },
+    {
+      "id": "zero1-2026",
+      "title": "ZERO1 American Arts Incubator",
+      "organization": "ZERO1 / US Embassy",
+      "region": "international",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-05-15",
+      "url": "https://zero1.org/programs/american-arts-incubator",
+      "amount": "Residency + $5,000"
+    },
+    {
+      "id": "cca-2026",
+      "title": "Canada Council for the Arts — Digital Creativity",
+      "organization": "Canada Council for the Arts",
+      "region": "international",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-06-15",
+      "url": "https://canadacouncil.ca/funding/grants",
+      "amount": "Up to CAD 30,000"
+    },
+    {
+      "id": "aks-2026",
+      "title": "Korea Foundation — Arts & Culture Grant",
+      "organization": "Korea Foundation",
+      "region": "international",
+      "category": "현대예술",
+      "deadline": "2026-05-31",
+      "url": "https://www.kf.or.kr/en",
+      "amount": "Up to $20,000"
+    },
+    {
+      "id": "ycam-2026",
+      "title": "YCAM Collaborative Research Grant",
+      "organization": "YCAM (Yamaguchi Center for Arts and Media)",
+      "region": "international",
+      "category": "미디어콘텐츠",
+      "deadline": "2026-07-01",
+      "url": "https://www.ycam.jp/en",
+      "notes": "미디어아트·사운드아트 특화 레지던시형"
+    }
+  ]
+}
