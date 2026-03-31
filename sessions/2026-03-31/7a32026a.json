@@ -2,8 +2,8 @@
   "sessionId": "7a32026a-5f3b-4b5e-837c-9c4ca4c9d693",
   "date": "2026-03-31",
   "startTime": "2026-03-31T04:42:29.945000+00:00",
-  "endTime": "2026-03-31T04:49:48.218000+00:00",
-  "durationSeconds": 438,
+  "endTime": "2026-03-31T04:59:37.709000+00:00",
+  "durationSeconds": 1027,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,13 +13,16 @@
     "path": "/Users/kanghyunjung/Desktop"
   },
   "activity": {
-    "toolCallCount": 7,
+    "toolCallCount": 18,
     "toolCounter": {
       "ToolSearch": 3,
       "WebFetch": 1,
       "mcp__playwright__browser_navigate": 1,
       "mcp__playwright__browser_snapshot": 1,
-      "Agent": 1
+      "Agent": 5,
+      "Skill": 1,
+      "Read": 5,
+      "mcp__touchdesigner__get_td_info": 1
     }
   },
   "firstPrompt": "노드트리 에이전트 모니터링에 오늘 추천 플러그인에 Machine Learning을 활용한 실시간 비주얼 생성이 뭐야?"
