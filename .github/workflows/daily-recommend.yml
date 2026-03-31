@@ -1,0 +1,53 @@
+name: Daily Agent Recommendations
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 매일 09:00 KST (UTC 00:00)
+  workflow_dispatch:        # 수동 실행 가능
+
+jobs:
+  generate-recommendations:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate recommendations via Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          TODAY=$(date -u '+%Y-%m-%d')
+
+          RESPONSE=$(curl -s https://api.anthropic.com/v1/messages \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "content-type: application/json" \
+            -d '{
+              "model": "claude-haiku-4-5-20251001",
+              "max_tokens": 2048,
+              "messages": [{
+                "role": "user",
+                "content": "NODE TREE는 한국 미디어아트 팀이다. 팀 구성: 개발팀(nodetreehome-web), 리서치팀(nodetree-research, grant-research), 예술작업팀(media-art-pipeline: ESP32/TidalCycles/TouchDesigner), 회계팀(saengsanso-accounting, grant-accounting-agent), 디자인및홍보팀(visual-design, pr-content), 기획팀(doc-design, grant-writer, project-planner). 오늘 날짜: '"$TODAY"'. 각 팀별로 오늘 활용하면 좋을 스킬/에이전트/MCP를 1개씩 추천하되, 이유를 구체적으로 설명하라. 반드시 아래 JSON 형식만 출력하고 다른 텍스트는 절대 없이: {\"lastUpdated\":\"'"$TODAY"'\",\"recommendations\":[{\"teamId\":\"dev\",\"teamName\":\"개발팀\",\"items\":[{\"name\":\"스킬명\",\"type\":\"skill\",\"desc\":\"한줄설명\",\"reason\":\"추천이유\",\"trend\":\"hot|rising|stable\"}]},{\"teamId\":\"research\",\"teamName\":\"리서치팀\",\"items\":[{\"name\":\"스킬명\",\"type\":\"skill\",\"desc\":\"한줄설명\",\"reason\":\"추천이유\",\"trend\":\"hot|rising|stable\"}]},{\"teamId\":\"art\",\"teamName\":\"예술작업팀\",\"items\":[{\"name\":\"스킬명\",\"type\":\"skill\",\"desc\":\"한줄설명\",\"reason\":\"추천이유\",\"trend\":\"hot|rising|stable\"}]},{\"teamId\":\"accounting\",\"teamName\":\"회계팀\",\"items\":[{\"name\":\"스킬명\",\"type\":\"skill\",\"desc\":\"한줄설명\",\"reason\":\"추천이유\",\"trend\":\"hot|rising|stable\"}]},{\"teamId\":\"design\",\"teamName\":\"디자인및홍보팀\",\"items\":[{\"name\":\"스킬명\",\"type\":\"skill\",\"desc\":\"한줄설명\",\"reason\":\"추천이유\",\"trend\":\"hot|rising|stable\"}]},{\"teamId\":\"planning\",\"teamName\":\"기획팀\",\"items\":[{\"name\":\"스킬명\",\"type\":\"skill\",\"desc\":\"한줄설명\",\"reason\":\"추천이유\",\"trend\":\"hot|rising|stable\"}]}]}"
+              }]
+            }')
+
+          # Claude 응답에서 JSON 본문 추출
+          echo "$RESPONSE" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          text = data['content'][0]['text'].strip()
+          # 유효한 JSON인지 검증
+          parsed = json.loads(text)
+          print(json.dumps(parsed, ensure_ascii=False, indent=2))
+          " > recommendations.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add recommendations.json
+          git diff --staged --quiet || git commit -m "chore: daily recommendations $(date -u '+%Y-%m-%d')"
+          git push
