@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-03-31T04:43:03.958905+00:00",
-  "totalSessions": 94,
+  "lastUpdated": "2026-03-31T04:43:11.302381+00:00",
+  "totalSessions": 95,
   "sessions": [
+    {
+      "sessionId": "8adcbe07",
+      "date": "2026-03-31",
+      "startTime": "2026-03-31T04:42:04.859000+00:00",
+      "durationSeconds": 50,
+      "modelTier": "sonnet",
+      "projectName": "Desktop",
+      "toolCallCount": 4,
+      "firstPrompt": "현재 설치된 mcp와 스킬을 분석해서 지워도 될것들을 정리해보자",
+      "agentsUsed": []
+    },
     {
       "sessionId": "7a32026a",
       "date": "2026-03-31",
