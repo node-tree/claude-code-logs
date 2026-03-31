@@ -2,27 +2,27 @@
   "sessionId": "6c30ac17-ead3-4ffd-8b9a-937c1094b3c5",
   "date": "2026-03-31",
   "startTime": "2026-03-31T00:17:21.578000+00:00",
-  "endTime": "2026-03-31T00:47:08.417000+00:00",
-  "durationSeconds": 1786,
+  "endTime": "2026-03-31T00:55:24.488000+00:00",
+  "durationSeconds": 2282,
   "model": {
     "raw": "",
     "tier": "sonnet"
   },
   "project": {
-    "name": "Desktop",
-    "path": "/Users/kanghyunjung/Desktop"
+    "name": "nodetreeHome",
+    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
   },
   "activity": {
-    "toolCallCount": 75,
+    "toolCallCount": 85,
     "toolCounter": {
-      "Glob": 3,
-      "Read": 27,
+      "Glob": 5,
+      "Read": 30,
       "ToolSearch": 2,
       "TaskCreate": 3,
       "TaskUpdate": 6,
-      "Bash": 4,
+      "Bash": 6,
       "Write": 2,
-      "Edit": 26,
+      "Edit": 29,
       "Grep": 2
     }
   },
