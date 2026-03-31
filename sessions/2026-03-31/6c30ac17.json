@@ -2,8 +2,8 @@
   "sessionId": "6c30ac17-ead3-4ffd-8b9a-937c1094b3c5",
   "date": "2026-03-31",
   "startTime": "2026-03-31T00:17:21.578000+00:00",
-  "endTime": "2026-03-31T01:02:27.823000+00:00",
-  "durationSeconds": 2706,
+  "endTime": "2026-03-31T01:06:36.122000+00:00",
+  "durationSeconds": 2954,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,17 +13,21 @@
     "path": "/Users/kanghyunjung/Desktop"
   },
   "activity": {
-    "toolCallCount": 99,
+    "toolCallCount": 110,
     "toolCounter": {
       "Glob": 7,
       "Read": 32,
-      "ToolSearch": 2,
+      "ToolSearch": 3,
       "TaskCreate": 3,
       "TaskUpdate": 6,
       "Bash": 14,
       "Write": 3,
       "Edit": 29,
-      "Grep": 3
+      "Grep": 3,
+      "mcp__playwright__browser_navigate": 3,
+      "mcp__playwright__browser_snapshot": 3,
+      "mcp__playwright__browser_click": 3,
+      "mcp__playwright__browser_type": 1
     }
   },
   "firstPrompt": "노드트리 에이전트 시스템에서 하네스 엔지니어링이 실제로 어떻게 작동하는지 알아보자"
