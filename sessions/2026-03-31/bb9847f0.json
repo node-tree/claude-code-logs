@@ -2,25 +2,25 @@
   "sessionId": "bb9847f0-b8e7-4a37-8716-e382ae82b980",
   "date": "2026-03-31",
   "startTime": "2026-03-31T06:00:36.062000+00:00",
-  "endTime": "2026-03-31T06:56:14.178000+00:00",
-  "durationSeconds": 3338,
+  "endTime": "2026-03-31T06:57:11.694000+00:00",
+  "durationSeconds": 3395,
   "model": {
     "raw": "",
     "tier": "sonnet"
   },
   "project": {
-    "name": "nodetreeHome",
-    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
+    "name": "nodetree-claude-config",
+    "path": "/Users/kanghyunjung/Desktop/nodetree-claude-config"
   },
   "activity": {
-    "toolCallCount": 143,
+    "toolCallCount": 146,
     "toolCounter": {
-      "Bash": 75,
+      "Bash": 76,
       "ToolSearch": 4,
       "mcp__playwright__browser_navigate": 3,
       "mcp__playwright__browser_snapshot": 7,
-      "Read": 25,
-      "Edit": 17,
+      "Read": 26,
+      "Edit": 18,
       "Write": 3,
       "mcp__playwright__browser_click": 3,
       "mcp__playwright__browser_fill_form": 2,
