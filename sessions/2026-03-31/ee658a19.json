@@ -2,8 +2,8 @@
   "sessionId": "ee658a19-2b79-4113-80ed-5bda557161ae",
   "date": "2026-03-31",
   "startTime": "2026-03-31T04:48:38.537000+00:00",
-  "endTime": "2026-03-31T05:48:59.067000+00:00",
-  "durationSeconds": 3620,
+  "endTime": "2026-03-31T05:50:04.353000+00:00",
+  "durationSeconds": 3685,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,11 +13,11 @@
     "path": "/Users/kanghyunjung/claude-code-logs"
   },
   "activity": {
-    "toolCallCount": 172,
+    "toolCallCount": 176,
     "toolCounter": {
       "Glob": 1,
       "Read": 24,
-      "Bash": 75,
+      "Bash": 79,
       "ToolSearch": 8,
       "WebFetch": 1,
       "mcp__playwright__browser_navigate": 3,
