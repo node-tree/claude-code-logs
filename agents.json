@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T05:00:35.453409+00:00",
+  "lastUpdated": "2026-03-31T05:02:58.343105+00:00",
   "totalAgents": 52,
   "agents": [
     {
@@ -167,7 +167,7 @@
       "type": "skill",
       "category": "research",
       "name": "Youtube Study",
-      "desc": "YouTube 영상을 분석하고 Obsidian에 타임스탬프 링크 노트로 저장. Use when: user says '/youtube-study', 'YouTube 분석', '유튜브 정리', '영상 노트', or pr",
+      "desc": "YouTube 영상에서 yt-dlp로 자막을 추출하고 챕터별 타임스탬프 링크가 달린 학습 노트를 Obsidian에 생성. notebooklm-research와 달리 자막 파싱, 타임스탬프 네비게이션, 기술 튜토리얼 ",
       "emoji": "▶️"
     },
     {
