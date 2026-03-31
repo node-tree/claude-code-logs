@@ -1,0 +1,26 @@
+{
+  "sessionId": "97535417-678d-4e86-857b-880b69462464",
+  "date": "2026-03-31",
+  "startTime": "2026-03-31T07:12:11.472000+00:00",
+  "endTime": "2026-03-31T07:17:36.102000+00:00",
+  "durationSeconds": 324,
+  "model": {
+    "raw": "",
+    "tier": "sonnet"
+  },
+  "project": {
+    "name": "Desktop",
+    "path": "/Users/kanghyunjung/Desktop"
+  },
+  "activity": {
+    "toolCallCount": 10,
+    "toolCounter": {
+      "Skill": 1,
+      "ToolSearch": 2,
+      "mcp__plugin_figma_figma__get_design_context": 1,
+      "mcp__plugin_figma_figma__use_figma": 4,
+      "mcp__plugin_figma_figma__get_screenshot": 2
+    }
+  },
+  "firstPrompt": "https://www.figma.com/design/5y6935DDySbJPttDIeabzB/PHYSICAL-AI-PRELAB-2026-%E2%80%94-Academy-Presentation?node-id=123-2"
+}
