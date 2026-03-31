@@ -10,12 +10,12 @@
     "sessionId": "e51673fb"
   },
   "code-evaluator": {
-    "lastActive": "2026-03-31T00:17:39.709000+00:00",
+    "lastActive": "2026-03-31T00:24:27.009000+00:00",
     "lastProject": "Desktop",
     "sessionId": "6c30ac17"
   },
   "grant-writer": {
-    "lastActive": "2026-03-31T00:17:39.709000+00:00",
+    "lastActive": "2026-03-31T00:24:27.009000+00:00",
     "lastProject": "Desktop",
     "sessionId": "6c30ac17"
   },
@@ -25,17 +25,22 @@
     "sessionId": "087dcc30"
   },
   "design-evaluator": {
-    "lastActive": "2026-03-31T00:17:39.709000+00:00",
+    "lastActive": "2026-03-31T00:24:27.009000+00:00",
     "lastProject": "Desktop",
     "sessionId": "6c30ac17"
   },
   "doc-evaluator": {
-    "lastActive": "2026-03-31T00:17:39.709000+00:00",
+    "lastActive": "2026-03-31T00:24:27.009000+00:00",
     "lastProject": "Desktop",
     "sessionId": "6c30ac17"
   },
   "nodetreehome-web": {
-    "lastActive": "2026-03-31T00:17:39.709000+00:00",
+    "lastActive": "2026-03-31T00:24:27.009000+00:00",
+    "lastProject": "Desktop",
+    "sessionId": "6c30ac17"
+  },
+  "project-planner": {
+    "lastActive": "2026-03-31T00:24:27.009000+00:00",
     "lastProject": "Desktop",
     "sessionId": "6c30ac17"
   }
