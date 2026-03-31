@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T04:49:58.373286+00:00",
+  "lastUpdated": "2026-03-31T04:56:41.535225+00:00",
   "totalAgents": 52,
   "agents": [
     {
@@ -167,7 +167,7 @@
       "type": "skill",
       "category": "research",
       "name": "Youtube Study",
-      "desc": "youtube-study",
+      "desc": "YouTube 영상을 분석하고 Obsidian에 타임스탬프 링크 노트로 저장. Use when: user says '/youtube-study', 'YouTube 분석', '유튜브 정리', '영상 노트', or pr",
       "emoji": "▶️"
     },
     {
