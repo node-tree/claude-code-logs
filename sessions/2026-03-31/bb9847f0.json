@@ -2,8 +2,8 @@
   "sessionId": "bb9847f0-b8e7-4a37-8716-e382ae82b980",
   "date": "2026-03-31",
   "startTime": "2026-03-31T06:00:36.062000+00:00",
-  "endTime": "2026-03-31T06:28:04.991000+00:00",
-  "durationSeconds": 1648,
+  "endTime": "2026-03-31T06:30:43.745000+00:00",
+  "durationSeconds": 1807,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,14 +13,14 @@
     "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
   },
   "activity": {
-    "toolCallCount": 81,
+    "toolCallCount": 96,
     "toolCounter": {
-      "Bash": 56,
+      "Bash": 59,
       "ToolSearch": 2,
       "mcp__playwright__browser_navigate": 2,
       "mcp__playwright__browser_snapshot": 3,
-      "Read": 9,
-      "Edit": 6,
+      "Read": 17,
+      "Edit": 10,
       "Write": 2,
       "mcp__playwright__browser_click": 1
     }
