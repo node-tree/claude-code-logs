@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-31T00:18:10.938621+00:00",
+  "lastUpdated": "2026-03-31T00:22:59.020620+00:00",
   "teams": [
+    {
+      "id": "harness",
+      "name": "harness",
+      "emoji": "👥",
+      "color": "#6b7280",
+      "bg": "#f9fafb",
+      "desc": "",
+      "agents": []
+    },
     {
       "id": "dev",
       "name": "개발팀",
