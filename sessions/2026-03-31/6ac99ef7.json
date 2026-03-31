@@ -1,0 +1,31 @@
+{
+  "sessionId": "6ac99ef7-694a-499d-bf24-76e10b35c141",
+  "date": "2026-03-31",
+  "startTime": "2026-03-31T04:58:45.198000+00:00",
+  "endTime": "2026-03-31T05:09:24.373000+00:00",
+  "durationSeconds": 639,
+  "model": {
+    "raw": "",
+    "tier": "sonnet"
+  },
+  "project": {
+    "name": "nodetreeHome",
+    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
+  },
+  "activity": {
+    "toolCallCount": 68,
+    "toolCounter": {
+      "Read": 16,
+      "Glob": 3,
+      "Bash": 17,
+      "ToolSearch": 3,
+      "TaskCreate": 4,
+      "TaskUpdate": 8,
+      "Edit": 12,
+      "Write": 1,
+      "Skill": 1,
+      "RemoteTrigger": 3
+    }
+  },
+  "firstPrompt": "노드트리 에이전트 시스템에 스케줄 자동화시스템을 하나 만들거야 일주일에 한번씩 국내, 해외로 구분해서 노드트리와 생산소가 지원할수 있는 현대예술 공모, 문화예술교육, 미디어 콘텐츠(국가유산청 핵심) 지원사업을 리서치"
+}
