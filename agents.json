@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-31T04:43:49.572235+00:00",
-  "totalAgents": 53,
+  "lastUpdated": "2026-03-31T04:46:57.612807+00:00",
+  "totalAgents": 52,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -73,14 +73,6 @@
       "name": "Pdf",
       "desc": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, a",
       "emoji": "📋"
-    },
-    {
-      "id": "pencil-design",
-      "type": "skill",
-      "category": "art",
-      "name": "Pencil Design",
-      "desc": ">",
-      "emoji": "✏️"
     },
     {
       "id": "photo-grading",
