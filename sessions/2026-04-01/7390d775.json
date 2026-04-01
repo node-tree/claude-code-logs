@@ -1,0 +1,24 @@
+{
+  "sessionId": "7390d775-17ab-4b7d-a236-49866186d442",
+  "date": "2026-04-01",
+  "startTime": "2026-04-01T00:13:03.051000+00:00",
+  "endTime": "2026-04-01T01:58:17.128000+00:00",
+  "durationSeconds": 6314,
+  "model": {
+    "raw": "",
+    "tier": "sonnet"
+  },
+  "project": {
+    "name": "Desktop",
+    "path": "/Users/kanghyunjung/Desktop"
+  },
+  "activity": {
+    "toolCallCount": 48,
+    "toolCounter": {
+      "Bash": 46,
+      "Read": 1,
+      "Edit": 1
+    }
+  },
+  "firstPrompt": "현재 설치된 mcp들과 skills 가  최신버전으로 업데이트할게 있는지 살펴보고 업데이트할게 있으면 업데이트 하자"
+}
