@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T14:43:53+09:00",
+  "lastUpdated": "2026-04-02T13:12:08+09:00",
   "calendarId": "nodetreemedia@gmail.com",
   "daysAhead": 90,
   "events": [
@@ -11,7 +11,7 @@
       "description": "이처럼 자동으로 생성된 일정의 세부정보를 확인하려면 공식 Google Calendar 앱을 사용하세요. https://g.co/calendar\n\nGmail에서 수신한 이메일에서 생성된 일정입니다. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DNOms4k0IK6s7AKW6Xd6lMwVkF0r2HIuLM",
       "location": "더블룸(4.3)｜안국·종로3가 8분, 공용 세탁실·라운지, 옷장이 있는 아늑한 객실, Seoul",
       "status": "CONFIRMED",
-      "daysUntil": -154,
+      "daysUntil": -156,
       "isPast": true
     },
     {
@@ -22,7 +22,51 @@
       "description": null,
       "location": null,
       "status": "CONFIRMED",
-      "daysUntil": 3,
+      "daysUntil": 1,
+      "isPast": false
+    },
+    {
+      "uid": "r13mue0rs4ga5e373qckn2sh78@google.com",
+      "title": "검은여 주위 촬영",
+      "start": "2026-04-04",
+      "end": "2026-04-04",
+      "description": null,
+      "location": "서산시 부석면",
+      "status": "CONFIRMED",
+      "daysUntil": 2,
+      "isPast": false
+    },
+    {
+      "uid": "0usnumoi1lmefqtk508vis61us@google.com",
+      "title": "테스트",
+      "start": "2026-04-10",
+      "end": "2026-04-10",
+      "description": null,
+      "location": null,
+      "status": "CONFIRMED",
+      "daysUntil": 8,
+      "isPast": false
+    },
+    {
+      "uid": "jqo1d44hitguvemk1d42gavh5g@google.com",
+      "title": "테스트",
+      "start": "2026-04-10",
+      "end": "2026-04-10",
+      "description": null,
+      "location": null,
+      "status": "CONFIRMED",
+      "daysUntil": 8,
+      "isPast": false
+    },
+    {
+      "uid": "hkj42tb8ojaggv5qtn9hrobgv4@google.com",
+      "title": "메이 결혼식",
+      "start": "2026-04-12",
+      "end": "2026-04-12",
+      "description": null,
+      "location": "서울 중구",
+      "status": "CONFIRMED",
+      "daysUntil": 10,
       "isPast": false
     }
   ]
