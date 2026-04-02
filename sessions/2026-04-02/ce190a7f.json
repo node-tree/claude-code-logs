@@ -2,22 +2,22 @@
   "sessionId": "ce190a7f-d2e7-4f7a-87e6-0b1587df05d3",
   "date": "2026-04-02",
   "startTime": "2026-04-02T05:16:59.877000+00:00",
-  "endTime": "2026-04-02T07:17:35.826000+00:00",
-  "durationSeconds": 7235,
+  "endTime": "2026-04-02T07:21:14.573000+00:00",
+  "durationSeconds": 7454,
   "model": {
     "raw": "",
     "tier": "sonnet"
   },
   "project": {
-    "name": "backend",
-    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome/backend"
+    "name": "nodetreeHome",
+    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
   },
   "activity": {
-    "toolCallCount": 32,
+    "toolCallCount": 39,
     "toolCounter": {
       "Agent": 1,
       "Glob": 2,
-      "Bash": 25,
+      "Bash": 32,
       "Read": 4
     }
   },
