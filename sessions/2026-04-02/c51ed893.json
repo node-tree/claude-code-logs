@@ -2,24 +2,24 @@
   "sessionId": "c51ed893-911c-45e6-bdaf-69eb13d8f981",
   "date": "2026-04-02",
   "startTime": "2026-04-01T05:11:25.695000+00:00",
-  "endTime": "2026-04-02T04:26:41.018000+00:00",
-  "durationSeconds": 83715,
+  "endTime": "2026-04-02T04:40:52.187000+00:00",
+  "durationSeconds": 84566,
   "model": {
     "raw": "",
     "tier": "sonnet"
   },
   "project": {
-    "name": "Desktop",
-    "path": "/Users/kanghyunjung/Desktop"
+    "name": "nodetreeHome",
+    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
   },
   "activity": {
-    "toolCallCount": 40,
+    "toolCallCount": 47,
     "toolCounter": {
       "Agent": 1,
-      "Read": 6,
+      "Read": 7,
       "Glob": 1,
-      "Bash": 20,
-      "Edit": 6,
+      "Bash": 23,
+      "Edit": 9,
       "ToolSearch": 2,
       "mcp__playwright__browser_navigate": 1,
       "mcp__playwright__browser_snapshot": 1,
