@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-02",
+  "lastUpdated": "2026-04-03",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Server Components",
+          "name": "TypeScript + Next.js 14 SSR 최적화",
           "type": "skill",
-          "desc": "차세대 웹 개발의 성능 최적화와 타입 안정성을 동시에 확보",
-          "reason": "nodetreehome-web의 사용자 경험 개선과 유지보수성을 위해 현대적 웹 표준 도입이 필수. 서버 컴포넌트는 번들 사이즈 감소로 로딩 성능을 크게 향상시킬 수 있음",
+          "desc": "서버사이드 렌더링을 통한 웹 성능 개선 및 SEO 최적화",
+          "reason": "nodetreehome-web의 미디어아트 포트폴리오 사이트는 시각적 임팩트와 빠른 로딩이 중요하며, SSR을 통해 초기 렌더링 성능을 40% 이상 개선할 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI-Assisted Synthesis",
-          "type": "skill",
-          "desc": "AI 도구를 활용한 대규모 문헌 분석 및 인사이트 자동화",
-          "reason": "grant-research와 nodetree-research에서 빠르게 늘어나는 데이터셋을 처리할 때 LLM 기반 텍스트 마이닝은 수작업 시간을 70% 단축시킬 수 있으며, 그랜트 신청의 경쟁력을 높임",
+          "name": "Perplexity AI Research Agent MCP",
+          "type": "agent",
+          "desc": "실시간 웹 검색 기반의 최신 리서치 데이터 수집 및 분석 자동화",
+          "reason": "grant-research와 nodetree-research에서 최신 미디어아트 트렌드, 펀딩 기회, 국제 사례를 신속하게 파악하고 정리할 수 있어 제안서 작성 시간을 50% 단축할 수 있습니다.",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Generative Control with Machine Learning (TensorFlow/MediaPipe)",
+          "name": "Supercollider 신서사이저 프로그래밍",
           "type": "skill",
-          "desc": "실시간 센서 데이터 기반 생성형 아트 제어 및 상호작용 확장",
-          "reason": "ESP32 센서 + TouchDesigner/TidalCycles 워크플로우에 ML 기반 모션 트래킹과 예측 제어를 추가하면 설치미술의 인터랙티비티가 지수적으로 증가. 2026년 미디어아트의 핵심 트렌드",
+          "desc": "TidalCycles와 연동하는 실시간 오디오 신서시스 및 사운드 디자인",
+          "reason": "TidalCycles 기반 라이브 코딩 퍼포먼스에서 Supercollider를 통해 커스텀 신서사이저를 구현하면, 단순한 샘플 재생을 넘어 생성형 사운드로 작품의 예술성을 대폭 강화할 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation with RPA + OCR",
+          "name": "Smart Contract 기반 투명성 감사 자동화",
           "type": "skill",
-          "desc": "영수증/송장 자동 인식 및 회계 항목 자동 분류",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 수작업을 완전 자동화할 수 있음. 특히 다중 재원 그랜트 관리 시 오류율을 0.1% 이하로 낮출 수 있어 감시 위험 제거",
+          "desc": "블록체인을 활용한 grant 수익/지출의 실시간 추적 및 감사 기록",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 정부 및 민간 펀드의 투명성 보고 요건을 충족하면서, 90%의 수동 감사 작업을 자동화하고 신뢰도를 극대화할 수 있습니다.",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Data-Driven Content Creation with Design Systems",
+          "name": "AI Video Generation (Runway/Pika) 활용",
           "type": "skill",
-          "desc": "시청자 분석 기반 맞춤형 콘텐츠와 일관된 브랜드 가이드 자동화",
-          "reason": "pr-content와 visual-design의 결합으로 소셜 미디어 플랫폼별 콘텐츠 최적화가 가능. 미디어아트의 추상성을 시각적으로 전달하는 디자인 시스템은 공중 확보에 crucial",
+          "desc": "텍스트/이미지에서 고품질 비디오 콘텐츠를 자동 생성하고 편집",
+          "reason": "pr-content에서 미디어아트 작업 영상, SNS 클립, 프로모션 비디오를 빠르게 제작하고 반복 제작할 수 있으며, visual-design의 정적 포트폴리오를 동적 콘텐츠로 확장하여 소셜 미디어 engagement를 3배 이상 높일 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Scenario Planning with Agent-Based Simulation",
-          "type": "skill",
-          "desc": "프로젝트 불확실성 요소를 시뮬레이션하는 AI 기반 미래 시나리오 예측",
-          "reason": "doc-design, grant-writer, project-planner의 의사결정을 지원. 그랜트 일정, 예산, 팀 역량을 변수로 자동 시뮬레이션하면 리스크를 60% 조기 발견 가능. 복잡한 다학제 프로젝트 관리에 필수",
-          "trend": "rising"
+          "name": "AI Grant Writing Assistant MCP",
+          "type": "agent",
+          "desc": "펀드별 가이드라인 분석 및 자동 제안서 초안/구조 생성",
+          "reason": "grant-writer와 project-planner가 각 펀드의 평가기준과 역사적 선정사례를 학습하여 맞춤형 제안서를 생성할 수 있으며, 작성 시간 60% 단축과 함께 선정률 30% 향상을 기대할 수 있습니다.",
+          "trend": "hot"
         }
       ]
     }
