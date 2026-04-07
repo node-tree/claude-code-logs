@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-06",
+  "lastUpdated": "2026-04-07",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14+ App Router",
+          "name": "Next.js 14 App Router",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 현대적 웹 개발 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 미디어아트 포트폴리오 사이트의 동적 콘텐츠 관리에 App Router가 효과적",
+          "desc": "서버 컴포넌트와 최적화된 성능을 기반으로 한 현대적 웹 개발",
+          "reason": "nodetreehome-web의 성능 개선과 유지보수성 향상을 위해 최신 Next.js 패러다임 도입이 필수. SEO와 로딩 속도 개선으로 미디어아트 포트폴리오 사이트의 전문성 강화",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Review (Claude/GPT API)",
-          "type": "agent",
-          "desc": "학술논문과 자료를 자동으로 분석하고 요약하는 AI 에이전트",
-          "reason": "grant-research와 nodetree-research의 대량 자료 수집 및 분석 시간을 70% 단축 가능하며, 미디어아트 트렌드 추적과 학술 근거 마련에 필수적",
+          "name": "Systematic Literature Review (체계적 문헌 검토)",
+          "type": "skill",
+          "desc": "학술 데이터베이스를 통한 정량적 증거 기반의 리서치 방법론",
+          "reason": "grant-research와 nodetree-research에서 국제 그랜트 심사위원들을 설득하기 위해 신뢰할 수 있는 학술적 근거가 필수. 미디어아트의 사회적 영향력을 데이터로 입증하는 것이 펀딩 확보의 핵심",
           "trend": "rising"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP Interoperability",
+          "name": "Max/MSP Audio Processing",
           "type": "skill",
-          "desc": "TouchDesigner와 Max/MSP 간 오디오/비디오 신호 실시간 동기화",
-          "reason": "ESP32와 TidalCycles의 사운드 인풋을 TouchDesigner 비주얼과 통합하는 멀티미디어 설치미술 제작에 필수적이며, 실시간 인터랙티브 작업의 완성도 향상",
-          "trend": "hot"
+          "desc": "실시간 오디오 신호처리와 인터랙티브 사운드 설계",
+          "reason": "ESP32와 TidalCycles 기반 설치미술에서 TouchDesigner와 연동한 고급 음향 표현이 필요. 센서 입력을 복잡한 오디오 이벤트로 변환하여 작품의 감각적 깊이 증대",
+          "trend": "stable"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Financial Report Automation MCP",
-          "type": "mcp",
-          "desc": "정부지원금 회계 리포트와 영수증 자동 처리 및 검증 시스템",
-          "reason": "grant-accounting-agent의 운영 효율을 높이고 saengsanso-accounting의 오류율을 감소시키며, 2026년 상반기 그랜트 신청/보고 시즌에 컴플라이언스 위험 최소화",
+          "name": "문화예술 보조금 회계관리 MCP",
+          "type": "agent",
+          "desc": "한국 문화예술위원회/지역문화재단 보조금 규정에 맞춘 자동화 회계처리",
+          "reason": "grant-accounting-agent와 saengsanso-accounting의 복잡한 보조금 규정 준수 요구사항을 자동화하여 인력 부담 감소. 감시 대상 경비의 증거자료 자동 분류로 감시 지적사항 사전 예방",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Image Generation with Brand Control",
-          "type": "agent",
-          "desc": "NODE TREE 브랜드 아이덴티티를 유지하며 소셜미디어 콘텐츠를 자동 생성",
-          "reason": "pr-content의 주간 콘텐츠 제작 속도를 3배 증가시킬 수 있으며, visual-design의 일관된 브랜딩 유지와 SNS 운영 효율성을 동시에 달성 가능",
+          "name": "Figma to Code 자동화",
+          "type": "skill",
+          "desc": "디자인 시스템에서 웹 컴포넌트로의 자동 변환",
+          "reason": "visual-design에서 작성된 가이드라인이 개발팀에 정확히 구현되도록 하는 핫라인 역할. 미디어아트 팀의 일관된 브랜드 이미지를 pr-content에서 빠르게 활용 가능하게 하는 워크플로우 효율화",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline & Dependency Mapping Tool",
-          "type": "mcp",
-          "desc": "프로젝트 일정, 팀 간 의존성, 마일스톤을 자동으로 시각화하는 도구",
-          "reason": "grant-writer, doc-design, project-planner의 협력을 구조화하고, 멀티팀 프로젝트의 일정 충돌을 사전 예방하며, 그랜트 제안서 작성 시 실현 가능성 검증 시간 단축",
+          "name": "Grant Proposal Timeline Generator MCP",
+          "type": "agent",
+          "desc": "마감일 기반으로 역계산한 자동 프로젝트 일정 생성",
+          "reason": "grant-writer와 project-planner가 연계하여 그랜트 신청 마감일로부터 각 팀의 실행 일정을 자동 생성. doc-design의 기획서 작성부터 예술팀의 프로토타입까지 모든 단계의 충돌 예방 및 리소스 최적 배분",
           "trend": "rising"
         }
       ]
