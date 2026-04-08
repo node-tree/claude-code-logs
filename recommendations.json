@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-07",
+  "lastUpdated": "2026-04-08",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14 App Router",
+          "name": "Next.js App Router + Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트와 최적화된 성능을 기반으로 한 현대적 웹 개발",
-          "reason": "nodetreehome-web의 성능 개선과 유지보수성 향상을 위해 최신 Next.js 패러다임 도입이 필수. SEO와 로딩 속도 개선으로 미디어아트 포트폴리오 사이트의 전문성 강화",
+          "desc": "모던 풀스택 웹 개발을 위한 서버사이드 렌더링 및 API 통합 기술",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 현재 업계 표준인 App Router 패러다임으로의 마이그레이션이 미디어아트 프로젝트 소개 사이트의 로딩 속도와 사용자 경험을 크게 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review (체계적 문헌 검토)",
+          "name": "Systematic Literature Review with AI Synthesis",
           "type": "skill",
-          "desc": "학술 데이터베이스를 통한 정량적 증거 기반의 리서치 방법론",
-          "reason": "grant-research와 nodetree-research에서 국제 그랜트 심사위원들을 설득하기 위해 신뢰할 수 있는 학술적 근거가 필수. 미디어아트의 사회적 영향력을 데이터로 입증하는 것이 펀딩 확보의 핵심",
+          "desc": "AI 기반 학술자료 수집, 분석, 종합을 통한 체계적 문헌고찰 방법론",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 다량의 학술자료를 신속하게 분석해야 하며, AI 도구를 활용한 자동 분류 및 트렌드 도출이 그랜트 제안서 작성 시간을 단축하고 논거 강화에 직결됨",
           "trend": "rising"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP Audio Processing",
+          "name": "Machine Learning for Real-time Audio-Visual Synthesis",
           "type": "skill",
-          "desc": "실시간 오디오 신호처리와 인터랙티브 사운드 설계",
-          "reason": "ESP32와 TidalCycles 기반 설치미술에서 TouchDesigner와 연동한 고급 음향 표현이 필요. 센서 입력을 복잡한 오디오 이벤트로 변환하여 작품의 감각적 깊이 증대",
-          "trend": "stable"
+          "desc": "실시간 오디오-비주얼 동기화를 위한 머신러닝 모델 구축 및 배포",
+          "reason": "ESP32/TidalCycles/TouchDesigner 통합 작업에서 센서 입력과 시각화의 동기화가 핵심이며, ML 기반 예측 모델링으로 반응성 있는 인터랙티브 미디어아트 경험을 실현할 수 있고 국제 미디어아트 페스티벌 출품작의 경쟁력 강화에 기여",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "문화예술 보조금 회계관리 MCP",
-          "type": "agent",
-          "desc": "한국 문화예술위원회/지역문화재단 보조금 규정에 맞춘 자동화 회계처리",
-          "reason": "grant-accounting-agent와 saengsanso-accounting의 복잡한 보조금 규정 준수 요구사항을 자동화하여 인력 부담 감소. 감시 대상 경비의 증거자료 자동 분류로 감시 지적사항 사전 예방",
+          "name": "Grant Budget Forecasting with Scenario Analysis",
+          "type": "skill",
+          "desc": "시나리오 기반 그랜트 예산 예측 및 리스크 관리 기법",
+          "reason": "grant-accounting-agent에서 변동성 높은 그랜트 수주 일정과 지출 패턴을 사전에 예측하여 현금흐름 관리가 필요하며, 다중 시나리오 분석으로 최악의 상황 대비 자금 계획 수립이 가능해 팀의 재정 안정성 확보에 필수적",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Figma to Code 자동화",
+          "name": "Social Media Content Calendar Automation with Brand Consistency AI",
           "type": "skill",
-          "desc": "디자인 시스템에서 웹 컴포넌트로의 자동 변환",
-          "reason": "visual-design에서 작성된 가이드라인이 개발팀에 정확히 구현되도록 하는 핫라인 역할. 미디어아트 팀의 일관된 브랜드 이미지를 pr-content에서 빠르게 활용 가능하게 하는 워크플로우 효율화",
+          "desc": "브랜드 일관성을 유지하는 자동화된 소셜미디어 콘텐츠 계획 및 생성 기술",
+          "reason": "pr-content 제작에서 매일 다양한 플랫폼용 콘텐츠를 일관된 톤 앤 매너로 제공해야 하는데, AI 기반 콘텐츠 캘린더 자동화로 제작 시간 50% 단축 가능하며 visual-design과의 협업 효율성도 극대화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Proposal Timeline Generator MCP",
-          "type": "agent",
-          "desc": "마감일 기반으로 역계산한 자동 프로젝트 일정 생성",
-          "reason": "grant-writer와 project-planner가 연계하여 그랜트 신청 마감일로부터 각 팀의 실행 일정을 자동 생성. doc-design의 기획서 작성부터 예술팀의 프로토타입까지 모든 단계의 충돌 예방 및 리소스 최적 배분",
+          "name": "Agile Project Management with AI-Powered Risk Detection",
+          "type": "skill",
+          "desc": "팀 데이터 기반 프로젝트 리스크 자동 감지 및 예측하는 애자일 프로젝트 관리 기법",
+          "reason": "project-planner가 다중 프로젝트(그랜트, 전시, 작업)를 동시 관리할 때 일정 지연, 예산 초과, 팀 과부하 등 잠재 리스크를 조기에 포착하여 선제적 대응이 가능하며, grant-writer와의 협업 타이밍 최적화로 제안 완성도 향상",
           "trend": "rising"
         }
       ]
