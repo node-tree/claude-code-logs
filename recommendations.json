@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-09",
+  "lastUpdated": "2026-04-10",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "React Server Components",
           "type": "skill",
-          "desc": "웹 프론트엔드 성능 최적화 및 타입 안전성 강화",
-          "reason": "nodetreehome-web의 사용자 경험 개선과 유지보수성 향상을 위해 현대적인 웹 개발 패턴 적용이 필수적. 미디어아트 프로젝트 결과물 전시에 중요한 웹 인터페이스 안정성 확보",
+          "desc": "서버사이드 렌더링과 클라이언트 상호작용을 최적화하는 현대적 웹 개발 패턴",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 RSC를 통해 초기 로딩 속도를 개선하고 번들 크기를 줄일 수 있으며, 팀의 웹 플랫폼 경쟁력 강화에 직결됨",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌분석 및 데이터 마이닝",
+          "name": "Systematic Literature Review Methodology",
           "type": "skill",
-          "desc": "대량의 연구 자료를 자동으로 수집·분석·정리하는 AI 활용",
-          "reason": "grant-research와 nodetree-research에서 보조금/지원금 리서치 시 경쟁 동향, 펀딩 기준, 정책 변화를 신속하게 파악할 필요. 2026년 증가하는 데이터량을 효율적으로 처리하고 기획팀에 시의적절한 인사이트 제공",
-          "trend": "hot"
+          "desc": "학술적 문헌 조사를 체계적으로 진행하여 신뢰성 있는 연구 기초를 구축하는 방법론",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 정부/민간 지원금 획득을 위해 학술적 근거와 시장 분석이 필수이며, 체계적 문헌 조사를 통해 연구의 신뢰도를 높여 제안서 경쟁력을 향상시킬 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 신호처리 및 오디오-비주얼 싱크로니제이션",
+          "name": "Real-time Audio-Visual Synchronization",
           "type": "skill",
-          "desc": "ESP32 센서 데이터와 TidalCycles 음악, TouchDesigner 영상을 실시간 동기화",
-          "reason": "media-art-pipeline의 핵심인 멀티미디어 통합 작업에서 지연 없는 반응성이 예술 표현의 질을 직접 결정. ESP32 기반 인터랙티브 설치미술에서 관객 경험의 몰입도를 크게 향상시킬 수 있음",
-          "trend": "rising"
+          "desc": "TidalCycles 음악 생성과 TouchDesigner 시각화 간 실시간 동기화 기술",
+          "reason": "media-art-pipeline에서 ESP32/TidalCycles/TouchDesigner를 통합하는 과정에서 음악과 영상의 완벽한 동기화가 작품의 질을 좌우하며, 실시간 오디오-비주얼 동기화 스킬은 전시/공연 완성도와 관객 경험을 극대화함",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 처리 및 감시 에이전트",
-          "type": "agent",
-          "desc": "거래 분류, 영수증 인식, 보조금 추적을 자동화하는 AI 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 회계 체계에서 수기 오류 감소와 감시 효율화가 필수. 보조금 수령/사용 내역의 투명성 증명이 미술 단체 신뢰성 구축에 직결되므로 자동화 에이전트 도입이 규정 준수와 감사 준비 시간 단축에 효과적",
+          "name": "Grant Accounting Automation with AI",
+          "type": "skill",
+          "desc": "AI를 활용한 지원금 회계 자동화 및 규정 준수 검증",
+          "reason": "grant-accounting-agent와 saengsanso-accounting 운영에서 정부 보조금의 복잡한 회계 규정 준수와 감시 대비가 필수이며, AI 자동화를 통해 인적 오류를 감소시키고 감사 대응 시간을 단축할 수 있어 재정 투명성 강화에 직접 기여",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "멀티채널 콘텐츠 최적화 및 AI 크리에이티브 어시스턴트",
+          "name": "Data-Driven Visual Storytelling",
           "type": "skill",
-          "desc": "SNS/웹/인쇄 등 각 채널별 콘텐츠 자동 재구성 및 브랜드 톤 유지",
-          "reason": "pr-content와 visual-design에서 창작한 미디어아트 프로젝트를 다양한 플랫폼(인스타그램, 웹, 전시 안내물)에 맞춰 신속하게 배포해야 함. AI 어시스턴트를 활용하면 수작업 시간 단축과 동시에 일관된 브랜드 아이덴티티 유지 가능",
+          "desc": "데이터 기반의 시각 자료와 스토리텔링을 통한 효과적인 콘텐츠 전달",
+          "reason": "pr-content와 visual-design에서 SNS/웹 채널을 통한 도달률과 참여도를 높이기 위해 분석 데이터에 기반한 시각화가 필수이며, NODE TREE의 미디어아트 정체성과 작업 철학을 수치화된 성과와 함께 전달하여 브랜드 인지도 향상에 기여",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "지능형 프로젝트 관리 및 일정 최적화 MCP",
-          "type": "mcp",
-          "desc": "멀티팀 협업의 병목 구간 예측 및 보조금 마감일 기반 자동 일정 조정",
-          "reason": "doc-design, grant-writer, project-planner가 6개 팀의 의존성을 관리하면서 여러 보조금 기한을 동시에 추적해야 함. MCP를 통해 각 팀의 진행률 실시간 모니터링, 리스크 조기 감지, 자동 알림을 구현하면 프로젝트 성공률 증대 및 팀 간 조율 시간 획기적 단축",
+          "name": "Agile Project Management for Creative Teams",
+          "type": "skill",
+          "desc": "창작 팀을 위한 애자일 프로젝트 관리로 유연성과 투명성을 확보하는 방법론",
+          "reason": "grant-writer, doc-design, project-planner가 동시에 여러 제안서와 프로젝트를 관리하는 상황에서 애자일 방식을 통해 팀 간 소통을 활성화하고, 변수 많은 예술 프로젝트의 일정 변경에 빠르게 대응하며, 전체 팀의 진행 상황을 실시간 가시화할 수 있음",
           "trend": "rising"
         }
       ]
