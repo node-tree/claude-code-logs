@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-10",
+  "lastUpdated": "2026-04-11",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React Server Components",
+          "name": "TypeScript + React Performance Optimization",
           "type": "skill",
-          "desc": "서버사이드 렌더링과 클라이언트 상호작용을 최적화하는 현대적 웹 개발 패턴",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 RSC를 통해 초기 로딩 속도를 개선하고 번들 크기를 줄일 수 있으며, 팀의 웹 플랫폼 경쟁력 강화에 직결됨",
+          "desc": "웹 애플리케이션의 렌더링 성능과 번들 최적화 기법",
+          "reason": "nodetreehome-web의 사용자 경험을 향상시키고, 미디어아트 콘텐츠 로딩 시간을 단축하여 방문자 이탈률을 감소시킬 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review Methodology",
+          "name": "AI-Powered Literature Review & Citation Management",
           "type": "skill",
-          "desc": "학술적 문헌 조사를 체계적으로 진행하여 신뢰성 있는 연구 기초를 구축하는 방법론",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 정부/민간 지원금 획득을 위해 학술적 근거와 시장 분석이 필수이며, 체계적 문헌 조사를 통해 연구의 신뢰도를 높여 제안서 경쟁력을 향상시킬 수 있음",
-          "trend": "rising"
+          "desc": "AI를 활용한 학술자료 수집, 분류, 인용관리 자동화",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 문헌 조사 시간을 50% 이상 단축하고, 미디어아트 트렌드 분석의 정확도를 향상시킵니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization",
+          "name": "Real-time Audio-Visual Synchronization with TidalCycles",
           "type": "skill",
-          "desc": "TidalCycles 음악 생성과 TouchDesigner 시각화 간 실시간 동기화 기술",
-          "reason": "media-art-pipeline에서 ESP32/TidalCycles/TouchDesigner를 통합하는 과정에서 음악과 영상의 완벽한 동기화가 작품의 질을 좌우하며, 실시간 오디오-비주얼 동기화 스킬은 전시/공연 완성도와 관객 경험을 극대화함",
-          "trend": "hot"
+          "desc": "TidalCycles에서 생성한 오디오를 TouchDesigner 비주얼과 실시간 동기화하는 기법",
+          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 음악과 영상의 완벽한 매칭으로 임몰시브한 미디어아트 경험을 창출하고, 설치미술의 상업적 가치를 높입니다.",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation with AI",
+          "name": "Multi-Project Financial Dashboard & Forecasting",
           "type": "skill",
-          "desc": "AI를 활용한 지원금 회계 자동화 및 규정 준수 검증",
-          "reason": "grant-accounting-agent와 saengsanso-accounting 운영에서 정부 보조금의 복잡한 회계 규정 준수와 감시 대비가 필수이며, AI 자동화를 통해 인적 오류를 감소시키고 감사 대응 시간을 단축할 수 있어 재정 투명성 강화에 직접 기여",
-          "trend": "rising"
+          "desc": "실시간 예산 추적과 현금흐름 예측을 위한 대시보드 구축",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 여러 그랜트 프로젝트의 재정 상태를 통합 관리하여, 자금 부족 위험을 조기에 발견하고 의사결정 속도를 향상시킵니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Data-Driven Visual Storytelling",
+          "name": "Social Media Trend Analysis & Content Calendar Automation",
           "type": "skill",
-          "desc": "데이터 기반의 시각 자료와 스토리텔링을 통한 효과적인 콘텐츠 전달",
-          "reason": "pr-content와 visual-design에서 SNS/웹 채널을 통한 도달률과 참여도를 높이기 위해 분석 데이터에 기반한 시각화가 필수이며, NODE TREE의 미디어아트 정체성과 작업 철학을 수치화된 성과와 함께 전달하여 브랜드 인지도 향상에 기여",
+          "desc": "실시간 소셜미디어 트렌드 분석 및 발행 일정 자동화",
+          "reason": "pr-content 제작 시 미디어아트 커뮤니티의 유행 주제를 즉시 반영하고, visual-design 에셋을 적절한 타이밍에 배포하여 SNS 도달률과 팔로워 증가율을 30% 이상 향상시킵니다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Agile Project Management for Creative Teams",
+          "name": "Grant Timeline & Milestone Management System",
           "type": "skill",
-          "desc": "창작 팀을 위한 애자일 프로젝트 관리로 유연성과 투명성을 확보하는 방법론",
-          "reason": "grant-writer, doc-design, project-planner가 동시에 여러 제안서와 프로젝트를 관리하는 상황에서 애자일 방식을 통해 팀 간 소통을 활성화하고, 변수 많은 예술 프로젝트의 일정 변경에 빠르게 대응하며, 전체 팀의 진행 상황을 실시간 가시화할 수 있음",
+          "desc": "복수 그랜트의 마감일, 단계별 목표, 성과지표를 통합 관리하는 시스템",
+          "reason": "grant-writer와 project-planner에서 doc-design과 협력할 때 각 그랜트의 요구사항과 프로젝트 진행 상황을 실시간으로 동기화하여, 신청 마감 누락과 프로젝트 지연을 방지합니다.",
           "trend": "rising"
         }
       ]
