@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-11",
+  "lastUpdated": "2026-04-12",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Performance Optimization",
+          "name": "Next.js 15 App Router & Server Components",
           "type": "skill",
-          "desc": "웹 애플리케이션의 렌더링 성능과 번들 최적화 기법",
-          "reason": "nodetreehome-web의 사용자 경험을 향상시키고, 미디어아트 콘텐츠 로딩 시간을 단축하여 방문자 이탈률을 감소시킬 수 있습니다.",
+          "desc": "React 기반 풀스택 웹 프레임워크의 최신 버전으로 서버사이드 렌더링과 성능 최적화 지원",
+          "reason": "nodetreehome-web 프로젝트의 성능 개선과 SEO 최적화가 필요한 시점에서, App Router는 현대적 웹 개발 표준이며 팀의 개발 생산성을 크게 향상시킬 수 있습니다. 2026년 현재 업계 표준이 되었으므로 즉시 도입 가치가 높습니다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Review & Citation Management",
+          "name": "Systematic Literature Review & Meta-Analysis 방법론",
           "type": "skill",
-          "desc": "AI를 활용한 학술자료 수집, 분류, 인용관리 자동화",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 문헌 조사 시간을 50% 이상 단축하고, 미디어아트 트렌드 분석의 정확도를 향상시킵니다.",
-          "trend": "hot"
+          "desc": "학술 논문 수집, 분류, 분석을 체계적으로 수행하는 연구 방법론",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 미디어아트 관련 학술 자료를 효율적으로 수집하고 분석해야 합니다. 정부 지원금 신청 시 선행 연구 검토가 필수적이므로, 이 방법론 습득으로 연구 신뢰성과 경쟁력을 높일 수 있습니다.",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization with TidalCycles",
+          "name": "Max/MSP와 TidalCycles 통합 실시간 오디오비주얼 프로그래밍",
           "type": "skill",
-          "desc": "TidalCycles에서 생성한 오디오를 TouchDesigner 비주얼과 실시간 동기화하는 기법",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 음악과 영상의 완벽한 매칭으로 임몰시브한 미디어아트 경험을 창출하고, 설치미술의 상업적 가치를 높입니다.",
-          "trend": "rising"
+          "desc": "TidalCycles의 라이브 코딩과 Max의 실시간 비주얼 처리를 동기화하는 통합 제어 기술",
+          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner를 활용한 인터랙티브 설치 미술을 제작할 때, TidalCycles 기반의 사운드와 Max를 통한 센서 데이터 연결로 더 깊이 있는 멀티미디어 경험을 창출할 수 있습니다. 2026년 라이브 코딩 아트가 주목받고 있는 추세를 활용할 수 있습니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-Project Financial Dashboard & Forecasting",
+          "name": "AI 기반 영수증 OCR 및 자동 장부 기입 시스템",
           "type": "skill",
-          "desc": "실시간 예산 추적과 현금흐름 예측을 위한 대시보드 구축",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 여러 그랜트 프로젝트의 재정 상태를 통합 관리하여, 자금 부족 위험을 조기에 발견하고 의사결정 속도를 향상시킵니다.",
-          "trend": "hot"
+          "desc": "머신러닝 모델을 활용한 영수증 자동 인식 및 회계 항목 자동 분류 기술",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 반복적인 데이터 입력 작업을 자동화할 수 있습니다. 미디어아트 팀의 다양한 재료비 및 용역비 영수증 처리 시간을 80% 이상 단축할 수 있으며, 오류율도 현저히 감소시킬 수 있습니다.",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Social Media Trend Analysis & Content Calendar Automation",
+          "name": "소셜미디어 AI 콘텐츠 생성 및 자동 스케줄링 (Claude Vision + 멀티모달 편집)",
           "type": "skill",
-          "desc": "실시간 소셜미디어 트렌드 분석 및 발행 일정 자동화",
-          "reason": "pr-content 제작 시 미디어아트 커뮤니티의 유행 주제를 즉시 반영하고, visual-design 에셋을 적절한 타이밍에 배포하여 SNS 도달률과 팔로워 증가율을 30% 이상 향상시킵니다.",
+          "desc": "AI를 활용한 시각 콘텐츠 생성, 자막 제작, 포스트 스케줄링 자동화",
+          "reason": "pr-content와 visual-design 프로젝트에서 미디어아트 작업 과정의 영상/이미지를 자동으로 가공하여 인스타그램, 유튜브 쇼츠 등 다중 플랫폼에 최적화된 콘텐츠로 변환할 수 있습니다. 예술팀의 창작물을 빠르게 대중과 공유하는 속도와 리치를 획기적으로 증가시킬 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Timeline & Milestone Management System",
+          "name": "AI 기반 Grant Writing & Proposal 자동 생성 시스템",
           "type": "skill",
-          "desc": "복수 그랜트의 마감일, 단계별 목표, 성과지표를 통합 관리하는 시스템",
-          "reason": "grant-writer와 project-planner에서 doc-design과 협력할 때 각 그랜트의 요구사항과 프로젝트 진행 상황을 실시간으로 동기화하여, 신청 마감 누락과 프로젝트 지연을 방지합니다.",
+          "desc": "정부 지원금 신청서 템플릿 기반 자동 작성 및 구성 최적화 도구",
+          "reason": "grant-writer 프로젝트에서 정부 지원금 신청 마감일이 자주 임박할 때, 핵심 정보만 입력하면 기획안의 구성, 어조, 설득력을 자동 최적화할 수 있습니다. 2026년 한국 문화예술 지원금 신청이 점점 경쟁화되고 있는 상황에서 차별화된 제안서를 빠르게 작성할 수 있게 됩니다.",
           "trend": "rising"
         }
       ]
