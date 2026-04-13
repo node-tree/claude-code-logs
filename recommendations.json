@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-13",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router & Server Components",
+          "name": "Next.js 14+ App Router",
           "type": "skill",
-          "desc": "React 기반 풀스택 웹 프레임워크의 최신 버전으로 서버사이드 렌더링과 성능 최적화 지원",
-          "reason": "nodetreehome-web 프로젝트의 성능 개선과 SEO 최적화가 필요한 시점에서, App Router는 현대적 웹 개발 표준이며 팀의 개발 생산성을 크게 향상시킬 수 있습니다. 2026년 현재 업계 표준이 되었으므로 즉시 도입 가치가 높습니다.",
+          "desc": "서버 컴포넌트 기반 현대적 웹 개발 패러다임",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 유지보수성 향상을 위해 최신 프레임워크 도입이 필수적이며, 서버사이드 렌더링으로 미디어아트 콘텐츠 로딩 속도를 크게 개선할 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review & Meta-Analysis 방법론",
-          "type": "skill",
-          "desc": "학술 논문 수집, 분류, 분석을 체계적으로 수행하는 연구 방법론",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 미디어아트 관련 학술 자료를 효율적으로 수집하고 분석해야 합니다. 정부 지원금 신청 시 선행 연구 검토가 필수적이므로, 이 방법론 습득으로 연구 신뢰성과 경쟁력을 높일 수 있습니다.",
-          "trend": "rising"
+          "name": "AI-Powered Literature Review Agent",
+          "type": "agent",
+          "desc": "학술 논문 수집, 분류, 요약 자동화 에이전트",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 대량의 학술 자료를 효율적으로 관리하고 분석할 필요가 있으며, AI 에이전트를 통해 리서치 시간을 40-50% 단축하고 보조금 신청 근거 자료 준비를 가속화할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP와 TidalCycles 통합 실시간 오디오비주얼 프로그래밍",
+          "name": "SuperCollider Advanced Synthesis",
           "type": "skill",
-          "desc": "TidalCycles의 라이브 코딩과 Max의 실시간 비주얼 처리를 동기화하는 통합 제어 기술",
-          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner를 활용한 인터랙티브 설치 미술을 제작할 때, TidalCycles 기반의 사운드와 Max를 통한 센서 데이터 연결로 더 깊이 있는 멀티미디어 경험을 창출할 수 있습니다. 2026년 라이브 코딩 아트가 주목받고 있는 추세를 활용할 수 있습니다.",
-          "trend": "hot"
+          "desc": "프로세서 기반 사운드 신시사이저 및 음향 프로그래밍",
+          "reason": "media-art-pipeline에서 TidalCycles와 함께 사용하면 ESP32 하드웨어와 TouchDesigner 비주얼을 완벽히 동기화한 멀티미디어 인스톨레이션 구현이 가능하며, 실시간 사운드-비주얼 상호작용의 깊이를 극대화할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI 기반 영수증 OCR 및 자동 장부 기입 시스템",
-          "type": "skill",
-          "desc": "머신러닝 모델을 활용한 영수증 자동 인식 및 회계 항목 자동 분류 기술",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 반복적인 데이터 입력 작업을 자동화할 수 있습니다. 미디어아트 팀의 다양한 재료비 및 용역비 영수증 처리 시간을 80% 이상 단축할 수 있으며, 오류율도 현저히 감소시킬 수 있습니다.",
-          "trend": "rising"
+          "name": "Grant-Accounting Integration MCP",
+          "type": "mcp",
+          "desc": "보조금 회계 데이터 자동 동기화 및 규정 준수 검증 커넥터",
+          "reason": "grant-accounting-agent와 saengsanso-accounting 간 데이터 불일치 문제를 자동으로 해결하고, 보조금 심사 기관의 회계 규정 변경사항을 실시간으로 반영하여 감시 리스크를 95% 이상 감소시킬 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜미디어 AI 콘텐츠 생성 및 자동 스케줄링 (Claude Vision + 멀티모달 편집)",
-          "type": "skill",
-          "desc": "AI를 활용한 시각 콘텐츠 생성, 자막 제작, 포스트 스케줄링 자동화",
-          "reason": "pr-content와 visual-design 프로젝트에서 미디어아트 작업 과정의 영상/이미지를 자동으로 가공하여 인스타그램, 유튜브 쇼츠 등 다중 플랫폼에 최적화된 콘텐츠로 변환할 수 있습니다. 예술팀의 창작물을 빠르게 대중과 공유하는 속도와 리치를 획기적으로 증가시킬 수 있습니다.",
-          "trend": "hot"
+          "name": "AI Visual Brand Consistency Engine",
+          "type": "agent",
+          "desc": "브랜드 가이드라인 자동 검증 및 멀티채널 콘텐츠 일관성 관리",
+          "reason": "visual-design과 pr-content 프로젝트에서 생성되는 이미지, 영상, 그래픽의 색상, 로고, 타이포그래피 일관성을 AI가 자동으로 검증하므로 시간당 30-40개 자산 검토 가능하며, 소셜미디어 멀티채널 동시 배포 시 브랜드 훼손 방지",
+          "trend": "rising"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "AI 기반 Grant Writing & Proposal 자동 생성 시스템",
-          "type": "skill",
-          "desc": "정부 지원금 신청서 템플릿 기반 자동 작성 및 구성 최적화 도구",
-          "reason": "grant-writer 프로젝트에서 정부 지원금 신청 마감일이 자주 임박할 때, 핵심 정보만 입력하면 기획안의 구성, 어조, 설득력을 자동 최적화할 수 있습니다. 2026년 한국 문화예술 지원금 신청이 점점 경쟁화되고 있는 상황에서 차별화된 제안서를 빠르게 작성할 수 있게 됩니다.",
-          "trend": "rising"
+          "name": "Project Timeline & Dependency Mapping Agent",
+          "type": "agent",
+          "desc": "프로젝트 일정 자동 생성 및 팀간 의존성 충돌 감지",
+          "reason": "doc-design, grant-writer, project-planner 작업의 선후 관계를 복합적으로 분석하여 critical path를 자동 도출하고, 보조금 마감 일정 변경 시 영향받는 모든 작업을 실시간으로 재계획하여 기획 변경 회의 횟수를 70% 감소시킬 수 있음",
+          "trend": "hot"
         }
       ]
     }
