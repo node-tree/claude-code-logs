@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-15",
+  "lastUpdated": "2026-04-16",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router + TypeScript",
+          "name": "Next.js App Router",
           "type": "skill",
-          "desc": "최신 React 서버 컴포넌트 기반 웹 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 유지보수성 향상을 위해 필수적이며, 2026년 현재 엔터프라이즈 웹 개발의 표준",
+          "desc": "React 기반 풀스택 웹 프레임워크의 최신 라우팅 시스템",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선, 서버/클라이언트 컴포넌트 분리로 미디어아트 포트폴리오 사이트의 인터랙티브한 콘텐츠 로딩 속도 향상에 직접 기여",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Perplexity/Claude Research Agent",
-          "type": "agent",
-          "desc": "실시간 학술자료 수집 및 분석 자동화 에이전트",
-          "reason": "nodetree-research와 grant-research 프로젝트에서 광범위한 자료 수집 시간을 60% 단축하고, 최신 미디어아트 트렌드와 보조금 정보를 실시간 추적할 수 있음",
-          "trend": "hot"
+          "name": "시스템적 문헌고찰(Systematic Literature Review)",
+          "type": "skill",
+          "desc": "체계적 방법론에 따른 학술 자료 수집, 분석, 종합 기법",
+          "reason": "grant-research에서 지원금 신청 시 필요한 학술적 근거 제시, nodetree-research의 미디어아트 이론 기초 강화, 국내외 유사 사례 비교분석을 통해 연구의 신뢰성과 경쟁력 확보에 필수적",
+          "trend": "stable"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "MAX/MSP + JUCE Integration",
+          "name": "Max/MSP 신호처리",
           "type": "skill",
-          "desc": "오디오/비주얼 신호처리와 하드웨어 통신 통합 프레임워크",
-          "reason": "ESP32, TidalCycles, TouchDesigner 간 실시간 데이터 동기화가 필수적이며, JUCE를 통한 크로스플랫폼 플러그인 개발로 media-art-pipeline의 확장성을 극대화",
+          "desc": "실시간 오디오/비주얼 신호 처리 및 동기화 프로그래밍",
+          "reason": "ESP32 하드웨어, TidalCycles 라이브코딩, TouchDesigner 비주얼의 연계 작업 시 센서 데이터와 음향, 영상의 완벽한 시간동기화 실현으로 인터랙티브 미디어아트 작품의 미적 완성도 극대화",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Financial Data Extraction MCP",
-          "type": "mcp",
-          "desc": "영수증/송장/계약서 OCR 기반 자동 데이터 추출",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 수기 입력 작업 90% 제거 가능하며, grant 회계 감시 오류를 사전에 방지하고 월말 정산 시간을 3분의 1로 단축",
-          "trend": "hot"
+          "name": "문화예술 정부지원금 회계기준",
+          "type": "skill",
+          "desc": "문화예술 프로젝트 특화 회계/세무 처리 규칙",
+          "reason": "grant-accounting-agent 운영 시 한국문화예술위원회, 서울시 등 정부 지원금의 용역비/인건비/장비비 배분 기준 준수, saengsanso-accounting에서 창작소 운영비 투명성 확보로 감시 감독 리스크 제거 및 재정 효율성 증대",
+          "trend": "stable"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Figma + AI Design System Generator",
+          "name": "소셜미디어 바이럴 마케팅 전략",
           "type": "skill",
-          "desc": "브랜드 가이드라인 자동화 및 멀티채널 콘텐츠 일관성 유지",
-          "reason": "visual-design에서 소셜미디어/포스터/영상 콘텐츠 규격을 자동 생성하고, pr-content 제작의 디자인 리뷰 사이클을 50% 단축할 수 있으며 글로벌 아트페어 참가 시 신속한 브랜드 적응 가능",
+          "desc": "인스타그램, 틱톡 등 플랫폼별 숏폼 콘텐츠 제작 및 확산 기법",
+          "reason": "pr-content에서 미디어아트 작품의 비주얼 임팩트를 극대화하여 일반 대중과 신진 창작자 커뮤니티의 관심 유도, visual-design의 독창적 브랜드 아이덴티티를 단 15초 영상으로 압축 표현하여 NODE TREE의 인지도와 협업 기회 증진",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Strategic Timeline + Dependency MCP",
-          "type": "mcp",
-          "desc": "프로젝트 일정과 자원 할당 자동 최적화 및 병목 예측",
-          "reason": "grant-writer와 project-planner의 다중 프로젝트 병렬 운영 시 리스크 식별을 자동화하고, doc-design에서 문서 작성 마감을 고려한 역순 일정 자동 생성으로 지원 기한 누락 제로화",
+          "name": "프로젝트 마일스톤 기반 일정관리(Agile Planning)",
+          "type": "skill",
+          "desc": "2주 스프린트 기반 반복적 계획 수립 및 진도 추적",
+          "reason": "doc-design, grant-writer, project-planner 간 협업 시 지원금 마감일(보통 분기별), 전시/공연 개최 시점이라는 경직된 일정 제약 속에서도 유연한 우선순위 조정과 리스크 관리 가능, 정부 지원금 사업의 단계별 의무 보고서 작성을 체계적으로 선행",
           "trend": "rising"
         }
       ]
