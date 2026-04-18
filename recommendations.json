@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-18",
   "recommendations": [
     {
       "teamId": "dev",
@@ -8,8 +8,8 @@
         {
           "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "서버컴포넌트 기반의 현대적 웹 개발 프레임워크",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 현재 프로덕션 표준이자 React 생태계의 최신 패턴",
+          "desc": "서버 컴포넌트 기반 현대적 웹 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, App Router는 팀의 웹 프로젝트 확장성과 개발 생산성을 크게 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "체계적 문헌고찰(Systematic Literature Review) 방법론",
+          "name": "AI 기반 문헌분석 및 데이터 시각화",
           "type": "skill",
-          "desc": "대규모 학술자료를 구조화된 프로세스로 분석하고 종합하는 기법",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 신뢰성 높은 근거자료를 확보하고 연구비 수주 경쟁력을 높이기 위해 필수적인 방법론",
+          "desc": "대량의 연구자료를 자동분류하고 인사이트를 시각화하는 기술",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 복잡한 정보를 빠르게 정리하고 패턴을 발견하는 것이 핵심이며, AI 도구 활용으로 연구 효율성을 2-3배 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "TidalCycles 라이브 코딩 심화",
+          "name": "MAX/MSP와 TidalCycles 연동",
           "type": "skill",
-          "desc": "실시간 음향 생성과 시각화를 위한 알고리즘 기반 사운드 디자인",
-          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner를 활용한 멀티모달 예술작업 시 사운드-비주얼 동기화 및 인터랙티브 성능이 핵심이며, 라이브 퍼포먼스 품질을 극대화",
+          "desc": "실시간 오디오 신호와 라이브코딩 시스템 통합",
+          "reason": "ESP32/TidalCycles/TouchDesigner 스택에서 센서 입력과 음악 제어를 동기화하는 것이 매체예술의 핵심이며, MAX/MSP 연동으로 실험적 사운드 인터랙션 표현 범위를 대폭 확장할 수 있음",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI 기반 영수증/인보이스 자동화 처리",
+          "name": "정부지원금 회계 자동화 및 감시 시스템",
           "type": "skill",
-          "desc": "OCR과 머신러닝을 활용한 재무문서 자동분류 및 회계 기입",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 회계 관리에서 수기 작업을 80% 이상 감소시킬 수 있으며, 감사 투명성과 오류 감소에 직결되어 정부지원금 관리의 컴플라이언스 강화",
-          "trend": "hot"
+          "desc": "grant-accounting-agent와 saengsanso-accounting 통합 자동화",
+          "reason": "미디어아트팀의 다중 프로젝트 관리에서 grant 회계와 일반 회계의 감시, 보고서 자동 생성이 필수이며, 자동화 시스템 구축으로 오류 감소와 감사 준비 시간을 60% 단축할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜미디어 알고리즘 최적화 콘텐츠 기획",
+          "name": "브랜드 기반 소셜미디어 콘텐츠 자동화",
           "type": "skill",
-          "desc": "각 플랫폼의 추천시스템을 고려한 pr-content 제작 전략",
-          "reason": "visual-design으로 창작한 미디어아트 콘텐츠의 도달률과 engage율을 2배 이상 증대시킬 수 있으며, 제한된 홍보 예산으로 브랜드 인지도 확보에 가장 효율적",
+          "desc": "비주얼 디자인과 PR 콘텐츠의 일관된 톤/스타일 자동 생성",
+          "reason": "visual-design과 pr-content의 협업에서 아트워크와 마케팅 메시지의 일관성 유지가 브랜드 강화의 핵심이며, 자동화 파이프라인으로 콘텐츠 배포 빈도를 주 3회→주 7회 수준으로 확대할 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "한국문화예술위원회 지원사업 기획서 작성 스킬",
-          "type": "skill",
-          "desc": "정부지원금 심사기준에 맞춘 프로젝트 기획 및 grant-writer용 템플릿 개발",
-          "reason": "2026년 한국 미디어아트팀의 주요 수입원인 문화예술 지원금 수주율을 높이기 위해 필수적이며, doc-design, grant-writer, project-planner 간 협업 효율성 극대화와 기획서 합격률 직결",
-          "trend": "stable"
+          "name": "프로젝트 간트차트 및 마일스톤 관리 MCP",
+          "type": "agent",
+          "desc": "실시간 일정 추적과 팀 간 의존성 자동 감지",
+          "reason": "doc-design, grant-writer, project-planner가 다중 그랜트 프로젝트를 동시 관리할 때 deadlines와 deliverables의 충돌을 조기에 감지하는 것이 필수이며, MCP 기반 자동 알림으로 프로젝트 지연을 40% 줄일 수 있음",
+          "trend": "rising"
         }
       ]
     }
