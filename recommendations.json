@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-18",
+  "lastUpdated": "2026-04-19",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router",
+          "name": "Next.js App Router 최적화",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 현대적 웹 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, App Router는 팀의 웹 프로젝트 확장성과 개발 생산성을 크게 향상시킬 수 있음",
+          "desc": "서버 컴포넌트와 동적 렌더링을 활용한 웹 성능 극대화",
+          "reason": "nodetreehome-web의 사용자 경험 개선과 SEO 최적화를 위해 최신 Next.js 패턴 도입이 필수적이며, 미디어아트 포트폴리오 사이트의 이미지/비디오 로딩 성능 향상에 직결",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌분석 및 데이터 시각화",
+          "name": "AI 기반 문헌 분석 및 메타분석",
           "type": "skill",
-          "desc": "대량의 연구자료를 자동분류하고 인사이트를 시각화하는 기술",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 복잡한 정보를 빠르게 정리하고 패턴을 발견하는 것이 핵심이며, AI 도구 활용으로 연구 효율성을 2-3배 향상시킬 수 있음",
+          "desc": "대규모 학술 자료의 자동화된 수집, 분류, 인사이트 도출",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 보조금 작성 시 필요한 선행연구 검토 시간을 60% 단축할 수 있으며, 미디어아트 관련 최신 트렌드 파악에 효율적",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "MAX/MSP와 TidalCycles 연동",
+          "name": "TidalCycles 라이브 코딩 고급 패턴",
           "type": "skill",
-          "desc": "실시간 오디오 신호와 라이브코딩 시스템 통합",
-          "reason": "ESP32/TidalCycles/TouchDesigner 스택에서 센서 입력과 음악 제어를 동기화하는 것이 매체예술의 핵심이며, MAX/MSP 연동으로 실험적 사운드 인터랙션 표현 범위를 대폭 확장할 수 있음",
+          "desc": "알고리즘 기반 음악 생성과 실시간 사운드 비주얼 싱크로나이제이션",
+          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner 연동 시 오디오 입력을 동적으로 처리하는 데 필수적이며, 실시간 인터랙티브 설치미술 구현의 핵심 요소",
           "trend": "rising"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "정부지원금 회계 자동화 및 감시 시스템",
-          "type": "skill",
-          "desc": "grant-accounting-agent와 saengsanso-accounting 통합 자동화",
-          "reason": "미디어아트팀의 다중 프로젝트 관리에서 grant 회계와 일반 회계의 감시, 보고서 자동 생성이 필수이며, 자동화 시스템 구축으로 오류 감소와 감사 준비 시간을 60% 단축할 수 있음",
+          "name": "예술정산 자동화 MCP (Multi-Currency Protocol)",
+          "type": "mcp",
+          "desc": "다국가 보조금, 해외 판매, 다중 통화 거래의 통합 관리 및 세무보고 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 중복을 제거하고, 국제 미디어아트 전시/판매 시 발생하는 환율 변동, 국가별 세금 규정을 자동으로 적용하여 오류율 최소화",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "브랜드 기반 소셜미디어 콘텐츠 자동화",
+          "name": "AI 기반 크리에이티브 에셋 생성 및 최적화",
           "type": "skill",
-          "desc": "비주얼 디자인과 PR 콘텐츠의 일관된 톤/스타일 자동 생성",
-          "reason": "visual-design과 pr-content의 협업에서 아트워크와 마케팅 메시지의 일관성 유지가 브랜드 강화의 핵심이며, 자동화 파이프라인으로 콘텐츠 배포 빈도를 주 3회→주 7회 수준으로 확대할 수 있음",
+          "desc": "브랜드 가이드라인을 학습해 SNS, 웹, 인쇄물 자동으로 생성하고 A/B 테스트 실행",
+          "reason": "visual-design에서 다양한 플랫폼별 콘텐츠 변형 작업 시간을 단축하고, pr-content가 포스트/광고 소재를 빠르게 제작하며 성과 측정 기반 디자인 개선이 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 간트차트 및 마일스톤 관리 MCP",
+          "name": "프로젝트 관리형 LLM 에이전트",
           "type": "agent",
-          "desc": "실시간 일정 추적과 팀 간 의존성 자동 감지",
-          "reason": "doc-design, grant-writer, project-planner가 다중 그랜트 프로젝트를 동시 관리할 때 deadlines와 deliverables의 충돌을 조기에 감지하는 것이 필수이며, MCP 기반 자동 알림으로 프로젝트 지연을 40% 줄일 수 있음",
+          "desc": "프로젝트 마일스톤 자동 생성, 팀 간 의존성 분석, 일정 충돌 감지 및 최적화 제안",
+          "reason": "doc-design, grant-writer, project-planner가 여러 보조금 마감일과 전시 일정을 동시 관리할 때 우선순위 자동 결정과 리스크 사전 경고가 가능하며, 팀 간 커뮤니케이션 비용 절감",
           "trend": "rising"
         }
       ]
