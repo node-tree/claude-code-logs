@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2026-04-20T02:32:10.432080+00:00",
-  "totalSessions": 276,
+  "lastUpdated": "2026-04-20T02:35:04.102515+00:00",
+  "totalSessions": 277,
   "sessions": [
+    {
+      "sessionId": "1b0be374",
+      "date": "2026-04-20",
+      "startTime": "2026-04-20T00:12:29.292000+00:00",
+      "durationSeconds": 8489,
+      "modelTier": "sonnet",
+      "projectName": "부천아트센터",
+      "toolCallCount": 300,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": [
+        "code-evaluator",
+        "design-evaluator",
+        "doc-design",
+        "doc-evaluator",
+        "film-production",
+        "grant-accounting-agent",
+        "grant-research",
+        "grant-writer",
+        "harness-planner",
+        "media-art-pipeline",
+        "nodetree-research",
+        "nodetreehome-web",
+        "pr-content",
+        "project-planner",
+        "saengsanso-accounting",
+        "visual-design"
+      ]
+    },
     {
       "sessionId": "1b0be374",
       "date": "2026-04-20",
