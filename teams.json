@@ -1,39 +1,27 @@
 {
-  "lastUpdated": "2026-04-20T00:59:17.085287+00:00",
-  "teams": [
-    {
-      "id": "harness",
-      "name": "harness",
-      "emoji": "👥",
-      "color": "#6b7280",
-      "bg": "#f9fafb",
-      "desc": "",
-      "agents": [
-        {
-          "id": "harness-planner",
-          "name": "harness-planner",
-          "desc": "|"
-        }
-      ]
+  "lastUpdated": "2026-04-20T10:00:00.000000+00:00",
+  "harness": {
+    "planner": {
+      "id": "harness-planner",
+      "name": "harness-planner",
+      "desc": "복잡한 요청 → Sprint Contract 변환 · 다중 팀 작업 설계 (Opus)"
     },
+    "evaluators": [
+      { "id": "code-evaluator",   "name": "code-evaluator",   "desc": "웹/미디어아트 파이프라인 코드 평가 · PASS/REWORK 판정" },
+      { "id": "design-evaluator", "name": "design-evaluator", "desc": "디자인·홍보물 평가 · NODE TREE 아이덴티티 기준 판정" },
+      { "id": "doc-evaluator",    "name": "doc-evaluator",    "desc": "지원서·문서·보고서 평가 · 공모 요건 충족 여부 판정" }
+    ]
+  },
+  "teams": [
     {
       "id": "dev",
       "name": "개발팀",
       "emoji": "■",
       "color": "#1d4ed8",
       "bg": "#eff6ff",
-      "desc": "소프트웨어 개발, 배포, 인프라, 코드 리뷰를 담당하는 팀.",
+      "desc": "소프트웨어 개발, 배포, 인프라를 담당하는 팀.",
       "agents": [
-        {
-          "id": "code-evaluator",
-          "name": "code-evaluator",
-          "desc": "|"
-        },
-        {
-          "id": "nodetreehome-web",
-          "name": "nodetreehome-web",
-          "desc": "Use this agent when the user needs to develop or modify the nodetreeHome web project, including React components, API ro"
-        }
+        { "id": "nodetreehome-web", "name": "nodetreehome-web", "desc": "nodetreeHome 웹 개발 · React 컴포넌트 · API · 배포" }
       ]
     },
     {
@@ -44,26 +32,9 @@
       "bg": "#ecfeff",
       "desc": "프로젝트 기획, 문서 작성, 제안서 및 보고서를 담당하는 팀.",
       "agents": [
-        {
-          "id": "doc-design",
-          "name": "doc-design",
-          "desc": "Use this agent when the user needs to create portfolios, catalogs, official documents, or formatted reports for NODE TRE"
-        },
-        {
-          "id": "doc-evaluator",
-          "name": "doc-evaluator",
-          "desc": "|"
-        },
-        {
-          "id": "grant-writer",
-          "name": "grant-writer",
-          "desc": "Use this agent when the user needs to write or draft grant applications, artist statements, or project descriptions for "
-        },
-        {
-          "id": "project-planner",
-          "name": "project-planner",
-          "desc": "Use this agent when the user needs to plan project timelines, budgets, task assignments, or manage project progress in O"
-        }
+        { "id": "doc-design",      "name": "doc-design",      "desc": "포트폴리오·도록·공문서·보고서 제작 (Pencil, HWPX)" },
+        { "id": "grant-writer",    "name": "grant-writer",    "desc": "지원서·작가노트·프로젝트 설명문 작성" },
+        { "id": "project-planner", "name": "project-planner", "desc": "일정·예산·역할 분담·진행 상황 관리 (Obsidian)" }
       ]
     },
     {
@@ -74,21 +45,8 @@
       "bg": "#fff1f2",
       "desc": "UI/UX 디자인, 브랜딩, 마케팅, 홍보를 담당하는 팀.",
       "agents": [
-        {
-          "id": "design-evaluator",
-          "name": "design-evaluator",
-          "desc": "|"
-        },
-        {
-          "id": "pr-content",
-          "name": "pr-content",
-          "desc": "Use this agent when the user needs to write promotional content, exhibition texts, press releases, or SNS captions for N"
-        },
-        {
-          "id": "visual-design",
-          "name": "visual-design",
-          "desc": "Use this agent when the user needs to create posters, SNS images, exhibition graphics, or promotional visuals for NODE T"
-        }
+        { "id": "visual-design", "name": "visual-design", "desc": "포스터·인스타 이미지·전시 그래픽·홍보물 제작" },
+        { "id": "pr-content",    "name": "pr-content",    "desc": "홍보문·보도자료·전시 소개·SNS 캡션 작성" }
       ]
     },
     {
@@ -99,16 +57,8 @@
       "bg": "#fffbeb",
       "desc": "정보 수집, 분석, 지식 정리를 담당하는 팀.",
       "agents": [
-        {
-          "id": "grant-research",
-          "name": "grant-research",
-          "desc": "Use this agent when the user needs to find grant opportunities, residencies, or competitions suitable for NODE TREE, or "
-        },
-        {
-          "id": "nodetree-research",
-          "name": "nodetree-research",
-          "desc": "Use this agent when the user needs to research artworks, artists, theoretical concepts, or technical tools related to NO"
-        }
+        { "id": "nodetree-research", "name": "nodetree-research", "desc": "작가·작품·이론·기술 리서치 · NotebookLM 분석 · YouTube 요약 · Obsidian 정리" },
+        { "id": "grant-research",    "name": "grant-research",    "desc": "공모·레지던시·지원사업 발굴 및 전략 기획" }
       ]
     },
     {
@@ -117,18 +67,10 @@
       "emoji": "▲",
       "color": "#7c3aed",
       "bg": "#f5f3ff",
-      "desc": "사운드 아트, 영상, 설치, 생성 예술 작업을 담당하는 팀.",
+      "desc": "사운드 아트, 영상, 퍼포먼스 필름, 설치, 생성 예술 작업을 담당하는 팀.",
       "agents": [
-        {
-          "id": "film-production",
-          "name": "film-production",
-          "desc": "|"
-        },
-        {
-          "id": "media-art-pipeline",
-          "name": "media-art-pipeline",
-          "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou"
-        }
+        { "id": "media-art-pipeline", "name": "media-art-pipeline", "desc": "OSC·ArtNet·ESP32·TidalCycles·TouchDesigner·소니피케이션·Hydra 파이프라인" },
+        { "id": "film-production",    "name": "film-production",    "desc": "퍼포먼스 필름 제작 전담 · 촬영·편집·색보정·사운드믹싱·영화제 출품" }
       ]
     },
     {
@@ -139,16 +81,8 @@
       "bg": "#ecfdf5",
       "desc": "재무 관리, 예산 분석, 지출 추적을 담당하는 팀.",
       "agents": [
-        {
-          "id": "grant-accounting-agent",
-          "name": "grant-accounting-agent",
-          "desc": "Use this agent when handling accounting and financial management tasks related to government-supported grant projects, i"
-        },
-        {
-          "id": "saengsanso-accounting",
-          "name": "saengsanso-accounting",
-          "desc": "Use this agent when any accounting, financial, or corporate administration task related to 주식회사 생산소 needs to be handled."
-        }
+        { "id": "saengsanso-accounting",  "name": "saengsanso-accounting",  "desc": "주식회사 생산소 세무·회계·급여·법인카드 처리" },
+        { "id": "grant-accounting-agent", "name": "grant-accounting-agent", "desc": "공모사업 정산·e나라도움·e보템·NCAS 집행 관리" }
       ]
     }
   ]
