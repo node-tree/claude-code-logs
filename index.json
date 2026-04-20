@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-20T12:27:28.129682+00:00",
+  "lastUpdated": "2026-04-20T12:28:09.566270+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "72dbb7e3",
+      "date": "2026-04-20",
+      "startTime": "2026-04-20T09:28:20.881000+00:00",
+      "durationSeconds": 10776,
+      "modelTier": "sonnet",
+      "projectName": "부천아트센터",
+      "toolCallCount": 1,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": []
+    },
     {
       "sessionId": "72dbb7e3",
       "date": "2026-04-20",
@@ -4241,17 +4252,6 @@
       "modelTier": "sonnet",
       "projectName": "nodetree-claude-config",
       "toolCallCount": 84,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "087dcc30",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:47:16.014000+00:00",
-      "durationSeconds": 27523,
-      "modelTier": "sonnet",
-      "projectName": "nodetree-claude-config",
-      "toolCallCount": 70,
       "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
       "agentsUsed": []
     }
