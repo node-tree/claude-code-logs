@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T01:09:18.815532+00:00",
+  "lastUpdated": "2026-04-20T01:13:56.657821+00:00",
   "teams": [
     {
       "id": "harness",
@@ -27,12 +27,12 @@
         {
           "id": "code-evaluator",
           "name": "code-evaluator",
-          "desc": "|"
+          "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PASS 확인."
         },
         {
           "id": "nodetreehome-web",
           "name": "nodetreehome-web",
-          "desc": "Use this agent when the user needs to develop or modify the nodetreeHome web project, including React components, API ro"
+          "desc": "nodetreeHome 웹 프로젝트 개발·배포. React·API·실시간 시각화. 트리거: nodetreeHome, /ocean, 해양 API, 웹 컴포넌트, 라우트 추가."
         }
       ]
     },
@@ -47,22 +47,22 @@
         {
           "id": "doc-design",
           "name": "doc-design",
-          "desc": "Use this agent when the user needs to create portfolios, catalogs, official documents, or formatted reports for NODE TRE"
+          "desc": "포트폴리오·도록·공문·보고서 제작 (Pencil, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서."
         },
         {
           "id": "doc-evaluator",
           "name": "doc-evaluator",
-          "desc": "|"
+          "desc": "하네스 Evaluator. grant-writer·doc-design·film-production 문서에 PASS/REWORK 판정. 트리거: 지원서 검토, 제안서 평가, 문서 확인, 작가노트 검토."
         },
         {
           "id": "grant-writer",
           "name": "grant-writer",
-          "desc": "Use this agent when the user needs to write or draft grant applications, artist statements, or project descriptions for "
+          "desc": "NODE TREE 지원서·작가노트·제안서 작성. 트리거: 지원서 써줘, 공모 신청서 초안, artist statement, 영문 지원서."
         },
         {
           "id": "project-planner",
           "name": "project-planner",
-          "desc": "Use this agent when the user needs to plan project timelines, budgets, task assignments, or manage project progress in O"
+          "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian). 트리거: 일정 짜줘, 체크리스트, 예산 정리, 역할 분담, 진행 상황."
         }
       ]
     },
@@ -77,17 +77,17 @@
         {
           "id": "design-evaluator",
           "name": "design-evaluator",
-          "desc": "|"
+          "desc": "하네스 Evaluator. visual-design·pr-content 결과물에 PASS/REWORK 판정. 트리거: 디자인 평가, 홍보물 검토, 포스터 확인, 보도자료 검토."
         },
         {
           "id": "pr-content",
           "name": "pr-content",
-          "desc": "Use this agent when the user needs to write promotional content, exhibition texts, press releases, or SNS captions for N"
+          "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성. 트리거: 인스타 캡션, 보도자료, 전시 소개, 작품 설명."
         },
         {
           "id": "visual-design",
           "name": "visual-design",
-          "desc": "Use this agent when the user needs to create posters, SNS images, exhibition graphics, or promotional visuals for NODE T"
+          "desc": "NODE TREE 포스터·SNS 이미지·전시 그래픽·홍보물 제작. 트리거: 포스터, 인스타 이미지, 홍보물 디자인, 전시 그래픽, 썸네일."
         }
       ]
     },
@@ -102,12 +102,12 @@
         {
           "id": "grant-research",
           "name": "grant-research",
-          "desc": "Use this agent when the user needs to find grant opportunities, residencies, or competitions suitable for NODE TREE, or "
+          "desc": "NODE TREE 공모·레지던시·어워드 발굴 및 전략. 트리거: 공모 찾아줘, 레지던시 알아봐, 마감 확인."
         },
         {
           "id": "nodetree-research",
           "name": "nodetree-research",
-          "desc": "Use this agent when the user needs to research artworks, artists, theoretical concepts, or technical tools related to NO"
+          "desc": "NODE TREE 작품·이론·기술·지역 리서치, 옵시디안 정리. 트리거: 레퍼런스 찾아줘, 작가 분석, 기술 조사, 옵시디안 정리."
         }
       ]
     },
@@ -122,12 +122,12 @@
         {
           "id": "film-production",
           "name": "film-production",
-          "desc": "|"
+          "desc": "NODE TREE 퍼포먼스 필름 제작 전담. 촬영·편집·색보정·사운드믹싱·영화제 출품. 트리거: 촬영 계획, 편집, 색보정, 사운드 믹싱, 영화제, 이토록고요한파동."
         },
         {
           "id": "media-art-pipeline",
           "name": "media-art-pipeline",
-          "desc": "Use this agent when the user needs to implement technical pipelines for media art: data sonification, OSC/ArtNet/DMX rou"
+          "desc": "미디어아트 기술 파이프라인. 소니피케이션·OSC·ArtNet·ESP32·TidalCycles·Hydra·TouchDesigner. 트리거: 소니피케이션, OSC, CV 출력, TidalCycles, ArtNet."
         }
       ]
     },
@@ -142,12 +142,12 @@
         {
           "id": "grant-accounting-agent",
           "name": "grant-accounting-agent",
-          "desc": "Use this agent when handling accounting and financial management tasks related to government-supported grant projects, i"
+          "desc": "공모·보조사업 회계 전문. 트리거: e나라도움, 보탬e, NCAS, 정산, 집행, 증빙, 보조금, 예산전용, 인건비."
         },
         {
           "id": "saengsanso-accounting",
           "name": "saengsanso-accounting",
-          "desc": "Use this agent when any accounting, financial, or corporate administration task related to 주식회사 생산소 needs to be handled."
+          "desc": "주식회사 생산소 세무·회계·급여·법인카드 처리. 트리거: 생산소, 경비, 세금계산서, 부가세, 원천세, 4대보험, 법인세, 급여."
         }
       ]
     }
