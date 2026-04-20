@@ -2,8 +2,8 @@
   "sessionId": "1b0be374-c11d-4d91-8b9e-2315247aa2d5",
   "date": "2026-04-20",
   "startTime": "2026-04-20T00:12:29.292000+00:00",
-  "endTime": "2026-04-20T02:19:12.478000+00:00",
-  "durationSeconds": 7603,
+  "endTime": "2026-04-20T02:22:45.186000+00:00",
+  "durationSeconds": 7815,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,16 +13,16 @@
     "path": "/Users/kanghyunjung/Desktop/부천아트센터"
   },
   "activity": {
-    "toolCallCount": 291,
+    "toolCallCount": 295,
     "toolCounter": {
       "Agent": 2,
       "ToolSearch": 2,
       "WebSearch": 3,
       "Glob": 7,
-      "Read": 57,
+      "Read": 58,
       "Bash": 60,
-      "Write": 44,
-      "Edit": 86,
+      "Write": 45,
+      "Edit": 88,
       "Grep": 6,
       "TaskCreate": 8,
       "TaskUpdate": 15,
