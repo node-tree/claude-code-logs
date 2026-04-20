@@ -2,8 +2,8 @@
   "sessionId": "ee64359f-3711-4cf9-a8df-2975213eff5f",
   "date": "2026-04-20",
   "startTime": "2026-04-20T08:43:31.410000+00:00",
-  "endTime": "2026-04-20T08:44:48.186000+00:00",
-  "durationSeconds": 76,
+  "endTime": "2026-04-20T08:47:06.204000+00:00",
+  "durationSeconds": 214,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,9 +13,9 @@
     "path": "/Users/kanghyunjung/Desktop/부천아트센터"
   },
   "activity": {
-    "toolCallCount": 2,
+    "toolCallCount": 4,
     "toolCounter": {
-      "Bash": 2
+      "Bash": 4
     }
   },
   "firstPrompt": "https://vercel.com/oauth/device?user_code=NCGH-KQPH 갑자기 이 페이지가 떴다"
