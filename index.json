@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-20T08:09:26.925266+00:00",
+  "lastUpdated": "2026-04-20T08:10:35.833607+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0b869785",
+      "date": "2026-04-20",
+      "startTime": "2026-04-20T04:52:28.712000+00:00",
+      "durationSeconds": 11883,
+      "modelTier": "sonnet",
+      "projectName": "day1",
+      "toolCallCount": 588,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": []
+    },
     {
       "sessionId": "0b869785",
       "date": "2026-04-20",
@@ -4244,17 +4255,6 @@
       "date": "2026-03-30",
       "startTime": "2026-03-30T06:08:43.288000+00:00",
       "durationSeconds": 657,
-      "modelTier": "sonnet",
-      "projectName": "nodetreeHome",
-      "toolCallCount": 4,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "ae8f4aee",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:08:43.288000+00:00",
-      "durationSeconds": 623,
       "modelTier": "sonnet",
       "projectName": "nodetreeHome",
       "toolCallCount": 4,
