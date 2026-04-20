@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-20T08:04:37.406915+00:00",
+  "lastUpdated": "2026-04-20T08:06:50.008617+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0b869785",
+      "date": "2026-04-20",
+      "startTime": "2026-04-20T04:52:28.712000+00:00",
+      "durationSeconds": 11649,
+      "modelTier": "sonnet",
+      "projectName": "day1",
+      "toolCallCount": 581,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": []
+    },
     {
       "sessionId": "0b869785",
       "date": "2026-04-20",
@@ -4247,17 +4258,6 @@
       "modelTier": "sonnet",
       "projectName": "Desktop",
       "toolCallCount": 2,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "1483ebca",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T05:43:23.914000+00:00",
-      "durationSeconds": 1421,
-      "modelTier": "sonnet",
-      "projectName": "nodetreeHome",
-      "toolCallCount": 21,
       "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
       "agentsUsed": []
     }
