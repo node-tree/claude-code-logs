@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-19",
+  "lastUpdated": "2026-04-20",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js App Router 최적화",
+          "name": "Next.js 14+ Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트와 동적 렌더링을 활용한 웹 성능 극대화",
-          "reason": "nodetreehome-web의 사용자 경험 개선과 SEO 최적화를 위해 최신 Next.js 패턴 도입이 필수적이며, 미디어아트 포트폴리오 사이트의 이미지/비디오 로딩 성능 향상에 직결",
+          "desc": "서버 컴포넌트 기반 최신 웹 개발 패턴",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 서버 컴포넌트는 초기 로딩속도를 크게 향상시킬 수 있으며, 미디어아트 포트폴리오 사이트의 이미지/영상 최적화에 직접적으로 도움됨",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 메타분석",
+          "name": "Systematic Literature Review (SLR) 방법론",
           "type": "skill",
-          "desc": "대규모 학술 자료의 자동화된 수집, 분류, 인사이트 도출",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 보조금 작성 시 필요한 선행연구 검토 시간을 60% 단축할 수 있으며, 미디어아트 관련 최신 트렌드 파악에 효율적",
-          "trend": "hot"
+          "desc": "학술 문헌 체계적 수집 및 분석 기법",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 미디어아트의 학술적 근거를 구축할 때 필수적이며, 정부 지원금 신청 시 리서치의 신뢰성과 학술성을 크게 높일 수 있음",
+          "trend": "stable"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "TidalCycles 라이브 코딩 고급 패턴",
+          "name": "Real-time Audio Visualization with TidalCycles + TouchDesigner",
           "type": "skill",
-          "desc": "알고리즘 기반 음악 생성과 실시간 사운드 비주얼 싱크로나이제이션",
-          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner 연동 시 오디오 입력을 동적으로 처리하는 데 필수적이며, 실시간 인터랙티브 설치미술 구현의 핵심 요소",
-          "trend": "rising"
+          "desc": "라이브 코딩과 비주얼 프로그래밍의 실시간 통합",
+          "reason": "media-art-pipeline에서 ESP32와 TidalCycles, TouchDesigner를 모두 활용 중인데, 세 도구 간의 MIDI/OSC 동기화를 통한 실시간 오디오-비주얼 매핑은 현대 미디어아트의 핵심 표현 방식이며 작품의 완성도를 획기적으로 높일 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "예술정산 자동화 MCP (Multi-Currency Protocol)",
-          "type": "mcp",
-          "desc": "다국가 보조금, 해외 판매, 다중 통화 거래의 통합 관리 및 세무보고 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 중복을 제거하고, 국제 미디어아트 전시/판매 시 발생하는 환율 변동, 국가별 세금 규정을 자동으로 적용하여 오류율 최소화",
+          "name": "Grant Accounting Automation with Python",
+          "type": "skill",
+          "desc": "지원금 회계 자동화 및 규정 준수 스크립팅",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 정부 지원금의 복잡한 지출 항목 분류와 증빙 자동화가 필수적이며, 2026년 문화예술 정부 지원금 회계 규정 변화에 빠르게 대응할 수 있음",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 크리에이티브 에셋 생성 및 최적화",
+          "name": "Generative Design + Brand Identity",
           "type": "skill",
-          "desc": "브랜드 가이드라인을 학습해 SNS, 웹, 인쇄물 자동으로 생성하고 A/B 테스트 실행",
-          "reason": "visual-design에서 다양한 플랫폼별 콘텐츠 변형 작업 시간을 단축하고, pr-content가 포스트/광고 소재를 빠르게 제작하며 성과 측정 기반 디자인 개선이 가능",
+          "desc": "알고리즘 기반 시각 아이덴티티 생성 및 적용",
+          "reason": "NODE TREE의 미디어아트 정체성을 visual-design에서 생성형 디자인으로 표현하면, pr-content와의 일관된 브랜드 메시지 전달이 강화되며, 소셜미디어와 전시 홍보물에서 기술-예술의 융합을 시각적으로 효과적으로 드러낼 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리형 LLM 에이전트",
-          "type": "agent",
-          "desc": "프로젝트 마일스톤 자동 생성, 팀 간 의존성 분석, 일정 충돌 감지 및 최적화 제안",
-          "reason": "doc-design, grant-writer, project-planner가 여러 보조금 마감일과 전시 일정을 동시 관리할 때 우선순위 자동 결정과 리스크 사전 경고가 가능하며, 팀 간 커뮤니케이션 비용 절감",
+          "name": "OKR(Objectives & Key Results) Framework",
+          "type": "skill",
+          "desc": "목표 기반 조직 성과 관리 시스템",
+          "reason": "doc-design, grant-writer, project-planner가 각각 문서화, 지원금 기획, 프로젝트 관리를 하고 있는데, OKR을 적용하면 팀 간 목표 정렬과 우선순위 결정이 명확해지며, grant-writer의 지원금 신청서 설득력도 크게 향상됨",
           "trend": "rising"
         }
       ]
