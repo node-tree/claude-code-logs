@@ -5,39 +5,39 @@
     "sessionId": "e51673fb"
   },
   "media-art-pipeline": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "code-evaluator": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "grant-writer": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "visual-design": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "design-evaluator": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "doc-evaluator": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "nodetreehome-web": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "project-planner": {
     "lastActive": "2026-03-31T01:19:56.560000+00:00",
@@ -45,9 +45,9 @@
     "sessionId": "6c30ac17"
   },
   "doc-design": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "grant-accounting-agent": {
     "lastActive": "2026-03-31T01:19:56.560000+00:00",
@@ -65,13 +65,18 @@
     "sessionId": "ee658a19"
   },
   "pr-content": {
-    "lastActive": "2026-03-31T01:19:56.560000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "6c30ac17"
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   },
   "saengsanso-accounting": {
     "lastActive": "2026-03-31T01:19:56.560000+00:00",
     "lastProject": "Desktop",
     "sessionId": "6c30ac17"
+  },
+  "harness-planner": {
+    "lastActive": "2026-04-20T00:55:21.602000+00:00",
+    "lastProject": "claude-code-logs",
+    "sessionId": "1b0be374"
   }
 }
