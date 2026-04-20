@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-04-20T08:44:01.121041+00:00",
+  "lastUpdated": "2026-04-20T08:44:59.854367+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "ee64359f",
+      "date": "2026-04-20",
+      "startTime": "2026-04-20T08:43:31.410000+00:00",
+      "durationSeconds": 76,
+      "modelTier": "sonnet",
+      "projectName": "부천아트센터",
+      "toolCallCount": 2,
+      "firstPrompt": "https://vercel.com/oauth/device?user_code=NCGH-KQPH 갑자기 이 페이",
+      "agentsUsed": []
+    },
     {
       "sessionId": "ee64359f",
       "date": "2026-04-20",
@@ -4244,17 +4255,6 @@
       "date": "2026-03-30",
       "startTime": "2026-03-30T06:08:43.288000+00:00",
       "durationSeconds": 906,
-      "modelTier": "sonnet",
-      "projectName": "nodetreeHome",
-      "toolCallCount": 9,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "ae8f4aee",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:08:43.288000+00:00",
-      "durationSeconds": 873,
       "modelTier": "sonnet",
       "projectName": "nodetreeHome",
       "toolCallCount": 9,
