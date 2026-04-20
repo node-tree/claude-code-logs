@@ -1,21 +1,29 @@
 {
-  "lastUpdated": "2026-04-02T22:07:52.242429+00:00",
-  "totalAgents": 52,
+  "lastUpdated": "2026-04-20T00:55:36.510840+00:00",
+  "totalAgents": 55,
   "agents": [
     {
       "id": "algorithmic-art",
       "type": "skill",
       "category": "art",
       "name": "Algorithmic Art",
-      "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users r",
+      "desc": "p5.js로 알고리즘 아트 생성. 플로우필드, 파티클 시스템, 제너러티브 아트.",
       "emoji": "🎨"
+    },
+    {
+      "id": "audio",
+      "type": "skill",
+      "category": "dev",
+      "name": "Audio",
+      "desc": "Generate TTS audio using MindLogic KNUH API with gemini-2.5-pro-preview-tts. Triggered ONLY by /audio command. Usage: /a",
+      "emoji": "🔹"
     },
     {
       "id": "canvas-design",
       "type": "skill",
       "category": "art",
       "name": "Canvas Design",
-      "desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user ",
+      "desc": "포스터·아트워크를 .png/.pdf로 생성. 디자인 철학 기반 비주얼 제작.",
       "emoji": "🖼"
     },
     {
@@ -23,7 +31,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Grant Accounting",
-      "desc": ">",
+      "desc": "공모사업·보조사업 회계 전문. e나라도움·보탬e·NCAS 집행·정산·증빙·예산전용·예술인 인건비 처리.",
       "emoji": "🔹"
     },
     {
@@ -35,11 +43,19 @@
       "emoji": "📄"
     },
     {
+      "id": "image",
+      "type": "skill",
+      "category": "dev",
+      "name": "Image",
+      "desc": "Generate images using MindLogic KNUH API with Nano Banana 2 (gemini-3.1-flash-image-preview). Triggered ONLY by /image c",
+      "emoji": "🔹"
+    },
+    {
       "id": "kicad-pcb-design",
       "type": "skill",
       "category": "dev",
       "name": "Kicad Pcb Design",
-      "desc": ">",
+      "desc": "KiCad PCB design for Eurorack/Daisy Patch SM. .kicad_pcb 편집, DRC, Gerber 출력, MCP 연동.",
       "emoji": "⚡"
     },
     {
@@ -47,7 +63,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Korea Accounting",
-      "desc": ">",
+      "desc": "한국 법인 세무·회계 전문. 법인세·부가세·원천세·4대보험·세금계산서·연말정산 실무 처리.",
       "emoji": "🔹"
     },
     {
@@ -56,6 +72,14 @@
       "category": "dev",
       "name": "Korean Cinema",
       "desc": "영화 이론, 독립영화, 한국 예술영화(박찬경·박찬욱·봉준호·홍상수·이창동) 방법론 및 미디어아트-영화 교차점 전문 스킬. Use when: (1) 영화 비평/분석 요청, (2) 작가 노트/감독 노트 작성, (3) 영",
+      "emoji": "🔹"
+    },
+    {
+      "id": "media-art-promo",
+      "type": "skill",
+      "category": "dev",
+      "name": "Media Art Promo",
+      "desc": "미디어아트 작품의 인스타그램 홍보물(이미지/릴스 썸네일/비디오)을 @erickoheart 스타일로 제작. 어두운 배경+하이라이트 오브젝트, 세로 한/영 타이포그래피, 영화 타이틀 카드 크레딧 레이아웃. 트리거: \"홍",
       "emoji": "🔹"
     },
     {
@@ -71,23 +95,15 @@
       "type": "skill",
       "category": "document",
       "name": "Pdf",
-      "desc": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, a",
+      "desc": "PDF 텍스트·표 추출, 생성, 병합·분할, 폼 처리.",
       "emoji": "📋"
-    },
-    {
-      "id": "photo-grading",
-      "type": "skill",
-      "category": "art",
-      "name": "Photo Grading",
-      "desc": "Automatically apply famous photographer color grading presets to photos using Pillow.",
-      "emoji": "📷"
     },
     {
       "id": "pptx",
       "type": "skill",
       "category": "document",
       "name": "Pptx",
-      "desc": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creati",
+      "desc": ".pptx 프레젠테이션 생성·편집·분석. 레이아웃, 슬라이드, 발표자 노트 작업.",
       "emoji": "📊"
     },
     {
@@ -111,7 +127,7 @@
       "type": "skill",
       "category": "audio",
       "name": "Supercollider Sound Art",
-      "desc": "|",
+      "desc": "SuperCollider로 실험 사운드 아트·제너러티브 음악·설치 작업. SynthDef, 드론, 그레뉼러, 라이브코딩.",
       "emoji": "🔊"
     },
     {
@@ -119,7 +135,7 @@
       "type": "skill",
       "category": "audio",
       "name": "Supercollider Sound Art For Daisy",
-      "desc": "SuperCollider prototyping for Daisy Patch SM hardware synthesis. Create experimental sound design combining Ikeda Ryoji'",
+      "desc": "SuperCollider → Daisy Patch SM 하드웨어 포팅. DSP 프로토타입, Eurorack 설계, 이케다·Alva Noto 사운드 미학.",
       "emoji": "🎛"
     },
     {
@@ -143,15 +159,23 @@
       "type": "skill",
       "category": "dev",
       "name": "Vercel React Best Practices",
-      "desc": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r",
+      "desc": "React·Next.js 성능 최적화 가이드. RSC, 번들 최적화, 데이터 페칭 패턴.",
       "emoji": "⚛️"
+    },
+    {
+      "id": "video",
+      "type": "skill",
+      "category": "dev",
+      "name": "Video",
+      "desc": "Generate videos using MindLogic KNUH API with Veo 3.1 Fast (veo-3.1-fast-generate-preview). Triggered ONLY by /video com",
+      "emoji": "🔹"
     },
     {
       "id": "web-audio-synth",
       "type": "skill",
       "category": "audio",
       "name": "Web Audio Synth",
-      "desc": "Create web-based synthesizers and audio applications using Strudel, Tone.js, and Web Audio API. Use when (1) integrating",
+      "desc": "Strudel·Tone.js·Web Audio API로 웹 신스·오디오 앱·라이브코딩 인터페이스 구현.",
       "emoji": "🎵"
     },
     {
@@ -171,15 +195,6 @@
       "emoji": "▶️"
     },
     {
-      "id": "clangd-lsp",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Clangd Lsp",
-      "desc": "clangd-lsp",
-      "emoji": "🔧",
-      "version": "1.0.0"
-    },
-    {
       "id": "frontend-design",
       "type": "skill",
       "category": "art",
@@ -195,7 +210,7 @@
       "name": "Figma",
       "desc": "7개 스킬 포함",
       "emoji": "🎭",
-      "version": "2.0.7",
+      "version": "2.1.7",
       "subSkillCount": 7
     },
     {
@@ -421,6 +436,15 @@
       "desc": "Use this agent when the user needs to research artworks, artists, theoretical concepts, or technical tools related to NO",
       "emoji": "○",
       "category": "research"
+    },
+    {
+      "id": "film-production",
+      "type": "agent",
+      "team": "art",
+      "name": "film-production",
+      "desc": "|",
+      "emoji": "▲",
+      "category": "art"
     },
     {
       "id": "media-art-pipeline",
