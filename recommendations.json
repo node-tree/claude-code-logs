@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-23",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 최적화",
+          "name": "TypeScript + React 최적화",
           "type": "skill",
-          "desc": "웹 프로젝트의 타입 안정성과 성능 극대화",
-          "reason": "nodetreehome-web 프로젝트의 유지보수성과 확장성을 높이고, 팀 협업 시 버그를 사전에 방지할 수 있으며, 현재 웹 개발의 산업 표준으로 자리잡았음",
-          "trend": "hot"
+          "desc": "웹 성능 최적화 및 타입 안정성을 통한 개발 생산성 향상",
+          "reason": "nodetreehome-web은 미디어아트 팀의 공식 웹 인터페이스로서 방문자 경험이 중요한데, TypeScript의 타입 안정성으로 버그를 줄이고 React 최적화로 로딩 성능을 개선하여 사용자 만족도와 팀 개발 속도를 동시에 높일 수 있습니다.",
+          "trend": "stable"
         }
       ]
     },
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "학술 문헌 분석 및 메타분석",
-          "type": "skill",
-          "desc": "미디어아트 관련 논문 및 자료의 체계적 수집·분석",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 국내외 지원금 신청 시 설득력 있는 학술적 근거 제시가 필수이며, 연구 기반의 예술 프로젝트 가치를 증명하는 데 직결됨",
+          "name": "문헌 자동 분류 및 메타데이터 생성 MCP",
+          "type": "MCP",
+          "desc": "다량의 학술 자료와 그랜트 데이터를 자동으로 분류하고 태그 생성",
+          "reason": "nodetree-research와 grant-research 두 저장소를 운영하면서 축적되는 방대한 자료들을 효율적으로 관리하고 검색 가능하게 만들기 위해, 자동 분류 MCP를 활용하면 리서치 팀의 시간 절약과 데이터 품질을 동시에 확보할 수 있습니다.",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오-비주얼 싱크로나이제이션",
+          "name": "실시간 신호 처리 및 시각화",
           "type": "skill",
-          "desc": "TidalCycles와 TouchDesigner 간 동기화된 멀티미디어 표현",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 음향과 시각의 완벽한 통합이 미디어아트의 핵심 표현력이며, 이를 통해 관객 경험의 몰입감을 극대화할 수 있음",
+          "desc": "ESP32 센서 입력을 TidalCycles와 TouchDesigner로 동기화하여 즉각적인 멀티미디어 반응 생성",
+          "reason": "media-art-pipeline에서 ESP32(하드웨어), TidalCycles(사운드), TouchDesigner(영상)를 통합하는 과정에서 실시간 신호 처리 능력이 있으면 센서 입력과 예술 출력 사이의 지연을 최소화하고 보다 정교한 인터랙티브 경험을 만들 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "보조금 회계 자동화 및 감시 체계",
-          "type": "skill",
-          "desc": "grant-accounting-agent 기반 실시간 예산 추적 및 규정 준수",
-          "reason": "문화예술 지원금은 복잡한 회계 규정과 보고 요건이 있으며, 자동화를 통해 오류를 줄이고 투명성을 확보하면 향후 지원금 심사에서 신뢰도를 크게 높일 수 있음",
+          "name": "자동 영수증 인식 및 분류 에이전트",
+          "type": "agent",
+          "desc": "이미지 기반 영수증을 OCR로 읽어 자동으로 계정과목 분류 및 기록",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 두 시스템을 운영할 때 수작업 영수증 입력은 오류율이 높고 시간이 오래 걸리는데, 자동 인식 에이전트를 도입하면 데이터 정확성을 높이고 회계팀의 행정 부담을 크게 줄일 수 있습니다.",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "인스타그램/틱톡 쇼츠 최적화 콘텐츠 제작",
+          "name": "AI 이미지 생성 및 스타일 가이드 자동화",
           "type": "skill",
-          "desc": "짧은 형식 동영상으로 미디어아트 작품의 시각적 임팩트 극대화",
-          "reason": "2026년 소셜미디어 환경에서 쇼츠 형식이 주요 도달 채널이며, pr-content 팀이 예술작업팀의 결과물을 젊은 층과 예술 애호가층에게 효과적으로 전달할 수 있는 핵심 스킬임",
+          "desc": "브랜드 일관성을 유지하면서 대량의 소셜미디어 콘텐츠 자동 생성",
+          "reason": "visual-design과 pr-content를 동시에 운영하면서 다양한 채널(SNS, 보도자료, 웹 등)로 지속적인 콘텐츠를 공급해야 하는데, AI 이미지 생성 스킬을 습득하면 NODE TREE의 미디어아트 정체성을 유지하면서도 제작 속도를 배로 늘릴 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "벤치마킹 및 경쟁사 분석",
-          "type": "skill",
-          "desc": "국내외 미디어아트 팀 및 유사 프로젝트의 성공 사례 분석",
-          "reason": "doc-design, grant-writer, project-planner가 보다 경쟁력 있는 기획서를 작성하려면 현재 시장과 지원금 심사 트렌드를 정확히 파악해야 하며, 이를 통해 NODE TREE의 차별화 포인트를 더욱 명확히 할 수 있음",
-          "trend": "stable"
+          "name": "프로젝트 관리 자동화 MCP",
+          "type": "MCP",
+          "desc": "doc-design, grant-writer, project-planner 간 일정, 산출물, 마일스톤을 실시간 동기화",
+          "reason": "기획팀이 문서 설계부터 그랜트 작성, 프로젝트 계획까지 다층적으로 관리해야 할 때, 이들 저장소 간 자동 동기화 MCP를 구축하면 정보 누락을 방지하고 전체 팀의 의사소통 효율성을 극대화하여 프로젝트 성공률을 높일 수 있습니다.",
+          "trend": "rising"
         }
       ]
     }
