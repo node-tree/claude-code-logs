@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "Docker & Kubernetes",
           "type": "skill",
-          "desc": "웹 성능 최적화 및 타입 안정성을 통한 개발 생산성 향상",
-          "reason": "nodetreehome-web은 미디어아트 팀의 공식 웹 인터페이스로서 방문자 경험이 중요한데, TypeScript의 타입 안정성으로 버그를 줄이고 React 최적화로 로딩 성능을 개선하여 사용자 만족도와 팀 개발 속도를 동시에 높일 수 있습니다.",
-          "trend": "stable"
+          "desc": "컨테이너 기반 웹 애플리케이션 배포 및 확장 관리",
+          "reason": "nodetreehome-web의 안정적인 운영과 마이크로서비스 아키텍처 전환을 위해 필수. 개발-스테이징-프로덕션 환경의 일관성 유지와 자동화된 배포 파이프라인 구축으로 팀의 생산성 대폭 향상",
+          "trend": "hot"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "문헌 자동 분류 및 메타데이터 생성 MCP",
-          "type": "MCP",
-          "desc": "다량의 학술 자료와 그랜트 데이터를 자동으로 분류하고 태그 생성",
-          "reason": "nodetree-research와 grant-research 두 저장소를 운영하면서 축적되는 방대한 자료들을 효율적으로 관리하고 검색 가능하게 만들기 위해, 자동 분류 MCP를 활용하면 리서치 팀의 시간 절약과 데이터 품질을 동시에 확보할 수 있습니다.",
-          "trend": "rising"
+          "name": "데이터 시각화 & 통계 분석(Python: Pandas, Matplotlib, Seaborn)",
+          "type": "skill",
+          "desc": "grant-research 데이터를 정량적으로 분석하고 시각화하는 기술",
+          "reason": "정부 및 민간 그랜트 데이터를 체계적으로 분석하면 지원 성공률 향상. 리서치팀이 데이터 기반 인사이트를 도출하여 기획팀의 그랜트 전략 수립을 지원할 수 있으며, 수주 가능성 있는 기회 사전 발굴 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 신호 처리 및 시각화",
+          "name": "Max/MSP와 TouchDesigner 연동",
           "type": "skill",
-          "desc": "ESP32 센서 입력을 TidalCycles와 TouchDesigner로 동기화하여 즉각적인 멀티미디어 반응 생성",
-          "reason": "media-art-pipeline에서 ESP32(하드웨어), TidalCycles(사운드), TouchDesigner(영상)를 통합하는 과정에서 실시간 신호 처리 능력이 있으면 센서 입력과 예술 출력 사이의 지연을 최소화하고 보다 정교한 인터랙티브 경험을 만들 수 있습니다.",
-          "trend": "hot"
+          "desc": "실시간 오디오-비주얼 싱크로나이제이션 및 상호작용적 미디어 설계",
+          "reason": "media-art-pipeline에서 TidalCycles(음향)과 TouchDesigner(영상)를 통합 제어하기 위해 필수. ESP32 센서 데이터를 양쪽 플랫폼으로 동시에 송출하여 immersive 미디어아트 작품의 완성도를 높이고 기술적 안정성 확보",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동 영수증 인식 및 분류 에이전트",
+          "name": "회계자동화 RPA & AI 에이전트",
           "type": "agent",
-          "desc": "이미지 기반 영수증을 OCR로 읽어 자동으로 계정과목 분류 및 기록",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 두 시스템을 운영할 때 수작업 영수증 입력은 오류율이 높고 시간이 오래 걸리는데, 자동 인식 에이전트를 도입하면 데이터 정확성을 높이고 회계팀의 행정 부담을 크게 줄일 수 있습니다.",
-          "trend": "rising"
+          "desc": "반복적인 회계 업무 자동화 및 AI 기반 재무 이상 탐지",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 영수증 스캔, 거래 분류, 세금 신고 준비 등 일관성 있는 반복 업무를 자동화. 인적 오류 감소, 감사 시간 단축, 그랜트별 수지 리포팅의 신속성 향상으로 재정 건전성 확보",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 이미지 생성 및 스타일 가이드 자동화",
+          "name": "AI 이미지 생성 & 편집(Midjourney, Runway)",
           "type": "skill",
-          "desc": "브랜드 일관성을 유지하면서 대량의 소셜미디어 콘텐츠 자동 생성",
-          "reason": "visual-design과 pr-content를 동시에 운영하면서 다양한 채널(SNS, 보도자료, 웹 등)로 지속적인 콘텐츠를 공급해야 하는데, AI 이미지 생성 스킬을 습득하면 NODE TREE의 미디어아트 정체성을 유지하면서도 제작 속도를 배로 늘릴 수 있습니다.",
+          "desc": "프로토타입 비주얼 제작 및 다채로운 PR 콘텐츠 빠른 생성",
+          "reason": "pr-content 제작 시 반복적인 비주얼 에셋 필요 시 AI로 빠르게 대안 생성 가능. 미디어아트 팀의 작업물을 홍보할 때 concept visual 신속 제작, SNS 콘텐츠 다양화로 팀의 노출도 확대 및 PR 효율성 30% 이상 향상",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리 자동화 MCP",
-          "type": "MCP",
-          "desc": "doc-design, grant-writer, project-planner 간 일정, 산출물, 마일스톤을 실시간 동기화",
-          "reason": "기획팀이 문서 설계부터 그랜트 작성, 프로젝트 계획까지 다층적으로 관리해야 할 때, 이들 저장소 간 자동 동기화 MCP를 구축하면 정보 누락을 방지하고 전체 팀의 의사소통 효율성을 극대화하여 프로젝트 성공률을 높일 수 있습니다.",
+          "name": "프로젝트 관리 AI 에이전트 (Notion AI + Custom Workflow Agent)",
+          "type": "agent",
+          "desc": "그랜트-프로젝트 타임라인 자동 생성 및 마일스톤 추적 자동화",
+          "reason": "grant-writer와 project-planner가 수십 개의 그랜트 마감일, 예술 프로젝트 일정을 동시 관리할 때 AI가 우선순위 자동 정렬, 위험 요소 사전 경고, 팀 간 의존성 매핑 수행. doc-design 산출물과 연동하여 보고서 생성 자동화로 기획팀의 전략 수립에 집중 가능",
           "trend": "rising"
         }
       ]
