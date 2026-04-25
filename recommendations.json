@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-24",
+  "lastUpdated": "2026-04-25",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Docker & Kubernetes",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "컨테이너 기반 웹 애플리케이션 배포 및 확장 관리",
-          "reason": "nodetreehome-web의 안정적인 운영과 마이크로서비스 아키텍처 전환을 위해 필수. 개발-스테이징-프로덕션 환경의 일관성 유지와 자동화된 배포 파이프라인 구축으로 팀의 생산성 대폭 향상",
+          "desc": "서버 컴포넌트 기반 최신 웹 개발 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 App Router는 스트리밍 렌더링과 동적 라우팅으로 팀의 개발 생산성을 30% 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "데이터 시각화 & 통계 분석(Python: Pandas, Matplotlib, Seaborn)",
+          "name": "Perplexity Research API",
           "type": "skill",
-          "desc": "grant-research 데이터를 정량적으로 분석하고 시각화하는 기술",
-          "reason": "정부 및 민간 그랜트 데이터를 체계적으로 분석하면 지원 성공률 향상. 리서치팀이 데이터 기반 인사이트를 도출하여 기획팀의 그랜트 전략 수립을 지원할 수 있으며, 수주 가능성 있는 기회 사전 발굴 가능",
+          "desc": "최신 정보 기반 AI 리서치 자동화 도구",
+          "reason": "grant-research와 nodetree-research에서 국내외 지원금 공모 정보 수집 시 AI 기반 리서치로 조사 시간을 60% 단축할 수 있고, 놓친 기회를 최소화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP와 TouchDesigner 연동",
+          "name": "Max/MSP로 ESP32 센서 실시간 통신",
           "type": "skill",
-          "desc": "실시간 오디오-비주얼 싱크로나이제이션 및 상호작용적 미디어 설계",
-          "reason": "media-art-pipeline에서 TidalCycles(음향)과 TouchDesigner(영상)를 통합 제어하기 위해 필수. ESP32 센서 데이터를 양쪽 플랫폼으로 동시에 송출하여 immersive 미디어아트 작품의 완성도를 높이고 기술적 안정성 확보",
+          "desc": "ESP32 센서 데이터를 Max/MSP와 TouchDesigner에 실시간 스트리밍",
+          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 통합에서 센서 데이터를 음향과 시각으로 동시 처리하여 몰입형 인터랙티브 설치미술 구현 가능",
           "trend": "rising"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "회계자동화 RPA & AI 에이전트",
-          "type": "agent",
-          "desc": "반복적인 회계 업무 자동화 및 AI 기반 재무 이상 탐지",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 영수증 스캔, 거래 분류, 세금 신고 준비 등 일관성 있는 반복 업무를 자동화. 인적 오류 감소, 감사 시간 단축, 그랜트별 수지 리포팅의 신속성 향상으로 재정 건전성 확보",
+          "name": "자동 영수증 인식 OCR + 회계 통합",
+          "type": "skill",
+          "desc": "영수증 이미지 자동 인식으로 거래 데이터 DB 자동 생성",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 수기 입력을 OCR로 자동화하면 월간 회계 작업 시간 40% 절감 가능하며, grant-accounting-agent의 감시 정확도도 향상",
           "trend": "hot"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 이미지 생성 & 편집(Midjourney, Runway)",
+          "name": "Adobe Firefly + Generative Fill",
           "type": "skill",
-          "desc": "프로토타입 비주얼 제작 및 다채로운 PR 콘텐츠 빠른 생성",
-          "reason": "pr-content 제작 시 반복적인 비주얼 에셋 필요 시 AI로 빠르게 대안 생성 가능. 미디어아트 팀의 작업물을 홍보할 때 concept visual 신속 제작, SNS 콘텐츠 다양화로 팀의 노출도 확대 및 PR 효율성 30% 이상 향상",
+          "desc": "AI 기반 이미지 생성 및 배경 자동 완성",
+          "reason": "pr-content와 visual-design에서 소셜미디어 콘텐츠 제작 시 AI 생성으로 시각 자료 제작 속도를 5배 향상시킬 수 있으며, 미디어아트 프로젝트의 고품질 홍보 이미지를 빠르게 확보 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리 AI 에이전트 (Notion AI + Custom Workflow Agent)",
-          "type": "agent",
-          "desc": "그랜트-프로젝트 타임라인 자동 생성 및 마일스톤 추적 자동화",
-          "reason": "grant-writer와 project-planner가 수십 개의 그랜트 마감일, 예술 프로젝트 일정을 동시 관리할 때 AI가 우선순위 자동 정렬, 위험 요소 사전 경고, 팀 간 의존성 매핑 수행. doc-design 산출물과 연동하여 보고서 생성 자동화로 기획팀의 전략 수립에 집중 가능",
+          "name": "OKR(목표 기반 관리) + Notion 자동화",
+          "type": "skill",
+          "desc": "분기별 목표 설정 및 진행도 자동 추적 시스템",
+          "reason": "doc-design, grant-writer, project-planner가 협업하는 상황에서 OKR로 팀 전체 목표를 정렬하고 Notion 자동화로 마일스톤 달성도를 실시간 모니터링하면 프로젝트 성공률 35% 증대 가능",
           "trend": "rising"
         }
       ]
