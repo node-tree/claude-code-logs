@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-25",
+  "lastUpdated": "2026-04-26",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router",
+          "name": "React Query/TanStack Query",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 최신 웹 개발 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 App Router는 스트리밍 렌더링과 동적 라우팅으로 팀의 개발 생산성을 30% 향상시킬 수 있음",
+          "desc": "서버 상태 관리 및 데이터 페칭 최적화 라이브러리",
+          "reason": "nodetreehome-web의 복잡한 데이터 흐름을 효율적으로 관리하고 캐싱을 통해 성능 개선. 미디어아트 웹사이트의 로딩 속도 향상으로 사용자 경험 극대화",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Perplexity Research API",
+          "name": "Systematic Literature Review (SLR)",
           "type": "skill",
-          "desc": "최신 정보 기반 AI 리서치 자동화 도구",
-          "reason": "grant-research와 nodetree-research에서 국내외 지원금 공모 정보 수집 시 AI 기반 리서치로 조사 시간을 60% 단축할 수 있고, 놓친 기회를 최소화할 수 있음",
-          "trend": "hot"
+          "desc": "체계적 문헌고찰을 통한 연구 동향 분석 및 데이터 종합",
+          "reason": "grant-research와 nodetree-research에서 미디어아트 분야의 최신 트렌드와 선행연구를 과학적으로 정리. 그랜트 신청 시 학술적 근거 강화 및 차별화된 제안서 작성 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP로 ESP32 센서 실시간 통신",
+          "name": "Max/MSP for Real-time Audio-Visual Synthesis",
           "type": "skill",
-          "desc": "ESP32 센서 데이터를 Max/MSP와 TouchDesigner에 실시간 스트리밍",
-          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 통합에서 센서 데이터를 음향과 시각으로 동시 처리하여 몰입형 인터랙티브 설치미술 구현 가능",
-          "trend": "rising"
+          "desc": "실시간 오디오 비주얼 합성 및 상호작용 프로그래밍",
+          "reason": "ESP32, TidalCycles, TouchDesigner와 연계하여 멀티모달 미디어아트 작업의 통합성 향상. 실시간 사운드와 비주얼 동기화로 예술적 표현력 극대화",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동 영수증 인식 OCR + 회계 통합",
-          "type": "skill",
-          "desc": "영수증 이미지 자동 인식으로 거래 데이터 DB 자동 생성",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 수기 입력을 OCR로 자동화하면 월간 회계 작업 시간 40% 절감 가능하며, grant-accounting-agent의 감시 정확도도 향상",
-          "trend": "hot"
+          "name": "예술 프로젝트 회계 자동화 에이전트",
+          "type": "agent",
+          "desc": "그랜트, 프로젝트별 예산 분류 및 지출 추적 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 중복을 제거하고 실시간 예산 현황 파악. 여러 그랜트의 복잡한 회계 규정을 자동 검증하여 감시 위험 최소화",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Adobe Firefly + Generative Fill",
-          "type": "skill",
-          "desc": "AI 기반 이미지 생성 및 배경 자동 완성",
-          "reason": "pr-content와 visual-design에서 소셜미디어 콘텐츠 제작 시 AI 생성으로 시각 자료 제작 속도를 5배 향상시킬 수 있으며, 미디어아트 프로젝트의 고품질 홍보 이미지를 빠르게 확보 가능",
+          "name": "AI 기반 멀티채널 콘텐츠 생성 MCP",
+          "type": "mcp",
+          "desc": "하나의 핵심 콘텐츠를 SNS, 웹, 보도자료 등 다양한 채널용으로 자동 변환",
+          "reason": "pr-content와 visual-design의 반복 작업 자동화. 미디어아트의 시각적 임팩트를 다양한 플랫폼에서 일관되게 전달하고 홍보 효율성 300% 향상",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "OKR(목표 기반 관리) + Notion 자동화",
-          "type": "skill",
-          "desc": "분기별 목표 설정 및 진행도 자동 추적 시스템",
-          "reason": "doc-design, grant-writer, project-planner가 협업하는 상황에서 OKR로 팀 전체 목표를 정렬하고 Notion 자동화로 마일스톤 달성도를 실시간 모니터링하면 프로젝트 성공률 35% 증대 가능",
+          "name": "프로젝트 타임라인 & 마일스톤 자동화 에이전트",
+          "type": "agent",
+          "desc": "프로젝트 기획 → 예산 → 리스크 연계 자동 추적 및 알림",
+          "reason": "doc-design, grant-writer, project-planner의 정보 동기화 부재 문제 해결. 그랜트 일정, 예술작업 일정, 회계 마감을 통합 관리하여 조직 전체 효율성 극대화 및 데드라인 미스 방지",
           "trend": "rising"
         }
       ]
