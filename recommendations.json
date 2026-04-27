@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-26",
+  "lastUpdated": "2026-04-27",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React Query/TanStack Query",
+          "name": "Next.js 15 App Router 최적화",
           "type": "skill",
-          "desc": "서버 상태 관리 및 데이터 페칭 최적화 라이브러리",
-          "reason": "nodetreehome-web의 복잡한 데이터 흐름을 효율적으로 관리하고 캐싱을 통해 성능 개선. 미디어아트 웹사이트의 로딩 속도 향상으로 사용자 경험 극대화",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 구축",
+          "reason": "nodetreehome-web의 성능 개선과 사용자 경험 향상을 위해 최신 Next.js 패러다임 습득이 필수적이며, 특히 대규모 미디어 콘텐츠 처리 시 렌더링 최적화가 중요함",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review (SLR)",
+          "name": "AI 기반 문헌분석 및 메타분석",
           "type": "skill",
-          "desc": "체계적 문헌고찰을 통한 연구 동향 분석 및 데이터 종합",
-          "reason": "grant-research와 nodetree-research에서 미디어아트 분야의 최신 트렌드와 선행연구를 과학적으로 정리. 그랜트 신청 시 학술적 근거 강화 및 차별화된 제안서 작성 가능",
-          "trend": "rising"
+          "desc": "대량의 학술자료를 자동 분류, 요약, 인사이트 추출하는 AI 활용법",
+          "reason": "grant-research와 nodetree-research에서 국내외 지원금 정보와 미디어아트 트렌드를 효율적으로 수집 분석할 수 있으며, 제안서 작성 시 근거 자료 준비 시간을 대폭 단축할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP for Real-time Audio-Visual Synthesis",
+          "name": "Generative AI와 실시간 비주얼 신스텐시스 통합",
           "type": "skill",
-          "desc": "실시간 오디오 비주얼 합성 및 상호작용 프로그래밍",
-          "reason": "ESP32, TidalCycles, TouchDesigner와 연계하여 멀티모달 미디어아트 작업의 통합성 향상. 실시간 사운드와 비주얼 동기화로 예술적 표현력 극대화",
+          "desc": "TouchDesigner/TidalCycles에서 생성형 AI를 활용해 동적 비주얼과 오디오 생성",
+          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 워크플로우에 AI 기반 생성 요소를 추가하면 창의적 가능성을 확장할 수 있으며, 2026년 미디어아트 트렌드에서 AI 통합은 차별화된 작품 제작의 핵심 요소임",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "예술 프로젝트 회계 자동화 에이전트",
-          "type": "agent",
-          "desc": "그랜트, 프로젝트별 예산 분류 및 지출 추적 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 중복을 제거하고 실시간 예산 현황 파악. 여러 그랜트의 복잡한 회계 규정을 자동 검증하여 감시 위험 최소화",
+          "name": "회계 자동화 RPA 및 MCP 통합",
+          "type": "skill",
+          "desc": "영수증 인식, 거래 자동 분류, 재무제표 생성 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 중복 작업을 최소화하고 인적 오류를 감소시킬 수 있으며, 특히 프로젝트별 예산 추적과 지원금 회계 감시(compliance) 자동화로 팀의 생산성을 30% 이상 향상시킬 수 있음",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 멀티채널 콘텐츠 생성 MCP",
-          "type": "mcp",
-          "desc": "하나의 핵심 콘텐츠를 SNS, 웹, 보도자료 등 다양한 채널용으로 자동 변환",
-          "reason": "pr-content와 visual-design의 반복 작업 자동화. 미디어아트의 시각적 임팩트를 다양한 플랫폼에서 일관되게 전달하고 홍보 효율성 300% 향상",
+          "name": "AI 기반 멀티채널 콘텐츠 생성 및 최적화",
+          "type": "skill",
+          "desc": "한 원본 콘텐츠로부터 SNS, 웹, 인쇄 등 각 채널별 맞춤 결과물 자동 생성",
+          "reason": "pr-content와 visual-design에서 제한된 리소스로 일관된 브랜드 이미지를 유지하면서 다양한 미디어 채널에 최적화된 콘텐츠를 신속하게 배포할 수 있으며, 미디어아트 팀의 시각적 정체성을 강화하는 동시에 홍보 효율성을 극대화함",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 타임라인 & 마일스톤 자동화 에이전트",
+          "name": "프로젝트 라이프사이클 자동화 MCP 에이전트",
           "type": "agent",
-          "desc": "프로젝트 기획 → 예산 → 리스크 연계 자동 추적 및 알림",
-          "reason": "doc-design, grant-writer, project-planner의 정보 동기화 부재 문제 해결. 그랜트 일정, 예술작업 일정, 회계 마감을 통합 관리하여 조직 전체 효율성 극대화 및 데드라인 미스 방지",
+          "desc": "기획 → 예산 → 일정 → 납품까지 모든 단계를 자동 추적하고 리스크 예측",
+          "reason": "doc-design, grant-writer, project-planner의 세부 기능이 통합된 에이전트로 여러 프로젝트의 타임라인과 예산, 이해관계자 소통을 동시 관리할 수 있으며, grant-research와 회계팀 간의 정보 흐름을 자동화하여 프로젝트 성공률 향상 및 지원금 체계적 관리가 가능함",
           "trend": "rising"
         }
       ]
