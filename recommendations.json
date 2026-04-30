@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-04-30",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React Server Components",
+          "name": "Next.js 14+ App Router",
           "type": "skill",
-          "desc": "서버 사이드 렌더링과 클라이언트 상호작용을 최적화하는 현대적 웹 개발 패턴",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 현재 Next.js 기반 프로젝트에서 RSC 도입은 사용자 경험 개선과 번들 크기 감소에 직결되어 미디어아트팀의 웹 포트폴리오 로딩 속도 향상에 즉시 기여 가능",
+          "desc": "서버 컴포넌트와 스트리밍을 지원하는 최신 웹 프레임워크",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 강화가 필수적이며, 2026년 현재 App Router는 프로덕션 표준이 되었음. 미디어아트 포트폴리오 사이트의 빠른 로딩과 풍부한 인터랙션 구현에 필수",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Synthesis",
-          "type": "skill",
-          "desc": "대규모 학술 자료를 AI가 분석하여 핵심 트렌드와 인사이트를 자동 추출하는 기법",
-          "reason": "grant-research와 nodetree-research에서 정부 지원금 공고 분석 및 미디어아트 관련 최신 학술 동향 파악 시 수백 개의 문헌을 빠르게 분류하고 연결고리를 찾을 수 있어, 제안서 작성 시간을 50% 단축하고 경쟁력 있는 연구 포지셔닝 가능",
-          "trend": "hot"
+          "name": "AI-powered Literature Mapping & Synthesis",
+          "type": "agent",
+          "desc": "논문과 자료를 자동 분류하고 트렌드를 시각화하는 AI 에이전트",
+          "reason": "nodetree-research와 grant-research에서 대량의 학술 자료를 효율적으로 분석해야 하며, grant writing의 근거 자료 수집 시간을 70% 단축할 수 있음. 2026년 멀티모달 LLM의 발전으로 학술 이미지/차트 분석도 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "SuperCollider Audio Programming",
+          "name": "Real-time Audio Reactive Visualization in TouchDesigner",
           "type": "skill",
-          "desc": "실시간 오디오 신호 처리와 복잡한 음향 구조를 프로그래밍으로 제어하는 언어",
-          "reason": "TidalCycles는 SuperCollider 기반이며, ESP32/TouchDesigner와의 통합 시 오디오 비주얼라이제이션의 동기화 정밀도를 극대화할 수 있음. 라이브 퍼포먼스와 인터랙티브 설치미술 제작 시 음향 표현의 깊이를 현저히 확장 가능",
-          "trend": "rising"
+          "desc": "오디오 입력에 반응하는 실시간 비주얼 생성 기술",
+          "reason": "TidalCycles와 TouchDesigner 연동 시 ESP32 센서 데이터와 함께 오디오 반응성을 추가하면 인터랙티브 미디어 설치의 몰입도를 극대화할 수 있음. 최근 국제 미디어아트 전시에서 높은 평가를 받는 기술 트렌드",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation MCP",
+          "name": "Multi-currency Grant Reconciliation MCP",
           "type": "mcp",
-          "desc": "정부 지원금 관련 영수증 분류, 카테고리 자동 태깅, 보조금 규정 준수 여부 검증을 자동화하는 에이전트",
-          "reason": "grant-accounting-agent와 saengsanso-accounting의 업무 부담을 획기적으로 경감시킬 수 있음. 문화예술 관련 정부 지원금은 항목별 사용처 제한이 엄격하므로 MCP를 통한 자동 분류와 규정 체크로 감사 리스크 제거 및 월간 정산 시간을 70% 단축 가능",
-          "trend": "hot"
+          "desc": "국제 그랜트의 환율 변동과 다중 통화 관리를 자동화하는 MCP",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 여러 국가의 그랜트를 관리할 때 환율 변동에 따른 재정 보고서 오류가 자주 발생. 국제 미디어아트 팀의 경우 2026년 환율 변동성이 높으므로 실시간 환율 적용 MCP가 감사 리스크를 현저히 감소",
+          "trend": "rising"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Visual Brand Consistency Agent",
+          "name": "AI Video Synthesis for Social Media",
           "type": "agent",
-          "desc": "브랜드 가이드라인을 학습하여 소셜미디어, 포스터, 웹 콘텐츠의 색상/타이포그래피/레이아웃 자동 검증",
-          "reason": "visual-design과 pr-content에서 제작하는 다양한 형식의 콘텐츠(SNS 썸네일, 포스터, 뉴스레터, 홍보물)의 통일성 유지가 브랜드 신뢰도와 직결됨. 에이전트를 통해 실시간 피드백을 받으며 작업하면 최종 검수 단계에서 80% 이상의 재작업 요청 방지 가능",
-          "trend": "rising"
+          "desc": "텍스트 기반 프롬프트로 고품질 숏폼 영상을 생성하는 에이전트",
+          "reason": "pr-content 제작 시 매주 여러 소셜 미디어 채널용 영상이 필요한데, visual-design의 시간 투입을 30% 감소시킬 수 있음. 2026년 Sora/Runway Gen-3 수준의 모델이 상용화되어 미디어아트 팀의 작품 프로모션에 최적화된 콘텐츠 신속 제작 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Multi-Project Timeline Orchestration",
-          "type": "skill",
-          "desc": "프로젝트 간 리소스 충돌을 감지하고 일정을 동적으로 조정하는 고급 프로젝트 관리 기법",
-          "reason": "doc-design, grant-writer, project-planner가 동시에 여러 제안서 마감일, 전시 일정, 지원금 신청 마감을 관리할 때 발생하는 팀 구성원 중복 배치 문제를 선제적으로 해결 가능. 2026년 현재 미디어아트 팀의 정부 지원금 신청 빈도를 고려하면 마감일 관리 실수로 인한 기회 손실 방지에 즉시 효과",
+          "name": "Intelligent Project Timeline Dependency Mapper",
+          "type": "agent",
+          "desc": "프로젝트 마일스톤 간 의존성을 분석하고 병목을 자동 탐지하는 에이전트",
+          "reason": "doc-design, grant-writer, project-planner가 협력할 때 그랜트 데드라인과 예술작업 일정의 충돌이 빈번하게 발생. 이 에이전트는 6개 팀의 프로젝트를 통합 관리하면서 크리티컬 패스를 실시간으로 제시하여 프로젝트 지연을 사전 방지할 수 있음",
           "trend": "rising"
         }
       ]
