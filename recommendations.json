@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14+ App Router",
+          "name": "Next.js 15 App Router + Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 개발",
-          "reason": "nodetreehome-web의 SEO 최적화와 로딩 성능 개선이 필수적이며, 2026년 프로덕션 웹앱 표준으로 자리잡은 스택입니다. 실시간 데이터 업데이트가 많은 미디어아트 포트폴리오 사이트에 최적화되어 있습니다.",
+          "desc": "서버 컴포넌트 기반의 최신 웹 프레임워크 아키텍처",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서, 최신 Next.js는 스트리밍 렌더링과 자동 캐싱으로 미디어아트 포트폴리오 사이트의 로딩속도를 대폭 단축할 수 있으며, 팀 협업 효율도 높아진다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Perplexity AI / Deep Research MCP",
-          "type": "agent",
-          "desc": "학술 논문과 최신 트렌드를 실시간으로 수집 분석하는 AI 에이전트",
-          "reason": "grant-research와 nodetree-research에서 경쟁력 있는 리서치 제안서 작성 시 최신 학술 자료와 시장 동향을 신속하게 수집할 수 있습니다. 2026년 기준 AI 기반 리서치 자동화가 그란트 획득 확률을 30% 이상 높입니다.",
-          "trend": "hot"
+          "name": "Systematic Literature Review & Meta-Analysis 방법론",
+          "type": "skill",
+          "desc": "학술 문헌의 체계적 수집, 분석, 종합 방법론",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 기금 신청 근거와 논문 기반의 연구 신뢰도를 높이기 위해, 체계적인 문헌 검토 프로세스는 미디어아트 분야의 학술적 위상을 강화하고 국제 그랜트 심사위원들의 평가 점수를 향상시킨다.",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP - Jitter 실시간 비디오 처리",
+          "name": "Generative AI + Creative Coding (ML4D, p5.js ml5.js)",
           "type": "skill",
-          "desc": "ESP32 센서 데이터와 TidalCycles 오디오를 TouchDesigner와 동기화하는 통합 신호 처리",
-          "reason": "media-art-pipeline에서 ESP32 입력, TidalCycles 생성음, TouchDesigner 비주얼을 하나의 타임라인으로 통합할 때 필수적입니다. 실시간 멀티미디어 설치미술의 동기화 지연을 밀리초 단위로 제어 가능합니다.",
-          "trend": "stable"
+          "desc": "생성형 AI를 활용한 실시간 창의 코딩 및 인터랙티브 미디어 제작",
+          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에 머신러닝 기반의 사운드비주얼 생성 기능을 통합하면, 예술 표현의 폭을 확장할 수 있으며, 2026년 현재 AI 기반 미디어아트는 국제 미술관과 페스티벌에서 가장 주목받는 트렌드로 작품의 경쟁력을 획기적으로 높일 수 있다.",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation MCP",
-          "type": "agent",
-          "desc": "정부 그란트 회계규정을 자동으로 검증하고 보고서를 생성하는 컴플라이언스 에이전트",
-          "reason": "grant-accounting-agent와 saengsanso-accounting에서 정부 보조금의 복잡한 지출 기준을 실시간으로 검증하여 감사 오류를 사전 차단할 수 있습니다. 미디어아트 기관의 교차 항목 재분류 시 규정 위반 리스크를 95% 이상 제거합니다.",
-          "trend": "rising"
+          "name": "AI 기반 Automated Financial Reconciliation & Audit",
+          "type": "skill",
+          "desc": "자동화된 금융 대사 및 감시 시스템 운영",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 다중 프로젝트의 복잡한 예산 추적과 그랜트 정산 오류를 사전에 방지하기 위해, AI 기반 자동 대사는 월간 정산 시간을 80% 단축하고 감시 위험도를 최소화하여 기금 관리의 투명성과 신뢰도를 극대화한다.",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 이미지 생성 + 브랜드 가이드 MCP",
-          "type": "agent",
-          "desc": "NODE TREE 브랜드 아이덴티티를 학습하여 일관된 시각 자료를 대량 생성하는 크리에이티브 에이전트",
-          "reason": "visual-design과 pr-content에서 소셜 미디어, 웹사이트, 제안서용 이미지를 브랜드 톤&매너 유지하며 빠르게 생산할 수 있습니다. 미디어아트 팀의 다양한 프로젝트별로 맞춤형 비주얼을 주 단위로 업데이트해야 하는 상황에서 제작 시간 70% 단축 가능합니다.",
+          "name": "Motion Graphics + Interactive Storytelling (After Effects + Web Animation)",
+          "type": "skill",
+          "desc": "동적 비주얼 스토리텔링과 브랜드 애니메이션 제작",
+          "reason": "visual-design과 pr-content에서 NODE TREE의 미디어아트 정체성을 강조하는 동적 브랜딩 콘텐츠 제작이 필수적인데, 2026년 소셜미디어 환경에서는 정적 이미지보다 15초 이내의 모션 컨텐츠가 엔게이지먼트를 5배 이상 높이므로, 유튜브/인스타그램 릴스/틱톡 전략적 활용으로 홍보 효율을 극대화할 수 있다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline + Dependency Mapping MCP",
-          "type": "agent",
-          "desc": "복수 프로젝트의 일정, 마일스톤, 크로스팀 의존성을 실시간으로 추적하고 경고하는 자동 계획 에이전트",
-          "reason": "grant-writer, project-planner, doc-design이 동시에 진행되는 그란트 제안 시즌(5월)에 각 팀 간 작업 순서 충돌과 데드라인 누락을 사전에 감지합니다. 미디어아트 특성상 기술팀-예술팀-기획팀 간 조정이 빈번한데, 이 에이전트가 의존성 체인을 자동 갱신하여 지연 발생 확률을 40% 줄입니다.",
+          "name": "OKR (Objectives & Key Results) + Agile Project Management",
+          "type": "skill",
+          "desc": "목표 중심의 민첩한 프로젝트 관리 및 진행 추적 방법론",
+          "reason": "doc-design, grant-writer, project-planner가 다양한 규모의 그랜트와 예술 프로젝트를 동시 관리하는 상황에서, OKR은 팀 전체의 우선순위를 명확히 하고 각 프로젝트의 진행 상황을 실시간으로 가시화하여 기획-개발-예술작업 간의 소통 병목을 해결하고, 그랜트 마감일까지의 역산 계획 수립을 과학적으로 만들어낸다.",
           "trend": "rising"
         }
       ]
