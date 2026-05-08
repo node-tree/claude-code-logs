@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-07",
+  "lastUpdated": "2026-05-08",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React 18+ Server Components",
+          "name": "Next.js App Router 최적화",
           "type": "skill",
-          "desc": "서버 컴포넌트를 활용한 성능 최적화 및 SEO 강화",
-          "reason": "nodetreehome-web의 웹사이트 성능과 사용자 경험을 개선하고, 미디어아트 포트폴리오 로딩 속도를 단축하여 방문자 유입 증대에 직접 기여",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 구축",
+          "reason": "nodetreehome-web의 반응성 개선과 SEO 최적화를 위해 필수적이며, 2026년 현재 Next.js 15+ 버전의 안정화로 프로덕션 적용이 시급한 상황",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
+          "name": "체계적 문헌 관리 및 인용 메타데이터 추출",
           "type": "skill",
-          "desc": "AI 도구를 활용한 논문 검색, 분류, 분석 자동화",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 대량의 학술자료를 효율적으로 처리하고, 지원금 신청에 필요한 근거자료 수집 속도를 2배 이상 단축 가능"
+          "desc": "학술 데이터베이스 통합 및 자동화된 참고문헌 관리 시스템 구축",
+          "reason": "grant-research와 nodetree-research에서 국제 지원금 신청 시 근거 자료의 신뢰도가 직결되며, 메타데이터 기반 분석으로 연구 트렌드 파악 속도 향상",
+          "trend": "rising"
         }
       ]
     },
@@ -31,10 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Generative AI for Visual Content (Stable Diffusion/Midjourney)",
+          "name": "실시간 오디오 프로세싱 최적화",
           "type": "skill",
-          "desc": "AI 생성형 이미지를 미디어아트 작업의 기초 비주얼 또는 프로토타입으로 활용",
-          "reason": "ESP32, TidalCycles, TouchDesigner 기반 인터랙티브 미디어아트 개발 시 초기 콘셉트 시각화를 가속화하고, 창의적 반복 사이클을 단축하여 작품 완성도 향상"
+          "desc": "TidalCycles와 TouchDesigner 간 지연시간 최소화 및 안정성 강화",
+          "reason": "ESP32 기반 센서 입력과 TidalCycles 실시간 사운드 제너레이션을 TouchDesigner 비주얼로 동기화할 때 필수적이며, 라이브 퍼포먼스 품질 결정 요소",
+          "trend": "hot"
         }
       ]
     },
@@ -43,10 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI-Powered Receipt & Expense OCR",
-          "type": "skill",
-          "desc": "영수증 자동 인식 및 경비 분류 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 수기 입력 업무 85% 감소, 오류율 최소화, 월말 결산 기한 단축으로 재정 투명성 강화"
+          "name": "멀티채널 자동화 회계 감시 에이전트",
+          "type": "agent",
+          "desc": "실시간 거래 분류, 보조금 예산 추적, 이상거래 탐지 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent를 통합하여 보조금과 일반 수익 분리 관리가 중요하며, 2026년 국내 문화예술 지원금 감시 기준 강화에 선제적 대응 필요",
+          "trend": "rising"
         }
       ]
     },
@@ -55,10 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Motion Graphics & Video SEO",
+          "name": "멀티채널 콘텐츠 자동 생성 및 최적화",
           "type": "skill",
-          "desc": "소셜 미디어 최적화된 숏폼 콘텐츠와 메타데이터 구성",
-          "reason": "pr-content와 visual-design 작업물을 유튜브, 인스타그램, 틱톡 등 멀티플랫폼에 최적화하여 NODE TREE의 브랜드 인지도 확대 및 팔로워 증가에 직결"
+          "desc": "SNS, 웹, 인쇄물용 비주얼 콘텐츠 규격별 자동 변환 및 톤앤매너 유지",
+          "reason": "pr-content 운영에서 SNS 트렌드 변화 속도에 대응하고 visual-design의 재작업 최소화를 위해 필수적이며, 한국 미디어아트 생태계의 경쟁 심화로 신속한 홍보 반응성이 차별점",
+          "trend": "hot"
         }
       ]
     },
@@ -67,10 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Proposal Project Management & Timeline Automation",
-          "type": "skill",
-          "desc": "지원금 신청 일정 관리 및 체크리스트 자동화",
-          "reason": "grant-writer와 project-planner가 복수의 지원금 공모 기한을 놓치지 않고 체계적으로 관리하며, grant-research와의 협업 로드맵을 자동 생성하여 준비 기간 단축 및 승인율 향상"
+          "name": "프로젝트 시나리오 플래닝 에이전트",
+          "type": "agent",
+          "desc": "보조금 변수, 일정 리스크, 팀 역량을 조합한 의사결정 시뮬레이션",
+          "reason": "doc-design과 grant-writer, project-planner의 세 영역을 통합하며, grant-research의 데이터와 현재 팀 상황을 바탕으로 다중 시나리오 분석이 필요하고 의사결정 시간 단축이 중요",
+          "trend": "rising"
         }
       ]
     }
