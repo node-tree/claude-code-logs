@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-11",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 + React Server Components",
+          "name": "React Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반의 풀스택 웹 개발 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 현재 미디어아트 포트폴리오 사이트의 인터랙티브 콘텐츠 렌더링에 최적화되어 있음",
+          "desc": "서버 사이드 렌더링과 클라이언트 인터랙션을 효율적으로 결합하는 최신 웹 개발 패턴",
+          "reason": "nodetreehome-web의 성능 최적화와 사용자 경험 향상을 위해 필수적. 특히 미디어아트 콘텐츠 전시 웹사이트의 로딩 속도와 인터랙티브 요소 구현에 직접 활용 가능",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
+          "name": "AI-Powered Literature Review & Citation Mapping",
           "type": "skill",
-          "desc": "AI 기반 학술자료 수집 및 메타분석 방법론",
-          "reason": "nodetree-research와 grant-research에서 대량의 학술자료를 효율적으로 분석하고 트렌드를 파악하여 그랜트 작성의 근거자료 확보 시간을 70% 단축할 수 있음",
-          "trend": "rising"
+          "desc": "대규모 학술 데이터베이스에서 관련 논문을 자동 추출하고 인용 관계를 시각화하는 기법",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 선행연구 분석 시간을 80% 단축 가능. 미디어아트와 기술의 교점에 관한 최신 트렌드를 빠르게 파악하여 그랜트 제안서 경쟁력 강화",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Generative Audio with TidalCycles + ML",
+          "name": "Real-time Audio-Visual Synchronization (TouchDesigner + TidalCycles)",
           "type": "skill",
-          "desc": "머신러닝 기반의 실시간 생성음향 및 시각화 동기화",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 센서 입력과 알고리즘 음악을 결합하여 인터랙티브 미디어아트 설치미술의 창의성을 극대화하고 관객 경험을 고도화할 수 있음",
-          "trend": "hot"
+          "desc": "라이브 코딩된 사운드와 제너러티브 비주얼을 밀리초 단위로 동기화하는 기술",
+          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 스택에서 완전한 통합 라이브 퍼포먼스 구현 가능. 2026년 상반기 미디어아트 전시회에서 차별화된 인터랙티브 설치미술 제작에 필수",
+          "trend": "rising"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-project Budget Forecasting Agent",
-          "type": "agent",
-          "desc": "여러 프로젝트의 예산 흐름을 예측하고 최적화하는 AI 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 동시 진행 중인 여러 그랜트 프로젝트의 현금흐름을 실시간으로 추적하고 재정 리스크를 조기에 식별하여 팀의 재정 안정성을 보장할 수 있음",
+          "name": "Multi-Currency Grant Fund Tracking with Blockchain Audit Trail",
+          "type": "skill",
+          "desc": "국제 그랜트의 다중통화 관리와 투명한 지출 기록을 블록체인 기반으로 추적하는 시스템",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 국제 미디어아트 펀딩의 복잡한 환율 변동과 감시 요구사항을 자동화. 해외 그랜트(EU, 북미) 심사 시 재정 투명성으로 신뢰도 대폭 상승",
           "trend": "rising"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Visual Brand Analytics + Social Intelligence",
+          "name": "Data-Driven Visual Content Optimization (SNS Algorithm Mastery)",
           "type": "skill",
-          "desc": "브랜드 비주얼 일관성 분석 및 소셜 미디어 반응도 측정",
-          "reason": "visual-design과 pr-content의 각 결과물이 타겟 오디언스에게 얼마나 효과적으로 전달되는지 정량 분석하여, NODE TREE의 미디어아트 정체성을 강화하는 콘텐츠 전략 수립에 데이터 기반의 인사이트 제공",
-          "trend": "rising"
+          "desc": "각 플랫폼별 알고리즘 특성에 맞춘 비주얼 콘텐츠 자동 최적화 및 A/B 테스팅",
+          "reason": "pr-content의 인스타그램/TikTok/유튜브 크리에이터 채널에서 미디어아트 작업의 도달률 3배 이상 증대 가능. visual-design 팀이 만든 결과물의 실제 파급력을 데이터로 검증하며 즉시 개선",
+          "trend": "hot"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Timeline & Milestone Orchestration MCP",
-          "type": "MCP",
-          "desc": "그랜트 작성부터 결과보고까지 전체 프로젝트 생명주기 관리 프로토콜",
-          "reason": "doc-design, grant-writer, project-planner가 협업할 때 일정 충돌을 방지하고 마일스톤 달성 여부를 실시간 모니터링하며, 다중 그랜트 진행 중 우선순위 자동 조정으로 팀 전체의 일정 효율성을 40% 향상시킬 수 있음",
-          "trend": "hot"
+          "name": "Scenario Planning & Adaptive Project Framework",
+          "type": "skill",
+          "desc": "불확실성 높은 환경에서 여러 시나리오를 사전 설계하고 변수에 따라 유연하게 조정하는 기획 방법론",
+          "reason": "grant-writer와 project-planner의 장기 프로젝트 제안에서 심사위원의 '리스크 관리' 질문에 체계적으로 대응. doc-design 시 여러 버전의 시나리오를 제시하여 그랜트 승인 확률 향상",
+          "trend": "stable"
         }
       ]
     }
