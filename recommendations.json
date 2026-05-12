@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-12",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React Server Components",
+          "name": "TypeScript + Next.js 성능 최적화",
           "type": "skill",
-          "desc": "서버 사이드 렌더링과 클라이언트 인터랙션을 효율적으로 결합하는 최신 웹 개발 패턴",
-          "reason": "nodetreehome-web의 성능 최적화와 사용자 경험 향상을 위해 필수적. 특히 미디어아트 콘텐츠 전시 웹사이트의 로딩 속도와 인터랙티브 요소 구현에 직접 활용 가능",
+          "desc": "웹 애플리케이션의 번들 크기 감소 및 렌더링 성능 향상",
+          "reason": "nodetreehome-web의 사용자 경험을 개선하고 미디어아트 콘텐츠 로딩 속도를 높여 방문자 이탈률 감소에 직접 기여",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Review & Citation Mapping",
+          "name": "메타분석(Meta-Analysis) 및 체계적 문헌고찰",
           "type": "skill",
-          "desc": "대규모 학술 데이터베이스에서 관련 논문을 자동 추출하고 인용 관계를 시각화하는 기법",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 선행연구 분석 시간을 80% 단축 가능. 미디어아트와 기술의 교점에 관한 최신 트렌드를 빠르게 파악하여 그랜트 제안서 경쟁력 강화",
-          "trend": "hot"
+          "desc": "다수의 연구 논문을 통합 분석하여 신뢰도 높은 인사이트 도출",
+          "reason": "grant-research에서 정부/재단 지원금 신청 시 선행 연구의 신뢰성과 창신성을 입증해야 하며, 이 방법론이 심사위원들에게 가장 설득력 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization (TouchDesigner + TidalCycles)",
+          "name": "Real-time Audio-Visual Synchronization with Tidal Cycles",
           "type": "skill",
-          "desc": "라이브 코딩된 사운드와 제너러티브 비주얼을 밀리초 단위로 동기화하는 기술",
-          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 스택에서 완전한 통합 라이브 퍼포먼스 구현 가능. 2026년 상반기 미디어아트 전시회에서 차별화된 인터랙티브 설치미술 제작에 필수",
-          "trend": "rising"
+          "desc": "ESP32 센서 데이터와 TidalCycles 음향 생성을 TouchDesigner에서 실시간 동기화",
+          "reason": "media-art-pipeline에서 센서 입력→음향→비주얼의 통합 작업 흐름을 구축할 수 있어, 상호작용성 높은 설치미술 제작 속도 3배 이상 향상",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-Currency Grant Fund Tracking with Blockchain Audit Trail",
+          "name": "프로젝트 기반 원가계산(Project-Based Costing)",
           "type": "skill",
-          "desc": "국제 그랜트의 다중통화 관리와 투명한 지출 기록을 블록체인 기반으로 추적하는 시스템",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 국제 미디어아트 펀딩의 복잡한 환율 변동과 감시 요구사항을 자동화. 해외 그랜트(EU, 북미) 심사 시 재정 투명성으로 신뢰도 대폭 상승",
-          "trend": "rising"
+          "desc": "각 미디어아트 프로젝트별 실제 투입 비용을 정확히 추적 및 분석",
+          "reason": "grant-accounting과 saengsanso-accounting 모두에서 정부 지원금 정산 시 투명성 검증이 필수이며, 향후 프로젝트 예산 수립 시 근거 데이터 제공으로 신뢰도 향상",
+          "trend": "stable"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Data-Driven Visual Content Optimization (SNS Algorithm Mastery)",
+          "name": "Interactive Visual Storytelling for Social Media",
           "type": "skill",
-          "desc": "각 플랫폼별 알고리즘 특성에 맞춘 비주얼 콘텐츠 자동 최적화 및 A/B 테스팅",
-          "reason": "pr-content의 인스타그램/TikTok/유튜브 크리에이터 채널에서 미디어아트 작업의 도달률 3배 이상 증대 가능. visual-design 팀이 만든 결과물의 실제 파급력을 데이터로 검증하며 즉시 개선",
-          "trend": "hot"
+          "desc": "미디어아트 작업 과정을 숏폼 콘텐츠로 변환하여 인스타그램/틱톡 engagement 극대화",
+          "reason": "pr-content 제작 시 과정(process) 중심의 스토리텔링은 일반 대중의 미디어아트 이해도를 높이고, visual-design팀이 제작한 비주얼 자산을 최대한 활용할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Scenario Planning & Adaptive Project Framework",
+          "name": "AI-Powered Grant Opportunity Matching",
           "type": "skill",
-          "desc": "불확실성 높은 환경에서 여러 시나리오를 사전 설계하고 변수에 따라 유연하게 조정하는 기획 방법론",
-          "reason": "grant-writer와 project-planner의 장기 프로젝트 제안에서 심사위원의 '리스크 관리' 질문에 체계적으로 대응. doc-design 시 여러 버전의 시나리오를 제시하여 그랜트 승인 확률 향상",
-          "trend": "stable"
+          "desc": "NODE TREE의 포트폴리오와 국내외 공고 데이터베이스를 매칭하여 최적 지원처 발굴",
+          "reason": "grant-writer와 project-planner가 매년 수십 개 공고 중 가장 적합한 기회를 선별하는 데 소요되는 시간을 80% 감소시키며, doc-design의 제안서 기획 충실도 향상",
+          "trend": "hot"
         }
       ]
     }
