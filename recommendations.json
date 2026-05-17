@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-16",
+  "lastUpdated": "2026-05-17",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 + React Server Components",
+          "name": "Next.js 14+ App Router",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반의 고성능 웹 애플리케이션 개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 웹 스택의 표준 기술로 자리잡았음. 미디어아트 포트폴리오 사이트의 빠른 로딩과 반응성 향상 가능",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 개발",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적인데, App Router는 2026년 표준으로 자리잡았으며 미디어아트 포트폴리오 사이트의 대용량 이미지/영상 처리에 최적화됨",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered 문헌 분석 및 메타분석",
+          "name": "AI-Powered Literature Review & Citation Management",
           "type": "skill",
-          "desc": "대규모 연구 데이터셋에서 패턴 추출 및 인사이트 도출",
-          "reason": "grant-research와 nodetree-research에서 지원금 공고 분석 및 선행연구 조사 시 AI 도구를 활용하면 리서치 속도 3배 향상 가능. 경쟁 지원금 획득률 증대에 직접 기여",
+          "desc": "LLM 기반 학술 자료 분석 및 자동 인용 추적",
+          "reason": "grant-research와 nodetree-research에서 방대한 학술 자료를 효율적으로 분석하고 그랜트 제안서의 학술 근거를 신속하게 구축해야 하는데, AI 기반 문헌 분석이 시간 대비 품질을 극대화함",
           "trend": "hot"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "SuperCollider로 제너러티브 사운드 디자인",
+          "name": "Real-time Audio Synthesis with SuperCollider",
           "type": "skill",
-          "desc": "프로그래매틱 음향 생성과 실시간 오디오 비주얼 싱크로나이제이션",
-          "reason": "ESP32 임베디드 시스템과 TouchDesigner의 비주얼 아웃풋을 사운드와 완벽 동기화하기 위해 필수. TidalCycles와도 상호운용 가능하며 미디어아트 인스톨레이션의 멀티센서리 경험 극대화",
-          "trend": "rising"
+          "desc": "라이브 오디오 생성과 신호 처리를 위한 환경",
+          "reason": "media-art-pipeline에서 TidalCycles와 ESP32를 활용할 때, SuperCollider를 통해 더 정교한 사운드 디자인과 리얼타임 오디오 피드백이 가능하며 인터랙티브 미디어아트 설치에 필수적",
+          "trend": "stable"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI 기반 자동 장부 분류 및 지출 예측",
+          "name": "Automated Grant Accounting & Compliance Audit",
           "type": "skill",
-          "desc": "거래 데이터 자동 분류 및 현금흐름 예측 분석",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 효율성을 5배 향상시킬 수 있음. 지원금 관리와 프로젝트별 원가 추적 자동화로 인적 오류 감소 및 규정 준수 강화",
-          "trend": "hot"
+          "desc": "그랜트 회계의 자동 감시 및 규정 준수 검증",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 복잡한 그랜트 펀딩 규칙과 국내 세무 규정을 동시에 관리해야 하는데, 자동화 감시 시스템이 오류 예방과 규정 위반 방지에 직결되어 조직 신뢰도 향상",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "생성형 AI 비주얼 기반 디자인 시스템",
+          "name": "AI-Assisted Visual Content Generation & Brand Consistency",
           "type": "skill",
-          "desc": "일관된 브랜드 아이덴티티 유지하면서 다양한 콘텐츠 빠르게 생성",
-          "reason": "pr-content와 visual-design에서 SNS/웹사이트용 마케팅 자산을 빠르게 대량 생성 가능. 미디어아트팀의 독특한 미학을 유지하면서 홍보물 제작 속도 향상으로 브랜드 가시성 증대",
+          "desc": "AI 기반 시각 콘텐츠 생성 및 브랜드 일관성 유지",
+          "reason": "visual-design과 pr-content에서 다채로운 미디어아트 프로젝트를 신속하게 홍보해야 하는데, AI 툴을 활용한 배리에이션 생성과 브랜드 가이드 자동 적용으로 제작 시간 단축과 일관된 브랜드 정체성 확보 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 로드맵 + 시나리오 플래닝 프레임워크",
+          "name": "Project Roadmap & Dependency Mapping with AI",
           "type": "skill",
-          "desc": "불확실성 높은 예술 프로젝트의 다중 경로 계획 수립",
-          "reason": "grant-writer, project-planner, doc-design이 지원금 획득부터 프로젝트 실행까지 일관성 있게 연계될 필요가 있음. 변수가 많은 미디어아트 프로젝트의 리스크 관리 및 타임라인 최적화에 필수적",
+          "desc": "프로젝트 로드맵 자동 생성 및 팀 간 의존성 시각화",
+          "reason": "doc-design, grant-writer, project-planner가 다양한 그랜트와 전시 프로젝트를 동시 진행할 때, AI 기반 의존성 분석으로 일정 충돌을 사전 예방하고 리소스 할당 최적화 가능",
           "trend": "rising"
         }
       ]
