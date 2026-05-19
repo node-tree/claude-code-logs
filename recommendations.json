@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router",
+          "name": "Next.js App Router",
           "type": "skill",
-          "desc": "최신 서버 컴포넌트 기반의 풀스택 웹 개발 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요하며, 2026년 현시점에서 App Router는 프로덕션 표준이 되었으므로 팀의 개발 생산성과 유지보수성을 크게 향상시킬 수 있음",
+          "desc": "최신 React 기반 풀스택 웹 프레임워크로 nodetreehome-web의 성능과 SEO 최적화",
+          "reason": "2026년 웹개발의 표준이며, 미디어아트 포트폴리오 웹사이트의 빠른 로딩과 동적 콘텐츠 관리에 필수적. 개발팀의 웹프로젝트 구축 속도를 2배 이상 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "데이터 시각화 및 인포그래픽 설계",
-          "type": "skill",
-          "desc": "복잡한 연구 데이터를 시각적으로 표현하고 인사이트를 도출하는 기법",
-          "reason": "grant-research와 nodetree-research에서 수집한 데이터의 임팩트를 극대화하려면 명확한 시각화가 필수이며, 그랜트 심사위원과 스테이크홀더들에게 연구 결과의 설득력을 높일 수 있음",
-          "trend": "rising"
+          "name": "AI 문헌 분석 MCP",
+          "type": "mcp",
+          "desc": "학술논문 및 연구자료의 자동 요약, 분류, 인용 추출 기능",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 대량의 미디어아트 및 기술 논문을 분석할 때 수동 작업을 80% 감소시킬 수 있음. 그랜트 작성 시 근거 자료 수집 시간 단축",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "SuperCollider를 활용한 실시간 음향 프로세싱",
+          "name": "실시간 오디오 비주얼 신기술",
           "type": "skill",
-          "desc": "ESP32와 TidalCycles 통합을 위한 고급 오디오 신호 처리 및 생성",
-          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner로 센서 데이터를 수집하고 있으므로, SuperCollider의 실시간 오디오 합성으로 멀티센서리 경험을 완성할 수 있으며 TidalCycles와의 깊이있는 통합이 가능",
-          "trend": "hot"
+          "desc": "TidalCycles와 TouchDesigner 연동으로 음향 데이터를 실시간 비주얼로 변환",
+          "reason": "ESP32 센서 데이터와 TidalCycles 음악 생성을 TouchDesigner 비주얼과 동기화하여 몰입형 미디어아트 설치 구현 가능. media-art-pipeline의 통합 제어 능력 극대화",
+          "trend": "rising"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI 기반 자동화 회계 감사(Audit Automation)",
-          "type": "skill",
-          "desc": "머신러닝을 활용한 거래 이상 탐지 및 회계 프로세스 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 두 시스템을 운영하면서 다중 펀딩 소스의 회계 규정 준수를 보장해야 하므로, AI 감사 자동화로 오류 감소와 규정 준수 확률을 동시에 높일 수 있음",
+          "name": "회계자동화 에이전트",
+          "type": "agent",
+          "desc": "영수증 OCR, 거래 자동분류, 장부 기입 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 수작업 장부 기입을 자동화하여 월 50시간 이상의 업무시간 절감. 그랜트 정산 오류율을 거의 0%로 감소시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜 미디어 인터렉티브 콘텐츠 제작",
-          "type": "skill",
-          "desc": "AR/스크롤 기반 웹 경험으로 SNS 참여도를 극대화하는 콘텐츠 기획",
-          "reason": "pr-content와 visual-design의 협업으로 미디어아트 팀의 작업물을 SNS에서 바이럴화하려면, 정적 이미지가 아닌 인터렉티브한 형식이 필수이며 2026년 알고리즘 트렌드상 높은 참여율 보장",
+          "name": "AI 기반 콘텐츠 생성",
+          "type": "agent",
+          "desc": "NODE TREE의 예술작업 이미지로부터 자동으로 SNS, 블로그 홍보글 및 비주얼 생성",
+          "reason": "visual-design과 pr-content 프로젝트에서 작업 사진 1장으로 다채로운 홍보 콘텐츠 다중 생성 가능. 소셜미디어 게시 빈도를 주 3회에서 주 7회로 확대 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Theory of Change 방법론",
-          "type": "skill",
-          "desc": "사회적 영향을 추적 및 측정하는 프로젝트 설계 및 평가 체계",
-          "reason": "grant-writer와 project-planner가 문화예술 그랜트를 작성할 때, 펀더들이 요구하는 임팩트 메트릭과 장기 변화 논리를 명확히 입증해야 하며 이 방법론이 미디어아트의 사회적 가치를 체계적으로 증명할 수 있음",
+          "name": "프로젝트 일정 최적화 에이전트",
+          "type": "agent",
+          "desc": "팀별 역량과 마감일을 고려한 자동 일정 생성 및 리스크 예측",
+          "reason": "doc-design, grant-writer, project-planner 프로젝트의 복합한 의존성 관리와 예술프로젝트의 불확실성을 반영한 적응형 스케줄링 가능. 그랜트 마감 missed 위험도를 70% 감소",
           "trend": "rising"
         }
       ]
