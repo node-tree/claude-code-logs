@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-23",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14 App Router",
+          "name": "Next.js 15 Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 풀스택 웹 개발 프레임워크",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선이 필수적이며, App Router는 2026년 현재 프로덕션 표준으로 안정화됨. 대규모 미디어아트 포트폴리오 사이트 구축 시 렌더링 효율성이 크리티컬",
-          "trend": "stable"
+          "desc": "서버 컴포넌트 기반의 고성능 웹 개발 기술",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 Next.js 최신 버전의 서버 컴포넌트는 미디어아트 포트폴리오 사이트의 빠른 로딩과 동적 콘텐츠 관리에 최적화되어 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Claude MCP (Model Context Protocol)",
+          "name": "AI 문헌 분석 에이전트",
           "type": "agent",
-          "desc": "장문 문맥 처리 및 복합 리서치 데이터 통합 에이전트",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 다양한 소스의 리서치 자료를 통합·분석해야 함. MCP는 100K 토큰 이상의 장문 맥락을 처리하여 정부 지원금 신청 자료 및 학술 리서치 작성 시 일관성 있는 논거 구성 가능",
+          "desc": "학술 논문 및 리서치 자료의 자동 수집, 분석, 요약 수행",
+          "reason": "grant-research와 nodetree-research에서 대량의 미디어아트 및 기술 리서치 자료를 처리할 때 AI 에이전트를 활용하면 리서치 효율성이 300% 이상 증가하며, 보조금 작성 시 근거 자료 수집 시간을 대폭 단축할 수 있음",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Mapping",
+          "name": "SuperCollider Real-time Audio Processing",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 간 실시간 데이터 동기화 기법",
-          "reason": "media-art-pipeline의 세 가지 플랫폼을 통합하는 핵심 과제. OSC/MIDI 프로토콜을 넘어 딥러닝 기반 음향-영상 매핑을 활용하면 인터랙티브 설치미술의 차원을 한 단계 상향할 수 있음",
+          "desc": "ESP32 및 TidalCycles와 통합된 실시간 오디오 신호 처리",
+          "reason": "media-art-pipeline에서 TouchDesigner와 TidalCycles 간의 음향 시각화 작업 시 SuperCollider를 통한 고급 신호 처리는 실시간 상호작용성을 극대화하고 창의적 표현의 폭을 넓히는 데 필수적임",
           "trend": "rising"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation MCP",
-          "type": "agent",
-          "desc": "정부 지원금 영수증 자동 분류 및 보고서 생성 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent를 동시 운영하며 복잡한 보조금 정산이 필요한 상황. 자동화된 MCP 에이전트로 영수증 OCR, 카테고리 분류, 보고서 작성을 통합하면 실수 방지 및 업무 시간 70% 단축 가능",
+          "name": "회계 자동화 MCP (국고보조금 연동)",
+          "type": "MCP",
+          "desc": "한국 정부 보조금 관리 시스템과 연동된 자동 장부 기록 및 보고",
+          "reason": "grant-accounting-agent에서 한국의 복잡한 보조금 회계 규정 준수가 필수적이며, MCP를 통해 정부 시스템과 직접 연동하면 오류율 감소 및 보고 시간 단축이 가능하고 감시 대상 기관으로서의 투명성 강화 가능",
           "trend": "hot"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Brand Visual System Design",
-          "type": "skill",
-          "desc": "일관된 브랜드 아이덴티티를 유지하며 콘텐츠별 비주얼 자동 생성",
-          "reason": "pr-content와 visual-design의 협업 효율성 극대화가 필요함. Midjourney/Runway 등의 생성형 AI를 브랜드 가이드라인 내에서 활용하면, 매월 다양한 소셜미디어 콘텐츠를 빠르게 제작하면서도 브랜드 일관성 유지 가능",
+          "name": "AI 멀티모달 콘텐츠 생성 에이전트",
+          "type": "agent",
+          "desc": "텍스트 기반 입력으로부터 비주얼 및 PR 콘텐츠를 자동 생성",
+          "reason": "pr-content 제작 및 visual-design 작업에서 SNS 콘텐츠, 이미지, 영상 티저 등을 빠르게 생성해야 할 때 멀티모달 에이전트는 창의성을 보조하면서 일관된 브랜드 아이덴티티를 유지할 수 있게 하며, 콘텐츠 생산 속도를 2-3배 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline + Budget Integrated Planning MCP",
-          "type": "agent",
-          "desc": "프로젝트 일정, 예산, 인력을 실시간 동기화하는 통합 기획 에이전트",
-          "reason": "grant-writer, doc-design, project-planner가 서로 다른 문서 포맷으로 작업 중. 통합 MCP 에이전트는 프로젝트 변수들의 연동성을 자동으로 감지하여 일정 지연 시 예산 재조정, 예산 증감 시 마일스톤 조정 등을 실시간 제안하여 프로젝트 성공률 향상",
+          "name": "프로젝트 관리 및 마일스톤 추적 MCP",
+          "type": "MCP",
+          "desc": "프로젝트 일정, 예산, 우선순위를 통합 관리하고 자동 리포팅",
+          "reason": "doc-design, grant-writer, project-planner의 복잡한 다중 프로젝트 관리에서 MCP를 통해 보조금 일정, 예술작업 타이밍, 홍보 일정이 자동으로 동기화되면 팀 간 소통 비용이 감소하고 데드라인 관리 정확도가 대폭 향상되며, 특히 한국의 보조금 사업 다중관리가 효율화됨",
           "trend": "rising"
         }
       ]
