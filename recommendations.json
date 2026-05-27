@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14 App Router",
+          "name": "Next.js 15 + Server Components",
           "type": "skill",
-          "desc": "최신 React 서버 컴포넌트 기반 풀스택 웹개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, App Router는 현재 웹개발의 산업표준으로 팀의 생산성과 유지보수성을 크게 향상시킬 수 있음",
+          "desc": "서버 컴포넌트 기반의 최신 웹 개발 아키텍처",
+          "reason": "nodetreehome-web 유지보수 및 성능 최적화를 위해 최신 Next.js 버전의 SSR/RSC 패턴 이해가 필수적이며, 프로젝트 확장성과 로딩 속도 개선에 직접 기여",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "문헌 자동 분석 및 메타데이터 추출 MCP",
-          "type": "mcp",
-          "desc": "AI 기반 학술논문/자료 자동 분류 및 요약",
-          "reason": "grant-research와 nodetree-research에서 방대한 자료를 수집할 때 수작업 분석에 소요되는 시간을 70% 이상 단축할 수 있으며, 데이터 기반 인사이트 도출을 가속화",
-          "trend": "rising"
+          "name": "Systematic Literature Review (SLR) 방법론",
+          "type": "skill",
+          "desc": "체계적 문헌고찰을 통한 신뢰도 높은 연구 데이터 수집 및 분석",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 정부 지원금 신청 시 학술적 근거가 필수적이며, SLR은 미디어아트 분야의 트렌드 분석과 정당성 입증에 매우 효과적",
+          "trend": "stable"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Generative AI를 활용한 실시간 비주얼 신스테시스",
+          "name": "Max/MSP 신호처리 및 오디오 비주얼라이제이션",
           "type": "skill",
-          "desc": "AI 모델 활용 실시간 영상 생성 및 변형",
-          "reason": "TouchDesigner와 TidalCycles 기반 작업에서 생성형 AI를 통합하면 표현의 자유도가 급증하며, 최근 미디어아트 트렌드인 AI×사운드비주얼의 차별화된 작품 제작 가능",
-          "trend": "hot"
+          "desc": "TidalCycles와의 연동을 통한 실시간 오디오-비주얼 동기화 기술",
+          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 오디오 데이터를 TouchDesigner 비주얼로 실시간 매핑하려면 Max/MSP의 신호처리가 중추적 역할을 하며, 라이브 미디어아트 성능 품질 향상에 필수",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화된 영수증 인식 및 분류 에이전트",
-          "type": "agent",
-          "desc": "OCR 기반 거래증빙 자동 분석 및 회계과목 배치",
-          "reason": "grant-accounting-agent와 saengsanso-accounting에서 매월 반복되는 영수증 정리와 분류 작업을 완전 자동화하여 인적 오류 제거 및 월 30시간 이상의 효율성 확보",
-          "trend": "rising"
+          "name": "회계 자동화 RPA (한국 세무기준 특화)",
+          "type": "skill",
+          "desc": "영수증 OCR 및 거래 자동분류를 통한 회계 업무 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 관리에서 반복적인 데이터 입력 작업을 자동화하여 오류율 감소 및 세금신고 기한 준수 확률 향상, 특히 예술단체 특성에 맞는 한국 세무기준 적용 필수",
+          "trend": "hot"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "브랜드 가이드라인 자동 검증 시스템",
-          "type": "agent",
-          "desc": "색상/타이포그래피/레이아웃 일관성 자동 검수",
-          "reason": "pr-content와 visual-design에서 다양한 채널의 콘텐츠 생산 시 브랜드 일관성 유지가 어려운데, 자동 검증으로 수정 사이클을 단축하고 전문성 있는 최종 결과물 보장",
-          "trend": "rising"
+          "name": "AI 이미지 생성 프롬프트 엔지니어링 (Midjourney/DALL-E)",
+          "type": "skill",
+          "desc": "미디어아트 작업의 비주얼 자산을 빠르게 생성하고 브랜딩하는 기술",
+          "reason": "pr-content 제작 시 소셜미디어용 고품질 이미지와 시각자료를 신속하게 생산할 수 있으며, visual-design의 개념 시안 단계에서 아티스트의 아이디어를 시각화하는 데 효율성 극대화",
+          "trend": "hot"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 일정 예측 및 위험도 분석 MCP",
-          "type": "mcp",
-          "desc": "과거 데이터 기반 일정 자동 산정 및 병목 지점 사전 탐지",
-          "reason": "grant-writer와 project-planner에서 여러 프로젝트를 동시 관리할 때 일정 딜레이를 사전에 감지하고 리소스 재배치 가능하며, 그랜트 제안서의 현실성 있는 일정 설정으로 승인율 상향",
-          "trend": "stable"
+          "name": "Grant Proposal 작성 AI 에이전트 (한국 정부 지원금 특화)",
+          "type": "agent",
+          "desc": "문화체육관광부/예술위원회 공고에 맞춘 자동 제안서 생성 및 자금 계획 시뮬레이션",
+          "reason": "grant-writer와 project-planner가 매년 반복되는 정부 지원금 신청서 작성 시간을 50% 단축할 수 있으며, 한국 미디어아트 펀딩의 평가항목(혁신성/영향력/예산효율)에 최적화된 문안 제안으로 선정 확률 향상",
+          "trend": "rising"
         }
       ]
     }
