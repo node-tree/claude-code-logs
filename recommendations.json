@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-02",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React Server Components",
+          "name": "Next.js 15 Server Components",
           "type": "skill",
-          "desc": "서버 렌더링과 클라이언트 상호작용을 효율적으로 통합하는 최신 웹 아키텍처",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선, 복잡한 미디어 콘텐츠 로딩 시간 단축을 위해 필수적이며, 2026년 프로덕션 웹서비스의 표준 기술",
+          "desc": "서버 컴포넌트 기반 풀스택 웹 개발 최적화",
+          "reason": "nodetreehome-web의 성능과 SEO를 동시에 개선하며, 미디어아트 포트폴리오 사이트의 동적 콘텐츠 로딩을 효율화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
-          "type": "skill",
-          "desc": "AI 도구를 활용한 대규모 문헌 수집, 분류, 분석 방법론",
-          "reason": "grant-research에서 경쟁력 있는 지원서 작성을 위해 동향 분석 시간을 70% 단축할 수 있으며, 미디어아트 관련 국내외 사례 데이터베이스 구축에 핵심적",
-          "trend": "rising"
+          "name": "AI-Powered Literature Review Agent",
+          "type": "agent",
+          "desc": "학술 자료 자동 수집/분류/요약 에이전트",
+          "reason": "nodetree-research와 grant-research에서 방대한 학술자료를 체계적으로 정리하고 그랜트 주제와의 연관성을 빠르게 파악할 수 있어 리서치 효율 3배 이상 증대",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Supercollider + TidalCycles Integration",
+          "name": "Generative Audio Synthesis with TidalCycles",
           "type": "skill",
-          "desc": "라이브 코딩 기반 사운드 합성과 실시간 비주얼 매핑 통합 기술",
-          "reason": "ESP32와 TouchDesigner 기반 인터랙티브 미디어 설치미술에서 사운드와 비주얼의 동시 제어를 구현할 수 있으며, TidalCycles 워크플로우의 완성도를 높일 수 있음",
-          "trend": "hot"
+          "desc": "실시간 생성형 음향 프로그래밍",
+          "reason": "ESP32 센서 데이터를 TidalCycles로 음향화하고 TouchDesigner와 통합하여 인터랙티브 미디어아트의 멀티모달 경험을 고도화할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-Project Cost Tracking MCP",
-          "type": "MCP",
-          "desc": "복수 프로젝트의 실시간 예산 추적 및 자동 보고 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent를 통합 관리하며, 월말 결산 작업 자동화로 수작업 시간 60% 감소, 미디어아트팀 전체의 예산 가시성 확보",
-          "trend": "rising"
+          "name": "Automated Grant Accounting MCP",
+          "type": "agent",
+          "desc": "그랜트 회계 자동화 및 규정 준수 모니터링 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent를 연동하여 복잡한 그랜트 자금 추적, 영수증 분류, 정산 보고서 자동생성으로 회계 오류 제거 및 감시 시간 70% 단축",
+          "trend": "hot"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Brand Narrative Generation Agent",
-          "type": "agent",
-          "desc": "시각 콘텐츠 기반 일관된 브랜드 스토리텔링 자동화 에이전트",
-          "reason": "pr-content 제작에서 NODE TREE의 예술성과 기술성을 동시에 전달하는 메시지를 다채로운 플랫폼(SNS, 보도자료, 포트폴리오)에 맞춰 생성할 수 있으며, 미디어아트팀의 브랜드 아이덴티티 강화",
-          "trend": "hot"
+          "name": "AI Visual Brand Consistency Tool",
+          "type": "tool",
+          "desc": "멀티채널 브랜드 가이드라인 자동 적용",
+          "reason": "visual-design과 pr-content 제작 시 NODE TREE의 브랜드 색상, 타이포그래피, 레이아웃을 일관되게 유지하고, SNS/보도자료/포스터 생성 속도 2배 향상",
+          "trend": "rising"
         }
       ]
     },
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Proposal Timeline Optimizer",
+          "name": "Project Milestone & Timeline MCP",
           "type": "agent",
-          "desc": "지원금 공고 분석 및 최적 신청 일정 자동 계획 에이전트",
-          "reason": "grant-writer와 project-planner의 협업에서 공고 마감일, 심사일정, 예비기간을 고려한 작업 타임라인을 자동 생성하여 놓친 기회 방지, 연간 5-7개 사업 기획 효율성 2배 증대",
+          "desc": "프로젝트 일정 자동 추적 및 위험요소 예측 에이전트",
+          "reason": "doc-design, grant-writer, project-planner 간 업무 의존성을 맵핑하고, 그랜트 마감일 기준 백워드 스케줄링 자동화로 프로젝트 지연 리스크 50% 감소",
           "trend": "rising"
         }
       ]
