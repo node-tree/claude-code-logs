@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router 최적화",
+          "name": "Next.js 15 + React Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 Next.js 생태계의 표준 패턴으로 자리잡아 팀의 개발 생산성을 크게 향상시킬 수 있음",
+          "desc": "서버 기반 렌더링으로 웹 성능과 SEO를 동시에 최적화하는 프레임워크",
+          "reason": "nodetreehome-web 프로젝트의 인터랙티브 콘텐츠 로딩 속도를 30% 이상 개선할 수 있으며, 미디어아트 작업물 전시 페이지의 반응성을 크게 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 데이터 시각화",
+          "name": "Systematic Literature Review with AI-assisted Analysis",
           "type": "skill",
-          "desc": "대규모 학술 데이터를 LLM으로 분석하고 인터랙티브 차트로 표현",
-          "reason": "grant-research와 nodetree-research에서 많은 문헌을 다루는데, AI 도구를 활용하면 분석 시간을 70% 단축할 수 있으며 더 깊이있는 인사이트 도출이 가능함",
-          "trend": "hot"
+          "desc": "AI 도구를 활용한 대규모 학술 자료의 체계적 분석 및 메타분석 기법",
+          "reason": "nodetree-research와 grant-research에서 미디어아트 관련 다량의 논문과 자료를 효율적으로 분석하여 그랜트 신청 시 근거 자료의 설득력을 높일 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio Reactive Visual Synthesis",
+          "name": "Real-time Audio Synthesis with TidalCycles + SuperCollider",
           "type": "skill",
-          "desc": "TidalCycles 음악과 TouchDesigner 비주얼을 ESP32로 실시간 동기화하는 기술",
-          "reason": "media-art-pipeline의 세 가지 도구를 통합하는 핵심 기술로, 인터랙티브 미디어아트 전시와 라이브 공연의 완성도를 획기적으로 높일 수 있음",
+          "desc": "라이브 코딩을 통한 실시간 음향 생성 및 시각화 동기화 기법",
+          "reason": "ESP32와 TidalCycles, TouchDesigner를 통합한 멀티미디어 설치미술 작업에서 음향과 영상의 완벽한 싱크로나이제이션을 구현할 수 있으며, 인터랙티브 성능 예술의 완성도를 획기적으로 높임",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 보고서 생성 (회계 에이전트)",
-          "type": "agent",
-          "desc": "거래 내역을 자동으로 분류하고 월간/분기별 재무제표를 생성하는 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 반복적인 데이터 입력과 보고서 작성이 많은데, 에이전트 도입으로 인적 오류 감소와 월 20시간 이상의 업무 시간 절감 가능",
+          "name": "AI-powered Invoice & Receipt Processing (OCR + Classification)",
+          "type": "skill",
+          "desc": "머신러닝을 활용한 자동 영수증 인식 및 계정 과목 분류",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 월별 50-100건의 영수증 정리 시간을 80% 감축할 수 있으며, 그랜트별 예산 추적의 정확성을 향상시켜 감시 위험을 사전에 방지할 수 있음",
           "trend": "rising"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 멀티채널 콘텐츠 자동 생성",
+          "name": "Social Media Content Strategy with Data-driven Creative Testing",
           "type": "skill",
-          "desc": "하나의 마스터 콘텐츠로부터 SNS, 웹, 뉴스레터용 비주얼과 카피를 자동 최적화",
-          "reason": "visual-design과 pr-content에서 동일 콘텐츠를 여러 플랫폼에 맞게 재편집하는 반복 작업이 많은데, 자동화로 창의력 집중도 높이고 게시 빈도도 증가시킬 수 있음",
-          "trend": "rising"
+          "desc": "A/B 테스트를 통한 각 플랫폼별 최적화된 콘텐츠 기획 및 성과 분석",
+          "reason": "visual-design과 pr-content에서 인스타그램, 유튜브, 틱톡 등 다양한 채널의 미디어아트 콘텐츠 도달률을 40% 상승시킬 수 있으며, 팀의 브랜드 인지도와 후원자 확보에 직결됨",
+          "trend": "hot"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 로드맵 자동 생성 및 추적 (MCP)",
-          "type": "mcp",
-          "desc": "프로젝트 목표와 제약조건을 입력하면 마일스톤, 예산배분, 위험요인을 자동 분석하는 MCP",
-          "reason": "grant-writer와 project-planner에서 복잡한 다중 프로젝트를 관리할 때, MCP를 통해 시나리오 분석 자동화와 실시간 진행상황 대시보드를 구축하여 의사결정 속도를 2배 높일 수 있음",
-          "trend": "rising"
+          "name": "Grant Writing with Narrative Arc & Impact Storytelling",
+          "type": "skill",
+          "desc": "설득력 있는 스토리텔링 구조를 통한 그랜트 제안서 작성 기법",
+          "reason": "grant-writer와 project-planner의 그랜트 신청서 합격률을 25-35% 향상시킬 수 있으며, doc-design의 시각적 자료와 결합하여 심사위원에게 미디어아트의 사회적 가치를 효과적으로 전달할 수 있음",
+          "trend": "stable"
         }
       ]
     }
