@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-06",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router + Server Components",
+          "name": "Next.js App Router 고급 패턴",
           "type": "skill",
-          "desc": "최신 React 서버 컴포넌트 기반 풀스택 웹개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 Server Components는 초기 로딩 속도 50% 개선 가능하며, 미디어아트 포트폴리오 웹사이트의 시각적 임팩트를 극대화할 수 있음",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 개발",
+          "reason": "nodetreehome-web의 반응성 개선과 SEO 최적화를 위해 필수적이며, 2026년 현재 Next.js 15+ 기반 프로젝트 표준이 됨",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review & Meta-Analysis",
-          "type": "skill",
-          "desc": "체계적 문헌고찰과 메타분석을 통한 근거기반 연구방법론",
-          "reason": "grant-research와 nodetree-research에서 정부지원금 심사위원을 설득하기 위해 선행연구의 신뢰성 있는 분석이 필수이며, 2026년 미디어아트 관련 정책연구 경쟁이 심화되는 시점에서 학술적 엄밀성으로 차별화 가능",
-          "trend": "rising"
+          "name": "AI 기반 문헌 분석 에이전트",
+          "type": "agent",
+          "desc": "학술 데이터베이스 크롤링 및 요약, 트렌드 분석 자동화",
+          "reason": "grant-research와 nodetree-research에서 대량의 논문 및 보조금 정보를 빠르게 분석해야 하며, AI 에이전트를 통해 리서치 효율성을 3배 이상 증대 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "AI-Assisted Real-time Audio Synthesis (Stable Audio / Riffusion 커스터마이징)",
+          "name": "Max/MSP와 Tidal Cycles 통합",
           "type": "skill",
-          "desc": "TidalCycles 기반 라이브 공연에 AI 음성합성을 통합한 즉흥 음악 생성",
-          "reason": "ESP32 하드웨어와 TouchDesigner 비주얼과의 실시간 동기화가 필요한 media-art-pipeline에서 AI 기반 적응형 음성합성은 관객 상호작용성을 획기적으로 높일 수 있으며, 국내 미디어아트 씬에서 아직 활용도 낮은 차별화 포인트",
-          "trend": "hot"
+          "desc": "실시간 오디오 비주얼 퍼포먼스를 위한 동기화 기법",
+          "reason": "media-art-pipeline에서 TouchDesigner와 TidalCycles의 시간축 정렬이 핵심이며, 라이브 퍼포먼스의 신뢰성과 창의적 표현력을 극대화",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Compliance Automation (정부지원금 자동감시 시스템)",
-          "type": "skill",
-          "desc": "정부지원금 사용내역 자동추적 및 규정위반 사전경고 시스템 구축",
-          "reason": "grant-accounting-agent의 핵심 기능으로, 미디어아트 프로젝트는 복수 정부부처 지원금을 받는 경우가 많아 중복지원 적발 위험이 높으며, 자동화된 컴플라이언스 체크로 80% 이상의 감시 오류 감소 가능",
-          "trend": "rising"
+          "name": "지출/수입 자동 분류 MCP",
+          "type": "mcp",
+          "desc": "영수증 이미지 OCR 및 카테고리 자동 분류, 회계 장부 자동 작성",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 수기 작업 시간을 80% 단축할 수 있으며, 보조금 회계감시 시스템 구축에 필수적",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Video Generation & Editing (Runway Gen-3 / Descript 고급활용)",
-          "type": "skill",
-          "desc": "프롬프트 기반 단문 영상 자동생성 및 자막·컬러 보정 자동화",
-          "reason": "pr-content에서 SNS용 숏폼 콘텐츠 제작 속도를 10배 이상 높일 수 있으며, visual-design의 일관된 브랜드 톤을 유지하면서도 매일 다양한 포맷으로 노출 가능해 미디어아트 팀의 온라인 영향력 극대화",
+          "name": "AI 기반 소셜미디어 콘텐츠 생성",
+          "type": "agent",
+          "desc": "이미지/영상 자동 편집, 해시태그 최적화, 멀티플랫폼 포스팅 스케줄링",
+          "reason": "pr-content의 생산 속도 향상과 브랜드 일관성 유지가 동시에 필요하며, visual-design의 완성도 높은 비주얼을 자동으로 배포 가능",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Design Thinking + OKR 기반 프로젝트 로드맵핑",
-          "type": "skill",
-          "desc": "사용자 중심 문제정의에서 목표설정까지의 전체 기획 프레임워크",
-          "reason": "doc-design, grant-writer, project-planner의 협업 효율을 높이기 위해 필수적이며, 정부 지원금 심사에서 '명확한 목표체계'가 가장 높은 가점 요소인 만큼 OKR 체계로 제안서의 설득력 30% 이상 상승 기대",
-          "trend": "stable"
+          "name": "프로젝트 타임라인 시각화 MCP",
+          "type": "mcp",
+          "desc": "마일스톤 자동 추출, 크리티컬 패스 분석, 팀별 일정 충돌 감지",
+          "reason": "grant-writer와 project-planner가 복수 프로젝트를 관리할 때 실시간 일정 추적과 리스크 조기 감지가 필수이며, doc-design의 제안서 작성 근거 자동화",
+          "trend": "rising"
         }
       ]
     }
