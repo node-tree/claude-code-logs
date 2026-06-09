@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-09",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 최적화",
+          "name": "Next.js App Router 최적화",
           "type": "skill",
-          "desc": "웹 애플리케이션의 타입 안정성과 성능을 동시에 확보하는 현대적 스택",
-          "reason": "nodetreehome-web 프로젝트의 유지보수성과 확장성을 높이기 위해 필수적이며, 미디어아트 팀과의 협업 시 API 연동 안정성 보장",
+          "desc": "서버 컴포넌트와 동적 라우팅을 활용한 성능 개선",
+          "reason": "nodetreehome-web의 사용자 경험 향상과 SEO 최적화가 필수이며, 2026년 현재 App Router가 production 표준이므로 팀의 개발 효율성과 유지보수성을 크게 개선할 수 있다",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "정성적 데이터 분석 및 시각화 (Atlas.ti/NVivo)",
+          "name": "AI 기반 문헌 분석 및 트렌드 도출",
           "type": "skill",
-          "desc": "미디어아트 연구의 질적 데이터를 체계적으로 코딩하고 분석하는 방법론",
-          "reason": "nodetree-research와 grant-research에서 수집한 인터뷰/사례 데이터를 학술적 엄밀성으로 정리하여 논문 및 지원금 신청서의 설득력 강화",
-          "trend": "rising"
+          "desc": "대량의 미디어아트 관련 논문과 데이터에서 패턴 인식 및 인사이트 추출",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 경쟁력 있는 연구 제안서 작성이 필요하며, AI를 통한 빠른 문헌 분석으로 차별화된 리서치 관점을 발굴할 수 있다",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오 비주얼 동기화 (Max/MSP 또는 Pure Data)",
+          "name": "실시간 오디오-비주얼 동기화 (TidalCycles + TouchDesigner)",
           "type": "skill",
-          "desc": "ESP32와 TidalCycles/TouchDesigner 간의 오디오-비주얼 신호 동기화 기술",
-          "reason": "media-art-pipeline의 세 도구(ESP32/TidalCycles/TouchDesigner)를 통합할 때 필수적이며, 실제 전시 운영 중 발생하는 레이턴시 문제 해결 가능",
-          "trend": "hot"
+          "desc": "음악 생성과 시각 표현의 실시간 연동 기술",
+          "reason": "media-art-pipeline에서 ESP32 센서 데이터를 TidalCycles의 동적 음악과 TouchDesigner의 시각 표현으로 통합하여 완성도 높은 멀티미디어 설치미술 구현이 가능하다",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "다중통화 프로젝트 회계 (국제 그랜트 관리)",
+          "name": "프로젝트 기반 원가 관리 (ABC 분석)",
           "type": "skill",
-          "desc": "환율 변동성을 고려한 국제 펀딩 프로젝트의 예산 관리 및 정산",
-          "reason": "grant-accounting-agent가 처리하는 국제 지원금의 환율 리스크 관리와 감시 기관별 회계 규정 준수를 위해 필수적이며, 2026년 상반기 거래량 급증 대비",
-          "trend": "rising"
+          "desc": "각 프로젝트별 실제 비용 추적 및 수익성 분석",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 보조금 프로젝트와 자체 수익 프로젝트를 구분하여 정확한 원가 계산과 자금 효율성을 극대화할 수 있으며, 향후 펀딩 기획에 중요한 데이터를 제공한다",
+          "trend": "stable"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 멀티채널 콘텐츠 생성 (Midjourney/Runway)",
+          "name": "소셜 미디어 콘텐츠 자동화 및 일정 관리",
           "type": "skill",
-          "desc": "단일 크리에이티브 원본으로부터 SNS/전시/출판물용 다양한 비주얼 자산 생성",
-          "reason": "pr-content와 visual-design의 제작 속도를 3배 이상 향상시킬 수 있으며, 미디어아트 프로젝트의 시각적 일관성을 유지하면서 다채로운 홍보물 제작 가능",
+          "desc": "AI 기반 이미지 최적화, 자막 생성, 포스팅 스케줄링",
+          "reason": "pr-content 운영에서 일관된 브랜드 메시지와 높은 게시 빈도가 필수이며, 자동화 도구를 통해 visual-design 팀의 창의 작업에 더 집중하고 도달률을 극대화할 수 있다",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "그랜트 라이팅 용 AI 에이전트 (Claude/GPT-4 기반 자동화)",
-          "type": "agent",
-          "desc": "기존 프로젝트 데이터와 연구 자료를 기반으로 지원금 제안서를 자동 생성 및 검수하는 MCP",
-          "reason": "grant-writer와 project-planner의 업무 부담을 경감하면서 일관된 톤/포맷 유지 가능하며, 다중 펀딩 기관의 서로 다른 요구사항을 한번에 처리할 수 있어 신청 횟수 확대 가능",
+          "name": "Grant Writing의 Narrative Arc 설계",
+          "type": "skill",
+          "desc": "보조금 신청서의 설득력 있는 스토리텔링과 논리 구조화",
+          "reason": "grant-writer와 project-planner가 협력하여 심사위원의 공감을 얻는 강력한 제안서를 작성해야 하며, 명확한 문제정의-솔루션-임팩트의 서사 구조가 선정률을 크게 높일 수 있다",
           "trend": "rising"
         }
       ]
