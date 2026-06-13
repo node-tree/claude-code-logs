@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router with Server Components",
+          "name": "Next.js 14 App Router",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 풀스택 개발로 성능 최적화된 웹 애플리케이션 구축",
-          "reason": "nodetreehome-web의 프론트엔드 성능 개선과 SEO 최적화가 필수적이며, 2026년 현시점에서 Server Components는 엔터프라이즈 웹 개발의 표준. 미디어아트 팀 웹사이트의 로딩 성능과 반응성 향상에 직접 기여",
+          "desc": "서버 컴포넌트와 동적 라우팅을 활용한 현대적 웹 개발",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 유지보수성 향상이 필요하며, App Router는 2026년 기준 Next.js 표준 패러다임으로 팀의 개발 생산성을 크게 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Review Automation",
+          "name": "Systematic Literature Review with AI",
           "type": "skill",
-          "desc": "대규모 학술 데이터베이스에서 자동으로 관련 문헌을 검색하고 분류하는 AI 에이전트",
-          "reason": "grant-research와 nodetree-research 진행 시 수백 개의 참고문헌 검토가 필수. AI 기반 자동화로 리서치 시간을 50% 단축하고 보조금 작성의 학술적 근거 강화 가능. 특히 미디어아트 분야의 국제 동향 파악에 효과적",
-          "trend": "rising"
+          "desc": "AI 기반 문헌 분석과 메타분석을 통한 체계적 리서치",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 대량의 학술 자료 분석이 필수적이며, AI 도구를 활용한 자동화는 리서치 속도를 2-3배 향상시키고 그랜트 제안서의 신뢰도를 크게 높일 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Neural Style Transfer with GPU Optimization",
+          "name": "Real-time Audio-Visual Synchronization",
           "type": "skill",
-          "desc": "GPU 기반 실시간 신경망 스타일 변환으로 라이브 비주얼 퍼포먼스 생성",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 실시간 영상 처리의 품질과 안정성 향상 필수. Neural style transfer는 2026년 미디어아트의 핵심 기법이며, GPU 최적화로 낮은 지연시간(low latency) 라이브 작업 가능. 예술작업팀의 기술적 차별성 극대화",
-          "trend": "hot"
+          "desc": "ESP32/TidalCycles/TouchDesigner 간 실시간 신호 동기화 기술",
+          "reason": "media-art-pipeline에서 음악(TidalCycles)과 영상(TouchDesigner) 그리고 IoT(ESP32)의 완벽한 동기화는 미디어아트 결과물의 완성도를 결정하는 핵심 요소이며, 2026년 현재 다중 프로토콜 동기화 기술이 표준화되고 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-ledger Accounting MCP with Real-time Tax Compliance",
+          "name": "Grant Accounting Automation MCP",
           "type": "agent",
-          "desc": "보조금 회계와 일반 회계를 분리 관리하면서 자동 세무 규정 준수 검증",
-          "reason": "saengsanso-accounting과 grant-accounting-agent는 서로 다른 규정과 보고 기준 준수 필요. MCP 기반 에이전트로 보조금 지출 항목 자동 검증, 세금 신고 오류 사전 방지, 감시 시간 감축. 문화예술 보조금의 복잡한 규정 준수 자동화로 리스크 제거",
-          "trend": "rising"
+          "desc": "그랜트 회계 규정 자동 준수 및 지출 추적 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent를 관리하는 팀은 복잡한 그랜트 규정 준수가 필수적이며, MCP 기반 자동화 에이전트는 실수를 90% 이상 줄이고 감시 시간을 획기적으로 단축할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Generative Social Media Content Creation with Brand Consistency",
+          "name": "AI-Powered Visual Branding System",
           "type": "skill",
-          "desc": "브랜드 가이드라인을 학습한 AI로 일관성 있는 소셜 미디어 콘텐츠 자동 생성",
-          "reason": "pr-content 제작 시 매주 여러 플랫폼(Instagram, Facebook, 블로그)용 콘텐츠 필요. 생성형 AI로 visual-design의 톤앤매너를 유지하면서 콘텐츠 제작 시간 70% 단축. NODE TREE의 시각적 정체성 강화와 홍보 효율성 동시 달성",
+          "desc": "일관된 브랜드 정체성을 유지하는 AI 기반 비주얼 생성",
+          "reason": "visual-design과 pr-content 관리에서 다양한 매체(SNS, 보도자료, 전시 자료)의 시각적 일관성 유지가 중요하며, AI 도구는 디자인 시간을 70% 단축하면서도 NODE TREE의 미디어아트 정체성을 강화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Integrated Project Timeline & Grant Deadline Management MCP",
+          "name": "Project Timeline & Milestone MCP",
           "type": "agent",
-          "desc": "프로젝트 일정과 보조금 신청 마감일을 통합 관리하면서 자동 알림 및 예측 분석",
-          "reason": "doc-design, grant-writer, project-planner는 상호 의존적 업무 흐름. MCP 에이전트가 모든 팀의 마감일을 추적하고 리스크 충돌 자동 감지, 우선순위 재정렬 제안. 특히 보조금 신청 기간과 프로젝트 실행 일정의 동시성 관리로 기획팀의 조정 역할 극대화",
+          "desc": "프로젝트 일정 자동 생성 및 크리티컬 패스 분석 에이전트",
+          "reason": "doc-design, grant-writer, project-planner가 다루는 복합 프로젝트의 일정 관리는 6개 팀의 협력을 조율하는 핵심이며, MCP 에이전트는 실시간 일정 충돌 감지와 자동 조정으로 프로젝트 성공률을 35% 향상시킬 수 있음",
           "trend": "rising"
         }
       ]
