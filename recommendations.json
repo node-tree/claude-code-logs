@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-14",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14 App Router",
+          "name": "Docker & Kubernetes",
           "type": "skill",
-          "desc": "서버 컴포넌트와 동적 라우팅을 활용한 현대적 웹 개발",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 유지보수성 향상이 필요하며, App Router는 2026년 기준 Next.js 표준 패러다임으로 팀의 개발 생산성을 크게 향상시킬 수 있음",
+          "desc": "컨테이너 기반 애플리케이션 배포 및 관리 자동화",
+          "reason": "nodetreehome-web의 확장성과 안정성을 위해 마이크로서비스 아키텍처 도입이 필수. 다중 환경 배포 시 일관성 유지와 CI/CD 파이프라인 자동화를 통해 개발 속도 향상 가능",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
+          "name": "Systematic Literature Review (SLR) Framework",
           "type": "skill",
-          "desc": "AI 기반 문헌 분석과 메타분석을 통한 체계적 리서치",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 대량의 학술 자료 분석이 필수적이며, AI 도구를 활용한 자동화는 리서치 속도를 2-3배 향상시키고 그랜트 제안서의 신뢰도를 크게 높일 수 있음",
-          "trend": "hot"
+          "desc": "체계적 문헌 조사 방법론 및 데이터 수집/분석 프레임워크",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 학술적 신뢰도를 높이고 정부 지원금 심사 기준 충족을 위해 필수. 메타분석을 통한 연구 동향 파악으로 차별화된 제안서 작성 가능",
+          "trend": "stable"
         }
       ]
     },
@@ -34,8 +34,8 @@
         {
           "name": "Real-time Audio-Visual Synchronization",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 간 실시간 신호 동기화 기술",
-          "reason": "media-art-pipeline에서 음악(TidalCycles)과 영상(TouchDesigner) 그리고 IoT(ESP32)의 완벽한 동기화는 미디어아트 결과물의 완성도를 결정하는 핵심 요소이며, 2026년 현재 다중 프로토콜 동기화 기술이 표준화되고 있음",
+          "desc": "오디오와 비주얼 콘텐츠의 실시간 동기화 기술",
+          "reason": "TidalCycles(음악생성)과 TouchDesigner(시각화)를 연결하는 media-art-pipeline에서 ESP32 센서 데이터를 기반으로 완벽한 멀티미디어 퍼포먼스 구현 필요. 이벤트 기반 동기화로 관객 경험 극대화",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation MCP",
-          "type": "agent",
-          "desc": "그랜트 회계 규정 자동 준수 및 지출 추적 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent를 관리하는 팀은 복잡한 그랜트 규정 준수가 필수적이며, MCP 기반 자동화 에이전트는 실수를 90% 이상 줄이고 감시 시간을 획기적으로 단축할 수 있음",
-          "trend": "hot"
+          "name": "AI-powered Financial Forecasting",
+          "type": "skill",
+          "desc": "기계학습을 활용한 예산 추정 및 재무 예측 분석",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 복수 프로젝트의 현금흐름 예측을 자동화. 정부 지원금 집행 시기 불확실성을 선제적으로 관리하고 리스크 기반 예산 조정으로 재정 안정성 강화",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Visual Branding System",
+          "name": "Generative AI Visual Design (DALL-E/Midjourney Prompt Engineering)",
           "type": "skill",
-          "desc": "일관된 브랜드 정체성을 유지하는 AI 기반 비주얼 생성",
-          "reason": "visual-design과 pr-content 관리에서 다양한 매체(SNS, 보도자료, 전시 자료)의 시각적 일관성 유지가 중요하며, AI 도구는 디자인 시간을 70% 단축하면서도 NODE TREE의 미디어아트 정체성을 강화할 수 있음",
+          "desc": "생성형 AI를 활용한 시각 콘텐츠 대량 제작 및 다양화",
+          "reason": "pr-content와 visual-design에서 SNS, 보도자료, 전시 홍보물을 신속하게 제작. NODE TREE의 미디어아트 정체성을 강조한 브랜드 이미지 생성으로 홍보 효율성 3배 이상 증대 가능",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline & Milestone MCP",
-          "type": "agent",
-          "desc": "프로젝트 일정 자동 생성 및 크리티컬 패스 분석 에이전트",
-          "reason": "doc-design, grant-writer, project-planner가 다루는 복합 프로젝트의 일정 관리는 6개 팀의 협력을 조율하는 핵심이며, MCP 에이전트는 실시간 일정 충돌 감지와 자동 조정으로 프로젝트 성공률을 35% 향상시킬 수 있음",
-          "trend": "rising"
+          "name": "Grant Writing with AI-assisted Proposal Generation",
+          "type": "skill",
+          "desc": "AI 기반 지원금 제안서 자동 생성 및 최적화",
+          "reason": "grant-writer의 핵심 기능. 과제 공고 분석 → 예산안 생성 → 제안 문구 최적화까지 자동화하여 회신 기한 단축. project-planner와 연계하여 일정/예산/성과지표를 동시에 설계하는 통합 워크플로우 구성",
+          "trend": "hot"
         }
       ]
     }
