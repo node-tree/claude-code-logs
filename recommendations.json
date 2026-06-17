@@ -1,30 +1,16 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Render 콜드스타트 완화 — Health-ping + Edge 캐시",
+          "name": "React Server Components",
           "type": "skill",
-          "desc": "백엔드 슬립 방지 핑과 정적 응답 엣지 캐싱으로 첫 응답 지연 제거",
-          "reason": "nodetreeHome 백엔드 Render 콜드스타트(15~20초)가 홈 three.js 임계경로와 겹쳐 첫 방문 체감속도를 크게 떨어뜨림. 주기적 health-ping과 /iso 진입 데이터의 엣지 캐싱으로 관람객 이탈을 줄일 수 있음",
+          "desc": "서버 측 렌더링을 통한 웹 성능 최적화 기술",
+          "reason": "nodetreehome-web의 로딩 속도 개선과 SEO 향상이 필수적이며, 2026년 현재 업계 표준으로 자리잡은 기술로 웹 사이트 경쟁력 강화에 직결됨",
           "trend": "hot"
-        },
-        {
-          "name": "ImageKit 이관 마무리 — cafe24 만기(6/22) 대응",
-          "type": "tool",
-          "desc": "잔여 cafe24 이미지 URL을 ImageKit으로 일괄 전환하고 JWT_SECRET 로테이션 완료",
-          "reason": "cafe24 호스트가 6/22 만기인데 이미지 호스트 이관(→ik.imagekit.io)과 JWT_SECRET 로테이션이 미완 상태. 만기 전 잔여 ikUrl 변환(GIF 제외)과 시크릿 교체를 끝내야 /admin/media·업로드 인증 사고를 막음",
-          "trend": "hot"
-        },
-        {
-          "name": "데스크톱·모바일 패리티 회귀 테스트 자동화",
-          "type": "skill",
-          "desc": "Playwright로 양 뷰포트 스냅샷·hit-test를 묶어 변경 시 동시 검증",
-          "reason": "nodetreeHome 웹 변경은 데스크톱·모바일 동시 적용이 원칙이고, /iso 상단 오버레이가 fixed 헤더(z-index:55)에 가리는 함정이 2회 재발함. 좌표+hit-test까지 검증하는 자동 회귀로 동일 실수를 차단",
-          "trend": "rising"
         }
       ]
     },
@@ -33,25 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "섬비엔날레 2027 사전 리서치 — 동시대 작가·담론 맵핑",
+          "name": "Systematic Literature Review with AI",
           "type": "skill",
-          "desc": "개막(2027.04) 역산으로 큐레토리얼 맥락과 인접 작가군을 체계 정리",
-          "reason": "노드트리가 내년 섬비엔날레 작가로 선정된 만큼, 비엔날레의 주제사·동시대 미디어아트 담론을 옵시디안 NODE TREE 폴더 기준으로 선행 정리하면 작가노트·인터뷰·국제 네트워킹의 근거가 됨",
+          "desc": "AI 도구를 활용한 대규모 학술자료 분석 및 체계적 문헌고찰",
+          "reason": "grant-research에서 경쟁력 있는 지원금 제안서 작성을 위해 광범위한 선행연구 검토가 필수인데, AI 기반 분석이 리서치 효율성을 3배 이상 증대시킬 수 있음",
           "trend": "hot"
-        },
-        {
-          "name": "꿈다락 마을소식 — 지역 아카이브 리서치",
-          "type": "skill",
-          "desc": "마을 구술·장소성 자료를 호별 테마 블록 근거로 수집·구조화",
-          "reason": "/iso#news 마을소식이 고정 프레임+호별 테마 블록으로 운영 중인데, 호를 추가할수록 지역 서사의 사실 근거가 필요함. 정본(운영가이드·교부신청서) 범위 안에서 장소 리서치를 축적해 콘텐츠 신뢰도를 높임",
-          "trend": "stable"
-        },
-        {
-          "name": "사운드·데이터 소니피케이션 레퍼런스 SLR",
-          "type": "trend",
-          "desc": "데이터→감각 매핑 사례를 체계적 문헌고찰로 정리",
-          "reason": "media-art-pipeline의 소니피케이션 설계에 학술·작품 레퍼런스 축이 필요함. SLR로 매핑 전략 선례를 정리하면 작품 개념의 설득력과 지원서 학술성이 동시에 강화됨",
-          "trend": "rising"
         }
       ]
     },
@@ -60,25 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "OSC/ArtNet 통합 타임라인 동기화",
+          "name": "Real-time Audio-Visual Synchronization",
           "type": "skill",
-          "desc": "사운드·비주얼·조명을 단일 클럭으로 묶는 라우팅 레이어 설계",
-          "reason": "media-art-pipeline이 sound-art(SuperCollider/Ableton)와 generative-visual(TouchDesigner/Hydra)을 지휘하는 구조인데, OSC/ArtNet 공통 타임라인으로 묶으면 다채널 설치에서 드리프트 없는 오디오-비주얼 정합을 확보함",
-          "trend": "hot"
-        },
-        {
-          "name": "Daisy Patch SM 포팅 — 설치용 임베디드 사운드",
-          "type": "tool",
-          "desc": "SuperCollider DSP 프로토타입을 Eurorack/Daisy 하드웨어로 이식",
-          "reason": "전시 설치는 노트북 의존을 줄이는 임베디드 사운드 노드가 안정적임. 이미 보유한 SuperCollider 프로토타입을 Daisy Patch SM으로 포팅하면 무인 상설 구동과 이케다·Alva Noto 계열 미학 구현에 유리함",
+          "desc": "ESP32와 TouchDesigner 간 실시간 오디오-비주얼 동기화 기술",
+          "reason": "TidalCycles 기반 음악과 TouchDesigner 비주얼의 정확한 동기화는 미디어아트 작품의 핵심 요소이며, 이를 통해 관객 경험의 몰입감을 극대화할 수 있음",
           "trend": "rising"
-        },
-        {
-          "name": "이토록고요한파동 — 다채널/단채널 버전 분기",
-          "type": "skill",
-          "desc": "상영·설치 포맷별 편집·믹싱 버전을 한 마스터에서 분기 관리",
-          "reason": "퍼포먼스 필름은 영화제(단채널)와 전시(다채널) 요구가 다름. film-production에서 마스터 기준으로 버전을 분기해 두면 FilmFreeway 출품과 공간 설치를 중복작업 없이 병행할 수 있음",
-          "trend": "stable"
         }
       ]
     },
@@ -87,25 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "꿈다락 예치형 집행·증빙 중간점검",
+          "name": "Automated Grant Compliance Tracking",
           "type": "skill",
-          "desc": "예탁계좌 출금일 기준 사전승인·총액 집행의 증빙 정합성 점검",
-          "reason": "꿈다락은 예치형(계좌이체형 아님)이라 집행금액=총액·일자=예탁계좌 출금일 원칙이 어긋나면 정산에서 반려됨. 하반기 집행 누적분을 e나라도움/보탬e 기준으로 중간 점검해 연말 리스크를 선제 차단(노드트리 명의)",
+          "desc": "정부지원금 사용내역 자동 추적 및 준수 검증",
+          "reason": "grant-accounting-agent에서 복잡한 지원금 규정 준수와 회계감시를 자동화하면 오류 감소와 감시 비용을 대폭 절감할 수 있으며, 감사 대비 시간을 50% 이상 단축 가능",
           "trend": "hot"
-        },
-        {
-          "name": "㈜생산소 1기 부가세 신고 준비",
-          "type": "skill",
-          "desc": "상반기 매입·매출 세금계산서와 법인카드 경비 정리·대사",
-          "reason": "법인 1기 부가세 신고 시즌이 다가옴. ㈜생산소 명의의 매입·매출 세금계산서와 경비 증빙을 미리 대사하면 공모 정산(생산소 명의)과 신고 일정 충돌을 피함",
-          "trend": "rising"
-        },
-        {
-          "name": "주체(명의)별 회계 분리 체크리스트",
-          "type": "tool",
-          "desc": "노드트리(면세)·㈜생산소(법인) 명의 기준 거래 분류 점검표",
-          "reason": "보조사업·4대보험·원천세라도 명의가 다르면 신고 주체가 갈림(과거 꿈다락 사업주를 생산소로 착각한 사례). 거래 발생 시점에 명의를 확정하는 체크리스트로 정산 단계 혼선을 원천 차단",
-          "trend": "stable"
         }
       ]
     },
@@ -114,25 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "isoartlab 비주얼 아이덴티티 정착",
+          "name": "AI-Powered Visual Content Generation",
           "type": "skill",
-          "desc": "isoartlab.com 리브랜드에 맞춘 NODE TREE 디자인 토큰 일관 적용",
-          "reason": "isoartlab.com 매핑·배포가 끝난 만큼, visual-design에서 디자인 시스템 토큰(컬러·타이포·스페이싱)을 SNS·웹·전시물에 일관 적용해 임의 컬러 없이 브랜드를 정착시켜야 함(Figma 디지털도화서 기준)",
+          "desc": "AI를 활용한 맥락 기반 시각콘텐츠 자동 생성 및 최적화",
+          "reason": "pr-content 제작에서 미디어아트의 추상성을 대중에게 효과적으로 전달하기 위해, 다양한 플랫폼별 맞춤형 비주얼 자산을 신속하게 생성할 수 있어 마케팅 반응성 향상",
           "trend": "hot"
-        },
-        {
-          "name": "ComfyUI Cloud LoRA/ControlNet 워크플로우 자산화",
-          "type": "tool",
-          "desc": "전시 키비주얼용 재현 가능한 submit_workflow 템플릿 저장",
-          "reason": "comfy-cloud(Creator·동시 3잡) 연결이 복구됨. 단발은 KNUH /image, 일관된 시리즈 키비주얼은 LoRA/ControlNet 워크플로우를 저장·재사용하면 전시·공모마다 톤을 유지하며 생산성을 높임",
-          "trend": "rising"
-        },
-        {
-          "name": "섬비엔날레 보도자료 톤앤매너 사전 설계",
-          "type": "skill",
-          "desc": "국제 무대용 국·영문 PR 메시지 골격을 미리 합의",
-          "reason": "2027 섬비엔날레를 앞두고 pr-content가 옵시디안 NODE TREE 맥락에 근거한 핵심 메시지·키워드를 선제 정리해 두면, 선정 발표·프리뷰 시점에 일관된 국·영문 보도자료를 빠르게 낼 수 있음",
-          "trend": "stable"
         }
       ]
     },
@@ -141,25 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "섬비엔날레 2027 워크백 스케줄",
+          "name": "Portfolio-Based Project Roadmapping",
           "type": "skill",
-          "desc": "개막(2027.04) 역산 마일스톤·팀별 핸드오프 타임라인 수립",
-          "reason": "국제 비엔날레는 제작·번역·운송·설치 리드타임이 김. project-planner가 개막 역산으로 마일스톤과 크로스팀(제작→문서→홍보) 핸드오프를 지금 설계해야 2026 하반기 꿈다락과 병행 가능한 일정이 나옴",
-          "trend": "hot"
-        },
-        {
-          "name": "하반기 공모·레지던시 마감 캘린더",
-          "type": "tool",
-          "desc": "grant-research 발굴 결과를 마감 역산 캘린더로 통합",
-          "reason": "지원서(grant-writer)는 마감 역산 준비가 핵심. 하반기 국내외 공모·레지던시·어워드 마감을 한 캘린더로 모으면 섬비엔날레 준비와 충돌하지 않게 신청 우선순위를 정할 수 있음",
+          "desc": "포트폴리오 관점의 다중 프로젝트 로드맵 기획 및 우선순위 관리",
+          "reason": "grant-writer와 project-planner에서 제한된 예산과 인력으로 여러 그랜트/프로젝트를 동시 관리할 때, 전략적 우선순위 결정과 리스크 분산이 필수이며 이를 통해 팀 리소스 효율성 40% 증대 가능",
           "trend": "rising"
-        },
-        {
-          "name": "꿈다락 정산 대비 문서·증빙 RACI",
-          "type": "skill",
-          "desc": "강사일지·예산집행·증빙의 담당·검토·승인 역할 명확화",
-          "reason": "꿈다락 사업관리(/iso 7탭)가 운영 중인 만큼, 연말 정산 전에 doc-design·회계·운영 간 역할(RACI)을 정리하면 증빙 누락과 막판 병목을 줄일 수 있음. 정본 가이드 기준으로 책임선을 고정",
-          "trend": "stable"
         }
       ]
     }
