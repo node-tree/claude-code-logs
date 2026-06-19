@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-19T14:33:01.578407+00:00",
+  "lastUpdated": "2026-06-19T15:15:54.933389+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6d2c8013",
+      "date": "2026-06-19",
+      "startTime": "2026-06-19T15:08:57.932000+00:00",
+      "durationSeconds": 402,
+      "modelTier": "sonnet",
+      "projectName": ".claude",
+      "toolCallCount": 26,
+      "firstPrompt": "옵시디안 자동푸시 켜자",
+      "agentsUsed": []
+    },
     {
       "sessionId": "8edb3c86",
       "date": "2026-06-19",
@@ -4239,21 +4250,6 @@
       "toolCallCount": 2,
       "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
       "agentsUsed": []
-    },
-    {
-      "sessionId": "087dcc30",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:47:16.014000+00:00",
-      "durationSeconds": 30929,
-      "modelTier": "sonnet",
-      "projectName": "nodetree-claude-config",
-      "toolCallCount": 105,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": [
-        "code-evaluator",
-        "grant-writer",
-        "visual-design"
-      ]
     }
   ]
 }
