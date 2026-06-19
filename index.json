@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-19T14:18:08.204755+00:00",
+  "lastUpdated": "2026-06-19T14:25:22.112054+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6fc509e0",
+      "date": "2026-06-19",
+      "startTime": "2026-06-19T13:55:33.890000+00:00",
+      "durationSeconds": 1777,
+      "modelTier": "sonnet",
+      "projectName": "Obsidian Vault",
+      "toolCallCount": 29,
+      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
+      "agentsUsed": []
+    },
     {
       "sessionId": "6fc509e0",
       "date": "2026-06-19",
@@ -4245,17 +4256,6 @@
       "agentsUsed": [
         "code-evaluator"
       ]
-    },
-    {
-      "sessionId": "087dcc30",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:47:16.014000+00:00",
-      "durationSeconds": 28198,
-      "modelTier": "sonnet",
-      "projectName": "nodetree-claude-config",
-      "toolCallCount": 98,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
     }
   ]
 }
