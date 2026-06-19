@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-19T13:50:57.100725+00:00",
+  "lastUpdated": "2026-06-19T13:54:45.811788+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "36b10819",
+      "date": "2026-06-19",
+      "startTime": "2026-06-19T13:54:02.775000+00:00",
+      "durationSeconds": 42,
+      "modelTier": "sonnet",
+      "projectName": "mac",
+      "toolCallCount": 0,
+      "firstPrompt": "—dangerously-skip-permissions",
+      "agentsUsed": []
+    },
     {
       "sessionId": "fb002a89",
       "date": "2026-06-19",
@@ -4243,17 +4254,6 @@
       "modelTier": "sonnet",
       "projectName": "nodetree-claude-config",
       "toolCallCount": 98,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "087dcc30",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:47:16.014000+00:00",
-      "durationSeconds": 28102,
-      "modelTier": "sonnet",
-      "projectName": "nodetree-claude-config",
-      "toolCallCount": 96,
       "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
       "agentsUsed": []
     }

@@ -1,0 +1,20 @@
+{
+  "sessionId": "36b10819-911b-4791-9713-79913a4bcf0a",
+  "date": "2026-06-19",
+  "startTime": "2026-06-19T13:54:02.775000+00:00",
+  "endTime": "2026-06-19T13:54:45.633000+00:00",
+  "durationSeconds": 42,
+  "model": {
+    "raw": "",
+    "tier": "sonnet"
+  },
+  "project": {
+    "name": "mac",
+    "path": "/Users/mac"
+  },
+  "activity": {
+    "toolCallCount": 0,
+    "toolCounter": {}
+  },
+  "firstPrompt": "—dangerously-skip-permissions"
+}
