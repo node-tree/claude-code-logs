@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-20T13:37:17.101518+00:00",
-  "totalAgents": 55,
+  "lastUpdated": "2026-06-19T13:51:07.139654+00:00",
+  "totalAgents": 60,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -13,26 +13,34 @@
     {
       "id": "audio",
       "type": "skill",
-      "category": "dev",
+      "category": "audio",
       "name": "Audio",
       "desc": "Generate TTS audio using MindLogic KNUH API with gemini-2.5-pro-preview-tts. Triggered ONLY by /audio command. Usage: /a",
-      "emoji": "🔹"
+      "emoji": "🎤"
     },
     {
       "id": "canvas-design",
       "type": "skill",
       "category": "art",
       "name": "Canvas Design",
-      "desc": "포스터·아트워크를 .png/.pdf로 생성. 디자인 철학 기반 비주얼 제작.",
+      "desc": "포스터·아트워크를 .png/.pdf로 생성. 디자인 철학 기반 비주얼 제작. 미디어아트 작품의 인스타 홍보물(@erickoheart 스타일 — 어두운 배경+발광 오브젝트, 세로 한/영 타이포, 영화 크레딧 레이아웃)",
       "emoji": "🖼"
+    },
+    {
+      "id": "codex",
+      "type": "skill",
+      "category": "dev",
+      "name": "Codex",
+      "desc": "OpenAI Codex CLI(gpt-5.5)를 비대화형으로 호출해 코딩·리뷰·리서치 하위작업을 위임하거나 두 번째 의견을 받는다. 트리거: 코덱스, codex, gpt-5.5로, 코덱스한테 시켜, 코덱스로 리뷰, ",
+      "emoji": "🔹"
     },
     {
       "id": "grant-accounting",
       "type": "skill",
-      "category": "dev",
+      "category": "document",
       "name": "Grant Accounting",
       "desc": "공모사업·보조사업 회계 전문. e나라도움·보탬e·NCAS 집행·정산·증빙·예산전용·예술인 인건비 처리.",
-      "emoji": "🔹"
+      "emoji": "🧾"
     },
     {
       "id": "hwpx",
@@ -45,10 +53,10 @@
     {
       "id": "image",
       "type": "skill",
-      "category": "dev",
+      "category": "art",
       "name": "Image",
       "desc": "Generate images using MindLogic KNUH API with Nano Banana 2 (gemini-3.1-flash-image-preview). Triggered ONLY by /image c",
-      "emoji": "🔹"
+      "emoji": "🖼"
     },
     {
       "id": "kicad-pcb-design",
@@ -61,26 +69,26 @@
     {
       "id": "korea-accounting",
       "type": "skill",
-      "category": "dev",
+      "category": "document",
       "name": "Korea Accounting",
       "desc": "한국 법인 세무·회계 전문. 법인세·부가세·원천세·4대보험·세금계산서·연말정산 실무 처리.",
-      "emoji": "🔹"
+      "emoji": "🧾"
     },
     {
       "id": "korean-cinema",
       "type": "skill",
-      "category": "dev",
+      "category": "art",
       "name": "Korean Cinema",
       "desc": "한국 예술영화·독립영화·영화이론·미디어아트-영화 교차점. 트리거: 영화 비평, 감독 노트, 영상 설치 개념, 시나리오 방법론.",
-      "emoji": "🔹"
+      "emoji": "🎬"
     },
     {
-      "id": "media-art-promo",
+      "id": "nodetree-orchestrator",
       "type": "skill",
-      "category": "dev",
-      "name": "Media Art Promo",
-      "desc": "미디어아트 인스타 홍보물(이미지/릴스/비디오) @erickoheart 스타일 제작. 트리거 \"/promo\", 인스타 포스터, 릴스 썸네일, 전시 홍보물.",
-      "emoji": "🔹"
+      "category": "meta",
+      "name": "Nodetree Orchestrator",
+      "desc": "NODE TREE 하네스 런타임 오케스트레이터. 여러 팀·여러 단계가 얽힌 NODE TREE/생산소 작업을 Planner→Generator→Evaluator 흐름으로 조율한다. 적극 사용 — 전시/공모/필름처럼 디자",
+      "emoji": "🎯"
     },
     {
       "id": "notebooklm-research",
@@ -107,12 +115,12 @@
       "emoji": "📊"
     },
     {
-      "id": "remotion-best-practices",
+      "id": "project-planning",
       "type": "skill",
-      "category": "audio",
-      "name": "Remotion Best Practices",
-      "desc": "Best practices for Remotion - Video creation in React",
-      "emoji": "🎬"
+      "category": "meta",
+      "name": "Project Planning",
+      "desc": "NODE TREE·생산소 프로젝트의 일정·예산·역할·진행을 계획하고 Obsidian/Notion 산출물로 만드는 방법론. 다음 상황에서 적극 사용 — \"일정 짜줘\", 타임라인, 간트차트(Mermaid gantt), ",
+      "emoji": "🗂"
     },
     {
       "id": "skill-creator",
@@ -155,20 +163,28 @@
       "emoji": "🌐"
     },
     {
-      "id": "vercel-react-best-practices",
+      "id": "transcribe",
       "type": "skill",
       "category": "dev",
-      "name": "Vercel React Best Practices",
-      "desc": "React·Next.js 성능 최적화 가이드. RSC, 번들 최적화, 데이터 페칭 패턴.",
-      "emoji": "⚛️"
+      "name": "Transcribe",
+      "desc": "Transcribe & summarize audio (회의록/인터뷰 녹취) using MindLogic KNUH gateway with gemini-2.5-pro. Triggered ONLY by /transcrib",
+      "emoji": "🔹"
     },
     {
       "id": "video",
       "type": "skill",
-      "category": "dev",
+      "category": "audio",
       "name": "Video",
       "desc": "Generate videos using MindLogic KNUH API with Veo 3.1 Fast (veo-3.1-fast-generate-preview). Triggered ONLY by /video com",
-      "emoji": "🔹"
+      "emoji": "🎬"
+    },
+    {
+      "id": "video-editing",
+      "type": "skill",
+      "category": "audio",
+      "name": "Video Editing",
+      "desc": ">-",
+      "emoji": "🎞"
     },
     {
       "id": "web-audio-synth",
@@ -181,10 +197,10 @@
     {
       "id": "xlsx",
       "type": "skill",
-      "category": "dev",
+      "category": "document",
       "name": "Xlsx",
       "desc": "Excel(.xlsx) 생성·편집·읽기. 예산표·지출내역서·정산서 맑은 고딕. 트리거: 예산표, 지출내역서, 정산서.",
-      "emoji": "🔹"
+      "emoji": "📈"
     },
     {
       "id": "youtube-study",
@@ -195,23 +211,59 @@
       "emoji": "▶️"
     },
     {
-      "id": "frontend-design",
+      "id": "clangd-lsp",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Clangd Lsp",
+      "desc": "clangd-lsp",
+      "emoji": "🔹",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creator",
       "type": "skill",
-      "category": "art",
-      "name": "Frontend Design",
-      "desc": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to ",
-      "emoji": "🖥",
-      "parentPlugin": "frontend-design"
+      "category": "meta",
+      "name": "Skill Creator",
+      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
+      "emoji": "🛠",
+      "parentPlugin": "skill-creator"
+    },
+    {
+      "id": "cli-anything",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Cli Anything",
+      "desc": "cli-anything",
+      "emoji": "🔹",
+      "version": "664cdc6c72f1"
     },
     {
       "id": "figma",
       "type": "plugin",
       "category": "dev",
       "name": "Figma",
-      "desc": "7개 스킬 포함",
+      "desc": "9개 스킬 포함",
       "emoji": "🎭",
-      "version": "2.1.7",
-      "subSkillCount": 7
+      "version": "a742f0a700a7",
+      "subSkillCount": 9
+    },
+    {
+      "id": "generate-project-plan",
+      "type": "skill",
+      "category": "dev",
+      "name": "Generate Project Plan",
+      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-use-slides",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Use Slides",
+      "desc": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has ",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
     },
     {
       "id": "figma-generate-design",
@@ -223,21 +275,21 @@
       "parentPlugin": "figma"
     },
     {
+      "id": "figma-generate-diagram",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Generate Diagram",
+      "desc": "MANDATORY prerequisite — load this skill BEFORE every `generate_diagram` tool call. NEVER call `generate_diagram` direct",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
       "id": "figma-create-new-file",
       "type": "skill",
       "category": "dev",
       "name": "Figma Create New File",
-      "desc": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a n",
+      "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_new",
       "emoji": "📄",
-      "parentPlugin": "figma"
-    },
-    {
-      "id": "figma-implement-design",
-      "type": "skill",
-      "category": "dev",
-      "name": "Figma Implement Design",
-      "desc": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code ",
-      "emoji": "🖥",
       "parentPlugin": "figma"
     },
     {
@@ -259,81 +311,54 @@
       "parentPlugin": "figma"
     },
     {
+      "id": "figma-use-figjam",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Use Figjam",
+      "desc": "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has ",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
       "id": "figma-code-connect",
       "type": "skill",
       "category": "dev",
       "name": "Figma Code Connect",
       "desc": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user me",
+      "emoji": "🔌",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "warp",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Warp",
+      "desc": "warp",
       "emoji": "🔹",
-      "parentPlugin": "figma"
+      "version": "2.1.0"
     },
     {
-      "id": "figma-create-design-system-rules",
+      "id": "harness",
       "type": "skill",
       "category": "dev",
-      "name": "Figma Create Design System Rules",
-      "desc": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate",
-      "emoji": "📐",
-      "parentPlugin": "figma"
+      "name": "Harness",
+      "desc": "하네스를 구성합니다. 전문 에이전트를 정의하며, 해당 에이전트가 사용할 스킬을 생성하는 메타 스킬. (1) '하네스 구성해줘', '하네스 구축해줘' 요청 시, (2) '하네스 설계', '하네스 엔지니어링' 요청 시,",
+      "emoji": "🔹",
+      "parentPlugin": "harness"
     },
     {
-      "id": "claude-qwen-tts",
-      "type": "plugin",
-      "category": "audio",
-      "name": "Claude Qwen Tts",
-      "desc": "1개 스킬 포함",
-      "emoji": "🎤",
-      "version": "1.0.0",
-      "subSkillCount": 1
-    },
-    {
-      "id": "tts-narrator",
-      "type": "skill",
-      "category": "audio",
-      "name": "Tts Narrator",
-      "desc": "Automatically generate audio narration from text or scripts. Use when user asks to \"read this script\", \"convert to audio",
-      "emoji": "🎙",
-      "parentPlugin": "claude-qwen-tts"
-    },
-    {
-      "id": "skill-creator",
-      "type": "skill",
-      "category": "meta",
-      "name": "Skill Creator",
-      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
-      "emoji": "🛠",
-      "parentPlugin": "skill-creator"
-    },
-    {
-      "id": "cli-anything",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Cli Anything",
-      "desc": "cli-anything",
-      "emoji": "💻",
-      "version": "f5cfa05ea294"
-    },
-    {
-      "id": "mcp-playwright",
+      "id": "mcp-figma",
       "type": "mcp",
       "category": "dev",
-      "name": "playwright",
-      "desc": "MCP: npx @playwright/mcp@latest --isolated",
+      "name": "figma",
+      "desc": "MCP: npx -y figma-developer-mcp",
       "emoji": "🔌"
     },
     {
-      "id": "mcp-pencil",
-      "type": "mcp",
-      "category": "dev",
-      "name": "pencil",
-      "desc": "MCP: /Users/kanghyunjung/.cursor/extensions/highagency.pencildev-",
-      "emoji": "🔌"
-    },
-    {
-      "id": "harness-planner",
+      "id": "planner",
       "type": "agent",
       "team": "harness",
-      "name": "harness-planner",
+      "name": "planner",
       "desc": "|",
       "emoji": "👥",
       "category": "harness"
@@ -343,7 +368,7 @@
       "type": "agent",
       "team": "dev",
       "name": "code-evaluator",
-      "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PASS 확인.",
+      "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline·sound-art·generative-visual 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PAS",
       "emoji": "■",
       "category": "dev"
     },
@@ -361,7 +386,7 @@
       "type": "agent",
       "team": "planning",
       "name": "doc-design",
-      "desc": "포트폴리오·도록·공문·보고서 제작 (Pencil, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서.",
+      "desc": "포트폴리오·도록·공문·보고서 제작 (Figma 디지털도화서, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서.",
       "emoji": "◆",
       "category": "planning"
     },
@@ -447,20 +472,38 @@
       "category": "art"
     },
     {
-      "id": "media-art-pipeline",
+      "id": "generative-visual",
       "type": "agent",
       "team": "art",
-      "name": "media-art-pipeline",
-      "desc": "미디어아트 기술 파이프라인. 소니피케이션·OSC·ArtNet·ESP32·TidalCycles·Hydra·TouchDesigner. 트리거: 소니피케이션, OSC, CV 출력, TidalCycles, ArtNet.",
+      "name": "generative-visual",
+      "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. p5.js 알고리즘 아트, Hydra 라이브코딩, TouchDesigner 노드·GLSL 셰이더, 프로그래밍 영상(Remotion). 트리거: 제너러티브, 플",
       "emoji": "▲",
       "category": "art"
     },
     {
-      "id": "grant-accounting-agent",
+      "id": "media-art-pipeline",
+      "type": "agent",
+      "team": "art",
+      "name": "media-art-pipeline",
+      "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV 하드웨어, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-visual에 ",
+      "emoji": "▲",
+      "category": "art"
+    },
+    {
+      "id": "sound-art",
+      "type": "agent",
+      "team": "art",
+      "name": "sound-art",
+      "desc": "NODE TREE 사운드아트·음악·모듈러신스 전담. SuperCollider DSP·SynthDef·패턴, Ableton 작·편곡, TidalCycles/SuperDirt 라이브코딩, Eurorack/Daisy 사운",
+      "emoji": "▲",
+      "category": "art"
+    },
+    {
+      "id": "nodetree-accounting",
       "type": "agent",
       "team": "accounting",
-      "name": "grant-accounting-agent",
-      "desc": "공모·보조사업 회계 전문. 트리거: e나라도움, 보탬e, NCAS, 정산, 집행, 증빙, 보조금, 예산전용, 인건비.",
+      "name": "nodetree-accounting",
+      "desc": "노드트리(고유번호단체·면세사업자) 명의 회계 전담. 보조사업(e나라도움·보탬e·NCAS) 정산·집행, 면세사업자 원천세·지급명세서, 4대보험, 노드트리 일반회계. 트리거: 노드트리 회계, 꿈다락, 보조금, 정산, 집",
       "emoji": "□",
       "category": "accounting"
     },
@@ -469,7 +512,7 @@
       "type": "agent",
       "team": "accounting",
       "name": "saengsanso-accounting",
-      "desc": "주식회사 생산소 세무·회계·급여·법인카드 처리. 트리거: 생산소, 경비, 세금계산서, 부가세, 원천세, 4대보험, 법인세, 급여.",
+      "desc": "㈜생산소(법인) 명의 세무·회계 전담. 법인세·부가세·원천세·법인 급여·4대보험·법인카드·경비, 그리고 ㈜생산소 명의로 받는 보조사업(공모 정산)까지. 트리거: 생산소, 경비, 세금계산서, 부가세, 법인세, 법인 급",
       "emoji": "□",
       "category": "accounting"
     }

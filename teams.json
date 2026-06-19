@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T13:37:17.101518+00:00",
+  "lastUpdated": "2026-06-19T13:51:07.139654+00:00",
   "teams": [
     {
       "id": "harness",
@@ -10,8 +10,8 @@
       "desc": "",
       "agents": [
         {
-          "id": "harness-planner",
-          "name": "harness-planner",
+          "id": "planner",
+          "name": "planner",
           "desc": "|"
         }
       ]
@@ -27,7 +27,7 @@
         {
           "id": "code-evaluator",
           "name": "code-evaluator",
-          "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PASS 확인."
+          "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline·sound-art·generative-visual 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PAS"
         },
         {
           "id": "nodetreehome-web",
@@ -47,7 +47,7 @@
         {
           "id": "doc-design",
           "name": "doc-design",
-          "desc": "포트폴리오·도록·공문·보고서 제작 (Pencil, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서."
+          "desc": "포트폴리오·도록·공문·보고서 제작 (Figma 디지털도화서, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서."
         },
         {
           "id": "doc-evaluator",
@@ -125,9 +125,19 @@
           "desc": "NODE TREE 퍼포먼스 필름 제작 전담. 촬영·편집·색보정·사운드믹싱·영화제 출품. 트리거: 촬영 계획, 편집, 색보정, 사운드 믹싱, 영화제, 이토록고요한파동."
         },
         {
+          "id": "generative-visual",
+          "name": "generative-visual",
+          "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. p5.js 알고리즘 아트, Hydra 라이브코딩, TouchDesigner 노드·GLSL 셰이더, 프로그래밍 영상(Remotion). 트리거: 제너러티브, 플"
+        },
+        {
           "id": "media-art-pipeline",
           "name": "media-art-pipeline",
-          "desc": "미디어아트 기술 파이프라인. 소니피케이션·OSC·ArtNet·ESP32·TidalCycles·Hydra·TouchDesigner. 트리거: 소니피케이션, OSC, CV 출력, TidalCycles, ArtNet."
+          "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV 하드웨어, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-visual에 "
+        },
+        {
+          "id": "sound-art",
+          "name": "sound-art",
+          "desc": "NODE TREE 사운드아트·음악·모듈러신스 전담. SuperCollider DSP·SynthDef·패턴, Ableton 작·편곡, TidalCycles/SuperDirt 라이브코딩, Eurorack/Daisy 사운"
         }
       ]
     },
@@ -140,14 +150,14 @@
       "desc": "재무 관리, 예산 분석, 지출 추적을 담당하는 팀.",
       "agents": [
         {
-          "id": "grant-accounting-agent",
-          "name": "grant-accounting-agent",
-          "desc": "공모·보조사업 회계 전문. 트리거: e나라도움, 보탬e, NCAS, 정산, 집행, 증빙, 보조금, 예산전용, 인건비."
+          "id": "nodetree-accounting",
+          "name": "nodetree-accounting",
+          "desc": "노드트리(고유번호단체·면세사업자) 명의 회계 전담. 보조사업(e나라도움·보탬e·NCAS) 정산·집행, 면세사업자 원천세·지급명세서, 4대보험, 노드트리 일반회계. 트리거: 노드트리 회계, 꿈다락, 보조금, 정산, 집"
         },
         {
           "id": "saengsanso-accounting",
           "name": "saengsanso-accounting",
-          "desc": "주식회사 생산소 세무·회계·급여·법인카드 처리. 트리거: 생산소, 경비, 세금계산서, 부가세, 원천세, 4대보험, 법인세, 급여."
+          "desc": "㈜생산소(법인) 명의 세무·회계 전담. 법인세·부가세·원천세·법인 급여·4대보험·법인카드·경비, 그리고 ㈜생산소 명의로 받는 보조사업(공모 정산)까지. 트리거: 생산소, 경비, 세금계산서, 부가세, 법인세, 법인 급"
         }
       ]
     }
