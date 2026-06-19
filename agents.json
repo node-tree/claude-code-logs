@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-19T14:25:32.156979+00:00",
-  "totalAgents": 60,
+  "lastUpdated": "2026-06-19T14:33:11.614401+00:00",
+  "totalAgents": 65,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -235,26 +235,17 @@
       "name": "Cli Anything",
       "desc": "cli-anything",
       "emoji": "🔹",
-      "version": "664cdc6c72f1"
+      "version": "3ff00f2adb1f"
     },
     {
       "id": "figma",
       "type": "plugin",
       "category": "dev",
       "name": "Figma",
-      "desc": "9개 스킬 포함",
+      "desc": "10개 스킬 포함",
       "emoji": "🎭",
-      "version": "a742f0a700a7",
-      "subSkillCount": 9
-    },
-    {
-      "id": "generate-project-plan",
-      "type": "skill",
-      "category": "dev",
-      "name": "Generate Project Plan",
-      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
-      "emoji": "🔹",
-      "parentPlugin": "figma"
+      "version": "2.2.50",
+      "subSkillCount": 10
     },
     {
       "id": "figma-use-slides",
@@ -290,6 +281,15 @@
       "name": "Figma Create New File",
       "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_new",
       "emoji": "📄",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-swiftui",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Swiftui",
+      "desc": "SwiftUI ↔ Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad — in EITHER direction —",
+      "emoji": "🔹",
       "parentPlugin": "figma"
     },
     {
@@ -329,29 +329,68 @@
       "parentPlugin": "figma"
     },
     {
-      "id": "warp",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Warp",
-      "desc": "warp",
-      "emoji": "🔹",
-      "version": "2.1.0"
-    },
-    {
-      "id": "harness",
+      "id": "generate-project-plan",
       "type": "skill",
       "category": "dev",
-      "name": "Harness",
-      "desc": "하네스를 구성합니다. 전문 에이전트를 정의하며, 해당 에이전트가 사용할 스킬을 생성하는 메타 스킬. (1) '하네스 구성해줘', '하네스 구축해줘' 요청 시, (2) '하네스 설계', '하네스 엔지니어링' 요청 시,",
+      "name": "Generate Project Plan",
+      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
       "emoji": "🔹",
-      "parentPlugin": "harness"
+      "parentPlugin": "figma"
     },
     {
-      "id": "mcp-figma",
+      "id": "mcp-blender",
       "type": "mcp",
       "category": "dev",
-      "name": "figma",
-      "desc": "MCP: npx -y figma-developer-mcp",
+      "name": "blender",
+      "desc": "MCP: uvx blender-mcp",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-playwright",
+      "type": "mcp",
+      "category": "dev",
+      "name": "playwright",
+      "desc": "MCP: npx @playwright/mcp@latest",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-chatgpt-mcp",
+      "type": "mcp",
+      "category": "dev",
+      "name": "chatgpt-mcp",
+      "desc": "MCP: npx claude-chatgpt-mcp",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-desktop-commander",
+      "type": "mcp",
+      "category": "dev",
+      "name": "desktop-commander",
+      "desc": "MCP: npx @wonderwhy-er/desktop-commander@latest",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-ClaudeTalkToFigma",
+      "type": "mcp",
+      "category": "dev",
+      "name": "ClaudeTalkToFigma",
+      "desc": "MCP: npx claude-talk-to-figma-mcp@latest",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-pyhub.mcptools",
+      "type": "mcp",
+      "category": "dev",
+      "name": "pyhub.mcptools",
+      "desc": "MCP: /Users/kanghyunjung/mcptools/pyhub.mcptools/pyhub.mcptools r",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-AbletonMCP",
+      "type": "mcp",
+      "category": "dev",
+      "name": "AbletonMCP",
+      "desc": "MCP: uvx ableton-mcp",
       "emoji": "🔌"
     },
     {
