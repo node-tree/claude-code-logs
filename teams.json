@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T14:33:11.614401+00:00",
+  "lastUpdated": "2026-06-19T15:16:04.966350+00:00",
   "teams": [
     {
       "id": "harness",
@@ -9,6 +9,11 @@
       "bg": "#f9fafb",
       "desc": "",
       "agents": [
+        {
+          "id": "itsvff",
+          "name": "itsvff",
+          "desc": "Sonnet 기반 Fable 5 구조 이식 서브에이전트 — 위임 전용(현재 세션 전역 적용은 output-style `Value-for-Fable`을 /config로 켤 것). 구현·분석·리서치·작문 등 독립 작업을"
+        },
         {
           "id": "planner",
           "name": "planner",

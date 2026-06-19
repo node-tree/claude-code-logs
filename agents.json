@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-19T14:33:11.614401+00:00",
-  "totalAgents": 65,
+  "lastUpdated": "2026-06-19T15:16:04.966350+00:00",
+  "totalAgents": 69,
   "agents": [
     {
       "id": "algorithmic-art",
@@ -171,6 +171,14 @@
       "emoji": "🔹"
     },
     {
+      "id": "value-for-fable",
+      "type": "skill",
+      "category": "dev",
+      "name": "Value For Fable",
+      "desc": "Sonnet 모델 세션에 Fable 5의 운영 구조(outcome-first 커뮤니케이션·검증 규율·도구 병렬화·최종메시지 완결성·가독성 우선 토큰 절약)를 입히는 세션 모드 — 현재 세션에 직접 적용한다(독립작업 ",
+      "emoji": "🔹"
+    },
+    {
       "id": "video",
       "type": "skill",
       "category": "audio",
@@ -211,31 +219,13 @@
       "emoji": "▶️"
     },
     {
-      "id": "clangd-lsp",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Clangd Lsp",
-      "desc": "clangd-lsp",
-      "emoji": "🔹",
-      "version": "1.0.0"
-    },
-    {
-      "id": "skill-creator",
+      "id": "frontend-design",
       "type": "skill",
-      "category": "meta",
-      "name": "Skill Creator",
-      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
-      "emoji": "🛠",
-      "parentPlugin": "skill-creator"
-    },
-    {
-      "id": "cli-anything",
-      "type": "plugin",
       "category": "dev",
-      "name": "Cli Anything",
-      "desc": "cli-anything",
-      "emoji": "🔹",
-      "version": "3ff00f2adb1f"
+      "name": "Frontend Design",
+      "desc": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthe",
+      "emoji": "🖥",
+      "parentPlugin": "frontend-design"
     },
     {
       "id": "figma",
@@ -338,6 +328,42 @@
       "parentPlugin": "figma"
     },
     {
+      "id": "skill-creator",
+      "type": "skill",
+      "category": "meta",
+      "name": "Skill Creator",
+      "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
+      "emoji": "🛠",
+      "parentPlugin": "skill-creator"
+    },
+    {
+      "id": "cli-anything",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Cli Anything",
+      "desc": "cli-anything",
+      "emoji": "🔹",
+      "version": "f5cfa05ea294"
+    },
+    {
+      "id": "warp",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Warp",
+      "desc": "warp",
+      "emoji": "🔹",
+      "version": "2.0.0"
+    },
+    {
+      "id": "harness",
+      "type": "skill",
+      "category": "dev",
+      "name": "Harness",
+      "desc": "하네스를 구성합니다. 전문 에이전트를 정의하며, 해당 에이전트가 사용할 스킬을 생성하는 메타 스킬. (1) '하네스 구성해줘', '하네스 구축해줘' 요청 시, (2) '하네스 설계', '하네스 엔지니어링' 요청 시,",
+      "emoji": "🔹",
+      "parentPlugin": "harness"
+    },
+    {
       "id": "mcp-blender",
       "type": "mcp",
       "category": "dev",
@@ -392,6 +418,15 @@
       "name": "AbletonMCP",
       "desc": "MCP: uvx ableton-mcp",
       "emoji": "🔌"
+    },
+    {
+      "id": "itsvff",
+      "type": "agent",
+      "team": "harness",
+      "name": "itsvff",
+      "desc": "Sonnet 기반 Fable 5 구조 이식 서브에이전트 — 위임 전용(현재 세션 전역 적용은 output-style `Value-for-Fable`을 /config로 켤 것). 구현·분석·리서치·작문 등 독립 작업을",
+      "emoji": "👥",
+      "category": "harness"
     },
     {
       "id": "planner",
