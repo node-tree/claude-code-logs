@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-19T15:15:54.933389+00:00",
+  "lastUpdated": "2026-06-19T15:30:12.001043+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6d2c8013",
+      "date": "2026-06-19",
+      "startTime": "2026-06-19T15:08:57.932000+00:00",
+      "durationSeconds": 1252,
+      "modelTier": "sonnet",
+      "projectName": ".claude",
+      "toolCallCount": 32,
+      "firstPrompt": "옵시디안 자동푸시 켜자",
+      "agentsUsed": []
+    },
     {
       "sessionId": "6d2c8013",
       "date": "2026-06-19",
@@ -4234,17 +4245,6 @@
       "date": "2026-03-30",
       "startTime": "2026-03-30T15:24:19.477000+00:00",
       "durationSeconds": 77,
-      "modelTier": "sonnet",
-      "projectName": "Desktop",
-      "toolCallCount": 2,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "aa245413",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T15:24:19.477000+00:00",
-      "durationSeconds": 42,
       "modelTier": "sonnet",
       "projectName": "Desktop",
       "toolCallCount": 2,

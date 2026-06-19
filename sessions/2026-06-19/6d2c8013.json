@@ -2,8 +2,8 @@
   "sessionId": "6d2c8013-1806-4183-b6da-214e44de4347",
   "date": "2026-06-19",
   "startTime": "2026-06-19T15:08:57.932000+00:00",
-  "endTime": "2026-06-19T15:15:40.912000+00:00",
-  "durationSeconds": 402,
+  "endTime": "2026-06-19T15:29:50.657000+00:00",
+  "durationSeconds": 1252,
   "model": {
     "raw": "",
     "tier": "sonnet"
@@ -13,9 +13,9 @@
     "path": "/Users/kanghyunjung/.claude"
   },
   "activity": {
-    "toolCallCount": 26,
+    "toolCallCount": 32,
     "toolCounter": {
-      "Bash": 18,
+      "Bash": 24,
       "Read": 3,
       "Edit": 5
     }
