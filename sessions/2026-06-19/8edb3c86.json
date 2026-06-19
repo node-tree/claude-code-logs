@@ -1,0 +1,24 @@
+{
+  "sessionId": "8edb3c86-feec-4991-b159-b26a35c1a098",
+  "date": "2026-06-19",
+  "startTime": "2026-06-19T14:07:05.175000+00:00",
+  "endTime": "2026-06-19T14:32:50.597000+00:00",
+  "durationSeconds": 1545,
+  "model": {
+    "raw": "",
+    "tier": "sonnet"
+  },
+  "project": {
+    "name": "nodetreeHome",
+    "path": "/Users/kanghyunjung/Desktop/etx/web/nodetreeHome"
+  },
+  "activity": {
+    "toolCallCount": 43,
+    "toolCounter": {
+      "Bash": 36,
+      "AskUserQuestion": 3,
+      "Edit": 4
+    }
+  },
+  "firstPrompt": "<command-message>image</command-message>\n<command-name>/image</command-name>\n<command-args>한옥을 그리고 바탕화면에 저장해</command-ar"
+}

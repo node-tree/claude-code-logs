@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-06-19T14:25:22.112054+00:00",
+  "lastUpdated": "2026-06-19T14:33:01.578407+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "8edb3c86",
+      "date": "2026-06-19",
+      "startTime": "2026-06-19T14:07:05.175000+00:00",
+      "durationSeconds": 1545,
+      "modelTier": "sonnet",
+      "projectName": "nodetreeHome",
+      "toolCallCount": 43,
+      "firstPrompt": "<command-message>image</command-message>\n<command-name>/imag",
+      "agentsUsed": []
+    },
     {
       "sessionId": "6fc509e0",
       "date": "2026-06-19",
@@ -4242,19 +4253,6 @@
         "code-evaluator",
         "grant-writer",
         "visual-design"
-      ]
-    },
-    {
-      "sessionId": "087dcc30",
-      "date": "2026-03-30",
-      "startTime": "2026-03-30T06:47:16.014000+00:00",
-      "durationSeconds": 30758,
-      "modelTier": "sonnet",
-      "projectName": "nodetree-claude-config",
-      "toolCallCount": 100,
-      "firstPrompt": "<local-command-caveat>Caveat: The messages below were genera",
-      "agentsUsed": [
-        "code-evaluator"
       ]
     }
   ]
