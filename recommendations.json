@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js App Router",
+          "name": "TypeScript + Next.js 성능 최적화",
           "type": "skill",
-          "desc": "최신 서버 컴포넌트 기반 풀스택 웹 개발 프레임워크",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선이 필수적이며, 최신 App Router는 미디어아트 웹사이트의 동적 콘텐츠 렌더링과 API 통합을 효율적으로 처리할 수 있음",
+          "desc": "웹 애플리케이션의 로딩속도와 SEO 개선을 위한 고급 최적화 기법",
+          "reason": "nodetreehome-web의 사용자 경험 향상과 검색 엔진 노출을 위해 필수적이며, 미디어아트 포트폴리오 사이트로서 시각적 임팩트를 극대화하려면 성능 최적화가 핵심",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "문헌관리 & 인용 자동화 (Zotero/Notion Integration)",
+          "name": "AI 기반 문헌 분석 및 메타데이터 추출",
           "type": "skill",
-          "desc": "대규모 학술자료 수집, 분류, 인용 자동 생성 시스템",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 다양한 학술 자료를 체계적으로 관리하고, 그랜트 신청서 작성 시 정확한 인용을 빠르게 생성하여 작업 효율성을 3배 이상 향상시킬 수 있음",
-          "trend": "rising"
+          "desc": "대규모 연구 자료에서 자동으로 핵심 정보를 추출하고 분류하는 기술",
+          "reason": "grant-research와 nodetree-research에서 지원금 관련 트렌드, 선행연구 동향을 빠르게 파악해야 하는데, AI 기반 분석으로 효율성을 대폭 증대할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Live Coding (SuperCollider/FoxDot)",
+          "name": "Max/MSP와 ESP32 시리얼 통신 통합",
           "type": "skill",
-          "desc": "실시간 음향 신호 처리 및 동적 시각-음향 동기화 프로그래밍",
-          "reason": "TidalCycles 기반 작업에서 ESP32 임베디드 시스템과의 연계를 강화하고, TouchDesigner의 실시간 비주얼과 음향을 정밀하게 동기화하여 인터랙티브 미디어아트 설치미술의 임팩트를 극대화할 수 있음",
-          "trend": "hot"
+          "desc": "TouchDesigner와 ESP32 간 실시간 데이터 동기화를 위한 고급 통신 프로토콜",
+          "reason": "media-art-pipeline에서 ESP32 센서 입력과 TidalCycles 음향, TouchDesigner 비주얼을 동시에 제어해야 하는 복잡한 멀티미디어 작업에서 안정적인 통신이 필수적",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계보고 (RPA + 스프레드시트 스크립팅)",
-          "type": "skill",
-          "desc": "영수증 OCR 자동 인식 및 거래 자동 분류 시스템",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 빈번한 영수증 처리와 회계 분류 작업을 자동화하여 월별 15-20시간의 반복 업무를 제거하고, 그랜트 펀딩의 정확한 비용 추적으로 감사 위험을 최소화할 수 있음",
-          "trend": "rising"
+          "name": "자동화 회계감사(Automated Audit Trail) 시스템",
+          "type": "agent",
+          "desc": "금융 거래 내역을 자동으로 검증하고 이상거래를 실시간 감지",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 지원금 관련 복잡한 회계 규정을 준수하면서도 오류를 최소화해야 하므로, 자동화 감시 시스템으로 투명성과 정확성 확보 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 이미지 생성 & 포스트프로세싱 (Midjourney/Stable Diffusion)",
-          "type": "skill",
-          "desc": "브랜드 톤에 맞춘 고품질 비주얼 콘텐츠 신속 생성",
-          "reason": "pr-content와 visual-design에서 SNS, 보도자료, 전시 포스터 제작 시 일관된 브랜드 이미지를 유지하면서 콘텐츠 생산 속도를 4배 가속화하고, 미디어아트 작업의 시각적 가치를 효과적으로 전달할 수 있음",
+          "name": "AI 기반 소셜미디어 콘텐츠 생성 및 최적화",
+          "type": "agent",
+          "desc": "팀의 작업물을 기반으로 각 플랫폼별 최적화된 PR 콘텐츠 자동 생성",
+          "reason": "pr-content 제작 시 미디어아트 작업의 시각적 임팩트를 극대화하면서 인스타그램, 틱톡 등 플랫폼별 특성에 맞춘 콘텐츠를 빠르게 생성할 수 있어 홍보 효율성 극대화",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리 자동화 (Monday.com/Asana API)",
-          "type": "skill",
-          "desc": "크로스펑셔널 일정 동기화 및 마일스톤 추적 자동화",
-          "reason": "grant-writer, doc-design, project-planner가 다루는 다양한 그랜트 신청, 전시 기획, 문서 작업이 상호 연결되어 있으므로, 실시간 프로젝트 상태 공유와 자동 마일스톤 경보로 팀 전체의 데드라인 준수율을 90% 이상으로 향상시킬 수 있음",
-          "trend": "rising"
+          "name": "AI 기반 그랜트라이팅 어시스턴트(MCP)",
+          "type": "agent",
+          "desc": "지원금 신청서 작성 자동화 및 경쟁력 있는 제안서 구조화",
+          "reason": "grant-writer와 project-planner에서 여러 펀딩 기관의 요구사항을 분석하고 NODE TREE의 미디어아트 프로젝트를 맞춤형 제안서로 변환해야 하는데, AI 에이전트가 데이터 기반의 강력한 제안서 작성을 지원할 수 있음",
+          "trend": "hot"
         }
       ]
     }
