@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Docker & Kubernetes",
+          "name": "TypeScript + React 최적화",
           "type": "skill",
-          "desc": "컨테이너 기반 웹 애플리케이션 배포 및 확장 관리",
-          "reason": "nodetreehome-web 프로젝트의 안정적인 운영 환경 구축과 팀 협업 효율성 증대를 위해 필수. 마이크로서비스 아키텍처로의 확장성 제공",
+          "desc": "nodetreehome-web의 성능과 유지보수성을 극대화하는 타입안전 프론트엔드 개발",
+          "reason": "웹 기반 미디어아트 플랫폼의 확장성과 안정성을 위해 필수적이며, 특히 실시간 인터랙티브 콘텐츠 전달에 있어 타입 안전성이 버그 감소에 직결됨",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "데이터 시각화 & 통계분석 (Python/R)",
+          "name": "데이터 시각화 및 통계 분석",
           "type": "skill",
-          "desc": "연구 데이터의 체계적 분석 및 시각적 표현",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 정성적/정량적 데이터를 효과적으로 분석하고 기금 신청서에 설득력 있는 근거 제시 필요",
-          "trend": "hot"
+          "desc": "연구 데이터와 그랜트 데이터를 효과적으로 분석하고 시각화하는 기법",
+          "reason": "nodetree-research와 grant-research 두 프로젝트에서 수집한 데이터를 의미있게 도출하여 기획팀의 의사결정과 보조금 신청 전략 수립을 지원할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 신호처리 (Signal Processing + 신경망)",
+          "name": "실시간 오디오-비주얼 동기화 (OSC/MIDI)",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 연동 시 센서 데이터의 실시간 변환 및 최적화",
-          "reason": "media-art-pipeline에서 하드웨어(ESP32) 입력을 음향/영상 콘텐츠로 즉시 변환하는 과정에서 레이턴시 감소와 표현력 확대 가능",
-          "trend": "rising"
+          "desc": "ESP32, TidalCycles, TouchDesigner 간 OSC/MIDI 프로토콜을 통한 시간동기화 기술",
+          "reason": "media-art-pipeline의 세 가지 플랫폼을 유기적으로 연결하여 사운드, 하드웨어, 영상의 정밀한 동기화를 실현해야 하며, 이는 미디어아트의 임팩트를 극대화하는 핵심 기술",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 시스템 (RPA/AI 에이전트)",
+          "name": "자동화 회계 감시 및 예측",
           "type": "agent",
-          "desc": "영수증 인식, 자동 분류, 보고서 생성 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 회계 관리에서 수작업 오류 제거 및 월별 보고 시간 70% 단축. 정부 기금 감시 대상 기관의 투명성 강화",
-          "trend": "hot"
+          "desc": "saengsanso-accounting과 grant-accounting-agent를 통합하여 실시간 재무 상태 모니터링과 예산 초과 예방",
+          "reason": "프로젝트 기반 미디어아트 팀의 특성상 그랜트와 일반 운영 비용이 복합적으로 얽혀있어, AI 에이전트를 통해 자동 감시 및 예측을 수행하면 재무 리스크를 사전에 차단하고 팀의 현금흐름 관리 효율을 크게 향상",
+          "trend": "rising"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 이미지 생성 & 편집 (Midjourney/Stable Diffusion API)",
+          "name": "브랜드 일관성 관리 시스템",
           "type": "skill",
-          "desc": "미디어아트 콘셉트 기반 시각 콘텐츠 신속 생성",
-          "reason": "visual-design과 pr-content 제작에서 팀의 창의 개념을 빠르게 프로토타입화하고, SNS 홍보 콘텐츠의 일관된 미학 유지와 생산성 2배 증대",
-          "trend": "hot"
+          "desc": "visual-design과 pr-content 간의 톤&매너, 색상팔레트, 타이포그래피를 통합 관리하는 디자인 시스템",
+          "reason": "미디어아트 팀의 다양한 프로젝트와 채널(웹, SNS, 오프라인)에서 NODE TREE의 브랜드 아이덴티티를 일관되게 유지하면, 팀의 전문성과 신뢰도를 높이고 대중 인식도를 강화할 수 있음",
+          "trend": "stable"
         }
       ]
     },
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "AI 기반 기금/공모전 매칭 & 작성 어시스턴트 (MCP)",
-          "type": "agent",
-          "desc": "실시간 공고 모니터링 및 맞춤형 지원서 작성 보조",
-          "reason": "grant-writer와 project-planner의 기금 발굴 업무를 자동화하고, doc-design 프로세스에서 팀의 강점을 하이라이트한 맞춤형 제안서 생성으로 채택률 향상",
+          "name": "프로젝트 일정 및 마일스톤 추적",
+          "type": "mcp",
+          "desc": "doc-design, grant-writer, project-planner 간 프로젝트 상태를 실시간으로 동기화하고 진행도를 추적하는 MCP",
+          "reason": "문서 기획, 보조금 작성, 프로젝트 계획이 병렬로 진행되는 환경에서 MCP를 통해 각 팀 간 정보 일관성을 보장하고, 그랜트 데드라인과 예술작업의 프로젝트 일정을 통합 관리하면 팀 전체의 협업 효율과 납기 달성률을 극대화",
           "trend": "rising"
         }
       ]
