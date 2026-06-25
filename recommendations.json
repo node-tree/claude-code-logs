@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-24",
+  "lastUpdated": "2026-06-25",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14+ App Router",
+          "name": "Next.js App Router 최적화",
           "type": "skill",
-          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 현재 프로덕션 표준으로 자리잡았음. 미디어아트 포트폴리오 사이트의 빠른 렌더링과 대용량 이미지/비디오 처리에 효과적",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 구축",
+          "reason": "nodetreehome-web의 성능 개선과 사용자 경험 향상이 필수적이며, App Router는 현재 프로덕션 표준으로 미디어아트 포트폴리오 사이트의 이미지/비디오 로딩 최적화에 직접 적용 가능",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered Literature Review Agent",
-          "type": "agent",
-          "desc": "학술논문 자동 수집, 요약, 분류 및 트렌드 분석 에이전트",
-          "reason": "nodetree-research와 grant-research에서 대량의 미디어아트, 기술, 문화 관련 논문을 빠르게 분석해야 하는데, AI 에이전트를 통해 수작업 시간을 80% 단축하고 인사이트 도출 속도를 높일 수 있음. 2026년 학술 커뮤니티의 표준 도구로 진화",
+          "name": "AI 문헌 분석 및 인사이트 추출",
+          "type": "skill",
+          "desc": "대규모 텍스트 데이터에서 패턴과 트렌드를 자동으로 도출하는 AI 기반 리서치 방법론",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 미디어아트 트렌드, 펀딩 기회, 학술 논문 분석이 필요한데, AI 도구 활용으로 리서치 효율성을 3배 이상 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP-TouchDesigner Bridge Protocol",
+          "name": "실시간 오디오 비주얼 싱크로나이제이션",
           "type": "skill",
-          "desc": "실시간 오디오 비주얼 싱크를 위한 OSC/MIDI 통합 프로토콜",
-          "reason": "ESP32 센서, TidalCycles 사운드, TouchDesigner 비주얼을 하나의 생태계로 통합하려면 실시간 동기화가 핵심. 이 프로토콜을 통해 레이턴시를 5ms 이하로 유지하며 인터랙티브 미디어아트 설치의 완성도를 대폭 향상 가능",
+          "desc": "TidalCycles 및 TouchDesigner에서 사운드와 비주얼을 정밀하게 동기화하는 기술",
+          "reason": "ESP32/TidalCycles/TouchDesigner 스택에서 미디어아트 작품의 핵심은 멀티센서 입력과 실시간 오디오비주얼 반응성이므로, 이 스킬은 작품의 임팩트와 기술적 완성도를 극대화함",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Smart Contract-based Grant Accounting MCP",
-          "type": "agent",
-          "desc": "블록체인 기반의 투명한 그랜트 자금 추적 및 자동 리포팅 에이전트",
-          "reason": "grant-accounting-agent와 saengsanso-accounting의 감시·감독 프로세스 자동화에 최적. 정부/문화재단 그랜트의 복잡한 영수증 관리, 환율 변동, 다중 통화 추적을 블록체인으로 투명화하면 감사 시간을 60% 단축하고 신뢰도 증대. 2026년 문화기금 관리의 새로운 표준",
-          "trend": "hot"
+          "name": "자동화된 보조금 회계 추적 시스템",
+          "type": "skill",
+          "desc": "다중 펀딩 출처별 비용 분류 및 컴플라이언스 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 펀딩 기관별 회계 규칙이 상이하므로, 자동화 시스템 구축으로 오류 감소와 감시 리포팅 시간을 70% 단축할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Visual Storytelling Generator",
-          "type": "agent",
-          "desc": "브랜드 메시지를 시각적 콘텐츠로 자동 변환하는 AI 에이전트",
-          "reason": "pr-content와 visual-design 팀이 미디어아트 작품, 그랜트 성과, 팀 뉴스를 SNS/보도자료/포트폴리오로 빠르게 변환해야 함. 이 에이전트는 텍스트 입력만으로 일관된 비주얼 스토리보드, 컬러 팔레트, 타이포그래피를 생성하여 콘텐츠 생산 속도 3배 향상 및 브랜드 일관성 유지 가능",
+          "name": "소셜미디어 영상 최적화 및 쇼트폼 편집",
+          "type": "skill",
+          "desc": "플랫폼별(TikTok, Instagram Reels, YouTube Shorts) 동영상 포맷과 타이밍 최적화",
+          "reason": "pr-content에서 미디어아트 작품을 대중에게 알리기 위해 쇼트폼 콘텐츠 수요가 급증 중이며, 각 플랫폼 알고리즘에 맞춘 최적화로 도달율 5배 향상 가능",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Integrated Project Timeline & Grant Deadline MCP",
-          "type": "agent",
-          "desc": "프로젝트 일정, 그랜트 데드라인, 팀 역량을 실시간 동기화하는 스마트 일정 매니저",
-          "reason": "doc-design, grant-writer, project-planner가 복수의 그랜트(국내/국제), 전시, 연구 프로젝트를 동시 관리할 때 발생하는 일정 충돌, 데드라인 누락, 리소스 배분 오류를 자동 감지·알림. 2026년 현재 대규모 문화프로젝트의 필수 도구로, NODE TREE의 다양한 활동을 하나의 통합 대시보드에서 추적하면 기획 효율성 45% 상승 및 그랜트 유실 방지",
-          "trend": "hot"
+          "name": "프로젝트 예산-일정 통합 시뮬레이션",
+          "type": "skill",
+          "desc": "리스크 시나리오 분석을 통한 동적 프로젝트 계획 수립",
+          "reason": "doc-design, grant-writer, project-planner가 동시에 움직이는 복잡한 구조에서 예산과 일정의 상충을 사전에 시뮬레이션하여 제안서 작성 시 현실성 있는 계획 제시 가능",
+          "trend": "rising"
         }
       ]
     }
