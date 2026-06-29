@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-28",
+  "lastUpdated": "2026-06-29",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React",
+          "name": "Next.js App Router",
           "type": "skill",
-          "desc": "웹 프론트엔드 개발 및 타입 안정성을 위한 필수 스택",
-          "reason": "nodetreehome-web 프로젝트의 유지보수성과 확장성을 높이기 위해 현대적 웹 개발 패러다임 필요. 팀 협업 시 코드 품질 보장 및 버그 감소로 개발 속도 향상",
+          "desc": "React 기반 풀스택 웹 프레임워크의 최신 라우팅 시스템",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선을 위해 필수적이며, 팀의 웹 개발 생산성을 30% 이상 향상시킬 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Academic Citation Management (Zotero/Mendeley)",
+          "name": "AI-powered Literature Review",
           "type": "skill",
-          "desc": "논문 및 자료 수집, 정리, 인용 관리 자동화 도구",
-          "reason": "nodetree-research와 grant-research 프로젝트에서 대량의 참고자료 관리 필요. 체계적 자료관리로 연구 효율성 증대 및 학술 글쓰기 시간 단축",
-          "trend": "stable"
+          "desc": "대규모 학술 자료를 AI로 분석하고 인사이트를 추출하는 기법",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 데이터를 신속하게 분석하여 연구 제안서의 참고자료 수집 시간을 단축하고 학술적 근거를 강화할 수 있습니다.",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP for ESP32 Integration",
+          "name": "WebGL/GLSL",
           "type": "skill",
-          "desc": "하드웨어와 실시간 오디오/비주얼 신호 처리 연동",
-          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 통합에서 실시간 신호 처리 및 인터랙티브 설치미술 제작. 센서 데이터를 음향/영상으로 변환하는 핵심 기술",
+          "desc": "브라우저 기반 실시간 3D 그래픽과 셰이더 프로그래밍",
+          "reason": "ESP32/TouchDesigner와 연동하는 media-art-pipeline에서 실시간 비주얼 렌더링의 성능을 획기적으로 향상시키고 웹 기반 인터랙티브 전시 경험을 구현할 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation (RPA/Python)",
+          "name": "Multi-currency Reconciliation Automation",
           "type": "skill",
-          "desc": "정부지원금 회계 자동화 및 컴플라이언스 추적",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 복잡한 지원금 항목별 추적과 세무 요건 관리 자동화. 휴먼 에러 감소 및 감시 기간 단축으로 업무 효율 70% 이상 개선",
+          "desc": "다중통화 환율 자동 대사 및 재정 추적 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 국제 프로젝트 펀딩의 복잡한 환율 변동과 다중 자금원을 효율적으로 관리하고 감사 오류를 사전에 방지할 수 있습니다.",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Figma Prototyping + Design Systems",
+          "name": "AI Image Generation Prompt Engineering",
           "type": "skill",
-          "desc": "협업형 UI/UX 디자인 및 컴포넌트 시스템 구축",
-          "reason": "visual-design과 pr-content에서 개발팀과의 실시간 협업 필요. 디자인 일관성 유지와 홍보 콘텐츠 제작 속도 향상. 프로토타입 공유로 피드백 루프 단축",
+          "desc": "DALL-E/Midjourney 등을 활용한 고품질 시각물 생성 최적화",
+          "reason": "pr-content 제작에서 브랜드 일관성을 유지하면서 SNS/보도자료용 고품질 이미지를 빠르게 생성할 수 있으며, visual-design의 컨셉 개발 단계에서 다양한 아이디어를 시각화할 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "AI-Powered Grant Writing (Claude/GPT)",
+          "name": "Grant Proposal Narrative Optimization",
           "type": "skill",
-          "desc": "정부지원금 제안서 및 프로젝트 기획안 AI 기반 작성 지원",
-          "reason": "grant-writer와 project-planner에서 반복적인 문서 작성 자동화. 다양한 펀딩 기관별 요구사항 맞춤형 제안서 생성으로 승인율 향상 및 작성 시간 50% 단축",
-          "trend": "hot"
+          "desc": "펀딩 기관별 맞춤형 제안서 구성과 설득력 있는 스토리텔링",
+          "reason": "grant-writer와 project-planner가 작성하는 제안서의 선정율을 높이기 위해, 펀딩 심사자의 평가 기준을 분석하고 각 섹션별 최적화된 표현으로 경쟁력을 확보할 수 있습니다.",
+          "trend": "stable"
         }
       ]
     }
