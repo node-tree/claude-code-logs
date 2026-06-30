@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-06-30",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js App Router",
+          "name": "React/Next.js 성능 최적화",
           "type": "skill",
-          "desc": "React 기반 풀스택 웹 프레임워크의 최신 라우팅 시스템",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선을 위해 필수적이며, 팀의 웹 개발 생산성을 30% 이상 향상시킬 수 있습니다.",
+          "desc": "웹 애플리케이션의 렌더링 성능과 번들 크기 최적화 기술",
+          "reason": "nodetreehome-web 프로젝트의 사용자 경험 향상과 로딩 속도 개선으로 미디어아트 콘텐츠 전시 플랫폼으로서의 신뢰도 향상에 필수적",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered Literature Review",
+          "name": "AI 기반 데이터 분석 및 시각화",
           "type": "skill",
-          "desc": "대규모 학술 자료를 AI로 분석하고 인사이트를 추출하는 기법",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 데이터를 신속하게 분석하여 연구 제안서의 참고자료 수집 시간을 단축하고 학술적 근거를 강화할 수 있습니다.",
+          "desc": "대규모 연구 데이터를 AI로 분석하고 인사이트를 시각화하는 기술",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 지원금 트렌드 분석과 미디어아트 시장 동향 파악을 신속하고 정확하게 수행하여 경쟁력 있는 제안서 작성 가능",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "WebGL/GLSL",
+          "name": "실시간 오디오 비주얼 싱크로나이제이션",
           "type": "skill",
-          "desc": "브라우저 기반 실시간 3D 그래픽과 셰이더 프로그래밍",
-          "reason": "ESP32/TouchDesigner와 연동하는 media-art-pipeline에서 실시간 비주얼 렌더링의 성능을 획기적으로 향상시키고 웹 기반 인터랙티브 전시 경험을 구현할 수 있습니다.",
+          "desc": "TidalCycles 사운드와 TouchDesigner 비주얼의 실시간 동기화 기술",
+          "reason": "media-art-pipeline에서 ESP32/TidalCycles/TouchDesigner 통합 작업 시 음성과 영상의 정교한 동기화가 작품의 예술성과 기술적 완성도를 극대화하는 핵심 요소",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-currency Reconciliation Automation",
+          "name": "자동화 회계 프로세스 (RPA/AI)",
           "type": "skill",
-          "desc": "다중통화 환율 자동 대사 및 재정 추적 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 국제 프로젝트 펀딩의 복잡한 환율 변동과 다중 자금원을 효율적으로 관리하고 감사 오류를 사전에 방지할 수 있습니다.",
+          "desc": "반복적인 회계 업무를 자동화하고 오류를 최소화하는 기술",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 지원금 정산과 프로젝트별 원가 추적을 자동화하여 업무 효율성 50% 이상 증대 및 감시 기관의 투명성 요구사항 완벽 충족",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Image Generation Prompt Engineering",
+          "name": "소셜미디어 알고리즘 최적화 콘텐츠 제작",
           "type": "skill",
-          "desc": "DALL-E/Midjourney 등을 활용한 고품질 시각물 생성 최적화",
-          "reason": "pr-content 제작에서 브랜드 일관성을 유지하면서 SNS/보도자료용 고품질 이미지를 빠르게 생성할 수 있으며, visual-design의 컨셉 개발 단계에서 다양한 아이디어를 시각화할 수 있습니다.",
+          "desc": "각 SNS 플랫폼 특성에 맞춘 바이럴 콘텐츠 전략과 제작 방법론",
+          "reason": "pr-content 제작 시 미디어아트 팀의 작업물을 Instagram/TikTok/YouTube 등에서 최대 도달률과 엔게이지먼트를 확보하여 팀의 인지도 향상과 협업 기회 창출",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Proposal Narrative Optimization",
+          "name": "정부 지원사업 매칭 및 타이밍 전략",
           "type": "skill",
-          "desc": "펀딩 기관별 맞춤형 제안서 구성과 설득력 있는 스토리텔링",
-          "reason": "grant-writer와 project-planner가 작성하는 제안서의 선정율을 높이기 위해, 펀딩 심사자의 평가 기준을 분석하고 각 섹션별 최적화된 표현으로 경쟁력을 확보할 수 있습니다.",
+          "desc": "연중 공고되는 지원사업과 팀의 프로젝트를 최적 매칭하는 전략 수립",
+          "reason": "grant-writer와 project-planner의 연계 업무에서 적절한 지원사업 선정부터 제출 타이밍 최적화까지를 전략적으로 관리하여 채택률 향상과 팀의 지속가능한 자금 확보 체계 구축",
           "trend": "stable"
         }
       ]
