@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-04",
+  "lastUpdated": "2026-07-05",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "Next.js 15 + React Server Components",
           "type": "skill",
-          "desc": "웹 애플리케이션의 타입 안정성과 성능 개선",
-          "reason": "nodetreehome-web 프로젝트의 유지보수성과 확장성을 위해 현대적 웹 개발 표준 필수. 2026년 기준 미디어아트 전시 웹사이트는 실시간 데이터 처리와 인터랙티브 UI가 중요하므로 필수 스킬",
+          "desc": "서버 컴포넌트 기반 풀스택 웹 개발 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 미디어아트 포트폴리오 사이트에서 RSC를 활용한 동적 콘텐츠 렌더링으로 작품 전시 경험을 향상시킬 수 있으며, 팀 협업 효율성도 증대",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "시맨틱 검색 및 RAG 시스템",
+          "name": "Systematic Literature Review & Meta-Analysis",
           "type": "skill",
-          "desc": "대규모 연구 데이터에서 의미 기반 검색 및 지식 추출",
-          "reason": "nodetree-research와 grant-research 리포지토리의 방대한 데이터를 효율적으로 분석하고 연관성 있는 인사이트를 도출하기 위해 필수. 지원금 연구 데이터의 체계적 관리와 활용성 극대화",
+          "desc": "체계적 문헌고찰과 메타분석을 통한 학술 연구 방법론",
+          "reason": "grant-research와 nodetree-research에서 정부지원금 신청 시 학술적 근거의 강화가 필수인데, 체계적인 문헌분석 역량으로 혁신성/타당성을 입증하여 과제 선정 확률을 대폭 높일 수 있음",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오 비주얼 싱크로나이제이션",
+          "name": "AI-Assisted Generative Composition with TidalCycles",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 간의 신호 동기화 및 레이턴시 최적화",
-          "reason": "media-art-pipeline의 세 플랫폼 통합에서 음향과 시각의 정확한 동기화가 미디어아트 작품의 품질을 결정. 라이브 퍼포먼스에서 필수적인 기술적 역량",
+          "desc": "AI 모델과 TidalCycles를 결합한 알고리즘 음악 작곡",
+          "reason": "media-art-pipeline의 핵심인 TidalCycles 기반 작업에 LLM/ML을 통합하여 실시간 음악 생성과 인터랙티브 성능 능력을 확장할 수 있으며, ESP32 센서와의 연동으로 완전한 멀티모달 미디어아트 설치미술 구현 가능",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "멀티 프로젝트 예산 추적 및 자동화",
+          "name": "Grant Accounting Automation with RPA",
           "type": "skill",
-          "desc": "saengsanso-accounting, grant-accounting-agent의 통합 재무 관리 시스템 운영",
-          "reason": "여러 프로젝트와 지원금 관리가 복잡한 구조에서 수동 오류를 줄이고 실시간 재무 현황 파악 필요. grant-accounting-agent의 자동화 활용으로 감시 효율성 증대",
+          "desc": "정부지원금 회계처리 자동화 및 감시 시스템",
+          "reason": "grant-accounting-agent와 saengsanso-accounting의 중복 업무 처리에서 RPA 자동화로 영수증 스캔, 분류, 장부 기재, 보고서 생성을 자동화하여 인적 오류 제거 및 감사 대응 시간을 70% 단축할 수 있음",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 비주얼 콘텐츠 생성 및 브랜딩",
+          "name": "AI-Powered Visual Brand Storytelling",
           "type": "skill",
-          "desc": "visual-design 자산 생성 및 pr-content의 일관된 시각 언어 개발",
-          "reason": "미디어아트 팀의 고유한 비주얼 아이덴티티를 다양한 채널(소셜미디어, 전시 홍보물)에서 빠르게 구현. pr-content 제작 속도와 품질 동시 향상",
+          "desc": "생성형 AI를 활용한 일관된 브랜드 비주얼 및 내러티브 개발",
+          "reason": "visual-design과 pr-content에서 NODE TREE의 미디어아트 정체성을 시각화할 때, AI 이미지/영상 생성 도구로 빠르게 다양한 콘셉트를 프로토타입하고 SNS 콘텐츠 확대 생산이 가능하여 홍보 도달률 증진",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 매니지먼트 및 일정 최적화",
+          "name": "Strategic Project Roadmapping with OKR Framework",
           "type": "skill",
-          "desc": "doc-design, grant-writer, project-planner 간의 크리티컬 패스 분석 및 일정 관리",
-          "reason": "지원금 신청(grant-writer)과 프로젝트 실행(project-planner) 사이의 일정 충돌을 사전 예방하고, 문서 작업(doc-design)의 병렬 처리 최적화. 팀 전체의 효율성을 제어하는 핵심 역할",
-          "trend": "stable"
+          "desc": "목표-핵심결과 기반 전략적 프로젝트 로드맵 설계",
+          "reason": "doc-design, grant-writer, project-planner의 협업에서 OKR 프레임워크로 명확한 팀 목표와 정량화된 성과지표를 수립하면, 각 그룹의 업무 우선순위가 일관되고 지원금 신청 시 사업 계획의 신뢰도가 크게 향상됨",
+          "trend": "rising"
         }
       ]
     }
