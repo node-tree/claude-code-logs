@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router 최적화",
+          "name": "TypeScript + Next.js 성능 최적화",
           "type": "skill",
-          "desc": "서버 컴포넌트 활용한 고성능 웹 애플리케이션 개발",
-          "reason": "nodetreehome-web의 성능 개선과 SEO 최적화가 필요한 상황에서 최신 Next.js 버전의 App Router는 번들 크기 감소와 초기 로딩 속도 개선을 직접적으로 달성할 수 있으며, 2026년 현재 업계 표준이 되었기 때문",
+          "desc": "웹사이트 로딩 속도 및 SEO 개선을 위한 고급 최적화 기법",
+          "reason": "nodetreehome-web의 사용자 경험과 검색 엔진 가시성을 동시에 높이기 위해 필수적이며, 미디어아트 포트폴리오 사이트로서 시각적 콘텐츠 로딩 성능이 중요함",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-기반 문헌 분석 및 데이터 마이닝",
+          "name": "데이터 시각화 및 분석 (D3.js/Python 데이터 분석)",
           "type": "skill",
-          "desc": "대규모 논문/자료 수집 및 패턴 분석 자동화",
-          "reason": "nodetree-research와 grant-research에서 다량의 미디어아트 관련 자료 수집과 분석이 필요한데, AI 도구를 활용하면 연구 기간을 30-40% 단축할 수 있으며 더 깊이 있는 인사이트 도출이 가능하기 때문",
-          "trend": "hot"
+          "desc": "연구 데이터를 인터랙티브한 시각 자료로 변환하는 기술",
+          "reason": "grant-research와 nodetree-research에서 도출한 인사이트를 명확하게 전달하기 위해 필수적이며, 지원금 심사위원들에게 설득력 있는 리서치 결과 제시 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오 비주얼 동기화 (ESP32 + TidalCycles)",
+          "name": "Real-time Audio Analysis (Tidal Cycles 고급 기법)",
           "type": "skill",
-          "desc": "음향 신호를 시각적 요소로 실시간 변환 및 동기화",
-          "reason": "media-art-pipeline에서 ESP32와 TidalCycles를 연계할 때 오디오 입력을 TouchDesigner의 비주얼과 완벽히 동기화하는 기술이 핵심이며, 이는 인터랙티브 미디어아트 전시의 관객 경험을 극적으로 향상시킬 수 있기 때문",
-          "trend": "rising"
+          "desc": "실시간 오디오 신호 처리 및 동적 비주얼 생성 기술",
+          "reason": "TidalCycles와 TouchDesigner/ESP32 연동 시 음향 데이터를 시각화하는 실시간 인터랙티브 설치미술 작품 제작에 직접 활용 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "보조금 추적 자동화 시스템 (MCP)",
-          "type": "agent",
-          "desc": "grant-accounting과 saengsanso-accounting 간 데이터 자동 연동 및 보고",
-          "reason": "두 회계 시스템 간의 중복 데이터 입력과 오류를 제거하기 위해 MCP 기반 자동화 에이전트가 필수적이며, 특히 정부 보조금 사용처 추적과 정산 기한 관리의 투명성을 획기적으로 높일 수 있기 때문",
+          "name": "자동 영수증/청구서 처리 (OCR + AI 자동화)",
+          "type": "skill",
+          "desc": "AI 기반 문서 인식으로 회계 데이터 자동 입력",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 효율을 극대화하여 수작업 오류를 줄이고 복잡한 프로젝트 회계 추적 시간을 단축할 수 있음",
           "trend": "hot"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "브랜드 톤 앤 매너 일관성 검증 AI",
+          "name": "AI 기반 콘텐츠 생성 및 편집 (Adobe Firefly/Midjourney 활용)",
           "type": "skill",
-          "desc": "시각 자산과 콘텐츠가 브랜드 가이드라인을 따르는지 자동 검증",
-          "reason": "visual-design과 pr-content 제작 과정에서 NODE TREE의 미디어아트 정체성을 일관되게 유지하면서 다양한 채널(SNS, 전시, 보도자료)로 배포할 때 매번 수동 검토하는 비효율을 제거할 수 있고, 브랜드 신뢰도를 강화할 수 있기 때문",
-          "trend": "rising"
+          "desc": "브랜드 일관성을 유지하며 빠르게 다양한 홍보 비주얼 제작",
+          "reason": "pr-content와 visual-design 업무에서 소셜미디어, 보도자료, 전시 포스터 등 다양한 형식의 콘텐츠를 빠르게 제작하고 반복 수정 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 일정 및 리스크 예측 에이전트",
-          "type": "agent",
-          "desc": "과거 프로젝트 데이터 기반 일정 추정 및 병목 지점 선제 예측",
-          "reason": "doc-design, grant-writer, project-planner가 다루는 다양한 규모의 프로젝트에서 일정 지연과 예산 초과가 발생할 때 이를 선제적으로 감지하고 대응책을 제시하는 에이전트가 있으면 팀 간 협력을 크게 개선할 수 있으며, 특히 보조금 프로젝트의 기한 준수율을 높일 수 있기 때문",
-          "trend": "hot"
+          "name": "프로젝트 관리 및 문서 자동화 (AI 기반 제안서/보고서 생성)",
+          "type": "skill",
+          "desc": "AI로 초안을 자동 생성하고 팀 협업을 강화하는 기획 문서화 시스템",
+          "reason": "grant-writer와 project-planner의 문서 작성 시간을 단축하고, doc-design에서 다양한 형식의 기획안을 신속하게 제작할 수 있으며 팀 전체의 기획 일관성 유지 가능",
+          "trend": "rising"
         }
       ]
     }
