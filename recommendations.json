@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 풀스택 개발",
+          "name": "Next.js App Router",
           "type": "skill",
-          "desc": "현대적 웹 프레임워크를 활용한 고성능 풀스택 개발",
-          "reason": "nodetreehome-web 유지보수 및 확장 시 타입 안정성과 SEO 최적화가 필수적이며, 팀 협업 효율성을 크게 향상시킬 수 있음",
+          "desc": "서버 컴포넌트 기반의 최신 웹 프레임워크 아키텍처",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선을 위해 필수적이며, 미디어아트 포트폴리오 사이트의 빠른 로딩과 동적 콘텐츠 렌더링에 직접적 도움",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 메타 리서치",
+          "name": "Qualitative Data Analysis (QDA) with MAXQDA/NVivo",
           "type": "skill",
-          "desc": "대규모 데이터셋에서 핵심 인사이트를 자동 추출하고 트렌드 분석",
-          "reason": "grant-research와 nodetree-research에서 수많은 자료를 빠르게 정리하고 지원금 기획에 필요한 시장 분석 시간을 단축하여 생산성을 2배 이상 증대",
-          "trend": "hot"
+          "desc": "정성적 연구 데이터의 체계적 분석 및 코딩",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 수집한 미디어아트 관련 인터뷰, 문헌자료를 체계적으로 분석하여 보조금 신청 및 학술자료로 활용할 수 있음",
+          "trend": "stable"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오-비주얼 동기화 (TidalCycles + TouchDesigner)",
+          "name": "Max/MSP for Real-time Audio-Visual Synthesis",
           "type": "skill",
-          "desc": "네트워크 기반 OSC 프로토콜을 통한 라이브 성능 연동",
-          "reason": "media-art-pipeline에서 ESP32 센서와 TidalCycles, TouchDesigner를 완벽히 통합하여 인터랙티브 설치미술의 표현력을 극대화하고 전시 기술적 완성도 제고",
-          "trend": "rising"
+          "desc": "실시간 오디오-비주얼 신호 처리 및 동기화",
+          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 센서 입력, 음향 생성, 시각화를 통합할 때 실시간 신호 동기화와 인터랙티브 반응성이 핵심이므로 필수적",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화된 예산 추적 및 감시 시스템",
+          "name": "Grant Accounting Compliance & Audit Trail",
           "type": "skill",
-          "desc": "실시간 거래 자동분류 및 예산 편차 조기 경고",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 중복 작업을 통합하고, 정부 지원금 회계감사 대비 자동 컴플라이언스 체크로 오류율 감소 및 감사 시간 50% 단축",
-          "trend": "hot"
+          "desc": "보조금 회계 규정 준수 및 감시 기록 관리",
+          "reason": "grant-accounting-agent 운영 시 한국의 문화예술 보조금 규정 변화에 대응하고, saengsanso-accounting과의 통합 관리를 통해 투명성과 규정 준수율을 극대화할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "브랜드 AI 어시스턴트 기반 콘텐츠 제작",
+          "name": "AI-Powered Visual Content Generation",
           "type": "skill",
-          "desc": "노드트리 브랜드 가이드라인을 학습한 이미지/영상/텍스트 자동 생성 및 편집",
-          "reason": "visual-design과 pr-content에서 SNS, 보도자료, 전시홍보물을 빠르게 다량 제작하면서도 일관된 브랜드 정체성 유지, 월 50시간 이상의 반복 작업 시간 절감",
+          "desc": "생성형 AI를 활용한 시각 콘텐츠 제작 자동화",
+          "reason": "pr-content 제작 효율을 대폭 높이고, visual-design에서 소셜미디어용 고품질 이미지/영상을 빠르게 제작할 수 있으며, 미디어아트팀의 미학을 유지하면서 홍보 콘텐츠 다양성 확보 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 리스크 예측 및 자동 일정 최적화",
+          "name": "Project Roadmap Planning with Agile Methodology",
           "type": "skill",
-          "desc": "과거 프로젝트 데이터 학습을 통한 일정 지연 요인 사전 식별 및 자동 재계획",
-          "reason": "grant-writer, project-planner, doc-design에서 복잡한 지원금 프로젝트 다중 관리 시 병목 지점을 사전에 식별하고, 제안서 작성부터 결과 보고까지의 전체 라이프사이클 관리 효율성 40% 향상",
+          "desc": "애자일 방식의 동적 프로젝트 로드맵 수립 및 관리",
+          "reason": "doc-design, grant-writer, project-planner 업무 간 의존성을 관리하고, 보조금 마감과 예술작업 일정을 동시에 조율할 때 반복 계획(Sprint)으로 유연하게 대응 가능하며 팀 간 커뮤니케이션 효율성 증대",
           "trend": "rising"
         }
       ]
