@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 with App Router",
+          "name": "Next.js 14+ App Router",
           "type": "skill",
-          "desc": "최신 React 프레임워크로 SSR/SSG 최적화된 웹 개발",
-          "reason": "nodetreehome-web의 성능 개선과 SEO 최적화를 위해 필수적이며, 2026년 현재 엔터프라이즈 표준으로 자리잡음",
+          "desc": "서버컴포넌트 기반 현대적 웹 개발 프레임워크",
+          "reason": "nodetreehome-web의 성능최적화와 SEO 개선을 위해 필수적이며, 2026년 웹개발의 표준으로 자리잡아 팀의 경쟁력 강화에 직결됨",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Review Agent",
-          "type": "agent",
-          "desc": "학술 논문 자동 분석 및 인사이트 추출",
-          "reason": "grant-research와 nodetree-research에서 대량의 학술 자료 분석이 필요하며, AI 에이전트로 연구 시간을 60% 단축 가능",
+          "name": "벡터데이터베이스 활용(Pinecone/Weaviate)",
+          "type": "skill",
+          "desc": "AI 기반 의미론적 검색 및 데이터 분석",
+          "reason": "nodetree-research와 grant-research에서 방대한 문헌·데이터 분석시 AI 검색으로 리서치 효율을 3배 이상 향상시킬 수 있으며, 미디어아트 트렌드 분석에 활용 가능",
           "trend": "hot"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization MCP",
-          "type": "mcp",
-          "desc": "TidalCycles와 TouchDesigner 간 실시간 신호 동기화",
-          "reason": "ESP32/TidalCycles/TouchDesigner 통합 작업에서 지연시간 없는 오디오-비주얼 매핑이 필수이며, 실시간 공연/설치 미디어아트의 완성도를 높임",
-          "trend": "rising"
+          "name": "Generative AI 통합(Stable Diffusion/DALL-E API)",
+          "type": "skill",
+          "desc": "실시간 생성형 AI를 미디어아트 파이프라인에 통합",
+          "reason": "ESP32/TidalCycles/TouchDesigner 워크플로우에 AI 생성 비주얼을 추가하면 인터랙티브 미디어아트의 창의성을 확장할 수 있으며, 2026년 미디어아트 트렌드의 핵심 요소",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-Project Financial Dashboard Agent",
+          "name": "정부보조금 회계자동화 MCP",
           "type": "agent",
-          "desc": "saengsanso-accounting과 grant-accounting-agent의 통합 재무 리포팅",
-          "reason": "다중 프로젝트/보조금의 예산 추적과 실시간 재무 상태 모니터링을 자동화하여 오류 감소 및 감사 시간 30% 단축",
-          "trend": "hot"
+          "desc": "grant-accounting-agent를 위한 지출영수증 자동분류 및 보고서 생성",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 중복 입력을 제거하고 정부 감사 규정 자동준수로 월 20시간 이상 업무시간 단축 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Brand Voice & Visual Generation Suite",
+          "name": "AI 디지털 자산관리(DAM) + 브랜드 가이드 자동화",
           "type": "skill",
-          "desc": "일관성 있는 브랜드 아이덴티티 자동 생성 및 관리",
-          "reason": "visual-design과 pr-content에서 NODE TREE의 미디어아트 정체성을 유지하면서 다량의 콘텐츠 제작 필요시, 일관된 브랜드 메시지와 시각언어 강화 가능",
-          "trend": "hot"
+          "desc": "visual-design의 모든 산출물을 메타데이터 기반으로 관리하며 pr-content에서 자동으로 브랜드 일관성 적용",
+          "reason": "NODE TREE의 다양한 프로젝트 산출물을 일관되게 관리하고, 홍보 콘텐츠 제작 속도를 2배 향상시켜 마케팅 민첩성 확보",
+          "trend": "rising"
         }
       ]
     },
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline & Dependency Mapping MCP",
-          "type": "mcp",
-          "desc": "프로젝트 일정과 팀 간 의존성 시각화 및 자동 추적",
-          "reason": "doc-design, grant-writer, project-planner의 cross-functional 협업에서 전체 프로젝트 진행 상황을 실시간으로 파악하고 지연 위험 조기 감지 가능",
+          "name": "멀티프로젝트 타임라인 AI 플래닝 MCP",
+          "type": "agent",
+          "desc": "grant-writer/project-planner/doc-design 간 일정충돌 자동감지 및 최적화",
+          "reason": "기획팀이 3개 저장소를 다루면서 교부금 마감일·예술작업 일정·디자인 산출물 연계를 수동으로 추적하는데, AI 에이전트로 자동화하면 프로젝트 지연을 40% 감소시킬 수 있음",
           "trend": "rising"
         }
       ]
