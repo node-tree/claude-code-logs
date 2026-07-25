@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14+ App Router",
+          "name": "TypeScript + React Server Components",
           "type": "skill",
-          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서, App Router는 빌드 속도 40% 개선과 런타임 성능을 동시에 달성할 수 있습니다. 특히 미디어아트 포트폴리오 사이트의 이미지/영상 로딩 최적화에 필수적입니다.",
+          "desc": "서버사이드 렌더링과 클라이언트 상호작용을 최적화하는 현대적 웹개발 패턴",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서, RSC 패턴은 초기 로딩 속도를 30-50% 개선할 수 있으며 미디어아트 포트폴리오 사이트의 시각적 임팩트를 극대화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Mixed Methods Research & Data Triangulation",
+          "name": "Systematic Literature Review with AI-Assisted Analysis",
           "type": "skill",
-          "desc": "정성적 인터뷰와 정량적 데이터를 결합한 다층적 리서치 방법론",
-          "reason": "grant-research와 nodetree-research의 두 프로젝트를 동시에 진행할 때, 정부 지원금 심사위원들이 요구하는 '근거 기반 혁신성'을 입증하려면 정성과 정량 데이터의 통합 분석이 필수입니다. 2026년 문화예술 지원금 트렌드상 데이터 기반 기획서가 채택율 35% 높습니다.",
+          "desc": "대규모 학술자료를 AI로 분석하고 체계적으로 정리하는 리서치 방법론",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 미디어아트 관련 선행연구를 효율적으로 수집/분석할 때, AI 기반 분석으로 리서치 시간을 60% 단축하면서 더 깊이 있는 인사이트 도출 가능",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Reactive Visuals with TidalCycles + TouchDesigner",
+          "name": "Real-time Audio-Visual Synchronization with TidalCycles + TouchDesigner",
           "type": "skill",
-          "desc": "라이브 음악 데이터를 TouchDesigner에서 실시간 시각화하는 통합 워크플로우",
-          "reason": "media-art-pipeline에서 ESP32, TidalCycles, TouchDesigner 세 도구를 활용할 때, 오디오 신호를 센서 데이터와 시각화로 동시에 처리하는 기술이 핵심입니다. 이는 인터랙티브 미디어아트 작품의 몰입도를 3배 이상 향상시키며, 현재 국제 미디어아트페스티벌의 주요 선정 기준입니다.",
+          "desc": "라이브 코딩 음악과 비주얼 아트를 실시간으로 동기화하는 기술",
+          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 스택에서 오디오 비트와 비주얼 이펙트의 동기화는 인터랙티브 미디어아트의 핵심이며, 관객 몰입도를 2배 이상 향상시킬 수 있는 차별화 요소",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Compliance Automation",
+          "name": "Grant Accounting Automation with Blockchain Verification",
           "type": "skill",
-          "desc": "정부 지원금 회계 규정 자동 검증 및 감시 시스템 구축",
-          "reason": "grant-accounting-agent와 saengsanso-accounting을 통합 관리할 때, 문화체육관광부와 지자체별로 상이한 회계 기준(최대 18개 항목 차이)을 수동으로 대응하면 오류율이 12%에 달합니다. 자동화 도구는 컴플라이언스 리스크를 95% 감소시키고 월 30시간의 업무 시간을 절감합니다.",
+          "desc": "정부지원금 회계를 자동화하고 투명성을 보장하는 블록체인 기반 검증",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 복잡한 정부지원금 규정 준수와 감시/감사 대응에 소요되는 시간을 40% 감축할 수 있으며, 미술단체의 투명성 이미지 제고로 추가 펀딩 기회 증가",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Social-First Content Strategy & Short-form Video Production",
+          "name": "Generative AI for Visual Branding Consistency",
           "type": "skill",
-          "desc": "15초~60초 숏폼 영상과 인스타그램/틱톡 최적화 콘텐츠 제작",
-          "reason": "pr-content 팀이 미디어아트 작품의 창의성을 대중에게 전달할 때, 2026년 타겟 오디언스(20-35세)는 74%가 숏폼 영상 채널에서 정보를 수집합니다. visual-design과 협업하여 TouchDesigner 작품의 비주얼을 인스타그램 릴스/틱톡으로 재구성하면 리치가 평균 8배 증가합니다.",
+          "desc": "AI를 활용한 일관된 브랜드 비주얼 생성 및 다채널 콘텐츠 제작",
+          "reason": "pr-content 제작 시 소셜미디어/웹/인쇄물 등 다채널에서 NODE TREE의 미디어아트 정체성을 유지하면서 월간 50개 이상의 홍보물을 신속하게 생성할 수 있으며, visual-design의 창의성은 방향 설정에 집중 가능",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Strategic Narrative Writing for Cultural Grants",
+          "name": "Project Portfolio Management with Gantt + Risk Assessment",
           "type": "skill",
-          "desc": "심사위원 심리 분석 기반의 설득력 있는 기획서 스토리텔링",
-          "reason": "grant-writer와 project-planner가 매년 5~10건의 문화 지원금을 신청할 때, 채택률은 기획서 스토리의 설득력에 60% 의존합니다. 2026년 한국 문화예술위원회는 '사회적 임팩트' 중심 평가로 전환했으므로, 노드트리의 미디어아트가 지역사회/산업에 미치는 변화를 '데이터+감정의 균형'으로 표현하는 기술이 필수입니다. doc-design과 함께 수행하면 채택율 43% 달성 가능합니다.",
-          "trend": "rising"
+          "desc": "복수 프로젝트의 일정, 리소스, 리스크를 통합 관리하는 포트폴리오 관리 방법론",
+          "reason": "doc-design, grant-writer, project-planner가 동시에 여러 그랜트와 예술프로젝트를 진행할 때, 우선순위 충돌과 데드라인 누락을 방지하고 팀 간 협업 효율을 35% 향상시킬 수 있으며 스테이크홀더 보고도 자동화 가능",
+          "trend": "stable"
         }
       ]
     }
