@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-25",
+  "lastUpdated": "2026-07-26",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Server Components",
+          "name": "Next.js App Router 최적화",
           "type": "skill",
-          "desc": "서버사이드 렌더링과 클라이언트 상호작용을 최적화하는 현대적 웹개발 패턴",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서, RSC 패턴은 초기 로딩 속도를 30-50% 개선할 수 있으며 미디어아트 포트폴리오 사이트의 시각적 임팩트를 극대화할 수 있음",
+          "desc": "React 기반 웹 프로젝트의 성능과 SEO 개선을 위한 최신 라우팅 기술",
+          "reason": "nodetreehome-web의 사용자 경험 향상과 웹 접근성 개선이 필요한 시점에서, App Router의 streaming과 server components를 통해 로딩 속도를 30% 이상 개선할 수 있으며, 미디어아트팀과의 협업에서 실시간 렌더링이 중요하기 때문",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI-Assisted Analysis",
-          "type": "skill",
-          "desc": "대규모 학술자료를 AI로 분석하고 체계적으로 정리하는 리서치 방법론",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 미디어아트 관련 선행연구를 효율적으로 수집/분석할 때, AI 기반 분석으로 리서치 시간을 60% 단축하면서 더 깊이 있는 인사이트 도출 가능",
+          "name": "AI-powered 문헌분석 및 데이터 시각화",
+          "type": "agent",
+          "desc": "대규모 논문/자료 수집 후 자동 분류, 요약, 트렌드 분석하는 AI 에이전트",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 정부지원금 관련 동향과 미디어아트 트렌드를 신속하게 파악해야 하며, 수작업 분석 시간을 80% 단축할 수 있어 더 깊이 있는 인사이트 도출에 집중 가능",
           "trend": "rising"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization with TidalCycles + TouchDesigner",
+          "name": "TidalCycles - Live Coding 음악 생성",
           "type": "skill",
-          "desc": "라이브 코딩 음악과 비주얼 아트를 실시간으로 동기화하는 기술",
-          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 스택에서 오디오 비트와 비주얼 이펙트의 동기화는 인터랙티브 미디어아트의 핵심이며, 관객 몰입도를 2배 이상 향상시킬 수 있는 차별화 요소",
-          "trend": "hot"
+          "desc": "실시간 코드 수정으로 동적 사운드스케이프를 만드는 라이브 코딩 기술",
+          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner와의 융합 작업 시, TidalCycles의 패턴 기반 음악 생성은 시각-음향 동기화를 극적으로 향상시킬 수 있으며, 2026년 인터랙티브 미디어아트 전시의 핵심 요소가 될 수 있기 때문",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation with Blockchain Verification",
-          "type": "skill",
-          "desc": "정부지원금 회계를 자동화하고 투명성을 보장하는 블록체인 기반 검증",
-          "reason": "grant-accounting-agent와 saengsanso-accounting에서 복잡한 정부지원금 규정 준수와 감시/감사 대응에 소요되는 시간을 40% 감축할 수 있으며, 미술단체의 투명성 이미지 제고로 추가 펀딩 기회 증가",
-          "trend": "rising"
+          "name": "자동화 회계 데이터 검증 MCP",
+          "type": "mcp",
+          "desc": "영수증 인식, 자동분류, 실시간 오류 감지를 통한 회계 프로세스 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 회계 관리에서 인적 오류를 줄이고, 정부 보조금 관련 투명한 감시 요구에 대응하기 위해 AI 기반 자동검증은 필수적이며, 월간 결산 시간을 50% 이상 단축 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Generative AI for Visual Branding Consistency",
-          "type": "skill",
-          "desc": "AI를 활용한 일관된 브랜드 비주얼 생성 및 다채널 콘텐츠 제작",
-          "reason": "pr-content 제작 시 소셜미디어/웹/인쇄물 등 다채널에서 NODE TREE의 미디어아트 정체성을 유지하면서 월간 50개 이상의 홍보물을 신속하게 생성할 수 있으며, visual-design의 창의성은 방향 설정에 집중 가능",
+          "name": "AI 멀티모달 콘텐츠 생성 (이미지+텍스트)",
+          "type": "agent",
+          "desc": "미디어아트팀의 작업물을 자동으로 분석하여 SNS 최적화 이미지와 설명문 동시 생성",
+          "reason": "pr-content와 visual-design이 각종 전시, 프로젝트를 신속하게 홍보해야 하는데, 미디어아트의 복잡한 시각요소를 AI가 자동 요약·재해석하여 SNS 콘텐츠화하면 주간 콘텐츠 제작량 300% 증대 가능하고 브랜드 일관성 유지 가능",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Portfolio Management with Gantt + Risk Assessment",
-          "type": "skill",
-          "desc": "복수 프로젝트의 일정, 리소스, 리스크를 통합 관리하는 포트폴리오 관리 방법론",
-          "reason": "doc-design, grant-writer, project-planner가 동시에 여러 그랜트와 예술프로젝트를 진행할 때, 우선순위 충돌과 데드라인 누락을 방지하고 팀 간 협업 효율을 35% 향상시킬 수 있으며 스테이크홀더 보고도 자동화 가능",
-          "trend": "stable"
+          "name": "프로젝트 타임라인 자동 생성 및 위험요소 예측",
+          "type": "agent",
+          "desc": "과거 프로젝트 데이터 기반으로 일정 자동 수립, 병목 구간 사전 감지 및 대안 제시",
+          "reason": "grant-writer와 project-planner에서 다중 프로젝트의 복잡한 마감일, 자금 요청 시점, 팀 리소스 분배를 동시에 관리할 때, AI가 역사 데이터 학습으로 현실적 일정을 자동 제안하면 일정 지연으로 인한 손실 80% 감소 및 지원금 심사 통과율 향상",
+          "trend": "rising"
         }
       ]
     }
