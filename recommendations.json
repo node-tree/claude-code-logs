@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-07-27",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js App Router 최적화",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "React 기반 웹 프로젝트의 성능과 SEO 개선을 위한 최신 라우팅 기술",
-          "reason": "nodetreehome-web의 사용자 경험 향상과 웹 접근성 개선이 필요한 시점에서, App Router의 streaming과 server components를 통해 로딩 속도를 30% 이상 개선할 수 있으며, 미디어아트팀과의 협업에서 실시간 렌더링이 중요하기 때문",
+          "desc": "서버 컴포넌트와 동적 라우팅을 활용한 고성능 웹 개발",
+          "reason": "nodetreehome-web 프로젝트의 현대화된 아키텍처 구축을 위해 필수. 2026년 기준 Next.js App Router는 업계 표준이며, SEO 최적화와 성능 개선에 직접적으로 기여",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered 문헌분석 및 데이터 시각화",
-          "type": "agent",
-          "desc": "대규모 논문/자료 수집 후 자동 분류, 요약, 트렌드 분석하는 AI 에이전트",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 정부지원금 관련 동향과 미디어아트 트렌드를 신속하게 파악해야 하며, 수작업 분석 시간을 80% 단축할 수 있어 더 깊이 있는 인사이트 도출에 집중 가능",
+          "name": "시스템 동적 분석 (Dynamic Systems Analysis)",
+          "type": "skill",
+          "desc": "복잡한 미디어아트 현상을 정량적으로 분석하는 방법론",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 정성적 연구를 정량화하여 학술적 신뢰도를 높이고, 정부 지원금 심사에서 과학적 근거를 제시하는 데 필수적",
           "trend": "rising"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "TidalCycles - Live Coding 음악 생성",
+          "name": "웹 Audio API + WASM",
           "type": "skill",
-          "desc": "실시간 코드 수정으로 동적 사운드스케이프를 만드는 라이브 코딩 기술",
-          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner와의 융합 작업 시, TidalCycles의 패턴 기반 음악 생성은 시각-음향 동기화를 극적으로 향상시킬 수 있으며, 2026년 인터랙티브 미디어아트 전시의 핵심 요소가 될 수 있기 때문",
-          "trend": "rising"
+          "desc": "브라우저 기반 실시간 오디오 처리 및 합성 기술",
+          "reason": "TidalCycles와 ESP32 기반 작업에서 웹 표준 기술로의 확장성을 제공. 온라인 전시 및 인터랙티브 설치미술에서 크로스플랫폼 호환성 확보 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 데이터 검증 MCP",
-          "type": "mcp",
-          "desc": "영수증 인식, 자동분류, 실시간 오류 감지를 통한 회계 프로세스 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 회계 관리에서 인적 오류를 줄이고, 정부 보조금 관련 투명한 감시 요구에 대응하기 위해 AI 기반 자동검증은 필수적이며, 월간 결산 시간을 50% 이상 단축 가능",
+          "name": "AI 기반 자동 분류 (Invoice Classification)",
+          "type": "agent",
+          "desc": "영수증과 송장을 자동으로 분석하여 회계 항목 분류",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 자동화로 인건비 절감. 미술활동비·장비비·인건비 등 복잡한 예술지원금 회계 항목을 정확하고 신속하게 처리",
           "trend": "hot"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 멀티모달 콘텐츠 생성 (이미지+텍스트)",
-          "type": "agent",
-          "desc": "미디어아트팀의 작업물을 자동으로 분석하여 SNS 최적화 이미지와 설명문 동시 생성",
-          "reason": "pr-content와 visual-design이 각종 전시, 프로젝트를 신속하게 홍보해야 하는데, 미디어아트의 복잡한 시각요소를 AI가 자동 요약·재해석하여 SNS 콘텐츠화하면 주간 콘텐츠 제작량 300% 증대 가능하고 브랜드 일관성 유지 가능",
+          "name": "멀티모달 생성 AI (텍스트-이미지)",
+          "type": "skill",
+          "desc": "텍스트 프롬프트로 고품질 비주얼 콘텐츠 생성",
+          "reason": "visual-design에서 sns 콘텐츠, 프로모션 이미지, 전시 포스터를 빠르게 제작. pr-content 팀의 다양한 채널(인스타그램, 웹) 콘텐츠 수요를 신속하게 충족",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 타임라인 자동 생성 및 위험요소 예측",
-          "type": "agent",
-          "desc": "과거 프로젝트 데이터 기반으로 일정 자동 수립, 병목 구간 사전 감지 및 대안 제시",
-          "reason": "grant-writer와 project-planner에서 다중 프로젝트의 복잡한 마감일, 자금 요청 시점, 팀 리소스 분배를 동시에 관리할 때, AI가 역사 데이터 학습으로 현실적 일정을 자동 제안하면 일정 지연으로 인한 손실 80% 감소 및 지원금 심사 통과율 향상",
+          "name": "Gantt Chart + AI 일정 최적화",
+          "type": "skill",
+          "desc": "프로젝트 일정과 리소스를 자동 최적화하는 도구",
+          "reason": "doc-design, grant-writer, project-planner 역할에서 다층 프로젝트 관리를 통합. 미술지원금 신청 마감, 전시 일정, 팀 역량을 동시에 고려한 효율적 계획 수립",
           "trend": "rising"
         }
       ]
