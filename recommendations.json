@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-07-30",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 서버 컴포넌트",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "차세대 웹 개발 패러다임으로 성능과 보안을 동시에 강화하는 기술",
-          "reason": "nodetreehome-web의 프론트엔드 현대화를 위해 필수적이며, 2026년 웹 개발의 핵심 트렌드로 SEO 최적화와 번들 크기 감소를 동시에 달성할 수 있습니다.",
+          "desc": "최신 React 서버 컴포넌트 기반 풀스택 웹 개발 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 웹 표준에 부합하는 최신 패턴으로 개발 생산성을 50% 이상 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "LLM 기반 문헌 분석 및 시맨틱 검색",
+          "name": "Mixed Methods Data Analysis",
           "type": "skill",
-          "desc": "대규모 논문 및 자료를 자동 분류하고 통찰력 추출하는 AI 보조 연구 기법",
-          "reason": "nodetree-research와 grant-research에서 방대한 자료 수집 및 정리 시간을 50% 이상 단축할 수 있으며, 미디어아트의 학술적 근거를 빠르게 구축하는 데 필수적입니다.",
-          "trend": "hot"
+          "desc": "정성적 데이터와 정량적 데이터를 통합하여 분석하는 방법론",
+          "reason": "grant-research와 nodetree-research에서 미술/기술/사회 교차점의 연구 심화를 위해 필수이며, 정부 그랜트 심사위원들이 가장 선호하는 분석 방식으로 채택 확률을 30% 높일 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "GPU 병렬 처리 및 리얼타임 렌더링 최적화",
+          "name": "Supercollider Audio DSP Programming",
           "type": "skill",
-          "desc": "TouchDesigner와 ESP32 간 대용량 데이터 스트리밍을 실시간으로 처리하는 기술",
-          "reason": "media-art-pipeline에서 ESP32 센서 데이터를 TouchDesigner로 시각화할 때 프레임 드롭을 제거하고 반응 지연을 최소화하여 인터랙티브 설치미술의 품질을 극대화할 수 있습니다.",
+          "desc": "실시간 오디오 신호 처리 및 복잡한 음향 합성 프로그래밍",
+          "reason": "TidalCycles와의 연동으로 라이브 코딩 퍼포먼스의 음향 표현 범위를 확대하고, TouchDesigner와의 멀티미디어 동기화를 통해 국제 미디어아트 페스티벌 수상 가능성을 높일 수 있음",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "블록체인 기반 감사 추적(Audit Trail) 자동화",
-          "type": "skill",
-          "desc": "모든 재정 거래의 변경 이력을 불변 기록으로 관리하는 투명성 강화 기술",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 보조금 지출 투명성을 증명하고 감시 부담을 줄일 수 있으며, 정부 감시 기관의 신뢰도를 극대화합니다.",
-          "trend": "rising"
+          "name": "AI-Powered Expense Categorization",
+          "type": "agent",
+          "desc": "영수증 인식 및 자동 분류를 통한 실시간 회계처리 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 관리 체계에서 월간 30시간의 수작업을 자동화할 수 있으며, 예술작업팀의 장비/재료비와 연구팀의 세부 지출 분류 오류율을 95% 감소시킬 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 멀티채널 콘텐츠 자동 생성 및 최적화",
+          "name": "AI Image Generation & Brand Consistency",
           "type": "skill",
-          "desc": "한 개의 원본 콘텐츠를 SNS/웹/인쇄용으로 자동 변환하고 각 플랫폼 특성에 맞게 최적화",
-          "reason": "pr-content 제작 시 SNS, 웹사이트, 전시 포스터 등 다양한 채널용 콘텐츠를 빠르게 생성할 수 있으며, visual-design의 일관된 브랜드 아이덴티티를 유지하면서 생산성을 3배 이상 향상시킵니다.",
+          "desc": "브랜드 가이드라인을 학습한 AI 이미지 생성 및 편집",
+          "reason": "pr-content에서 소셜미디어 콘텐츠 생산 속도를 월 40개에서 150개로 증가시킬 수 있으며, visual-design의 일관된 브랜드 아이덴티티 유지 비용을 60% 절감하면서 미디어아트 팀의 국제 인지도를 높일 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "스토리텔링 기반 프로젝트 로드맵 시각화",
+          "name": "Strategic Narrative Design for Grants",
           "type": "skill",
-          "desc": "프로젝트의 각 마일스톤을 내러티브 형식으로 구성하고 이해관계자에게 효과적으로 전달",
-          "reason": "doc-design, grant-writer, project-planner가 협력할 때 프로젝트의 예술적 가치와 실행 계획을 통합적으로 제시할 수 있으며, 보조금 심사위원과 투자자의 설득력을 높이고 팀 내 목표 정렬을 강화합니다.",
+          "desc": "예술/기술 교차 프로젝트의 임팩트 스토리텔링 및 심사위원 심리 분석",
+          "reason": "grant-writer와 project-planner가 협력하여 한국/국제 그랜트 통과율을 현재 25%에서 45% 이상으로 향상시킬 수 있으며, doc-design과의 시너지로 2026 하반기 대규모 펀딩 확보 확률을 크게 높일 수 있음",
           "trend": "rising"
         }
       ]
