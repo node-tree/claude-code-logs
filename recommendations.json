@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-02",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14+ App Router",
+          "name": "TypeScript + React 최적화",
           "type": "skill",
-          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 개발",
-          "reason": "nodetreehome-web의 사용자 경험 개선과 SEO 최적화를 위해 최신 프레임워크 기능 활용이 필수적. 2026년 현재 프로덕션 환경에서 표준화된 기술스택",
-          "trend": "stable"
+          "desc": "웹 애플리케이션의 성능과 유지보수성을 극대화하는 현대적 프론트엔드 개발",
+          "reason": "nodetreehome-web 프로젝트의 안정성 있는 확장과 사용자 경험 개선을 위해 타입 안전성과 컴포넌트 기반 아키텍처가 필수적",
+          "trend": "hot"
         }
       ]
     },
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered Literature Review Agent",
-          "type": "agent",
-          "desc": "학술 논문과 데이터를 자동으로 수집·분석하여 연구 트렌드 파악",
-          "reason": "grant-research와 nodetree-research에서 빠르게 변화하는 미디어아트 및 기술 트렌드를 추적하고 보조금 기회를 식별하는데 효율성 대폭 증대",
-          "trend": "hot"
+          "name": "데이터 시각화 및 인포그래픽 분석",
+          "type": "skill",
+          "desc": "복잡한 연구 데이터를 시각적으로 정리하고 인사이트를 도출하는 능력",
+          "reason": "nodetree-research와 grant-research에서 수집한 데이터를 효과적으로 전달하고, 펀딩 신청 시 설득력 있는 자료 구성에 필수",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time MIDI-OSC Bridge Protocol",
+          "name": "실시간 오디오-비주얼 동기화 (Tidal-TouchDesigner)",
           "type": "skill",
-          "desc": "TidalCycles와 TouchDesigner, ESP32 간 실시간 데이터 동기화",
-          "reason": "media-art-pipeline에서 음향과 시각, 센서 입력을 완벽하게 통합하는 멀티미디어 설치미술 제작에 필수. 각 도구 간 레이턴시 최소화로 창작 완성도 향상",
-          "trend": "rising"
+          "desc": "ESP32와 TidalCycles, TouchDesigner를 연동하여 음성과 영상을 동시에 제어하는 기술",
+          "reason": "media-art-pipeline의 핵심 가치를 극대화하기 위해 여러 도구 간 실시간 통신과 동기화가 필수적이며, 이는 혁신적인 미디어아트 작품의 차별성 확보에 직결",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Compliance & Audit MCP",
-          "type": "agent",
-          "desc": "보조금 규정 자동 확인 및 회계 감시 시스템",
-          "reason": "grant-accounting-agent와 saengsanso-accounting에서 정부 미디어아트 보조금의 복잡한 지출 규정을 자동으로 검증하고 감시하여 부정지출 예방 및 감시 시간 70% 단축",
-          "trend": "rising"
+          "name": "프로젝트 기반 원가관리 (PBC)",
+          "type": "skill",
+          "desc": "각 예술작업 프로젝트별 수익성 분석 및 자원 배분 최적화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 미디어아트의 불규칙한 수익 구조를 체계적으로 관리하고, 펀딩 사용내역을 명확히 추적할 수 있음",
+          "trend": "stable"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Brand Narrative AI Generator",
-          "type": "agent",
-          "desc": "팀의 미디어아트 철학을 기반으로 SNS/보도자료 콘텐츠 자동 생성",
-          "reason": "pr-content와 visual-design에서 NODE TREE의 예술적 정체성을 일관되게 유지하면서도 인스타그램, 보도자료, 웹사이트 콘텐츠를 빠르게 다국어로 확산 가능. 온라인 도달률 증대",
+          "name": "소셜 미디어 콘텐츠 전략 (숏폼 최적화)",
+          "type": "skill",
+          "desc": "TikTok, Instagram Reels 등 플랫폼별 콘텐츠 포맷 최적화 및 알고리즘 이해",
+          "reason": "pr-content를 통해 미디어아트 작품의 시각적 임팩트를 극대화하고, visual-design의 결과물을 젊은 세대 중심의 플랫폼에서 효과적으로 전달하여 후원 및 관객 확보 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline & Risk Forecasting",
-          "type": "agent",
-          "desc": "과거 프로젝트 데이터 기반 일정·예산·리스크 예측",
-          "reason": "grant-writer, project-planner, doc-design에서 제안서 작성 시 현실적인 타임라인과 위험요소를 자동으로 분석하여 포함. 보조금 심사에서 신뢰도 향상 및 프로젝트 성공률 증대",
+          "name": "전략적 스토리텔링 및 내러티브 개발",
+          "type": "skill",
+          "desc": "프로젝트의 예술적 가치와 사회적 의미를 설득력 있게 전달하는 문해력",
+          "reason": "grant-writer와 project-planner에서 펀딩 신청서 작성 및 장기 프로젝트 로드맵 수립 시, 팀의 미션과 작품의 혁신성을 분명하게 드러내어 예산 확보 확률 및 예술성 인정도를 높임",
           "trend": "rising"
         }
       ]
