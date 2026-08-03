@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "TypeScript + React 성능 최적화",
           "type": "skill",
-          "desc": "웹 애플리케이션의 성능과 유지보수성을 극대화하는 현대적 프론트엔드 개발",
-          "reason": "nodetreehome-web 프로젝트의 안정성 있는 확장과 사용자 경험 개선을 위해 타입 안전성과 컴포넌트 기반 아키텍처가 필수적",
+          "desc": "nodetreehome-web의 렌더링 성능과 번들 사이즈 최적화 기법",
+          "reason": "미디어아트 웹사이트는 고사양 인터랙티브 콘텐츠를 다루므로, 성능 최적화는 사용자 경험과 직결됨. 특히 실시간 미디어 스트리밍이나 대용량 비주얼 콘텐츠 로딩 시 필수적인 스킬",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "데이터 시각화 및 인포그래픽 분석",
+          "name": "AI 기반 문헌 분석 및 메타분석",
           "type": "skill",
-          "desc": "복잡한 연구 데이터를 시각적으로 정리하고 인사이트를 도출하는 능력",
-          "reason": "nodetree-research와 grant-research에서 수집한 데이터를 효과적으로 전달하고, 펀딩 신청 시 설득력 있는 자료 구성에 필수",
-          "trend": "rising"
+          "desc": "grant-research와 nodetree-research에서 대규모 학술 자료 수집 및 패턴 분석 자동화",
+          "reason": "2026년 기준 그랜트 심사에서 데이터 기반 리서치가 경쟁력이 되고 있으며, AI 도구로 문헌 검색과 인사이트 도출 속도를 5배 이상 단축 가능. 국제 미디어아트 트렌드 분석에 필수",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오-비주얼 동기화 (Tidal-TouchDesigner)",
+          "name": "TidalCycles 고급 패턴링 및 라이브코딩",
           "type": "skill",
-          "desc": "ESP32와 TidalCycles, TouchDesigner를 연동하여 음성과 영상을 동시에 제어하는 기술",
-          "reason": "media-art-pipeline의 핵심 가치를 극대화하기 위해 여러 도구 간 실시간 통신과 동기화가 필수적이며, 이는 혁신적인 미디어아트 작품의 차별성 확보에 직결",
-          "trend": "hot"
+          "desc": "TidalCycles에서 복잡한 리듬과 시간 기반 비주얼 신크로나이제이션 구현",
+          "reason": "ESP32와 TouchDesigner 연동 시 사운드와 비주얼의 실시간 상호작용이 핵심. TidalCycles의 고급 패턴 제어를 통해 더 정교한 인터랙티브 설치미술 구현 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "프로젝트 기반 원가관리 (PBC)",
+          "name": "자동화된 그랜트 회계 리포팅 시스템",
           "type": "skill",
-          "desc": "각 예술작업 프로젝트별 수익성 분석 및 자원 배분 최적화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 미디어아트의 불규칙한 수익 구조를 체계적으로 관리하고, 펀딩 사용내역을 명확히 추적할 수 있음",
-          "trend": "stable"
+          "desc": "saengsanso-accounting과 grant-accounting-agent의 통합 자동 보고서 생성",
+          "reason": "문화예술 그랜트는 회계 감시가 엄격하고 분기별 보고 주기가 짧음. 자동화로 실수 최소화 및 규정 준수 확보율 향상. 특히 다중 자금원 관리 시 실시간 추적 필수",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜 미디어 콘텐츠 전략 (숏폼 최적화)",
+          "name": "AI 기반 브랜드 비주얼 일관성 관리",
           "type": "skill",
-          "desc": "TikTok, Instagram Reels 등 플랫폼별 콘텐츠 포맷 최적화 및 알고리즘 이해",
-          "reason": "pr-content를 통해 미디어아트 작품의 시각적 임팩트를 극대화하고, visual-design의 결과물을 젊은 세대 중심의 플랫폼에서 효과적으로 전달하여 후원 및 관객 확보 가능",
+          "desc": "visual-design과 pr-content에서 일관된 스타일 유지하며 빠른 콘텐츠 생성",
+          "reason": "미디어아트 팀은 SNS, 전시 안내, 그랜트 제안서 등 다양한 채널에서 브랜드 노출. AI 도구로 스타일 가이드 자동 적용하여 생산성 3배 증대 및 일관된 시각 아이덴티티 확보",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "전략적 스토리텔링 및 내러티브 개발",
+          "name": "프로젝트 생명주기 관리 및 크리티컬 패스 분석",
           "type": "skill",
-          "desc": "프로젝트의 예술적 가치와 사회적 의미를 설득력 있게 전달하는 문해력",
-          "reason": "grant-writer와 project-planner에서 펀딩 신청서 작성 및 장기 프로젝트 로드맵 수립 시, 팀의 미션과 작품의 혁신성을 분명하게 드러내어 예산 확보 확률 및 예술성 인정도를 높임",
-          "trend": "rising"
+          "desc": "doc-design, grant-writer, project-planner 간 협업 타임라인 최적화 및 병목 지점 사전 파악",
+          "reason": "그랜트 공고부터 결과 보고까지 6-12개월의 긴 사이클에서 예술작업팀, 리서치팀, 회계팀의 일정이 복잡하게 얽혀있음. 크리티컬 패스 분석으로 최적 일정 수립 및 지연 위험 80% 감소",
+          "trend": "stable"
         }
       ]
     }
