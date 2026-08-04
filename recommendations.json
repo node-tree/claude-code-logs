@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 성능 최적화",
+          "name": "TypeScript + React 최적화",
           "type": "skill",
-          "desc": "nodetreehome-web의 렌더링 성능과 번들 사이즈 최적화 기법",
-          "reason": "미디어아트 웹사이트는 고사양 인터랙티브 콘텐츠를 다루므로, 성능 최적화는 사용자 경험과 직결됨. 특히 실시간 미디어 스트리밍이나 대용량 비주얼 콘텐츠 로딩 시 필수적인 스킬",
+          "desc": "nodetreehome-web의 성능 개선 및 타입 안정성 강화",
+          "reason": "웹 프로젝트의 유지보수성과 확장성을 위해 최신 TypeScript 패턴과 React 렌더링 최적화 기법이 필수적이며, 팀 협업 효율을 크게 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 메타분석",
+          "name": "데이터 시각화 및 인포그래픽",
           "type": "skill",
-          "desc": "grant-research와 nodetree-research에서 대규모 학술 자료 수집 및 패턴 분석 자동화",
-          "reason": "2026년 기준 그랜트 심사에서 데이터 기반 리서치가 경쟁력이 되고 있으며, AI 도구로 문헌 검색과 인사이트 도출 속도를 5배 이상 단축 가능. 국제 미디어아트 트렌드 분석에 필수",
-          "trend": "hot"
+          "desc": "리서치 결과를 효과적으로 전달하는 시각적 표현 능력",
+          "reason": "grant-research와 nodetree-research의 복잡한 데이터를 시각화하면 의사결정 속도가 빨라지고, 그랜트 심사위원과 스폰서에게 설득력 있게 전달할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "TidalCycles 고급 패턴링 및 라이브코딩",
+          "name": "실시간 오디오 비주얼 동기화 (OSC 프로토콜)",
           "type": "skill",
-          "desc": "TidalCycles에서 복잡한 리듬과 시간 기반 비주얼 신크로나이제이션 구현",
-          "reason": "ESP32와 TouchDesigner 연동 시 사운드와 비주얼의 실시간 상호작용이 핵심. TidalCycles의 고급 패턴 제어를 통해 더 정교한 인터랙티브 설치미술 구현 가능",
-          "trend": "rising"
+          "desc": "ESP32, TidalCycles, TouchDesigner 간 실시간 데이터 동기화 기술",
+          "reason": "media-art-pipeline의 세 가지 플랫폼을 통합하려면 OSC를 통한 동기화가 핵심이며, 이를 통해 더욱 정교하고 상호작용적인 미디어 아트 작품 제작이 가능함",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화된 그랜트 회계 리포팅 시스템",
-          "type": "skill",
-          "desc": "saengsanso-accounting과 grant-accounting-agent의 통합 자동 보고서 생성",
-          "reason": "문화예술 그랜트는 회계 감시가 엄격하고 분기별 보고 주기가 짧음. 자동화로 실수 최소화 및 규정 준수 확보율 향상. 특히 다중 자금원 관리 시 실시간 추적 필수",
-          "trend": "hot"
+          "name": "자동화 회계 감사 및 부정거래 탐지 MCP",
+          "type": "agent",
+          "desc": "saengsanso-accounting과 grant-accounting-agent의 거래 자동 검증 및 이상 거래 감지",
+          "reason": "복수의 회계 시스템을 운영하면서 그랜트 회계 규정 준수가 중요한데, 자동화 에이전트로 오류를 사전에 방지하고 감시 시간을 절감할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 브랜드 비주얼 일관성 관리",
-          "type": "skill",
-          "desc": "visual-design과 pr-content에서 일관된 스타일 유지하며 빠른 콘텐츠 생성",
-          "reason": "미디어아트 팀은 SNS, 전시 안내, 그랜트 제안서 등 다양한 채널에서 브랜드 노출. AI 도구로 스타일 가이드 자동 적용하여 생산성 3배 증대 및 일관된 시각 아이덴티티 확보",
+          "name": "AI 기반 소셜미디어 콘텐츠 최적화",
+          "type": "agent",
+          "desc": "pr-content의 SNS 콘텐츠 성능 분석 및 자동 최적화 추천",
+          "reason": "visual-design과 pr-content 팀의 창의적 작업물을 데이터 기반으로 분석하면 engagement 극대화가 가능하며, 타겟 오디언스에 맞는 콘텐츠 배치 전략을 자동화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 생명주기 관리 및 크리티컬 패스 분석",
-          "type": "skill",
-          "desc": "doc-design, grant-writer, project-planner 간 협업 타임라인 최적화 및 병목 지점 사전 파악",
-          "reason": "그랜트 공고부터 결과 보고까지 6-12개월의 긴 사이클에서 예술작업팀, 리서치팀, 회계팀의 일정이 복잡하게 얽혀있음. 크리티컬 패스 분석으로 최적 일정 수립 및 지연 위험 80% 감소",
-          "trend": "stable"
+          "name": "프로젝트 타임라인 및 마일스톤 자동생성 MCP",
+          "type": "agent",
+          "desc": "grant-writer, project-planner, doc-design의 프로젝트 일정 자동 최적화 및 추적",
+          "reason": "그랜트 기한, 예술작업 일정, 문서 작성 주기가 복합적으로 얽혀있는데, 에이전트가 이를 통합 관리하면 병목 지점을 조기 발견하고 팀 간 협력을 효율화할 수 있음",
+          "trend": "rising"
         }
       ]
     }
