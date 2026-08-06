@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "웹 애플리케이션 성능 및 타입 안정성 강화",
-          "reason": "nodetreehome-web 프로젝트의 사용자 경험 개선과 유지보수성을 위해 최신 TypeScript 패턴과 React 18+ 훅 활용이 필수적이며, 미디어아트 팀의 작업물 전시 사이트 고도화에 직결됨",
+          "desc": "서버 컴포넌트 기반 모던 웹 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 최신 App Router 패턴 도입이 필수적이며, 2026년 표준 스택으로 자리잡음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 데이터 시각화",
+          "name": "LLM 기반 문헌 분석 및 시각화",
           "type": "skill",
-          "desc": "대규모 연구 데이터 수집 및 패턴 추출 자동화",
-          "reason": "nodetree-research와 grant-research 프로젝트에서 다량의 논문, 사례, 트렌드 데이터를 효율적으로 분석하고 인사이트 도출이 필요하며, 지원금 획득을 위한 경쟁력 있는 리서치 포트폴리오 구축에 필수",
+          "desc": "대규모 연구 데이터를 AI로 정제하여 인사이트 도출",
+          "reason": "grant-research와 nodetree-research에서 방대한 논문/자료 수집 시 GPT/Claude API를 활용한 자동 요약, 키워드 추출, 트렌드 맵핑으로 리서치 효율을 5배 이상 단축 가능",
           "trend": "hot"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "MAX/MSP 또는 Pure Data 실시간 신호처리",
+          "name": "Real-time Audio Reactive Coding with TidalCycles",
           "type": "skill",
-          "desc": "오디오-비주얼 동기화 및 인터랙티브 미디어 구성",
-          "reason": "ESP32/TidalCycles/TouchDesigner 스택에서 실시간 오디오 분석을 통한 반응형 비주얼 생성이 미디어아트의 핵심이며, 복잡한 신호처리 로직을 직관적으로 구현하기에 최적화된 도구",
-          "trend": "stable"
+          "desc": "라이브 음향 데이터 기반 시각 생성 기법",
+          "reason": "ESP32와 TidalCycles 연동 시 오디오 입력을 TouchDesigner 쉐이더로 실시간 변환하는 기술로, 인터랙티브 미디어아트의 몰입감을 극대화하고 라이브 퍼포먼스의 시각적 동기화 구현 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 처리 및 감사 추적(RPA/자동분류)",
+          "name": "AI 기반 재정 예측 및 이상 거래 탐지",
           "type": "skill",
-          "desc": "영수증 인식, 자동 분류, 실시간 재무 대시보드 구축",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 반복적인 거래 기록, 영수증 처리, 지원금 출금/입금 추적을 자동화하면 오류 감소 및 감사 준비 시간 단축이 가능하며, 특히 복수 지원금 관리 시 효율성 극대화",
-          "trend": "rising"
+          "desc": "머신러닝으로 비정상 거래 패턴 자동 감지",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 매월 대량의 영수증/송금 데이터 처리 시 AI 분류모델을 통해 부정거래 조기 적발, 자금 흐름 예측, 감사 리스크 감소로 규정 준수도 강화",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "생성형 AI 기반 멀티채널 콘텐츠 제작",
+          "name": "AI 기반 멀티채널 콘텐츠 자동 생성",
           "type": "skill",
-          "desc": "텍스트→이미지, 이미지→영상, 자동 자막 생성 등 크로스미디어 제작 자동화",
-          "reason": "visual-design과 pr-content에서 소셜미디어, 웹, 인쇄, 영상 등 다채널 홍보 콘텐츠를 빠르게 생산해야 하는데, 생성형 AI 기반 도구 활용으로 제작 속도 3배 이상 향상 가능하며 브랜드 일관성 유지",
+          "desc": "하나의 홍보 자산으로 SNS/웹/인쇄 최적화 버전 자동 제작",
+          "reason": "pr-content 제작 시 DALL-E/Midjourney와 프롬프트 엔지니어링을 활용해 SNS 틀에 맞는 비주얼, 카피, 해시태그를 동시에 생성하면 제작 시간 70% 단축 및 브랜드 일관성 유지 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 로드맵 및 마일스톤 자동 생성",
+          "name": "AI 기반 프로젝트 로드맵 자동 생성",
           "type": "skill",
-          "desc": "프로젝트 범위, 일정, 리스크를 AI가 분석하여 실행 가능한 계획 제시",
-          "reason": "doc-design, grant-writer, project-planner에서 다중 프로젝트를 동시 운영할 때 일정 충돌, 리소스 할당 오류가 발생하기 쉬운데, 구조화된 프로젝트 계획 수립 및 팀 간 커뮤니케이션 투명성 강화로 지원금 획득률과 프로젝트 완성도 동시 향상",
+          "desc": "프로젝트 목표에서 마일스톤, 일정, 리스크까지 자동 도출",
+          "reason": "grant-writer와 project-planner가 작성한 프로젝트 기획서를 LLM에 입력하면 간트차트, 비용 배분 시나리오, 리스크 매트릭스가 자동 생성되어 정부 지원금 신청서 작성 품질 향상 및 기획 일정 단축",
           "trend": "rising"
         }
       ]
