@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 성능 최적화",
+          "name": "Next.js 15 Server Components",
           "type": "skill",
-          "desc": "웹 애플리케이션의 빌드 시간과 런타임 성능을 개선하는 기법",
-          "reason": "nodetreehome-web의 사용자 경험을 향상시키고, 미디어아트 작업의 실시간 데이터 처리가 필요한 상황에서 프론트엔드 렌더링 최적화는 필수적. 복잡한 비주얼 데이터 표현이 많을 것으로 예상되므로 성능 튜닝이 팀의 생산성을 직결",
+          "desc": "React 서버 컴포넌트 기반의 차세대 풀스택 웹 개발 패턴",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 현재 Server Components가 프로덕션 표준이 됨에 따라 팀의 개발 효율성과 웹사이트 품질을 동시에 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Grant Research Data Mining & Analysis",
-          "type": "skill",
-          "desc": "국내외 지원금 기관의 데이터를 체계적으로 수집, 분류, 분석하는 방법론",
-          "reason": "grant-research 프로젝트에서 경쟁력 있는 지원금 기회를 발굴하려면 대량의 정보를 효율적으로 처리해야 함. 2026년 문화예술 지원금 트렌드 파악과 NODE TREE의 미디어아트 특성에 맞는 기회 발굴에 직접적 도움. 데이터 기반 의사결정으로 지원 성공률 상향 가능",
+          "name": "Academic Research Synthesis MCP",
+          "type": "mcp",
+          "desc": "학술 데이터베이스 통합 및 문헌 메타분석 자동화 에이전트",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 대량의 학술 자료를 체계적으로 수집·분석해야 하며, MCP 기반 자동화로 리서치 속도 3배 이상 단축 가능하고 보조금 신청서 작성 품질 향상",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "TidalCycles 실시간 성능 최적화 & Generative Music Techniques",
+          "name": "Real-time Audio Synthesis with SuperCollider",
           "type": "skill",
-          "desc": "Tidal에서 복잡한 패턴을 CPU 효율적으로 렌더링하고 즉흥적 음악 생성 기법",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 실시간 음향 생성이 핵심. 2026년 현재 AI 기반 생성형 음악이 주류화되고 있으므로, 레거시 도구(TidalCycles)를 현대적 방식으로 활용하는 능력이 작품의 창의성과 기술성을 모두 높임. TouchDesigner와의 동기화에서 오디오 레이턴시 최소화가 중요",
+          "desc": "TidalCycles와 연동된 고급 오디오 신시사이저 프로그래밍",
+          "reason": "media-art-pipeline에서 ESP32와 TouchDesigner 기반 인터랙티브 설치미술 제작 시, SuperCollider의 실시간 사운드 생성 능력으로 멀티모달 예술 표현의 깊이를 획기적으로 증진할 수 있음",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Compliance & Multi-currency Ledger Management",
-          "type": "skill",
-          "desc": "국제 지원금 회계 규정 준수 및 다중 통화 재무 기록 관리",
-          "reason": "saengsanso-accounting과 grant-accounting-agent를 운영하면서 국내 지원금과 국제 협력 프로젝트 자금이 혼재될 경우, 감시 기관별 상이한 회계 기준을 동시에 충족해야 함. 2026년 문화예술 기관의 투명성 요구가 강화되는 추세에서 컴플라이언스 리스크 관리가 팀의 핵심 역할. 자동화된 ledger 시스템 구축으로 오류 감소 가능",
+          "name": "AI Financial Audit Agent",
+          "type": "agent",
+          "desc": "자동화된 재무감시 및 이상거래 탐지 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 수백 건의 월간 거래 내역을 수동으로 검증하는 업무 부담이 크므로, AI 에이전트를 통해 규정 위반·중복 거래·부정 거래를 자동 탐지하여 감시 정확도 99% 달성 가능",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Visual Storytelling for Media Art + Social Media Algorithmic Content Strategy",
+          "name": "AI Visual Brand Consistency Engine",
           "type": "skill",
-          "desc": "미디어아트 작품을 짧은 영상 포맷으로 재해석하고 플랫폼별 추천 알고리즘 최적화",
-          "reason": "NODE TREE의 기술 기반 미디어아트는 시각적 설명이 어렵기 쉬움. pr-content 제작 시 TikTok/Instagram Reels 등 숏폼 플랫폼에 맞춘 스토리텔링이 2026년 필수. visual-design팀이 이를 습득하면 온라인 도달 범위 극대화와 일반 대중의 예술 이해도 동시 향상 가능. 알고리즘 친화적 콘텐츠 전략은 제한된 마케팅 예산의 효율성 배가",
+          "desc": "멀티채널 브랜드 비주얼 통일성 자동화 및 생성 기술",
+          "reason": "visual-design과 pr-content에서 SNS, 웹사이트, 인쇄물, 영상 콘텐츠 등 다양한 매체에 일관된 브랜드 이미지를 유지해야 하므로, AI 기반 시스템으로 디자인 일관성을 보장하면서도 채널별 최적화 콘텐츠 생성 속도 5배 증진",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Roadmap Visualization & Agile Grant Project Planning",
-          "type": "skill",
-          "desc": "장기 프로젝트를 마일스톤 기반으로 시각화하고 변동성 높은 지원금 일정에 대응하는 애자일 계획 수립",
-          "reason": "doc-design, grant-writer, project-planner 역할이 통합되려면 팀 간 정보 동기화가 중요. 2026년 중반 현재 지원금 정책과 예술 시장 트렌드가 급변하므로, 고정적 장기 계획보다 분기별 검토 및 조정 가능한 동적 로드맵이 필수. 시각화된 프로젝트 계획은 다른 팀들(예: 개발팀, 예술팀)과의 협업 효율성을 크게 향상. grant-writer가 더 정확한 타이밍과 범위의 제안서를 작성 가능",
+          "name": "Grant Writing Strategic Advisor MCP",
+          "type": "mcp",
+          "desc": "보조금 신청 전략 수립 및 경합력 분석 종합 에이전트",
+          "reason": "grant-writer와 project-planner가 매년 복수의 정부·민간 보조금 신청을 진행할 때, MCP 기반 에이전트가 과거 수상 사례·심사기준·경쟁 동향을 분석하여 신청 전략 수립 시간을 70% 단축하고 수상율 향상",
           "trend": "rising"
         }
       ]
