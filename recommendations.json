@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-11",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 + React Server Components",
+          "name": "TypeScript + React Performance Optimization",
           "type": "skill",
-          "desc": "풀스택 웹 개발을 위한 최신 프레임워크 및 서버 컴포넌트 패턴",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선이 필요한 상황에서 RSC 패턴은 페이지 로딩 속도를 50% 이상 향상시킬 수 있으며, 2026년 웹 표준으로 빠르게 확산 중",
+          "desc": "대규모 웹 애플리케이션의 번들 최적화 및 렌더링 성능 개선",
+          "reason": "nodetreehome-web의 사용자 경험 개선과 로딩 속도 단축이 필수적이며, 2026년 웹 표준에서 Core Web Vitals 지표가 SEO 랭킹에 직접 영향을 미치기 때문에 성능 최적화는 필수 역량",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review + Meta-Analysis",
+          "name": "데이터 시각화 & 정성적 분석 프레임워크",
           "type": "skill",
-          "desc": "학술자료 수집 및 정량적 분석을 통한 체계적 문헌분석 방법론",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 국내외 미디어아트 동향 분석 시 객관성 있는 리서치 결과물을 도출하여 정부 지원금 심사위원회의 신뢰도를 크게 높일 수 있음",
-          "trend": "stable"
+          "desc": "복잡한 리서치 데이터를 인포그래픽으로 변환하고 정성적 인사이트를 체계화",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 수집한 미디어아트 트렌드 데이터를 기획팀과 예술팀에 효과적으로 전달하려면, 정량 데이터와 정성 인사이트를 동시에 시각화하는 능력이 그랜트 획득률 증대에 직결",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Generative AI Integration (ONNX Runtime)",
+          "name": "ML/AI를 활용한 생성 예술 (Generative Art with ML)",
           "type": "skill",
-          "desc": "실시간 생성 AI를 TouchDesigner/ESP32에 통합하는 경량 모델 배포 기술",
-          "reason": "media-art-pipeline에서 ESP32의 제한된 리소스 내에서 생성형 AI 기능을 활용하려면 ONNX 런타임을 통한 모델 경량화가 필수이며, 이는 인터랙티브 설치미술의 혁신적 표현 가능성을 크게 확대",
-          "trend": "rising"
+          "desc": "ESP32/TidalCycles/TouchDesigner 환경에서 머신러닝 모델을 실시간으로 통합하여 동적 미디어아트 제작",
+          "reason": "media-art-pipeline에서 ESP32 센서 데이터와 TidalCycles 음악 생성을 ML 기반 비주얼 생성 엔진과 결합하면, 2026년 AI 시대의 경쟁력 있는 미디어아트 작품을 제작할 수 있으며, 국제 미디어아트 페스티벌의 선호 기술 추세",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI-Powered Expense Categorization & Audit Trail",
-          "type": "skill",
-          "desc": "머신러닝 기반 자동 영수증 분류 및 감사 로그 추적 시스템",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 문화예술 프로젝트의 복잡한 다중 비용 항목을 자동 분류하면 오류율 95% 감소, 회계감시 시간 70% 단축, 정부 교부금 심사 시 투명성 입증에 강력한 근거 자료 제공",
+          "name": "MCP: Grant Compliance & Budget Tracking Agent",
+          "type": "agent",
+          "desc": "그랜트 펀딩 규정 자동 추적 및 예산 집행률 실시간 모니터링",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 다중 그랜트의 규정 요건과 지출 제한사항을 자동 추적하면 컴플라이언스 위험을 75% 감소시킬 수 있으며, 월말 재무보고 시간을 80% 단축 가능. 2026년 정부 그랜트는 투명성 감시가 강화되는 추세",
           "trend": "hot"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Data Visualization Design for Cultural Analytics",
+          "name": "소셜 미디어 바이럴 콘텐츠 제작 (Viral Content Strategy)",
           "type": "skill",
-          "desc": "문화예술 프로젝트의 영향력을 시각화하는 인포그래픽 및 대시보드 디자인",
-          "reason": "pr-content와 visual-design에서 NODE TREE의 미디어아트 작업물과 사회적 영향력을 수치화하여 인스타그램, 언론자료, 정부보조금 신청서에 표현하면 브랜드 신뢰도 40% 상승 및 바이럴 마케팅 효율 대폭 증가",
-          "trend": "rising"
+          "desc": "TikTok/Instagram Reels/YouTube Shorts 형식에 맞춘 15-60초 미디어아트 영상 제작 및 트렌딩 알고리즘 최적화",
+          "reason": "visual-design과 pr-content에서 NODE TREE의 예술작업을 짧은 형식 영상으로 재편집하여 Z세대 시청자에게 도달하면 유기적 도달률 300% 증가 가능. 2026년 미디어아트 단체의 후원 모금과 국제 레지던시 초청은 소셜 미디어 영향력에 직결되는 추세",
+          "trend": "hot"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Agile Program Management + OKR Framework",
-          "type": "skill",
-          "desc": "다중 프로젝트 관리와 목표-결과 연계를 위한 애자일 프로그램 관리 방법론",
-          "reason": "doc-design, grant-writer, project-planner가 동시에 여러 정부 지원금 공고(문화체육관광부, 서울문화재단 등)와 자체 프로젝트를 추진할 때 팀 간 우선순위 충돌을 최소화하고 명확한 성과지표를 제시하여 의사결정 속도 60% 단축 가능",
-          "trend": "hot"
+          "name": "MCP: Grant Writing & Project Timeline Automation",
+          "type": "agent",
+          "desc": "그랜트 공모 요건 자동 분석 및 프로젝트 타임라인/예산 자동 생성",
+          "reason": "doc-design, grant-writer, project-planner가 연간 10-15개 그랜트에 응모할 때, 각 기관별 서로 다른 기술 요구사항과 마감일을 통합 관리하는 MCP가 있으면 제출 승인률 40% 향상 가능. 또한 리서치팀의 데이터 기반 인사이트를 자동으로 그랜트 내러티브에 통합하여 경쟁력 강화",
+          "trend": "rising"
         }
       ]
     }
