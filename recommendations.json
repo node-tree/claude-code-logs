@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-08-12",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Performance Optimization",
+          "name": "Next.js 14+ App Router",
           "type": "skill",
-          "desc": "대규모 웹 애플리케이션의 번들 최적화 및 렌더링 성능 개선",
-          "reason": "nodetreehome-web의 사용자 경험 개선과 로딩 속도 단축이 필수적이며, 2026년 웹 표준에서 Core Web Vitals 지표가 SEO 랭킹에 직접 영향을 미치기 때문에 성능 최적화는 필수 역량",
+          "desc": "서버 컴포넌트 기반의 모던 웹 프레임워크",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선, 미디어아트 포트폴리오 사이트의 빠른 로딩과 동적 콘텐츠 관리에 필수적",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "데이터 시각화 & 정성적 분석 프레임워크",
+          "name": "데이터 시각화 및 인포그래픽",
           "type": "skill",
-          "desc": "복잡한 리서치 데이터를 인포그래픽으로 변환하고 정성적 인사이트를 체계화",
-          "reason": "nodetree-research와 grant-research 프로젝트에서 수집한 미디어아트 트렌드 데이터를 기획팀과 예술팀에 효과적으로 전달하려면, 정량 데이터와 정성 인사이트를 동시에 시각화하는 능력이 그랜트 획득률 증대에 직결",
-          "trend": "rising"
+          "desc": "복잡한 연구 데이터를 시각적으로 표현하는 기법",
+          "reason": "grant-research와 nodetree-research에서 수집한 데이터를 정책입안자와 스폰서에게 효과적으로 전달하고, 그랜트 신청 시 연구 가치를 극대화할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "ML/AI를 활용한 생성 예술 (Generative Art with ML)",
+          "name": "Max/MSP와 TidalCycles 통합",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 환경에서 머신러닝 모델을 실시간으로 통합하여 동적 미디어아트 제작",
-          "reason": "media-art-pipeline에서 ESP32 센서 데이터와 TidalCycles 음악 생성을 ML 기반 비주얼 생성 엔진과 결합하면, 2026년 AI 시대의 경쟁력 있는 미디어아트 작품을 제작할 수 있으며, 국제 미디어아트 페스티벌의 선호 기술 추세",
-          "trend": "hot"
+          "desc": "실시간 오디오 비주얼 동기화를 위한 프로토콜 제어",
+          "reason": "ESP32 임베디드 센서, TouchDesigner 비주얼, TidalCycles 음악 생성을 통합하는 media-art-pipeline에서 실시간 상호작용성을 극대화하고 설치미술의 immersive 경험 향상",
+          "trend": "rising"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "MCP: Grant Compliance & Budget Tracking Agent",
-          "type": "agent",
-          "desc": "그랜트 펀딩 규정 자동 추적 및 예산 집행률 실시간 모니터링",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 다중 그랜트의 규정 요건과 지출 제한사항을 자동 추적하면 컴플라이언스 위험을 75% 감소시킬 수 있으며, 월말 재무보고 시간을 80% 단축 가능. 2026년 정부 그랜트는 투명성 감시가 강화되는 추세",
+          "name": "AI 기반 영수증 자동 분류 및 OCR",
+          "type": "skill",
+          "desc": "머신러닝으로 수령 영수증을 자동 분석하고 회계과목 매핑",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 수작업 데이터 입력을 80% 이상 자동화하여 인력 효율 극대화, 그랜트 회계감시에서의 정확성 보증",
           "trend": "hot"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜 미디어 바이럴 콘텐츠 제작 (Viral Content Strategy)",
+          "name": "AI 이미지 생성 프롬프팅 (Midjourney/DALL-E)",
           "type": "skill",
-          "desc": "TikTok/Instagram Reels/YouTube Shorts 형식에 맞춘 15-60초 미디어아트 영상 제작 및 트렌딩 알고리즘 최적화",
-          "reason": "visual-design과 pr-content에서 NODE TREE의 예술작업을 짧은 형식 영상으로 재편집하여 Z세대 시청자에게 도달하면 유기적 도달률 300% 증가 가능. 2026년 미디어아트 단체의 후원 모금과 국제 레지던시 초청은 소셜 미디어 영향력에 직결되는 추세",
+          "desc": "텍스트 기반 고품질 이미지 및 영상 자산 생성",
+          "reason": "pr-content 제작 속도 향상 및 visual-design에서 미디어아트 프로젝트의 비주얼 콘셉트를 신속하게 시각화, SNS 마케팅 콘텐츠의 신선함 유지",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "MCP: Grant Writing & Project Timeline Automation",
-          "type": "agent",
-          "desc": "그랜트 공모 요건 자동 분석 및 프로젝트 타임라인/예산 자동 생성",
-          "reason": "doc-design, grant-writer, project-planner가 연간 10-15개 그랜트에 응모할 때, 각 기관별 서로 다른 기술 요구사항과 마감일을 통합 관리하는 MCP가 있으면 제출 승인률 40% 향상 가능. 또한 리서치팀의 데이터 기반 인사이트를 자동으로 그랜트 내러티브에 통합하여 경쟁력 강화",
+          "name": "그랜트 라이팅용 LLM 프롬프팅",
+          "type": "skill",
+          "desc": "AI를 활용한 설득력 있는 기금신청 제안서 작성",
+          "reason": "grant-writer에서 팀의 미디어아트 프로젝트 가치를 국내외 펀딩 기관의 평가기준에 맞춰 최적화하고, project-planner의 마일스톤 수립 시 현실성 검증으로 그랜트 승인률 상승",
           "trend": "rising"
         }
       ]
