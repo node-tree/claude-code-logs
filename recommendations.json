@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Server Components",
+          "name": "Next.js 15 App Router 최적화",
           "type": "skill",
-          "desc": "모던 웹 개발의 성능 최적화 기술",
-          "reason": "nodetreehome-web의 사용자 경험 향상과 서버-클라이언트 통신 효율성을 위해, 2026년 웹 표준으로 자리잡은 RSC 기술은 미디어아트 팀의 실시간 데이터 처리와 인터랙티브 기능 구현에 필수적입니다.",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 구축",
+          "reason": "nodetreehome-web의 성능 개선과 SEO 최적화를 위해 최신 Next.js 패러다임이 필수적이며, 2026년 현재 프로덕션 표준으로 자리잡은 기술",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered Literature Review & Citation Mapping",
+          "name": "학술 논문 메타분석 (Systematic Review)",
           "type": "skill",
-          "desc": "대규모 학술자료 분석 및 트렌드 파악 자동화",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 지원금 신청 근거와 학술적 가치를 신속하게 검증해야 하며, 2026년 AI 기술을 활용한 문헌 분석은 리서치 시간을 50% 단축할 수 있어 경쟁력 있는 기획안 도출에 필수입니다.",
-          "trend": "hot"
+          "desc": "다수의 연구를 체계적으로 수집·분류·분석하여 종합적 결론 도출",
+          "reason": "grant-research에서 펀딩 기관의 신청 요구사항이 점점 더 근거 기반의 종합 분석을 요구하고 있으며, 미디어아트 연구의 학술적 신뢰도를 높이는데 직결됨",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization (ESP32 + TidalCycles)",
+          "name": "AI-assisted 제너러티브 아트 (Stable Diffusion/DALL-E API)",
           "type": "skill",
-          "desc": "오디오와 비주얼 요소의 실시간 동기화 기술",
-          "reason": "media-art-pipeline에서 ESP32와 TidalCycles, TouchDesigner를 통합할 때 센서 입력과 음향/시각 출력의 지연시간을 최소화하는 것이 몰입감 있는 미디어아트 구현의 핵심이며, 2026년 임베디드 시스템 기술 발전으로 이전보다 훨씬 정확한 동기화가 가능합니다.",
+          "desc": "생성형 AI를 미디어아트 파이프라인에 통합하여 창의적 프로토타이핑 가속화",
+          "reason": "ESP32/TidalCycles/TouchDesigner 기반 작업에 생성형 AI 기법을 레이어링하면 작품의 복잡도와 인터랙티비티가 지수적으로 증대되며, 2026년 국제 미디어아트 트렌드의 핵심",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Blockchain-based Grant Tracking & Transparency",
+          "name": "예술지원금 회계 감시 (Compliance Automation)",
           "type": "skill",
-          "desc": "지원금 사용 내역의 투명한 기록 및 추적",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 정부 및 민간 지원금의 사용 투명성을 입증하고 감시 요구사항을 자동으로 충족시키는 것이 신뢰도 높은 기관으로 인정받기 위해 필요하며, 블록체인 기반 시스템은 감시 비용 절감과 동시에 투명성을 극대화합니다.",
+          "desc": "정부 및 민간 펀딩 기관의 규정 준수를 자동화하여 감사 리스크 최소화",
+          "reason": "grant-accounting-agent에서 한국의 복잡한 문화예술 펀딩 규정(문화체육관광부, 지자체별 상이한 요구사항)을 수동으로 관리하면 오류 발생 확률이 높으며, 자동화 도구로 컴플라이언스 확보가 필수",
           "trend": "rising"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Generative Design + Brand Consistency Engine",
+          "name": "브랜드 스토리텔링 (Transmedia Narrative)",
           "type": "skill",
-          "desc": "일관된 브랜드 아이덴티티를 유지하는 자동 디자인 생성",
-          "reason": "visual-design과 pr-content 제작에서 다양한 채널(SNS, 웹, 오프라인)별 콘텐츠를 빠르게 생성해야 하며, 2026년 AI 디자인 도구는 NODE TREE의 미디어아트 특성을 반영한 시각적 일관성을 자동으로 유지하면서 콘텐츠 제작 속도를 3배 향상시킬 수 있습니다.",
-          "trend": "hot"
+          "desc": "다중 플랫폼(SNS, 웹, 오프라인)에서 일관된 브랜드 내러티브 구축 및 전개",
+          "reason": "pr-content 제작 시 각 플랫폼별로 단편적 콘텐츠만 생성하면 브랜드 응집력이 약해지는데, 통합된 스토리 프레임워크를 통해 NODE TREE의 예술적 정체성을 강화하고 팔로워 충성도 상승",
+          "trend": "stable"
         }
       ]
     },
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Adaptive Project Management with AI Forecasting",
+          "name": "AI 기반 프로젝트 리스크 매핑 (LLM-powered Risk Analysis)",
           "type": "skill",
-          "desc": "프로젝트 진행 상황의 예측과 적응형 계획 수정",
-          "reason": "doc-design, grant-writer, project-planner는 불확실한 예술 프로젝트와 경쟁 기반 지원금 환경에서 실시간 변수 변화에 대응해야 하며, 2026년 AI 예측 기술을 활용하면 일정 지연 위험을 80% 사전에 감지하고 리소스를 최적 배분하여 프로젝트 성공률을 크게 높일 수 있습니다.",
+          "desc": "과거 프로젝트 데이터와 시나리오 분석을 통해 예상 리스크를 사전 식별 및 대응안 제시",
+          "reason": "grant-writer와 project-planner에서 제안서 작성 및 실행 계획 수립 시 예측 불가능한 변수(펀딩 지연, 인력 공동, 기술 이슈)가 프로젝트 실패로 이어지는데, AI 기반 리스크 분석으로 대안 계획 수립 가능성 대폭 향상",
           "trend": "rising"
         }
       ]
