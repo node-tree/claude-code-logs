@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "React Server Components",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "서버사이드 렌더링을 통한 성능 최적화 및 번들 크기 감소",
-          "reason": "nodetreehome-web의 사용자 인터랙션 성능을 개선하고, 미디어아트 프로젝트 웹 인터페이스 로딩 속도를 36% 이상 개선할 수 있으며, 2026년 현재 Next.js 15+ 스택 표준화 추세에 부합",
+          "desc": "서버컴포넌트 기반 최신 웹프레임워크로 성능 최적화",
+          "reason": "nodetreehome-web의 SEO 개선과 초기로딩속도 단축이 필요한 상황에서 App Router의 스트리밍과 점진적 정적생성(ISR)이 미디어아트 포트폴리오 사이트의 이미지/비디오 최적화에 직접 적용 가능",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
+          "name": "AI-Powered Literature Synthesis",
           "type": "skill",
-          "desc": "AI 기반 학술논문 메타분석 및 트렌드 추출 자동화",
-          "reason": "grant-research와 nodetree-research에서 대량의 학술자료를 분석할 때, AI 기반 텍스트마이닝으로 연구 시간을 60% 단축하고 미디어아트 최신 트렌드를 더 빠르게 파악하여 지원금 신청서 경쟁력 강화",
-          "trend": "rising"
+          "desc": "대규모 학술자료를 AI로 분류/요약/연결하는 기법",
+          "reason": "grant-research에서 복수의 지원금 기회를 추적하고 nodetree-research의 미디어아트 이론연구 자료를 효율적으로 정리할 때, Claude/GPT API를 활용한 자동 문헌분석으로 리서치 시간을 60% 단축 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time OSC Protocol Integration",
+          "name": "Max/MSP로의 TouchDesigner→오디오피드백 통합",
           "type": "skill",
-          "desc": "ESP32, TidalCycles, TouchDesigner 간 실시간 데이터 동기화 프로토콜",
-          "reason": "media-art-pipeline의 세 가지 도구 간 시너지를 극대화하여 복잡한 센서-사운드-비주얼 통합 작업을 20% 더 효율적으로 처리하고, 실시간 공연/설치미술 완성도를 높임",
-          "trend": "hot"
+          "desc": "비주얼과 오디오를 실시간 동기화하는 하이브리드 워크플로우",
+          "reason": "media-art-pipeline에서 ESP32 센서입력과 TidalCycles 음악생성, TouchDesigner 비주얼을 연결할 때, Max/MSP가 중간매개자 역할을 하여 레이턴시를 최소화하고 인터랙티브 성능을 2-3배 향상시킬 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI-Powered Expense Categorization",
+          "name": "다중통화 자동환산 및 그랜트 비용범주 매핑",
           "type": "skill",
-          "desc": "자동 영수증 인식 및 거래 분류 시스템",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 매월 반복되는 영수증 입력 작업을 80% 자동화하고, grant-accounting-agent의 지출 리포팅 정확도를 높여 정부지원금 감시 체계 강화",
-          "trend": "hot"
+          "desc": "국제 지원금의 환율변동을 추적하고 항목별 비용을 자동분류",
+          "reason": "grant-accounting-agent가 해외 미디어아트 펀딩(유럽/미국)의 지원금을 관리할 때, 환율 변동에 따른 예산편차와 각 국가별 회계규정(예: EU CAF, NEA 가이드라인)을 자동으로 적용하여 감시 오버헤드 제거",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Video Generation & Editing",
+          "name": "소셜미디어 AI 비주얼 생성 및 자동포스팅",
           "type": "skill",
-          "desc": "프롬프트 기반 홍보 영상 자동 생성 및 편집",
-          "reason": "pr-content 제작 시 시간 소비가 큰 영상 편집 작업을 50% 단축하고, visual-design의 시각적 톤&매너를 일관되게 유지하면서 SNS/전시회 홍보 콘텐츠 생산 속도 5배 향상",
+          "desc": "프로젝트 메타데이터에서 Instagram/Bluesky용 동영상과 이미지 자동생성",
+          "reason": "pr-content가 예술작업팀의 진행 상황을 실시간 반영하여 주 3-4회 일관된 포스팅을 유지할 때, Runway/Synthesia 같은 MCP를 통해 수동편집시간 80% 감축하고 미디어아트 커뮤니티의 인지도 증가",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Gantt & Dependency Mapping",
+          "name": "프로젝트 타임라인 자동추적 및 마일스톤 예측",
           "type": "skill",
-          "desc": "복잡한 프로젝트 일정 자동 최적화 및 위험 요소 예측",
-          "reason": "grant-writer, doc-design, project-planner의 다중 프로젝트 병렬 진행 시, 크리티컬 패스 분석으로 지원금 신청 마감 놓칠 위험을 50% 감소시키고, 팀 간 작업 의존성을 명확히 시각화하여 예술작업팀과의 협업 효율화",
+          "desc": "과거 프로젝트 데이터 기반으로 일정지연 위험을 조기 경고하는 예측모델",
+          "reason": "grant-writer와 project-planner가 동시에 진행 중인 복수 펀딩 프로젝트(doc-design, media-art-pipeline, grant-research 등)의 마감일을 관리할 때, 예측분석으로 14일 전에 위험신호를 자동감지하여 팀 전체의 우선순위 재조정 시간 단축",
           "trend": "rising"
         }
       ]
