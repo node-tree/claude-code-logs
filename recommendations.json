@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 성능 최적화",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "nodetreehome-web의 렌더링 속도와 번들 크기 최적화 기법",
-          "reason": "미디어아트 포트폴리오 웹사이트는 고해상도 이미지/비디오를 많이 로드하므로, 성능 최적화를 통해 사용자 경험을 향상시키고 SEO 개선으로 프로젝트 가시성을 높일 수 있음",
+          "desc": "React 18 기반 최신 풀스택 웹프레임워크로 서버컴포넌트와 클라이언트 최적화 지원",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적인데, Next.js 15의 증분정적재생성(ISR)과 엣지런타임은 미디어아트 포트폴리오 사이트의 빠른 로딩과 동적 콘텐츠 관리에 직접적으로 기여할 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "시스템적 문헌 분석 및 메타분석",
-          "type": "skill",
-          "desc": "대량의 연구자료를 체계적으로 분류, 종합, 비교 분석하는 방법론",
-          "reason": "nodetree-research와 grant-research 두 프로젝트를 병행할 때 데이터 중복을 제거하고 인사이트를 빠르게 도출할 수 있으며, 정부 지원금 신청 시 선행연구 근거를 강화할 수 있음",
-          "trend": "rising"
+          "name": "Claude 3.5 Sonnet MCP",
+          "type": "agent",
+          "desc": "장문 분석과 패턴인식에 특화된 AI 에이전트로 문헌검색 및 보고서 자동생성 지원",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 문헌과 선행사례를 빠르게 분석하고 보조금 신청 근거자료를 체계적으로 구성해야 하는데, 멀티턴 분석능력으로 연구깊이를 높이고 작업시간을 50% 단축할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오-비주얼 동기화 (Tidal Cycles + TouchDesigner)",
+          "name": "OSC(Open Sound Control) 프로토콜",
           "type": "skill",
-          "desc": "TidalCycles의 사운드 패턴을 TouchDesigner의 비주얼과 ESP32 센서 입력과 동시에 연동시키는 통합 기법",
-          "reason": "미디어아트의 핵심은 다중감각 경험이며, 사운드와 비주얼의 정밀한 동기화는 관객의 몰입도를 극대화하고 작품의 완성도를 높이는 차별화 포인트가 됨",
-          "trend": "hot"
+          "desc": "ESP32, TidalCycles, TouchDesigner 간 실시간 음향-영상 신호동기화 통신규약",
+          "reason": "media-art-pipeline에서 ESP32 센서입력과 TidalCycles 사운드, TouchDesigner 비주얼을 완벽하게 동기화하는 것이 핵심인데, OSC는 이 세 플랫폼 모두에서 네이티브로 지원되어 레이턴시 없는 인터랙티브 설치미술 구현이 가능함",
+          "trend": "stable"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "문화예술사업 회계 및 세제 최적화",
-          "type": "skill",
-          "desc": "정부 보조금, 예술진흥펀드, 크라우드펀딩 등 다양한 재원의 회계처리 및 세제혜택 활용",
-          "reason": "saengsanso-accounting와 grant-accounting-agent를 효과적으로 운영하려면 한국의 문화예술 관련 세제(예: 기부금 공제, 영상상품 세제 혜택)를 정확히 이해하고 적용해야 하며, 이를 통해 팀의 재정 자립도를 높일 수 있음",
-          "trend": "stable"
+          "name": "수입/지출 카테고리 자동분류 MCP",
+          "type": "agent",
+          "desc": "거래내역 텍스트를 분석하여 회계과목 자동매칭 및 보조금/일반수입 구분 수행",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 수동으로 처리하는 분류작업이 매월 반복되는데, 이 에이전트로 영수증 업로드 시 자동으로 과목분류되면 오류율을 80% 줄이고 월말 정산시간을 20시간 이상 절감할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 이미지 생성 + 디자인 시스템 통합",
+          "name": "Figma AI Design System",
           "type": "skill",
-          "desc": "DALL-E, Midjourney 등의 AI 도구를 브랜드 가이드라인에 맞게 활용하여 대량의 홍보 컨텐츠를 빠르게 생성",
-          "reason": "visual-design과 pr-content 프로젝트에서 콘텐츠 생산 속도를 3배 이상 증대할 수 있으며, SNS, 전시 포스터, 뉘스레터 등 다채로운 채널의 시각적 일관성을 유지하면서도 창작 시간을 절약할 수 있음",
+          "desc": "AI 기반 자동 컴포넌트 생성과 다국어 콘텐츠 대응 디자인시스템 구축",
+          "reason": "pr-content와 visual-design에서 소셜미디어, 포스터, 웹 등 다양한 채널의 일관된 시각언어 유지가 중요한데, Figma AI는 한 번의 설정으로 영문/국문 버전 자동생성과 브랜드 가이드 준수를 담보하여 콘텐츠 산출속도를 3배 높일 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 마일스톤-기금 연동 계획 (OKR + 자금 시뮬레이션)",
-          "type": "skill",
-          "desc": "doc-design, grant-writer, project-planner의 목표를 통합하고 각 마일스톤별 필요자금을 동시에 계획하는 방법론",
-          "reason": "미디어아트 프로젝트는 기술, 예술, 자금의 타이밍이 모두 맞아야 하는데, 이 세 요소를 하나의 타임라인에서 관리하면 보조금 신청 시기 최적화, 예산 초과 방지, 팀 간 협력 동기화가 동시에 가능해짐",
+          "name": "Project Gantt Chart Auto-Generator MCP",
+          "type": "agent",
+          "desc": "프로젝트 요구사항 텍스트에서 자동으로 태스크분해, 의존성매핑, 일정산정 수행",
+          "reason": "grant-writer, project-planner에서 여러 팀의 일정을 조율하는 복잡한 마일스톤 관리가 필수인데, 이 에이전트가 각 팀별 역량과 과거 프로젝트 속도를 학습하면 현실적인 간트차트를 자동생성하여 보조금 제안서의 일정신뢰성을 50% 향상시킬 수 있음",
           "trend": "rising"
         }
       ]
