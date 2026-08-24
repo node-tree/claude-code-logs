@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-24",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Performance Optimization",
+          "name": "Web3 Integration & Smart Contract Development",
           "type": "skill",
-          "desc": "대규모 웹 애플리케이션의 렌더링 최적화 및 번들 크기 감소 기법",
-          "reason": "nodetreehome-web의 사용자 경험 향상과 로딩 속도 개선이 필수적이며, 미디어아트 프로젝트의 복잡한 인터랙션 처리에 직결",
+          "desc": "블록체인 기반 미디어아트 플랫폼 구축 및 NFT 연동",
+          "reason": "nodetreehome-web의 웹 플랫폼에 Web3 기술을 통합하면 미디어아트 작품의 소유권 추적, 크리에이터 수익화, 분산형 커뮤니티 구축이 가능해져 한국 미디어아트 시장의 차별화된 가치 제안을 실현할 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Research Synthesis Agent",
-          "type": "agent",
-          "desc": "논문, 데이터, 트렌드를 자동으로 수집하고 분석하는 AI 에이전트",
-          "reason": "nodetree-research와 grant-research 프로젝트에서 대량의 학술 자료를 효율적으로 처리하고, 그랜트 신청 시 최신 연구 동향 반영으로 경쟁력 강화",
-          "trend": "rising"
+          "name": "AI-Powered Research Synthesis & Data Visualization",
+          "type": "skill",
+          "desc": "대규모 연구데이터 분석 및 시각화를 통한 인사이트 도출",
+          "reason": "nodetree-research와 grant-research에서 수집한 다양한 연구 자료들을 AI로 자동 분석하고 시각화하면 보조금 기획 시간 단축, 트렌드 파악 정확도 향상, 국제 협력 기회 발굴이 효율화되어 연구팀의 생산성이 크게 증대됩니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Machine Learning for Real-time Audio Visualization",
+          "name": "Generative AI + Real-time Audio-Visual Synthesis",
           "type": "skill",
-          "desc": "TidalCycles 사운드를 실시간으로 분석하여 TouchDesigner/ESP32에서 시각화하는 ML 기법",
-          "reason": "media-art-pipeline에서 음향과 시각의 동기화를 고도화하고, ESP32 제약 환경에서도 효율적인 실시간 처리로 설치미술의 예술적 표현력 극대화",
+          "desc": "생성형 AI와 실시간 오디오-비주얼 동기화를 통한 인터랙티브 미디어아트 창작",
+          "reason": "ESP32, TidalCycles, TouchDesigner 기반 pipeline에 생성형 AI를 통합하면 사용자 입력에 반응하는 동적 미디어아트 작품 제작이 가능하며, 이는 국제 미디어아트 페스티벌 출품작의 경쟁력을 획기적으로 높이고 새로운 창작 장르를 개척할 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Automated Grant Accounting & Compliance MCP",
-          "type": "mcp",
-          "desc": "그랜트 예산 추적 및 규정 준수 자동화 모듈",
-          "reason": "grant-accounting-agent와 saengsanso-accounting의 이중 처리 부담을 줄이고, 그랜트별 지출 규정 위반 위험을 사전 차단하며 감시 기관 보고 자동화로 시간 절약",
+          "name": "Automated Grant Accounting & Compliance Audit System",
+          "type": "skill",
+          "desc": "보조금 회계 자동화 및 규정 준수 감시 시스템",
+          "reason": "saengsanso-accounting과 grant-accounting-agent를 통합하는 자동화 회계 시스템을 구축하면 복잡한 보조금 집행 규칙 준수가 자동화되어 행정 오류 제거, 감사 시간 단축, 다중 펀딩 소스의 효율적 관리가 가능해져 회계팀의 오버헤드를 크게 감소시킵니다.",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Generated Multi-platform Content Creation",
+          "name": "AI-Driven Content Personalization & Multi-Channel Campaign Automation",
           "type": "skill",
-          "desc": "하나의 콘셉트에서 SNS, 웹, 인쇄물 등 다양한 포맷의 시각 콘텐츠 생성",
-          "reason": "pr-content와 visual-design에서 일관된 브랜드 메시지를 유지하면서 각 채널별 최적화된 콘텐츠를 빠르게 제작, 미디어아트팀의 작업물을 효과적으로 대중에 노출",
+          "desc": "AI 기반 타겟 맞춤형 콘텐츠 생성 및 멀티채널 캠페인 자동화",
+          "reason": "visual-design과 pr-content에서 제작한 디자인 자산들을 AI 개인화 엔진과 연동하면 SNS, 웹, 전시 플랫폼별 최적화된 콘텐츠 자동 배분이 가능해져 홍보 효율성 증대, 브랜드 일관성 유지, 국제 오디언스 확보가 동시에 달성되어 미디어아트팀의 가시성이 급상승합니다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline & Dependency Visualization Agent",
-          "type": "agent",
-          "desc": "복수 프로젝트의 일정, 리소스, 의존성을 실시간 추적하고 병목 자동 감지",
-          "reason": "doc-design, grant-writer, project-planner 업무가 상호 연계되어 있는데, 현재 수동 관리로 인한 딜레이를 자동화로 해결하고 크리티컬 경로 미리 파악하여 팀 전체 효율성 30% 이상 향상",
+          "name": "Project Intelligence & Predictive Timeline Management",
+          "type": "skill",
+          "desc": "AI 기반 프로젝트 진행 예측 및 자동 일정 최적화",
+          "reason": "doc-design, grant-writer, project-planner의 업무 데이터를 분석하는 프로젝트 인텔리전스 시스템을 도입하면 보조금 신청부터 예술 작품 완성까지의 전 과정이 데이터 기반으로 예측 가능해지며, 병목 구간 사전 파악, 팀별 리소스 최적 배분, 마감 위험 조기 경보가 가능해져 기획팀의 전략적 의사결정 품질이 비약적으로 향상됩니다.",
           "trend": "rising"
         }
       ]
