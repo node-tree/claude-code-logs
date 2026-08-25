@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Web3 Integration & Smart Contract Development",
+          "name": "TypeScript + React 최적화",
           "type": "skill",
-          "desc": "블록체인 기반 미디어아트 플랫폼 구축 및 NFT 연동",
-          "reason": "nodetreehome-web의 웹 플랫폼에 Web3 기술을 통합하면 미디어아트 작품의 소유권 추적, 크리에이터 수익화, 분산형 커뮤니티 구축이 가능해져 한국 미디어아트 시장의 차별화된 가치 제안을 실현할 수 있습니다.",
+          "desc": "웹 성능 최적화 및 타입 안정성을 위한 고급 개발 기술",
+          "reason": "nodetreehome-web 프로젝트의 사용자 경험 향상과 유지보수성 증대를 위해 필수적이며, 미디어아트 콘텐츠 전시 플랫폼의 반응성 개선에 직접 기여",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Research Synthesis & Data Visualization",
+          "name": "Systematic Literature Review with AI",
           "type": "skill",
-          "desc": "대규모 연구데이터 분석 및 시각화를 통한 인사이트 도출",
-          "reason": "nodetree-research와 grant-research에서 수집한 다양한 연구 자료들을 AI로 자동 분석하고 시각화하면 보조금 기획 시간 단축, 트렌드 파악 정확도 향상, 국제 협력 기회 발굴이 효율화되어 연구팀의 생산성이 크게 증대됩니다.",
-          "trend": "hot"
+          "desc": "AI 도구를 활용한 대규모 논문 분석 및 트렌드 추출 자동화",
+          "reason": "grant-research와 nodetree-research에서 다량의 학술자료 수집·분석 시 시간 단축과 깊이있는 인사이트 도출에 필수적이며, 그랜트 신청 기한 준수에 유리",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Generative AI + Real-time Audio-Visual Synthesis",
+          "name": "Real-time Audio-Visual Synchronization",
           "type": "skill",
-          "desc": "생성형 AI와 실시간 오디오-비주얼 동기화를 통한 인터랙티브 미디어아트 창작",
-          "reason": "ESP32, TidalCycles, TouchDesigner 기반 pipeline에 생성형 AI를 통합하면 사용자 입력에 반응하는 동적 미디어아트 작품 제작이 가능하며, 이는 국제 미디어아트 페스티벌 출품작의 경쟁력을 획기적으로 높이고 새로운 창작 장르를 개척할 수 있습니다.",
+          "desc": "ESP32/TidalCycles/TouchDesigner 간 실시간 동기화 기술",
+          "reason": "media-art-pipeline에서 사운드와 비주얼의 완벽한 동기화는 몰입도 높은 인터랙티브 미디어아트 작품 제작의 핵심이며, 라이브 퍼포먼스 안정성 보장",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Automated Grant Accounting & Compliance Audit System",
-          "type": "skill",
-          "desc": "보조금 회계 자동화 및 규정 준수 감시 시스템",
-          "reason": "saengsanso-accounting과 grant-accounting-agent를 통합하는 자동화 회계 시스템을 구축하면 복잡한 보조금 집행 규칙 준수가 자동화되어 행정 오류 제거, 감사 시간 단축, 다중 펀딩 소스의 효율적 관리가 가능해져 회계팀의 오버헤드를 크게 감소시킵니다.",
+          "name": "Grant Compliance Automation Agent",
+          "type": "agent",
+          "desc": "정부 그랜트 규정 자동 점검 및 보고서 생성 AI 에이전트",
+          "reason": "grant-accounting-agent와 saengsanso-accounting 운영 시 복잡한 보조금 규정 변경 추적과 오류 방지를 자동화하여 감시 위험 제거 및 업무 효율성 3배 상향",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Driven Content Personalization & Multi-Channel Campaign Automation",
+          "name": "AI-Powered Visual Content Generation",
           "type": "skill",
-          "desc": "AI 기반 타겟 맞춤형 콘텐츠 생성 및 멀티채널 캠페인 자동화",
-          "reason": "visual-design과 pr-content에서 제작한 디자인 자산들을 AI 개인화 엔진과 연동하면 SNS, 웹, 전시 플랫폼별 최적화된 콘텐츠 자동 배분이 가능해져 홍보 효율성 증대, 브랜드 일관성 유지, 국제 오디언스 확보가 동시에 달성되어 미디어아트팀의 가시성이 급상승합니다.",
+          "desc": "브랜드 일관성을 유지하며 다채널 홍보 콘텐츠 자동 생성",
+          "reason": "visual-design과 pr-content 팀이 SNS, 웹사이트, 인쇄물 등 다양한 채널의 콘텐츠 요청에 신속히 대응하고 브랜드 아이덴티티를 강화하며 제작 시간 단축",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Intelligence & Predictive Timeline Management",
-          "type": "skill",
-          "desc": "AI 기반 프로젝트 진행 예측 및 자동 일정 최적화",
-          "reason": "doc-design, grant-writer, project-planner의 업무 데이터를 분석하는 프로젝트 인텔리전스 시스템을 도입하면 보조금 신청부터 예술 작품 완성까지의 전 과정이 데이터 기반으로 예측 가능해지며, 병목 구간 사전 파악, 팀별 리소스 최적 배분, 마감 위험 조기 경보가 가능해져 기획팀의 전략적 의사결정 품질이 비약적으로 향상됩니다.",
+          "name": "Project Planning MCP with Timeline Optimization",
+          "type": "MCP",
+          "desc": "프로젝트 일정 자동 최적화 및 리스크 예측 MCP",
+          "reason": "grant-writer, project-planner, doc-design이 복수의 동시 프로젝트와 그랜트 신청 기한을 관리할 때 의존성 분석과 병목 자동 감지로 납기 준수율 향상 및 팀 간 조정 시간 절감",
           "trend": "rising"
         }
       ]
