@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "Next.js 14 + Server Components",
           "type": "skill",
-          "desc": "웹 성능 최적화 및 타입 안정성을 위한 고급 개발 기술",
-          "reason": "nodetreehome-web 프로젝트의 사용자 경험 향상과 유지보수성 증대를 위해 필수적이며, 미디어아트 콘텐츠 전시 플랫폼의 반응성 개선에 직접 기여",
+          "desc": "React 서버 컴포넌트 기반 풀스택 웹 개발",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 미디어아트 포트폴리오 사이트에서 동적 콘텐츠 렌더링과 빠른 로딩 속도를 동시에 달성할 수 있으며, 2026년 현재 Next.js는 풀스택 개발의 업계 표준입니다.",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
+          "name": "AI 기반 문헌 메타분석 (Meta-Analysis Automation)",
           "type": "skill",
-          "desc": "AI 도구를 활용한 대규모 논문 분석 및 트렌드 추출 자동화",
-          "reason": "grant-research와 nodetree-research에서 다량의 학술자료 수집·분석 시 시간 단축과 깊이있는 인사이트 도출에 필수적이며, 그랜트 신청 기한 준수에 유리",
+          "desc": "대규모 학술 자료의 자동 수집, 분류, 종합 분석",
+          "reason": "nodetree-research와 grant-research에서 미디어아트 관련 논문, 보고서, 사례연구를 효율적으로 수집하고 패턴을 파악하여 그랜트 제안서의 학술적 근거를 빠르게 구축할 수 있으며, 연구 시간을 40% 이상 단축할 수 있습니다.",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization",
+          "name": "ML5.js & Pose Detection Integration",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 간 실시간 동기화 기술",
-          "reason": "media-art-pipeline에서 사운드와 비주얼의 완벽한 동기화는 몰입도 높은 인터랙티브 미디어아트 작품 제작의 핵심이며, 라이브 퍼포먼스 안정성 보장",
+          "desc": "기계학습 기반 신체 동작 인식을 TouchDesigner/ESP32와 연결",
+          "reason": "media-art-pipeline의 인터랙티브 설치미술에서 관객의 움직임을 실시간으로 감지하여 TidalCycles 음향과 시각화를 동기화할 수 있으며, 이는 2026년 뉴미디어아트의 핵심 기술 트렌드입니다.",
           "trend": "hot"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Compliance Automation Agent",
+          "name": "자동화 회계 MCP (Accounting Automation Agent)",
           "type": "agent",
-          "desc": "정부 그랜트 규정 자동 점검 및 보고서 생성 AI 에이전트",
-          "reason": "grant-accounting-agent와 saengsanso-accounting 운영 시 복잡한 보조금 규정 변경 추적과 오류 방지를 자동화하여 감시 위험 제거 및 업무 효율성 3배 상향",
-          "trend": "rising"
+          "desc": "영수증 OCR 인식, 자동 거래 분류, 보고서 생성 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 이중 장부 관리 업무를 자동화하여 오류를 줄이고 그랜트 회계감시 항목을 실시간 모니터링할 수 있으며, 월별 정산 시간을 50% 이상 단축할 수 있습니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Visual Content Generation",
+          "name": "AI 이미지 생성 & 브랜드 아이덴티티 시스템",
           "type": "skill",
-          "desc": "브랜드 일관성을 유지하며 다채널 홍보 콘텐츠 자동 생성",
-          "reason": "visual-design과 pr-content 팀이 SNS, 웹사이트, 인쇄물 등 다양한 채널의 콘텐츠 요청에 신속히 대응하고 브랜드 아이덴티티를 강화하며 제작 시간 단축",
+          "desc": "DALL-E/Midjourney 기반 일관된 미디어아트 비주얼 생성",
+          "reason": "visual-design과 pr-content에서 NODE TREE의 미디어아트 작업 스타일을 학습한 AI로 프로모션 이미지, 소셜미디어 콘텐츠, 그랜트 제안서 시각자료를 빠르게 생성하여 일관된 브랜드 이미지를 유지하면서 콘텐츠 생산 속도를 3배 증가시킬 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Planning MCP with Timeline Optimization",
-          "type": "MCP",
-          "desc": "프로젝트 일정 자동 최적화 및 리스크 예측 MCP",
-          "reason": "grant-writer, project-planner, doc-design이 복수의 동시 프로젝트와 그랜트 신청 기한을 관리할 때 의존성 분석과 병목 자동 감지로 납기 준수율 향상 및 팀 간 조정 시간 절감",
+          "name": "프로젝트 관리 MCP (Project Timeline & Grant Tracker)",
+          "type": "agent",
+          "desc": "그랜트 마감일, 프로젝트 마일스톤, 팀 일정을 통합 추적",
+          "reason": "doc-design, grant-writer, project-planner의 다중 그랜트 신청과 아트프로젝트 일정을 한눈에 관리하여 마감 놓침 방지, 팀 간 협력 시간 동기화, 리소스 할당 최적화를 동시에 달성할 수 있으며 특히 복수 그랜트 진행 시 필수적입니다.",
           "trend": "rising"
         }
       ]
