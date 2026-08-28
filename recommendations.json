@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Server Components",
+          "name": "Next.js 15 Server Components",
           "type": "skill",
-          "desc": "nodetreehome-web의 성능 최적화와 유지보수성 강화를 위한 현대적 웹 개발 패턴",
-          "reason": "2026년 기준 웹 프론트엔드는 SSR/RSC 기반으로 진화했으며, 미디어아트 웹사이트의 인터랙티브 요소를 효율적으로 관리하고 로딩 성능을 개선하는 데 필수적. 특히 실시간 데이터 시각화가 필요한 포트폴리오 구축에 유리",
+          "desc": "React 서버 컴포넌트 기반의 풀스택 개발 패턴",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선이 필수적이며, 2026년 기준 Next.js Server Components는 웹 개발의 표준이 되었으므로 팀의 생산성과 결과물 품질을 동시에 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review + AI Citation Analysis",
+          "name": "Systematic Literature Review with AI",
           "type": "skill",
-          "desc": "grant-research와 nodetree-research 프로젝트의 학술적 체계성 강화를 위한 문헌 리뷰 자동화 기법",
-          "reason": "국내외 미디어아트 및 기술 관련 지원사업 신청 시 논문 기반의 신뢰성 있는 리서치가 중요하며, AI 기반 인용 분석으로 연구 동향을 빠르게 파악하고 grant 작성 근거를 강화할 수 있음. 2026년 기술로는 자동화된 메타분석이 표준",
-          "trend": "rising"
+          "desc": "AI 도구를 활용한 체계적 문헌 검토 및 메타분석",
+          "reason": "grant-research 프로젝트에서 대량의 학술자료를 빠르게 분석하고 신청 자료의 학술적 신뢰도를 높이는 데 필수적이며, 2026년의 AI 기반 연구 방법론은 경쟁력 있는 제안서 작성에 직결됨",
+          "trend": "hot"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Neural Audio Synthesis (TidalCycles + ML)",
+          "name": "Real-time Audio-Visual Synthesis with AI",
           "type": "skill",
-          "desc": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 머신러닝 기반 오디오 생성 및 반응형 사운드 디자인",
-          "reason": "media-art-pipeline의 코어 기술인 라이브 코딩(TidalCycles)에 신경망 기반 음성 합성을 통합하면 표현력이 획기적으로 확대됨. 2026년 기준 실시간 신경망 처리가 엣지 디바이스에서 가능해져 ESP32에서의 구현 난도가 낮아짐. 국제 미디어아트 공모전의 차별성 확보",
+          "desc": "ESP32/TidalCycles/TouchDesigner 환경에서 AI 기반 실시간 음향-시각 동기화",
+          "reason": "media-art-pipeline에서 기술과 예술의 융합이 핵심인데, 생성형 AI를 활용한 실시간 음향-시각 반응형 작업은 2026년 미디어아트의 최신 트렌드이며 국제 전시와 그랜트에서 차별화되는 요소가 될 수 있음",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-currency Grant Accounting Automation",
-          "type": "skill",
-          "desc": "saengsanso-accounting과 grant-accounting-agent의 국제 지원금 관리를 위한 자동화 회계 프레임워크",
-          "reason": "NODE TREE가 국내외 문화예술 지원사업에 신청할 때 다양한 통화(KRW, USD, EUR 등)와 복잡한 grant 규정을 동시에 관리해야 함. AI 에이전트 기반 자동화로 환율 변동성 대응, 세무 규정 자동 분류, 지출 내역 실시간 추적이 가능해져 투명성 강화 및 회계 오류 감소",
+          "name": "AI-powered Grant Compliance Audit",
+          "type": "agent",
+          "desc": "그랜트 자금 사용 규정 자동 검증 및 컴플라이언스 모니터링",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 복잡한 규정 준수를 자동화하면 인적 오류를 줄이고, 정부 그랜트의 감시 및 환수 요구에 신속하게 대응할 수 있으므로 조직의 재무 리스크를 현저히 감소시킬 수 있음",
           "trend": "rising"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Driven Brand Storytelling + Visual Identity System",
-          "type": "skill",
-          "desc": "pr-content와 visual-design에서 AI를 활용한 일관성 있는 브랜드 네러티브 및 멀티채널 콘텐츠 생성",
-          "reason": "2026년 기준 소셜미디어 알고리즘은 일관된 브랜드 스토리텔링에 높은 가중치를 부여하며, visual-design의 창의적 아이디어를 pr-content로 빠르게 확산할 때 AI 기반 자동화가 시간 효율을 극대화. 특히 국제 미디어아트 커뮤니티에서의 인지도 확보에 필수적",
-          "trend": "hot"
+          "name": "Brand Content Repurposing MCP",
+          "type": "MCP",
+          "desc": "하나의 콘텐츠를 여러 플랫폼과 포맷으로 자동 변환 및 최적화",
+          "reason": "pr-content 제작 시 Instagram, TikTok, 웹사이트 등 다양한 채널에 맞춰 콘텐츠를 재구성하는 작업이 매우 시간 소모적인데, MCP를 통해 자동화하면 일관된 브랜드 메시지 유지와 동시에 채널별 최적화가 가능해져 홍보 효율성이 대폭 증가함",
+          "trend": "rising"
         }
       ]
     },
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "AI-Enhanced Project Portfolio Mapping & Timeline Intelligence",
-          "type": "skill",
-          "desc": "doc-design, grant-writer, project-planner를 연계한 프로젝트 생명주기 관리 및 지원사업 매칭 자동화",
-          "reason": "NODE TREE의 6개 팀 간 업무 연계와 중복 없는 일정 관리가 복잡해질수록, AI 에이전트 기반의 크로스펑셔널 프로젝트 맵핑이 핵심. grant-writer가 진행 중인 사업에 project-planner가 실시간으로 마일스톤을 조정하고, doc-design이 필요한 산출물을 자동 플래깅할 수 있음. 특히 복수 지원사업 동시 관리 시 타이밍 오류를 90% 이상 감소",
+          "name": "Project Timeline Intelligence Agent",
+          "type": "agent",
+          "desc": "프로젝트 일정, 예산, 리소스를 연동한 실시간 최적화 제안",
+          "reason": "grant-writer와 project-planner 사이의 일정 충돌과 리소스 배분 오류를 사전에 감지하고, 여러 프로젝트의 의존성을 자동 분석하여 현실적인 계획 수립을 지원함으로써 그랜트 제안서의 실행 가능성을 높이고 팀 간 소통 비용을 절감할 수 있음",
           "trend": "rising"
         }
       ]
