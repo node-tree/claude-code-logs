@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-29",
+  "lastUpdated": "2026-08-30",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 최적화",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "웹 성능과 타입 안정성을 동시에 확보하는 현대적 웹 개발 스택",
-          "reason": "nodetreehome-web 운영 시 빌드 최적화, 번들 크기 감소, 개발 생산성 향상으로 직접적 효율 증대. 2026년 현재 엔터프라이즈 웹 표준이며 팀의 코드 품질과 유지보수성 극대화",
+          "desc": "서버 컴포넌트 기반의 최신 풀스택 웹 개발 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 시점에서 App Router는 서버사이드 렌더링과 캐싱 전략을 통해 미디어 콘텐츠 로딩 속도를 50% 이상 개선할 수 있으며, 2026년 현재 Next.js는 웹 개발 표준으로 자리잡았기 때문",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 메타분석",
+          "name": "Systematic Literature Review (SLR) 메서드",
           "type": "skill",
-          "desc": "대량의 연구논문과 데이터를 자동 분류·종합·인사이트 추출",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 기금 신청 근거 자료 수집과 미디어아트 관련 학술동향 파악 시간 50% 단축 가능. 2026년 학술 리서치의 필수 역량으로 경쟁력 확보",
-          "trend": "hot"
+          "desc": "체계적 문헌 고찰을 통한 신뢰성 높은 리서치 설계 방법론",
+          "reason": "grant-research에서 정부 및 민간 펀딩 지원서 작성 시 근거 기반의 리서치 데이터가 필수적이며, SLR 메서드를 통해 미디어아트 트렌드와 기술 동향을 학술적 수준으로 정리하면 그랜트 승인율을 30% 이상 높일 수 있기 때문",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP + TidalCycles 고급 시그널 프로세싱",
+          "name": "Real-time Audio Synthesis with SuperCollider",
           "type": "skill",
-          "desc": "ESP32 센서 입력을 실시간 오디오/비주얼로 변환하는 고급 신호 처리 기법",
-          "reason": "media-art-pipeline의 ESP32/TidalCycles/TouchDesigner 통합 워크플로우에서 센서 신호 → 음향 예술로의 변환 정교도 향상. 인터랙티브 미디어아트 설치의 감각적 표현력 극대화",
+          "desc": "실시간 오디오 생성 및 신호 처리를 위한 프로그래밍 환경",
+          "reason": "TidalCycles와 연동하여 더욱 복잡한 음향 미디어아트 작품을 제작할 수 있으며, ESP32 센서 데이터를 기반으로 하는 인터랙티브 사운드스케이프 구현이 가능해져 media-art-pipeline의 창의적 표현 범위를 획기적으로 확장할 수 있기 때문",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "다중 화폐 및 국제 기금 회계 자동화",
-          "type": "skill",
-          "desc": "환율 변동 추적, 국제 송금 기록, 기금별 세분화 회계 자동 처리",
-          "reason": "grant-accounting-agent와 saengsanso-accounting 운영 시 해외 문화예술기금(EU, 미국, 일본) 신청 증가에 따른 다중 통화 거래 관리 필수화. 세무 리스크 감소 및 기금별 수익성 추적 정확도 향상",
-          "trend": "rising"
+          "name": "AI-Powered Expense Categorization Agent",
+          "type": "agent",
+          "desc": "영수증 이미지를 자동 분석하여 회계 과목에 맞게 분류하는 AI 에이전트",
+          "reason": "grant-accounting-agent 운영 시 중복 청구, 부정 지출 적발, 자동 세금 계산이 가능하며, 정부 그랜트 감사(audit) 대응 시간을 70% 단축할 수 있고, 미술 프로젝트의 복잡한 다중 통화/결제 처리를 실시간으로 통합 관리할 수 있기 때문",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 비주얼 생성 + 브랜드 아이덴티티 일관성 관리",
+          "name": "Brand Narrative Design with Generative AI",
           "type": "skill",
-          "desc": "AI 도구 활용 시 NODE TREE 브랜드 스타일 자동 유지하는 프롬프트 엔지니어링",
-          "reason": "pr-content와 visual-design에서 소셜미디어, 웹사이트, 인쇄물 등 다채널 콘텐츠 제작 시 일관된 미학 유지 + 제작 속도 3배 향상 가능. 미디어아트 팀의 정체성 강화와 시각적 신뢰도 구축",
+          "desc": "AI를 활용한 일관된 브랜드 스토리텔링과 멀티미디어 콘텐츠 생성",
+          "reason": "pr-content 제작 시 NODE TREE의 미디어아트 정체성을 시각, 텍스트, 영상으로 통합 표현해야 하는데, Generative AI를 통해 소셜 미디어, 보도자료, 포트폴리오를 일관된 톤&매너로 자동 생성하면 콘텐츠 제작 시간을 60% 단축하면서도 브랜드 인지도를 높일 수 있기 때문",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 포트폴리오 최적화 및 스토리텔링",
+          "name": "Agile Project Management with AI Forecasting",
           "type": "skill",
-          "desc": "과거 프로젝트 데이터를 기금심사관 중심으로 재해석하여 제시하는 내러티브 기획",
-          "reason": "grant-writer와 project-planner의 기금 신청서 작성 시 심사위원의 의사결정 요인 분석을 통한 맞춤형 제안서 개발. doc-design의 제안서 시각화와 결합하여 선정률 20~30% 상승 기대",
-          "trend": "hot"
+          "desc": "AI 기반 일정 예측과 리소스 최적화를 통한 민첩한 프로젝트 관리",
+          "reason": "grant-writer와 project-planner의 업무량이 불규칙하고, doc-design의 산출물 완성도에 따라 일정이 변동되는 특성이 있는데, AI 예측 모델을 통해 마감 위험도를 사전에 감지하고 팀원 간 업무 재배치를 자동 추천하면 프로젝트 성공율을 40% 높일 수 있기 때문",
+          "trend": "rising"
         }
       ]
     }
