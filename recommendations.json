@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-01",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "WebSocket 실시간 통신",
+          "name": "Next.js 15 App Router + React Server Components",
           "type": "skill",
-          "desc": "양방향 실시간 데이터 동기화 및 라이브 콘텐츠 스트리밍 구현",
-          "reason": "nodetreehome-web에서 미디어아트 프로젝트의 실시간 인터랙티브 요소(ESP32 센서 데이터, TidalCycles 음향 피드백)를 웹으로 제공할 때 필수. 사용자 경험 개선과 기술적 완성도 향상에 직결",
+          "desc": "최신 풀스택 웹 개발 프레임워크로 성능 최적화된 웹사이트 구축",
+          "reason": "nodetreehome-web은 미디어아트팀의 대표 웹사이트로서 빠른 로딩과 SEO 최적화가 중요하며, RSC를 통해 서버사이드 렌더링으로 성능을 극대화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "데이터 시각화 및 인포그래픽 분석",
+          "name": "문헌 관리 및 인용 자동화 (Zotero/Obsidian)",
           "type": "skill",
-          "desc": "연구 데이터를 그래프, 차트, 맵으로 시각적으로 표현하고 인사이트 도출",
-          "reason": "grant-research와 nodetree-research에서 수집한 데이터를 정량적으로 표현하면 지원금 제안서(grant-writer)의 설득력이 크게 증가. 미디어아트 트렌드 분석에도 직접 활용 가능",
+          "desc": "학술 논문, 그랜트 자료, 미디어아트 이론 문헌을 체계적으로 정리 및 상호연결",
+          "reason": "grant-research와 nodetree-research에서 다량의 학술자료와 그랜트 요건을 추적해야 하며, 이를 통해 중복 작업을 줄이고 인용 정확도를 높일 수 있음",
           "trend": "rising"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP 또는 Pure Data 신호처리",
+          "name": "Real-time Audio-Visual Synchronization (MAX/MSP 또는 Pure Data)",
           "type": "skill",
-          "desc": "오디오-비주얼 신호 처리 및 실시간 생성형 음향 제어",
-          "reason": "TidalCycles와 TouchDesigner, ESP32 센서 입력을 통합하는 중핵 기술. 이들 도구 간 데이터 흐름을 제어하고 복잡한 인터랙티브 로직을 구현할 때 미디어아트 프로젝트의 완성도를 높임",
-          "trend": "stable"
+          "desc": "TidalCycles 사운드와 TouchDesigner 비주얼을 실시간으로 동기화하는 고급 기법",
+          "reason": "media-art-pipeline에서 ESP32, TidalCycles, TouchDesigner를 모두 활용하는 프로젝트의 핵심은 음향과 영상의 완벽한 동기화이며, 이는 관객 몰입도를 극대화하는 필수 요소",
+          "trend": "hot"
         }
       ]
     },
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "예산 시뮬레이션 및 재무분석 자동화",
-          "type": "skill",
-          "desc": "What-if 분석을 통한 다양한 시나리오별 재무 예측 및 리포팅 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 여러 프로젝트의 예산을 관리할 때, 사전에 다양한 재무 시나리오를 테스트하면 리스크 최소화 가능. 지원금 정산 시 투명성과 신뢰도 향상",
+          "name": "Multi-Project Financial Automation MCP",
+          "type": "MCP",
+          "desc": "여러 그랜트 프로젝트의 예산 추적, 영수증 분류, 정산 자동화",
+          "reason": "saengsanso-accounting과 grant-accounting-agent가 동시에 운영되는 상황에서 프로젝트별 재무 데이터 통합, 자동 보고서 생성, 중복 입력 방지가 필수적이며 감사 투명성 강화",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 이미지 생성 및 편집 (Midjourney/ComfyUI)",
-          "type": "skill",
-          "desc": "텍스트 프롬프트로 고품질 비주얼 콘텐츠 생성 및 배경/의상 디자인 자동화",
-          "reason": "pr-content와 visual-design에서 홍보용 포스터, SNS 콘텐츠, 전시 자료를 빠르게 제작할 때 시간 절감 및 창의성 증대. 미디어아트팀 특성상 비주얼 임팩트가 중요한 만큼 우선순위 높음",
+          "name": "AI 기반 소셜미디어 콘텐츠 최적화 (Brand Voice Agent)",
+          "type": "agent",
+          "desc": "미디어아트 프로젝트를 인스타그램, 틱톡, 유튜브 등 채널별로 자동 최적화하여 배포",
+          "reason": "pr-content는 다양한 플랫폼과 오디언스를 대상으로 하는데, NODE TREE의 브랜드 톤을 유지하면서 각 채널 알고리즘에 맞게 자동 조정하면 참여도와 도달 범위를 극대화할 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리 자동화 및 마일스톤 추적 (PM 에이전트)",
-          "type": "agent",
-          "desc": "일정 계획, 리소스 배분, 진행률 모니터링을 자동으로 추적하고 병목 지점 알림",
-          "reason": "grant-writer, project-planner, doc-design이 동시에 여러 프로젝트를 진행할 때 각 팀의 진행 상황을 실시간 통합하고, 지원금 제출 마감일 관리와 예술작업팀의 deliverable 동기화가 필수. 팀 전체 생산성 향상에 핵심",
-          "trend": "hot"
+          "name": "Agile Project Timeline + Grant Milestone Tracking",
+          "type": "skill",
+          "desc": "그랜트 마감일, 프로젝트 단계, 팀 간 의존성을 통합 관리하는 민첩한 기획 방법론",
+          "reason": "doc-design, grant-writer, project-planner는 여러 그랜트와 미디어아트 프로젝트가 겹치는 복잡한 일정을 조율해야 하며, Agile 방식으로 변경사항 추적과 우선순위 재조정을 빠르게 할 수 있음",
+          "trend": "stable"
         }
       ]
     }
