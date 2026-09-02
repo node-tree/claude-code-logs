@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-02",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router + React Server Components",
+          "name": "Docker & Kubernetes",
           "type": "skill",
-          "desc": "최신 풀스택 웹 개발 프레임워크로 성능 최적화된 웹사이트 구축",
-          "reason": "nodetreehome-web은 미디어아트팀의 대표 웹사이트로서 빠른 로딩과 SEO 최적화가 중요하며, RSC를 통해 서버사이드 렌더링으로 성능을 극대화할 수 있음",
+          "desc": "컨테이너화된 웹 애플리케이션 배포 및 마이크로서비스 아키텍처 구축",
+          "reason": "nodetreehome-web의 확장성과 유지보수성을 높이기 위해 컨테이너 기반 배포 환경이 필수적이며, 팀 협업과 CI/CD 파이프라인 효율성 극대화에 직접적으로 기여",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "문헌 관리 및 인용 자동화 (Zotero/Obsidian)",
-          "type": "skill",
-          "desc": "학술 논문, 그랜트 자료, 미디어아트 이론 문헌을 체계적으로 정리 및 상호연결",
-          "reason": "grant-research와 nodetree-research에서 다량의 학술자료와 그랜트 요건을 추적해야 하며, 이를 통해 중복 작업을 줄이고 인용 정확도를 높일 수 있음",
-          "trend": "rising"
+          "name": "AI-Powered Literature Review Agent (MCP)",
+          "type": "agent",
+          "desc": "학술 논문 및 데이터 자동 수집, 분류, 요약하는 AI 에이전트",
+          "reason": "grant-research와 nodetree-research에서 대량의 데이터를 체계적으로 분석해야 하는데, 자동화된 문헌 검토가 연구 진행 속도를 2-3배 향상시키고 그랜트 제안서 근거 자료 수집 시간을 단축",
+          "trend": "hot"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization (MAX/MSP 또는 Pure Data)",
+          "name": "Real-time Audio Visualization with TidalCycles+TouchDesigner Integration",
           "type": "skill",
-          "desc": "TidalCycles 사운드와 TouchDesigner 비주얼을 실시간으로 동기화하는 고급 기법",
-          "reason": "media-art-pipeline에서 ESP32, TidalCycles, TouchDesigner를 모두 활용하는 프로젝트의 핵심은 음향과 영상의 완벽한 동기화이며, 이는 관객 몰입도를 극대화하는 필수 요소",
-          "trend": "hot"
+          "desc": "라이브 음향 데이터를 TouchDesigner에서 실시간 시각화하는 통합 기법",
+          "reason": "media-art-pipeline에서 TidalCycles의 음향 신호를 ESP32 센서 데이터와 함께 TouchDesigner로 동시에 처리하여 인터랙티브 미디어아트 작품의 감각적 임팩트를 획기적으로 향상시킬 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-Project Financial Automation MCP",
-          "type": "MCP",
-          "desc": "여러 그랜트 프로젝트의 예산 추적, 영수증 분류, 정산 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent가 동시에 운영되는 상황에서 프로젝트별 재무 데이터 통합, 자동 보고서 생성, 중복 입력 방지가 필수적이며 감사 투명성 강화",
-          "trend": "rising"
+          "name": "Financial Reconciliation Automation Agent (MCP)",
+          "type": "agent",
+          "desc": "다중 계좌 거래 내역 자동 매칭 및 불일치 항목 플래깅하는 회계 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent의 수작업 처리를 90% 이상 자동화하여 월말 결산 시간을 1주에서 1일로 단축 가능하며, 인적 오류 제거로 감사 준비 효율성 극대화",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 소셜미디어 콘텐츠 최적화 (Brand Voice Agent)",
+          "name": "Brand Asset Management System (MCP)",
           "type": "agent",
-          "desc": "미디어아트 프로젝트를 인스타그램, 틱톡, 유튜브 등 채널별로 자동 최적화하여 배포",
-          "reason": "pr-content는 다양한 플랫폼과 오디언스를 대상으로 하는데, NODE TREE의 브랜드 톤을 유지하면서 각 채널 알고리즘에 맞게 자동 조정하면 참여도와 도달 범위를 극대화할 수 있음",
+          "desc": "소셜미디어별 최적화된 콘텐츠 자동 생성 및 브랜드 가이드라인 준수 검증",
+          "reason": "pr-content와 visual-design이 생성하는 다양한 포맷의 홍보물을 일관된 브랜드 아이덴티티로 유지하면서 SNS별 최적 사양에 자동 변환하여 콘텐츠 제작 속도 향상 및 브랜드 일관성 보장",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Agile Project Timeline + Grant Milestone Tracking",
-          "type": "skill",
-          "desc": "그랜트 마감일, 프로젝트 단계, 팀 간 의존성을 통합 관리하는 민첩한 기획 방법론",
-          "reason": "doc-design, grant-writer, project-planner는 여러 그랜트와 미디어아트 프로젝트가 겹치는 복잡한 일정을 조율해야 하며, Agile 방식으로 변경사항 추적과 우선순위 재조정을 빠르게 할 수 있음",
-          "trend": "stable"
+          "name": "Project Timeline & Grant Deadline Forecasting Agent (MCP)",
+          "type": "agent",
+          "desc": "프로젝트 진행률 기반 실시간 일정 예측 및 그랜트 데드라인 관리 시스템",
+          "reason": "doc-design, grant-writer, project-planner가 다중 프로젝트의 의존성을 추적하고 grant-research 진행상황에 따라 제출 시점을 자동 최적화하여 마감 놓침 방지 및 리스크 조기 감지 가능",
+          "trend": "rising"
         }
       ]
     }
