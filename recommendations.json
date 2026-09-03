@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-02",
+  "lastUpdated": "2026-09-03",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Docker & Kubernetes",
+          "name": "TypeScript + React Performance Optimization",
           "type": "skill",
-          "desc": "컨테이너화된 웹 애플리케이션 배포 및 마이크로서비스 아키텍처 구축",
-          "reason": "nodetreehome-web의 확장성과 유지보수성을 높이기 위해 컨테이너 기반 배포 환경이 필수적이며, 팀 협업과 CI/CD 파이프라인 효율성 극대화에 직접적으로 기여",
+          "desc": "nodetreehome-web의 렌더링 성능 최적화 및 타입 안정성 확보",
+          "reason": "미디어아트 웹사이트는 실시간 미디어 처리와 인터랙티브 요소가 많아 성능 최적화가 필수적이며, TypeScript는 대규모 프로젝트의 코드 유지보수성을 크게 향상시킴",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-Powered Literature Review Agent (MCP)",
-          "type": "agent",
-          "desc": "학술 논문 및 데이터 자동 수집, 분류, 요약하는 AI 에이전트",
-          "reason": "grant-research와 nodetree-research에서 대량의 데이터를 체계적으로 분석해야 하는데, 자동화된 문헌 검토가 연구 진행 속도를 2-3배 향상시키고 그랜트 제안서 근거 자료 수집 시간을 단축",
-          "trend": "hot"
+          "name": "Systematic Literature Review & Meta-Analysis",
+          "type": "skill",
+          "desc": "미디어아트 및 그랜트 리서치의 체계적 문헌 분석 및 데이터 종합",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 신뢰성 있는 리서치 결과를 도출하려면 체계적인 문헌고찰 방법론이 필수이며, 그랜트 신청서 작성 시 근거 제시력을 크게 강화함",
+          "trend": "stable"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio Visualization with TidalCycles+TouchDesigner Integration",
+          "name": "Real-time Audiovisual Synthesis with ESP32 + TidalCycles",
           "type": "skill",
-          "desc": "라이브 음향 데이터를 TouchDesigner에서 실시간 시각화하는 통합 기법",
-          "reason": "media-art-pipeline에서 TidalCycles의 음향 신호를 ESP32 센서 데이터와 함께 TouchDesigner로 동시에 처리하여 인터랙티브 미디어아트 작품의 감각적 임팩트를 획기적으로 향상시킬 수 있음",
-          "trend": "rising"
+          "desc": "ESP32 마이크로컨트롤러와 라이브코딩 음악환경의 통합 활용",
+          "reason": "media-art-pipeline에서 임베디드 시스템(ESP32)과 라이브 사운드 코딩(TidalCycles)을 결합하면 인터랙티브 설치미술 작품의 표현력이 극대화되며, TouchDesigner와의 크로스플랫폼 통합으로 복합 미디어 작업 효율성 증대",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Financial Reconciliation Automation Agent (MCP)",
-          "type": "agent",
-          "desc": "다중 계좌 거래 내역 자동 매칭 및 불일치 항목 플래깅하는 회계 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 수작업 처리를 90% 이상 자동화하여 월말 결산 시간을 1주에서 1일로 단축 가능하며, 인적 오류 제거로 감사 준비 효율성 극대화",
-          "trend": "hot"
+          "name": "Grant Accounting Compliance & Documentation Automation",
+          "type": "skill",
+          "desc": "정부 그랜트 회계 규정 준수 및 자동화된 증빙 시스템 구축",
+          "reason": "grant-accounting-agent는 정부 지원금 회계의 복잡한 규정을 정확히 따라야 하며, 자동화된 문서 생성 및 검증 시스템을 통해 감시 리스크 감소 및 업무 효율성 70% 이상 개선 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Brand Asset Management System (MCP)",
-          "type": "agent",
-          "desc": "소셜미디어별 최적화된 콘텐츠 자동 생성 및 브랜드 가이드라인 준수 검증",
-          "reason": "pr-content와 visual-design이 생성하는 다양한 포맷의 홍보물을 일관된 브랜드 아이덴티티로 유지하면서 SNS별 최적 사양에 자동 변환하여 콘텐츠 제작 속도 향상 및 브랜드 일관성 보장",
+          "name": "Visual Storytelling for Tech-Art Content Creation",
+          "type": "skill",
+          "desc": "기술 기반 미디어아트를 대중에게 전달하는 비주얼 커뮤니케이션 기법",
+          "reason": "NODE TREE의 복잡한 기술 작업(ESP32, TidalCycles 등)을 PR 콘텐츠로 변환할 때, 비주얼 스토리텔링은 소셜미디어 참여도 증대 및 지원자/협력자 모집 효율성을 크게 높이며, visual-design과 pr-content 통합 전략 강화",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Timeline & Grant Deadline Forecasting Agent (MCP)",
-          "type": "agent",
-          "desc": "프로젝트 진행률 기반 실시간 일정 예측 및 그랜트 데드라인 관리 시스템",
-          "reason": "doc-design, grant-writer, project-planner가 다중 프로젝트의 의존성을 추적하고 grant-research 진행상황에 따라 제출 시점을 자동 최적화하여 마감 놓침 방지 및 리스크 조기 감지 가능",
+          "name": "Agile Project Management for Creative Teams (Scrum/Kanban)",
+          "type": "skill",
+          "desc": "창의팀의 비선형적 작업 프로세스를 체계적으로 관리하는 민첩한 프로젝트 관리법",
+          "reason": "doc-design, grant-writer, project-planner는 여러 팀의 의존성이 높고 마감 기한이 엄격한데, Agile 방법론은 반복적 피드백과 우선순위 조정을 지원하며 그랜트 신청서 작성과 프로젝트 기획의 협업 효율성을 40% 이상 향상시킬 수 있음",
           "trend": "rising"
         }
       ]
