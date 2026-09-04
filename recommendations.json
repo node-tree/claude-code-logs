@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Performance Optimization",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "nodetreehome-web의 렌더링 성능 최적화 및 타입 안정성 확보",
-          "reason": "미디어아트 웹사이트는 실시간 미디어 처리와 인터랙티브 요소가 많아 성능 최적화가 필수적이며, TypeScript는 대규모 프로젝트의 코드 유지보수성을 크게 향상시킴",
+          "desc": "서버 컴포넌트 기반의 현대적 웹 개발 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적인 미디어아트 포트폴리오 사이트에서 App Router의 동적 라우팅과 실시간 데이터 페칭은 전시 정보와 프로젝트 갤러리 업데이트에 매우 효율적",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review & Meta-Analysis",
+          "name": "Semantic Scholar API 활용",
           "type": "skill",
-          "desc": "미디어아트 및 그랜트 리서치의 체계적 문헌 분석 및 데이터 종합",
-          "reason": "nodetree-research와 grant-research 프로젝트에서 신뢰성 있는 리서치 결과를 도출하려면 체계적인 문헌고찰 방법론이 필수이며, 그랜트 신청서 작성 시 근거 제시력을 크게 강화함",
-          "trend": "stable"
+          "desc": "학술 논문 데이터베이스 자동 수집 및 분석",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 미디어아트 관련 학술자료를 체계적으로 수집하고 트렌드 분석할 때 API 기반 자동화는 리서치 효율성을 3배 이상 증대시키며 그랜트 신청서의 학술적 근거 강화 가능",
+          "trend": "rising"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audiovisual Synthesis with ESP32 + TidalCycles",
+          "name": "SuperCollider와 TidalCycles 연동",
           "type": "skill",
-          "desc": "ESP32 마이크로컨트롤러와 라이브코딩 음악환경의 통합 활용",
-          "reason": "media-art-pipeline에서 임베디드 시스템(ESP32)과 라이브 사운드 코딩(TidalCycles)을 결합하면 인터랙티브 설치미술 작품의 표현력이 극대화되며, TouchDesigner와의 크로스플랫폼 통합으로 복합 미디어 작업 효율성 증대",
+          "desc": "실시간 사운드 합성과 라이브 코딩 음악 생성",
+          "reason": "media-art-pipeline에서 ESP32 센서 데이터와 TouchDesigner 비주얼을 사운드로 표현할 때 TidalCycles의 패턴 기반 음악 생성은 인터랙티브 설치미술의 몰입감을 극대화하며, 라이브 퍼포먼스 중 즉흥 창작 가능",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Compliance & Documentation Automation",
-          "type": "skill",
-          "desc": "정부 그랜트 회계 규정 준수 및 자동화된 증빙 시스템 구축",
-          "reason": "grant-accounting-agent는 정부 지원금 회계의 복잡한 규정을 정확히 따라야 하며, 자동화된 문서 생성 및 검증 시스템을 통해 감시 리스크 감소 및 업무 효율성 70% 이상 개선 가능",
+          "name": "MCP: Accounting Analytics Agent",
+          "type": "agent",
+          "desc": "AI 기반 자동 장부 분석 및 이상거래 탐지",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 월별 예산 편성, 보조금 지출 추적, 세무 준비 시 복잡한 거래 데이터를 자동 분류·정렬하여 오류율을 80% 감소시키고 그랜트 감시 규정 준수 증명 가능",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Visual Storytelling for Tech-Art Content Creation",
+          "name": "Midjourney Advanced Prompt Engineering",
           "type": "skill",
-          "desc": "기술 기반 미디어아트를 대중에게 전달하는 비주얼 커뮤니케이션 기법",
-          "reason": "NODE TREE의 복잡한 기술 작업(ESP32, TidalCycles 등)을 PR 콘텐츠로 변환할 때, 비주얼 스토리텔링은 소셜미디어 참여도 증대 및 지원자/협력자 모집 효율성을 크게 높이며, visual-design과 pr-content 통합 전략 강화",
+          "desc": "AI 이미지 생성을 통한 브랜드 일관성 있는 비주얼 콘텐츠 제작",
+          "reason": "pr-content와 visual-design에서 전시 포스터, SNS 썸네일, 보도자료 이미지를 NODE TREE의 미디어아트 정체성에 맞게 대량 생성할 때 프롬프트 정확도 향상은 디자인 리뷰 사이클을 50% 단축하고 일관된 브랜드 이미지 구축",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Agile Project Management for Creative Teams (Scrum/Kanban)",
-          "type": "skill",
-          "desc": "창의팀의 비선형적 작업 프로세스를 체계적으로 관리하는 민첩한 프로젝트 관리법",
-          "reason": "doc-design, grant-writer, project-planner는 여러 팀의 의존성이 높고 마감 기한이 엄격한데, Agile 방법론은 반복적 피드백과 우선순위 조정을 지원하며 그랜트 신청서 작성과 프로젝트 기획의 협업 효율성을 40% 이상 향상시킬 수 있음",
+          "name": "MCP: Grant Writing Assistant",
+          "type": "agent",
+          "desc": "지원금 신청서 자동 작성 및 평가항목 최적화",
+          "reason": "grant-writer와 project-planner에서 문화체육관광부, 서울시 등 다양한 그랜트 양식과 심사기준을 학습한 AI 에이전트는 신청서 초안 생성, 예산안 자동 조정, 심사항목별 강점 극대화 문구 추천으로 선정률 30% 향상 가능",
           "trend": "rising"
         }
       ]
