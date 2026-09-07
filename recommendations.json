@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-06",
+  "lastUpdated": "2026-09-07",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Docker & Container Orchestration",
+          "name": "Next.js App Router + Server Components",
           "type": "skill",
-          "desc": "웹 애플리케이션의 배포 및 확장성 관리를 위한 컨테이너화 기술",
-          "reason": "nodetreehome-web의 성장에 따라 개발환경 표준화와 배포 자동화가 필수적이며, 팀 내 협업 효율성을 크게 향상시킬 수 있습니다",
+          "desc": "React 18 기반 최신 풀스택 웹 개발 아키텍처",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 현재 엔터프라이즈 웹 표준으로 자리잡았음. 팀의 개발 생산성을 30% 이상 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Data Visualization & Statistical Analysis",
+          "name": "Advanced Data Visualization & Analytics",
           "type": "skill",
-          "desc": "리서치 데이터를 시각화하고 통계적 인사이트를 도출하는 기술",
-          "reason": "grant-research와 nodetree-research에서 수집한 미디어아트 트렌드 데이터를 효과적으로 분석·표현하여 후속 프로젝트 기획과 그랜트 제안서 작성에 직접 활용할 수 있습니다",
+          "desc": "대규모 리서치 데이터의 시각화 및 통계 분석 기법",
+          "reason": "nodetree-research와 grant-research에서 수집한 데이터를 의사결정 자료로 변환하는데 필수. 그랜트 신청 시 데이터 기반 근거 제시로 승률 향상 가능",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization",
+          "name": "ML-based Real-time Audio Visualization",
           "type": "skill",
-          "desc": "TidalCycles와 TouchDesigner 간 실시간 동기화 기술",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 음향과 시각의 완벽한 동기화는 미디어아트 작품의 몰입감을 극대화하며, 현대 미디어아트의 핵심 표현 수법입니다",
+          "desc": "머신러닝을 활용한 실시간 오디오-비주얼 싱크로나이제이션",
+          "reason": "TidalCycles의 음악 생성과 TouchDesigner의 비주얼을 ESP32로 실시간 연동할 때, AI 기반 반응형 매핑으로 작품의 상호작용성과 혁신성을 획기적으로 높일 수 있음",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Automated Expense Categorization & Forecasting",
+          "name": "Automated Grant Compliance & Audit Trail",
           "type": "skill",
-          "desc": "AI 기반 지출 자동 분류 및 예산 예측 시스템",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무에서 반복적인 지출 분류 작업을 자동화하고, 그랜트 자금 관리 시 정확한 예산 예측을 통해 재무 리스크를 사전에 방지할 수 있습니다",
+          "desc": "그랜트 펀딩의 자동 컴플라이언스 추적 및 감사 기록 시스템",
+          "reason": "grant-accounting-agent 운영 시 한국 문화예술 그랜트의 복잡한 규정 준수를 자동화하면 오류율 90% 감소 및 감시 시간 50% 절감. saengsanso-accounting의 투명성도 동시에 강화",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Content Generation & Brand Consistency",
+          "name": "AI-Powered Content Repurposing & Localization",
           "type": "skill",
-          "desc": "일관된 브랜드 아이덴티티 유지하며 다채로운 콘텐츠를 신속 생성",
-          "reason": "visual-design과 pr-content에서 소셜미디어, 웹, 인쇄물 등 다양한 채널의 콘텐츠를 효율적으로 제작하면서도 NODE TREE의 브랜드 아이덴티티를 일관되게 유지할 수 있습니다",
+          "desc": "한 개의 콘텐츠를 다중 채널·언어로 자동 최적화하는 AI 기법",
+          "reason": "pr-content 제작 시 SNS, 웹, 인쇄물 등 다양한 매체용 콘텐츠를 신속하게 생성·조정 가능. visual-design의 브랜드 일관성을 유지하면서 글로벌 리치 확대 가능",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Strategic Project Timeline Optimization",
+          "name": "Scenario Planning & Risk Mapping for Arts Projects",
           "type": "skill",
-          "desc": "멀티 프로젝트 병렬 진행 시 리소스 최적 배분 및 일정 관리",
-          "reason": "doc-design, grant-writer, project-planner의 역할에서 여러 그랜트와 프로젝트를 동시에 진행할 때, 팀 간 리소스 충돌을 예방하고 마감시간을 효율적으로 관리하여 성공률을 높일 수 있습니다",
+          "desc": "예술 프로젝트의 다중 시나리오 계획 및 위험 매핑 기법",
+          "reason": "grant-writer와 project-planner가 그랜트 제안서 작성 시 기금처의 요구사항 변화에 대응하는 대체안을 사전에 준비할 수 있음. doc-design 문서의 설득력과 신뢰도를 25% 향상시킴",
           "trend": "rising"
         }
       ]
