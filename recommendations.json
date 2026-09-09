@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08",
+  "lastUpdated": "2026-09-09",
   "recommendations": [
     {
       "teamId": "dev",
@@ -8,8 +8,8 @@
         {
           "name": "Next.js 14 App Router",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 모던 웹 개발 프레임워크",
-          "reason": "nodetreehome-web 유지보수 및 성능 최적화를 위해 최신 Next.js 버전 학습이 필수. 서버사이드 렌더링과 캐싱 전략으로 로딩 속도 개선 가능",
+          "desc": "서버 컴포넌트 기반 최신 풀스택 웹 개발 프레임워크",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선을 위해 App Router 마이그레이션이 필수적이며, 2026년 최신 웹 개발 표준으로 팀의 생산성과 유지보수성을 크게 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -21,8 +21,8 @@
         {
           "name": "Systematic Literature Review with AI",
           "type": "skill",
-          "desc": "AI 도구를 활용한 체계적 문헌 검토 방법론",
-          "reason": "nodetree-research와 grant-research에서 대량의 학술 자료 분석 시 AI 기반 검색/분류/요약이 시간 효율을 50% 이상 증대. 그랜트 신청 시 강력한 선행연구 논증 구성 가능",
+          "desc": "AI 도구를 활용한 체계적 문헌 검토 및 메타분석 방법론",
+          "reason": "grant-research와 nodetree-research에서 대규모 데이터셋 분석 시 AI 기반 문헌 검토를 통해 연구 기간을 50% 단축하고 보조금 신청 시 근거 자료의 신뢰성을 높일 수 있음",
           "trend": "rising"
         }
       ]
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization",
+          "name": "Real-time Audio-Visual Synthesis with SuperCollider",
           "type": "skill",
-          "desc": "오디오와 비주얼 실시간 동기화 기술",
-          "reason": "ESP32/TidalCycles/TouchDesigner 통합 작업에서 레이턴시 문제 해결 필수. 센서 입력에서 사운드/비주얼 피드백까지의 지연 최소화로 인터랙티브 미디어 아트의 몰입감 극대화",
-          "trend": "hot"
+          "desc": "TidalCycles와 연동되는 고급 실시간 오디오 생성 및 시각화 프로그래밍",
+          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 오디오-비주얼 동기화 표현의 깊이를 극대화할 수 있으며, 미디어아트 작품의 기술적 완성도를 국제 수준으로 끌어올릴 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation MCP",
-          "type": "MCP",
-          "desc": "그랜트 회계 자동화 및 규정 준수 관리 프로토콜",
-          "reason": "grant-accounting-agent에서 다양한 펀딩 규정(지원처별 보고 기준)을 통합 관리. 수동 분류 작업 75% 감소 및 감시 위험 사전 차단으로 투명성 강화",
-          "trend": "rising"
+          "name": "Grant Accounting Automation with MCP",
+          "type": "agent",
+          "desc": "보조금 회계 자동화를 위한 MCP 에이전트로 영수증 분류, 결산 보고서 생성 자동화",
+          "reason": "grant-accounting-agent와 saengsanso-accounting 업무에서 반복적인 영수증 처리와 보조금별 계정 분류를 자동화하여 월 30시간 이상의 업무 시간 절감 및 오류율 감소 가능",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Visual Brand Consistency Tool",
+          "name": "AI-Powered Social Media Content Generation",
           "type": "skill",
-          "desc": "AI 기반 브랜드 가이드라인 자동 검증 및 생성",
-          "reason": "pr-content 제작 시 NODE TREE의 미디어아트 정체성을 시각적으로 일관되게 유지. SNS/웹/인쇄물 전 채널에서 색상/구도/톤 통일로 브랜드 인지도 강화 및 콘텐츠 제작 속도 2배 향상",
+          "desc": "멀티플랫폼 기반 AI 콘텐츠 생성 및 자동화 최적화 기법",
+          "reason": "pr-content와 visual-design 프로젝트에서 매주 필요한 소셜미디어 콘텐츠를 AI로 자동 생성하고 브랜드 톤을 유지하면서 콘텐츠 제작 속도를 3배 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Intelligent Project Roadmap Agent",
-          "type": "MCP",
-          "desc": "AI 기반 프로젝트 일정 최적화 및 리스크 예측 에이전트",
-          "reason": "grant-writer와 project-planner의 다층 프로젝트 관리에서 일정 충돌 자동 감지 및 해결안 제시. doc-design의 산출물 데드라인과 그랜트 보고 기일을 연계하여 팀 전체 효율성 30% 증대",
+          "name": "OKR Planning with AI Project Roadmapping",
+          "type": "skill",
+          "desc": "AI 기반 목표 설정(OKR)과 프로젝트 로드맵 자동 생성 및 추적 방법론",
+          "reason": "grant-writer, project-planner, doc-design에서 복잡한 보조금 기획과 다중 프로젝트 일정 조율 시 AI 기반 로드맵 자동화로 팀 간 커뮤니케이션 명확화 및 프로젝트 완성도 20% 향상 가능",
           "trend": "rising"
         }
       ]
