@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09",
+  "lastUpdated": "2026-09-10",
   "recommendations": [
     {
       "teamId": "dev",
@@ -8,8 +8,8 @@
         {
           "name": "Next.js 14 App Router",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 최신 풀스택 웹 개발 프레임워크",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선을 위해 App Router 마이그레이션이 필수적이며, 2026년 최신 웹 개발 표준으로 팀의 생산성과 유지보수성을 크게 향상시킬 수 있음",
+          "desc": "서버 컴포넌트 기반 모던 웹 프레임워크",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 SEO 개선이 필수적이며, App Router는 2026년 표준 아키텍처로 팀의 생산성 향상과 유지보수성을 크게 개선할 수 있다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI",
-          "type": "skill",
-          "desc": "AI 도구를 활용한 체계적 문헌 검토 및 메타분석 방법론",
-          "reason": "grant-research와 nodetree-research에서 대규모 데이터셋 분석 시 AI 기반 문헌 검토를 통해 연구 기간을 50% 단축하고 보조금 신청 시 근거 자료의 신뢰성을 높일 수 있음",
-          "trend": "rising"
+          "name": "AI-Powered Literature Review Agent",
+          "type": "agent",
+          "desc": "학술논문 자동 수집 및 요약 AI 에이전트",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 논문 데이터를 효율적으로 분석해야 하며, AI 에이전트는 리서치 시간을 60% 단축하고 인사이트 도출을 가속화할 수 있다.",
+          "trend": "hot"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synthesis with SuperCollider",
+          "name": "Real-time GPU Compute",
           "type": "skill",
-          "desc": "TidalCycles와 연동되는 고급 실시간 오디오 생성 및 시각화 프로그래밍",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 오디오-비주얼 동기화 표현의 깊이를 극대화할 수 있으며, 미디어아트 작품의 기술적 완성도를 국제 수준으로 끌어올릴 수 있음",
+          "desc": "TouchDesigner/Shader 기반 실시간 그래픽스 처리",
+          "reason": "ESP32와 TouchDesigner 연동 시 저지연 시각화가 핵심이며, GPU 컴퓨팅은 TidalCycles 오디오 비주얼라이제이션의 부드러운 렌더링을 보장하여 미디어아트 작품의 질을 획기적으로 향상시킨다.",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Accounting Automation with MCP",
-          "type": "agent",
-          "desc": "보조금 회계 자동화를 위한 MCP 에이전트로 영수증 분류, 결산 보고서 생성 자동화",
-          "reason": "grant-accounting-agent와 saengsanso-accounting 업무에서 반복적인 영수증 처리와 보조금별 계정 분류를 자동화하여 월 30시간 이상의 업무 시간 절감 및 오류율 감소 가능",
-          "trend": "hot"
+          "name": "Automated Grant Compliance MCP",
+          "type": "mcp",
+          "desc": "정부지원금 규정 자동 준수 검증 시스템",
+          "reason": "grant-accounting-agent와 saengsanso-accounting 운영 시 복잡한 정부 보조금 규정을 자동으로 모니터링하여 규정 위반 위험을 사전에 차단하고 감시 업무 부담을 80% 감소시킬 수 있다.",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Social Media Content Generation",
-          "type": "skill",
-          "desc": "멀티플랫폼 기반 AI 콘텐츠 생성 및 자동화 최적화 기법",
-          "reason": "pr-content와 visual-design 프로젝트에서 매주 필요한 소셜미디어 콘텐츠를 AI로 자동 생성하고 브랜드 톤을 유지하면서 콘텐츠 제작 속도를 3배 향상시킬 수 있음",
+          "name": "AI Brand Voice Generator",
+          "type": "agent",
+          "desc": "일관된 브랜드 톤앤매너 자동 생성 에이전트",
+          "reason": "pr-content 제작 시 NODE TREE의 미디어아트 정체성을 반영한 일관된 시각 언어와 메시지 톤을 유지해야 하며, AI 에이전트는 콘텐츠 제작 속도를 3배 높이면서 브랜드 일관성을 보장한다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "OKR Planning with AI Project Roadmapping",
-          "type": "skill",
-          "desc": "AI 기반 목표 설정(OKR)과 프로젝트 로드맵 자동 생성 및 추적 방법론",
-          "reason": "grant-writer, project-planner, doc-design에서 복잡한 보조금 기획과 다중 프로젝트 일정 조율 시 AI 기반 로드맵 자동화로 팀 간 커뮤니케이션 명확화 및 프로젝트 완성도 20% 향상 가능",
+          "name": "Stakeholder Timeline Synchronizer MCP",
+          "type": "mcp",
+          "desc": "다부서 프로젝트 일정 자동 동기화 시스템",
+          "reason": "grant-writer, project-planner, doc-design이 연계된 복잡한 프로젝트 관리에서 실시간 일정 충돌 감지와 자동 조정이 필수적이며, MCP는 부서 간 커뮤니케이션 오버헤드를 줄이고 프로젝트 성공률을 향상시킨다.",
           "trend": "rising"
         }
       ]
