@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-13",
+  "lastUpdated": "2026-09-14",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React Query",
+          "name": "React 18+ Server Components",
           "type": "skill",
-          "desc": "타입안전성과 데이터페칭 최적화를 위한 현대적 웹개발 스택",
-          "reason": "nodetreehome-web의 유지보수성과 확장성을 높이고, 미디어아트 플랫폼의 실시간 데이터 동기화가 필요할 때 효율적인 상태관리가 필수적이며, 팀의 생산성 향상에 직결됨",
+          "desc": "서버 컴포넌트를 활용한 성능 최적화 및 SEO 개선",
+          "reason": "nodetreehome-web의 웹사이트 성능과 사용자 경험을 향상시키기 위해 최신 React 패턴 도입이 필수적이며, 미디어아트 포트폴리오 사이트의 로딩 속도와 상호작용성 개선에 직접 기여",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "문헌관리 및 메타분석(Zotero/Obsidian)",
+          "name": "Systematic Literature Review & Meta-Analysis",
           "type": "skill",
-          "desc": "다량의 그랜트 리서치 데이터를 체계적으로 정리하고 인사이트를 도출하는 도구",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 수집되는 방대한 자료를 효율적으로 관리하고, 크로스 프로젝트 인사이트 연결을 통해 그랜트 승인율을 높일 수 있으며, 협업 시 지식공유 속도 향상",
+          "desc": "대규모 데이터에서 패턴과 인사이트를 체계적으로 추출하는 방법론",
+          "reason": "nodetree-research와 grant-research에서 미디어아트 트렌드와 기술 연구 결과를 통합 분석할 때, 학술적 신뢰성을 확보하고 grant 제안서의 근거 자료로 활용하기 위해 필수적인 스킬",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP와 TouchDesigner 실시간 OSC연동",
+          "name": "Max/MSP & Jitter Advanced Patching",
           "type": "skill",
-          "desc": "ESP32 센서 데이터를 TouchDesigner와 TidalCycles에서 실시간으로 시각화/음향화하는 프로토콜 기술",
-          "reason": "media-art-pipeline에서 ESP32로 수집한 센서데이터를 TidalCycles 음악과 TouchDesigner 비주얼을 동기화하는 인터랙티브 설치미술 제작 시 필수적이며, 멀티미디어 통합으로 작품의 임팩트 극대화",
+          "desc": "실시간 멀티미디어 처리와 interactive 아트 제작 심화 기술",
+          "reason": "ESP32, TidalCycles, TouchDesigner와의 통합 작업 시 Max/MSP의 Jitter를 활용하면 프로젝션, 비디오 처리, 실시간 신호 동기화를 고도화할 수 있으며, media-art-pipeline의 완성도를 크게 향상",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI 기반 영수증 OCR 및 자동분류",
-          "type": "skill",
-          "desc": "영수증 이미지를 자동으로 인식하여 항목별로 분류하고 장부에 기록하는 회계 자동화 기술",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 매월 반복되는 영수증 입력 업무를 70% 이상 자동화하여 인적오류 감소, 월말 정산 시간 단축, 그랜트 회계감시 대응속도 향상에 직접 기여",
+          "name": "Grant Accounting Automation with AI",
+          "type": "agent",
+          "desc": "AI 기반 보조금 회계 자동화 및 감시 에이전트",
+          "reason": "grant-accounting-agent의 효율성을 극대화하기 위해 영수증 OCR, 자동 카테고리 분류, 규정 준수 체크, 이상 거래 탐지 등을 자동화하여 수작업을 50% 이상 감소시킬 수 있고, 보조금 관리의 정확성과 투명성 확보",
           "trend": "hot"
         }
       ]
@@ -58,11 +58,11 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜미디어 자동화 및 분석(Buffer/Sprout Social)",
-          "type": "skill",
-          "desc": "멀티채널 콘텐츠 스케줄링과 실시간 엔게이지먼트 분석으로 홍보효율을 극대화하는 도구",
-          "reason": "pr-content에서 제작한 미디어아트 작품 시각자료를 인스타그램/유튜브/틱톡 등으로 동시 배포하고, 각 채널별 도달률 데이터를 수집하여 다음 콘텐츠 전략에 반영할 수 있으며, visual-design 팀의 창작시간 확보 가능",
-          "trend": "rising"
+          "name": "AI-Powered Content Generation for Multi-Platform",
+          "type": "agent",
+          "desc": "다채널 콘텐츠 자동 생성 및 최적화 에이전트",
+          "reason": "pr-content 제작 시 SNS, 웹사이트, 언론보도자료 등 각 채널별 최적화된 콘텐츠를 AI가 자동 생성하고 visual-design 자산과 통합하면, 홍보 생산성 3배 이상 향상 가능하며 브랜드 일관성 유지",
+          "trend": "hot"
         }
       ]
     },
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리 자동화(Monday.com/Asana + AI)",
-          "type": "skill",
-          "desc": "그랜트 일정, 산출물, 예산을 통합 관리하고 자동으로 진행상황을 팀에 공유하는 시스템",
-          "reason": "grant-writer, project-planner, doc-design 업무가 실시간으로 연동되어야 하는데, 기존 분산된 구글독스/이메일 방식을 자동화하면 마감일 놓침 방지, 크로스팀 커뮤니케이션 지연 해소, 특히 다중 그랜트 응모기간 추적에서 치명적 오류 예방 가능",
-          "trend": "hot"
+          "name": "Project Roadmap & Risk Management MCP",
+          "type": "mcp",
+          "desc": "프로젝트 일정, 리소스, 리스크를 통합 관리하는 MCP 모듈",
+          "reason": "grant-writer와 project-planner, doc-design이 보조금 제안서와 프로젝트 계획을 수립할 때, 실시간 협업과 버전 관리, 자동 일정 검증, 리스크 시나리오 분석을 MCP로 통합하면 제안의 현실성과 설득력 대폭 강화",
+          "trend": "rising"
         }
       ]
     }
