@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-15",
+  "lastUpdated": "2026-09-16",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "TypeScript + React 18",
           "type": "skill",
-          "desc": "웹 성능 향상과 타입 안정성을 위한 고급 패턴",
-          "reason": "nodetreehome-web의 사용자 경험 개선과 유지보수성 강화를 위해 필수적이며, 2026년 현재 엔터프라이즈 웹 개발의 표준 스택",
+          "desc": "타입안전성과 최신 렌더링 최적화를 통한 웹 개발",
+          "reason": "nodetreehome-web 프로젝트의 유지보수성과 성능을 동시에 확보할 수 있으며, 2026년 현재 산업 표준 스택으로 팀의 협업 효율성 증대",
           "trend": "stable"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌분석 및 데이터 마이닝",
-          "type": "skill",
-          "desc": "대규모 학술 자료 자동 분류 및 인사이트 추출",
-          "reason": "grant-research와 nodetree-research에서 방대한 자료를 효율적으로 분석하고 핵심 트렌드를 파악하기 위해 필수적이며, 지원금 신청의 경쟁력 강화",
+          "name": "AI-Powered Literature Review Agent",
+          "type": "agent",
+          "desc": "학술자료 자동 수집 및 요약 분석",
+          "reason": "nodetree-research와 grant-research 프로젝트에서 방대한 미디어아트 관련 논문/자료를 빠르게 분류하고 인사이트를 추출할 수 있어 연구 속도 3배 향상",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 생성 예술(Live Coding) 심화",
+          "name": "Real-time MIDI/OSC Control Protocol",
           "type": "skill",
-          "desc": "TidalCycles와 TouchDesigner를 통한 동적 성능 기술",
-          "reason": "media-art-pipeline의 핵심인 ESP32/TidalCycles/TouchDesigner 통합에서 실시간 상호작용성을 극대화하고, 최신 미디어아트 트렌드인 라이브 코딩 공연의 선두 기술",
+          "desc": "ESP32와 TidalCycles/TouchDesigner 간 실시간 동기화",
+          "reason": "media-art-pipeline에서 하드웨어와 소프트웨어의 레이턴시 문제를 해결하고 라이브 퍼포먼스 안정성을 확보하여 예술적 표현의 정밀도 극대화",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화된 회계 워크플로우 구축",
-          "type": "skill",
-          "desc": "RPA 및 자동화 도구를 활용한 중복 업무 제거",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 두 레포지토리 관리에서 데이터 일관성을 유지하고 인적 오류를 줄이기 위해 자동화는 필수, 비용 절감 효과 극대화",
+          "name": "Intelligent Grant Tracking & Compliance MCP",
+          "type": "mcp",
+          "desc": "그랜트 자금 흐름 자동 추적 및 규정 준수 검증",
+          "reason": "grant-accounting-agent에서 다중 펀딩 소스의 복잡한 회계 규정을 자동화하고 감시하여 감시 오류 제거 및 월간 보고서 작성 시간 50% 단축",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜 미디어 영상 콘텐츠 제작 및 최적화",
+          "name": "Generative Brand Consistency Framework",
           "type": "skill",
-          "desc": "플랫폼별 맞춤 영상 포맷과 AI 기반 편집 기법",
-          "reason": "pr-content의 전파력을 극대화하기 위해 Instagram/TikTok/YouTube 플랫폼별 최적화된 영상 콘텐츠는 필수이며, 미디어아트팀의 시각적 가치를 효과적으로 전달",
+          "desc": "AI 기반 다채널 콘텐츠 자동 생성 및 브랜드 일관성 유지",
+          "reason": "visual-design과 pr-content에서 SNS/웹/인쇄물 등 다양한 매체별 콘텐츠를 빠르게 제작하면서도 NODE TREE의 미디어아트 정체성을 일관되게 유지할 수 있는 효율성 확보",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 관리 자동화 (Agile + AI)",
-          "type": "skill",
-          "desc": "6개 팀의 협업을 통합하는 스마트 프로젝트 추적 및 일정 최적화",
-          "reason": "grant-writer, project-planner, doc-design 등 다중 팀 협업에서 일정 충돌과 소통 지연을 최소화하고, 지원금 마감 관리와 예술작업 완성도를 동시에 확보",
+          "name": "Project Timeline & Milestone AI Optimizer",
+          "type": "agent",
+          "desc": "프로젝트 일정 자동 최적화 및 리스크 예측",
+          "reason": "grant-writer/project-planner에서 복수 그랜트 마감일, 팀 역량, 아트워크 제작 사이클을 동시에 고려하여 현실적인 일정을 자동 생성하고 병목 현상 사전 예측",
           "trend": "rising"
         }
       ]
