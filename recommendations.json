@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-09-24",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + React 최적화",
+          "name": "Next.js 15 App Router & Server Components",
           "type": "skill",
-          "desc": "웹사이트 성능 개선과 타입 안정성 강화를 위한 현대적 프론트엔드 개발",
-          "reason": "nodetreehome-web 프로젝트의 사용자 경험 개선과 유지보수성 향상을 위해 필수적이며, 미디어아트 팀의 인터랙티브 웹 인터페이스 구축에 직결됨",
+          "desc": "React 서버 컴포넌트 기반의 최신 웹 프레임워크 아키텍처",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 현재 산업 표준으로 자리잡은 기술로 팀의 개발 생산성과 서비스 품질을 동시에 향상시킬 수 있음",
           "trend": "hot"
         }
       ]
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Data Analysis & Visualization (Python/Tableau)",
+          "name": "AI 기반 문헌 자동 분류 및 요약 (RAG 시스템)",
           "type": "skill",
-          "desc": "연구 데이터의 통계 분석 및 시각화를 통한 인사이트 도출",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 수집한 데이터를 효과적으로 분석하고 시각화하여 그랜트 제안서와 연구 보고서의 설득력을 높일 수 있음",
+          "desc": "대규모 연구자료를 AI로 자동 분류하고 핵심 내용을 요약하는 기술",
+          "reason": "grant-research와 nodetree-research에서 다량의 자료를 분석할 때 시간을 50% 이상 단축할 수 있으며, 보조금 신청 시 경쟁력 있는 리서치 인사이트를 빠르게 도출 가능",
           "trend": "hot"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Generative Art with ML (Python/ml5.js)",
+          "name": "Real-time Generative Audio with Machine Learning (ml5.js/Wekinator)",
           "type": "skill",
-          "desc": "머신러닝을 활용한 제너러티브 미디어아트 창작",
-          "reason": "ESP32/TidalCycles/TouchDesigner 기반 프로젝트에서 AI 기반 상호작용성을 추가하여 미디어아트의 표현 범위를 확장하고 최신 기술 트렌드에 부응할 수 있음",
+          "desc": "머신러닝을 활용한 실시간 제너러티브 오디오 생성 기술",
+          "reason": "TidalCycles와 TouchDesigner 워크플로우에 ML 기반 음향 생성을 통합하면 ESP32 센서 입력에 반응하는 인터랙티브 미디어아트 설치미술의 창의성을 획기적으로 확장 가능",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Grant Budget Management & Compliance",
+          "name": "Multi-currency 자동 환율 관리 & 보조금 회계 자동화",
           "type": "skill",
-          "desc": "그랜트 예산 관리 및 규정 준수 절차의 표준화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 효율성을 높이고, 그랜트 심사 기관의 감시 기준을 충족하여 자금 수령 위험을 최소화할 수 있음",
-          "trend": "stable"
+          "desc": "국제 보조금 수령 시 다중 통화 관리와 자동 장부 기록 기술",
+          "reason": "grant-accounting-agent 운영 시 국제 문화예술 보조금의 환율 변동 리스크를 최소화하고, saengsanso-accounting의 수작업 오류를 제거하여 세무 감시 대응 능력 강화",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Powered Content Generation (ChatGPT/Midjourney)",
+          "name": "AI 기반 다국어 비주얼 콘텐츠 자동 최적화",
           "type": "skill",
-          "desc": "생성형 AI를 활용한 멀티미디어 콘텐츠 대량 제작",
-          "reason": "pr-content와 visual-design 프로젝트에서 빠르게 고품질의 비주얼 및 텍스트 콘텐츠를 생성하여 SNS 운영과 홍보 효율성을 극대화할 수 있음",
+          "desc": "문화권별 디자인 선호도를 학습하여 시각 콘텐츠를 자동 로컬라이제이션",
+          "reason": "pr-content에서 글로벌 미디어아트 커뮤니티를 대상으로 할 때, visual-design 자산을 각 지역 특성에 맞게 신속히 변형 제공 가능하여 홍보 도달율 3배 이상 증대",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Project Management & Roadmapping (Agile/Notion)",
+          "name": "프로젝트 타임라인 AI 예측 & 리스크 자동 모니터링",
           "type": "skill",
-          "desc": "애자일 방식의 프로젝트 계획 및 진행상황 관리",
-          "reason": "doc-design, grant-writer, project-planner의 다양한 업무를 통합적으로 관리하고, 팀 간 커뮤니케이션을 표준화하여 문화예술 프로젝트의 복잡한 일정을 효과적으로 조정할 수 있음",
-          "trend": "hot"
+          "desc": "과거 프로젝트 데이터 기반으로 일정 지연 및 예산 초과를 미리 감지",
+          "reason": "project-planner와 grant-writer가 협력할 때 현실적인 일정 수립이 가능하고, 보조금 신청서(doc-design)에 신뢰성 높은 타임라인을 제시하여 선정률 향상 및 프로젝트 실패 위험 감소",
+          "trend": "rising"
         }
       ]
     }
