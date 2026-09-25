@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-25",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router & Server Components",
+          "name": "Next.js 14+ App Router",
           "type": "skill",
-          "desc": "React 서버 컴포넌트 기반의 최신 웹 프레임워크 아키텍처",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 2026년 현재 산업 표준으로 자리잡은 기술로 팀의 개발 생산성과 서비스 품질을 동시에 향상시킬 수 있음",
+          "desc": "서버 컴포넌트와 스트리밍을 활용한 고성능 웹 애플리케이션 개발",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필수적이며, 최신 React 생태계 표준으로 팀의 개발 생산성을 크게 향상시킬 수 있습니다.",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 자동 분류 및 요약 (RAG 시스템)",
+          "name": "데이터 시각화 (D3.js/Observable)",
           "type": "skill",
-          "desc": "대규모 연구자료를 AI로 자동 분류하고 핵심 내용을 요약하는 기술",
-          "reason": "grant-research와 nodetree-research에서 다량의 자료를 분석할 때 시간을 50% 이상 단축할 수 있으며, 보조금 신청 시 경쟁력 있는 리서치 인사이트를 빠르게 도출 가능",
-          "trend": "hot"
+          "desc": "복잡한 리서치 데이터를 인터랙티브한 시각화로 표현",
+          "reason": "grant-research와 nodetree-research의 결과물을 의사결정자들에게 효과적으로 전달하기 위해, 데이터 기반의 스토리텔링이 현대 리서치 커뮤니케이션의 핵심입니다.",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Generative Audio with Machine Learning (ml5.js/Wekinator)",
+          "name": "Machine Learning for Creative Coding (ML5.js/TensorFlow.js)",
           "type": "skill",
-          "desc": "머신러닝을 활용한 실시간 제너러티브 오디오 생성 기술",
-          "reason": "TidalCycles와 TouchDesigner 워크플로우에 ML 기반 음향 생성을 통합하면 ESP32 센서 입력에 반응하는 인터랙티브 미디어아트 설치미술의 창의성을 획기적으로 확장 가능",
-          "trend": "rising"
+          "desc": "ESP32/TidalCycles/TouchDesigner 환경에서 AI 기반 제너러티브 아트 구현",
+          "reason": "2026년 미디어아트의 핵심 트렌드인 AI 기술을 media-art-pipeline에 통합하면, 작품의 혁신성과 상업적 가치를 동시에 높일 수 있으며 국제 미술제 경쟁력을 확보할 수 있습니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Multi-currency 자동 환율 관리 & 보조금 회계 자동화",
-          "type": "skill",
-          "desc": "국제 보조금 수령 시 다중 통화 관리와 자동 장부 기록 기술",
-          "reason": "grant-accounting-agent 운영 시 국제 문화예술 보조금의 환율 변동 리스크를 최소화하고, saengsanso-accounting의 수작업 오류를 제거하여 세무 감시 대응 능력 강화",
-          "trend": "rising"
+          "name": "회계 자동화 에이전트 (AI-powered RPA)",
+          "type": "agent",
+          "desc": "반복적인 거래 분류, 영수증 처리, 재무 리포트 자동 생성",
+          "reason": "saengsanso-accounting과 grant-accounting-agent에서 수작업으로 처리하는 영수증 입력, 카테고리 분류 등이 월 30시간 이상 소요되는데, AI 에이전트 도입으로 90% 이상 자동화하면 오류 감소와 시간 절감 효과가 즉시 나타납니다.",
+          "trend": "hot"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI 기반 다국어 비주얼 콘텐츠 자동 최적화",
+          "name": "멀티모달 AI 콘텐츠 생성 (Midjourney/DALL-E API)",
           "type": "skill",
-          "desc": "문화권별 디자인 선호도를 학습하여 시각 콘텐츠를 자동 로컬라이제이션",
-          "reason": "pr-content에서 글로벌 미디어아트 커뮤니티를 대상으로 할 때, visual-design 자산을 각 지역 특성에 맞게 신속히 변형 제공 가능하여 홍보 도달율 3배 이상 증대",
+          "desc": "텍스트 프롬프트로 미디어아트 작품 시각화 및 홍보 콘텐츠 생성",
+          "reason": "pr-content와 visual-design의 콘텐츠 제작 속도를 3배 이상 증가시킬 수 있으며, NODE TREE의 예술적 정체성을 반영한 독특한 비주얼 브랜딩을 일관되게 유지하면서도 빠르게 제작 가능합니다.",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 타임라인 AI 예측 & 리스크 자동 모니터링",
-          "type": "skill",
-          "desc": "과거 프로젝트 데이터 기반으로 일정 지연 및 예산 초과를 미리 감지",
-          "reason": "project-planner와 grant-writer가 협력할 때 현실적인 일정 수립이 가능하고, 보조금 신청서(doc-design)에 신뢰성 높은 타임라인을 제시하여 선정률 향상 및 프로젝트 실패 위험 감소",
+          "name": "프로젝트 관리 MCP (Claude Projects/Automation API)",
+          "type": "mcp",
+          "desc": "프로젝트 일정, 예산, 마일스톤을 통합 관리하고 AI 기반 예측 분석",
+          "reason": "doc-design, grant-writer, project-planner가 다루는 복수의 그랜트 프로젝트와 미디어아트 작업들을 통합 추적하기 위해, MCP 기반의 AI 어시스턴트가 실시간으로 프로젝트 상태를 분석하고 리스크를 조기에 감지하여 팀 전체의 계획 수립 효율을 극대화합니다.",
           "trend": "rising"
         }
       ]
