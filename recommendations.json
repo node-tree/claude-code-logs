@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-26",
+  "lastUpdated": "2026-09-27",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js App Router",
+          "name": "WebSocket 실시간 통신",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 모던 웹 개발 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 현재 엔터프라이즈 표준으로 자리잡음",
-          "trend": "hot"
+          "desc": "클라이언트-서버 간 양방향 실시간 데이터 동기화 기술",
+          "reason": "nodetreehome-web에서 미디어아트 작업팀의 실시간 제어 신호(ESP32/TidalCycles 출력)를 웹 인터페이스로 즉각 반영해야 하므로, WebSocket을 통한 저지연 통신이 필수적",
+          "trend": "stable"
         }
       ]
     },
@@ -19,10 +19,10 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "논문 메타분석 및 문헌 매핑",
-          "type": "skill",
-          "desc": "대규모 학술 데이터를 체계적으로 분석하고 시각화하는 방법론",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 국제 지원금 획득을 위한 근거 자료 구성에 필수적이며, AI 기반 텍스트 분석으로 효율성 대폭 증진",
+          "name": "Grant Writing AI Assistant MCP",
+          "type": "agent",
+          "desc": "정부 지원금 신청서 작성 및 리서치 결과 정리를 자동화하는 에이전트",
+          "reason": "nodetree-research와 grant-research 저장소를 모두 관리하는 팀이므로, 리서치 데이터를 실시간으로 수집-정리-그랜트 문서로 변환하는 에이전트가 있으면 지원금 신청 효율성이 2026년 하반기 채용 예산 확보에 직결됨",
           "trend": "rising"
         }
       ]
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 음성 신호 처리(Real-time Audio DSP)",
+          "name": "TouchDesigner-TidalCycles 브릿지 프로토콜",
           "type": "skill",
-          "desc": "ESP32와 TidalCycles를 연동한 라이브 오디오 합성 및 변환",
-          "reason": "media-art-pipeline에서 ESP32 센서와 TidalCycles 간 동기화를 통해 인터랙티브 설치미술 제작 시 저지연 오디오 처리가 핵심이며, TouchDesigner와의 크로스플랫폼 통합 강화",
+          "desc": "비주얼 프로그래밍(TouchDesigner)과 라이브 코딩(TidalCycles)의 MIDI/OSC 동기화",
+          "reason": "media-art-pipeline에서 ESP32 센서 입력을 TidalCycles 음악과 TouchDesigner 영상으로 동시에 매핑해야 하는데, 두 환경 간 신호 동기화가 미디어아트 작품의 완성도를 결정하므로 필수 기술",
           "trend": "hot"
         }
       ]
@@ -45,10 +45,10 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "다중통화 자동 환율 조정 회계 자동화",
-          "type": "skill",
-          "desc": "국제 지원금 수령 시 실시간 환율 반영 및 장부 자동 기록",
-          "reason": "grant-accounting-agent에서 국제 그랜트 수익 기록 시 환율 변동으로 인한 수작업 오류를 제거하고, grant-research팀의 해외 펀딩 수주 확대에 대응",
+          "name": "Multi-Project Expense Tracking MCP",
+          "type": "agent",
+          "desc": "여러 프로젝트(saengsanso/grant)의 지출을 자동 분류 및 예산 대비 실제 지출을 추적하는 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent를 동시에 관리하면서 미디어아트 프로젝트별 원가 투명성이 그랜트 재정 보고 및 다음 지원금 신청의 신뢰도 향상에 직결되므로, 자동화된 추적 시스템이 필수",
           "trend": "rising"
         }
       ]
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "생성형 AI 기반 멀티모달 컨텐츠 제작(Multimodal Gen-AI)",
-          "type": "skill",
-          "desc": "텍스트, 이미지, 영상을 통합하여 브랜드 일관성 유지하며 대량 콘텐츠 생성",
-          "reason": "pr-content 제작 시 미디어아트팀의 작업물을 기반으로 SNS, 웹, 광고용 시각 자료를 신속하게 다양한 포맷으로 변환 가능하며, visual-design과의 협업 효율성 극대화",
+          "name": "AI 소셜미디어 콘텐츠 생성 및 최적화",
+          "type": "agent",
+          "desc": "visual-design 자산을 기반으로 각 플랫폼에 맞춘 PR 콘텐츠 자동 생성 및 게시 일정 최적화",
+          "reason": "미디어아트 팀의 작품을 인스타그램/유튜브/링크드인 등 다채널로 홍보할 때, visual-design 결과물을 각 플랫폼의 알고리즘에 맞춰 자동으로 최적화하고 배포하면 팀의 가시성과 그랜트 평가점수가 동시에 상승",
           "trend": "hot"
         }
       ]
@@ -71,10 +71,10 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "시나리오 기반 프로젝트 위험관리(Scenario Planning & Risk Matrix)",
-          "type": "skill",
-          "desc": "미래 불확실성을 고려한 복수의 프로젝트 시나리오 구성 및 대응책 수립",
-          "reason": "grant-writer와 project-planner가 국제 펀딩 제안서 작성 시 정부 정책 변화, 환율 변동, 팀 이탈 등 다양한 위험 요소를 사전에 식별하고 완화 전략을 포함하면 지원금 심의위원회의 신뢰도 상승",
+          "name": "Cross-Team Project Timeline & Dependency Manager MCP",
+          "type": "agent",
+          "desc": "doc-design/grant-writer/project-planner 간 프로젝트 일정과 의존성을 자동 동기화하고 리스크 예측",
+          "reason": "NODE TREE의 6개 팀이 병렬로 움직일 때 각 팀의 마일스톤이 연쇄 영향을 미치는데(예: 기획→디자인→개발→리서치 순환), 자동화된 종속성 관리로 병목 지점을 미리 감지하고 타이밍 충돌을 방지하면 전사 프로젝트 진행률이 최소 20% 향상",
           "trend": "rising"
         }
       ]
