@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-29",
+  "lastUpdated": "2026-09-30",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 14 App Router",
+          "name": "Next.js 15 App Router 최적화",
           "type": "skill",
-          "desc": "서버 컴포넌트 기반 최신 웹 개발 패러다임",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 현재 프로덕션 표준으로 자리잡아 팀의 개발 효율성과 유지보수성을 크게 향상시킬 수 있음",
+          "desc": "React 19 기반 서버 컴포넌트와 동적 라우팅을 활용한 웹 성능 최적화",
+          "reason": "nodetreehome-web의 사용자 경험과 로딩 속도 개선으로 포트폴리오 사이트의 첫인상을 극대화할 수 있으며, 2026년 현재 Next.js는 한국 스타트업의 표준 프레임워크로 채용 및 협업에 유리함",
           "trend": "hot"
         }
       ]
@@ -19,11 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review (SLR) 방법론",
+          "name": "AI 기반 문헌 분석 및 메타분석(Meta-Analysis)",
           "type": "skill",
-          "desc": "미디어아트 분야의 체계적 문헌 수집 및 분석 프레임워크",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 학술적 신뢰성을 확보하고 정부 지원금 심사에서 경쟁력을 높이기 위해 필수적인 방법론으로, 연구 결과의 재현성과 객관성을 보장함",
-          "trend": "stable"
+          "desc": "Claude/GPT를 활용한 대규모 논문 데이터 자동화 분류 및 트렌드 도출",
+          "reason": "grant-research와 nodetree-research 프로젝트에서 정부 그랜트 심사위원들이 요구하는 '선행연구 분석의 깊이'를 AI로 가속화하고, 리서치 역량을 데이터 기반으로 증명할 수 있어 펀딩 확보율 상승에 직결됨",
+          "trend": "hot"
         }
       ]
     },
@@ -32,10 +32,10 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Supercollider 음향 프로그래밍",
+          "name": "TouchDesigner의 CHOP 기반 실시간 오디오 비주얼라이제이션",
           "type": "skill",
-          "desc": "실시간 오디오 합성 및 생성형 음악 프로그래밍 언어",
-          "reason": "TidalCycles과의 연동으로 더욱 고도화된 음향 설치미술 작품을 제작할 수 있으며, ESP32 센서와 결합하여 인터랙티브 미디어아트의 음향 차원을 확장할 수 있음",
+          "desc": "TidalCycles와 TouchDesigner 연동을 통한 동기화된 멀티미디어 인터랙티브 설치미술 구현",
+          "reason": "ESP32/TidalCycles/TouchDesigner 스택의 시너지를 극대화하여 미디어아트 전시의 '기술적 완성도'를 높일 수 있으며, 2026년 한국 미술 시장에서 AI+사운드+비주얼 통합 작업이 높은 평가를 받는 추세이므로 경쟁력 있는 포트폴리오 구축 가능",
           "trend": "rising"
         }
       ]
@@ -45,11 +45,11 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI-powered 문서 자동화 및 분류 에이전트",
+          "name": "정부 R&D 그랜트 회계 자동화(Grant Accounting MCP)",
           "type": "agent",
-          "desc": "영수증, 송장, 계약서 등 회계 문서의 자동 인식 및 분류",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 업무 부담을 획기적으로 감소시키고, 문서 처리 오류율을 낮추며, 세무 감시 대응 시간을 단축할 수 있어 팀의 생산성을 크게 향상시킬 수 있음",
-          "trend": "hot"
+          "desc": "정부 연구비 지출 카테고리 자동 분류 및 연간 결산 리포트 자동 생성 에이전트",
+          "reason": "saengsanso-accounting과 grant-accounting-agent 운영 시 한국 과학기술정보통신부의 '2026년 정부 연구비 투명성 강화 가이드라인'을 충족하는 자동화로 감시 비용을 절감하고, 분기별 미리 예산 소진 알림으로 그랜트 반환금 리스크를 사전에 제거할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +58,10 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "소셜 미디어 최적화 (SMO) 및 바이럴 콘텐츠 전략",
+          "name": "AI 멀티모달 비주얼 콘텐츠 생성(Midjourney/DALL-E 프롬프트 엔지니어링)",
           "type": "skill",
-          "desc": "알고리즘 기반 콘텐츠 배분 및 커뮤니티 관리 전략",
-          "reason": "pr-content 제작 후 배포 단계에서 도달률과 참여도를 극대화하기 위해 필수적이며, visual-design과 시너지를 이루어 미디어아트 팀의 브랜드 인지도와 팬덤 확보를 가속화할 수 있음",
+          "desc": "미디어아트 작업의 핵심 비주얼을 AI로 빠르게 프로토타입하고 SNS 홍보물 제작",
+          "reason": "pr-content와 visual-design 팀이 제한된 리소스로 월 4회 이상의 소셜 미디어 캠페인을 운영해야 하는데, AI 멀티모달 생성으로 콘텐츠 제작 속도를 3배 증가시킬 수 있으며, 2026년 한국 갤러리/미술관의 팔로워 증가 경쟁에서 일관된 고주파 콘텐츠 배포가 핵심 전략임",
           "trend": "hot"
         }
       ]
@@ -71,11 +71,11 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "정부지원금 정책분석 및 매칭 MCP",
-          "type": "mcp",
-          "desc": "실시간 정부 공고 데이터를 프로젝트 특성과 자동 매칭",
-          "reason": "grant-writer와 project-planner의 융합 업무에서 doc-design 자료 준비 시간을 단축하고, 시의적절한 지원사업 발굴로 NODE TREE의 재정 안정성을 높일 수 있으며, 경쟁 심화 환경에서 최적의 지원처를 선정할 수 있음",
-          "trend": "rising"
+          "name": "프로젝트 관리 MCP(Asana/Monday.com 연동)",
+          "type": "agent",
+          "desc": "자연어 명령으로 6개 팀의 작업 일정을 자동 동기화하고, 그랜트 마감일 기반 역계산 프로젝트 계획 자동 생성",
+          "reason": "grant-writer, project-planner, doc-design 업무가 강하게 얽혀있는데, 프로젝트 관리 MCP를 통해 '그랜트 마감 90일 전 기획팀 입장 → 60일 전 작가 리서치 시작 → 30일 전 디자인팀 시작' 같은 의존성 워크플로우를 자동화하면 NODE TREE 전체의 효율성이 선형적으로 증가하고, 특히 2026년 하반기 다중 그랜트 동시 진행 시 병목 현상 예방 가능",
+          "trend": "hot"
         }
       ]
     }
