@@ -6,24 +6,57 @@
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Playwright MCP Server",
-          "type": "mcp",
-          "desc": "브라우저 자동화 및 E2E 테스트를 AI 에이전트가 직접 실행",
-          "reason": "nodetreehome-web 배포 후 시각적 회귀 테스트와 UI 인터랙션 검증을 Claude가 직접 브라우저를 조작해 수행할 수 있어, 수동 QA 없이 배포 품질을 자동으로 보장할 수 있음",
+          "name": "WebSocket 실시간 해양 데이터 스트리밍",
+          "type": "skill",
+          "desc": "채널2 해양 데이터를 WebSocket으로 nodetreeHome 웹에 실시간 시각화하는 아키텍처.",
+          "reason": "Corrosiphonia textilis 전시가 부산현대미술관에서 진행되면서 해양 데이터 연동에 대한 관심이 높아지고 있습니다. 기존 폴링 방식보다 WebSocket을 사용하면 레이턴시를 크게 줄일 수 있습니다. nodetreehome-web 에이전트를 통해 /ocean 라우트에 바로 적용 가능합니다.",
           "trend": "hot"
         },
         {
-          "name": "Claude Code GitHub Actions Integration",
-          "type": "agent",
-          "desc": "PR 생성 시 자동으로 코드 리뷰·버그 탐지·테스트 생성을 실행하는 CI 에이전트",
-          "reason": "PCB/하드웨어 펌웨어와 웹 코드가 혼재하는 프로젝트 구조에서, PR 단계에서 AI 리뷰어가 도메인별 코드 품질을 자동 점검하면 리뷰 사이클이 단축되고 하드웨어-소프트웨어 인터페이스 버그를 조기에 발견할 수 있음",
+          "name": "코드 평가 자동화 파이프라인",
+          "type": "skill",
+          "desc": "code-evaluator를 CI/CD에 연동해 TouchDesigner 스크립트와 ESP32 펌웨어 품질을 자동 검증.",
+          "reason": "하드웨어와 비주얼 코드가 함께 배포될 때 수동 검토 병목이 자주 발생합니다. code-evaluator PASS/REWORK 흐름을 GitHub Actions에 연결하면 릴리스 주기를 단축할 수 있습니다. 특히 미디어아트 작품의 라이브 퍼포먼스 전 최종 검증에 효과적입니다.",
+          "trend": "rising"
+        }
+      ]
+    },
+    {
+      "teamId": "planning",
+      "teamName": "기획팀",
+      "items": [
+        {
+          "name": "2027 해외 미디어아트 레지던시 지원 캘린더",
+          "type": "skill",
+          "desc": "Ars Electronica, ZKM, MUTEK 등 주요 국제 레지던시 마감일을 통합 정리한 기획 문서.",
+          "reason": "부산현대미술관 전시 이후 국제 무대로의 확장이 시급한 시점입니다. grant-writer와 project-planner를 연계해 영문 지원서와 일정을 동시에 관리하면 준비 기간을 단축할 수 있습니다. 10월 현재 Ars Electronica 2027 공모가 곧 열릴 예정이어서 선제적 준비가 필요합니다.",
           "trend": "hot"
         },
         {
-          "name": "Sequential Thinking Agent Pattern",
-          "type": "agent",
-          "desc": "복잡한 디버깅 문제를 단계별 가설-검증 루프로 체계적으로 해결하는 에이전트 패턴",
-          "reason": "ESP32 펌웨어·OSC 통신·웹 프론트엔드가 연결된 복합 시스템에서 발생하는 간헐적 버그는 원인 추적이 어려운데, 순차적 사고 패턴은 각 레이어를 독립적으로 검증하며 근본 원인을 좁혀가는 구조적 접근을 제공",
+          "name": "전시 보고서 및 도록 초안 작성",
+          "type": "skill",
+          "desc": "Corrosiphonia textilis 전시 종료 후 제출용 결과보고서와 작품 도록을 HWPX·PDF 형식으로 제작.",
+          "reason": "공모사업 보조금 지원을 받은 경우 전시 종료 후 일정 기간 내 결과보고서 제출이 의무입니다. doc-design 에이전트가 Figma 디지털도화서와 HWPX를 병행 제작하면 기관 제출용과 홍보용을 동시에 완성할 수 있습니다. 충남 문화재단 등 지원 기관별 양식 차이도 자동으로 반영됩니다.",
+          "trend": "stable"
+        }
+      ]
+    },
+    {
+      "teamId": "design",
+      "teamName": "디자인및홍보팀",
+      "items": [
+        {
+          "name": "전시 오프닝 SNS 릴스 콘텐츠 제작",
+          "type": "skill",
+          "desc": "Corrosiphonia textilis 오프닝 현장 영상을 인스타그램 릴스 형식으로 편집·캡션 작성.",
+          "reason": "전시 오프닝 직후 72시간 이내에 올리는 릴스는 알고리즘 노출이 가장 높습니다. pr-content 에이전트로 한/영 이중 캡션을 작성하고 visual-design 에이전트로 썸네일을 제작하면 통일된 브랜드 이미지를 유지할 수 있습니다. 어두운 배경과 발광 오브젝트 스타일을 일관되게 적용하는 것이 중요합니다.",
+          "trend": "hot"
+        },
+        {
+          "name": "작품 설명 다국어 아카이브 페이지",
+          "type": "skill",
+          "desc": "노드트리 웹사이트에 Corrosiphonia textilis 작품 설명을 한·영·일 3개 언어로 게시하는 콘텐츠 설계.",
+          "reason": "국제 기획자와 큐레이터가 작품 정보를 온라인에서 확인하는 경우가 많아 다국어 아카이브가 필수입니다. pr-content 에이전트가 초안을 잡고 nodetreehome-web 에이전트가 직접 라우트를 추가하면 배포까지 원스톱으로 처리됩니다.",
           "trend": "rising"
         }
       ]
@@ -33,24 +66,17 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "deep-research skill",
+          "name": "해양 생태 소니피케이션 레퍼런스 작가 분석",
           "type": "skill",
-          "desc": "웹 검색·문서 분석을 병렬로 수행해 포괄적인 리서치 보고서를 자동 생성",
-          "reason": "그랜트 경쟁 분석과 선행 미디어아트 사례 조사에서 수십 개 소스를 동시에 탐색하고 구조화된 인사이트로 합성해주므로, 연구원이 분석과 창의적 해석에 집중할 수 있는 시간을 확보",
-          "trend": "hot"
-        },
-        {
-          "name": "Knowledge Graph MCP Server",
-          "type": "mcp",
-          "desc": "리서치 결과를 그래프 형태로 저장·연결하여 지식 누적 및 재사용",
-          "reason": "각 프로젝트마다 축적되는 예술 이론·기술 조사·그랜트 정보를 노드-엣지 구조로 관리하면, 새 프로젝트 시작 시 기존 지식을 빠르게 검색하고 관계성을 시각화해 리서치 중복을 방지",
+          "desc": "Jana Winderen, Chris Watson 등 해양·환경 사운드아트 작가들의 방법론을 Obsidian에 정리.",
+          "reason": "채널2 해양 데이터를 사운드와 시각으로 변환하는 작업에서 선행 작가 연구가 개념적 토대를 제공합니다. nodetree-research 에이전트를 통해 레퍼런스를 빠르게 수집하고 옵시디안 그래프로 연결하면 차기 작품의 이론적 근거가 됩니다. 부여 지역 생태계와의 연계 맥락도 함께 정리할 수 있습니다.",
           "trend": "rising"
         },
         {
-          "name": "Parallel Multi-Source Research Agent",
-          "type": "agent",
-          "desc": "복수의 서브에이전트가 동시에 다른 소스를 조사한 뒤 결과를 통합하는 병렬 리서치 워크플로우",
-          "reason": "학술 데이터베이스·SNS 트렌드·정부 공모 공고를 동시에 모니터링해야 하는 리서치팀에게, 병렬 에이전트 패턴은 단일 에이전트 대비 3~5배 빠른 정보 수집과 다각도 교차 검증을 가능하게 함",
+          "name": "10월 국내외 공모 마감 현황 조사",
+          "type": "skill",
+          "desc": "한국문화예술위원회, 문화체육관광부, 아시아 주요 미디어아트 페스티벌 10월 공모 마감 목록 취합.",
+          "reason": "매월 초 공모 마감 현황을 확인하는 것이 지원 기회를 놓치지 않는 핵심 루틴입니다. grant-research 에이전트가 자동으로 수집한 정보를 project-planner에 전달하면 전략적 우선순위 결정이 빨라집니다. 특히 충남·부여 지역 문화재단 공모는 경쟁률이 낮아 우선 검토가 유리합니다.",
           "trend": "hot"
         }
       ]
@@ -60,24 +86,17 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "supercollider-sound-art-for-daisy skill",
+          "name": "OSC-ArtNet 이중 라우팅 최적화",
           "type": "skill",
-          "desc": "SuperCollider 코드 생성·디버깅 및 Daisy 하드웨어 연동 지원 특화 스킬",
-          "reason": "사운드 아트 설치 작업에서 SuperCollider 신서시스 코드를 AI가 직접 생성·수정하고 Daisy 보드와의 인터페이스까지 처리하면, 아티스트가 코드 문법보다 음향 디자인 개념에 집중할 수 있어 창작 흐름이 끊기지 않음",
+          "desc": "Corrosiphonia textilis 설치 환경에서 OSC와 ArtNet 신호를 동시에 안정적으로 라우팅하는 파이프라인 개선.",
+          "reason": "대형 전시 공간에서 네트워크 레이턴시 편차가 비주얼과 사운드 동기화에 직접 영향을 미칩니다. media-art-pipeline 에이전트를 통해 ESP32 펌웨어의 UDP 버퍼 설정과 TouchDesigner의 OSC 수신 타이밍을 함께 조율하면 안정성이 크게 높아집니다. 퍼포먼스 라이브 전 반드시 점검해야 할 항목입니다.",
           "trend": "hot"
         },
         {
-          "name": "Computer Use for TouchDesigner",
+          "name": "TidalCycles 패턴을 SuperCollider SynthDef에 매핑",
           "type": "skill",
-          "desc": "AI가 직접 TouchDesigner UI를 조작해 비주얼 패치를 생성·수정하는 컴퓨터 사용 에이전트",
-          "reason": "TouchDesigner는 노드 기반 비주얼 프로그래밍이라 텍스트 코드 생성으로는 한계가 있는데, Computer Use 패턴을 활용하면 AI가 실제 UI를 클릭·드래그하며 복잡한 비주얼 파이프라인을 구성하고 실시간 미리보기로 결과를 확인 가능",
-          "trend": "rising"
-        },
-        {
-          "name": "OSC Bridge MCP Server",
-          "type": "mcp",
-          "desc": "Open Sound Control(OSC) 프로토콜을 통해 설치미술 장치들을 AI가 직접 제어",
-          "reason": "다중 장치 설치 작업에서 SuperCollider·TouchDesigner·ESP32를 하나의 AI 에이전트가 OSC로 통합 제어하면, 퍼포먼스 중 실시간 파라미터 조정과 장치 간 타이밍 동기화를 자동화할 수 있어 기술 오퍼레이터 없이 복잡한 설치를 운영 가능",
+          "desc": "TidalCycles 리듬 패턴을 SuperCollider 커스텀 SynthDef와 직접 연동해 텍스타일 소리 팔레트를 확장.",
+          "reason": "낙원식당 작업에서 사용된 라이브코딩 접근을 Corrosiphonia textilis의 직물 텍스처 사운드에 적용하면 공간과 소리의 일체감이 강화됩니다. sound-art 에이전트가 SuperDirt 커스텀 신스를 먼저 설계하고 media-art-pipeline이 데이터 매핑을 담당하는 역할 분담이 효율적입니다.",
           "trend": "rising"
         }
       ]
@@ -87,79 +106,18 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "hwpx skill",
+          "name": "전시 집행 증빙 서류 일괄 정리",
           "type": "skill",
-          "desc": "한글(HWP/HWPX) 공문·보고서·기안문을 AI가 자동 생성 및 편집",
-          "reason": "정부 그랜트 정산 보고서와 지출 증빙 공문은 반드시 HWP 형식으로 제출해야 하는 경우가 많아, HWPX 스킬을 활용하면 재무 데이터를 입력하면 규격에 맞는 공문서가 자동 생성되어 서류 작업 시간을 대폭 단축",
+          "desc": "부산현대미술관 전시 관련 e나라도움 또는 보탬e 집행 내역과 증빙 영수증을 항목별로 정리.",
+          "reason": "전시가 진행 중인 시점에서 집행 증빙을 실시간으로 정리해두면 종료 후 정산 작업 부담이 크게 줄어듭니다. grant-accounting-agent를 통해 보조사업 집행기준 항목과 일치 여부를 사전 점검하면 반려 위험을 최소화할 수 있습니다. 특히 예술인 인건비와 재료비 구분을 명확히 해야 합니다.",
           "trend": "hot"
         },
         {
-          "name": "xlsx skill",
+          "name": "4분기 법인 부가세 신고 준비",
           "type": "skill",
-          "desc": "엑셀 스프레드시트 자동 생성·수식 구성·재무 템플릿 적용",
-          "reason": "사업비 집행 계획서·예산 대비 실적표·분기별 재무 보고서를 AI가 실제 .xlsx 파일로 생성하면, 수작업 데이터 입력 오류를 줄이고 감사 시 즉시 제출 가능한 형식의 문서를 항상 최신 상태로 유지 가능",
+          "desc": "㈜생산소 명의 2026년 4분기(10~12월) 부가세 신고를 위한 세금계산서·법인카드 내역 선정리.",
+          "reason": "10월부터 4분기가 시작되므로 지금부터 매월 세금계산서 수발행 내역을 누적 관리하면 내년 1월 신고 시 오류를 방지할 수 있습니다. saengsanso-accounting 에이전트가 경비 분류 기준을 적용해 자동 분류하면 세무사 검토 시간도 단축됩니다. 전시 관련 외주 용역비 세금계산서 수취 누락에 특히 주의가 필요합니다.",
           "trend": "stable"
-        },
-        {
-          "name": "Receipt OCR + Accounting Agent",
-          "type": "agent",
-          "desc": "영수증·세금계산서 이미지를 OCR로 분석해 자동으로 회계 항목에 분류·입력",
-          "reason": "프로젝트별 지출 증빙 수집이 많은 미디어아트 단체에서, 영수증 사진을 에이전트에 전달하면 금액·날짜·거래처를 추출하고 예산 항목에 자동 매핑해 월말 정산 준비 시간을 80% 이상 단축 가능",
-          "trend": "rising"
-        }
-      ]
-    },
-    {
-      "teamId": "design",
-      "teamName": "디자인및홍보팀",
-      "items": [
-        {
-          "name": "Figma MCP Server",
-          "type": "mcp",
-          "desc": "Figma 파일을 AI가 직접 읽고 디자인 토큰·컴포넌트 구조를 분석·수정",
-          "reason": "브랜드 가이드라인 준수 여부 자동 검증, 디자인 컴포넌트 일관성 체크, Figma에서 코드 스니펫 자동 추출이 가능해져 디자이너와 개발자 간 핸드오프 비용을 크게 줄이고 NODE TREE 비주얼 아이덴티티의 일관성을 유지",
-          "trend": "hot"
-        },
-        {
-          "name": "canvas-design skill",
-          "type": "skill",
-          "desc": "브랜드 컬러·타이포그래피·레이아웃 규칙에 맞춘 디자인 에셋 자동 생성",
-          "reason": "전시 포스터·SNS 카드뉴스·보도자료 이미지를 팀의 브랜드 가이드를 학습한 AI가 초안 수준으로 빠르게 생성하면, 디자이너는 컨셉 결정과 최종 완성도 향상에만 집중할 수 있어 콘텐츠 생산량 증가와 품질 유지가 동시에 가능",
-          "trend": "rising"
-        },
-        {
-          "name": "SNS Content Scheduling Agent",
-          "type": "agent",
-          "desc": "플랫폼별 최적 포맷과 해시태그로 SNS 콘텐츠를 자동 변환·예약 발행하는 에이전트",
-          "reason": "Instagram·Facebook·LinkedIn 각각의 알고리즘과 최적 포스팅 시간이 달라 수동 관리가 비효율적인데, 에이전트가 하나의 콘텐츠를 플랫폼별로 자동 재편집하고 참여율 데이터를 분석해 발행 전략을 지속적으로 개선하여 노출 효과를 극대화",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "planning",
-      "teamName": "기획팀",
-      "items": [
-        {
-          "name": "hwpx skill",
-          "type": "skill",
-          "desc": "한국 정부·재단 공모용 HWP 기획서·사업계획서 자동 작성",
-          "reason": "문화예술진흥원·예술위원회 등 주요 그랜트 기관이 HWP 제출을 요구하는 경우가 많아, 프로젝트 개요와 예산 데이터를 입력하면 공모 양식에 맞는 완성도 높은 기획서 초안이 자동 생성되어 제출 준비 시간을 크게 단축",
-          "trend": "hot"
-        },
-        {
-          "name": "google-workspace skill",
-          "type": "skill",
-          "desc": "Google Docs·Sheets·Calendar를 AI가 직접 읽고 쓰며 팀 협업 문서 관리 자동화",
-          "reason": "여러 그랜트와 프로젝트가 동시에 진행될 때 마감일·담당자·산출물 현황을 Sheets에서 실시간으로 추적하고 Calendar에 자동 등록하면, 기획팀이 일정 충돌을 사전에 감지하고 팀 전체에 알림을 보내는 통합 관리 체계를 구축 가능",
-          "trend": "stable"
-        },
-        {
-          "name": "Multi-Agent Grant Writing Workflow",
-          "type": "agent",
-          "desc": "리서치·작성·검토 역할을 분담한 서브에이전트들이 협력해 그랜트 제안서를 완성하는 워크플로우",
-          "reason": "고품질 그랜트 제안서는 배경 조사·목적 기술·예산 정당화·기대 성과 등 전문성이 다른 섹션으로 구성되는데, 각 영역을 전담하는 에이전트가 병렬로 초안을 작성하고 통합 에이전트가 일관성을 조율하면 단일 에이전트 대비 완성도와 속도 모두 향상",
-          "trend": "hot"
         }
       ]
     }
