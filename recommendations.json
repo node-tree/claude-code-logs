@@ -1,16 +1,30 @@
 {
-  "lastUpdated": "2026-10-02",
+  "lastUpdated": "2026-10-03",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js App Router + Server Components",
-          "type": "skill",
-          "desc": "최신 풀스택 웹 개발 패턴으로 성능과 개발자 경험 향상",
-          "reason": "nodetreehome-web의 확장성과 유지보수성을 위해 모던 풀스택 아키텍처 도입이 필수. 2026년 현재 업계 표준으로 자리잡았으며, 팀의 생산성 향상과 프로젝트 규모 확장에 직결됨",
+          "name": "Playwright MCP Server",
+          "type": "mcp",
+          "desc": "브라우저 자동화 MCP로 E2E 테스트와 스크래핑을 Claude와 직접 통합",
+          "reason": "nodetreehome-web 등 웹 프로젝트에서 Claude가 직접 브라우저를 제어하여 기능 테스트, UI 검증, 배포 후 스모크 테스트를 자동화할 수 있어 QA 시간 대폭 단축",
           "trend": "hot"
+        },
+        {
+          "name": "GitHub Actions AI Agent Pattern",
+          "type": "agent",
+          "desc": "Claude Code를 GitHub Actions와 연동하여 PR 리뷰·CI 장애 자동 수정",
+          "reason": "개발팀 CI/CD 파이프라인에 Claude를 배치하면 PR마다 자동 코드리뷰, 테스트 실패 원인 분석·수정 제안까지 처리하여 배포 주기를 단축하고 코드 품질 유지",
+          "trend": "hot"
+        },
+        {
+          "name": "ESP32 Firmware OTA Workflow",
+          "type": "agent",
+          "desc": "PCB 펌웨어 빌드·OTA 업로드·로그 분석을 Claude 에이전트로 자동화",
+          "reason": "설치형 미디어아트 작품의 ESP32 하드웨어 관리에서 펌웨어 컴파일, 플래싱, 시리얼 로그 파싱까지 에이전트가 처리하면 현장 유지보수 시간을 크게 줄일 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -19,10 +33,24 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Systematic Literature Review with AI Augmentation",
-          "type": "skill",
-          "desc": "AI 도구를 활용한 체계적 문헌 검토 및 데이터 분석",
-          "reason": "nodetree-research와 grant-research 두 프로젝트에서 대량의 학술자료와 트렌드 분석이 필요한데, AI 기반 리서치 자동화로 시간을 50% 단축하고 그랜트 경쟁력 강화 가능",
+          "name": "Perplexity MCP Server",
+          "type": "mcp",
+          "desc": "실시간 웹 검색 기능을 Claude 세션에 직접 통합하는 MCP 서버",
+          "reason": "AI 트렌드·미디어아트·그랜트 정보 수집 시 Claude가 직접 최신 웹 데이터를 참조하면 정보 수집과 분석을 한 번에 처리할 수 있어 리서치 리포트 작성 효율 극대화",
+          "trend": "hot"
+        },
+        {
+          "name": "Knowledge Graph Memory MCP",
+          "type": "mcp",
+          "desc": "팀 지식을 그래프 구조로 저장·검색하는 장기 메모리 MCP",
+          "reason": "리서치팀이 수집한 논문, 기관 정보, 아티스트 레지던시 데이터를 구조화된 지식 그래프로 관리하면 이후 그랜트 작성 및 프로젝트 기획 시 즉시 참조 가능",
+          "trend": "rising"
+        },
+        {
+          "name": "Deep Research Multi-Agent Pattern",
+          "type": "agent",
+          "desc": "병렬 서브에이전트로 주제를 분해하여 포괄적 리서치 보고서 자동 생성",
+          "reason": "보조금 신청·작품 레퍼런스 조사 등 다각도 리서치가 필요할 때 Claude 서브에이전트들이 동시에 여러 소스를 탐색하고 종합 보고서를 만들어 주어 리서치 깊이와 속도 모두 향상",
           "trend": "hot"
         }
       ]
@@ -32,11 +60,25 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time AI-Generated Visuals Integration",
+          "name": "SuperCollider Skill for Claude",
           "type": "skill",
-          "desc": "생성형 AI를 TouchDesigner/TidalCycles와 연동하여 실시간 비주얼 생성",
-          "reason": "media-art-pipeline에서 ESP32 센서 데이터를 기반으로 AI가 생성한 동적 시각화를 구현 가능. 2026년 메디어아트 트렌드에서 인터랙티브 AI 통합이 핵심이므로 작품의 혁신성과 관객 경험 극대화",
+          "desc": "SuperCollider 사운드 합성 코드를 Claude가 직접 생성·수정하는 전용 스킬",
+          "reason": "사운드 아트 작업 시 OSC 메시지, SynthDef 설계, 리얼타임 패턴 구성을 Claude와 대화하며 즉석에서 생성할 수 있어 작품 실험 속도를 크게 높임",
           "trend": "hot"
+        },
+        {
+          "name": "OSC Bridge MCP Server",
+          "type": "mcp",
+          "desc": "OSC 프로토콜로 TouchDesigner·Max/MSP·SuperCollider와 Claude를 실시간 연결",
+          "reason": "설치 작품의 인터랙티브 로직을 Claude가 실시간으로 제어·수정할 수 있게 되어 공연 및 전시 현장에서 즉각적인 파라미터 조정과 라이브 코딩이 가능해짐",
+          "trend": "rising"
+        },
+        {
+          "name": "Generative A/V Agent Pattern",
+          "type": "agent",
+          "desc": "텍스트 프롬프트→사운드+비주얼 코드 동시 생성 멀티모달 에이전트 워크플로",
+          "reason": "작품 컨셉을 입력하면 에이전트가 SuperCollider 사운드 코드와 TouchDesigner/GLSL 비주얼 코드를 동시에 생성·연동하여 A/V 프로토타이핑 시간을 대폭 단축",
+          "trend": "rising"
         }
       ]
     },
@@ -45,10 +87,24 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "RPA (Robotic Process Automation) for Financial Reconciliation",
-          "type": "skill",
-          "desc": "반복적인 회계 작업 자동화로 오류 감소 및 효율성 증대",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 관리에서 매월 발생하는 영수증 정리, 송금 확인, 결산 작업을 80% 자동화하여 휴먼에러 제거 및 월말 마감 기한 단축 가능",
+          "name": "PDF & OCR MCP Server",
+          "type": "mcp",
+          "desc": "영수증·청구서 PDF를 자동 파싱하여 구조화된 회계 데이터로 변환",
+          "reason": "프로젝트 지출 영수증과 계약서를 Claude가 직접 읽고 항목·금액을 추출하면 수작업 입력 오류를 없애고 경비 정산 시간을 70% 이상 절감 가능",
+          "trend": "hot"
+        },
+        {
+          "name": "Google Sheets MCP Server",
+          "type": "mcp",
+          "desc": "Google 스프레드시트를 Claude가 읽고 쓰는 MCP로 예산 관리 자동화",
+          "reason": "보조금별 예산 집행 현황을 Claude가 직접 시트에서 읽어 잔액 경고, 지출 추이 분석, 월말 결산 초안 작성까지 처리하여 회계팀의 반복 작업을 자동화",
+          "trend": "hot"
+        },
+        {
+          "name": "Document Reconciliation Agent",
+          "type": "agent",
+          "desc": "은행 내역·영수증·예산 계획서를 교차 검증하는 자동 대사 에이전트",
+          "reason": "다수의 그랜트 프로젝트 자금을 동시 관리할 때 에이전트가 계좌 입출금 내역과 예산 집행 계획을 자동 비교하여 불일치 항목을 즉시 플래그하고 감사 대응 준비 시간 단축",
           "trend": "rising"
         }
       ]
@@ -58,10 +114,24 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "Generative Design for Multi-Platform Content",
+          "name": "Figma MCP Server",
+          "type": "mcp",
+          "desc": "Figma 파일을 Claude가 직접 읽어 디자인 토큰·컴포넌트 정보를 코드에 반영",
+          "reason": "NODE TREE 브랜드 가이드라인이 담긴 Figma 파일을 Claude가 참조하면서 SNS 콘텐츠 카피, 웹 컴포넌트 코드, 홍보 문구를 일관된 톤으로 생성해 브랜드 일관성 유지",
+          "trend": "hot"
+        },
+        {
+          "name": "Claude Artifacts Rapid Prototyping",
           "type": "skill",
-          "desc": "AI 기반 생성형 디자인으로 SNS/웹/인쇄물 콘텐츠 자동 최적화",
-          "reason": "visual-design과 pr-content에서 NODE TREE의 작품과 활동을 SNS, 웹, 포스터 등 다양한 채널에 맞게 재구성해야 하는데, 생성형 AI로 톤&매너 유지 하며 생산 시간 60% 단축 가능",
+          "desc": "UI·인터랙티브 프로토타입을 Claude가 즉시 HTML/CSS로 렌더링하는 스킬",
+          "reason": "포스터·전시 랜딩페이지·SNS 카드 등 디자인 시안을 Claude Artifacts로 빠르게 만들고 실시간 피드백 반영이 가능해 클라이언트 제안 및 팀 내 비주얼 커뮤니케이션 속도 향상",
+          "trend": "hot"
+        },
+        {
+          "name": "SNS Content Batch Agent",
+          "type": "agent",
+          "desc": "전시·공연 정보를 입력하면 인스타그램·X·뉴스레터용 콘텐츠를 일괄 생성",
+          "reason": "한 번의 작품 정보 입력으로 플랫폼별 최적화된 캡션, 해시태그, 이메일 뉴스레터 본문을 동시에 생성하면 홍보 콘텐츠 제작 시간을 절반으로 줄이고 일관된 메시지 전달 가능",
           "trend": "rising"
         }
       ]
@@ -71,10 +141,24 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Scenario Planning & Project Forecasting with ML",
+          "name": "HWP Document Skill",
           "type": "skill",
-          "desc": "머신러닝 기반 시나리오 분석으로 프로젝트 리스크 관리 및 일정 예측",
-          "reason": "grant-writer와 project-planner에서 복수의 그랜트와 전시 프로젝트를 동시 진행할 때, 과거 데이터 기반 ML 모델로 일정 변동성 예측 및 자금 흐름 시뮬레이션 가능하여 전략적 의사결정 지원",
+          "desc": "한글(HWP) 문서 형식에 맞는 사업계획서·보고서 초안을 Claude가 직접 작성",
+          "reason": "한국 공공기관 보조금 신청서와 결과 보고서가 HWP 형식을 요구하는 경우가 많아, Claude가 해당 서식 구조에 맞게 초안을 작성해 주면 기획팀의 서류 작성 시간을 크게 절감",
+          "trend": "hot"
+        },
+        {
+          "name": "Grant Writing Multi-Step Agent",
+          "type": "agent",
+          "desc": "공모 요강 분석→기관 리서치→지원서 초안 작성을 순차적으로 처리하는 에이전트",
+          "reason": "그랜트 공모마다 요강 검토, 유사 수혜 사례 조사, 평가 기준별 서술 작성까지 에이전트가 단계적으로 처리하면 지원서 완성도와 제출 건수를 동시에 높일 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "Project Timeline & Milestone Tracker",
+          "type": "agent",
+          "desc": "프로젝트 기획서에서 마일스톤을 추출하고 진행 상황을 자동 추적하는 에이전트",
+          "reason": "복수의 레지던시·전시·연구 프로젝트를 동시에 진행할 때 에이전트가 각 프로젝트의 마감일·예산·인력 배치를 통합 모니터링하여 일정 지연과 리소스 충돌을 사전에 방지",
           "trend": "rising"
         }
       ]
