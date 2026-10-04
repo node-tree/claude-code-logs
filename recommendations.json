@@ -1,16 +1,30 @@
 {
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-04",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Docker & Kubernetes",
-          "type": "skill",
-          "desc": "컨테이너화 및 오케스트레이션 기술",
-          "reason": "nodetreehome-web의 배포 자동화와 확장성을 위해 필수적이며, 마이크로서비스 아키텍처 전환 시 팀의 생산성을 크게 향상시킬 수 있음",
+          "name": "Playwright MCP",
+          "type": "mcp",
+          "desc": "브라우저 자동화 및 E2E 테스트를 Claude 에이전트에서 직접 실행",
+          "reason": "nodetreehome-web의 프론트엔드 배포 후 UI 회귀 테스트를 Claude가 직접 브라우저를 열고 검증할 수 있어, 수동 QA 시간을 대폭 단축하고 배포 신뢰도를 높일 수 있음",
           "trend": "hot"
+        },
+        {
+          "name": "Vercel MCP",
+          "type": "mcp",
+          "desc": "Vercel 배포·빌드·도메인·환경변수를 Claude 에이전트에서 직접 제어",
+          "reason": "nodetreehome-web React 앱의 배포 파이프라인을 Claude Code와 통합하여 PR 머지 후 즉시 미리보기 URL 생성, 환경변수 관리, 롤백 등을 자연어로 처리할 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "Multi-Agent 코드 리뷰 패턴",
+          "type": "agent",
+          "desc": "Evaluator + Implementer 구조의 자동 PR 리뷰 및 수정 워크플로우",
+          "reason": "code-evaluator 에이전트와 nodetreehome-web 개발 에이전트를 연동하는 하네스 패턴을 활용하면 PCB 펌웨어, ESP32 코드, React 컴포넌트 등 다양한 코드베이스에 일관된 품질 기준을 적용할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -19,10 +33,24 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "LLM 기반 문헌 분석 에이전트",
+          "name": "Brave Search MCP",
+          "type": "mcp",
+          "desc": "실시간 웹 검색을 Claude 에이전트 워크플로우에 직접 통합",
+          "reason": "grant-research 에이전트가 국내외 공모·레지던시 마감일을 실시간으로 검색하고 자동으로 요약·정리할 수 있어, 기회를 놓치지 않고 신속한 지원 전략을 수립할 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "Obsidian MCP",
+          "type": "mcp",
+          "desc": "Obsidian 볼트의 노트를 Claude 에이전트에서 읽고 쓰고 연결",
+          "reason": "nodetree-research 에이전트가 수집한 이론·기술·작가 레퍼런스를 Obsidian 지식 그래프에 직접 기록하고, 기존 노트와 자동으로 연결하여 팀 지식 베이스를 지속적으로 축적할 수 있음",
+          "trend": "rising"
+        },
+        {
+          "name": "Deep Research 멀티스텝 에이전트 패턴",
           "type": "agent",
-          "desc": "대규모 논문 및 자료의 자동 요약 및 인사이트 추출",
-          "reason": "grant-research와 nodetree-research에서 방대한 학술 자료를 효율적으로 처리하여 리서치 시간을 50% 이상 단축할 수 있으며, 그랜트 제안서 작성 시 최신 트렌드 반영이 용이함",
+          "desc": "검색→수집→합성→요약을 자율적으로 반복하는 심층 리서치 워크플로우",
+          "reason": "미디어아트 이론, 해양 데이터 사이언스, 사운드아트 기술 동향 등 복합 주제를 단일 쿼리로 처리하기 어려울 때, 에이전트가 스스로 서브쿼리를 생성하고 수십 개의 소스를 종합하여 연구 리포트를 자동 생성함",
           "trend": "hot"
         }
       ]
@@ -32,11 +60,25 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "실시간 오디오 신호처리 (Real-time Audio DSP)",
+          "name": "anthropic-skills:supercollider-sound-art-for-daisy",
           "type": "skill",
-          "desc": "TidalCycles와 TouchDesigner 간 오디오 싱크 및 고급 신호처리",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 오디오-비주얼 동기화의 정확도를 높이고, 인터랙티브 미디어아트 작품의 음향 표현력을 극대화할 수 있음",
+          "desc": "SuperCollider DSP 및 Daisy 임베디드 사운드 합성에 특화된 Claude 스킬",
+          "reason": "sound-art 에이전트가 SuperCollider SynthDef 작성, TidalCycles 패턴 설계, Daisy Seed 펌웨어 코드 생성을 전문적으로 지원하므로 모듈러 신스 및 설치 작품의 사운드 레이어 개발 속도를 크게 높일 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "OSC Bridge MCP",
+          "type": "mcp",
+          "desc": "OSC 메시지 전송/수신을 에이전트 워크플로우에서 직접 제어하는 프로토콜 브리지",
+          "reason": "media-art-pipeline 에이전트가 TouchDesigner, SuperCollider, Max/MSP 간 OSC 라우팅을 실시간으로 테스트하고 디버깅할 수 있어, 복잡한 AV 설치 작품의 시스템 통합 시간을 단축함",
           "trend": "rising"
+        },
+        {
+          "name": "Generative Visual 코드 생성 에이전트 패턴",
+          "type": "agent",
+          "desc": "p5.js·GLSL·Hydra 코드를 아이디어 설명만으로 자동 생성하는 워크플로우",
+          "reason": "generative-visual 에이전트가 개념적 아이디어를 즉시 실행 가능한 코드로 변환하고, code-evaluator로 미적 퀄리티를 검증하는 루프를 통해 라이브코딩 퍼포먼스 준비 시간을 획기적으로 단축할 수 있음",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +87,25 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동 영수증 인식 및 분류 에이전트",
-          "type": "agent",
-          "desc": "OCR 기반 영수증 자동 처리 및 회계 카테고리 자동 분류",
-          "reason": "saengsanso-accounting과 grant-accounting-agent의 수동 데이터 입력 작업을 자동화하여 오류율을 줄이고, 월간 결산 시간을 단축해 정확한 재무 리포팅을 신속히 제공할 수 있음",
+          "name": "PDF MCP",
+          "type": "mcp",
+          "desc": "PDF 문서를 파싱·추출·생성하는 기능을 Claude 에이전트에 통합",
+          "reason": "보조사업 정산 서류, 세금계산서, 지급명세서 등 PDF 형태의 회계 문서를 에이전트가 직접 읽고 데이터를 추출하여 e나라도움·보탬e 정산 작업을 자동화할 수 있음",
           "trend": "hot"
+        },
+        {
+          "name": "Spreadsheet 자동화 에이전트 패턴",
+          "type": "agent",
+          "desc": "엑셀·구글 시트 데이터를 읽고 회계 분류·집계·보고서를 자동 생성하는 워크플로우",
+          "reason": "saengsanso-accounting과 nodetree-accounting 에이전트가 월간 지출 내역을 자동으로 분류하고, 법인세·부가세 신고용 집계표를 생성하여 세무사 검토 전 내부 정확도를 높일 수 있음",
+          "trend": "stable"
+        },
+        {
+          "name": "OCR + 자동 분류 에이전트",
+          "type": "agent",
+          "desc": "영수증·증빙서류 이미지를 인식하고 계정과목·프로젝트 코드로 자동 분류",
+          "reason": "법인카드 영수증, 간이영수증 등 아날로그 증빙을 에이전트가 촬영 즉시 처리하여 경비 입력 오류를 줄이고, 정산 기간에 집중되는 수작업 부담을 평소에 분산시킬 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -58,11 +114,25 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "멀티모달 AI 이미지 생성 (DALL-E/Midjourney API)",
-          "type": "skill",
-          "desc": "텍스트 프롬프트 기반 고품질 비주얼 콘텐츠 생성",
-          "reason": "pr-content와 visual-design에서 미디어아트 작품의 프로모션 이미지와 소셜미디어 콘텐츠를 빠르게 제작할 수 있으며, 다양한 톤/스타일의 브랜드 콘텐츠 일관성을 유지하면서 제작 속도를 3배 이상 향상시킬 수 있음",
+          "name": "Figma MCP",
+          "type": "mcp",
+          "desc": "Figma 파일·컴포넌트·디자인 토큰을 Claude 에이전트에서 읽고 수정",
+          "reason": "visual-design 에이전트가 Figma의 NODE TREE 브랜드 컴포넌트를 직접 조회하여 포스터·SNS 콘텐츠 제작 시 브랜드 일관성을 자동으로 유지하고, 디자인 시스템 업데이트를 즉각 반영할 수 있음",
           "trend": "hot"
+        },
+        {
+          "name": "SNS 멀티채널 콘텐츠 자동화 에이전트",
+          "type": "agent",
+          "desc": "하나의 소스 콘텐츠에서 인스타그램·뉴스레터·웹사이트용 포맷을 동시에 생성",
+          "reason": "pr-content 에이전트가 전시 오프닝, 작품 설명, 이벤트 안내를 각 채널 특성에 맞게 자동으로 변형하여, 소규모 팀에서 다채널 운영의 부담을 크게 줄이고 일관된 브랜드 목소리를 유지할 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "AI 이미지 생성 + 브랜드 필터 워크플로우",
+          "type": "agent",
+          "desc": "이미지 생성 후 NODE TREE 스타일 가이드에 맞게 자동 후처리하는 파이프라인",
+          "reason": "미디어아트 프로모션 이미지 제작 시 AI 생성 이미지가 브랜드 팔레트·타이포그래피 기준에 부합하는지 design-evaluator가 자동으로 검증하는 루프를 통해 제작 품질을 높이면서 속도를 유지할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -71,10 +141,24 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 타임라인 자동 생성 MCP",
+          "name": "anthropic-skills:docs",
+          "type": "skill",
+          "desc": "구조화된 문서 초안·제안서·보고서를 Claude가 자동으로 작성하는 문서 스킬",
+          "reason": "grant-writer 에이전트가 공모 지원서와 작가노트를 작성할 때 전문적인 문서 구조와 논리적 흐름을 자동으로 적용하여, 심사위원이 기대하는 형식에 맞는 고품질 제안서를 더 빠르게 생성할 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "HWP/HWPX 문서 처리 MCP",
           "type": "mcp",
-          "desc": "프로젝트 요구사항 입력 후 마일스톤, 리스크 요소, 리소스 할당을 자동 생성",
-          "reason": "doc-design, grant-writer, project-planner가 협업 중 프로젝트 계획 수립의 일관성을 확보하고, 그랜트 제안서 작성 시 실현 가능한 타임라인을 신속히 수립할 수 있으며, 팀 간 일정 공유 효율을 극대화할 수 있음",
+          "desc": "한글(HWP) 파일을 읽고 생성하는 기능을 Claude 에이전트에 통합",
+          "reason": "한국 공공기관 공모사업의 대부분 양식이 HWP 형식이므로, doc-design·grant-writer 에이전트가 공문·지원서를 HWP로 직접 출력하면 서식 변환 작업 없이 바로 제출 가능한 문서를 생성할 수 있음",
+          "trend": "stable"
+        },
+        {
+          "name": "프로젝트 마일스톤 자동 생성 에이전트 패턴",
+          "type": "agent",
+          "desc": "프로젝트 목표·예산·팀 구성을 입력하면 WBS·간트차트·위험요소를 자동 생성",
+          "reason": "project-planner 에이전트가 신규 전시 또는 그랜트 프로젝트 착수 시 표준화된 일정 템플릿을 즉시 생성하고, Obsidian 또는 캘린더와 연동하여 팀 전체의 진행 상황을 실시간으로 공유할 수 있음",
           "trend": "rising"
         }
       ]
