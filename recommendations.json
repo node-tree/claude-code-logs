@@ -6,79 +6,11 @@
       "teamName": "개발팀",
       "items": [
         {
-          "name": "GLSL 셰이더 성능 최적화",
+          "name": "Next.js 15 App Router",
           "type": "skill",
-          "desc": "TouchDesigner GLSL 셰이더의 프레임 드랍 없이 실시간 렌더링을 유지하는 최적화 기법.",
-          "reason": "Corrosiphonia textilis 전시가 부산현대미술관에서 진행 중인 만큼 라이브 렌더링 안정성이 핵심입니다. 복잡한 유기 텍스처 셰이더에서 GPU 메모리 병목을 줄이는 타일 기반 처리와 LOD 전략을 적용하면 장시간 전시 운영에서도 안정적인 퍼포먼스를 확보할 수 있습니다. td-guide 스킬과 code-evaluator 에이전트를 함께 사용해 최적화 전후를 정량 평가하세요.",
+          "desc": "서버 컴포넌트와 스트리밍 기반의 현대적 웹 프레임워크",
+          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 최신 웹표준 구현으로 팀의 기술 경쟁력 강화",
           "trend": "hot"
-        },
-        {
-          "name": "ESP32 OSC 패킷 손실 대응",
-          "type": "skill",
-          "desc": "Wi-Fi 환경에서 ESP32 OSC 데이터 스트림의 패킷 손실을 감지하고 자동 복구하는 패턴.",
-          "reason": "해양 데이터 센서(채널2)와 TouchDesigner 간 OSC 연결이 전시장 혼잡한 네트워크 환경에서 끊기는 사례가 보고되었습니다. UDP 재전송 로직과 하트비트 체크를 ESP32 펌웨어에 추가하면 10월 주말 관람객 집중 시간대에도 안정적인 데이터 흐름을 유지할 수 있습니다. kicad-pcb-design 스킬로 하드웨어 리셋 회로를 병행 검토하세요.",
-          "trend": "rising"
-        },
-        {
-          "name": "nodetreeHome 해양 대시보드 반응형 전환",
-          "type": "agent",
-          "desc": "모바일에서도 채널2 해양 데이터 시각화를 완전하게 볼 수 있도록 nodetreeHome 웹을 반응형으로 개선.",
-          "reason": "전시 관람객이 스마트폰으로 작품 연계 웹을 확인하는 빈도가 높아졌습니다. 현재 데스크탑 우선 레이아웃을 Tailwind 반응형 그리드로 리팩터링하면 전시 현장에서의 관람 경험이 향상됩니다. nodetreehome-web 에이전트를 통해 /ocean 라우트부터 단계적으로 적용하세요.",
-          "trend": "stable"
-        }
-      ]
-    },
-    {
-      "teamId": "planning",
-      "teamName": "기획팀",
-      "items": [
-        {
-          "name": "2027 국제 레지던시 지원서 초안",
-          "type": "agent",
-          "desc": "2027년 상반기 마감 국제 미디어아트 레지던시에 제출할 영문 Artist Statement 초안 작성.",
-          "reason": "10월은 다음 해 주요 레지던시(ZKM, IRCAM, Ars Electronica 등) 공모가 시작되는 시기입니다. Corrosiphonia textilis의 성과를 포트폴리오 핵심 작품으로 활용한 지원서를 지금 초안으로 작성해두면 마감 직전 품질 압박 없이 다듬을 수 있습니다. grant-writer 에이전트에 작품 설명과 부산현대미술관 전시 이력을 전달해 초안을 요청하세요.",
-          "trend": "rising"
-        },
-        {
-          "name": "Corrosiphonia textilis 전시 도록 제작",
-          "type": "agent",
-          "desc": "부산현대미술관 전시 종료 전 배포할 디지털·인쇄용 도록 HWPX+PDF 제작.",
-          "reason": "전시가 2026년 하반기에 진행 중이므로 도록 인쇄 납기를 감안하면 10월 안에 초안을 완성해야 합니다. 작품 개념 텍스트, 기술 다이어그램, 설치 사진 레이아웃을 doc-design 에이전트에 위임하면 Figma 디지털도화서 포맷으로 빠르게 시각화할 수 있습니다. doc-evaluator로 교정 후 pdf 스킬로 인쇄용 파일을 추출하세요.",
-          "trend": "hot"
-        },
-        {
-          "name": "4분기 프로젝트 일정 재조정",
-          "type": "agent",
-          "desc": "10월 기준으로 연말까지의 전시·공모·납품 일정을 재정비하고 Obsidian 타임라인으로 시각화.",
-          "reason": "부산 전시 운영, 레지던시 지원, 회계 마감이 겹치는 11~12월을 앞두고 우선순위 충돌을 미리 파악해야 합니다. project-planner 에이전트에 현재 진행 중인 모든 과업 목록을 입력하면 Mermaid 간트차트와 역할 분담표를 자동 생성합니다. 월별 마일스톤을 Obsidian에 저장해 팀 전체가 공유하세요.",
-          "trend": "stable"
-        }
-      ]
-    },
-    {
-      "teamId": "design",
-      "teamName": "디자인및홍보팀",
-      "items": [
-        {
-          "name": "전시 현장 인스타그램 릴스 제작",
-          "type": "agent",
-          "desc": "Corrosiphonia textilis 전시 현장 영상을 활용한 15초 인스타그램 릴스 캡션·해시태그 세트 작성.",
-          "reason": "10월은 가을 전시 시즌으로 SNS 미디어아트 콘텐츠 노출이 연중 가장 높은 시기입니다. 전시 현장 영상에 @erickoheart 스타일의 어두운 배경과 발광 텍스트 오버레이를 적용한 릴스는 알고리즘 노출에 유리합니다. pr-content와 canvas-design 스킬을 함께 사용해 캡션과 시각물을 동시에 제작하세요.",
-          "trend": "hot"
-        },
-        {
-          "name": "작품 아카이브 비주얼 패키지 정리",
-          "type": "skill",
-          "desc": "낙원식당·채널2 해양데이터 작품의 프레스킷용 이미지·텍스트 패키지를 규격화하여 정리.",
-          "reason": "내년 국제 레지던시와 공모 지원 시 빠른 제출을 위해 작품별 표준 비주얼 패키지가 필요합니다. 해상도 300dpi 인쇄용과 72dpi 웹용을 분리하고, 영문·국문 작품 설명을 각 400자 이내로 규격화해두면 마감 대응 속도가 크게 향상됩니다. visual-design 에이전트에 기존 자료를 전달해 일관된 레이아웃으로 재정리하세요.",
-          "trend": "stable"
-        },
-        {
-          "name": "부산현대미술관 전시 보도자료 배포",
-          "type": "agent",
-          "desc": "미디어·블로그·뉴스레터 채널에 배포할 Corrosiphonia textilis 전시 보도자료 한·영 작성.",
-          "reason": "전시 진행 중 보도자료를 추가 배포하면 후반 관람객 유입을 늘릴 수 있습니다. 작가 인터뷰 요소와 기술 배경(산호 형태 알고리즘, 해양 데이터 소니피케이션)을 포함한 1,000자 분량 보도자료가 미디어아트 전문 매체에서 픽업될 가능성이 높습니다. pr-content 에이전트에 전시 개요와 작품 설명을 전달해 초안을 받으세요.",
-          "trend": "rising"
         }
       ]
     },
@@ -87,25 +19,11 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "2027년 국제 미디어아트 공모 조사",
+          "name": "Perplexity AI / Claude Research Mode",
           "type": "agent",
-          "desc": "ZKM·IRCAM·Ars Electronica·transmediale 등 2027년 공모 일정과 지원 조건을 조기 탐색.",
-          "reason": "10월부터 주요 국제 페스티벌의 다음 해 공모가 순차적으로 오픈됩니다. Corrosiphonia textilis 작품이 부산현대미술관 전시 실적을 갖춘 지금이 국제 지원 적기이므로, 마감·주제·형식 요건을 미리 파악해두면 grant-writer 에이전트와의 협업 타이밍을 잡을 수 있습니다. grant-research 에이전트에 미디어아트·생태·해양 키워드를 전달해 공모 목록을 생성하세요.",
-          "trend": "rising"
-        },
-        {
-          "name": "해양 생태 데이터 시각화 레퍼런스 조사",
-          "type": "agent",
-          "desc": "채널2 해양 데이터 작업의 이론·기술 레퍼런스를 Tara Oceans, MBARI 오픈 데이터 중심으로 조사.",
-          "reason": "다음 작품이나 지원서에서 해양 데이터 소니피케이션의 학술·예술적 맥락을 강화하려면 지금부터 레퍼런스를 체계적으로 수집해야 합니다. Tara Oceans 데이터셋과 MBARI의 심해 영상 아카이브는 Corrosiphonia textilis의 미학과 직접 연결 가능한 풍부한 소재를 제공합니다. nodetree-research 에이전트에 조사를 위임하고 Obsidian에 정리하세요.",
+          "desc": "실시간 웹 검색 기반 다중 소스 분석 및 학술 자료 통합 에이전트",
+          "reason": "grant-research에서 국내외 지원금 트렌드와 미디어아트 분야 최신 연구 동향을 빠르게 수집하고 종합분석하여 경쟁력 있는 제안서 작성 기초 제공",
           "trend": "hot"
-        },
-        {
-          "name": "부여 지역 문화 공모 현황 조사",
-          "type": "agent",
-          "desc": "충남 부여 기반 NODE TREE가 신청 가능한 지역 문화재단·기초문화재단 공모 목록 조사.",
-          "reason": "서울 중심 공모에 비해 경쟁률이 낮은 지역 기반 공모가 안정적인 제작 지원 경로가 될 수 있습니다. 충남문화재단, 한국문화예술위원회의 지역 특화 공모를 지금 파악해두면 11~12월 마감에 여유 있게 준비할 수 있습니다. grant-research 에이전트에 충남·부여·지역 미디어아트 키워드로 검색을 요청하세요.",
-          "trend": "stable"
         }
       ]
     },
@@ -114,25 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Corrosiphonia textilis 사운드 레이어 현장 튜닝",
-          "type": "agent",
-          "desc": "부산현대미술관 전시 공간 음향 특성에 맞춰 SuperCollider SynthDef 리버브·공간음을 현장 튜닝.",
-          "reason": "전시가 진행 중인 지금, 관람객 밀도와 공간 반향 변화에 따라 사운드 레이어가 의도와 다르게 들릴 수 있습니다. SuperCollider의 FreeVerb·GVerb 파라미터를 전시장 측정 IR 데이터 기반으로 조정하고 TidalCycles 패턴의 레이어 밸런스를 점검하세요. sound-art 에이전트와 media-art-pipeline 에이전트를 연계해 OSC 라우팅 전체를 검토하세요.",
-          "trend": "hot"
-        },
-        {
-          "name": "차기 작품 해양 소니피케이션 프로토타입",
-          "type": "agent",
-          "desc": "채널2 해양 데이터를 TidalCycles 패턴에 직접 매핑하는 소니피케이션 프로토타입 설계.",
-          "reason": "현재 전시 경험을 발판 삼아 다음 작품의 기술 방향을 10월 안에 프로토타입으로 검증하는 것이 중요합니다. 해양 온도·염도·조류 데이터를 음고·리듬·음색에 매핑하는 변환 함수 설계를 media-art-pipeline 에이전트에 위임하면 OSC/ArtNet 라우팅 설계까지 일괄 산출됩니다. supercollider-sound-art 스킬로 SynthDef 초안을 병행 제작하세요.",
-          "trend": "rising"
-        },
-        {
-          "name": "Hydra 라이브코딩 퍼포먼스 준비",
+          "name": "Max/MSP to TouchDesigner Bridge Workflow",
           "type": "skill",
-          "desc": "연말 라이브 퍼포먼스를 위한 Hydra 비주얼 라이브코딩 세트 구성과 TidalCycles 연동 테스트.",
-          "reason": "가을은 라이브 퍼포먼스 의뢰가 집중되는 시기입니다. Hydra와 TidalCycles를 OSC로 연결한 AV 퍼포먼스 세트를 미리 구성해두면 단기 섭외에도 빠르게 대응할 수 있습니다. generative-visual 에이전트에 Hydra 시드 패턴 제작을 맡기고 sound-art 에이전트와 분업 구조를 설계하세요.",
-          "trend": "stable"
+          "desc": "Max와 TouchDesigner 간 실시간 오디오-비주얼 신호 연동 기술",
+          "reason": "ESP32 입력과 TidalCycles 음향, TouchDesigner 비주얼을 통합하는 멀티채널 미디어아트 설치 구현 시 각 도구의 장점을 극대화",
+          "trend": "rising"
         }
       ]
     },
@@ -141,25 +45,37 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "부산현대미술관 전시 정산 사전 준비",
+          "name": "AI-powered Expense Categorization MCP",
           "type": "agent",
-          "desc": "전시 종료 후 제출할 보조사업 정산 증빙 서류를 전시 진행 중 실시간으로 수집·분류.",
-          "reason": "전시가 마무리된 후 증빙을 소급 수집하면 누락 위험이 크고 e나라도움 업로드 마감을 놓칠 수 있습니다. 교통비·재료비·인건비 영수증을 날짜별로 지금부터 분류하고 nodetree-accounting 에이전트에 집행 카테고리별 정산 시트 초안을 요청하세요. grant-accounting 스킬로 보조사업 증빙 요건도 사전 체크하세요.",
+          "desc": "영수증 인식과 자동 지출 분류 및 세무 코드 매핑 에이전트",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 수작업 분류를 80% 이상 감소시키고 감사 추적성 강화로 문화예술 지원금 관리 신뢰도 향상",
           "trend": "hot"
-        },
+        }
+      ]
+    },
+    {
+      "teamId": "design",
+      "teamName": "디자인및홍보팀",
+      "items": [
         {
-          "name": "4분기 법인 경비 중간 점검",
-          "type": "agent",
-          "desc": "㈜생산소 법인카드 지출 내역을 10월 기준으로 중간 점검하고 연말 세무 대비 이상 항목 확인.",
-          "reason": "연말 법인세·부가세 신고 전 4분기 경비를 미리 점검하면 세무조정 시간을 절약하고 가산세 리스크를 줄일 수 있습니다. 특히 전시 관련 여비·교통비와 장비 구매 비용이 적격 증빙으로 처리되었는지 지금 확인하는 것이 중요합니다. saengsanso-accounting 에이전트에 10월 카드 지출 내역을 전달하고 xlsx 스킬로 정리된 경비 시트를 받으세요.",
-          "trend": "rising"
-        },
-        {
-          "name": "예술인 인건비 4분기 지급명세서 준비",
+          "name": "AI Image Generation Prompt Engineering",
           "type": "skill",
-          "desc": "노드트리 명의 보조사업의 예술인 인건비 4분기분 지급명세서 사전 작성 및 원천세 신고 준비.",
-          "reason": "예술인 고용보험 적용 사업자의 경우 분기 지급명세서 제출 의무가 있으며 10월 말 마감 전에 준비해야 합니다. nodetree-accounting 에이전트에 이화영·정강현 인건비 집행 내역을 입력해 지급명세서 초안을 자동 생성하세요. grant-accounting 스킬로 보탬e·e나라도움 인건비 집행 요건과 교차 검토하세요.",
-          "trend": "stable"
+          "desc": "미디어아트 콘셉트를 시각화하는 고도화된 AI 프롬프트 작성 기술",
+          "reason": "pr-content에서 빠르게 변화하는 소셜미디어 트렌드에 맞춰 프로토타입 이미지와 마케팅 자료 생성 속도를 높이고 브랜드 정체성 일관성 유지",
+          "trend": "hot"
+        }
+      ]
+    },
+    {
+      "teamId": "planning",
+      "teamName": "기획팀",
+      "items": [
+        {
+          "name": "Grant Timeline & Milestone Tracking MCP",
+          "type": "agent",
+          "desc": "지원금 일정, 납기, 마일스톤 자동 추적 및 팀간 협력 조율 에이전트",
+          "reason": "grant-writer와 project-planner가 중복된 지원금 공고와 일정 충돌을 사전에 감지하고, 기획에서 최종 보고까지 전 단계의 진행상황을 실시간 시각화하여 팀 생산성 30% 향상",
+          "trend": "rising"
         }
       ]
     }
