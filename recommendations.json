@@ -1,16 +1,30 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-06",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router",
-          "type": "skill",
-          "desc": "서버 컴포넌트와 스트리밍 기반의 현대적 웹 프레임워크",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 최신 웹표준 구현으로 팀의 기술 경쟁력 강화",
+          "name": "Playwright MCP Server",
+          "type": "mcp",
+          "desc": "브라우저 자동화로 E2E 테스트, 스크린샷, UI 검증 수행",
+          "reason": "nodetreehome-web 배포 후 UI 회귀 테스트를 Claude와 직접 대화하며 자동화할 수 있어 QA 비용 절감 및 배포 신뢰도 향상",
           "trend": "hot"
+        },
+        {
+          "name": "Claude Code in CI (GitHub Actions)",
+          "type": "agent",
+          "desc": "PR 생성 시 Claude가 자동으로 코드 리뷰, 버그 탐지, 보안 취약점 검사 수행",
+          "reason": "소규모 팀에서 코드 리뷰 부담을 줄이고 일관된 품질 기준 유지. PCB 펌웨어 코드와 웹 코드를 동시에 다루는 팀에 특히 유리",
+          "trend": "hot"
+        },
+        {
+          "name": "Stagehand / Browser-Use Agent Pattern",
+          "type": "agent",
+          "desc": "자연어 명령으로 웹 브라우저를 조작하는 고급 에이전트 패턴",
+          "reason": "공공 데이터 포털, 지원금 사이트 등 API가 없는 서비스에서 데이터 수집 및 자동화 작업 처리. 개발팀의 반복 업무 자동화에 효과적",
+          "trend": "rising"
         }
       ]
     },
@@ -19,11 +33,25 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "Perplexity AI / Claude Research Mode",
-          "type": "agent",
-          "desc": "실시간 웹 검색 기반 다중 소스 분석 및 학술 자료 통합 에이전트",
-          "reason": "grant-research에서 국내외 지원금 트렌드와 미디어아트 분야 최신 연구 동향을 빠르게 수집하고 종합분석하여 경쟁력 있는 제안서 작성 기초 제공",
+          "name": "deep-research skill",
+          "type": "skill",
+          "desc": "Claude가 병렬 웹 검색과 다단계 추론으로 학술적 수준의 연구 보고서 생성",
+          "reason": "미디어아트 트렌드, 해외 레지던시, 국제 공모전 정보를 빠르게 수집·종합하여 팀이 전략적 의사결정에 집중할 수 있게 지원",
           "trend": "hot"
+        },
+        {
+          "name": "Notion MCP Server",
+          "type": "mcp",
+          "desc": "Notion 데이터베이스와 Claude를 직접 연결해 지식 관리 자동화",
+          "reason": "조사 내용, 참고 자료, 인터뷰 메모를 Claude가 Notion에 바로 정리·태그·링크 처리. 리서치 보고서 작성 시간을 크게 단축",
+          "trend": "stable"
+        },
+        {
+          "name": "Multi-Agent Parallel Research Pattern",
+          "type": "agent",
+          "desc": "여러 Claude 에이전트가 서로 다른 각도로 동시에 조사 후 결과를 통합하는 패턴",
+          "reason": "지원금 신청 전 기술·예술·시장 세 방향의 조사를 동시에 진행하고 종합 분석 보고서를 자동 생성. 조사 기간 50% 단축 효과",
+          "trend": "rising"
         }
       ]
     },
@@ -32,11 +60,25 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Max/MSP to TouchDesigner Bridge Workflow",
+          "name": "supercollider-sound-art-for-daisy skill",
           "type": "skill",
-          "desc": "Max와 TouchDesigner 간 실시간 오디오-비주얼 신호 연동 기술",
-          "reason": "ESP32 입력과 TidalCycles 음향, TouchDesigner 비주얼을 통합하는 멀티채널 미디어아트 설치 구현 시 각 도구의 장점을 극대화",
+          "desc": "SuperCollider와 Daisy DSP 보드를 위한 사운드 아트 특화 Claude 스킬",
+          "reason": "TidalCycles·SuperCollider 기반 사운드 아트 작업에서 신시사이저 패치, 알고리즘 작곡, Daisy 펌웨어 코드를 Claude가 직접 생성·디버깅 가능",
           "trend": "rising"
+        },
+        {
+          "name": "OSC/MIDI MCP Server",
+          "type": "mcp",
+          "desc": "OSC 및 MIDI 프로토콜로 TouchDesigner, SuperCollider, Max/MSP 실시간 제어",
+          "reason": "설치 공연 중 Claude에게 자연어로 명령해 파라미터를 즉흥적으로 조정하거나, 리허설 자동화 스크립트를 생성하는 창의적 워크플로우 구현",
+          "trend": "rising"
+        },
+        {
+          "name": "ComfyUI / Stable Diffusion Workflow Agent",
+          "type": "agent",
+          "desc": "텍스트 프롬프트를 이미지·비디오로 변환하는 생성형 비주얼 파이프라인",
+          "reason": "전시 홍보 이미지, 설치 작품 시뮬레이션, 제안서 레퍼런스 비주얼을 빠르게 생성. 예술 작업의 프로토타이핑 속도를 획기적으로 향상",
+          "trend": "hot"
         }
       ]
     },
@@ -45,11 +87,25 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "AI-powered Expense Categorization MCP",
-          "type": "agent",
-          "desc": "영수증 인식과 자동 지출 분류 및 세무 코드 매핑 에이전트",
-          "reason": "grant-accounting-agent와 saengsanso-accounting에서 수작업 분류를 80% 이상 감소시키고 감사 추적성 강화로 문화예술 지원금 관리 신뢰도 향상",
+          "name": "Google Sheets MCP Server",
+          "type": "mcp",
+          "desc": "Google 스프레드시트와 Claude를 연결해 수식 생성, 데이터 분석, 자동 리포트 작성",
+          "reason": "지원금별 예산 현황표, 사업비 집행 요약표를 Claude가 직접 작성·갱신. 월간 결산 준비 시간을 크게 단축하고 오류 방지",
+          "trend": "stable"
+        },
+        {
+          "name": "PDF/Document Extraction MCP",
+          "type": "mcp",
+          "desc": "영수증, 세금계산서, 계약서 PDF에서 구조화된 데이터 자동 추출",
+          "reason": "문화재단·예술위원회 정산 서류의 반복적인 데이터 입력 작업을 자동화. 지원금 정산 감사 대비 문서 관리 신뢰도 향상",
           "trend": "hot"
+        },
+        {
+          "name": "Agentic Budget Monitoring Pattern",
+          "type": "agent",
+          "desc": "지출 한도 초과 또는 집행 지연 시 자동 알림을 보내는 예산 감시 에이전트",
+          "reason": "여러 프로젝트의 사업비 집행률을 동시에 모니터링하고 이상 징후를 조기에 감지. 문화예술 지원금의 불용 반납 리스크 최소화",
+          "trend": "rising"
         }
       ]
     },
@@ -58,10 +114,24 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI Image Generation Prompt Engineering",
+          "name": "Figma MCP Server",
+          "type": "mcp",
+          "desc": "Claude가 Figma 파일을 직접 읽고, 컴포넌트 제안, 디자인 토큰 추출, 코드 변환 수행",
+          "reason": "디자인 시스템 관리, 브랜드 가이드라인 일관성 검토, Figma → React 컴포넌트 자동 변환으로 개발팀과의 협업 속도 향상",
+          "trend": "hot"
+        },
+        {
+          "name": "canvas-design skill",
           "type": "skill",
-          "desc": "미디어아트 콘셉트를 시각화하는 고도화된 AI 프롬프트 작성 기술",
-          "reason": "pr-content에서 빠르게 변화하는 소셜미디어 트렌드에 맞춰 프로토타입 이미지와 마케팅 자료 생성 속도를 높이고 브랜드 정체성 일관성 유지",
+          "desc": "Claude가 브랜드 지침에 맞는 비주얼 디자인 레이아웃과 색상 체계를 직접 생성",
+          "reason": "SNS 콘텐츠, 전시 포스터, 제안서 표지 등 반복적인 디자인 작업을 Claude와 협력해 빠르게 초안 생성. 디자이너가 창의적 작업에 집중 가능",
+          "trend": "rising"
+        },
+        {
+          "name": "Multi-Platform SNS Content Agent",
+          "type": "agent",
+          "desc": "하나의 전시 정보로 Instagram, X, 네이버 블로그용 맞춤 콘텐츠를 동시에 생성하는 에이전트",
+          "reason": "플랫폼별 최적 형식(해시태그, 길이, 어조)에 맞춘 홍보 콘텐츠 자동 생성. 미디어아트 전시·공연의 SNS 마케팅 효율 극대화",
           "trend": "hot"
         }
       ]
@@ -71,11 +141,25 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Timeline & Milestone Tracking MCP",
+          "name": "HWP Document Processing Agent",
           "type": "agent",
-          "desc": "지원금 일정, 납기, 마일스톤 자동 추적 및 팀간 협력 조율 에이전트",
-          "reason": "grant-writer와 project-planner가 중복된 지원금 공고와 일정 충돌을 사전에 감지하고, 기획에서 최종 보고까지 전 단계의 진행상황을 실시간 시각화하여 팀 생산성 30% 향상",
+          "desc": "HWP 양식을 분석하고 필요한 항목을 자동으로 채워 완성된 제안서 초안 생성",
+          "reason": "한국문화예술위원회, 문화체육관광부 등 HWP 양식 지원금 신청서 작성 시 반복 항목 자동 완성으로 기획팀의 핵심 서술에 집중할 수 있는 환경 제공",
           "trend": "rising"
+        },
+        {
+          "name": "Linear / Jira MCP Server",
+          "type": "mcp",
+          "desc": "프로젝트 관리 도구와 Claude를 연결해 이슈 생성, 일정 조정, 진행 리포트 자동화",
+          "reason": "다수의 지원금 프로젝트를 동시에 관리하며 마일스톤 충돌, 리소스 과부하를 Claude가 사전에 감지하고 일정 재조정 제안",
+          "trend": "stable"
+        },
+        {
+          "name": "Grant Writing Workflow (병렬 에이전트 패턴)",
+          "type": "agent",
+          "desc": "사업 목적, 예산, 기대효과를 각각 다른 에이전트가 동시에 초안 작성 후 통합",
+          "reason": "지원금 공모 마감 압박 상황에서 기획서 각 섹션을 병렬로 초안 작성해 전체 제안서 작성 기간을 60% 단축. 과거 선정 사례 분석 에이전트 병행 가능",
+          "trend": "hot"
         }
       ]
     }
