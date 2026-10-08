@@ -1,16 +1,30 @@
 {
-  "lastUpdated": "2026-10-07",
+  "lastUpdated": "2026-10-08",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 + React Server Components",
-          "type": "skill",
-          "desc": "서버 중심의 현대적 웹 개발 아키텍처",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선이 필요한 미디어아트 포트폴리오 사이트 운영에 필수적이며, 2026년 기준 업계 표준으로 자리잡음",
+          "name": "Playwright MCP",
+          "type": "mcp",
+          "desc": "헤드리스 브라우저를 통한 E2E 테스트 및 웹 스크래핑 자동화",
+          "reason": "nodetreehome-web 배포 파이프라인에서 UI 회귀 테스트를 자동화하고, 전시 관련 외부 사이트 데이터 수집에도 활용 가능. Claude가 브라우저를 직접 제어해 수동 QA 비용 절감",
           "trend": "hot"
+        },
+        {
+          "name": "shadcn/ui AI Component Generation",
+          "type": "skill",
+          "desc": "AI 기반 React 컴포넌트 자동 생성 및 디자인 시스템 통합",
+          "reason": "React 기반 웹 개발 속도를 높이고 일관된 UI 시스템 유지에 유리. shadcn 생태계와 Claude Code 연동으로 컴포넌트 설계부터 구현까지 원스톱 처리",
+          "trend": "hot"
+        },
+        {
+          "name": "KiCad MCP",
+          "type": "mcp",
+          "desc": "PCB 설계 파일 분석 및 회로도 자동화 지원",
+          "reason": "ESP32 기반 인터랙티브 설치물 제작 시 PCB 레이아웃 검토, BOM(부품 목록) 자동화, 회로 오류 탐지에 활용 가능. 하드웨어-소프트웨어 통합 개발 흐름 개선",
+          "trend": "rising"
         }
       ]
     },
@@ -19,10 +33,24 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI-powered Literature Review Agent (MCP)",
+          "name": "Perplexity MCP",
+          "type": "mcp",
+          "desc": "실시간 웹 검색과 인용 기반 AI 리서치 통합",
+          "reason": "미디어아트 트렌드, 해외 보조금 사례, 학술 논문 등을 최신 정보로 실시간 수집. Claude의 분석 능력과 Perplexity의 웹 검색을 결합해 리서치 품질과 속도 동시 향상",
+          "trend": "hot"
+        },
+        {
+          "name": "Zotero MCP",
+          "type": "mcp",
+          "desc": "학술 문헌 관리 및 인용 자동화 MCP 서버",
+          "reason": "grant-research 프로젝트에서 참고문헌 관리와 보조금 제안서 작성 시 인용 삽입을 자동화. 팀 라이브러리 공유로 중복 자료 수집 방지 및 지식 축적",
+          "trend": "rising"
+        },
+        {
+          "name": "Knowledge Graph Construction Agent",
           "type": "agent",
-          "desc": "학술 자료 수집 및 분석 자동화 에이전트",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 방대한 학술 자료를 효율적으로 분석하고 트렌드를 파악해야 하며, 보조금 신청 시 근거 자료 준비 시간을 대폭 단축할 수 있음",
+          "desc": "연구 자료를 구조화된 지식 그래프로 자동 변환하는 에이전트",
+          "reason": "여러 리서치 프로젝트에서 수집한 정보를 연결하여 개념 간 관계를 시각화. 신규 리서치 방향 도출과 기존 지식 재활용에 효과적이며 장기 팀 지식 자산 구축 가능",
           "trend": "rising"
         }
       ]
@@ -32,10 +60,24 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization (ESP32/TidalCycles)",
+          "name": "SuperCollider Sound Art Skill",
           "type": "skill",
-          "desc": "실시간 오디오와 비주얼 동기화 기술",
-          "reason": "media-art-pipeline에서 ESP32와 TidalCycles를 활용한 인터랙티브 작업의 핵심으로, 감지 센서와 실시간 음악 생성을 시각적 콘텐츠와 정확하게 맞춰야 하는 미디어아트의 본질적 요구사항",
+          "desc": "SuperCollider 코드 생성 및 알고리즘 작곡 지원 스킬",
+          "reason": "Claude가 SuperCollider 문법에 특화된 코드를 생성해 라이브 코딩 작업 속도를 높이고 새로운 음향 아이디어 탐색이 가능. 사운드 설치물의 알고리즘 구조 설계에 직접 활용",
+          "trend": "hot"
+        },
+        {
+          "name": "OSC Bridge MCP",
+          "type": "mcp",
+          "desc": "OSC 프로토콜을 통한 TouchDesigner/Max MSP 실시간 제어",
+          "reason": "미디어아트 퍼포먼스에서 Claude 에이전트가 실시간으로 TouchDesigner 파라미터를 제어할 수 있게 되어 AI 주도 인터랙티브 설치물 구현 가능. 복잡한 라이브 연동 구성을 단순화",
+          "trend": "rising"
+        },
+        {
+          "name": "ComfyUI MCP",
+          "type": "mcp",
+          "desc": "Stable Diffusion ComfyUI 워크플로우를 Claude에서 직접 트리거",
+          "reason": "생성형 비주얼 작업에서 이미지 파이프라인을 Claude 대화 안에서 제어 가능. 전시 홍보 비주얼, 실시간 영상 소스, 생성 아트 실험을 하나의 워크플로우로 통합",
           "trend": "hot"
         }
       ]
@@ -45,11 +87,25 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "Automated Financial Reporting MCP",
+          "name": "Excel / Spreadsheet MCP",
+          "type": "mcp",
+          "desc": "엑셀 및 구글 스프레드시트 직접 읽기·쓰기 자동화",
+          "reason": "보조금별 예산 집행 현황을 실시간으로 파악하고 결산 보고서를 자동 생성. 반복적인 수작업 입력을 줄이고 재무 데이터 정합성 검증 자동화 가능",
+          "trend": "stable"
+        },
+        {
+          "name": "OCR Document Processing Agent",
           "type": "agent",
-          "desc": "재무 데이터 자동화 및 보고서 생성 에이전트",
-          "reason": "saengsanso-accounting과 grant-accounting-agent 운영에서 반복적인 장부 정리, 보조금별 회계 분류, 자동 보고서 생성을 통해 인적 오류를 줄이고 감시 기관 요청 시 신속한 대응이 가능함",
+          "desc": "영수증·세금계산서 OCR 분석 및 회계 분류 에이전트",
+          "reason": "사진으로 찍은 영수증이나 PDF 세금계산서를 자동으로 인식·분류해 회계 장부에 입력. 보조금 정산 시 증빙 서류 처리 시간을 대폭 단축하고 오류 위험 감소",
           "trend": "rising"
+        },
+        {
+          "name": "Korean Financial Document Agent (전자신고 연동)",
+          "type": "agent",
+          "desc": "홈택스 전자신고 서식 및 한국 재무문서 자동화 에이전트",
+          "reason": "한국 세무 특화 문서 양식(부가세 신고, 원천징수, 보조금 정산서)을 Claude가 직접 작성·검토. 회계사 의뢰 전 초안 작성 자동화로 비용과 시간 절감",
+          "trend": "hot"
         }
       ]
     },
@@ -58,11 +114,25 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "AI-Assisted Brand Storytelling (MCP)",
-          "type": "agent",
-          "desc": "브랜드 narrative 자동 생성 및 멀티채널 콘텐츠 최적화",
-          "reason": "pr-content와 visual-design 작업에서 NODE TREE의 미디어아트 정체성을 일관되게 표현하면서 SNS, 보도자료, 전시 홍보물 등 다양한 채널별 맞춤형 콘텐츠를 빠르게 생성할 수 있음",
+          "name": "Figma MCP",
+          "type": "mcp",
+          "desc": "Figma 디자인 파일을 Claude에서 직접 읽고 코드로 변환",
+          "reason": "디자인 파일을 Claude가 직접 파싱해 React 컴포넌트 생성, 디자인 토큰 추출, 브랜드 가이드라인 검수를 자동화. 디자이너-개발자 간 핸드오프 과정 간소화",
           "trend": "hot"
+        },
+        {
+          "name": "Social Media Automation Agent",
+          "type": "agent",
+          "desc": "인스타그램·X·링크드인 멀티채널 SNS 콘텐츠 스케줄링 에이전트",
+          "reason": "전시 오프닝, 작품 공개, 보도자료 발표 일정에 맞춰 각 채널별 최적화된 콘텐츠를 자동 생성·예약 발행. NODE TREE 브랜드 톤 유지하며 SNS 운영 부담 경감",
+          "trend": "hot"
+        },
+        {
+          "name": "AI Image Generation MCP (Midjourney / FLUX)",
+          "type": "mcp",
+          "desc": "텍스트 프롬프트로 전시·홍보 비주얼 자산 즉시 생성",
+          "reason": "포스터, 소셜 카드, 전시 배경 이미지 등 홍보 비주얼을 Claude 대화 안에서 바로 생성해 디자인 초안 속도를 높임. 반복 수정 사이클 단축 및 외주 비용 절감",
+          "trend": "rising"
         }
       ]
     },
@@ -71,10 +141,24 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Timeline & Milestone Tracking (MCP)",
+          "name": "HWP Document MCP",
+          "type": "mcp",
+          "desc": "한글(HWP) 문서 읽기·생성·편집 자동화 MCP",
+          "reason": "한국 공공기관 제출용 HWP 보조금 신청서, 사업계획서, 결과보고서를 Claude가 직접 작성·수정 가능. 양식 변환과 내용 보완 작업을 자동화해 기획팀의 핵심 병목 해소",
+          "trend": "hot"
+        },
+        {
+          "name": "Notion MCP",
+          "type": "mcp",
+          "desc": "Notion 워크스페이스 페이지 읽기·쓰기 및 데이터베이스 연동",
+          "reason": "프로젝트 계획, 회의록, 보조금 트래킹을 Claude가 Notion에 직접 기록·갱신. 팀 전체 정보 공유 허브로서 기획 문서의 자동 업데이트와 스테이터스 관리 자동화",
+          "trend": "hot"
+        },
+        {
+          "name": "Grant Writing Multi-Agent Workflow",
           "type": "agent",
-          "desc": "보조금 일정 및 마일스톤 자동 추적 및 알림 시스템",
-          "reason": "grant-writer와 project-planner에서 여러 보조금의 신청 마감일, 보고 기한, 결과 발표 등을 일괄 관리하고 팀 전체에 실시간 공유하여 놓치는 일정이 없도록 함",
+          "desc": "보조금 신청서 작성을 분담하는 멀티 에이전트 파이프라인",
+          "reason": "리서치팀의 근거 자료 수집, 기획팀의 목표 서술, 회계팀의 예산 구성을 각기 다른 에이전트가 병렬로 처리해 통합 제안서를 완성. 보조금 신청 주기가 잦은 NODE TREE 운영에 직결",
           "trend": "rising"
         }
       ]
