@@ -1,15 +1,29 @@
 {
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-10-09",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 성능 최적화",
+          "name": "Vercel AI SDK MCP",
+          "type": "mcp",
+          "desc": "Next.js 앱에 스트리밍 AI 기능을 손쉽게 추가하는 공식 MCP 서버",
+          "reason": "nodetreehome-web 프로젝트에서 실시간 AI 피드백이나 생성형 UI를 구현할 때 Vercel AI SDK MCP를 쓰면 별도 백엔드 없이 Edge Runtime에서 스트리밍 응답을 처리할 수 있어 배포 복잡도를 낮춰줌",
+          "trend": "hot"
+        },
+        {
+          "name": "PlatformIO MCP",
+          "type": "mcp",
+          "desc": "ESP32·Arduino 펌웨어 빌드·플래시·시리얼 모니터를 Claude에서 직접 제어",
+          "reason": "media-art-pipeline에서 ESP32 센서 보드를 자주 다루는 개발팀에게 코드 편집부터 업로드까지 Claude 내에서 완결되면 디버깅 사이클이 절반 이하로 줄어듦",
+          "trend": "rising"
+        },
+        {
+          "name": "code-review skill",
           "type": "skill",
-          "desc": "웹 애플리케이션의 번들 크기 감소 및 렌더링 속도 개선",
-          "reason": "nodetreehome-web의 사용자 경험 향상을 위해 Core Web Vitals 최적화가 필수적이며, 2026년 웹 표준에서 성능은 검색 순위와 사용자 만족도에 직결됨",
+          "desc": "PR 단위 정적 분석 및 보안·성능·정확성 리뷰를 자동화하는 빌트인 스킬",
+          "reason": "소규모 팀에서 풀 리퀘스트 검토 병목을 줄이려면 CI 단계에서 자동 리뷰가 필수이며, 이 스킬은 React·TypeScript 코드베이스에 최적화된 패턴 검사를 제공해 코드 품질을 일관되게 유지시켜 줌",
           "trend": "hot"
         }
       ]
@@ -19,11 +33,25 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "AI 기반 문헌 분석 및 메타분석",
+          "name": "deep-research skill",
           "type": "skill",
-          "desc": "대규모 학술 자료를 자동으로 수집, 분류, 인사이트 추출",
-          "reason": "grant-research와 nodetree-research 프로젝트에서 다양한 출처의 데이터를 효율적으로 분석하고 정량적 근거를 마련해야 하며, AI 활용으로 리서치 속도 3배 이상 단축 가능",
+          "desc": "다단계 웹 검색과 크로스-소스 인용 검증을 자동으로 수행하는 딥 리서치 스킬",
+          "reason": "grant-research 에이전트가 공모 정보를 발굴할 때 단일 검색보다 여러 출처를 교차 검증하는 deep-research 스킬을 쓰면 신뢰도 높은 근거 자료를 빠르게 확보할 수 있음",
           "trend": "hot"
+        },
+        {
+          "name": "Obsidian MCP Server",
+          "type": "mcp",
+          "desc": "Obsidian 볼트를 Claude에서 읽기·쓰기하여 지식 그래프를 AI로 관리",
+          "reason": "nodetree-research 에이전트가 리서치 결과를 Obsidian에 자동 정리하면 팀 전체 지식베이스가 누적·검색 가능해지며, 백링크 기반 지식 그래프 구축으로 장기 프로젝트 맥락을 보존할 수 있음",
+          "trend": "rising"
+        },
+        {
+          "name": "Semantic Scholar MCP",
+          "type": "mcp",
+          "desc": "2억 편 이상의 학술 논문 검색·인용 트리 추적을 Claude에서 직접 수행",
+          "reason": "미디어아트·사운드아트 관련 이론 리서치에서 참고문헌 품질이 중요하며, Semantic Scholar MCP를 쓰면 피인용 수 기준 상위 논문만 선별해 작가노트와 지원서의 학술 근거를 빠르게 채울 수 있음",
+          "trend": "stable"
         }
       ]
     },
@@ -32,10 +60,24 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Real-time Audio-Visual Synchronization (RAVS)",
+          "name": "supercollider-sound-art-for-daisy skill",
           "type": "skill",
-          "desc": "ESP32와 TidalCycles 간 저지연 신호 처리 및 TouchDesigner 멀티미디어 동기화",
-          "reason": "media-art-pipeline에서 음향과 영상의 즉각적인 반응성이 관객 경험의 핵심이며, TidalCycles 라이브 코딩과 ESP32 센서 입력을 TouchDesigner에서 20ms 이하 지연으로 통합하면 예술작업의 임팩트 극대화",
+          "desc": "SuperCollider SynthDef와 Daisy Seed 하드웨어를 위한 전용 사운드아트 스킬",
+          "reason": "sound-art 에이전트가 Eurorack·Daisy 모듈용 펌웨어와 SuperCollider 패턴을 동시에 작성할 때 이 스킬이 하드웨어 레이턴시, 메모리 제약, DSP 최적화 노하우를 내장하고 있어 시행착오를 대폭 줄여줌",
+          "trend": "hot"
+        },
+        {
+          "name": "OSC Bridge MCP",
+          "type": "mcp",
+          "desc": "TouchDesigner·SuperCollider·Ableton 간 OSC 메시지를 Claude가 직접 전송·수신",
+          "reason": "media-art-pipeline에서 여러 소프트웨어 간 실시간 프로토콜 라우팅을 Claude가 중간에서 조율하면 공연 중 파라미터 제어나 큐 트리거를 자동화할 수 있고, 설치작품 상태 모니터링도 자연어로 가능해짐",
+          "trend": "rising"
+        },
+        {
+          "name": "GLSL Shader Generation 에이전트 패턴",
+          "type": "agent",
+          "desc": "텍스트 설명으로 GLSL 셰이더 코드를 생성하고 TouchDesigner GLSL TOP에 바로 적용",
+          "reason": "generative-visual 에이전트가 퍼포먼스 직전 비주얼을 빠르게 수정해야 할 때, 자연어로 셰이더 효과를 기술하면 Claude가 GLSL 코드를 즉시 생성해 실시간 영상 연출 유연성을 높여줌",
           "trend": "rising"
         }
       ]
@@ -45,10 +87,24 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 감시 및 이상탐지 (Anomaly Detection)",
+          "name": "hwpx skill",
           "type": "skill",
-          "desc": "거래 패턴 분석을 통한 오류 및 부정거래 자동 적발",
-          "reason": "saengsanso-accounting과 grant-accounting-agent에서 대규모 거래 데이터를 실시간으로 모니터링하여 컴플라이언스 리스크를 사전에 차단할 수 있으며, 감사 준비 시간 50% 단축",
+          "desc": "한컴 HWP/HWPX 문서를 Claude에서 직접 생성·편집하는 공식 스킬",
+          "reason": "e나라도움·보탬e 정산 보고서가 대부분 HWP 형식을 요구하므로, hwpx 스킬을 쓰면 Word→HWP 변환 과정 없이 Claude가 서식에 맞는 정산 문서를 바로 작성해 제출 준비 시간을 단축할 수 있음",
+          "trend": "hot"
+        },
+        {
+          "name": "PDF / OCR Extraction MCP",
+          "type": "mcp",
+          "desc": "영수증·세금계산서·거래명세표를 OCR로 파싱하여 구조화된 데이터로 변환",
+          "reason": "saengsanso-accounting에서 법인카드 영수증과 세금계산서를 수작업으로 입력하는 병목을 해소하기 위해, OCR MCP로 이미지·PDF를 자동 파싱하면 전표 입력 오류율과 시간을 80% 이상 줄일 수 있음",
+          "trend": "rising"
+        },
+        {
+          "name": "정산 자동화 에이전트 패턴 (보조사업 전용)",
+          "type": "agent",
+          "desc": "보조금 집행 내역을 수집·분류하고 e나라도움 양식에 맞는 정산 초안을 자동 생성하는 멀티스텝 에이전트",
+          "reason": "노드트리 회계팀이 매 분기 반복 처리하는 보조사업 정산에서 집행 항목 분류→증빙서류 목록화→양식 작성을 에이전트 파이프라인으로 구성하면 담당자의 반복 노동을 크게 줄이고 실수도 방지할 수 있음",
           "trend": "rising"
         }
       ]
@@ -58,11 +114,25 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "데이터 기반 시각 콘텐츠 최적화 (A/B Testing)",
-          "type": "skill",
-          "desc": "소셜 미디어 콘텐츠의 색상, 레이아웃, 텍스트를 데이터 기반으로 테스트 및 개선",
-          "reason": "pr-content와 visual-design에서 제작한 콘텐츠의 참여율을 정량적으로 측정하고 최적화하면 미디어아트팀의 브랜드 인지도 상승 효율이 2배 이상 증가",
+          "name": "Figma MCP (공식)",
+          "type": "mcp",
+          "desc": "Figma 컴포넌트·프레임·텍스트를 Claude가 직접 읽고 편집하는 공식 MCP 서버",
+          "reason": "visual-design 에이전트가 포스터·SNS 이미지 작업을 할 때 Figma MCP를 쓰면 Claude가 디자인 파일 구조를 직접 파악해 레이아웃 제안·텍스트 수정·컴포넌트 교체를 자동화할 수 있어 반복 수정 사이클이 줄어듦",
           "trend": "hot"
+        },
+        {
+          "name": "canvas-design skill",
+          "type": "skill",
+          "desc": "브랜드 가이드라인을 기반으로 시각 디자인 레이아웃과 컬러 팔레트를 생성하는 스킬",
+          "reason": "NODE TREE의 전시 홍보물·브랜딩 작업에서 canvas-design 스킬이 COLOR 토큰과 타이포그래피 시스템을 일관되게 적용하면 팀 스타일가이드 없이도 브랜드 통일성을 유지하며 홍보물을 빠르게 생산할 수 있음",
+          "trend": "rising"
+        },
+        {
+          "name": "SNS 스케줄링 + 멀티플랫폼 발행 에이전트 패턴",
+          "type": "agent",
+          "desc": "인스타그램·페이스북·X(트위터) 게시물을 한 번에 작성하고 플랫폼별 최적 형식으로 분기 발행",
+          "reason": "pr-content 에이전트가 전시 홍보 콘텐츠를 작성하면 각 플랫폼 API MCP(Buffer, Later 등)로 자동 예약 발행하는 에이전트 패턴을 연결하면 SNS 운영 업무량을 절반으로 줄이고 일관된 캠페인 타이밍을 유지할 수 있음",
+          "trend": "rising"
         }
       ]
     },
@@ -71,10 +141,24 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "프로젝트 타임라인 예측 모델링 (PERT/EVM)",
+          "name": "hwpx skill",
           "type": "skill",
-          "desc": "복수 프로젝트의 리소스 경쟁, 병목 구간 사전 파악 및 납기 예측",
-          "reason": "grant-writer, project-planner, doc-design이 동시 진행되는 상황에서 불확실성을 정량화하고 최악 시나리오에 대비하면 예산 초과와 일정 지연 방지 가능하며 이해관계자 신뢰 강화",
+          "desc": "한국 공공기관 제출용 HWP/HWPX 문서를 Claude에서 직접 작성·편집",
+          "reason": "grant-writer·doc-design 에이전트가 지원서와 공문을 작성할 때 HWP 형식 요구사항이 많은 한국 문화예술 공모에서 hwpx 스킬은 필수이며, 기존 서식 파일을 불러와 자동 채우기도 지원함",
+          "trend": "hot"
+        },
+        {
+          "name": "Notion MCP",
+          "type": "mcp",
+          "desc": "Notion 데이터베이스·페이지를 Claude가 읽고 쓰며 프로젝트 관리와 문서화를 통합",
+          "reason": "project-planner 에이전트가 일정·예산·역할 분담을 Notion에 직접 반영하면 팀원이 Claude에 물어보는 것만으로 최신 프로젝트 상태를 확인하고 태스크를 업데이트할 수 있어 커뮤니케이션 비용이 크게 줄어듦",
+          "trend": "hot"
+        },
+        {
+          "name": "멀티 에이전트 지원서 작성 파이프라인",
+          "type": "agent",
+          "desc": "리서치팀이 발굴한 공모 정보를 grant-writer가 지원서로 작성하고 doc-evaluator가 검토하는 자동화 파이프라인",
+          "reason": "grant-research → grant-writer → doc-evaluator → doc-design으로 이어지는 멀티 에이전트 체인을 구성하면 공모 마감 직전 급하게 작업하는 패턴에서 벗어나, 초안 작성부터 최종 제출까지 품질을 유지하면서도 소요 시간을 절반 이하로 줄일 수 있음",
           "trend": "rising"
         }
       ]
