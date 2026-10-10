@@ -6,133 +6,25 @@
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Playwright MCP Server",
-          "type": "mcp",
-          "desc": "Claude가 실제 브라우저를 제어해 UI 테스트 및 자동화를 직접 수행",
-          "reason": "nodetreehome-web 프론트엔드 개발 시 Claude가 직접 브라우저를 열고 클릭·스크린샷·폼 입력까지 처리할 수 있어, QA 및 E2E 테스트 자동화 사이클을 획기적으로 단축할 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "GitHub Actions MCP",
-          "type": "mcp",
-          "desc": "CI/CD 파이프라인 상태 조회 및 워크플로우 트리거를 Claude에서 직접 수행",
-          "reason": "배포 자동화와 PCB 펌웨어 빌드 파이프라인 관리를 대화형으로 처리할 수 있어, 팀의 반복적인 배포 작업을 AI 에이전트가 대신 모니터링·재실행할 수 있음",
-          "trend": "rising"
-        },
-        {
-          "name": "Vercel AI SDK + Tool Use 패턴",
-          "type": "agent",
-          "desc": "React 앱 안에서 Claude tool_use를 활용한 풀스택 AI 기능 통합",
-          "reason": "웹 프론트엔드에 AI 기능을 빠르게 내장할 수 있는 표준 패턴으로 자리잡았으며, streaming UI와 멀티스텝 tool call을 활용해 인터랙티브 미디어아트 전시 사이트에 실시간 AI 가이드 기능을 추가할 수 있음",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "research",
-      "teamName": "리서치팀",
-      "items": [
-        {
-          "name": "Exa Search MCP",
-          "type": "mcp",
-          "desc": "AI 최적화 시맨틱 웹 검색으로 학술 자료·아티스트 레퍼런스를 심층 수집",
-          "reason": "일반 구글 검색 대비 미디어아트, 문화기술, 그랜트 공모 관련 전문 자료를 훨씬 정확하게 찾아주며, Claude와 직접 연동되어 리서치 → 요약 → 보고서 작성 파이프라인을 한 번에 처리할 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "Obsidian MCP Server",
-          "type": "mcp",
-          "desc": "Obsidian 노트 볼트를 Claude가 읽고 쓰는 지식관리 통합",
-          "reason": "팀이 축적한 리서치 노트, 아티스트 레퍼런스, 그랜트 히스토리를 Claude가 직접 검색하고 링크를 추천해 지식 재활용률을 높이며, 신규 리서치 결과를 자동으로 노트로 저장하는 워크플로우를 구축할 수 있음",
-          "trend": "rising"
-        },
-        {
-          "name": "RAG + 장기기억 에이전트 패턴",
-          "type": "agent",
-          "desc": "이전 리서치 문서를 벡터 DB에 저장해 Claude가 맥락 있는 답변을 생성",
-          "reason": "매번 새 대화에서 컨텍스트를 잃는 문제를 해결하며, 과거 그랜트 신청서·전시 보고서·트렌드 분석을 누적 학습해 갈수록 팀에 맞춤화된 인사이트를 제공하는 리서치 어시스턴트를 구현할 수 있음",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "art",
-      "teamName": "예술작업팀",
-      "items": [
-        {
-          "name": "SuperCollider Sound Art Skill",
+          "name": "WebGL 셰이더 성능 프로파일링",
           "type": "skill",
-          "desc": "Claude가 SuperCollider SynthDef·Pattern·OSC 코드를 직접 생성하고 디버깅",
-          "reason": "사운드아트 작업에서 SuperCollider 코드 작성 속도를 크게 높이며, 알고리즘 컴포지션 아이디어를 즉시 프로토타이핑할 수 있음. NODE TREE 특화 스킬로 이미 팀에 맞게 최적화되어 있음",
+          "desc": "GLSL 셰이더 병목을 분석하고 GPU 활용률을 최적화하는 기법",
+          "reason": "Corrosiphonia textilis 전시 기간 중 실시간 시각화 안정성이 핵심 과제입니다. nodetreehome-web의 해양 데이터 렌더링 파이프라인에서 프레임 드랍이 발생할 경우 관람 경험에 직접 영향을 미칩니다. GPU instancing과 uniform buffer 최적화를 통해 대규모 파티클 시스템의 성능을 30% 이상 개선할 수 있습니다.",
           "trend": "hot"
         },
         {
-          "name": "OSC Bridge MCP",
-          "type": "mcp",
-          "desc": "Claude에서 OSC 메시지를 TouchDesigner·SuperCollider·Max/MSP로 직접 전송",
-          "reason": "멀티플랫폼 미디어아트 설치 작업 시 Claude가 직접 퍼포먼스 파라미터를 실시간으로 제어할 수 있어, AI-주도 인터랙티브 설치 작품 개발이 가능해짐",
-          "trend": "rising"
-        },
-        {
-          "name": "Generative Visual Agent 패턴 (p5.js/WebGL)",
-          "type": "agent",
-          "desc": "Claude가 예술적 의도를 해석해 생성형 비주얼 코드를 반복 개선하는 협업 패턴",
-          "reason": "텍스트로 예술 개념을 설명하면 Claude가 p5.js나 GLSL 쉐이더 코드로 구현하고, 결과를 보며 피드백 루프로 작품을 발전시키는 AI 공동창작 워크플로우를 구축할 수 있음",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "accounting",
-      "teamName": "회계팀",
-      "items": [
-        {
-          "name": "Excel/Google Sheets MCP",
-          "type": "mcp",
-          "desc": "Claude가 스프레드시트를 직접 읽고 수식 작성·데이터 분석·정산 자동화 수행",
-          "reason": "saengsanso-accounting의 월간 정산 작업에서 Claude가 직접 엑셀 파일을 열어 카테고리 분류, 합산, 예산 대비 실적 분석까지 처리할 수 있어 수작업 오류를 제거하고 마감 시간을 대폭 단축할 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "PDF 추출 + 문서처리 에이전트",
-          "type": "agent",
-          "desc": "청구서·영수증·계약서 PDF를 자동 파싱해 회계 데이터로 변환하는 멀티스텝 에이전트",
-          "reason": "그랜트 정산 시 수십 건의 영수증과 청구서를 일일이 입력하는 반복 작업을 에이전트가 대신 처리하며, 증빙 서류 목록 자동 생성과 누락 서류 체크까지 가능해 감사 대비 효율이 크게 향상됨",
-          "trend": "rising"
-        },
-        {
-          "name": "HWP/한컴오피스 MCP",
-          "type": "mcp",
-          "desc": "한글(HWP) 문서를 Claude가 읽고 내용 추출 및 요약 처리",
-          "reason": "한국 공공기관 그랜트 및 계약 서류 대부분이 HWP 형식으로 제출되므로, Claude가 직접 HWP 파일을 파싱해 핵심 조항·금액·기한을 추출하면 계약 검토 및 예산 배분 작업이 효율화됨",
-          "trend": "rising"
-        }
-      ]
-    },
-    {
-      "teamId": "design",
-      "teamName": "디자인및홍보팀",
-      "items": [
-        {
-          "name": "Figma MCP Server",
-          "type": "mcp",
-          "desc": "Claude가 Figma 파일을 직접 읽고 디자인 토큰·컴포넌트 구조를 분석",
-          "reason": "Figma 디자인에서 코드로의 핸드오프 과정을 자동화하고, NODE TREE 브랜드 가이드라인을 Claude가 직접 참조해 SNS 콘텐츠의 일관성을 유지하는 AI 기반 디자인 리뷰 워크플로우를 구축할 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "멀티모달 콘텐츠 생성 에이전트",
-          "type": "agent",
-          "desc": "텍스트 브리핑에서 SNS 플랫폼별 최적화된 카피+비주얼 방향을 동시에 생성",
-          "reason": "Instagram, X, 뉴스레터 등 채널별로 다른 콘텐츠 요구사항을 Claude가 한 번의 입력으로 각각 최적화된 형태로 생성하며, NODE TREE의 미디어아트 전시 홍보 캠페인 제작 시간을 크게 단축할 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "Claude Vision 브랜드 일관성 검수 스킬",
+          "name": "ESP32 BLE 멀티 디바이스 동기화",
           "type": "skill",
-          "desc": "업로드된 디자인 시안을 브랜드 가이드라인에 맞게 자동으로 검토",
-          "reason": "외주 디자인이나 팀 내 신규 콘텐츠를 Claude가 이미지 분석으로 컬러, 타이포, 로고 사용 규칙 준수 여부를 체크하면, 수동 QA 없이도 브랜드 일관성을 유지하는 빠른 검수 프로세스를 만들 수 있음",
+          "desc": "여러 ESP32 노드를 BLE로 묶어 실시간 센서 데이터를 동기화하는 방법",
+          "reason": "채널2 해양 데이터 설치 작업에서 복수의 ESP32 센서 노드 간 타이밍 오차가 소니피케이션 정확도를 떨어뜨립니다. BLE 5.0 Extended Advertising과 ESP-NOW 프로토콜을 결합하면 5ms 이내 동기화가 가능합니다. code-evaluator로 펌웨어 검토 후 현장 배포하는 워크플로우를 갖추는 것이 좋습니다.",
           "trend": "rising"
+        },
+        {
+          "name": "React Query 서버 상태 캐싱 전략",
+          "type": "skill",
+          "desc": "nodetreehome-web 해양 API 응답을 효율적으로 캐싱하고 stale 데이터를 관리하는 패턴",
+          "reason": "해양 데이터 API 호출 빈도가 증가하면서 불필요한 네트워크 요청이 서버 부하를 키우고 있습니다. React Query의 staleTime·gcTime 조합으로 실시간성과 성능 사이의 균형을 잡을 수 있습니다. 오프라인 폴백 전략도 함께 구성하면 전시장 네트워크 불안정 상황에서도 데이터가 유지됩니다.",
+          "trend": "stable"
         }
       ]
     },
@@ -141,25 +33,133 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Grant Writing 에이전트 패턴 (RAG 기반)",
-          "type": "agent",
-          "desc": "과거 성공 신청서를 학습해 새 공모전에 맞춤화된 초안을 자동 생성",
-          "reason": "grant-writer 프로젝트에서 이전 승인된 신청서들을 RAG로 인덱싱하면 Claude가 새 공모 요강을 분석해 팀의 어조와 강점이 반영된 초안을 즉시 생성하며, 기획팀의 그랜트 작성 시간을 60% 이상 단축할 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "Notion MCP Server",
-          "type": "mcp",
-          "desc": "Notion 프로젝트 DB를 Claude가 직접 읽고 업데이트하는 기획 관리 통합",
-          "reason": "프로젝트 일정, 마감일, 예산 현황을 Claude가 실시간으로 조회하고 갱신할 수 있어 project-planner의 진행상황 추적이 자동화되며, 회의록 요약 → Notion 자동 업데이트 워크플로우로 회의 후 행정 부담을 줄일 수 있음",
-          "trend": "hot"
-        },
-        {
-          "name": "HWP 문서 생성 스킬 (한글 공문서)",
+          "name": "2027년 문예진흥기금 공모 사전 준비",
           "type": "skill",
-          "desc": "공공기관 제출용 한글(HWP) 형식 기획서·보고서를 Claude가 직접 생성",
-          "reason": "한국 문화예술 기금·지자체 지원사업 대부분이 HWP 형식을 요구하는 상황에서, Claude가 doc-design 프로젝트의 공문서 양식을 학습해 직접 작성하면 제출 준비 시간을 획기적으로 단축하고 형식 오류를 방지할 수 있음",
+          "desc": "한국문화예술위원회 시각예술 창작지원 공모를 위한 기획서 초안 작성",
+          "reason": "통상 11월 초에 공고가 나는 문예진흥기금 시각예술 분야 공모를 위해 지금부터 작가노트와 프로젝트 개요를 정리해두면 공고 후 짧은 마감 기간에도 완성도 높은 지원서를 낼 수 있습니다. Corrosiphonia textilis 전시 성과를 레퍼런스로 포함하면 심사위원 설득력이 높아집니다. grant-writer 에이전트와 doc-design을 연계해 한글 문서 형식으로 완성하는 흐름을 추천합니다.",
+          "trend": "hot"
+        },
+        {
+          "name": "전시 도록 편집 기획",
+          "type": "skill",
+          "desc": "부산현대미술관 Corrosiphonia textilis 전시의 도록 구성안과 텍스트 아키텍처 설계",
+          "reason": "전시가 진행 중인 지금이 도록 제작에 가장 풍부한 현장 자료를 확보할 수 있는 시기입니다. 작가노트, 비평 텍스트, 설치 과정 이미지, 기술 다이어그램을 유기적으로 배치하는 편집 구조를 미리 잡아두면 이후 인쇄 단계가 빨라집니다. Figma 디지털도화서와 HWPX를 병행해 한국어·영어 이중 언어 레이아웃을 구성하는 것이 효율적입니다.",
           "trend": "rising"
+        },
+        {
+          "name": "프로젝트 마일스톤 점검 및 4분기 로드맵",
+          "type": "skill",
+          "desc": "2026년 4분기 작업 일정과 예산 집행 계획을 Obsidian 간트 차트로 정리",
+          "reason": "10월은 연말 결산과 내년도 공모 준비가 겹치는 시기입니다. project-planner 에이전트를 통해 전시 후속 작업, 회계 마감, 공모 지원 일정을 한눈에 보이는 간트 차트로 만들면 팀 내 우선순위 조율이 훨씬 쉬워집니다. 역할별 담당 항목과 마감일을 명시하면 이화영·정강현 두 분의 작업 분담도 명확해집니다.",
+          "trend": "stable"
+        }
+      ]
+    },
+    {
+      "teamId": "design",
+      "teamName": "디자인및홍보팀",
+      "items": [
+        {
+          "name": "전시 현장 아카이브 SNS 캠페인",
+          "type": "skill",
+          "desc": "부산현대미술관 전시 관람 후기와 작품 디테일 컷을 활용한 인스타그램 릴스 시리즈 제작",
+          "reason": "Corrosiphonia textilis 전시가 현재 진행 중인 만큼 관람객 반응과 현장 영상을 실시간으로 SNS에 올리면 전시 후반부 방문자 유입을 늘릴 수 있습니다. @erickoheart 스타일의 어두운 배경과 발광 오브젝트 미학을 릴스에 적용하면 NODE TREE 브랜드 톤과도 일치합니다. pr-content와 visual-design 에이전트를 연계해 하루 1개 이상 콘텐츠를 꾸준히 발행하는 루틴을 만드는 것이 좋습니다.",
+          "trend": "hot"
+        },
+        {
+          "name": "전시 보도자료 배포 후속 대응",
+          "type": "skill",
+          "desc": "미술 매체 및 온라인 문화 채널을 대상으로 한 인터뷰 제안문과 작품 해설 자료 작성",
+          "reason": "전시 개막 이후 미디어 노출 기회를 지속적으로 만들기 위해 큐레이터·비평가·문화부 기자에게 개별 맞춤형 인터뷰 제안을 발송하는 시기입니다. 작품의 해양 생태학적 맥락과 소니피케이션 기술을 쉬운 언어로 풀어낸 해설 자료를 함께 제공하면 기사화 가능성이 높아집니다. pr-content 에이전트로 초안을 잡고 doc-design 에이전트로 PDF 보도자료 패키지를 완성하는 방식을 권장합니다.",
+          "trend": "rising"
+        },
+        {
+          "name": "노드트리 비주얼 아이덴티티 가이드라인 정비",
+          "type": "skill",
+          "desc": "NODE TREE 로고·색상·타이포그래피·이미지 스타일을 정리한 브랜드 가이드 문서 제작",
+          "reason": "전시, 공모, SNS 등 다양한 접점에서 일관된 브랜드 이미지를 유지하기 위한 기준 문서가 필요한 시점입니다. visual-design 에이전트와 Figma를 활용해 컬러 토큰, 폰트 스펙, 여백 규칙을 정의해두면 새 홍보물을 만들 때마다 매번 처음부터 검토하지 않아도 됩니다. 디지털·인쇄 두 가지 환경을 모두 커버하는 가이드라인이 효과적입니다.",
+          "trend": "stable"
+        }
+      ]
+    },
+    {
+      "teamId": "research",
+      "teamName": "리서치팀",
+      "items": [
+        {
+          "name": "2027년 해외 미디어아트 레지던시 목록 조사",
+          "type": "skill",
+          "desc": "유럽·아시아 주요 미디어아트 레지던시 프로그램의 지원 자격, 마감일, 지원금 규모 정리",
+          "reason": "내년도 해외 레지던시 지원을 위해 지금부터 정보를 수집하고 지원 후보를 선별해두는 것이 중요합니다. Ars Electronica, ZKM, 앨리스온 등 NODE TREE 작업과 결이 맞는 기관을 중심으로 grant-research 에이전트를 활용해 마감일 캘린더를 만들어두면 기획팀과 연계가 쉬워집니다. Corrosiphonia textilis 전시 실적이 지원서에 강력한 포트폴리오가 됩니다.",
+          "trend": "hot"
+        },
+        {
+          "name": "부유성 조류 Corrosiphonia 형태학 레퍼런스 아카이브",
+          "type": "skill",
+          "desc": "작품의 생물학적 모티프인 Corrosiphonia 조류의 형태·생태 논문과 현미경 이미지 자료 수집",
+          "reason": "전시 도록, 작가노트, 인터뷰에서 작품의 생물학적 레퍼런스를 구체적으로 언급할 수 있도록 학술 자료를 정리해두는 것이 필요합니다. nodetree-research 에이전트를 통해 해양 생물 데이터베이스와 논문 DB를 탐색하고 Obsidian에 구조화해두면 향후 작업에서도 반복 활용이 가능합니다. 이미지 자료는 출처와 저작권 정보를 함께 기록해두어야 합니다.",
+          "trend": "rising"
+        },
+        {
+          "name": "국내 미디어아트 비평 텍스트 동향 분석",
+          "type": "skill",
+          "desc": "2025~2026년 주요 미술 매체에 발표된 미디어아트 비평의 키워드와 담론 흐름 정리",
+          "reason": "동시대 미디어아트 비평 지형을 파악하면 NODE TREE 작업의 맥락화와 지원서 내 비평적 위치 설정이 정교해집니다. 미술 비평 저널, 전시 도록, 온라인 매체를 대상으로 '소니피케이션', '생태 미디어아트', '데이터 조각' 등 NODE TREE와 연관된 담론을 추출하는 작업입니다. 분기별로 업데이트하면 지속적인 이론 자원으로 활용할 수 있습니다.",
+          "trend": "stable"
+        }
+      ]
+    },
+    {
+      "teamId": "art",
+      "teamName": "예술작업팀",
+      "items": [
+        {
+          "name": "TidalCycles 해양 데이터 라이브 코딩 패턴",
+          "type": "skill",
+          "desc": "채널2 해양 데이터 수치를 TidalCycles 패턴 파라미터에 실시간으로 바인딩하는 라이브 코딩 구조 설계",
+          "reason": "해양 데이터의 수온, 염도, 파고 변화를 TidalCycles의 tempo, gain, pan에 직접 매핑하면 데이터 변화가 음악적 사건으로 즉각 청취됩니다. media-art-pipeline 에이전트가 OSC 신호 라우팅을 담당하고 sound-art 에이전트가 SynthDef를 완성하는 협업 구조가 최적입니다. 현재 Corrosiphonia textilis 전시에서 검증 중인 패턴을 다음 작업의 시드 라이브러리로 체계화해두는 것이 좋습니다.",
+          "trend": "hot"
+        },
+        {
+          "name": "SuperCollider Granular 텍스처 합성",
+          "type": "skill",
+          "desc": "해양 환경 녹음을 그레뉼러 엔진으로 분해·재합성해 몰입형 앰비언트 레이어를 만드는 기법",
+          "reason": "부여 금강 현장 녹음과 부산 해안 음향 자료를 SuperCollider의 GrainBuf·TGrains UGen으로 처리하면 Corrosiphonia 작품의 사운드 팔레트가 더욱 풍부해집니다. 그레뉼러 합성은 파라미터가 많아 ESP32 센서 데이터와의 매핑 자유도가 높다는 장점이 있습니다. Daisy Patch SM에 포팅까지 고려한 DSP 프로토타입을 SuperCollider에서 먼저 완성하는 순서를 권장합니다.",
+          "trend": "rising"
+        },
+        {
+          "name": "TouchDesigner ArtNet 멀티 채널 LED 제어",
+          "type": "skill",
+          "desc": "TouchDesigner에서 ArtNet 프로토콜로 다채널 LED 조명을 실시간 비주얼 데이터와 동기화하는 패턴",
+          "reason": "향후 설치 작업에서 LED 조명을 비주얼 레이어로 통합하는 요구가 높아지고 있습니다. ArtNet 512채널 이상을 TouchDesigner CHOP 레이어로 제어하는 구조를 미리 익혀두면 현장 설치 시간을 크게 단축할 수 있습니다. ESP32를 ArtNet 수신 노드로 사용하는 경량 구성도 NODE TREE 기술 스택과 잘 맞습니다.",
+          "trend": "stable"
+        }
+      ]
+    },
+    {
+      "teamId": "accounting",
+      "teamName": "회계팀",
+      "items": [
+        {
+          "name": "법인세 중간예납 준비",
+          "type": "skill",
+          "desc": "㈜생산소 2026년 법인세 중간예납 납부세액 계산 및 신고 준비",
+          "reason": "법인세 중간예납 납부 마감이 11월 말로 예정되어 있어 10월 중 전기 납부 세액 기준 또는 상반기 실적 기준으로 예납세액을 먼저 계산해두는 것이 필요합니다. saengsanso-accounting 에이전트를 통해 상반기 손익을 빠르게 집계하고 법인세 예납 신고서 초안을 작성하면 세무사 검토 시간을 줄일 수 있습니다. 전시 제작비 계상 여부도 이 시점에 정리해두어야 합니다.",
+          "trend": "hot"
+        },
+        {
+          "name": "부산현대미술관 전시 제작비 정산 준비",
+          "type": "skill",
+          "desc": "Corrosiphonia textilis 전시 제작비 지출 증빙 취합 및 정산 보고서 작성",
+          "reason": "전시가 진행 중인 지금 제작비 지출 내역과 세금계산서, 간이영수증 등 증빙 서류를 일괄 취합해두는 것이 정산 마감 시 매우 유리합니다. e나라도움 또는 보탬e 집행 기준에 맞게 항목을 분류해 grant-accounting 에이전트로 정산서 초안을 만들어두면 담당 기관 제출 전 검토 단계가 간소화됩니다. 영수증 누락 항목은 이 시점에 추가 발급 요청해야 합니다.",
+          "trend": "rising"
+        },
+        {
+          "name": "2026년 2기 부가가치세 신고 준비",
+          "type": "skill",
+          "desc": "㈜생산소 7~12월 매출·매입 세금계산서 현황 정리 및 1월 부가세 신고 대비 선행 정리",
+          "reason": "내년 1월 부가세 신고를 원활하게 하기 위해 10월부터 하반기 매입 세금계산서 누락 여부를 점검하고 전자세금계산서 발행 현황을 홈택스에서 확인해두는 것이 좋습니다. 전시 관련 용역·구매 거래에서 세금계산서 처리가 누락된 건이 없는지 saengsanso-accounting 에이전트로 조회하면 빠르게 파악됩니다. 연말에 한꺼번에 처리하면 오류 위험이 높아지므로 분기별 선행 정리가 효율적입니다.",
+          "trend": "stable"
         }
       ]
     }
