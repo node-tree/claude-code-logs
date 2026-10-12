@@ -1,16 +1,30 @@
 {
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "TypeScript + Next.js 성능 최적화",
-          "type": "skill",
-          "desc": "웹 애플리케이션의 빌드 속도 및 런타임 성능 개선 기법",
-          "reason": "nodetreehome-web 프로젝트의 확장성 있는 개발을 위해 타입 안정성과 SSR/SSG 최적화가 필수적이며, 미디어아트 콘텐츠의 효율적인 제공에 필요",
+          "name": "GitHub MCP Server",
+          "type": "mcp",
+          "desc": "Claude에서 직접 GitHub 저장소 관리, PR 생성 및 코드 리뷰 자동화",
+          "reason": "nodetreehome-web 및 하드웨어 펌웨어 프로젝트의 PR 워크플로우를 Claude 세션 안에서 끊김 없이 처리할 수 있어 배포 속도 향상",
           "trend": "hot"
+        },
+        {
+          "name": "Playwright MCP Server",
+          "type": "mcp",
+          "desc": "헤드리스 브라우저를 통한 UI 자동화 테스트 및 웹 스크래핑 에이전트",
+          "reason": "React 기반 웹 프로젝트의 E2E 테스트를 자연어로 지시하고 실행할 수 있어, 배포 전 회귀 검증 자동화에 직결",
+          "trend": "hot"
+        },
+        {
+          "name": "code-review skill",
+          "type": "skill",
+          "desc": "변경된 diff를 정확성·효율성·보안 관점으로 자동 리뷰하고 인라인 코멘트 게시",
+          "reason": "PCB 펌웨어(ESP32/Arduino)와 웹 코드를 동시에 다루는 팀에서 일관된 코드 품질 기준을 유지하고 보안 취약점을 사전에 차단하는 데 유용",
+          "trend": "rising"
         }
       ]
     },
@@ -19,10 +33,24 @@
       "teamName": "리서치팀",
       "items": [
         {
-          "name": "문헌 관리 및 메타분석 (Zotero/Obsidian)",
+          "name": "deep-research skill",
           "type": "skill",
-          "desc": "연구 자료 체계적 수집, 분류, 인용 관리 및 지식 그래프 구축",
-          "reason": "grant-research와 nodetree-research에서 대량의 학술자료와 미디어아트 트렌드를 효율적으로 정리해야 하며, 그랜트 작성 시 출처 신뢰성 강화 필요",
+          "desc": "복수의 웹 검색과 문서 합성을 거쳐 종합적인 리서치 보고서를 자동 생성",
+          "reason": "미디어아트 트렌드, 국내외 그랜트 공고, 기술 논문을 빠르게 스캔하고 한국어 요약본을 만드는 데 핵심적으로 활용 가능",
+          "trend": "hot"
+        },
+        {
+          "name": "Obsidian MCP Server",
+          "type": "mcp",
+          "desc": "Obsidian 볼트와 Claude를 연결해 노트 검색·생성·링크 그래프 탐색 지원",
+          "reason": "리서치팀이 수집한 레퍼런스와 아이디어를 지식 그래프로 관리하고, 에이전트가 과거 조사 내용을 자동으로 참조해 중복 작업을 줄임",
+          "trend": "rising"
+        },
+        {
+          "name": "Multi-Agent Research Pipeline",
+          "type": "agent",
+          "desc": "검색 → 필터링 → 요약 → 검증 단계를 병렬 에이전트로 분리한 리서치 워크플로우",
+          "reason": "그랜트 지원서 작성 시 관련 선례, 심사 기준, 경쟁 프로젝트를 동시 조사하는 패턴으로 리서치 속도를 3~5배 단축",
           "trend": "rising"
         }
       ]
@@ -32,11 +60,25 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "TouchDesigner GPU 최적화 및 실시간 인터랙티브 디버깅",
+          "name": "supercollider-sound-art-for-daisy skill",
           "type": "skill",
-          "desc": "복잡한 비주얼 이펙트의 성능 프로파일링과 GLSL 셰이더 커스터마이징",
-          "reason": "media-art-pipeline에서 ESP32/TidalCycles와 TouchDesigner를 통합할 때 실시간 오디오-비주얼 싱크로나이제이션의 지연시간 최소화가 핵심이며, GPU 리소스 효율화 필수",
+          "desc": "Daisy Seed 하드웨어 타깃의 SuperCollider 사운드 아트 코드 생성 및 디버깅 지원",
+          "reason": "팀의 사운드 설치 작업에서 ESP32/Daisy 기반 오디오 모듈 개발 시 Claude가 SCLang 코드를 직접 작성·수정해 주므로 프로토타이핑 속도 대폭 향상",
           "trend": "hot"
+        },
+        {
+          "name": "algorithmic-art skill",
+          "type": "skill",
+          "desc": "수학적 알고리즘 기반의 생성형 비주얼 코드(Processing, p5.js, GLSL) 생성",
+          "reason": "TouchDesigner 없이도 Claude가 GLSL 셰이더와 p5.js 스케치를 즉석에서 생성해 설치 작품의 비주얼 프로토타입을 빠르게 실험 가능",
+          "trend": "rising"
+        },
+        {
+          "name": "OSC/MIDI Bridge MCP",
+          "type": "mcp",
+          "desc": "Claude에서 OSC 메시지를 직접 전송해 TouchDesigner·Max MSP·Ableton과 실시간 통신",
+          "reason": "라이브 퍼포먼스와 인터랙티브 설치에서 AI 에이전트가 파라미터를 동적으로 조정하는 새로운 창작 패턴을 가능하게 함",
+          "trend": "rising"
         }
       ]
     },
@@ -45,11 +87,25 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "자동화 회계 워크플로우 (RPA + 회계 소프트웨어 통합)",
+          "name": "xlsx skill",
           "type": "skill",
-          "desc": "반복적인 거래 처리, 영수증 OCR, 자동 분류 및 보고서 생성 자동화",
-          "reason": "saengsanso-accounting과 grant-accounting-agent를 연계할 때 보조금 집행 내역과 일반 회계를 동시에 관리해야 하므로, 수작업 오류 감소 및 감시 기능 강화가 중요",
+          "desc": "Excel/XLSX 파일을 읽고 수식·피벗·차트 포함 재무 보고서를 자동 생성",
+          "reason": "보조금 집행 내역 정산 파일과 예산 시트를 Claude가 직접 분석하고 오류를 검출할 수 있어 결산 작업 시간 단축",
+          "trend": "hot"
+        },
+        {
+          "name": "pdf skill",
+          "type": "skill",
+          "desc": "PDF 영수증·계약서·세금계산서에서 데이터를 추출해 구조화된 형식으로 변환",
+          "reason": "스캔본 영수증과 전자세금계산서를 자동으로 파싱해 회계 소프트웨어 입력용 CSV로 변환, 수작업 오류 최소화",
           "trend": "rising"
+        },
+        {
+          "name": "google-workspace skill",
+          "type": "skill",
+          "desc": "Google Sheets·Drive·Docs와 연동해 재무 데이터를 클라우드에서 직접 조회·편집",
+          "reason": "보조금 지출 현황을 Google Sheets로 실시간 공유하고, Claude가 직접 시트를 업데이트하는 자동화 워크플로우 구현 가능",
+          "trend": "stable"
         }
       ]
     },
@@ -58,11 +114,25 @@
       "teamName": "디자인및홍보팀",
       "items": [
         {
-          "name": "생성형 AI 프롬프트 엔지니어링 (멀티모달 이미지/영상)",
+          "name": "canvas-design skill",
           "type": "skill",
-          "desc": "DALL-E, Midjourney, Runway 등을 활용한 PR 콘텐츠 및 비주얼 에셋 신속 생성",
-          "reason": "visual-design과 pr-content에서 미디어아트 콘셉트의 시각적 표현을 빠르게 프로토타입하고 SNS 콘텐츠를 대량 제작해야 하며, 브랜드 일관성 유지 필요",
+          "desc": "Figma 없이 Claude에서 직접 UI 레이아웃, 포스터, SNS 카드 디자인 생성",
+          "reason": "전시 홍보물과 SNS 콘텐츠를 텍스트 지시만으로 빠르게 시안화하고, 브랜드 컬러·폰트 가이드라인을 코드로 관리해 일관성 유지",
           "trend": "hot"
+        },
+        {
+          "name": "Figma MCP Server",
+          "type": "mcp",
+          "desc": "Figma 파일을 Claude에서 직접 읽고 컴포넌트 추출·코드 생성·에셋 내보내기 자동화",
+          "reason": "디자인팀이 Figma에서 작업한 결과물을 개발팀 코드와 즉시 연동하고, Claude가 디자인 토큰을 CSS 변수로 자동 변환해 협업 마찰 감소",
+          "trend": "hot"
+        },
+        {
+          "name": "SNS Content Batch Agent",
+          "type": "agent",
+          "desc": "하나의 전시 정보에서 Instagram·X·뉴스레터용 포맷별 콘텐츠를 병렬 생성하는 에이전트",
+          "reason": "전시 오프닝 전후 SNS 운영 부담을 줄이기 위해, 한 번의 입력으로 여러 채널 형식에 맞는 한·영 캡션과 해시태그를 자동 생성",
+          "trend": "rising"
         }
       ]
     },
@@ -71,11 +141,25 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "이해관계자 맵핑 및 시나리오 기획 (Futures Thinking)",
+          "name": "docx skill",
           "type": "skill",
-          "desc": "프로젝트의 다양한 이해관계자 분석 및 불확실성 대응 시나리오 수립",
-          "reason": "grant-writer와 project-planner가 협력하여 정부 지원금, 민간 후원, 국제 협력 등 복잡한 자금 조달을 계획할 때 리스크 요인과 기회 요소를 체계적으로 분석하고 문서화 필요",
+          "desc": "제안서·보고서·계획서를 Word DOCX 포맷으로 직접 생성하고 서식 적용",
+          "reason": "정부 보조금 신청서와 협약서를 Claude가 한국어로 초안 작성하고 DOCX로 바로 출력해, 검토·제출 사이클을 단축",
+          "trend": "hot"
+        },
+        {
+          "name": "hwpx skill",
+          "type": "skill",
+          "desc": "한국 공공기관 표준인 HWP/HWPX 문서를 읽고 생성하는 기능 지원",
+          "reason": "문화체육관광부·예술위원회 등 국내 공공기관 공문과 신청서가 HWP 형식을 요구하므로, 별도 변환 없이 Claude에서 직접 처리 가능",
           "trend": "rising"
+        },
+        {
+          "name": "Grant Writing Multi-Step Agent",
+          "type": "agent",
+          "desc": "공고 분석 → 적합성 평가 → 섹션별 초안 생성 → 교차 검토를 단계별로 수행하는 그랜트 작성 파이프라인",
+          "reason": "문예위·한국문화예술교육진흥원 등 연간 다수의 공모에 응하는 팀에서, 각 공모별 요구사항에 맞게 자동 커스터마이즈된 제안서를 신속하게 작성",
+          "trend": "hot"
         }
       ]
     }
