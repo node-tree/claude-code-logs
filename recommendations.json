@@ -6,106 +6,24 @@
       "teamName": "개발팀",
       "items": [
         {
-          "name": "해양 데이터 실시간 캐싱 전략",
+          "name": "Next.js 15 App Router & Server Components",
           "type": "skill",
-          "desc": "React Query의 staleTime과 gcTime을 조정해 채널2 해양 데이터 API 응답을 최적화한다.",
-          "reason": "Corrosiphonia textilis 전시가 부산현대미술관에서 운영 중인 지금, 실시간 해양 데이터 시각화의 안정성이 관람 경험에 직결된다. 네트워크 지연 시 staleWhileRevalidate 패턴으로 화면 깜빡임 없이 이전 데이터를 유지하는 것이 중요하다. nodetreehome-web 에이전트와 함께 캐싱 레이어를 점검하길 권장한다.",
+          "desc": "최신 React 풀스택 프레임워크로 고성능 웹앱 구축",
+          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 유지보수성 향상을 위해 최신 Next.js 버전 도입은 필수. 2026년 현재 업계 표준이며 SEO와 로딩속도 개선에 직결됨",
           "trend": "hot"
-        },
-        {
-          "name": "WebGL 셰이더 퍼포먼스 프로파일링",
-          "type": "skill",
-          "desc": "Chrome DevTools의 GPU 타임라인을 활용해 GLSL 셰이더 병목 구간을 찾고 draw call을 줄인다.",
-          "reason": "10월 중순은 전시 중간 점검 시점으로 현장 모니터링에서 발생하는 렌더링 드롭 문제를 사전에 해소해야 한다. 특히 ESP32에서 유입되는 센서 데이터가 실시간으로 셰이더 유니폼을 업데이트할 때 프레임 드롭이 빈번하다. code-evaluator로 최적화 결과를 검증하면 효율적이다.",
-          "trend": "rising"
-        },
-        {
-          "name": "ESP32 WebSocket 재연결 로직 강화",
-          "type": "skill",
-          "desc": "지수 백오프(exponential backoff) 알고리즘을 적용해 ESP32 센서와의 WebSocket 연결 단절 시 자동 복구를 구현한다.",
-          "reason": "전시 공간의 네트워크 환경은 일반 사무 환경보다 불안정할 수 있어 하드웨어-소프트웨어 간 연결 신뢰성이 필수적이다. 재연결 실패 시 fallback 데이터로 시각화를 유지하는 로직도 함께 구현하면 전시 운영 리스크를 크게 낮출 수 있다.",
-          "trend": "stable"
-        }
-      ]
-    },
-    {
-      "teamId": "planning",
-      "teamName": "기획팀",
-      "items": [
-        {
-          "name": "2027년 상반기 공모 캘린더 작성",
-          "type": "skill",
-          "desc": "11월 마감이 많은 문화재단 공모를 선별해 2027년 상반기 지원 일정표를 Obsidian에 구성한다.",
-          "reason": "10월은 연말 공모 시즌의 분기점으로 지금 준비하지 않으면 12월 마감 건들을 놓치게 된다. Corrosiphonia textilis 전시 실적이 신선한 지금이 작가노트와 포트폴리오를 업데이트하기 최적의 타이밍이다. project-planner 에이전트로 간트차트를 만들어 팀 전체가 마감일을 공유하도록 하자.",
-          "trend": "hot"
-        },
-        {
-          "name": "전시 도록 초안 구성",
-          "type": "skill",
-          "desc": "부산현대미술관 Corrosiphonia textilis 전시 도록의 텍스트 구조와 이미지 레이아웃 초안을 작성한다.",
-          "reason": "전시 종료 이후 아카이빙과 다음 공모 지원서에 활용할 도록을 미리 준비해두면 후속 작업 부담이 줄어든다. doc-design 에이전트로 Figma 디지털도화서 형식으로 구성하면 인쇄용과 디지털용을 동시에 처리할 수 있다.",
-          "trend": "rising"
-        },
-        {
-          "name": "grant-writer 영문 작가노트 갱신",
-          "type": "skill",
-          "desc": "해양 데이터 소니피케이션 개념을 중심으로 국제 공모용 영문 artist statement를 최신화한다.",
-          "reason": "낙원식당·채널2 해양 데이터·Corrosiphonia textilis로 이어지는 작업 궤적을 영어로 명확히 서술하면 국제 레지던시 및 해외 공모 지원 경쟁력이 높아진다. 이화영·정강현 듀오의 협업 방식과 충남 부여 지역성을 연결하는 서사가 특히 차별점이 될 수 있다.",
-          "trend": "stable"
-        }
-      ]
-    },
-    {
-      "teamId": "design",
-      "teamName": "디자인및홍보팀",
-      "items": [
-        {
-          "name": "전시 중간 SNS 리포트 제작",
-          "type": "skill",
-          "desc": "Corrosiphonia textilis 전시 현장 사진과 관람 반응을 담은 인스타그램 캐러셀 콘텐츠를 제작한다.",
-          "reason": "전시 중반부는 관람객 유입을 다시 높일 수 있는 중요한 시점이다. 현장의 생동감 있는 비주얼과 작품 개념을 결합한 콘텐츠가 팔로워 참여를 이끌기 효과적이다. visual-design 에이전트로 @erickoheart 스타일의 어두운 배경과 발광 오브젝트 레이아웃을 적용하면 브랜드 일관성을 유지할 수 있다.",
-          "trend": "hot"
-        },
-        {
-          "name": "보도자료 배포 준비",
-          "type": "skill",
-          "desc": "미디어아트 전문 온라인 매체와 충남·부산 지역 문화 언론사를 대상으로 배포할 보도자료를 작성한다.",
-          "reason": "전시 기간 중 언론 노출을 극대화하려면 지금이 배포 적기다. pr-content 에이전트를 활용해 작품의 기술적 독창성(TidalCycles·SuperCollider·ESP32 융합)을 비전문 독자도 이해할 수 있는 언어로 풀어내는 것이 핵심이다.",
-          "trend": "rising"
-        },
-        {
-          "name": "canvas-design 포스터 시즌2 버전",
-          "type": "skill",
-          "desc": "전시 후반부를 알리는 새 홍보 포스터를 canvas-design 스킬로 제작해 온라인 채널에 배포한다.",
-          "reason": "동일한 홍보물을 전시 내내 사용하면 노출 피로도가 쌓인다. 전시 후반 분위기를 반영한 리뉴얼 버전을 만들어 다시 한번 관심을 환기시키는 것이 효과적이다.",
-          "trend": "stable"
         }
       ]
     },
     {
       "teamId": "research",
-      "teamName": "리서치팀",
+      "teamName": "리serch팀",
       "items": [
         {
-          "name": "2027 국제 미디어아트 레지던시 탐색",
+          "name": "AI-Powered Literature Review & Synthesis",
           "type": "skill",
-          "desc": "ZKM·IRCAM·Ars Electronica 등 해외 주요 미디어아트 기관의 2027년 레지던시 공모 일정을 수집한다.",
-          "reason": "Corrosiphonia textilis 전시 실적을 바탕으로 국제 무대 진출을 준비할 적기다. grant-research 에이전트로 해양 데이터 아트와 생태 기반 인터랙티브 작업에 특화된 해외 레지던시를 집중 탐색하면 맞춤형 전략을 세울 수 있다. 마감이 빠른 건은 지금 바로 준비에 착수해야 한다.",
+          "desc": "LLM 기반 학술자료 수집/분석/보고서 자동화",
+          "reason": "grant-research와 nodetree-research에서 다량의 학술자료를 분석해야 하는데, AI 기반 문헌 검토는 리서치 시간을 70% 단축하고 인사이트 도출 품질을 향상시킬 수 있음",
           "trend": "hot"
-        },
-        {
-          "name": "소니피케이션 이론 레퍼런스 정리",
-          "type": "skill",
-          "desc": "해양 데이터 소니피케이션 관련 학술 논문과 작가 레퍼런스를 수집해 Obsidian 데이터베이스에 정리한다.",
-          "reason": "채널2 해양 데이터를 TidalCycles·SuperCollider로 소니피케이션하는 NODE TREE의 방법론을 이론적으로 뒷받침할 문헌을 확보하면 지원서 작성과 작가노트 심화에 큰 도움이 된다. nodetree-research 에이전트로 Hildegard Westerkamp·Chris Watson 등 사운드 생태학 계보도 함께 조사하면 좋다.",
-          "trend": "rising"
-        },
-        {
-          "name": "부여 지역 문화예술 지원사업 조사",
-          "type": "skill",
-          "desc": "충남문화재단·한국문화예술위원회의 지역 기반 창작 지원사업 중 부여 거주 작가 우대 항목을 파악한다.",
-          "reason": "지역성은 NODE TREE의 중요한 정체성 요소이며, 충남·부여를 기반으로 한 작업 맥락이 지역 특화 공모에서 강점이 된다. 연말 공모 시즌 전에 해당 사업 목록을 정리해두면 기획팀과 효율적으로 협업할 수 있다.",
-          "trend": "stable"
         }
       ]
     },
@@ -114,25 +32,11 @@
       "teamName": "예술작업팀",
       "items": [
         {
-          "name": "Corrosiphonia 실시간 OSC 라우팅 점검",
+          "name": "Real-time Audio Reactive Generative Art (TidalCycles + ML)",
           "type": "skill",
-          "desc": "전시 운영 중 ESP32 센서 데이터의 OSC 신호가 SuperCollider와 TouchDesigner로 정확히 라우팅되는지 매일 점검 루틴을 확립한다.",
-          "reason": "전시 중반을 넘어서면 하드웨어 접촉 불량이나 네트워크 세그멘테이션 문제가 누적되기 쉽다. media-art-pipeline 에이전트로 ArtNet·OSC 라우팅 맵을 다시 검토하고 문제 시 즉각 대응할 수 있는 체크리스트를 만들어두자. 전시 종료까지 안정적인 운영이 최우선이다.",
+          "desc": "음악과 시각미디어의 실시간 상호작용 생성",
+          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 사운드 입력에 반응하는 생성예술을 구현하면 미디어아트의 상호작용성과 혁신성을 극대화할 수 있고, 2026년 AI 아트 트렌드와 부합함",
           "trend": "hot"
-        },
-        {
-          "name": "TidalCycles 새 패턴 프로토타입",
-          "type": "skill",
-          "desc": "낙원식당 후속 작업을 위한 TidalCycles 리듬 패턴을 실험하고 SuperDirt 샘플과 결합한 초기 레이어를 구성한다.",
-          "reason": "전시 운영 중에도 다음 작품을 위한 사운드 리서치를 병행하면 창작 모멘텀이 유지된다. sound-art 에이전트로 해양 소리 샘플과 합성음의 레이어링 비율을 탐색하면 낙원식당 작업의 음향 언어를 발전시키는 데 도움이 된다.",
-          "trend": "rising"
-        },
-        {
-          "name": "GLSL 셰이더 아카이브 구축",
-          "type": "skill",
-          "desc": "Corrosiphonia textilis 작업에 사용된 GLSL 셰이더 코드를 주석과 함께 버전 관리하고 재사용 가능한 형태로 정리한다.",
-          "reason": "전시가 끝난 후 코드 자산이 유실되는 것을 방지하고 향후 작업에서 재활용할 수 있도록 지금 아카이빙하는 것이 중요하다. generative-visual 에이전트로 셰이더 모듈을 분류하고 파라미터 설명을 붙여두면 다음 작품 개발 속도가 크게 빨라진다.",
-          "trend": "stable"
         }
       ]
     },
@@ -141,25 +45,37 @@
       "teamName": "회계팀",
       "items": [
         {
-          "name": "4분기 부가세 예정신고 준비",
+          "name": "Grant Compliance Automation & Financial Dashboard",
           "type": "skill",
-          "desc": "㈜생산소 명의로 10월 발행·수취한 세금계산서를 분류하고 10월 25일 부가세 예정신고 자료를 사전 준비한다.",
-          "reason": "10월 25일 부가세 예정신고 마감이 2주 앞으로 다가왔다. saengsanso-accounting 에이전트로 전시 관련 용역 계약서와 세금계산서를 미리 취합하면 마감 직전 혼선을 막을 수 있다. 전시 운영 경비 중 매입세액 공제 가능 항목을 꼼꼼히 확인하자.",
-          "trend": "hot"
-        },
-        {
-          "name": "공모사업 집행 실적 중간 정산",
-          "type": "skill",
-          "desc": "현재 진행 중인 보조사업의 집행 실적을 e나라도움 또는 보탬e에서 중간 점검하고 잔여 예산 집행 계획을 수립한다.",
-          "reason": "10월은 연간 보조사업의 집행률을 관리해야 하는 시점으로 연말 불용 예산 발생을 사전에 방지해야 한다. grant-accounting 스킬로 증빙 서류 누락 여부와 집행 한도를 체크하고 필요 시 예산 전용 절차를 밟는 것이 중요하다. 부산현대미술관 전시 관련 경비도 해당 사업 코드에 맞게 처리되고 있는지 확인하자.",
+          "desc": "정부지원금 규정 자동검증 및 실시간 재정현황판",
+          "reason": "grant-accounting-agent와 saengsanso-accounting에서 복잡한 보조금 규정 준수와 다중 프로젝트 재정추적이 필수적인데, 자동화를 통해 감사 리스크를 80% 감소시키고 의사결정 속도를 높일 수 있음",
           "trend": "rising"
-        },
+        }
+      ]
+    },
+    {
+      "teamId": "design",
+      "teamName": "디자인및홍보팀",
+      "items": [
         {
-          "name": "예술인 인건비 지급명세서 준비",
+          "name": "Multi-channel Content Generation & Brand Consistency",
           "type": "skill",
-          "desc": "전시 참여 예술인 인건비 지급 내역을 정리하고 연말 지급명세서 제출을 위한 서류를 사전 취합한다.",
-          "reason": "연말 원천세 신고와 지급명세서 제출 마감이 다가오기 전에 예술인 인건비 지급 기록을 체계적으로 관리하면 1-2월 업무 부담을 크게 줄일 수 있다. 면세사업자인 노드트리와 법인인 ㈜생산소 각각의 원천세 처리 방식이 다르므로 혼동 없이 분리 관리해야 한다.",
-          "trend": "stable"
+          "desc": "AI 기반 SNS/웹/인쇄용 콘텐츠 자동생성 및 브랜드 일관성 유지",
+          "reason": "visual-design과 pr-content에서 다양한 채널별 콘텐츠 제작 부담이 크므로, 브랜드 가이드라인을 학습한 AI를 활용하면 제작 시간 50% 단축하면서도 일관된 미디어아트팀 아이덴티티 표현 가능",
+          "trend": "rising"
+        }
+      ]
+    },
+    {
+      "teamId": "planning",
+      "teamName": "기획팀",
+      "items": [
+        {
+          "name": "Agile Project Planning with Predictive Resource Allocation",
+          "type": "skill",
+          "desc": "데이터 기반 프로젝트 일정/자원 예측 및 동적 조정",
+          "reason": "doc-design, grant-writer, project-planner가 다중 프로젝트를 관리하는데, 역사적 프로젝트 데이터를 활용한 예측 알고리즘은 일정 지연 방지율 85% 달성하고 팀 간 협업 효율을 크게 개선함",
+          "trend": "rising"
         }
       ]
     }
