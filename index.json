@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-15T11:31:10.549958+00:00",
+  "lastUpdated": "2026-10-15T11:34:50.674830+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "cedfb988",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T11:14:23.019000+00:00",
+      "durationSeconds": 1471,
+      "modelTier": "opus",
+      "projectName": "자료실",
+      "toolCallCount": 92,
+      "agentsUsed": [
+        "research"
+      ]
+    },
     {
       "sessionId": "c2875a51",
       "date": "2026-10-15",
@@ -3210,16 +3222,6 @@
       "modelTier": "unknown",
       "projectName": "nl-livecoding",
       "toolCallCount": 39,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c63d3340",
-      "date": "2026-09-07",
-      "startTime": "2026-09-07T23:33:22.506000+00:00",
-      "durationSeconds": 934,
-      "modelTier": "unknown",
-      "projectName": "디지털도화서",
-      "toolCallCount": 31,
       "agentsUsed": []
     }
   ]
