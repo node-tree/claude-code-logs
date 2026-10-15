@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:37:07.098999+00:00",
+  "lastUpdated": "2026-10-15T08:37:32.859126+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -20,6 +20,16 @@
       "modelTier": "fable",
       "projectName": "db-backup",
       "toolCallCount": 30,
+      "agentsUsed": []
+    },
+    {
+      "sessionId": "17deae0b",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T08:29:32.030000+00:00",
+      "durationSeconds": 477,
+      "modelTier": "fable",
+      "projectName": "db-backup",
+      "toolCallCount": 20,
       "agentsUsed": []
     },
     {
@@ -3206,16 +3216,6 @@
       "modelTier": "unknown",
       "projectName": "memory",
       "toolCallCount": 41,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c483174f",
-      "date": "2026-09-07",
-      "startTime": "2026-09-07T15:58:26.459000+00:00",
-      "durationSeconds": 26917,
-      "modelTier": "unknown",
-      "projectName": "게임",
-      "toolCallCount": 43,
       "agentsUsed": []
     }
   ]
