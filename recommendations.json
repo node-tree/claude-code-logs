@@ -1,67 +1,22 @@
 {
-  "lastUpdated": "2026-10-13",
+  "lastUpdated": "2026-10-15",
   "recommendations": [
     {
       "teamId": "dev",
       "teamName": "개발팀",
       "items": [
         {
-          "name": "Next.js 15 App Router & Server Components",
+          "name": "td-guide",
           "type": "skill",
-          "desc": "최신 React 풀스택 프레임워크로 고성능 웹앱 구축",
-          "reason": "nodetreehome-web 프로젝트의 성능 최적화와 유지보수성 향상을 위해 최신 Next.js 버전 도입은 필수. 2026년 현재 업계 표준이며 SEO와 로딩속도 개선에 직결됨",
+          "desc": "TouchDesigner MCP 패턴과 GLSL 셰이더로 실시간 해양 데이터 시각화를 구현한다.",
+          "reason": "부산현대미술관 Corrosiphonia textilis 전시가 진행 중인 지금, nodetreehome-web의 채널2 해양 API 데이터를 TouchDesigner로 실시간 렌더링하는 파이프라인 최적화가 필요하다. CHOP을 통한 데이터 스트리밍과 TOP 합성 패턴을 점검하면 전시장 현장 퍼포먼스 안정성이 높아진다. 이번 주 code-evaluator와 함께 성능 벤치마크를 돌려볼 좋은 시점이다.",
           "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "research",
-      "teamName": "리serch팀",
-      "items": [
+        },
         {
-          "name": "AI-Powered Literature Review & Synthesis",
+          "name": "kicad-pcb-design",
           "type": "skill",
-          "desc": "LLM 기반 학술자료 수집/분석/보고서 자동화",
-          "reason": "grant-research와 nodetree-research에서 다량의 학술자료를 분석해야 하는데, AI 기반 문헌 검토는 리서치 시간을 70% 단축하고 인사이트 도출 품질을 향상시킬 수 있음",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "art",
-      "teamName": "예술작업팀",
-      "items": [
-        {
-          "name": "Real-time Audio Reactive Generative Art (TidalCycles + ML)",
-          "type": "skill",
-          "desc": "음악과 시각미디어의 실시간 상호작용 생성",
-          "reason": "ESP32/TidalCycles/TouchDesigner 파이프라인에서 사운드 입력에 반응하는 생성예술을 구현하면 미디어아트의 상호작용성과 혁신성을 극대화할 수 있고, 2026년 AI 아트 트렌드와 부합함",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "accounting",
-      "teamName": "회계팀",
-      "items": [
-        {
-          "name": "Grant Compliance Automation & Financial Dashboard",
-          "type": "skill",
-          "desc": "정부지원금 규정 자동검증 및 실시간 재정현황판",
-          "reason": "grant-accounting-agent와 saengsanso-accounting에서 복잡한 보조금 규정 준수와 다중 프로젝트 재정추적이 필수적인데, 자동화를 통해 감사 리스크를 80% 감소시키고 의사결정 속도를 높일 수 있음",
-          "trend": "rising"
-        }
-      ]
-    },
-    {
-      "teamId": "design",
-      "teamName": "디자인및홍보팀",
-      "items": [
-        {
-          "name": "Multi-channel Content Generation & Brand Consistency",
-          "type": "skill",
-          "desc": "AI 기반 SNS/웹/인쇄용 콘텐츠 자동생성 및 브랜드 일관성 유지",
-          "reason": "visual-design과 pr-content에서 다양한 채널별 콘텐츠 제작 부담이 크므로, 브랜드 가이드라인을 학습한 AI를 활용하면 제작 시간 50% 단축하면서도 일관된 미디어아트팀 아이덴티티 표현 가능",
+          "desc": "KiCad로 ESP32 기반 Eurorack 모듈 PCB를 설계하고 Gerber를 출력한다.",
+          "reason": "Corrosiphonia textilis 다음 단계 작업에서 ESP32 센서 노드를 직접 제작하려면 커스텀 PCB가 필요하다. 현재 브레드보드 프로토타입을 고정 설계로 전환할 적기이며, DRC 자동화로 회로 오류를 사전 차단할 수 있다. 부여 작업실 공간에서 소량 생산하기에도 적합한 규모다.",
           "trend": "rising"
         }
       ]
@@ -71,11 +26,98 @@
       "teamName": "기획팀",
       "items": [
         {
-          "name": "Agile Project Planning with Predictive Resource Allocation",
+          "name": "grant-writer",
+          "type": "agent",
+          "desc": "NODE TREE 작가노트·지원서·제안서를 한영 양방향으로 작성한다.",
+          "reason": "10월은 국내외 레지던시와 내년 공모 지원 마감이 집중되는 시기다. 부산현대미술관 전시 실적을 레퍼런스로 활용한 영문 artist statement를 지금 업데이트해두면 내년 상반기 해외 공모에 즉시 대응할 수 있다. 낙원식당·채널2 해양데이터 작업을 연결하는 통합 작가노트 초안도 함께 준비하는 것을 권장한다.",
+          "trend": "hot"
+        },
+        {
+          "name": "project-planner",
+          "type": "agent",
+          "desc": "프로젝트 일정·예산·역할을 Obsidian 간트 차트로 시각화하고 관리한다.",
+          "reason": "전시 종료 후 결과 보고와 다음 프로젝트 착수가 겹치는 시점에 전체 로드맵을 정비해야 한다. 2026 4분기 남은 일정과 2027 예산 계획을 지금 정리하면 보조사업 정산 일정과 충돌을 미리 방지할 수 있다. Obsidian 캔버스에 역할 분담표를 시각화해두면 이화영·정강현 두 작가의 협업 흐름도 명확해진다.",
+          "trend": "stable"
+        }
+      ]
+    },
+    {
+      "teamId": "design",
+      "teamName": "디자인및홍보팀",
+      "items": [
+        {
+          "name": "canvas-design",
           "type": "skill",
-          "desc": "데이터 기반 프로젝트 일정/자원 예측 및 동적 조정",
-          "reason": "doc-design, grant-writer, project-planner가 다중 프로젝트를 관리하는데, 역사적 프로젝트 데이터를 활용한 예측 알고리즘은 일정 지연 방지율 85% 달성하고 팀 간 협업 효율을 크게 개선함",
+          "desc": "어두운 배경과 발광 오브젝트 스타일로 전시 홍보 포스터와 SNS 이미지를 생성한다.",
+          "reason": "Corrosiphonia textilis 전시 현장 사진과 작품 개념을 결합한 인스타그램 아카이브 콘텐츠를 지금 제작하면 전시 종료 후 바이럴 효과를 극대화할 수 있다. @erickoheart 스타일의 세로 타이포와 영화 크레딧 레이아웃은 NODE TREE의 시각 언어와 잘 맞는다. 이번 시리즈를 포트폴리오 PDF와 동일한 비주얼 스타일로 통일하면 브랜드 일관성도 높아진다.",
+          "trend": "hot"
+        },
+        {
+          "name": "pr-content",
+          "type": "agent",
+          "desc": "SNS·웹·언론용 홍보 텍스트를 NODE TREE 작품 맥락에 맞게 작성한다.",
+          "reason": "전시 기간 중 생성한 현장 기록과 관객 반응을 바탕으로 보도자료 최종본을 만들어야 할 시점이다. 해양 데이터와 생체 텍스타일의 교차점을 설명하는 짧은 작품 설명문을 지금 완성해두면 이후 공모 신청과 아카이브 작업에 재활용하기 쉽다. 한국어와 영어 양쪽 버전을 동시에 준비하면 해외 미디어 문의에도 즉시 대응할 수 있다.",
           "trend": "rising"
+        }
+      ]
+    },
+    {
+      "teamId": "research",
+      "teamName": "리서치팀",
+      "items": [
+        {
+          "name": "grant-research",
+          "type": "agent",
+          "desc": "NODE TREE에 맞는 공모·레지던시·어워드를 발굴하고 마감일을 전략적으로 정리한다.",
+          "reason": "10월 중순은 내년 봄 해외 레지던시 공모가 열리는 시기로, 미디어아트 특화 프로그램을 선제적으로 파악해야 한다. Corrosiphonia textilis를 실적으로 제출할 수 있는 국제 어워드 리스트를 지금 갱신하면 grant-writer 작업의 속도를 높일 수 있다. 일본·독일·네덜란드 등 미디어아트 레지던시 마감 일정을 한눈에 정리해둘 것을 권장한다.",
+          "trend": "hot"
+        },
+        {
+          "name": "notebooklm-research",
+          "type": "skill",
+          "desc": "URL을 NotebookLM으로 분석하고 Obsidian에 구조화된 리서치 노트를 저장한다.",
+          "reason": "채널2 해양 데이터 프로젝트의 이론적 배경을 강화하려면 해양 생태학·바이오아트 교차점 문헌을 체계적으로 정리해야 한다. 부산현대미술관 전시 관련 언론 기사와 리뷰 URL을 NotebookLM으로 아카이빙해두면 향후 평론 글쓰기와 레지던시 제안서 작성에 바로 활용할 수 있다. Obsidian 저장 기능을 이용해 프로젝트별 리서치 허브를 구축하면 팀 전체 지식 자산이 된다.",
+          "trend": "rising"
+        }
+      ]
+    },
+    {
+      "teamId": "art",
+      "teamName": "예술작업팀",
+      "items": [
+        {
+          "name": "media-art-pipeline",
+          "type": "agent",
+          "desc": "해양 데이터 소니피케이션·시각화 파이프라인을 설계하고 OSC/ArtNet 라우팅을 최적화한다.",
+          "reason": "Corrosiphonia textilis 전시에서 검증된 데이터→감각 매핑 구조를 다음 작업의 베이스라인으로 문서화할 절호의 시점이다. ESP32 센서 데이터를 SuperCollider와 TouchDesigner에 동시 라우팅하는 OSC 아키텍처를 정비하면 이후 프로젝트의 시스템 통합 시간이 크게 단축된다. sound-art·generative-visual과의 인터페이스 스펙도 이번 기회에 공식 문서로 남겨두길 권장한다.",
+          "trend": "hot"
+        },
+        {
+          "name": "supercollider-sound-art",
+          "type": "skill",
+          "desc": "SuperCollider SynthDef·그레뉼러·드론으로 해양 데이터 기반 실험 사운드를 구현한다.",
+          "reason": "낙원식당 프로젝트와 채널2 해양 데이터 작업에서 축적한 TidalCycles 패턴을 SuperCollider SynthDef로 이식하면 Eurorack 출력 경로가 열린다. 가을 바다의 낮은 수온과 높아진 파고 데이터를 그레뉼러 합성 파라미터로 매핑하면 계절적 음향 변화를 작품에 담을 수 있다. Daisy Patch SM 포팅을 고려한 DSP 프로토타입도 병행하면 하드웨어 공연 준비가 빨라진다.",
+          "trend": "rising"
+        }
+      ]
+    },
+    {
+      "teamId": "accounting",
+      "teamName": "회계팀",
+      "items": [
+        {
+          "name": "saengsanso-accounting",
+          "type": "agent",
+          "desc": "㈜생산소 법인세·부가세·원천세·법인카드 경비를 전문적으로 처리한다.",
+          "reason": "10월은 3분기 부가세 예정신고(10/25 마감)와 법인카드 경비 정리가 겹치는 시기다. 전시 관련 지출—부산 출장비·설치 재료비·촬영비—을 법인 비용으로 처리하려면 세금계산서와 카드 명세서를 지금 취합해야 마감에 여유가 생긴다. saengsanso-accounting 에이전트를 통해 부가세 예정신고서 초안을 먼저 생성해두면 세무사 검토 시간을 단축할 수 있다.",
+          "trend": "hot"
+        },
+        {
+          "name": "grant-accounting",
+          "type": "skill",
+          "desc": "공모사업 보조금 집행·정산·증빙 서류를 e나라도움·보탬e 기준으로 처리한다.",
+          "reason": "연말 정산을 앞두고 현재 진행 중인 보조사업의 집행 잔액과 증빙 현황을 점검해야 한다. 사업비 집행 기간 종료 전에 미집행 예산 전용 여부를 확인하고 인건비 지급명세서를 정리하면 내년 초 정산 제출이 수월해진다. NCAS 입력 오류를 사전에 검토하는 것도 이 시점에 함께 진행하길 권장한다.",
+          "trend": "stable"
         }
       ]
     }
