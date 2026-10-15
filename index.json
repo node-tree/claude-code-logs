@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-15T08:30:24.336565+00:00",
+  "lastUpdated": "2026-10-15T08:31:44.856444+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "bc4f3980",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T08:29:34.962000+00:00",
+      "durationSeconds": 125,
+      "modelTier": "fable",
+      "projectName": "db-backup",
+      "toolCallCount": 30,
+      "agentsUsed": []
+    },
     {
       "sessionId": "3088ef6d",
       "date": "2026-10-15",
@@ -3206,16 +3216,6 @@
       "modelTier": "unknown",
       "projectName": "",
       "toolCallCount": 1,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c613e1c6",
-      "date": "2026-09-06",
-      "startTime": "2026-09-06T14:45:35.880000+00:00",
-      "durationSeconds": 1032,
-      "modelTier": "unknown",
-      "projectName": "ms-006-look",
-      "toolCallCount": 43,
       "agentsUsed": []
     }
   ]
