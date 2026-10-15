@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:25:11.033927+00:00",
+  "lastUpdated": "2026-10-15T08:26:54.223966+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -83,10 +83,10 @@
       "sessionId": "a9d9765c",
       "date": "2026-10-15",
       "startTime": "2026-10-15T05:03:33.296000+00:00",
-      "durationSeconds": 5081,
+      "durationSeconds": 5222,
       "modelTier": "opus",
-      "projectName": "리서치_도시소외계층_부산만주",
-      "toolCallCount": 213,
+      "projectName": "r5-기법",
+      "toolCallCount": 223,
       "agentsUsed": [
         "general-purpose",
         "research"
