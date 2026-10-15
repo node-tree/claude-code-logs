@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T12:41:25.277622+00:00",
+  "lastUpdated": "2026-10-15T13:26:37.367463+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "c2875a51",
       "date": "2026-10-15",
       "startTime": "2026-10-15T11:13:44.843000+00:00",
-      "durationSeconds": 1222,
+      "durationSeconds": 2241,
       "modelTier": "opus",
       "projectName": "cnma-forum-2026",
-      "toolCallCount": 69,
+      "toolCallCount": 92,
       "agentsUsed": []
     },
     {
