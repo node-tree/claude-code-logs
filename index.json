@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:17:58.588937+00:00",
+  "lastUpdated": "2026-10-15T08:20:08.511165+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -83,10 +83,10 @@
       "sessionId": "a9d9765c",
       "date": "2026-10-15",
       "startTime": "2026-10-15T05:03:33.296000+00:00",
-      "durationSeconds": 4626,
+      "durationSeconds": 4756,
       "modelTier": "opus",
       "projectName": "앵커이미지",
-      "toolCallCount": 204,
+      "toolCallCount": 205,
       "agentsUsed": [
         "general-purpose",
         "research"
