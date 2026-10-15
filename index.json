@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-15T15:20:20.979015+00:00",
+  "lastUpdated": "2026-10-15T22:04:09.381970+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "4251c024",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T22:03:12.122000+00:00",
+      "durationSeconds": 54,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 26,
+      "agentsUsed": []
+    },
     {
       "sessionId": "008c57ed",
       "date": "2026-10-15",
@@ -3214,16 +3224,6 @@
       "modelTier": "unknown",
       "projectName": "비주얼R&D",
       "toolCallCount": 298,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "8deb14d6",
-      "date": "2026-09-07",
-      "startTime": "2026-09-07T23:46:43.514000+00:00",
-      "durationSeconds": 243,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 28,
       "agentsUsed": []
     }
   ]
