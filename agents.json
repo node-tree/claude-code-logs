@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-15T07:35:11.568393+00:00",
-  "totalAgents": 111,
+  "lastUpdated": "2026-10-15T07:40:37.859321+00:00",
+  "totalAgents": 110,
   "agents": [
     {
       "id": "canvas-design",
@@ -145,14 +145,6 @@
       "name": "Svg Filters",
       "desc": "SVG 필터 프리미티브(feTurbulence·feDisplacementMap·feColorMatrix·feGaussianBlur·feComponentTransfer)로 웹·비주얼에 그레인·물결 왜곡·gooey·홀로",
       "emoji": "〰️"
-    },
-    {
-      "id": "synced",
-      "type": "skill",
-      "category": "dev",
-      "name": "Synced",
-      "desc": "synced",
-      "emoji": "🔹"
     },
     {
       "id": "td-guide",
