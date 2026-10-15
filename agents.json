@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-15T07:40:37.859321+00:00",
-  "totalAgents": 110,
+  "lastUpdated": "2026-10-15T08:43:30.055497+00:00",
+  "totalAgents": 112,
   "agents": [
     {
       "id": "canvas-design",
@@ -240,10 +240,10 @@
       "type": "plugin",
       "category": "dev",
       "name": "Figma",
-      "desc": "16개 스킬 포함",
+      "desc": "18개 스킬 포함",
       "emoji": "🎭",
-      "version": "2.2.127",
-      "subSkillCount": 16
+      "version": "2.2.157",
+      "subSkillCount": 18
     },
     {
       "id": "figma-use-motion",
@@ -269,6 +269,15 @@
       "category": "dev",
       "name": "Figma Use Slides",
       "desc": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has ",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-spec",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Spec",
+      "desc": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD,",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
@@ -342,6 +351,15 @@
       "name": "Figma Use",
       "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` direc",
       "emoji": "🔗",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-code-workflows",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Code Workflows",
+      "desc": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalo",
+      "emoji": "🔹",
       "parentPlugin": "figma"
     },
     {
