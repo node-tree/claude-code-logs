@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:13:50.539280+00:00",
+  "lastUpdated": "2026-10-15T08:14:35.252737+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -83,10 +83,10 @@
       "sessionId": "a9d9765c",
       "date": "2026-10-15",
       "startTime": "2026-10-15T05:03:33.296000+00:00",
-      "durationSeconds": 4218,
+      "durationSeconds": 4417,
       "modelTier": "opus",
       "projectName": "인서트",
-      "toolCallCount": 193,
+      "toolCallCount": 194,
       "agentsUsed": [
         "general-purpose",
         "research"
