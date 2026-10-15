@@ -1,37 +1,45 @@
 {
-  "lastUpdated": "2026-06-19T15:33:23.928880+00:00",
-  "totalAgents": 69,
+  "lastUpdated": "2026-10-15T07:27:58.582503+00:00",
+  "totalAgents": 111,
   "agents": [
-    {
-      "id": "algorithmic-art",
-      "type": "skill",
-      "category": "art",
-      "name": "Algorithmic Art",
-      "desc": "p5.js로 알고리즘 아트 생성. 플로우필드, 파티클 시스템, 제너러티브 아트.",
-      "emoji": "🎨"
-    },
-    {
-      "id": "audio",
-      "type": "skill",
-      "category": "audio",
-      "name": "Audio",
-      "desc": "Generate TTS audio using MindLogic KNUH API with gemini-2.5-pro-preview-tts. Triggered ONLY by /audio command. Usage: /a",
-      "emoji": "🎤"
-    },
     {
       "id": "canvas-design",
       "type": "skill",
       "category": "art",
       "name": "Canvas Design",
-      "desc": "포스터·아트워크를 .png/.pdf로 생성. 디자인 철학 기반 비주얼 제작. 미디어아트 작품의 인스타 홍보물(@erickoheart 스타일 — 어두운 배경+발광 오브젝트, 세로 한/영 타이포, 영화 크레딧 레이아웃)",
-      "emoji": "🖼"
+      "desc": "철학 선행 비주얼 제작 — 정적 아트워크와 알고리즘 아트 둘 다. 적극 사용: 포스터, 아트워크, 표지, 키비주얼, 인스타 홍보물(@erickoheart 스타일), 그리고 알고리즘 아트, 제너러티브 아트, 플로우필드",
+      "emoji": "🎨"
     },
     {
       "id": "codex",
       "type": "skill",
       "category": "dev",
       "name": "Codex",
-      "desc": "OpenAI Codex CLI(gpt-5.5)를 비대화형으로 호출해 코딩·리뷰·리서치 하위작업을 위임하거나 두 번째 의견을 받는다. 트리거: 코덱스, codex, gpt-5.5로, 코덱스한테 시켜, 코덱스로 리뷰, ",
+      "desc": "OpenAI Codex CLI(gpt-6.1 Sol·gpt-6 Astra)를 비대화형으로 호출해 코딩·리뷰·리서치 하위작업을 위임하거나 두 번째 의견을 받는다. 트리거: 코덱스, codex, 코덱스한테 시켜, 코덱스",
+      "emoji": "🔹"
+    },
+    {
+      "id": "creative-verify",
+      "type": "skill",
+      "category": "art",
+      "name": "Creative Verify",
+      "desc": "NODE TREE 창작 산출물 공통 검증 관례 + 함정 사전. 렌더·실행 산출물(WebGPU/p5/SVG/TD/사운드/영상/AI 생성물)의 완료 선언 전 검증 절차 — verify 스크립트, _shots/ 캡처, _",
+      "emoji": "🔍"
+    },
+    {
+      "id": "design-taste-frontend",
+      "type": "skill",
+      "category": "dev",
+      "name": "Design Taste Frontend",
+      "desc": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict c",
+      "emoji": "🔹"
+    },
+    {
+      "id": "digital-dohwaseo",
+      "type": "skill",
+      "category": "dev",
+      "name": "Digital Dohwaseo",
+      "desc": "한국전통문화대학교(부여) 교무과가 운영하는 「디지털도화서」(온지관 207호, 국가유산×AI/디지털 융합 창작·메이커 공간)의 기획·개발 전담 스킬. 운영계획(안)·아카데미 운영계획·청소년 프로그램 계획·결과보고·공유",
       "emoji": "🔹"
     },
     {
@@ -55,16 +63,8 @@
       "type": "skill",
       "category": "art",
       "name": "Image",
-      "desc": "Generate images using MindLogic KNUH API with Nano Banana 2 (gemini-3.1-flash-image-preview). Triggered ONLY by /image c",
+      "desc": "Generate images using MindLogic KNUH API with Nano Banana 2 (gemini-3.1-flash-image-preview). NODE TREE 이미지 생성 1순위 경로(20",
       "emoji": "🖼"
-    },
-    {
-      "id": "kicad-pcb-design",
-      "type": "skill",
-      "category": "dev",
-      "name": "Kicad Pcb Design",
-      "desc": "KiCad PCB design for Eurorack/Daisy Patch SM. .kicad_pcb 편집, DRC, Gerber 출력, MCP 연동.",
-      "emoji": "⚡"
     },
     {
       "id": "korea-accounting",
@@ -83,20 +83,20 @@
       "emoji": "🎬"
     },
     {
+      "id": "media-research",
+      "type": "skill",
+      "category": "research",
+      "name": "Media Research",
+      "desc": "외부 소스(웹 URL·YouTube)를 분석해 Obsidian 자료실 노트로 만든다. 적극 사용: /research, /youtube-study, URL 분석, URL 리서치, 링크 정리해줘, 이 페이지 요약해서 저",
+      "emoji": "🔬"
+    },
+    {
       "id": "nodetree-orchestrator",
       "type": "skill",
       "category": "meta",
       "name": "Nodetree Orchestrator",
-      "desc": "NODE TREE 하네스 런타임 오케스트레이터. 여러 팀·여러 단계가 얽힌 NODE TREE/생산소 작업을 Planner→Generator→Evaluator 흐름으로 조율한다. 적극 사용 — 전시/공모/필름처럼 디자",
+      "desc": "NODE TREE의 복합·장기·여러 산출물 작업을 첫 리서치, 뼈대, 결과물, 실제 검증까지 조율한다. 단건에는 관련 전문 스킬만 사용한다.",
       "emoji": "🎯"
-    },
-    {
-      "id": "notebooklm-research",
-      "type": "skill",
-      "category": "research",
-      "name": "Notebooklm Research",
-      "desc": "URL → NotebookLM 분석 → Obsidian 저장. 트리거: /research, URL 분석, URL 리서치.",
-      "emoji": "🔬"
     },
     {
       "id": "pdf",
@@ -123,43 +123,43 @@
       "emoji": "🗂"
     },
     {
-      "id": "skill-creator",
+      "id": "remotion-best-practices",
       "type": "skill",
-      "category": "meta",
-      "name": "Skill Creator",
-      "desc": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exist",
-      "emoji": "🛠"
+      "category": "audio",
+      "name": "Remotion Best Practices",
+      "desc": "Router for all Remotion skills",
+      "emoji": "🎬"
     },
     {
       "id": "supercollider-sound-art",
       "type": "skill",
       "category": "audio",
       "name": "Supercollider Sound Art",
-      "desc": "SuperCollider로 실험 사운드 아트·제너러티브 음악·설치 작업. SynthDef, 드론, 그레뉼러, 라이브코딩.",
+      "desc": "SuperCollider로 실험 사운드 아트·제너러티브 음악·설치 작업. SynthDef, 드론, 그레뉼러,",
       "emoji": "🔊"
     },
     {
-      "id": "supercollider-sound-art-for-daisy",
-      "type": "skill",
-      "category": "audio",
-      "name": "Supercollider Sound Art For Daisy",
-      "desc": "SuperCollider → Daisy Patch SM 하드웨어 포팅. DSP 프로토타입, Eurorack 설계, 이케다·Alva Noto 사운드 미학.",
-      "emoji": "🎛"
-    },
-    {
-      "id": "taste-skill",
+      "id": "svg-filters",
       "type": "skill",
       "category": "art",
-      "name": "Taste Skill",
-      "desc": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict c",
-      "emoji": "💎"
+      "name": "Svg Filters",
+      "desc": "SVG 필터 프리미티브(feTurbulence·feDisplacementMap·feColorMatrix·feGaussianBlur·feComponentTransfer)로 웹·비주얼에 그레인·물결 왜곡·gooey·홀로",
+      "emoji": "〰️"
+    },
+    {
+      "id": "synced",
+      "type": "skill",
+      "category": "dev",
+      "name": "Synced",
+      "desc": "synced",
+      "emoji": "🔹"
     },
     {
       "id": "td-guide",
       "type": "skill",
       "category": "audio",
       "name": "Td Guide",
-      "desc": "TouchDesigner MCP 패턴·베스트 프랙티스. 오퍼레이터·GLSL·CHOP/SOP/TOP/DAT. 트리거: TouchDesigner 작업.",
+      "desc": "[동결 레퍼런스] TouchDesigner MCP 패턴·베스트 프랙티스. 오퍼레이터·GLSL·CHOP/SOP/TOP/DAT.",
       "emoji": "🌐"
     },
     {
@@ -171,6 +171,14 @@
       "emoji": "🔹"
     },
     {
+      "id": "unity-cli",
+      "type": "skill",
+      "category": "dev",
+      "name": "Unity Cli",
+      "desc": "Use when interacting with Unity CLI from the terminal, or to control a running/connected Unity Editor from the command l",
+      "emoji": "🔹"
+    },
+    {
       "id": "value-for-fable",
       "type": "skill",
       "category": "dev",
@@ -179,11 +187,19 @@
       "emoji": "🔹"
     },
     {
+      "id": "vercel-react-best-practices",
+      "type": "skill",
+      "category": "dev",
+      "name": "Vercel React Best Practices",
+      "desc": "React·Next.js 성능 최적화 가이드. RSC, 번들 최적화, 데이터 페칭 패턴.",
+      "emoji": "⚛️"
+    },
+    {
       "id": "video",
       "type": "skill",
       "category": "audio",
       "name": "Video",
-      "desc": "Generate videos using MindLogic KNUH API with Veo 3.1 Fast (veo-3.1-fast-generate-preview). Triggered ONLY by /video com",
+      "desc": "KNUH(MindLogic) 게이트웨이 영상 생성 — 기본 Seedance 2.5(bytedance/seedance-2.5, 이미지·영상 레퍼런스), 옵션 MiniMax H3(minimax/h3-max-turbo, ",
       "emoji": "🎬"
     },
     {
@@ -203,20 +219,20 @@
       "emoji": "🎵"
     },
     {
+      "id": "webgpu-creative",
+      "type": "skill",
+      "category": "art",
+      "name": "Webgpu Creative",
+      "desc": "Three.js + WebGPU/TSL 창작 스택 정본 — NODE TREE 실시간 비주얼(공생직조·역류·fui)의 1순위 렌더 경로. 부트스트랩(vite strictPort·뷰포트 통제), 크롬 WebGPU 플래그",
+      "emoji": "🌊"
+    },
+    {
       "id": "xlsx",
       "type": "skill",
       "category": "document",
       "name": "Xlsx",
       "desc": "Excel(.xlsx) 생성·편집·읽기. 예산표·지출내역서·정산서 맑은 고딕. 트리거: 예산표, 지출내역서, 정산서.",
       "emoji": "📈"
-    },
-    {
-      "id": "youtube-study",
-      "type": "skill",
-      "category": "research",
-      "name": "Youtube Study",
-      "desc": "YouTube 자막 추출 + 타임스탬프 학습노트를 Obsidian에 생성. 트리거: /youtube-study, 유튜브 정리, 영상 노트.",
-      "emoji": "▶️"
     },
     {
       "id": "frontend-design",
@@ -232,10 +248,28 @@
       "type": "plugin",
       "category": "dev",
       "name": "Figma",
-      "desc": "10개 스킬 포함",
+      "desc": "16개 스킬 포함",
       "emoji": "🎭",
-      "version": "2.2.50",
-      "subSkillCount": 10
+      "version": "2.2.127",
+      "subSkillCount": 16
+    },
+    {
+      "id": "figma-use-motion",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Use Motion",
+      "desc": "Motion / animation context for the `use_figma` MCP tool — animating Figma nodes via manual keyframes, animation styles, ",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-shaders",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Shaders",
+      "desc": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks t",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
     },
     {
       "id": "figma-use-slides",
@@ -256,6 +290,15 @@
       "parentPlugin": "figma"
     },
     {
+      "id": "figma-implement-motion",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Implement Motion",
+      "desc": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion fr",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
       "id": "figma-generate-diagram",
       "type": "skill",
       "category": "dev",
@@ -269,7 +312,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Figma Create New File",
-      "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_new",
+      "desc": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this ski",
       "emoji": "📄",
       "parentPlugin": "figma"
     },
@@ -279,6 +322,15 @@
       "category": "dev",
       "name": "Figma Swiftui",
       "desc": "SwiftUI ↔ Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad — in EITHER direction —",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-generative-plugins",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Generative Plugins",
+      "desc": "**MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_generative_plugin`. Us",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
@@ -319,6 +371,24 @@
       "parentPlugin": "figma"
     },
     {
+      "id": "figma-design-to-code",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Design To Code",
+      "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE calling the `get_design_context` Figma MCP tool. You MUST",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "video-interaction-mapper",
+      "type": "skill",
+      "category": "dev",
+      "name": "Video Interaction Mapper",
+      "desc": ">",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
       "id": "generate-project-plan",
       "type": "skill",
       "category": "dev",
@@ -335,15 +405,6 @@
       "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk",
       "emoji": "🛠",
       "parentPlugin": "skill-creator"
-    },
-    {
-      "id": "cli-anything",
-      "type": "plugin",
-      "category": "dev",
-      "name": "Cli Anything",
-      "desc": "cli-anything",
-      "emoji": "🔹",
-      "version": "f5cfa05ea294"
     },
     {
       "id": "warp",
@@ -364,11 +425,406 @@
       "parentPlugin": "harness"
     },
     {
-      "id": "mcp-blender",
+      "id": "comfy-cloud",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Comfy Cloud",
+      "desc": "comfy-cloud",
+      "emoji": "🔹",
+      "version": "0.1.0"
+    },
+    {
+      "id": "swift-lsp",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Swift Lsp",
+      "desc": "swift-lsp",
+      "emoji": "🔹",
+      "version": "1.0.0"
+    },
+    {
+      "id": "unity",
+      "type": "plugin",
+      "category": "dev",
+      "name": "Unity",
+      "desc": "31개 스킬 포함",
+      "emoji": "🔹",
+      "version": "0.1.6-beta",
+      "subSkillCount": 31
+    },
+    {
+      "id": "build-live-game",
+      "type": "skill",
+      "category": "dev",
+      "name": "Build Live Game",
+      "desc": "Build and operate a live game using Unity Services. Use when the user needs to implement, connect, or debug backend-driv",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "optimize-web",
+      "type": "skill",
+      "category": "dev",
+      "name": "Optimize Web",
+      "desc": "Optimizes Unity 6 WebGL and WebGPU builds for smaller download size, faster initial load, and efficient browser runtime ",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "ui-ugui",
+      "type": "skill",
+      "category": "dev",
+      "name": "Ui Ugui",
+      "desc": "Unity uGUI (Canvas-based) UI expert. Understands, edits, and generates Canvas hierarchies, RectTransforms, Layout Groups",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "new-unity-project",
+      "type": "skill",
+      "category": "dev",
+      "name": "New Unity Project",
+      "desc": "Use when starting a brand-new Unity game or project from scratch — \"make/start/create a new game\", \"bootstrap a Unity pr",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "ui",
+      "type": "skill",
+      "category": "dev",
+      "name": "Ui",
+      "desc": "Unity UI expert for menus, HUDs, screens, panels, buttons, labels, and all visual interface elements. Handles questions ",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "urp-postprocessing",
+      "type": "skill",
+      "category": "dev",
+      "name": "Urp Postprocessing",
+      "desc": "Sets up, configures, and debugs URP post-processing effects using the Volume framework. Use when the user asks about blo",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "validate-urp-render-graph-renderer-feature",
+      "type": "skill",
+      "category": "dev",
+      "name": "Validate Urp Render Graph Renderer Feature",
+      "desc": "Use when the user wants to review or validate a Unity 6+ URP ScriptableRendererFeature that uses the Render Graph API. C",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "tilemap-palette-create",
+      "type": "skill",
+      "category": "dev",
+      "name": "Tilemap Palette Create",
+      "desc": "Creates a Tile Palette asset. Use when the user wants to organize tiles for 2D level design or create a new Tile Palette",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "optimize-audio",
+      "type": "skill",
+      "category": "dev",
+      "name": "Optimize Audio",
+      "desc": "Optimizes Unity 6 audio memory, CPU cost, and playback quality through correct import settings and mixer configuration. ",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "setup-vivox-voice-chat",
+      "type": "skill",
+      "category": "dev",
+      "name": "Setup Vivox Voice Chat",
+      "desc": "Add and configure in-game voice chat and text chat for Unity multiplayer games using Unity Vivox. Covers microphone setu",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "tilemap-ruletile-createfromsegment",
+      "type": "skill",
+      "category": "dev",
+      "name": "Tilemap Ruletile Createfromsegment",
+      "desc": "Use when the user wants tiles that auto-tile (autotile) as they paint, wants a RuleTile built from existing terrain or e",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "setup-multiplayer-services",
+      "type": "skill",
+      "category": "dev",
+      "name": "Setup Multiplayer Services",
+      "desc": ">-",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "tilemap-ruletile-createempty",
+      "type": "skill",
+      "category": "dev",
+      "name": "Tilemap Ruletile Createempty",
+      "desc": "Creates an empty RuleTile asset without Sprite or Spritesheet inputs. Use ONLY when the user wants a blank RuleTile, Hex",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "unity-package-management",
+      "type": "skill",
+      "category": "dev",
+      "name": "Unity Package Management",
+      "desc": "Use when adding, removing, upgrading, or discovering Unity (UPM) packages programmatically from outside the Editor — hea",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "physics-3d-collision",
+      "type": "skill",
+      "category": "dev",
+      "name": "Physics 3D Collision",
+      "desc": "3D PhysX collision and trigger diagnostics for MonoBehaviour-based Unity projects. Primary scope: OnCollisionEnter / OnT",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "generate-editor-search-query",
+      "type": "skill",
+      "category": "dev",
+      "name": "Generate Editor Search Query",
+      "desc": "Generates Unity Search / Quick Search queries and opens the Unity Search window for read-only Unity Editor asset or scen",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "levelplay-unity-integration",
+      "type": "skill",
+      "category": "dev",
+      "name": "Levelplay Unity Integration",
+      "desc": "Integrates the LevelPlay Mediation SDK via the Ads Mediation UPM package. Use when a developer asks about adding ads to ",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "migrate-birp-to-urp",
+      "type": "skill",
+      "category": "dev",
+      "name": "Migrate Birp To Urp",
+      "desc": "Plans, executes, and troubleshoots Unity projects moving from the Built-in Render Pipeline (BiRP/BIRP/Built-in RP) to th",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "manage-sprite-atlas",
+      "type": "skill",
+      "category": "dev",
+      "name": "Manage Sprite Atlas",
+      "desc": "Manage SpriteAtlas using prebuild pipeline with IPreprocessBuildWithReport (DEFAULT approach). Use it to configure maste",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "shader-graph-create-custom-node",
+      "type": "skill",
+      "category": "dev",
+      "name": "Shader Graph Create Custom Node",
+      "desc": "Generates custom Shader Graph nodes from HLSL code. Use when the user wants to create a new Shader Graph node or make ex",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "ui-uitk",
+      "type": "skill",
+      "category": "dev",
+      "name": "Ui Uitk",
+      "desc": "Unity UI Toolkit expert for Unity 6.0+. Understands, edits, and generates UXML and USS files with flex-based layouts. Us",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "implement-in-app-purchases",
+      "type": "skill",
+      "category": "dev",
+      "name": "Implement In App Purchases",
+      "desc": "Implement, configure, and debug Unity In-App Purchases (IAP) — store connection, product catalog, consumable/non-consuma",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "audio-setup-mixers",
+      "type": "skill",
+      "category": "dev",
+      "name": "Audio Setup Mixers",
+      "desc": "Scans the scene and audio assets to appropriately route Audio Sources into existing Audio Mixer Groups, classifying each",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "optimize-text-mesh-pro",
+      "type": "skill",
+      "category": "dev",
+      "name": "Optimize Text Mesh Pro",
+      "desc": ">",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "ui-imgui",
+      "type": "skill",
+      "category": "dev",
+      "name": "Ui Imgui",
+      "desc": "Unity IMGUI (Immediate Mode GUI) expert for legacy editor tools using OnGUI/immediate mode. Generates and modifies IMGUI",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "sprite-segment-3x3grid",
+      "type": "skill",
+      "category": "dev",
+      "name": "Sprite Segment 3X3Grid",
+      "desc": "Analyze Sprite textures and output a 3x3 grid representation based on color matching. Segments a Sprite into a 3x3 grid,",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "sprite-editor",
+      "type": "skill",
+      "category": "dev",
+      "name": "Sprite Editor",
+      "desc": "Edits Unity sprite properties by generating C# editor scripts using ISpriteEditorDataProvider APIs. Handles sprite recta",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "2d-pixel-perfect",
+      "type": "skill",
+      "category": "dev",
+      "name": "2D Pixel Perfect",
+      "desc": "Sets up, diagnoses, and fixes pixel perfect 2D rendering in Unity projects. Use when working on any retro-style or pixel",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "unity-cli",
+      "type": "skill",
+      "category": "dev",
+      "name": "Unity Cli",
+      "desc": "Use when interacting with Unity CLI from the terminal, or to control a running/connected Unity Editor from the command l",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "localization",
+      "type": "skill",
+      "category": "dev",
+      "name": "Localization",
+      "desc": "Sets up and configures Unity Localization, including locales, String/Asset Tables, CJK font support, and Addressables wo",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "initialize-ai-navigation",
+      "type": "skill",
+      "category": "dev",
+      "name": "Initialize Ai Navigation",
+      "desc": "Sets up and configures the Unity AI Navigation system — NavMesh surfaces, NavMesh agents, obstacles, links, modifiers, a",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "mcp-supercollider",
       "type": "mcp",
       "category": "dev",
-      "name": "blender",
-      "desc": "MCP: uvx blender-mcp",
+      "name": "supercollider",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-kicad",
+      "type": "mcp",
+      "category": "dev",
+      "name": "kicad",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-touchdesigner",
+      "type": "mcp",
+      "category": "dev",
+      "name": "touchdesigner",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-notion",
+      "type": "mcp",
+      "category": "dev",
+      "name": "notion",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-github",
+      "type": "mcp",
+      "category": "dev",
+      "name": "github",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-sequential-thinking",
+      "type": "mcp",
+      "category": "dev",
+      "name": "sequential-thinking",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-vercel",
+      "type": "mcp",
+      "category": "dev",
+      "name": "vercel",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-ableton-mcp",
+      "type": "mcp",
+      "category": "dev",
+      "name": "ableton-mcp",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-blender-mcp",
+      "type": "mcp",
+      "category": "dev",
+      "name": "blender-mcp",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-finalcutpro",
+      "type": "mcp",
+      "category": "dev",
+      "name": "finalcutpro",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-unity-editor-mcp",
+      "type": "mcp",
+      "category": "dev",
+      "name": "unity-editor-mcp",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-context7",
+      "type": "mcp",
+      "category": "dev",
+      "name": "context7",
+      "desc": "MCP 서버",
       "emoji": "🔌"
     },
     {
@@ -376,172 +832,33 @@
       "type": "mcp",
       "category": "dev",
       "name": "playwright",
-      "desc": "MCP: npx @playwright/mcp@latest",
+      "desc": "MCP 서버",
       "emoji": "🔌"
-    },
-    {
-      "id": "mcp-chatgpt-mcp",
-      "type": "mcp",
-      "category": "dev",
-      "name": "chatgpt-mcp",
-      "desc": "MCP: npx claude-chatgpt-mcp",
-      "emoji": "🔌"
-    },
-    {
-      "id": "mcp-desktop-commander",
-      "type": "mcp",
-      "category": "dev",
-      "name": "desktop-commander",
-      "desc": "MCP: npx @wonderwhy-er/desktop-commander@latest",
-      "emoji": "🔌"
-    },
-    {
-      "id": "mcp-ClaudeTalkToFigma",
-      "type": "mcp",
-      "category": "dev",
-      "name": "ClaudeTalkToFigma",
-      "desc": "MCP: npx claude-talk-to-figma-mcp@latest",
-      "emoji": "🔌"
-    },
-    {
-      "id": "mcp-pyhub.mcptools",
-      "type": "mcp",
-      "category": "dev",
-      "name": "pyhub.mcptools",
-      "desc": "MCP: /Users/kanghyunjung/mcptools/pyhub.mcptools/pyhub.mcptools r",
-      "emoji": "🔌"
-    },
-    {
-      "id": "mcp-AbletonMCP",
-      "type": "mcp",
-      "category": "dev",
-      "name": "AbletonMCP",
-      "desc": "MCP: uvx ableton-mcp",
-      "emoji": "🔌"
-    },
-    {
-      "id": "itsvff",
-      "type": "agent",
-      "team": "harness",
-      "name": "itsvff",
-      "desc": "Sonnet 기반 Fable 5 구조 이식 서브에이전트 — 위임 전용(현재 세션 전역 적용은 output-style `Value-for-Fable`을 /config로 켤 것). 구현·분석·리서치·작문 등 독립 작업을",
-      "emoji": "👥",
-      "category": "harness"
-    },
-    {
-      "id": "planner",
-      "type": "agent",
-      "team": "harness",
-      "name": "planner",
-      "desc": "|",
-      "emoji": "👥",
-      "category": "harness"
-    },
-    {
-      "id": "code-evaluator",
-      "type": "agent",
-      "team": "dev",
-      "name": "code-evaluator",
-      "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline·sound-art·generative-visual 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PAS",
-      "emoji": "■",
-      "category": "dev"
-    },
-    {
-      "id": "nodetreehome-web",
-      "type": "agent",
-      "team": "dev",
-      "name": "nodetreehome-web",
-      "desc": "nodetreeHome 웹 프로젝트 개발·배포. React·API·실시간 시각화. 트리거: nodetreeHome, /ocean, 해양 API, 웹 컴포넌트, 라우트 추가.",
-      "emoji": "■",
-      "category": "dev"
     },
     {
       "id": "doc-design",
       "type": "agent",
-      "team": "planning",
+      "team": "docs",
       "name": "doc-design",
-      "desc": "포트폴리오·도록·공문·보고서 제작 (Figma 디지털도화서, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서.",
+      "desc": "레이아웃·양식 문서 제작 — 포트폴리오, 도록, 기록집, 공문, 보고서, HWPX, Figma 디지털도화서",
       "emoji": "◆",
-      "category": "planning"
+      "category": "docs"
     },
     {
-      "id": "doc-evaluator",
+      "id": "evaluator",
       "type": "agent",
-      "team": "planning",
-      "name": "doc-evaluator",
-      "desc": "하네스 Evaluator. grant-writer·doc-design·film-production 문서에 PASS/REWORK 판정. 트리거: 지원서 검토, 제안서 평가, 문서 확인, 작가노트 검토.",
-      "emoji": "◆",
-      "category": "planning"
-    },
-    {
-      "id": "grant-writer",
-      "type": "agent",
-      "team": "planning",
-      "name": "grant-writer",
-      "desc": "NODE TREE 지원서·작가노트·제안서 작성. 트리거: 지원서 써줘, 공모 신청서 초안, artist statement, 영문 지원서.",
-      "emoji": "◆",
-      "category": "planning"
-    },
-    {
-      "id": "project-planner",
-      "type": "agent",
-      "team": "planning",
-      "name": "project-planner",
-      "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian). 트리거: 일정 짜줘, 체크리스트, 예산 정리, 역할 분담, 진행 상황.",
-      "emoji": "◆",
-      "category": "planning"
-    },
-    {
-      "id": "design-evaluator",
-      "type": "agent",
-      "team": "design",
-      "name": "design-evaluator",
-      "desc": "하네스 Evaluator. visual-design·pr-content 결과물에 PASS/REWORK 판정. 트리거: 디자인 평가, 홍보물 검토, 포스터 확인, 보도자료 검토.",
-      "emoji": "●",
-      "category": "design"
-    },
-    {
-      "id": "pr-content",
-      "type": "agent",
-      "team": "design",
-      "name": "pr-content",
-      "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성. 트리거: 인스타 캡션, 보도자료, 전시 소개, 작품 설명.",
-      "emoji": "●",
-      "category": "design"
-    },
-    {
-      "id": "visual-design",
-      "type": "agent",
-      "team": "design",
-      "name": "visual-design",
-      "desc": "NODE TREE 포스터·SNS 이미지·전시 그래픽·홍보물 제작. 트리거: 포스터, 인스타 이미지, 홍보물 디자인, 전시 그래픽, 썸네일.",
-      "emoji": "●",
-      "category": "design"
-    },
-    {
-      "id": "grant-research",
-      "type": "agent",
-      "team": "research",
-      "name": "grant-research",
-      "desc": "NODE TREE 공모·레지던시·어워드 발굴 및 전략. 트리거: 공모 찾아줘, 레지던시 알아봐, 마감 확인.",
-      "emoji": "○",
-      "category": "research"
-    },
-    {
-      "id": "nodetree-research",
-      "type": "agent",
-      "team": "research",
-      "name": "nodetree-research",
-      "desc": "NODE TREE 작품·이론·기술·지역 리서치, 옵시디안 정리. 트리거: 레퍼런스 찾아줘, 작가 분석, 기술 조사, 옵시디안 정리.",
-      "emoji": "○",
-      "category": "research"
+      "team": "harness",
+      "name": "evaluator",
+      "desc": "하네스 단일 Evaluator. 모든 Generator 산출물(코드·웹·미디어아트·사운드·비주얼·디자인·홍보물·문서)에 PASS/REWORK 판정. 호출 시 렌즈를 지정한다 — lens: code(웹/파이프라인/사운",
+      "emoji": "◎",
+      "category": "harness"
     },
     {
       "id": "film-production",
       "type": "agent",
       "team": "art",
       "name": "film-production",
-      "desc": "NODE TREE 퍼포먼스 필름 제작 전담. 촬영·편집·색보정·사운드믹싱·영화제 출품. 트리거: 촬영 계획, 편집, 색보정, 사운드 믹싱, 영화제, 이토록고요한파동.",
+      "desc": "NODE TREE 퍼포먼스 필름 제작 전담 — 촬영 계획, 편집(Final Cut Pro 직접 제어), 색보정, 사운드 믹싱(LUFS 실측), 마스터링·코덱, 영화제 출품",
       "emoji": "▲",
       "category": "art"
     },
@@ -550,25 +867,25 @@
       "type": "agent",
       "team": "art",
       "name": "generative-visual",
-      "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. p5.js 알고리즘 아트, Hydra 라이브코딩, TouchDesigner 노드·GLSL 셰이더, 프로그래밍 영상(Remotion). 트리거: 제너러티브, 플",
+      "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. 1순위 Three.js+WebGPU/TSL 컴퓨트 셰이더, p5.js 알고리즘 아트, Hydra, GLSL, Blender 3D 조형, 프로그래밍 영상(Hyp",
       "emoji": "▲",
       "category": "art"
+    },
+    {
+      "id": "grant-writer",
+      "type": "agent",
+      "team": "docs",
+      "name": "grant-writer",
+      "desc": "NODE TREE 설득형 글 작성 — 지원서·작가노트·제안서·artist statement 본문 텍스트",
+      "emoji": "◆",
+      "category": "docs"
     },
     {
       "id": "media-art-pipeline",
       "type": "agent",
       "team": "art",
       "name": "media-art-pipeline",
-      "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV 하드웨어, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-visual에 ",
-      "emoji": "▲",
-      "category": "art"
-    },
-    {
-      "id": "sound-art",
-      "type": "agent",
-      "team": "art",
-      "name": "sound-art",
-      "desc": "NODE TREE 사운드아트·음악·모듈러신스 전담. SuperCollider DSP·SynthDef·패턴, Ableton 작·편곡, TidalCycles/SuperDirt 라이브코딩, Eurorack/Daisy 사운",
+      "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV/DAC 하드웨어, 센서, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-",
       "emoji": "▲",
       "category": "art"
     },
@@ -577,18 +894,72 @@
       "type": "agent",
       "team": "accounting",
       "name": "nodetree-accounting",
-      "desc": "노드트리(고유번호단체·면세사업자) 명의 회계 전담. 보조사업(e나라도움·보탬e·NCAS) 정산·집행, 면세사업자 원천세·지급명세서, 4대보험, 노드트리 일반회계. 트리거: 노드트리 회계, 꿈다락, 보조금, 정산, 집",
+      "desc": "⚠️명의 기준 라우팅(기능 아님). 노드트리(고유번호단체·면세사업자) 명의 회계 전담. 보조사업(e나라도움·보탬e·NCAS) 정산·집행, 면세사업자 원천세·지급명세서, 4대보험, 노드트리 일반회계",
       "emoji": "□",
       "category": "accounting"
+    },
+    {
+      "id": "nodetreehome-web",
+      "type": "agent",
+      "team": "dev",
+      "name": "nodetreehome-web",
+      "desc": "nodetreeHome 웹 프로젝트 개발·배포 전담. React·API·실시간 시각화·Vercel",
+      "emoji": "■",
+      "category": "dev"
+    },
+    {
+      "id": "pr-content",
+      "type": "agent",
+      "team": "design",
+      "name": "pr-content",
+      "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성",
+      "emoji": "●",
+      "category": "design"
+    },
+    {
+      "id": "project-planner",
+      "type": "agent",
+      "team": "docs",
+      "name": "project-planner",
+      "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian/Notion)",
+      "emoji": "◆",
+      "category": "docs"
+    },
+    {
+      "id": "research",
+      "type": "agent",
+      "team": "research",
+      "name": "research",
+      "desc": "NODE TREE 리서치 통합 에이전트 — 두 모드. ①심층 리서치: 작가·작품·이론·기술·지역 조사, URL 분석, 옵시디안 정리, SLR. ②공모 레이더: 공모·레지던시·어워드 발굴·매칭 전략·마감 추적, gra",
+      "emoji": "○",
+      "category": "research"
     },
     {
       "id": "saengsanso-accounting",
       "type": "agent",
       "team": "accounting",
       "name": "saengsanso-accounting",
-      "desc": "㈜생산소(법인) 명의 세무·회계 전담. 법인세·부가세·원천세·법인 급여·4대보험·법인카드·경비, 그리고 ㈜생산소 명의로 받는 보조사업(공모 정산)까지. 트리거: 생산소, 경비, 세금계산서, 부가세, 법인세, 법인 급",
+      "desc": "⚠️명의 기준 라우팅(기능 아님). ㈜생산소(법인) 명의 세무·회계 전담. 법인세·부가세·원천세·법인 급여·4대보험·법인카드·경비, ㈜생산소 명의 보조사업(공모 정산)",
       "emoji": "□",
       "category": "accounting"
+    },
+    {
+      "id": "sound-art",
+      "type": "agent",
+      "team": "art",
+      "name": "sound-art",
+      "desc": "NODE TREE 사운드아트·음악·모듈러신스 전담. SuperCollider DSP·SynthDef·패턴, Ableton 작·편곡, TidalCycles/SuperDirt 라이브코딩, Eurorack/Daisy, 웹",
+      "emoji": "▲",
+      "category": "art"
+    },
+    {
+      "id": "visual-design",
+      "type": "agent",
+      "team": "design",
+      "name": "visual-design",
+      "desc": "NODE TREE 포스터·SNS 이미지·전시 그래픽·홍보물·키비주얼 제작. Figma 직접 편집(use_figma), comfy-cloud AI 생성, HTML/SVG 조판, 인쇄 물리단위(fig2mm)",
+      "emoji": "●",
+      "category": "design"
     }
   ]
 }

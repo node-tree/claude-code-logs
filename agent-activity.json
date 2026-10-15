@@ -1,87 +1,62 @@
 {
-  "film-research": {
-    "lastActive": "2026-03-30T06:46:29.821000+00:00",
-    "lastProject": "Desktop",
-    "sessionId": "e51673fb"
-  },
-  "media-art-pipeline": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "code-evaluator": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "grant-writer": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "visual-design": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "design-evaluator": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "doc-evaluator": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "nodetreehome-web": {
-    "lastActive": "2026-06-19T13:50:36.668000+00:00",
-    "lastProject": "backend",
-    "sessionId": "fb002a89"
-  },
-  "project-planner": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "doc-design": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "grant-accounting-agent": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "grant-research": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
-  },
-  "nodetree-research": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
+  "research": {
+    "lastActive": "2026-10-15T07:07:42.943000+00:00",
+    "lastProject": "memory",
+    "sessionId": "152e8a88"
   },
   "pr-content": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
+    "lastActive": "2026-10-14T07:43:23.956000+00:00",
+    "lastProject": "nodetree-instagram",
+    "sessionId": "a32413e0"
   },
-  "saengsanso-accounting": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
+  "evaluator": {
+    "lastActive": "2026-10-14T05:39:24.083000+00:00",
+    "lastProject": "nodetreeHome",
+    "sessionId": "add900c6"
   },
-  "harness-planner": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
+  "visual-design": {
+    "lastActive": "2026-10-06T00:16:55.726000+00:00",
+    "lastProject": "leaflet-a2-20261006",
+    "sessionId": "ca63c81b"
+  },
+  "doc-design": {
+    "lastActive": "2026-09-26T02:42:50.346000+00:00",
+    "lastProject": "디지털도화서_하반기아카데미",
+    "sessionId": "4f1e0543"
+  },
+  "generative-visual": {
+    "lastActive": "2026-09-26T02:42:50.346000+00:00",
+    "lastProject": "디지털도화서_하반기아카데미",
+    "sessionId": "4f1e0543"
+  },
+  "media-art-pipeline": {
+    "lastActive": "2026-09-26T02:42:50.346000+00:00",
+    "lastProject": "디지털도화서_하반기아카데미",
+    "sessionId": "4f1e0543"
+  },
+  "grant-writer": {
+    "lastActive": "2026-09-25T05:40:54.649000+00:00",
+    "lastProject": "ls-000-foundation",
+    "sessionId": "22428361"
+  },
+  "nodetree-accounting": {
+    "lastActive": "2026-09-21T10:57:13.794000+00:00",
+    "lastProject": "강사비",
+    "sessionId": "0a58a92e"
+  },
+  "sound-art": {
+    "lastActive": "2026-09-21T10:10:24.239000+00:00",
+    "lastProject": "memory",
+    "sessionId": "c7b5dc09"
   },
   "film-production": {
-    "lastActive": "2026-04-20T04:50:47.599000+00:00",
-    "lastProject": "부천아트센터",
-    "sessionId": "1b0be374"
+    "lastActive": "2026-09-20T03:45:43.111000+00:00",
+    "lastProject": "kanghyunjung",
+    "sessionId": "696c5047"
+  },
+  "nodetreehome-web": {
+    "lastActive": "2026-09-18T06:08:01.794000+00:00",
+    "lastProject": "memory",
+    "sessionId": "31aa097c"
   }
 }

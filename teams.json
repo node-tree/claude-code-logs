@@ -1,168 +1,143 @@
 {
-  "lastUpdated": "2026-06-19T15:33:23.928880+00:00",
+  "lastUpdated": "2026-10-15T07:27:58.582503+00:00",
   "teams": [
     {
       "id": "harness",
-      "name": "harness",
-      "emoji": "👥",
+      "name": "하네스",
+      "emoji": "◎",
       "color": "#6b7280",
       "bg": "#f9fafb",
-      "desc": "",
+      "desc": "검수 판정(lens code·design·doc) · 리드가 직접 수행하고 필요할 때만 위임",
       "agents": [
         {
-          "id": "itsvff",
-          "name": "itsvff",
-          "desc": "Sonnet 기반 Fable 5 구조 이식 서브에이전트 — 위임 전용(현재 세션 전역 적용은 output-style `Value-for-Fable`을 /config로 켤 것). 구현·분석·리서치·작문 등 독립 작업을"
-        },
-        {
-          "id": "planner",
-          "name": "planner",
-          "desc": "|"
-        }
-      ]
-    },
-    {
-      "id": "dev",
-      "name": "개발팀",
-      "emoji": "■",
-      "color": "#1d4ed8",
-      "bg": "#eff6ff",
-      "desc": "소프트웨어 개발, 배포, 인프라, 코드 리뷰를 담당하는 팀.",
-      "agents": [
-        {
-          "id": "code-evaluator",
-          "name": "code-evaluator",
-          "desc": "하네스 Evaluator. nodetreehome-web·media-art-pipeline·sound-art·generative-visual 결과물에 PASS/REWORK 판정. 트리거: 평가해줘, 검토해줘, PAS"
-        },
-        {
-          "id": "nodetreehome-web",
-          "name": "nodetreehome-web",
-          "desc": "nodetreeHome 웹 프로젝트 개발·배포. React·API·실시간 시각화. 트리거: nodetreeHome, /ocean, 해양 API, 웹 컴포넌트, 라우트 추가."
-        }
-      ]
-    },
-    {
-      "id": "planning",
-      "name": "기획팀",
-      "emoji": "◆",
-      "color": "#0891b2",
-      "bg": "#ecfeff",
-      "desc": "프로젝트 기획, 문서 작성, 제안서 및 보고서를 담당하는 팀.",
-      "agents": [
-        {
-          "id": "doc-design",
-          "name": "doc-design",
-          "desc": "포트폴리오·도록·공문·보고서 제작 (Figma 디지털도화서, HWPX). 트리거: 포트폴리오, 도록, 공문 작성, 보고서."
-        },
-        {
-          "id": "doc-evaluator",
-          "name": "doc-evaluator",
-          "desc": "하네스 Evaluator. grant-writer·doc-design·film-production 문서에 PASS/REWORK 판정. 트리거: 지원서 검토, 제안서 평가, 문서 확인, 작가노트 검토."
-        },
-        {
-          "id": "grant-writer",
-          "name": "grant-writer",
-          "desc": "NODE TREE 지원서·작가노트·제안서 작성. 트리거: 지원서 써줘, 공모 신청서 초안, artist statement, 영문 지원서."
-        },
-        {
-          "id": "project-planner",
-          "name": "project-planner",
-          "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian). 트리거: 일정 짜줘, 체크리스트, 예산 정리, 역할 분담, 진행 상황."
-        }
-      ]
-    },
-    {
-      "id": "design",
-      "name": "디자인및홍보팀",
-      "emoji": "●",
-      "color": "#e11d48",
-      "bg": "#fff1f2",
-      "desc": "UI/UX 디자인, 브랜딩, 마케팅, 홍보를 담당하는 팀.",
-      "agents": [
-        {
-          "id": "design-evaluator",
-          "name": "design-evaluator",
-          "desc": "하네스 Evaluator. visual-design·pr-content 결과물에 PASS/REWORK 판정. 트리거: 디자인 평가, 홍보물 검토, 포스터 확인, 보도자료 검토."
-        },
-        {
-          "id": "pr-content",
-          "name": "pr-content",
-          "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성. 트리거: 인스타 캡션, 보도자료, 전시 소개, 작품 설명."
-        },
-        {
-          "id": "visual-design",
-          "name": "visual-design",
-          "desc": "NODE TREE 포스터·SNS 이미지·전시 그래픽·홍보물 제작. 트리거: 포스터, 인스타 이미지, 홍보물 디자인, 전시 그래픽, 썸네일."
-        }
-      ]
-    },
-    {
-      "id": "research",
-      "name": "리서치팀",
-      "emoji": "○",
-      "color": "#b45309",
-      "bg": "#fffbeb",
-      "desc": "정보 수집, 분석, 지식 정리를 담당하는 팀.",
-      "agents": [
-        {
-          "id": "grant-research",
-          "name": "grant-research",
-          "desc": "NODE TREE 공모·레지던시·어워드 발굴 및 전략. 트리거: 공모 찾아줘, 레지던시 알아봐, 마감 확인."
-        },
-        {
-          "id": "nodetree-research",
-          "name": "nodetree-research",
-          "desc": "NODE TREE 작품·이론·기술·지역 리서치, 옵시디안 정리. 트리거: 레퍼런스 찾아줘, 작가 분석, 기술 조사, 옵시디안 정리."
+          "id": "evaluator",
+          "name": "evaluator",
+          "desc": "하네스 단일 Evaluator. 모든 Generator 산출물(코드·웹·미디어아트·사운드·비주얼·디자인·홍보물·문서)에 PASS/REWORK 판정. 호출 시 렌즈를 지정한다 — lens: code(웹/파이프라인/사운"
         }
       ]
     },
     {
       "id": "art",
-      "name": "예술작업팀",
+      "name": "예술작업",
       "emoji": "▲",
       "color": "#7c3aed",
       "bg": "#f5f3ff",
-      "desc": "사운드 아트, 영상, 설치, 생성 예술 작업을 담당하는 팀.",
+      "desc": "제너러티브 비주얼 · 사운드 · 미디어아트 통합 · 퍼포먼스 필름",
       "agents": [
         {
           "id": "film-production",
           "name": "film-production",
-          "desc": "NODE TREE 퍼포먼스 필름 제작 전담. 촬영·편집·색보정·사운드믹싱·영화제 출품. 트리거: 촬영 계획, 편집, 색보정, 사운드 믹싱, 영화제, 이토록고요한파동."
+          "desc": "NODE TREE 퍼포먼스 필름 제작 전담 — 촬영 계획, 편집(Final Cut Pro 직접 제어), 색보정, 사운드 믹싱(LUFS 실측), 마스터링·코덱, 영화제 출품"
         },
         {
           "id": "generative-visual",
           "name": "generative-visual",
-          "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. p5.js 알고리즘 아트, Hydra 라이브코딩, TouchDesigner 노드·GLSL 셰이더, 프로그래밍 영상(Remotion). 트리거: 제너러티브, 플"
+          "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. 1순위 Three.js+WebGPU/TSL 컴퓨트 셰이더, p5.js 알고리즘 아트, Hydra, GLSL, Blender 3D 조형, 프로그래밍 영상(Hyp"
         },
         {
           "id": "media-art-pipeline",
           "name": "media-art-pipeline",
-          "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV 하드웨어, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-visual에 "
+          "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV/DAC 하드웨어, 센서, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-"
         },
         {
           "id": "sound-art",
           "name": "sound-art",
-          "desc": "NODE TREE 사운드아트·음악·모듈러신스 전담. SuperCollider DSP·SynthDef·패턴, Ableton 작·편곡, TidalCycles/SuperDirt 라이브코딩, Eurorack/Daisy 사운"
+          "desc": "NODE TREE 사운드아트·음악·모듈러신스 전담. SuperCollider DSP·SynthDef·패턴, Ableton 작·편곡, TidalCycles/SuperDirt 라이브코딩, Eurorack/Daisy, 웹"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "디자인홍보",
+      "emoji": "●",
+      "color": "#e11d48",
+      "bg": "#fff1f2",
+      "desc": "포스터 · SNS 이미지 · 홍보 글",
+      "agents": [
+        {
+          "id": "pr-content",
+          "name": "pr-content",
+          "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성"
+        },
+        {
+          "id": "visual-design",
+          "name": "visual-design",
+          "desc": "NODE TREE 포스터·SNS 이미지·전시 그래픽·홍보물·키비주얼 제작. Figma 직접 편집(use_figma), comfy-cloud AI 생성, HTML/SVG 조판, 인쇄 물리단위(fig2mm)"
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "name": "문서기획",
+      "emoji": "◆",
+      "color": "#0891b2",
+      "bg": "#ecfeff",
+      "desc": "지원서 · 도록 · 공문 · 일정",
+      "agents": [
+        {
+          "id": "doc-design",
+          "name": "doc-design",
+          "desc": "레이아웃·양식 문서 제작 — 포트폴리오, 도록, 기록집, 공문, 보고서, HWPX, Figma 디지털도화서"
+        },
+        {
+          "id": "grant-writer",
+          "name": "grant-writer",
+          "desc": "NODE TREE 설득형 글 작성 — 지원서·작가노트·제안서·artist statement 본문 텍스트"
+        },
+        {
+          "id": "project-planner",
+          "name": "project-planner",
+          "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian/Notion)"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "리서치",
+      "emoji": "○",
+      "color": "#b45309",
+      "bg": "#fffbeb",
+      "desc": "작가 · 이론 · 기술 리서치 · 공모 발굴",
+      "agents": [
+        {
+          "id": "research",
+          "name": "research",
+          "desc": "NODE TREE 리서치 통합 에이전트 — 두 모드. ①심층 리서치: 작가·작품·이론·기술·지역 조사, URL 분석, 옵시디안 정리, SLR. ②공모 레이더: 공모·레지던시·어워드 발굴·매칭 전략·마감 추적, gra"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "name": "개발",
+      "emoji": "■",
+      "color": "#1d4ed8",
+      "bg": "#eff6ff",
+      "desc": "nodetree.kr · isoartlab · 배포",
+      "agents": [
+        {
+          "id": "nodetreehome-web",
+          "name": "nodetreehome-web",
+          "desc": "nodetreeHome 웹 프로젝트 개발·배포 전담. React·API·실시간 시각화·Vercel"
         }
       ]
     },
     {
       "id": "accounting",
-      "name": "회계팀",
+      "name": "회계",
       "emoji": "□",
       "color": "#059669",
       "bg": "#ecfdf5",
-      "desc": "재무 관리, 예산 분석, 지출 추적을 담당하는 팀.",
+      "desc": "노드트리 · ㈜생산소 명의별 회계",
       "agents": [
         {
           "id": "nodetree-accounting",
           "name": "nodetree-accounting",
-          "desc": "노드트리(고유번호단체·면세사업자) 명의 회계 전담. 보조사업(e나라도움·보탬e·NCAS) 정산·집행, 면세사업자 원천세·지급명세서, 4대보험, 노드트리 일반회계. 트리거: 노드트리 회계, 꿈다락, 보조금, 정산, 집"
+          "desc": "⚠️명의 기준 라우팅(기능 아님). 노드트리(고유번호단체·면세사업자) 명의 회계 전담. 보조사업(e나라도움·보탬e·NCAS) 정산·집행, 면세사업자 원천세·지급명세서, 4대보험, 노드트리 일반회계"
         },
         {
           "id": "saengsanso-accounting",
           "name": "saengsanso-accounting",
-          "desc": "㈜생산소(법인) 명의 세무·회계 전담. 법인세·부가세·원천세·법인 급여·4대보험·법인카드·경비, 그리고 ㈜생산소 명의로 받는 보조사업(공모 정산)까지. 트리거: 생산소, 경비, 세금계산서, 부가세, 법인세, 법인 급"
+          "desc": "⚠️명의 기준 라우팅(기능 아님). ㈜생산소(법인) 명의 세무·회계 전담. 법인세·부가세·원천세·법인 급여·4대보험·법인카드·경비, ㈜생산소 명의 보조사업(공모 정산)"
         }
       ]
     }
