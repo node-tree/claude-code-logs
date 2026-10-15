@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T13:39:39.243718+00:00",
+  "lastUpdated": "2026-10-15T14:05:41.978274+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,11 +16,13 @@
       "sessionId": "cedfb988",
       "date": "2026-10-15",
       "startTime": "2026-10-15T11:14:23.019000+00:00",
-      "durationSeconds": 1471,
+      "durationSeconds": 4382,
       "modelTier": "opus",
-      "projectName": "자료실",
-      "toolCallCount": 92,
+      "projectName": "out",
+      "toolCallCount": 222,
       "agentsUsed": [
+        "Explore",
+        "general-purpose",
         "research"
       ]
     },
