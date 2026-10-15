@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T09:38:11.199529+00:00",
+  "lastUpdated": "2026-10-15T09:58:39.720051+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,11 +16,12 @@
       "sessionId": "cb4a0992",
       "date": "2026-10-15",
       "startTime": "2026-10-15T08:37:04.629000+00:00",
-      "durationSeconds": 3311,
+      "durationSeconds": 4542,
       "modelTier": "opus",
       "projectName": "payload",
-      "toolCallCount": 178,
+      "toolCallCount": 237,
       "agentsUsed": [
+        "evaluator",
         "general-purpose"
       ]
     },

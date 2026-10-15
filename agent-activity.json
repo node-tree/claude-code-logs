@@ -1,4 +1,9 @@
 {
+  "evaluator": {
+    "lastActive": "2026-10-15T08:37:04.629000+00:00",
+    "lastProject": "payload",
+    "sessionId": "cb4a0992"
+  },
   "research": {
     "lastActive": "2026-10-15T07:07:42.943000+00:00",
     "lastProject": "memory",
@@ -8,11 +13,6 @@
     "lastActive": "2026-10-14T07:43:23.956000+00:00",
     "lastProject": "nodetree-instagram",
     "sessionId": "a32413e0"
-  },
-  "evaluator": {
-    "lastActive": "2026-10-14T05:39:24.083000+00:00",
-    "lastProject": "nodetreeHome",
-    "sessionId": "add900c6"
   },
   "visual-design": {
     "lastActive": "2026-10-06T00:16:55.726000+00:00",
