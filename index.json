@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-15T08:35:26.339400+00:00",
+  "lastUpdated": "2026-10-15T08:37:07.098999+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "84d7707e",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T08:34:48.739000+00:00",
+      "durationSeconds": 30,
+      "modelTier": "opus",
+      "projectName": "knob-adapter",
+      "toolCallCount": 9,
+      "agentsUsed": []
+    },
     {
       "sessionId": "bc4f3980",
       "date": "2026-10-15",
@@ -3206,16 +3216,6 @@
       "modelTier": "unknown",
       "projectName": "게임",
       "toolCallCount": 43,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "f15de67b",
-      "date": "2026-09-06",
-      "startTime": "2026-09-06T22:14:22.676000+00:00",
-      "durationSeconds": 51,
-      "modelTier": "unknown",
-      "projectName": "",
-      "toolCallCount": 1,
       "agentsUsed": []
     }
   ]
