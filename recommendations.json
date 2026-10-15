@@ -2,81 +2,241 @@
   "lastUpdated": "2026-10-15",
   "recommendations": [
     {
-      "teamId": "dev",
-      "teamName": "개발팀",
+      "teamId": "harness",
+      "teamName": "하네스",
       "items": [
         {
-          "name": "Next.js 15 + Server Components",
-          "type": "skill",
-          "desc": "React 서버 컴포넌트를 활용한 풀스택 웹 개발",
-          "reason": "nodetreehome-web의 성능 최적화와 SEO 개선을 위해 필수적이며, 2026년 웹 스탠다드로 안착했으므로 현대적 개발 환경 구축에 직결됨",
-          "trend": "hot"
-        }
-      ]
-    },
-    {
-      "teamId": "research",
-      "teamName": "리서치팀",
-      "items": [
+          "name": "Chrome DevTools MCP",
+          "type": "mcp",
+          "desc": "실행 중인 Chrome을 DevTools로 제어해 성능 트레이스, 네트워크, 콘솔 로그, 스크린샷을 에이전트가 직접 읽게 하는 MCP 서버입니다.",
+          "reason": "evaluator가 lens: code로 WebGPU/TSL 웹 산출물을 판정할 때 콘솔 오류와 성능 트레이스를 실측 근거로 삼을 수 있습니다. 스크린샷 캡처와 함께 쓰면 PASS/REWORK 판정의 증거가 남습니다.",
+          "trend": "hot",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        },
         {
-          "name": "Systematic Literature Review + AI Citation Mapping",
+          "name": "Superpowers",
           "type": "skill",
-          "desc": "대규모 논문 데이터를 AI로 분석하여 연구 동향을 체계적으로 파악",
-          "reason": "grant-research의 경쟁력 있는 제안서 작성을 위해 미디어아트 분야의 최신 연구 트렌드를 신속하게 파악할 수 있으며, 교부처가 요구하는 혁신성 입증에 필수적",
-          "trend": "rising"
+          "desc": "브레인스토밍, 계획 분해, 서브에이전트 실행, 검증 후 완료를 강제하는 스킬 프레임워크입니다.",
+          "reason": "하네스 리드가 복합 산출물을 위임할 때 계획 단계와 단계별 리뷰 절차를 그대로 가져와 evaluator의 REWORK 루프를 줄일 수 있습니다. Claude Code와 Codex 양쪽에서 동작해 두 도구 간 작업 규율을 맞추기 좋습니다.",
+          "trend": "stable",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "name": "Promptfoo",
+          "type": "tool",
+          "desc": "프롬프트와 모델 출력을 자동 테스트하고 비교하는 오픈소스 CLI입니다.",
+          "reason": "evaluator와 pr-content 같은 에이전트의 지시문을 바꿀 때 같은 입력 세트로 Claude와 Codex의 판정 결과를 나란히 비교해 회귀를 잡을 수 있습니다. 로컬에서 실행되어 비공개 문서를 외부에 보내지 않습니다.",
+          "trend": "rising",
+          "url": "https://github.com/promptfoo/promptfoo"
         }
       ]
     },
     {
       "teamId": "art",
-      "teamName": "예술작업팀",
+      "teamName": "예술작업",
       "items": [
         {
-          "name": "SuperCollider + Live Coding Performance",
-          "type": "skill",
-          "desc": "실시간 음향 합성과 제어를 위한 라이브 코딩 기법",
-          "reason": "TidalCycles와 ESP32의 MIDI/시리얼 통신을 고도화할 수 있으며, TouchDesigner의 오디오 리액티브 성능을 극대화하여 멀티미디어 인터랙티브 설치미술의 표현력을 획기적으로 확장",
-          "trend": "rising"
-        }
-      ]
-    },
-    {
-      "teamId": "accounting",
-      "teamName": "회계팀",
-      "items": [
+          "name": "auto-editor",
+          "type": "tool",
+          "desc": "오디오 음량과 모션을 분석해 무음 구간을 자동으로 잘라내고 Final Cut Pro용으로 내보내는 CLI입니다.",
+          "reason": "film-production이 퍼포먼스 필름 촬영본의 긴 대기 구간을 1차 정리할 때 --export final-cut-pro로 타임라인을 만들어 FCP 편집으로 바로 넘길 수 있습니다. 컷 미리보기 옵션으로 지워질 구간을 먼저 확인할 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/WyattBlue/auto-editor"
+        },
         {
-          "name": "Grant Accounting Automation with RPA",
-          "type": "skill",
-          "desc": "정부지원금 회계 규정 준수 자동화 및 감시 시스템",
-          "reason": "grant-accounting-agent의 오류율을 제로에 가까이 줄일 수 있으며, 교부처 감사 시 자동 증빙 리포트 생성으로 업무 시간 70% 단축 가능하고, saengsanso-accounting과의 통합으로 이원화 관리 리스크 제거",
-          "trend": "hot"
+          "name": "Pedalboard",
+          "type": "tool",
+          "desc": "Spotify의 파이썬 오디오 라이브러리로 내장 이펙트와 VST3/Audio Unit 플러그인을 코드로 처리합니다.",
+          "reason": "sound-art가 SuperCollider로 만든 스템에 리미터와 EQ를 배치 적용하고, film-production의 LUFS 실측 믹싱 전 단계를 스크립트로 자동화할 수 있습니다. Ableton 작업 결과물의 마스터링 사전 점검에도 쓸 수 있습니다.",
+          "trend": "stable",
+          "url": "https://github.com/spotify/pedalboard"
+        },
+        {
+          "name": "Basic Pitch",
+          "type": "tool",
+          "desc": "오디오를 피치 벤드가 포함된 MIDI로 변환하는 Spotify의 경량 음악 채보 모델입니다.",
+          "reason": "sound-art가 현장 녹음이나 보컬 소스를 MIDI로 바꿔 Ableton 편곡과 SuperCollider 패턴의 재료로 쓸 수 있습니다. media-art-pipeline의 소니피케이션에서 음높이 데이터를 비주얼 파라미터에 매핑하는 입력으로도 활용할 수 있습니다.",
+          "trend": "stable",
+          "url": "https://github.com/spotify/basic-pitch"
         }
       ]
     },
     {
       "teamId": "design",
-      "teamName": "디자인및홍보팀",
+      "teamName": "디자인홍보",
       "items": [
         {
-          "name": "AI-Powered Visual Branding + Dynamic Content Generation",
-          "type": "skill",
-          "desc": "브랜드 가이드라인 기반의 자동 시각화 및 SNS 콘텐츠 생성",
-          "reason": "visual-design의 일관성 있는 브랜드 아이덴티티 유지를 자동화하고, pr-content의 소셜미디어 배포 속도를 3배 증가시킬 수 있으며, 미디어아트의 시각적 특수성을 AI가 학습하여 고유한 홍보 자산 축적 가능",
-          "trend": "hot"
+          "name": "Satori",
+          "type": "tool",
+          "desc": "JSX로 쓴 HTML/CSS 레이아웃을 SVG로 변환하는 Vercel의 라이브러리입니다.",
+          "reason": "visual-design이 SNS 이미지와 전시 안내 카드를 템플릿 코드로 만들어 같은 규격의 이미지를 대량 생성할 수 있습니다. 폰트를 직접 임베드하므로 한글 서체 조판도 일관되게 유지됩니다.",
+          "trend": "stable",
+          "url": "https://github.com/vercel/satori"
+        },
+        {
+          "name": "SVGO",
+          "type": "tool",
+          "desc": "SVG 파일에서 메타데이터와 중복 값을 제거해 용량을 줄이는 CLI입니다.",
+          "reason": "visual-design이 Figma에서 내보낸 포스터 일러스트와 SVG 필터 작업물을 nodetree.kr에 올리기 전에 가볍게 정리할 수 있습니다. 플러그인 설정을 고정해 두면 배치 처리 결과가 매번 같아집니다.",
+          "trend": "stable",
+          "url": "https://github.com/svg/svgo"
+        },
+        {
+          "name": "Excalidraw MCP",
+          "type": "mcp",
+          "desc": "손그림 스타일 Excalidraw 다이어그램을 대화 중에 스트리밍으로 그려주는 MCP 앱 서버입니다.",
+          "reason": "pr-content가 전시 동선이나 작품 구조를 설명하는 도식을 보도자료와 SNS 글에 곁들일 때 빠르게 초안을 만들 수 있습니다. Figma 작업 전 단계에서 포스터 구성 스케치를 합의하는 용도로도 쓸 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/excalidraw/excalidraw-mcp"
         }
       ]
     },
     {
-      "teamId": "planning",
-      "teamName": "기획팀",
+      "teamId": "docs",
+      "teamName": "문서기획",
       "items": [
         {
-          "name": "Project Roadmap + Risk Management MCP",
-          "type": "agent",
-          "desc": "프로젝트 일정, 예산, 위험요소를 통합 관리하는 AI 에이전트",
-          "reason": "doc-design, grant-writer, project-planner 간의 정보 비동기 문제를 실시간 해결하고, 교부금 마감일 대비 역산 일정 자동 생성 및 부서 간 병목 지점 조기 감지로 프로젝트 납기율 95% 이상 달성 가능",
-          "trend": "rising"
+          "name": "MarkItDown",
+          "type": "tool",
+          "desc": "PDF, Word, PowerPoint, Excel, 이미지, 오디오를 마크다운으로 변환하는 Microsoft의 파이썬 도구입니다.",
+          "reason": "grant-writer가 이전 지원서와 공모 요강 PDF를 마크다운으로 바꿔 작가노트와 제안서 본문 작성의 참고 자료로 불러올 수 있습니다. doc-design은 기존 보고서 양식을 텍스트로 추출해 HWPX 재조판의 출발점으로 삼을 수 있습니다.",
+          "trend": "hot",
+          "url": "https://github.com/microsoft/markitdown"
+        },
+        {
+          "name": "Pandoc",
+          "type": "tool",
+          "desc": "DOCX, LaTeX, HTML, Markdown 등 다양한 문서 형식을 서로 변환하는 범용 변환기입니다.",
+          "reason": "doc-design이 도록과 기록집 원고를 마크다운에서 DOCX나 PDF로 뽑아 레이아웃 작업 전 초안으로 쓸 수 있습니다. project-planner가 Obsidian 노트를 제출용 문서로 바꿀 때도 쓸 수 있습니다.",
+          "trend": "stable",
+          "url": "https://github.com/jgm/pandoc"
+        },
+        {
+          "name": "Docling",
+          "type": "tool",
+          "desc": "스캔 PDF까지 OCR로 읽어 레이아웃, 표, 읽기 순서를 구조화해 내보내는 IBM 주도의 문서 파싱 도구입니다.",
+          "reason": "doc-design이 공문과 양식 PDF의 표 구조를 보존한 채 읽어 HWPX로 옮길 때 유용합니다. MCP 서버도 제공해 Claude Code에서 바로 호출할 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/docling-project/docling"
         }
+      ]
+    },
+    {
+      "teamId": "research",
+      "teamName": "리서치",
+      "items": [
+        {
+          "name": "arxiv-mcp-server",
+          "type": "mcp",
+          "desc": "arXiv 논문 검색, LaTeX 섹션 단위 읽기, BibTeX 내보내기, 신규 논문 알림을 제공하는 MCP 서버입니다.",
+          "reason": "research 에이전트가 제너러티브 아트와 소니피케이션 관련 기술 논문을 조사하고 SLR 근거 목록을 만들 때 BibTeX 인용을 바로 뽑을 수 있습니다. 주제 워치로 신규 논문을 추적해 옵시디안 정리에 반영할 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/blazickjp/arxiv-mcp-server"
+        },
+        {
+          "name": "Zotero MCP",
+          "type": "mcp",
+          "desc": "Zotero 라이브러리를 검색하고 PDF 전문과 주석을 읽고 쓰는 MCP 서버 및 CLI입니다.",
+          "reason": "research가 작가·이론 자료를 Zotero에 모아 두고 작가노트 근거 문헌을 의미 검색으로 찾을 수 있습니다. Claude Code용 CLI 경로가 있어 컨텍스트 소모도 줄일 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/54yyyu/zotero-mcp"
+        },
+        {
+          "name": "Firecrawl MCP Server",
+          "type": "mcp",
+          "desc": "웹 검색, 스크래핑, 사이트 크롤링, 페이지 변경 모니터링을 제공하는 MCP 서버입니다.",
+          "reason": "research의 공모 레이더 모드가 공모·레지던시 공고 페이지를 정기적으로 모니터링해 마감 변경을 잡아낼 수 있습니다. 공고 본문을 마크다운으로 받아 매칭 전략 정리에 바로 쓸 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/mendableai/firecrawl-mcp-server"
+        }
+      ]
+    },
+    {
+      "teamId": "dev",
+      "teamName": "개발",
+      "items": [
+        {
+          "name": "agent-browser",
+          "type": "tool",
+          "desc": "접근성 트리 스냅샷으로 브라우저를 조작하는 Vercel Labs의 에이전트용 CLI입니다.",
+          "reason": "nodetreehome-web이 nodetree.kr 배포 후 주요 화면의 동작과 axe-core 접근성 점검을 자동으로 수행할 수 있습니다. Web Vitals와 콘솔 로그도 함께 확인할 수 있습니다.",
+          "trend": "hot",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "name": "Lighthouse",
+          "type": "tool",
+          "desc": "성능, 접근성, SEO, 모범 사례를 점검하는 구글의 웹 감사 CLI입니다.",
+          "reason": "nodetreehome-web이 실시간 시각화가 들어간 페이지의 성능 점수를 Vercel 배포 전후로 비교해 회귀를 잡을 수 있습니다. JSON 출력을 하네스 evaluator의 판정 근거로 넘기기에도 좋습니다.",
+          "trend": "stable",
+          "url": "https://github.com/GoogleChrome/lighthouse"
+        },
+        {
+          "name": "Sentry MCP",
+          "type": "mcp",
+          "desc": "Sentry의 오류, 이슈, 트레이스를 조회하는 공식 MCP 서버와 Claude Code 플러그인입니다.",
+          "reason": "nodetreehome-web이 배포된 React 사이트에서 발생한 런타임 오류를 Claude Code 안에서 바로 조회해 수정할 수 있습니다. 관람객이 쓰는 설치 작품 웹 화면의 오류 추적에도 쓸 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/getsentry/sentry-mcp"
+        }
+      ]
+    },
+    {
+      "teamId": "accounting",
+      "teamName": "회계",
+      "items": [
+        {
+          "name": "PaddleOCR",
+          "type": "tool",
+          "desc": "PDF와 이미지를 마크다운/JSON으로 구조화하는 OCR 및 문서 파싱 툴킷입니다.",
+          "reason": "nodetree-accounting이 보조사업 영수증과 증빙 스캔본에서 금액과 날짜를 추출해 e나라도움 정산 표에 옮길 때 쓸 수 있습니다. 한글 정확도는 실제 증빙으로 먼저 검증해야 합니다.",
+          "trend": "hot",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR"
+        },
+        {
+          "name": "Paperless-ngx",
+          "type": "tool",
+          "desc": "스캔 문서에 OCR을 적용해 검색 가능한 보관소로 만드는 문서 관리 시스템입니다.",
+          "reason": "saengsanso-accounting이 법인카드 영수증과 세금계산서를 월별로 보관하고 검색할 수 있습니다. 노드트리와 ㈜생산소 증빙을 별도 보관소로 나눠 명의 혼동을 막는 데 유용합니다.",
+          "trend": "stable",
+          "url": "https://github.com/paperless-ngx/paperless-ngx"
+        },
+        {
+          "name": "Markdownify MCP",
+          "type": "mcp",
+          "desc": "PDF, 이미지, 오디오, DOCX, XLSX를 마크다운으로 변환하는 MCP 서버입니다.",
+          "reason": "saengsanso-accounting이 거래처가 보낸 XLSX 정산서와 PDF 명세를 텍스트로 읽어 장부 대조에 활용할 수 있습니다. MD_ALLOWED_PATHS로 읽을 폴더를 제한할 수 있어 회계 자료 접근 범위를 통제하기 쉽습니다.",
+          "trend": "stable",
+          "url": "https://github.com/zcaceres/markdownify-mcp"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-15",
+      "names": [
+        "Chrome DevTools MCP",
+        "Superpowers",
+        "Promptfoo",
+        "auto-editor",
+        "Pedalboard",
+        "Basic Pitch",
+        "Satori",
+        "SVGO",
+        "Excalidraw MCP",
+        "MarkItDown",
+        "Pandoc",
+        "Docling",
+        "arxiv-mcp-server",
+        "Zotero MCP",
+        "Firecrawl MCP Server",
+        "agent-browser",
+        "Lighthouse",
+        "Sentry MCP",
+        "PaddleOCR",
+        "Paperless-ngx",
+        "Markdownify MCP"
       ]
     }
   ]
