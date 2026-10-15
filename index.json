@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-15T13:30:07.892280+00:00",
+  "lastUpdated": "2026-10-15T13:39:39.243718+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "008c57ed",
+      "date": "2026-10-15",
+      "startTime": "2026-10-15T13:32:58.688000+00:00",
+      "durationSeconds": 449,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 37,
+      "agentsUsed": []
+    },
     {
       "sessionId": "cedfb988",
       "date": "2026-10-15",
@@ -3212,16 +3222,6 @@
       "modelTier": "unknown",
       "projectName": "kanghyunjung",
       "toolCallCount": 28,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "6f097f92",
-      "date": "2026-09-07",
-      "startTime": "2026-09-07T23:43:02.270000+00:00",
-      "durationSeconds": 795,
-      "modelTier": "unknown",
-      "projectName": "nl-livecoding",
-      "toolCallCount": 39,
       "agentsUsed": []
     }
   ]
