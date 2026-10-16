@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-16T02:11:31.307681+00:00",
+  "lastUpdated": "2026-10-16T02:13:18.523148+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "ee4193f7",
+      "date": "2026-10-16",
+      "startTime": "2026-10-16T02:06:52.735000+00:00",
+      "durationSeconds": 403,
+      "modelTier": "opus",
+      "projectName": "projects",
+      "toolCallCount": 29,
+      "agentsUsed": []
+    },
     {
       "sessionId": "820cdb16",
       "date": "2026-10-16",
@@ -3216,16 +3226,6 @@
       "modelTier": "unknown",
       "projectName": "ms-007-preset",
       "toolCallCount": 34,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "5668a41f",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T04:36:32.220000+00:00",
-      "durationSeconds": 40015,
-      "modelTier": "unknown",
-      "projectName": "_shots",
-      "toolCallCount": 228,
       "agentsUsed": []
     }
   ]
