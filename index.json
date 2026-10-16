@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T13:27:39.569059+00:00",
+  "lastUpdated": "2026-10-16T14:37:48.011892+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "34467eab",
       "date": "2026-10-16",
       "startTime": "2026-10-16T08:47:13.610000+00:00",
-      "durationSeconds": 2625,
+      "durationSeconds": 3140,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 77,
+      "projectName": "mpoi-rebuild",
+      "toolCallCount": 79,
       "agentsUsed": []
     },
     {
