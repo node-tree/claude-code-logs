@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T00:42:34.062166+00:00",
+  "lastUpdated": "2026-10-16T00:52:14.220210+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,11 +16,13 @@
       "sessionId": "43ecf7f1",
       "date": "2026-10-16",
       "startTime": "2026-10-16T00:19:43.463000+00:00",
-      "durationSeconds": 741,
+      "durationSeconds": 1954,
       "modelTier": "opus",
-      "projectName": "_재료",
-      "toolCallCount": 90,
-      "agentsUsed": []
+      "projectName": "memory",
+      "toolCallCount": 160,
+      "agentsUsed": [
+        "evaluator"
+      ]
     },
     {
       "sessionId": "4251c024",
