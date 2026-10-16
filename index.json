@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-16T10:02:31.937210+00:00",
+  "lastUpdated": "2026-10-16T10:19:19.197600+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3cf92087",
       "date": "2026-10-16",
       "startTime": "2026-10-16T09:41:52.359000+00:00",
-      "durationSeconds": 1701,
+      "durationSeconds": 2018,
       "modelTier": "opus",
       "projectName": "kanghyunjung",
       "toolCallCount": 72,
