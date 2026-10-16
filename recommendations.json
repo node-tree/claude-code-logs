@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-15",
+  "lastUpdated": "2026-10-16",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "Chrome DevTools MCP",
-          "type": "mcp",
-          "desc": "실행 중인 Chrome을 DevTools로 제어해 성능 트레이스, 네트워크, 콘솔 로그, 스크린샷을 에이전트가 직접 읽게 하는 MCP 서버입니다.",
-          "reason": "evaluator가 lens: code로 WebGPU/TSL 웹 산출물을 판정할 때 콘솔 오류와 성능 트레이스를 실측 근거로 삼을 수 있습니다. 스크린샷 캡처와 함께 쓰면 PASS/REWORK 판정의 증거가 남습니다.",
-          "trend": "hot",
-          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-        },
-        {
-          "name": "Superpowers",
-          "type": "skill",
-          "desc": "브레인스토밍, 계획 분해, 서브에이전트 실행, 검증 후 완료를 강제하는 스킬 프레임워크입니다.",
-          "reason": "하네스 리드가 복합 산출물을 위임할 때 계획 단계와 단계별 리뷰 절차를 그대로 가져와 evaluator의 REWORK 루프를 줄일 수 있습니다. Claude Code와 Codex 양쪽에서 동작해 두 도구 간 작업 규율을 맞추기 좋습니다.",
-          "trend": "stable",
-          "url": "https://github.com/obra/superpowers"
-        },
-        {
-          "name": "Promptfoo",
+          "name": "Inspect AI",
           "type": "tool",
-          "desc": "프롬프트와 모델 출력을 자동 테스트하고 비교하는 오픈소스 CLI입니다.",
-          "reason": "evaluator와 pr-content 같은 에이전트의 지시문을 바꿀 때 같은 입력 세트로 Claude와 Codex의 판정 결과를 나란히 비교해 회귀를 잡을 수 있습니다. 로컬에서 실행되어 비공개 문서를 외부에 보내지 않습니다.",
+          "desc": "영국 AI 안전연구소(AISI)가 만든 LLM 평가 프레임워크로, 데이터셋·솔버·스코어러를 코드로 정의해 모델 출력을 채점합니다.",
+          "reason": "evaluator의 PASS/REWORK 기준을 채점 코드로 옮겨 lens: code·doc 판정이 매번 같은 기준으로 나오는지 점검할 수 있습니다. Claude와 Codex 같은 입력을 돌려 두 모델의 판정 차이를 비교하는 데도 쓸 수 있습니다.",
           "trend": "rising",
-          "url": "https://github.com/promptfoo/promptfoo"
+          "url": "https://github.com/UKGovernmentBEIS/inspect_ai"
+        },
+        {
+          "name": "DeepEval",
+          "type": "tool",
+          "desc": "pytest 방식으로 LLM 앱 출력을 단위 테스트하는 오픈소스 평가 프레임워크입니다.",
+          "reason": "하네스의 evaluator 지시문을 수정할 때마다 `deepeval test run`으로 기존 산출물 샘플에 대한 판정 회귀를 자동으로 잡을 수 있습니다. GEval 지표로 '디자인·문서 렌즈' 같은 정성 기준도 임계값으로 관리할 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/confident-ai/deepeval"
+        },
+        {
+          "name": "ast-grep MCP",
+          "type": "mcp",
+          "desc": "ast-grep의 구문 트리 기반 코드 검색을 에이전트에게 노출하는 실험적 MCP 서버입니다.",
+          "reason": "evaluator가 lens: code로 WebGPU/TSL 코드를 검수할 때 정규식 대신 구조 패턴으로 금지 패턴(예: 정리되지 않은 렌더 루프)을 찾아낼 수 있습니다. YAML 규칙을 저장해 두면 검수 기준이 재사용됩니다.",
+          "trend": "rising",
+          "url": "https://github.com/ast-grep/ast-grep-mcp"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "auto-editor",
+          "name": "OpenTimelineIO",
           "type": "tool",
-          "desc": "오디오 음량과 모션을 분석해 무음 구간을 자동으로 잘라내고 Final Cut Pro용으로 내보내는 CLI입니다.",
-          "reason": "film-production이 퍼포먼스 필름 촬영본의 긴 대기 구간을 1차 정리할 때 --export final-cut-pro로 타임라인을 만들어 FCP 편집으로 바로 넘길 수 있습니다. 컷 미리보기 옵션으로 지워질 구간을 먼저 확인할 수 있습니다.",
-          "trend": "rising",
-          "url": "https://github.com/WyattBlue/auto-editor"
+          "desc": "편집 타임라인을 교환하는 오픈소스 API와 포맷으로, 어댑터를 통해 Final Cut Pro XML을 읽고 쓸 수 있습니다.",
+          "reason": "film-production이 퍼포먼스 필름의 컷 목록을 FCP XML에서 읽어 길이·구간 통계를 뽑거나 스크립트로 타임라인을 생성할 수 있습니다. 어댑터는 OpenTimelineIO-Plugins 패키지로 따로 설치해야 합니다.",
+          "trend": "stable",
+          "url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO"
         },
         {
-          "name": "Pedalboard",
+          "name": "Essentia",
           "type": "tool",
-          "desc": "Spotify의 파이썬 오디오 라이브러리로 내장 이펙트와 VST3/Audio Unit 플러그인을 코드로 처리합니다.",
-          "reason": "sound-art가 SuperCollider로 만든 스템에 리미터와 EQ를 배치 적용하고, film-production의 LUFS 실측 믹싱 전 단계를 스크립트로 자동화할 수 있습니다. Ableton 작업 결과물의 마스터링 사전 점검에도 쓸 수 있습니다.",
+          "desc": "스펙트럼·시간·음높이 계열 특징을 추출하는 C++ 음악 분석 라이브러리로 파이썬 바인딩을 제공합니다.",
+          "reason": "media-art-pipeline의 소니피케이션에서 녹음 소스의 스펙트럼 특징을 수치로 뽑아 generative-visual의 셰이더 파라미터로 매핑할 수 있습니다. 라이선스가 AGPL v3이므로 배포 방식은 확인이 필요합니다.",
           "trend": "stable",
-          "url": "https://github.com/spotify/pedalboard"
+          "url": "https://github.com/MTG/essentia"
         },
         {
-          "name": "Basic Pitch",
+          "name": "LYGIA",
           "type": "tool",
-          "desc": "오디오를 피치 벤드가 포함된 MIDI로 변환하는 Spotify의 경량 음악 채보 모델입니다.",
-          "reason": "sound-art가 현장 녹음이나 보컬 소스를 MIDI로 바꿔 Ableton 편곡과 SuperCollider 패턴의 재료로 쓸 수 있습니다. media-art-pipeline의 소니피케이션에서 음높이 데이터를 비주얼 파라미터에 매핑하는 입력으로도 활용할 수 있습니다.",
+          "desc": "GLSL·HLSL·WGSL·Metal 등을 지원하는 다국어 셰이더 함수 라이브러리입니다.",
+          "reason": "generative-visual이 Three.js WebGPU/TSL 작업에서 노이즈·색 공간·필터 함수를 WGSL로 가져다 쓰고, TouchDesigner GLSL로 옮길 때도 같은 함수를 재사용할 수 있습니다. 직접 짠 셰이더 코드 양이 줄어듭니다.",
           "trend": "stable",
-          "url": "https://github.com/spotify/basic-pitch"
+          "url": "https://github.com/patriciogonzalezvivo/lygia"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Satori",
+          "name": "rembg",
           "type": "tool",
-          "desc": "JSX로 쓴 HTML/CSS 레이아웃을 SVG로 변환하는 Vercel의 라이브러리입니다.",
-          "reason": "visual-design이 SNS 이미지와 전시 안내 카드를 템플릿 코드로 만들어 같은 규격의 이미지를 대량 생성할 수 있습니다. 폰트를 직접 임베드하므로 한글 서체 조판도 일관되게 유지됩니다.",
+          "desc": "이미지 배경을 제거하는 오픈소스 도구로 CLI, 파이썬 라이브러리, HTTP 서버로 쓸 수 있습니다.",
+          "reason": "visual-design이 전시 기록 사진이나 오브제 사진을 포스터·SNS 이미지에 합성하기 전에 `rembg p`로 폴더 단위 누끼를 일괄 처리할 수 있습니다. 모델을 미리 내려받아 두면 오프라인에서도 동작합니다.",
           "trend": "stable",
-          "url": "https://github.com/vercel/satori"
+          "url": "https://github.com/danielgatis/rembg"
         },
         {
-          "name": "SVGO",
+          "name": "Real-ESRGAN",
           "type": "tool",
-          "desc": "SVG 파일에서 메타데이터와 중복 값을 제거해 용량을 줄이는 CLI입니다.",
-          "reason": "visual-design이 Figma에서 내보낸 포스터 일러스트와 SVG 필터 작업물을 nodetree.kr에 올리기 전에 가볍게 정리할 수 있습니다. 플러그인 설정을 고정해 두면 배치 처리 결과가 매번 같아집니다.",
+          "desc": "이미지·영상 복원용 업스케일 모델로 GPU 없이도 쓸 수 있는 ncnn-vulkan 실행 파일을 제공합니다.",
+          "reason": "visual-design이 해상도가 낮은 AI 생성 이미지나 오래된 기록 사진을 인쇄용 포스터 크기로 키울 때 사용할 수 있습니다. 타일 처리 때문에 경계가 어색할 수 있어 결과 확인이 필요합니다.",
           "trend": "stable",
-          "url": "https://github.com/svg/svgo"
+          "url": "https://github.com/xinntao/Real-ESRGAN"
         },
         {
-          "name": "Excalidraw MCP",
-          "type": "mcp",
-          "desc": "손그림 스타일 Excalidraw 다이어그램을 대화 중에 스트리밍으로 그려주는 MCP 앱 서버입니다.",
-          "reason": "pr-content가 전시 동선이나 작품 구조를 설명하는 도식을 보도자료와 SNS 글에 곁들일 때 빠르게 초안을 만들 수 있습니다. Figma 작업 전 단계에서 포스터 구성 스케치를 합의하는 용도로도 쓸 수 있습니다.",
-          "trend": "rising",
-          "url": "https://github.com/excalidraw/excalidraw-mcp"
+          "name": "resvg",
+          "type": "tool",
+          "desc": "SVG를 PNG로 렌더링하는 Rust 라이브러리이자 CLI로, 브라우저 없이 결과가 일정합니다.",
+          "reason": "visual-design이 HTML/SVG로 조판한 SNS 카드와 전시 그래픽을 서버나 CI에서 같은 결과의 PNG로 뽑을 수 있습니다. 애니메이션과 스크립트는 지원하지 않으므로 정적 그래픽에 한정됩니다.",
+          "trend": "stable",
+          "url": "https://github.com/linebender/resvg"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "MarkItDown",
+          "name": "Typst",
           "type": "tool",
-          "desc": "PDF, Word, PowerPoint, Excel, 이미지, 오디오를 마크다운으로 변환하는 Microsoft의 파이썬 도구입니다.",
-          "reason": "grant-writer가 이전 지원서와 공모 요강 PDF를 마크다운으로 바꿔 작가노트와 제안서 본문 작성의 참고 자료로 불러올 수 있습니다. doc-design은 기존 보고서 양식을 텍스트로 추출해 HWPX 재조판의 출발점으로 삼을 수 있습니다.",
-          "trend": "hot",
-          "url": "https://github.com/microsoft/markitdown"
-        },
-        {
-          "name": "Pandoc",
-          "type": "tool",
-          "desc": "DOCX, LaTeX, HTML, Markdown 등 다양한 문서 형식을 서로 변환하는 범용 변환기입니다.",
-          "reason": "doc-design이 도록과 기록집 원고를 마크다운에서 DOCX나 PDF로 뽑아 레이아웃 작업 전 초안으로 쓸 수 있습니다. project-planner가 Obsidian 노트를 제출용 문서로 바꿀 때도 쓸 수 있습니다.",
-          "trend": "stable",
-          "url": "https://github.com/jgm/pandoc"
-        },
-        {
-          "name": "Docling",
-          "type": "tool",
-          "desc": "스캔 PDF까지 OCR로 읽어 레이아웃, 표, 읽기 순서를 구조화해 내보내는 IBM 주도의 문서 파싱 도구입니다.",
-          "reason": "doc-design이 공문과 양식 PDF의 표 구조를 보존한 채 읽어 HWPX로 옮길 때 유용합니다. MCP 서버도 제공해 Claude Code에서 바로 호출할 수 있습니다.",
+          "desc": "마크업 기반 조판 시스템으로 `typst compile`로 PDF를 만들고 `typst watch`로 실시간 재컴파일합니다.",
+          "reason": "doc-design이 포트폴리오와 도록 같은 반복 양식 문서를 템플릿 코드로 만들어 여러 판본을 일관되게 뽑을 수 있습니다. 폰트 경로를 지정해 한글 서체를 고정할 수 있습니다.",
           "trend": "rising",
-          "url": "https://github.com/docling-project/docling"
+          "url": "https://github.com/typst/typst"
+        },
+        {
+          "name": "Paged.js",
+          "type": "tool",
+          "desc": "웹 콘텐츠를 CSS 페이지 미디어 규칙으로 쪽 나눔해 인쇄용 책을 만드는 라이브러리이며 pagedjs-cli로 PDF를 출력합니다.",
+          "reason": "doc-design이 기록집과 도록을 HTML/CSS로 조판하고 쪽번호·여백이 지정된 인쇄용 PDF로 내보낼 수 있습니다. Figma 디지털도화서 작업과 달리 본문 중심의 긴 문서에 맞습니다.",
+          "trend": "stable",
+          "url": "https://github.com/pagedjs/pagedjs"
+        },
+        {
+          "name": "mcp-obsidian",
+          "type": "mcp",
+          "desc": "Obsidian Local REST API 플러그인을 통해 볼트의 노트를 읽고 검색하고 추가하는 MCP 서버입니다.",
+          "reason": "project-planner가 Obsidian에 있는 일정·예산 노트를 직접 읽고 갱신해 간트와 역할표를 최신으로 유지할 수 있습니다. mcp 파이썬 SDK는 1.x 버전으로 고정해야 합니다.",
+          "trend": "stable",
+          "url": "https://github.com/MarkusPfundstein/mcp-obsidian"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "arxiv-mcp-server",
+          "name": "Exa MCP Server",
           "type": "mcp",
-          "desc": "arXiv 논문 검색, LaTeX 섹션 단위 읽기, BibTeX 내보내기, 신규 논문 알림을 제공하는 MCP 서버입니다.",
-          "reason": "research 에이전트가 제너러티브 아트와 소니피케이션 관련 기술 논문을 조사하고 SLR 근거 목록을 만들 때 BibTeX 인용을 바로 뽑을 수 있습니다. 주제 워치로 신규 논문을 추적해 옵시디안 정리에 반영할 수 있습니다.",
-          "trend": "rising",
-          "url": "https://github.com/blazickjp/arxiv-mcp-server"
+          "desc": "Exa의 웹 검색과 URL 마크다운 변환, 다단계 리서치 도구를 제공하는 MCP 서버로 Claude Code 플러그인으로 설치합니다.",
+          "reason": "research의 공모 레이더 모드에서 레지던시·어워드 공고를 날짜·도메인 조건으로 좁혀 찾고 본문을 마크다운으로 바로 받을 수 있습니다. OAuth 또는 API 키 인증이 필요합니다.",
+          "trend": "hot",
+          "url": "https://github.com/exa-labs/exa-mcp-server"
         },
         {
-          "name": "Zotero MCP",
-          "type": "mcp",
-          "desc": "Zotero 라이브러리를 검색하고 PDF 전문과 주석을 읽고 쓰는 MCP 서버 및 CLI입니다.",
-          "reason": "research가 작가·이론 자료를 Zotero에 모아 두고 작가노트 근거 문헌을 의미 검색으로 찾을 수 있습니다. Claude Code용 CLI 경로가 있어 컨텍스트 소모도 줄일 수 있습니다.",
+          "name": "GPT Researcher",
+          "type": "agent",
+          "desc": "여러 출처를 수집해 인용이 달린 보고서를 만드는 자율 리서치 에이전트로, MCP 클라이언트 설정과 별도 MCP 서버 저장소를 제공합니다.",
+          "reason": "research의 심층 리서치 모드에서 작가·이론·기술 주제를 병렬로 조사해 출처가 붙은 초안을 만들고 옵시디안 정리 전 자료로 쓸 수 있습니다. 결과의 출처는 직접 확인해야 합니다.",
           "trend": "rising",
-          "url": "https://github.com/54yyyu/zotero-mcp"
+          "url": "https://github.com/assafelovic/gpt-researcher"
         },
         {
-          "name": "Firecrawl MCP Server",
-          "type": "mcp",
-          "desc": "웹 검색, 스크래핑, 사이트 크롤링, 페이지 변경 모니터링을 제공하는 MCP 서버입니다.",
-          "reason": "research의 공모 레이더 모드가 공모·레지던시 공고 페이지를 정기적으로 모니터링해 마감 변경을 잡아낼 수 있습니다. 공고 본문을 마크다운으로 받아 매칭 전략 정리에 바로 쓸 수 있습니다.",
-          "trend": "rising",
-          "url": "https://github.com/mendableai/firecrawl-mcp-server"
+          "name": "yt-dlp",
+          "type": "tool",
+          "desc": "영상·오디오 다운로드와 자막·메타데이터(info.json) 추출을 지원하는 커맨드라인 도구입니다.",
+          "reason": "research가 작가 인터뷰나 강연 영상을 분석할 때 `--write-subs`와 `--write-info-json`으로 자막과 메타데이터만 받아 옵시디안 노트의 원자료로 쓸 수 있습니다. 저작권과 이용약관 범위 안에서만 사용해야 합니다.",
+          "trend": "stable",
+          "url": "https://github.com/yt-dlp/yt-dlp"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "agent-browser",
+          "name": "Biome",
           "type": "tool",
-          "desc": "접근성 트리 스냅샷으로 브라우저를 조작하는 Vercel Labs의 에이전트용 CLI입니다.",
-          "reason": "nodetreehome-web이 nodetree.kr 배포 후 주요 화면의 동작과 axe-core 접근성 점검을 자동으로 수행할 수 있습니다. Web Vitals와 콘솔 로그도 함께 확인할 수 있습니다.",
-          "trend": "hot",
-          "url": "https://github.com/vercel-labs/agent-browser"
-        },
-        {
-          "name": "Lighthouse",
-          "type": "tool",
-          "desc": "성능, 접근성, SEO, 모범 사례를 점검하는 구글의 웹 감사 CLI입니다.",
-          "reason": "nodetreehome-web이 실시간 시각화가 들어간 페이지의 성능 점수를 Vercel 배포 전후로 비교해 회귀를 잡을 수 있습니다. JSON 출력을 하네스 evaluator의 판정 근거로 넘기기에도 좋습니다.",
-          "trend": "stable",
-          "url": "https://github.com/GoogleChrome/lighthouse"
-        },
-        {
-          "name": "Sentry MCP",
-          "type": "mcp",
-          "desc": "Sentry의 오류, 이슈, 트레이스를 조회하는 공식 MCP 서버와 Claude Code 플러그인입니다.",
-          "reason": "nodetreehome-web이 배포된 React 사이트에서 발생한 런타임 오류를 Claude Code 안에서 바로 조회해 수정할 수 있습니다. 관람객이 쓰는 설치 작품 웹 화면의 오류 추적에도 쓸 수 있습니다.",
+          "desc": "JavaScript·TypeScript·JSX·JSON·CSS의 포맷과 린트를 하나로 처리하는 빠른 툴체인입니다.",
+          "reason": "nodetreehome-web이 React 코드에 `biome check --write` 한 번으로 포맷과 안전한 린트 수정을 적용해 Vercel 배포 전 점검 시간을 줄일 수 있습니다. CI에서는 `biome ci`로 같은 기준을 검사합니다.",
           "trend": "rising",
-          "url": "https://github.com/getsentry/sentry-mcp"
+          "url": "https://github.com/biomejs/biome"
+        },
+        {
+          "name": "Knip",
+          "type": "tool",
+          "desc": "JavaScript·TypeScript 프로젝트에서 쓰이지 않는 파일, 의존성, export를 찾아내는 도구입니다.",
+          "reason": "nodetreehome-web에서 실험 작업이 쌓이며 남은 사용하지 않는 컴포넌트와 패키지를 찾아 번들 크기를 줄일 수 있습니다. 삭제 전 결과 목록을 사람이 확인해야 합니다.",
+          "trend": "stable",
+          "url": "https://github.com/webpro-nl/knip"
+        },
+        {
+          "name": "Stagehand",
+          "type": "tool",
+          "desc": "act·observe·extract 같은 자연어 기반 브라우저 제어를 제공하는 SDK로, Browserbase MCP 서버로도 쓸 수 있습니다.",
+          "reason": "nodetreehome-web이 nodetree.kr 배포 후 주요 화면 흐름을 자연어 지시로 점검하고 선택자가 바뀌어도 동작하는 스모크 테스트를 만들 수 있습니다. MCP 서버는 Browserbase API 키가 필요합니다.",
+          "trend": "rising",
+          "url": "https://github.com/browserbase/stagehand"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "PaddleOCR",
+          "name": "Camelot",
           "type": "tool",
-          "desc": "PDF와 이미지를 마크다운/JSON으로 구조화하는 OCR 및 문서 파싱 툴킷입니다.",
-          "reason": "nodetree-accounting이 보조사업 영수증과 증빙 스캔본에서 금액과 날짜를 추출해 e나라도움 정산 표에 옮길 때 쓸 수 있습니다. 한글 정확도는 실제 증빙으로 먼저 검증해야 합니다.",
-          "trend": "hot",
-          "url": "https://github.com/PaddlePaddle/PaddleOCR"
-        },
-        {
-          "name": "Paperless-ngx",
-          "type": "tool",
-          "desc": "스캔 문서에 OCR을 적용해 검색 가능한 보관소로 만드는 문서 관리 시스템입니다.",
-          "reason": "saengsanso-accounting이 법인카드 영수증과 세금계산서를 월별로 보관하고 검색할 수 있습니다. 노드트리와 ㈜생산소 증빙을 별도 보관소로 나눠 명의 혼동을 막는 데 유용합니다.",
+          "desc": "PDF 안의 표를 pandas DataFrame으로 추출해 CSV·Excel·JSON 등으로 내보내는 파이썬 라이브러리입니다.",
+          "reason": "nodetree-accounting이 은행 거래내역과 정산 증빙 PDF의 표를 CSV로 뽑아 지출내역서 대조에 쓸 수 있습니다. 텍스트 기반 PDF에 적합하고 스캔본은 별도 옵션이 필요합니다.",
           "trend": "stable",
-          "url": "https://github.com/paperless-ngx/paperless-ngx"
+          "url": "https://github.com/camelot-dev/camelot"
         },
         {
-          "name": "Markdownify MCP",
+          "name": "DuckDB MCP Server",
           "type": "mcp",
-          "desc": "PDF, 이미지, 오디오, DOCX, XLSX를 마크다운으로 변환하는 MCP 서버입니다.",
-          "reason": "saengsanso-accounting이 거래처가 보낸 XLSX 정산서와 PDF 명세를 텍스트로 읽어 장부 대조에 활용할 수 있습니다. MD_ALLOWED_PATHS로 읽을 폴더를 제한할 수 있어 회계 자료 접근 범위를 통제하기 쉽습니다.",
+          "desc": "로컬 DuckDB 파일과 인메모리 DB에 SQL을 실행하게 해주는 MotherDuck의 MCP 서버입니다.",
+          "reason": "saengsanso-accounting이 법인카드 내역과 거래 데이터를 DuckDB에 적재해 월별·계정별 합계를 SQL로 검산할 수 있습니다. 기본 읽기 전용으로 쓰면 원본 데이터가 바뀌지 않습니다.",
+          "trend": "rising",
+          "url": "https://github.com/motherduckdb/mcp-server-motherduck"
+        },
+        {
+          "name": "Fava",
+          "type": "tool",
+          "desc": "복식부기 도구 Beancount의 웹 인터페이스로 `fava ledger.beancount`로 실행합니다.",
+          "reason": "nodetree-accounting이 보조사업 집행 내역을 텍스트 장부로 관리하고 비목별 잔액을 브라우저에서 확인해 정산 전 점검에 쓸 수 있습니다. e나라도움 양식과는 별도이므로 내부 검산용으로 적합합니다.",
           "trend": "stable",
-          "url": "https://github.com/zcaceres/markdownify-mcp"
+          "url": "https://github.com/beancount/fava"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-10-16",
+      "names": [
+        "Inspect AI",
+        "DeepEval",
+        "ast-grep MCP",
+        "OpenTimelineIO",
+        "Essentia",
+        "LYGIA",
+        "rembg",
+        "Real-ESRGAN",
+        "resvg",
+        "Typst",
+        "Paged.js",
+        "mcp-obsidian",
+        "Exa MCP Server",
+        "GPT Researcher",
+        "yt-dlp",
+        "Biome",
+        "Knip",
+        "Stagehand",
+        "Camelot",
+        "DuckDB MCP Server",
+        "Fava"
+      ]
+    },
     {
       "date": "2026-10-15",
       "names": [
