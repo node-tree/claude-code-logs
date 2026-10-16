@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-16T14:45:28.887200+00:00",
+  "lastUpdated": "2026-10-16T14:46:11.032910+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "40ece953",
+      "date": "2026-10-16",
+      "startTime": "2026-10-16T14:37:33.764000+00:00",
+      "durationSeconds": 395,
+      "modelTier": "opus",
+      "projectName": "2026",
+      "toolCallCount": 7,
+      "agentsUsed": []
+    },
     {
       "sessionId": "ad1ecff7",
       "date": "2026-10-16",
@@ -3227,16 +3237,6 @@
       "modelTier": "unknown",
       "projectName": "2026",
       "toolCallCount": 73,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "d0e25e0b",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T07:14:28.420000+00:00",
-      "durationSeconds": 6437,
-      "modelTier": "unknown",
-      "projectName": "디지털도화서",
-      "toolCallCount": 215,
       "agentsUsed": []
     }
   ]
