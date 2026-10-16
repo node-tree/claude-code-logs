@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T08:32:07.182449+00:00",
+  "lastUpdated": "2026-10-16T08:33:27.000783+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -36,10 +36,10 @@
       "sessionId": "5cbc8499",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:22:23.208000+00:00",
-      "durationSeconds": 5536,
+      "durationSeconds": 5798,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 241,
+      "projectName": "02-개념작곡",
+      "toolCallCount": 250,
       "agentsUsed": [
         "general-purpose",
         "research"
