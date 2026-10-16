@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T06:10:26.275366+00:00",
+  "lastUpdated": "2026-10-16T06:14:17.871557+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "268e294c",
       "date": "2026-10-16",
       "startTime": "2026-10-16T02:20:18.952000+00:00",
-      "durationSeconds": 1641,
+      "durationSeconds": 2101,
       "modelTier": "opus",
-      "projectName": "영화-이론",
-      "toolCallCount": 103,
+      "projectName": "리서치_도시소외계층_부산만주",
+      "toolCallCount": 141,
       "agentsUsed": [
         "general-purpose"
       ]
