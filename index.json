@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T06:53:37.197084+00:00",
+  "lastUpdated": "2026-10-16T06:54:34.628018+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,11 +18,12 @@
       "sessionId": "8e7be45d",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:21:12.945000+00:00",
-      "durationSeconds": 1352,
+      "durationSeconds": 2209,
       "modelTier": "opus",
-      "projectName": "리서치_도시소외계층_부산만주",
-      "toolCallCount": 45,
+      "projectName": "Obsidian Vault",
+      "toolCallCount": 82,
       "agentsUsed": [
+        "Explore",
         "general-purpose",
         "research"
       ]
