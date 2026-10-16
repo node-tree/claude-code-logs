@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T06:16:06.944430+00:00",
+  "lastUpdated": "2026-10-16T06:17:20.562650+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,10 +28,10 @@
       "sessionId": "ee4193f7",
       "date": "2026-10-16",
       "startTime": "2026-10-16T02:06:52.735000+00:00",
-      "durationSeconds": 4348,
+      "durationSeconds": 4425,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 296,
+      "projectName": "nodetree-sync",
+      "toolCallCount": 298,
       "agentsUsed": []
     },
     {
