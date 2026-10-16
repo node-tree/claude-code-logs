@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-16T14:44:16.751308+00:00",
+  "lastUpdated": "2026-10-16T14:44:31.816029+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "ad1ecff7",
+      "date": "2026-10-16",
+      "startTime": "2026-10-16T14:18:22.585000+00:00",
+      "durationSeconds": 2377,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 146,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "3cf92087",
       "date": "2026-10-16",
@@ -3225,16 +3237,6 @@
       "modelTier": "unknown",
       "projectName": "디지털도화서",
       "toolCallCount": 215,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "18fa570b",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T07:07:17.207000+00:00",
-      "durationSeconds": 158,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 0,
       "agentsUsed": []
     }
   ]
