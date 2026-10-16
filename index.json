@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T13:15:58.132579+00:00",
+  "lastUpdated": "2026-10-16T13:17:22.397419+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -69,10 +69,10 @@
       "sessionId": "8e7be45d",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:21:12.945000+00:00",
-      "durationSeconds": 8949,
+      "durationSeconds": 9129,
       "modelTier": "opus",
       "projectName": "말하려는것",
-      "toolCallCount": 250,
+      "toolCallCount": 255,
       "agentsUsed": [
         "Explore",
         "general-purpose",
