@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T08:00:52.169219+00:00",
+  "lastUpdated": "2026-10-16T08:02:51.321362+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -39,10 +39,10 @@
       "sessionId": "8e7be45d",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:21:12.945000+00:00",
-      "durationSeconds": 4081,
+      "durationSeconds": 4801,
       "modelTier": "opus",
-      "projectName": "Obsidian Vault",
-      "toolCallCount": 132,
+      "projectName": "공생직조",
+      "toolCallCount": 141,
       "agentsUsed": [
         "Explore",
         "general-purpose",
