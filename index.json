@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T06:03:48.397849+00:00",
+  "lastUpdated": "2026-10-16T06:04:09.735368+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "268e294c",
       "date": "2026-10-16",
       "startTime": "2026-10-16T02:20:18.952000+00:00",
-      "durationSeconds": 1385,
+      "durationSeconds": 1409,
       "modelTier": "opus",
       "projectName": "영화-이론",
-      "toolCallCount": 96,
+      "toolCallCount": 97,
       "agentsUsed": [
         "general-purpose"
       ]
