@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-16T06:21:56.844271+00:00",
+  "lastUpdated": "2026-10-16T06:22:29.218851+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "8e7be45d",
+      "date": "2026-10-16",
+      "startTime": "2026-10-16T06:21:12.945000+00:00",
+      "durationSeconds": 37,
+      "modelTier": "opus",
+      "projectName": "Obsidian Vault",
+      "toolCallCount": 12,
+      "agentsUsed": []
+    },
     {
       "sessionId": "056c5752",
       "date": "2026-10-16",
@@ -3218,16 +3228,6 @@
       "modelTier": "unknown",
       "projectName": "0629",
       "toolCallCount": 31,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "aaf149bb",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T06:43:23.481000+00:00",
-      "durationSeconds": 24820,
-      "modelTier": "unknown",
-      "projectName": "memory",
-      "toolCallCount": 106,
       "agentsUsed": []
     }
   ]
