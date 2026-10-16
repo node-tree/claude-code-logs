@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-16T08:09:33.704405+00:00",
+  "lastUpdated": "2026-10-16T08:20:01.747514+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b7752ed7",
+      "date": "2026-10-16",
+      "startTime": "2026-10-16T07:27:04.578000+00:00",
+      "durationSeconds": 3584,
+      "modelTier": "opus",
+      "projectName": "nodetreeHome",
+      "toolCallCount": 383,
+      "agentsUsed": []
+    },
     {
       "sessionId": "7f8a6a0c",
       "date": "2026-10-16",
@@ -3225,16 +3235,6 @@
       "modelTier": "unknown",
       "projectName": "kanghyunjung",
       "toolCallCount": 42,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "fdacf914",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T06:51:22.017000+00:00",
-      "durationSeconds": 489,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 38,
       "agentsUsed": []
     }
   ]
