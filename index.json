@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-10-18T11:11:35.746837+00:00",
+  "lastUpdated": "2026-10-18T11:12:27.027213+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "5bfd166d",
+      "date": "2026-10-18",
+      "startTime": "2026-10-18T11:00:12.358000+00:00",
+      "durationSeconds": 808,
+      "modelTier": "opus",
+      "projectName": "청동 부식 표면 현미경사진",
+      "toolCallCount": 85,
+      "agentsUsed": [
+        "general-purpose",
+        "research"
+      ]
+    },
     {
       "sessionId": "05c7eaf5",
       "date": "2026-10-18",
@@ -3229,16 +3242,6 @@
       "modelTier": "unknown",
       "projectName": "contact-fx",
       "toolCallCount": 145,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "8fceda21",
-      "date": "2026-09-09",
-      "startTime": "2026-09-08T11:43:56.910000+00:00",
-      "durationSeconds": 83990,
-      "modelTier": "unknown",
-      "projectName": "이몽학위령제_포스터",
-      "toolCallCount": 91,
       "agentsUsed": []
     }
   ]
