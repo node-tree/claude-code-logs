@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T14:26:12.718883+00:00",
+  "lastUpdated": "2026-10-18T14:28:02.944461+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -147,10 +147,10 @@
       "sessionId": "5cbc8499",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:22:23.208000+00:00",
-      "durationSeconds": 18310,
+      "durationSeconds": 23777,
       "modelTier": "opus",
-      "projectName": "02-개념작곡",
-      "toolCallCount": 705,
+      "projectName": "효과기법조사",
+      "toolCallCount": 864,
       "agentsUsed": [
         "general-purpose",
         "research"
