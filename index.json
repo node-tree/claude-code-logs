@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T11:49:28.737276+00:00",
+  "lastUpdated": "2026-10-18T11:50:18.481547+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -19,7 +19,7 @@
       "sessionId": "05c7eaf5",
       "date": "2026-10-18",
       "startTime": "2026-10-18T10:57:43.550000+00:00",
-      "durationSeconds": 2208,
+      "durationSeconds": 2257,
       "modelTier": "opus",
       "projectName": "2단계",
       "toolCallCount": 121,
