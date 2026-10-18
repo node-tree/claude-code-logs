@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T12:32:55.805154+00:00",
+  "lastUpdated": "2026-10-18T12:36:39.169722+00:00",
   "totalAgents": 114,
   "agents": [
     {
@@ -758,14 +758,6 @@
       "emoji": "🔌"
     },
     {
-      "id": "mcp-kicad",
-      "type": "mcp",
-      "category": "dev",
-      "name": "kicad",
-      "desc": "MCP 서버",
-      "emoji": "🔌"
-    },
-    {
       "id": "mcp-touchdesigner",
       "type": "mcp",
       "category": "dev",
@@ -858,6 +850,14 @@
       "type": "mcp",
       "category": "dev",
       "name": "mcp-score",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-kicad-pro",
+      "type": "mcp",
+      "category": "dev",
+      "name": "kicad-pro",
       "desc": "MCP 서버",
       "emoji": "🔌"
     },
