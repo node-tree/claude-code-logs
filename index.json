@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-18T13:14:15.287845+00:00",
+  "lastUpdated": "2026-10-18T13:19:35.884619+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0241c268",
+      "date": "2026-10-18",
+      "startTime": "2026-10-18T13:15:21.788000+00:00",
+      "durationSeconds": 257,
+      "modelTier": "opus",
+      "projectName": "po400-psu",
+      "toolCallCount": 23,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "5bfd166d",
       "date": "2026-10-18",
@@ -3234,16 +3246,6 @@
       "modelTier": "unknown",
       "projectName": "",
       "toolCallCount": 2,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "7ba4fbbe",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T13:57:00.896000+00:00",
-      "durationSeconds": 766,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 51,
       "agentsUsed": []
     }
   ]
