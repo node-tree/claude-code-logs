@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-18T10:40:47.325122+00:00",
+  "lastUpdated": "2026-10-18T11:03:08.514376+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "05c7eaf5",
+      "date": "2026-10-18",
+      "startTime": "2026-10-18T10:57:43.550000+00:00",
+      "durationSeconds": 322,
+      "modelTier": "opus",
+      "projectName": "말하려는것",
+      "toolCallCount": 28,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "3ffd62fb",
       "date": "2026-10-17",
@@ -3227,16 +3239,6 @@
       "modelTier": "unknown",
       "projectName": "이몽학위령제_포스터",
       "toolCallCount": 91,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "6793f314",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T08:41:01.327000+00:00",
-      "durationSeconds": 7938,
-      "modelTier": "unknown",
-      "projectName": "_out",
-      "toolCallCount": 128,
       "agentsUsed": []
     }
   ]
