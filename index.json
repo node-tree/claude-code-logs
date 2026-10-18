@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T11:14:53.649751+00:00",
+  "lastUpdated": "2026-10-18T11:15:23.533366+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -23,6 +23,18 @@
       "modelTier": "opus",
       "projectName": "말하려는것",
       "toolCallCount": 44,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
+    {
+      "sessionId": "e7c806da",
+      "date": "2026-10-18",
+      "startTime": "2026-10-18T10:57:16.812000+00:00",
+      "durationSeconds": 1444,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 71,
       "agentsUsed": [
         "general-purpose"
       ]
@@ -3232,16 +3244,6 @@
       "modelTier": "unknown",
       "projectName": "kanghyunjung",
       "toolCallCount": 51,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "5c2ba024",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T13:55:44.412000+00:00",
-      "durationSeconds": 6376,
-      "modelTier": "unknown",
-      "projectName": "contact-fx",
-      "toolCallCount": 145,
       "agentsUsed": []
     }
   ]
