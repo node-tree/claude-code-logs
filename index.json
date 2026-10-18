@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-18T16:56:23.161690+00:00",
+  "lastUpdated": "2026-10-18T22:04:06.188613+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7625e446",
+      "date": "2026-10-18",
+      "startTime": "2026-10-18T22:03:12.098000+00:00",
+      "durationSeconds": 48,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 33,
+      "agentsUsed": []
+    },
     {
       "sessionId": "0241c268",
       "date": "2026-10-18",
@@ -3236,16 +3246,6 @@
       "modelTier": "unknown",
       "projectName": "memory",
       "toolCallCount": 43,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "b767aba1",
-      "date": "2026-09-08",
-      "startTime": "2026-09-08T22:03:04.317000+00:00",
-      "durationSeconds": 475,
-      "modelTier": "unknown",
-      "projectName": "",
-      "toolCallCount": 2,
       "agentsUsed": []
     }
   ]
