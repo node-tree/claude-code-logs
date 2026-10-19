@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T23:50:37.264897+00:00",
+  "lastUpdated": "2026-10-19T23:51:02.031235+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -62,10 +62,10 @@
       "sessionId": "23c99585",
       "date": "2026-10-19",
       "startTime": "2026-10-19T03:21:11.970000+00:00",
-      "durationSeconds": 22317,
+      "durationSeconds": 22672,
       "modelTier": "opus",
-      "projectName": "13-작곡방식",
-      "toolCallCount": 626,
+      "projectName": "현대음악-오케스트레이션",
+      "toolCallCount": 628,
       "agentsUsed": [
         "evaluator",
         "general-purpose",
