@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-10-19T06:55:22.680732+00:00",
+  "lastUpdated": "2026-10-19T07:00:10.300930+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "b259e0a0",
       "date": "2026-10-19",
       "startTime": "2026-10-19T06:44:54.206000+00:00",
-      "durationSeconds": 293,
+      "durationSeconds": 978,
       "modelTier": "opus",
       "projectName": "ls-000-foundation",
-      "toolCallCount": 24,
-      "agentsUsed": []
+      "toolCallCount": 64,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "23c99585",
