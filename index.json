@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T07:13:36.142465+00:00",
+  "lastUpdated": "2026-10-19T07:20:58.423914+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,13 +18,14 @@
       "sessionId": "23c99585",
       "date": "2026-10-19",
       "startTime": "2026-10-19T03:21:11.970000+00:00",
-      "durationSeconds": 8100,
+      "durationSeconds": 12413,
       "modelTier": "opus",
-      "projectName": "12-개념견본",
-      "toolCallCount": 306,
+      "projectName": "13-작곡방식",
+      "toolCallCount": 422,
       "agentsUsed": [
         "evaluator",
-        "general-purpose"
+        "general-purpose",
+        "research"
       ]
     },
     {
