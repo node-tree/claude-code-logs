@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-19T06:48:00.329079+00:00",
+  "lastUpdated": "2026-10-19T06:50:03.166274+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b259e0a0",
+      "date": "2026-10-19",
+      "startTime": "2026-10-19T06:44:54.206000+00:00",
+      "durationSeconds": 293,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 24,
+      "agentsUsed": []
+    },
     {
       "sessionId": "23c99585",
       "date": "2026-10-19",
@@ -3241,16 +3251,6 @@
       "modelTier": "unknown",
       "projectName": "비주얼-기법",
       "toolCallCount": 38,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "2b71a020",
-      "date": "2026-09-10",
-      "startTime": "2026-09-10T13:38:40.254000+00:00",
-      "durationSeconds": 36647,
-      "modelTier": "unknown",
-      "projectName": "memory",
-      "toolCallCount": 52,
       "agentsUsed": []
     }
   ]
