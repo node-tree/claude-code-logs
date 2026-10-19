@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-19T23:51:32.982020+00:00",
+  "lastUpdated": "2026-10-19T23:52:04.701215+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "936b642d",
       "date": "2026-10-19",
       "startTime": "2026-10-19T23:43:03.250000+00:00",
-      "durationSeconds": 177,
+      "durationSeconds": 740,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
-      "toolCallCount": 20,
+      "projectName": "saengsanso-itorok-review-20261018",
+      "toolCallCount": 29,
       "agentsUsed": [
         "general-purpose"
       ]
