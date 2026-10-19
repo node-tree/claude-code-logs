@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-19T23:44:25.365222+00:00",
+  "lastUpdated": "2026-10-19T23:45:09.108847+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "936b642d",
+      "date": "2026-10-19",
+      "startTime": "2026-10-19T23:43:03.250000+00:00",
+      "durationSeconds": 146,
+      "modelTier": "opus",
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 19,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "34ca5e0a",
       "date": "2026-10-19",
@@ -3246,16 +3258,6 @@
       "modelTier": "unknown",
       "projectName": "ls-000-foundation",
       "toolCallCount": 195,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "6ea0758a",
-      "date": "2026-09-11",
-      "startTime": "2026-09-10T23:58:06.256000+00:00",
-      "durationSeconds": 29322,
-      "modelTier": "unknown",
-      "projectName": "memory",
-      "toolCallCount": 114,
       "agentsUsed": []
     }
   ]
