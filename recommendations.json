@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-18",
+  "lastUpdated": "2026-10-19",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "Opik",
+          "name": "autoevals",
           "type": "tool",
-          "desc": "LLM 호출과 에이전트 트레이스를 기록하고 평가하는 Apache-2.0 오픈소스 관측 플랫폼입니다.",
-          "reason": "evaluator가 lens: code·design·doc별로 내린 PASS/REWORK 판정을 트레이스와 점수로 남겨 판정이 흔들린 사례를 추릴 수 있습니다. 같은 산출물에 Claude와 Codex가 낸 판정을 나란히 비교하는 데 쓸 수 있습니다.",
+          "desc": "LLM-as-a-judge, 휴리스틱, 통계 방식으로 AI 모델 출력을 평가하는 Braintrust의 MIT 라이선스 라이브러리입니다.",
+          "reason": "evaluator가 lens: doc 판정에서 도록·지원서 초안의 요건 충족 여부를 점수 기준으로 매기는 데 쓸 수 있습니다. 같은 기준표를 Claude와 Codex 산출물에 똑같이 적용해 판정 편차를 비교합니다.",
           "trend": "rising",
-          "url": "https://github.com/comet-ml/opik"
+          "url": "https://github.com/braintrustdata/autoevals"
         },
         {
-          "name": "OpenLLMetry",
+          "name": "Guardrails AI",
           "type": "tool",
-          "desc": "OpenTelemetry 위에서 LLM 애플리케이션을 계측하는 Apache-2.0 오픈소스 도구입니다.",
-          "reason": "하네스 리드가 하위 에이전트에 위임한 호출의 지연과 토큰 사용량을 OTel 스팬으로 모아 어느 렌즈 판정이 오래 걸리는지 확인할 수 있습니다. Codex를 호출하는 스크립트에도 같은 방식으로 붙일 수 있습니다.",
+          "desc": "LLM 앱에 입출력 검증 가드와 구조화 데이터 생성을 붙이는 Apache-2.0 파이썬 프레임워크입니다.",
+          "reason": "evaluator의 PASS/REWORK 판정을 정해진 JSON 스키마로 강제해 렌즈별 판정 형식이 어긋나지 않게 할 수 있습니다. 리드가 하위 에이전트 출력을 받을 때 형식 오류를 자동으로 걸러내는 용도입니다.",
           "trend": "stable",
-          "url": "https://github.com/traceloop/openllmetry"
+          "url": "https://github.com/guardrails-ai/guardrails"
         },
         {
-          "name": "Giskard",
+          "name": "TruLens",
           "type": "tool",
-          "desc": "AI 에이전트와 LLM 앱을 평가하고 레드팀 테스트하는 오픈소스 파이썬 툴킷입니다.",
-          "reason": "evaluator 프롬프트가 잘못된 산출물을 PASS로 통과시키는지 의도적으로 틀린 코드·문서 샘플로 점검하는 회귀 테스트를 만들 수 있습니다. 렌즈 지침을 고칠 때마다 판정 품질이 떨어지지 않았는지 확인하는 용도입니다.",
+          "desc": "OpenTelemetry 기반으로 LLM 실험과 AI 에이전트를 평가·추적하는 MIT 라이선스 프레임워크입니다.",
+          "reason": "하네스 리드가 evaluator와 하위 에이전트에 위임한 호출 체인을 한 트레이스로 묶어 어느 단계에서 REWORK가 반복되는지 볼 수 있습니다. lens: code 판정 규칙을 고친 전후 점수를 비교하는 데 맞습니다.",
           "trend": "rising",
-          "url": "https://github.com/Giskard-AI/giskard-oss"
+          "url": "https://github.com/truera/trulens"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "Meyda",
+          "name": "tsl-textures",
           "type": "tool",
-          "desc": "Web Audio 기반으로 스펙트럼 중심, RMS, MFCC 등 오디오 특징을 추출하는 자바스크립트 라이브러리입니다.",
-          "reason": "generative-visual이 Three.js WebGPU/TSL 비주얼에서 브라우저 오디오 입력을 곧바로 유니폼 값으로 바꾸는 오디오 반응형 작업에 쓸 수 있습니다. 파이썬 없이 한 페이지에서 사운드와 셰이더를 연결할 수 있습니다.",
-          "trend": "stable",
-          "url": "https://github.com/meyda/meyda"
+          "desc": "Three.js Shading Language(TSL)로 만든 실시간 절차적 3D 텍스처 모음으로 MIT 라이선스입니다.",
+          "reason": "generative-visual이 WebGPU/TSL 작업에서 노이즈·대리석·균열 같은 표면을 직접 셰이더를 짜지 않고 노드로 가져다 쓸 수 있습니다. 컴퓨트 셰이더 파티클의 재질 실험 속도를 줄여줍니다.",
+          "trend": "rising",
+          "url": "https://github.com/boytchev/tsl-textures"
         },
         {
-          "name": "FluCoMa",
+          "name": "aubio",
           "type": "tool",
-          "desc": "Max, Pure Data, SuperCollider, 커맨드라인에서 쓰는 코퍼스 기반 오디오 분석·분해 도구 모음입니다.",
-          "reason": "sound-art가 SuperCollider에서 녹음 소스를 슬라이스하고 음색별로 분류해 코퍼스 합성과 그레뉼러 작업에 쓸 수 있습니다. 분석 결과를 media-art-pipeline의 OSC 매핑 입력으로 보내는 소니피케이션에도 맞습니다.",
+          "desc": "온셋, 피치, 템포, 비트를 추출하는 C 기반 오디오 분석 라이브러리로 파이썬 모듈이 있으며 GPL v3 이상입니다.",
+          "reason": "media-art-pipeline이 현장 소리의 온셋과 피치를 실시간으로 뽑아 OSC로 비주얼에 넘기는 소니피케이션에 쓸 수 있습니다. sound-art가 녹음 소스를 타격 단위로 자르는 전처리에도 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/flucoma/flucoma-docs"
+          "url": "https://github.com/aubio/aubio"
         },
         {
-          "name": "Demucs",
+          "name": "Rerun",
           "type": "tool",
-          "desc": "음악을 드럼, 베이스, 보컬 등 스템으로 분리하는 MIT 라이선스 소스 분리 모델입니다.",
-          "reason": "film-production이 현장 녹음에서 대사와 배경음을 분리해 믹싱과 LUFS 조정을 하는 데 쓸 수 있습니다. 저자가 신규 기능 개발은 중단했다고 밝혔으므로 안정판 용도로만 씁니다.",
-          "trend": "stable",
-          "url": "https://github.com/adefossez/demucs"
+          "desc": "멀티모달 센서 데이터를 기록하고 시각화·스트리밍하는 오픈소스 도구로 파이썬, 러스트, C++ SDK를 제공합니다.",
+          "reason": "media-art-pipeline이 ESP32 센서 값과 OSC 메시지를 시간축으로 기록해 설치 작업의 매핑이 어긋난 지점을 재생하며 확인할 수 있습니다. 전시 전 리허설 데이터를 비교하는 데 쓸 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/rerun-io/rerun"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Framelink Figma MCP",
-          "type": "mcp",
-          "desc": "Figma 레이아웃 데이터를 코딩 에이전트에 전달하는 MCP 서버입니다.",
-          "reason": "visual-design이 Figma 포스터와 SNS 템플릿의 레이어·간격·색 값을 읽어 HTML/SVG 조판으로 옮길 때 수치를 정확히 맞출 수 있습니다. 같은 템플릿에서 변형 이미지를 일괄 생성하는 작업에도 쓸 수 있습니다.",
-          "trend": "rising",
-          "url": "https://github.com/GLips/Figma-Context-MCP"
+          "name": "fontTools",
+          "type": "tool",
+          "desc": "폰트 파일을 읽고 수정하는 MIT 라이선스 파이썬 라이브러리입니다.",
+          "reason": "visual-design이 포스터와 SNS 이미지에 쓰는 한글 폰트에서 필요한 글리프만 남기거나 메타데이터를 점검할 때 스크립트로 처리할 수 있습니다. 인쇄용 PDF에서 폰트가 누락되는 문제를 사전에 확인하는 용도입니다.",
+          "trend": "stable",
+          "url": "https://github.com/fonttools/fonttools"
         },
         {
-          "name": "kiwipiepy",
+          "name": "culori",
           "type": "tool",
-          "desc": "한국어 형태소 분석기 Kiwi의 파이썬 API로 Apache-2.0 라이선스입니다.",
-          "reason": "pr-content가 보도자료와 SNS 홍보 글의 문장 길이, 반복 어휘, 조사 오류를 형태소 단위로 점검하는 스크립트를 만들 수 있습니다. 작품 소개문의 어휘 반복을 줄이는 교정에 맞습니다.",
+          "desc": "CSS Color Level 4 색 공간 변환, 보간, 색차 계산을 지원하는 MIT 라이선스 자바스크립트 색상 라이브러리입니다.",
+          "reason": "visual-design이 키비주얼 팔레트를 지각 균일한 색 공간에서 보간해 SNS 시리즈 이미지의 색 단계를 고르게 만들 수 있습니다. 포스터 배경과 글자 색의 색차를 수치로 확인하는 데도 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/bab2min/kiwipiepy"
+          "url": "https://github.com/Evercoder/culori"
         },
         {
-          "name": "VTracer",
+          "name": "Pretendard",
           "type": "tool",
-          "desc": "래스터 이미지를 SVG로 변환하는 MIT 라이선스 벡터화 도구입니다.",
-          "reason": "visual-design이 AI 생성 이미지나 스캔한 손그림 텍스처를 SVG로 바꿔 Figma 포스터와 인쇄용 전시 그래픽에 해상도 손실 없이 넣을 수 있습니다. 현재 1.0.0-alpha 버전이므로 결과를 눈으로 확인해야 합니다.",
+          "desc": "Inter와 본고딕 등을 바탕으로 만든 SIL OFL 한글 폰트로 정적, 동적 서브셋, 가변 폰트를 제공합니다.",
+          "reason": "visual-design이 전시 그래픽과 웹 홍보 페이지에서 한글·영문 혼용 문구의 굵기와 자간을 한 서체로 맞출 수 있습니다. 가변 폰트는 HTML/SVG 조판 중 굵기 조정을 빠르게 바꾸는 데 쓰입니다.",
           "trend": "stable",
-          "url": "https://github.com/visioncortex/vtracer"
+          "url": "https://github.com/orioncactus/pretendard"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "python-hwpx",
+          "name": "WeasyPrint",
           "type": "tool",
-          "desc": "한컴오피스 없이 HWPX 문서를 읽고 편집하고 생성하는 순수 파이썬 라이브러리입니다.",
-          "reason": "doc-design이 공문과 보고서 HWPX를 스크립트로 채우고 수정한 부분 외에는 원본을 유지하는 양식 작업에 쓸 수 있습니다. 지원서 양식의 반복 항목을 자동으로 채우는 데 맞습니다.",
-          "trend": "rising",
-          "url": "https://github.com/airmang/python-hwpx"
-        },
-        {
-          "name": "Vale",
-          "type": "tool",
-          "desc": "마크업을 이해하는 MIT 라이선스 산문 린터로 문체 규칙을 코드로 강제합니다.",
-          "reason": "grant-writer가 지원서와 작가노트에서 금지 표현과 반복 어미, 용어 표기를 규칙 파일로 검사해 제출 전 교정할 수 있습니다. 기관별 표기 규칙을 한 번 정의해 재사용하는 데 맞습니다.",
+          "desc": "HTML과 CSS를 PDF로 렌더링하는 BSD-3-Clause 라이선스 도구입니다.",
+          "reason": "doc-design이 포트폴리오와 기록집을 HTML/CSS로 조판해 PDF로 뽑는 작업에 쓸 수 있습니다. 쪽번호와 인쇄용 여백을 CSS로 관리해 도록 시안을 반복 수정하기 쉽습니다.",
           "trend": "stable",
-          "url": "https://github.com/errata-ai/vale"
+          "url": "https://github.com/Kozea/WeasyPrint"
         },
         {
-          "name": "Marker",
+          "name": "pyhwp",
           "type": "tool",
-          "desc": "PDF와 문서를 마크다운과 JSON으로 변환하는 Apache-2.0 오픈소스 도구입니다.",
-          "reason": "project-planner가 공모 요강 PDF에서 일정·예산 한도·제출 서류를 마크다운으로 뽑아 Obsidian 일정표로 옮길 수 있습니다. 표가 많은 요강을 수작업 없이 구조화하는 데 맞습니다.",
+          "desc": "HWP 5 문서 포맷을 분석하는 파이썬 도구로 내부 스트림 추출과 텍스트·odt 변환을 실험적으로 지원하며 AGPL-3.0입니다.",
+          "reason": "doc-design이 기존 공문과 지원서 양식이 구형 .hwp로만 있을 때 본문 텍스트를 뽑아 HWPX 작업의 원본으로 쓸 수 있습니다. grant-writer가 과거 지원서 문장을 재활용하기 전 검토하는 데도 맞습니다.",
+          "trend": "stable",
+          "url": "https://github.com/mete0r/pyhwp"
+        },
+        {
+          "name": "Plane",
+          "type": "tool",
+          "desc": "Jira, Linear 대체를 표방하는 AGPL-3.0 오픈소스 프로젝트 관리 도구입니다.",
+          "reason": "project-planner가 Obsidian·Notion 외에 전시 준비 일정과 역할 분담을 이슈 보드로 따로 관리해 보는 대안입니다. 설치형이라 공모사업별 일정 데이터를 외부 서비스 없이 보관할 수 있습니다.",
           "trend": "rising",
-          "url": "https://github.com/datalab-to/marker"
+          "url": "https://github.com/makeplane/plane"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "PaperQA2",
+          "name": "SearXNG",
           "type": "tool",
-          "desc": "과학 문헌에 대한 근거 인용 질의응답을 하는 Apache-2.0 파이썬 패키지이자 CLI입니다.",
-          "reason": "research의 심층 리서치 모드에서 미디어아트 이론 논문과 SLR 자료를 모아 출처가 달린 답을 받아 옵시디안 노트로 정리할 수 있습니다. 작가노트에 인용할 근거 문장을 찾는 데 맞습니다.",
-          "trend": "rising",
-          "url": "https://github.com/Future-House/paper-qa"
-        },
-        {
-          "name": "PyAlex",
-          "type": "tool",
-          "desc": "학술 DB OpenAlex를 조회하는 파이썬 라이브러리입니다.",
-          "reason": "research가 특정 작가나 개념을 다룬 논문의 인용 관계를 뽑아 SLR 문헌 목록과 선행연구 지도를 만들 수 있습니다. 키 없이 쓸 수 있어 자동 수집 스크립트로 만들기 쉽습니다.",
+          "desc": "여러 검색 서비스 결과를 모아 보여주는 AGPL-3.0 메타검색 엔진으로 이용자 추적을 하지 않습니다.",
+          "reason": "research의 공모 레이더가 공모·레지던시 공지를 여러 검색엔진에서 한 번에 모아 마감 추적 목록을 만드는 데 쓸 수 있습니다. 직접 운영하면 검색 횟수 제한 없이 반복 조회할 수 있습니다.",
           "trend": "stable",
-          "url": "https://github.com/J535D165/pyalex"
+          "url": "https://github.com/searxng/searxng"
         },
         {
-          "name": "Perplexity MCP",
-          "type": "mcp",
-          "desc": "Perplexity API 플랫폼의 공식 MCP 서버입니다.",
-          "reason": "research의 공모 레이더 모드에서 레지던시와 어워드의 최신 공고와 마감을 출처와 함께 검색하는 데 쓸 수 있습니다. Claude Code에서 곧바로 호출해 마감 추적표를 갱신할 수 있습니다.",
+          "name": "Jina Reader",
+          "type": "tool",
+          "desc": "URL 앞에 r.jina.ai를 붙이면 웹 페이지를 LLM이 읽기 좋은 텍스트로 변환하는 Apache-2.0 도구입니다.",
+          "reason": "research가 작가·작품·이론 조사에서 URL 분석 노트를 만들 때 본문만 빠르게 가져오는 데 쓸 수 있습니다. 공모 공고 페이지를 요약해 Obsidian에 저장하기 전 전처리에 맞습니다.",
           "trend": "rising",
-          "url": "https://github.com/perplexityai/modelcontextprotocol"
+          "url": "https://github.com/jina-ai/reader"
+        },
+        {
+          "name": "ArchiveBox",
+          "type": "tool",
+          "desc": "URL을 HTML, PDF, PNG, WARC로 저장하는 MIT 라이선스 셀프호스팅 웹 아카이브 도구이며 CLI를 제공합니다.",
+          "reason": "research가 공모 공고나 작가 인터뷰 페이지가 사라지기 전에 증빙용으로 보관하는 데 쓸 수 있습니다. 지원서에 인용한 출처를 나중에 다시 확인해야 할 때 원문 스냅샷이 남습니다.",
+          "trend": "stable",
+          "url": "https://github.com/ArchiveBox/ArchiveBox"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "React Doctor",
+          "name": "Vercel AI SDK",
           "type": "tool",
-          "desc": "React 코드를 규칙 기반으로 점검해 점수와 진단을 내는 MIT 라이선스 도구입니다.",
-          "reason": "nodetreehome-web이 에이전트가 작성한 React 컴포넌트의 성능·구조 문제를 Vercel 배포 전에 npx 한 줄로 잡을 수 있습니다. 실시간 시각화 페이지의 불필요한 렌더링 점검에 맞습니다.",
+          "desc": "AI 기반 앱과 에이전트를 만드는 Vercel의 오픈소스 타입스크립트 라이브러리입니다.",
+          "reason": "nodetreehome-web이 nodetree.kr의 모니터 페이지에 스트리밍 응답이 필요한 기능을 붙일 때 Vercel 배포와 같은 흐름으로 구현할 수 있습니다. React 훅과 서버 라우트가 함께 제공되어 API 연동 코드를 줄입니다.",
           "trend": "hot",
-          "url": "https://github.com/millionco/react-doctor"
+          "url": "https://github.com/vercel/ai"
         },
         {
-          "name": "Neon MCP",
-          "type": "mcp",
-          "desc": "Neon 서버리스 Postgres와 관리 API를 다루는 공식 MCP 서버입니다.",
-          "reason": "nodetreehome-web이 nodetree.kr의 API가 쓸 DB 브랜치를 만들어 스키마 변경을 시험하고 되돌릴 수 있습니다. Vercel 배포와 같은 흐름에서 미리보기용 데이터를 분리하는 데 맞습니다.",
-          "trend": "rising",
-          "url": "https://github.com/neondatabase/mcp-server-neon"
-        },
-        {
-          "name": "React Scan",
+          "name": "Drizzle ORM",
           "type": "tool",
-          "desc": "React 컴포넌트의 불필요한 리렌더링을 화면에서 보여주는 MIT 라이선스 도구입니다.",
-          "reason": "nodetreehome-web이 실시간 시각화 컴포넌트가 프레임마다 다시 렌더링되는 지점을 눈으로 찾을 수 있습니다. 저장소가 후속 도구로 React Doctor를 안내하므로 보조 용도로 씁니다.",
+          "desc": "Node.js 등에서 쓰는 가벼운 타입스크립트 ORM으로 Neon을 포함한 PostgreSQL을 지원하며 Apache-2.0입니다.",
+          "reason": "nodetreehome-web이 실시간 시각화 데이터나 작품 기록을 Postgres에 저장할 때 스키마를 타입으로 관리할 수 있습니다. Vercel 서버리스 환경에서 쿼리 타입 오류를 빌드 단계에서 잡습니다.",
+          "trend": "rising",
+          "url": "https://github.com/drizzle-team/drizzle-orm"
+        },
+        {
+          "name": "Size Limit",
+          "type": "tool",
+          "desc": "JS 번들의 실제 비용을 측정하고 한도를 넘으면 CI를 실패시키는 MIT 라이선스 성능 예산 도구입니다.",
+          "reason": "nodetreehome-web에서 Three.js 같은 큰 의존성이 들어가는 실시간 시각화 페이지의 번들 크기 증가를 배포 전에 차단할 수 있습니다. React 코드 분할 후 효과를 수치로 확인하는 데도 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/aidenybai/react-scan"
+          "url": "https://github.com/ai/size-limit"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "Beancount",
+          "name": "Firefly III",
           "type": "tool",
-          "desc": "텍스트 파일로 복식부기 거래를 기록하고 검증하는 오픈소스 회계 도구입니다.",
-          "reason": "nodetree-accounting이 보조사업 집행 내역을 텍스트 원장으로 쌓고 잔액 검증으로 정산 전에 불일치를 찾을 수 있습니다. 두 명의의 장부를 파일로 분리해 git 이력을 증빙에 쓰는 데도 맞습니다.",
+          "desc": "REST JSON API를 제공하는 AGPL-3.0 셀프호스팅 개인 재무 관리 도구입니다.",
+          "reason": "nodetree-accounting이 보조사업 집행 내역을 사업별 카테고리와 태그로 나눠 정산 자료를 준비할 때 쓸 수 있습니다. API로 거래를 일괄 입력해 Claude Code가 지출내역서와 대조하게 할 수 있습니다.",
           "trend": "stable",
-          "url": "https://github.com/beancount/beancount"
+          "url": "https://github.com/firefly-iii/firefly-iii"
         },
         {
-          "name": "Excel MCP Server",
-          "type": "mcp",
-          "desc": "Claude 같은 AI 클라이언트가 Excel 파일을 만들고 수정하게 하는 MCP 서버입니다.",
-          "reason": "saengsanso-accounting이 법인카드 경비 내역을 통합 엑셀 시트에 반영하고 수식과 서식을 유지한 채 월별 집계를 갱신할 수 있습니다. 기존 xlsx 스킬로 다루기 번거로운 다중 시트 갱신에 맞습니다.",
-          "trend": "rising",
-          "url": "https://github.com/haris-musa/excel-mcp-server"
+          "name": "invoice2data",
+          "type": "tool",
+          "desc": "PDF 청구서에서 구조화된 데이터를 추출하는 MIT 라이선스 CLI 및 파이썬 라이브러리입니다.",
+          "reason": "saengsanso-accounting이 매입 세금계산서와 경비 청구서에서 공급자·금액·날짜를 뽑아 부가세 신고 자료 정리에 쓸 수 있습니다. 업체별 템플릿을 한 번 만들면 반복 청구서를 자동 처리합니다.",
+          "trend": "stable",
+          "url": "https://github.com/invoice-x/invoice2data"
         },
         {
-          "name": "Actual Budget",
+          "name": "Tesseract",
           "type": "tool",
-          "desc": "로컬 우선 오픈소스 개인 재무 관리 앱입니다.",
-          "reason": "nodetree-accounting이 고유번호단체의 일반회계 수입·지출을 범주별 예산으로 관리하고 CSV 가져오기로 은행 내역을 대조할 수 있습니다. 보조사업 정산용이 아닌 일반회계 현황 파악용입니다.",
+          "desc": "100개 이상 언어를 인식하는 Apache-2.0 OCR 엔진으로 커맨드라인 도구를 제공합니다.",
+          "reason": "nodetree-accounting이 스캔한 영수증과 증빙 사진에서 텍스트를 뽑아 집행 내역과 대조할 때 쓸 수 있습니다. 한글 인식은 언어 데이터를 추가로 지정해 사용해야 하므로 결과를 눈으로 확인하는 전제가 필요합니다.",
           "trend": "stable",
-          "url": "https://github.com/actualbudget/actual"
+          "url": "https://github.com/tesseract-ocr/tesseract"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-10-19",
+      "names": [
+        "autoevals",
+        "Guardrails AI",
+        "TruLens",
+        "tsl-textures",
+        "aubio",
+        "Rerun",
+        "fontTools",
+        "culori",
+        "Pretendard",
+        "WeasyPrint",
+        "pyhwp",
+        "Plane",
+        "SearXNG",
+        "Jina Reader",
+        "ArchiveBox",
+        "Vercel AI SDK",
+        "Drizzle ORM",
+        "Size Limit",
+        "Firefly III",
+        "invoice2data",
+        "Tesseract"
+      ]
+    },
     {
       "date": "2026-10-18",
       "names": [
