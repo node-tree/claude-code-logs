@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-19T02:23:37.355464+00:00",
+  "lastUpdated": "2026-10-19T02:25:40.495630+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "47f8887d",
+      "date": "2026-10-19",
+      "startTime": "2026-10-19T02:20:00.293000+00:00",
+      "durationSeconds": 374,
+      "modelTier": "opus",
+      "projectName": "hardware",
+      "toolCallCount": 53,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "8e33cc43",
       "date": "2026-10-19",
@@ -3236,16 +3248,6 @@
       "modelTier": "unknown",
       "projectName": "강사비",
       "toolCallCount": 36,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "40830f3b",
-      "date": "2026-09-10",
-      "startTime": "2026-09-10T07:20:17.284000+00:00",
-      "durationSeconds": 1106,
-      "modelTier": "unknown",
-      "projectName": "memory",
-      "toolCallCount": 7,
       "agentsUsed": []
     }
   ]
