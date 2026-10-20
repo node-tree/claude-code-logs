@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-20T14:59:05.915554+00:00",
+  "lastUpdated": "2026-10-20T15:01:14.092379+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b296dca0",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T14:48:27.017000+00:00",
+      "durationSeconds": 773,
+      "modelTier": "opus",
+      "projectName": "kkumdarak-soundmap-pen-20261020",
+      "toolCallCount": 79,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "78046af9",
       "date": "2026-10-20",
@@ -3274,16 +3286,6 @@
       "modelTier": "unknown",
       "projectName": "ls-000-foundation",
       "toolCallCount": 42,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e669cb4b",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T07:36:48.353000+00:00",
-      "durationSeconds": 9164,
-      "modelTier": "unknown",
-      "projectName": "이몽학위령제-포스터",
-      "toolCallCount": 76,
       "agentsUsed": []
     }
   ]
