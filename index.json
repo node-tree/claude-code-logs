@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T13:05:03.635726+00:00",
+  "lastUpdated": "2026-10-20T13:07:36.015696+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,10 +41,10 @@
       "sessionId": "2b676cf7",
       "date": "2026-10-20",
       "startTime": "2026-10-20T10:33:20.553000+00:00",
-      "durationSeconds": 7029,
+      "durationSeconds": 7217,
       "modelTier": "opus",
-      "projectName": "이미지",
-      "toolCallCount": 340,
+      "projectName": "kkumdarak-poster-dasi-20261020",
+      "toolCallCount": 351,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
