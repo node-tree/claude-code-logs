@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T14:29:08.532885+00:00",
+  "lastUpdated": "2026-10-20T14:30:45.834049+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,13 +41,14 @@
       "sessionId": "d8571713",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:01:21.341000+00:00",
-      "durationSeconds": 4944,
+      "durationSeconds": 5706,
       "modelTier": "opus",
       "projectName": "isoartlab-ia-20261020",
-      "toolCallCount": 243,
+      "toolCallCount": 274,
       "agentsUsed": [
         "Explore",
-        "evaluator"
+        "evaluator",
+        "general-purpose"
       ]
     },
     {
