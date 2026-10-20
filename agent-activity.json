@@ -1,13 +1,13 @@
 {
+  "research": {
+    "lastActive": "2026-10-20T11:45:10.405000+00:00",
+    "lastProject": "imul-visual-reset-20261018",
+    "sessionId": "3aa63984"
+  },
   "evaluator": {
     "lastActive": "2026-10-20T11:34:32.349000+00:00",
     "lastProject": "memory",
     "sessionId": "de3ed320"
-  },
-  "research": {
-    "lastActive": "2026-10-19T03:21:11.970000+00:00",
-    "lastProject": "memory",
-    "sessionId": "23c99585"
   },
   "pr-content": {
     "lastActive": "2026-10-14T07:43:23.956000+00:00",
