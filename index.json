@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T14:25:58.009297+00:00",
+  "lastUpdated": "2026-10-20T14:26:29.250690+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "d2941d3b",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:55:45.676000+00:00",
-      "durationSeconds": 1254,
+      "durationSeconds": 1828,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 105,
+      "projectName": "po400-pcb-20261016",
+      "toolCallCount": 135,
       "agentsUsed": []
     },
     {
