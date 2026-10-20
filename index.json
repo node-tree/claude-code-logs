@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-20T01:21:08.539386+00:00",
+  "lastUpdated": "2026-10-20T02:19:25.617233+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0ad0150d",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T02:16:05.352000+00:00",
+      "durationSeconds": 177,
+      "modelTier": "opus",
+      "projectName": "Movies",
+      "toolCallCount": 28,
+      "agentsUsed": []
+    },
     {
       "sessionId": "c39a836d",
       "date": "2026-10-20",
@@ -3252,16 +3262,6 @@
       "modelTier": "unknown",
       "projectName": "ls-000-foundation",
       "toolCallCount": 18,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "7070bf0a",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T00:03:13.788000+00:00",
-      "durationSeconds": 28411,
-      "modelTier": "unknown",
-      "projectName": "위성악보-역류",
-      "toolCallCount": 218,
       "agentsUsed": []
     }
   ]
