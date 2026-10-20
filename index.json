@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-20T00:51:57.720198+00:00",
+  "lastUpdated": "2026-10-20T00:52:48.429458+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "c39a836d",
       "date": "2026-10-20",
       "startTime": "2026-10-20T00:21:59.148000+00:00",
-      "durationSeconds": 2039,
+      "durationSeconds": 2142,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 213,
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 217,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
