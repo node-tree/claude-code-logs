@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-20T05:59:30.532398+00:00",
+  "lastUpdated": "2026-10-20T06:11:09.005123+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0ad0150d",
       "date": "2026-10-20",
       "startTime": "2026-10-20T02:16:05.352000+00:00",
-      "durationSeconds": 6290,
+      "durationSeconds": 6998,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 323,
+      "projectName": "forum-video-20261019",
+      "toolCallCount": 356,
       "agentsUsed": [
         "general-purpose"
       ]
