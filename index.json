@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-20T13:08:15.204605+00:00",
+  "lastUpdated": "2026-10-20T13:13:36.756864+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "d8571713",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T13:01:21.341000+00:00",
+      "durationSeconds": 852,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 75,
+      "agentsUsed": [
+        "Explore"
+      ]
+    },
     {
       "sessionId": "befb2053",
       "date": "2026-10-20",
@@ -3264,16 +3276,6 @@
       "modelTier": "unknown",
       "projectName": "공생직조-lab",
       "toolCallCount": 278,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e42b5d69",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T04:41:01.503000+00:00",
-      "durationSeconds": 1311,
-      "modelTier": "unknown",
-      "projectName": "위성악보-역류",
-      "toolCallCount": 86,
       "agentsUsed": []
     }
   ]
