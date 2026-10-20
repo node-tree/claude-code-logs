@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-20T23:46:48.710432+00:00",
+  "lastUpdated": "2026-10-20T23:48:54.470543+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "bb8d3189",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T23:45:58.084000+00:00",
+      "durationSeconds": 173,
+      "modelTier": "opus",
+      "projectName": "imul-install-model-20261020",
+      "toolCallCount": 24,
+      "agentsUsed": []
+    },
     {
       "sessionId": "5b668ca0",
       "date": "2026-10-20",
@@ -3278,16 +3288,6 @@
       "modelTier": "unknown",
       "projectName": "ls-000-foundation",
       "toolCallCount": 19,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e3e7cff5",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T08:32:09.535000+00:00",
-      "durationSeconds": 3007,
-      "modelTier": "unknown",
-      "projectName": "Movies",
-      "toolCallCount": 85,
       "agentsUsed": []
     }
   ]
