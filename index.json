@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-20T14:31:00.024615+00:00",
+  "lastUpdated": "2026-10-20T14:31:44.131001+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "78046af9",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:59:13.135000+00:00",
-      "durationSeconds": 770,
+      "durationSeconds": 1598,
       "modelTier": "opus",
-      "projectName": "공간조성",
-      "toolCallCount": 68,
+      "projectName": "r1",
+      "toolCallCount": 92,
       "agentsUsed": [
         "general-purpose"
       ]
