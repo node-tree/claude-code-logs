@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-20T10:33:35.977988+00:00",
+  "lastUpdated": "2026-10-20T10:35:19.533410+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "dca98764",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T10:29:51.691000+00:00",
+      "durationSeconds": 319,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 24,
+      "agentsUsed": []
+    },
     {
       "sessionId": "7f93cee1",
       "date": "2026-10-20",
@@ -3256,16 +3266,6 @@
       "modelTier": "unknown",
       "projectName": "kanghyunjung",
       "toolCallCount": 24,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "2bde1d03",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T02:06:40.491000+00:00",
-      "durationSeconds": 2189,
-      "modelTier": "unknown",
-      "projectName": "위성악보-역류",
-      "toolCallCount": 74,
       "agentsUsed": []
     }
   ]
