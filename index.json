@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T00:34:46.924519+00:00",
+  "lastUpdated": "2026-10-20T00:35:22.841303+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -63,7 +63,7 @@
       "sessionId": "23c99585",
       "date": "2026-10-19",
       "startTime": "2026-10-19T03:21:11.970000+00:00",
-      "durationSeconds": 25262,
+      "durationSeconds": 25528,
       "modelTier": "opus",
       "projectName": "학습",
       "toolCallCount": 688,
