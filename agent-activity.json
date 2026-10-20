@@ -1,13 +1,13 @@
 {
+  "evaluator": {
+    "lastActive": "2026-10-20T22:50:23.500000+00:00",
+    "lastProject": ".claude",
+    "sessionId": "5b668ca0"
+  },
   "research": {
     "lastActive": "2026-10-20T13:24:19.486000+00:00",
     "lastProject": "ls-000-foundation",
     "sessionId": "1eed4370"
-  },
-  "evaluator": {
-    "lastActive": "2026-10-20T13:01:21.341000+00:00",
-    "lastProject": "memory",
-    "sessionId": "d8571713"
   },
   "pr-content": {
     "lastActive": "2026-10-14T07:43:23.956000+00:00",
