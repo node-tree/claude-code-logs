@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T14:14:36.975902+00:00",
+  "lastUpdated": "2026-10-20T14:17:03.621414+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -13,6 +13,16 @@
       "agentsUsed": [
         "general-purpose"
       ]
+    },
+    {
+      "sessionId": "d2941d3b",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T13:55:45.676000+00:00",
+      "durationSeconds": 1254,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 105,
+      "agentsUsed": []
     },
     {
       "sessionId": "1eed4370",
@@ -3272,16 +3282,6 @@
       "modelTier": "unknown",
       "projectName": "이몽학위령제-포스터",
       "toolCallCount": 76,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c268a02d",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T05:52:02.275000+00:00",
-      "durationSeconds": 8380,
-      "modelTier": "unknown",
-      "projectName": "hardware",
-      "toolCallCount": 254,
       "agentsUsed": []
     }
   ]
