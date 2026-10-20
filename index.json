@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T08:49:14.232298+00:00",
+  "lastUpdated": "2026-10-20T08:49:22.522047+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -11,6 +11,18 @@
       "projectName": "memory",
       "toolCallCount": 53,
       "agentsUsed": []
+    },
+    {
+      "sessionId": "cefead63",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T08:23:47.163000+00:00",
+      "durationSeconds": 1658,
+      "modelTier": "opus",
+      "projectName": "site-itorok-20261020",
+      "toolCallCount": 172,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "0ad0150d",
@@ -3254,16 +3266,6 @@
       "modelTier": "unknown",
       "projectName": "위성악보-역류",
       "toolCallCount": 74,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e13358c7",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T02:05:03.440000+00:00",
-      "durationSeconds": 23089,
-      "modelTier": "unknown",
-      "projectName": "공생직조-lab",
-      "toolCallCount": 246,
       "agentsUsed": []
     }
   ]
