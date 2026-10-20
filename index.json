@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T15:07:35.479615+00:00",
+  "lastUpdated": "2026-10-20T15:08:53.625564+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -53,10 +53,10 @@
       "sessionId": "d8571713",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:01:21.341000+00:00",
-      "durationSeconds": 7188,
+      "durationSeconds": 8274,
       "modelTier": "opus",
-      "projectName": "nodetreeHome-ia",
-      "toolCallCount": 360,
+      "projectName": "isoartlab-ia-20261020",
+      "toolCallCount": 401,
       "agentsUsed": [
         "Explore",
         "evaluator",
