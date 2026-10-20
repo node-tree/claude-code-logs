@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-10-20T00:39:22.222666+00:00",
+  "lastUpdated": "2026-10-20T00:39:33.901747+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "c39a836d",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T00:21:59.148000+00:00",
+      "durationSeconds": 1128,
+      "modelTier": "opus",
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 174,
+      "agentsUsed": [
+        "evaluator",
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "936b642d",
       "date": "2026-10-19",
@@ -3249,16 +3262,6 @@
       "modelTier": "unknown",
       "projectName": "위성악보-역류",
       "toolCallCount": 218,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "a96d4a0e",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T00:02:16.124000+00:00",
-      "durationSeconds": 29123,
-      "modelTier": "unknown",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 195,
       "agentsUsed": []
     }
   ]
