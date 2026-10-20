@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T12:56:12.337876+00:00",
+  "lastUpdated": "2026-10-20T13:04:29.027014+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,10 +41,10 @@
       "sessionId": "2b676cf7",
       "date": "2026-10-20",
       "startTime": "2026-10-20T10:33:20.553000+00:00",
-      "durationSeconds": 5846,
+      "durationSeconds": 6994,
       "modelTier": "opus",
-      "projectName": "kkumdarak-poster-ttang-20261020",
-      "toolCallCount": 277,
+      "projectName": "이미지",
+      "toolCallCount": 339,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
