@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T05:26:09.148371+00:00",
+  "lastUpdated": "2026-10-20T05:26:28.089237+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -53,10 +53,10 @@
       "sessionId": "9b5bdfa6",
       "date": "2026-10-19",
       "startTime": "2026-10-19T12:44:26.993000+00:00",
-      "durationSeconds": 9870,
+      "durationSeconds": 9955,
       "modelTier": "opus",
-      "projectName": "cnma-forum-2026",
-      "toolCallCount": 449,
+      "projectName": "포럼.fcpxmld",
+      "toolCallCount": 459,
       "agentsUsed": [
         "general-purpose"
       ]
