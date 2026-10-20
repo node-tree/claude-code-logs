@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-20T14:03:37.087991+00:00",
+  "lastUpdated": "2026-10-20T14:11:38.777617+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "78046af9",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T13:59:13.135000+00:00",
+      "durationSeconds": 770,
+      "modelTier": "opus",
+      "projectName": "공간조성",
+      "toolCallCount": 68,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "1eed4370",
       "date": "2026-10-20",
@@ -3270,16 +3282,6 @@
       "modelTier": "unknown",
       "projectName": "hardware",
       "toolCallCount": 254,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c9c492a9",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T05:04:18.817000+00:00",
-      "durationSeconds": 662,
-      "modelTier": "unknown",
-      "projectName": "위성악보-역류",
-      "toolCallCount": 117,
       "agentsUsed": []
     }
   ]
