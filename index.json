@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-20T11:49:29.828830+00:00",
+  "lastUpdated": "2026-10-20T11:51:22.085304+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "3aa63984",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T11:45:10.405000+00:00",
+      "durationSeconds": 407,
+      "modelTier": "opus",
+      "projectName": "imul-pendulum-coupling-20261020",
+      "toolCallCount": 33,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "de3ed320",
       "date": "2026-10-20",
@@ -3258,16 +3270,6 @@
       "modelTier": "unknown",
       "projectName": "pi-000-sim",
       "toolCallCount": 108,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "2a93ddab",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T03:34:59.848000+00:00",
-      "durationSeconds": 2466,
-      "modelTier": "unknown",
-      "projectName": "비주얼R&D",
-      "toolCallCount": 80,
       "agentsUsed": []
     }
   ]
