@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T10:21:12.555165+00:00",
+  "lastUpdated": "2026-10-20T10:21:30.465831+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -110,10 +110,10 @@
       "sessionId": "23c99585",
       "date": "2026-10-19",
       "startTime": "2026-10-19T03:21:11.970000+00:00",
-      "durationSeconds": 32264,
+      "durationSeconds": 32758,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 874,
+      "projectName": "aihub-71470",
+      "toolCallCount": 895,
       "agentsUsed": [
         "evaluator",
         "general-purpose",
