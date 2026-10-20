@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T11:54:31.501763+00:00",
+  "lastUpdated": "2026-10-20T11:56:52.742488+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,11 +18,13 @@
       "sessionId": "de3ed320",
       "date": "2026-10-20",
       "startTime": "2026-10-20T11:34:32.349000+00:00",
-      "durationSeconds": 84,
+      "durationSeconds": 1505,
       "modelTier": "opus",
-      "projectName": "border-orchestra-20261020",
-      "toolCallCount": 14,
-      "agentsUsed": []
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 111,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "2b676cf7",
