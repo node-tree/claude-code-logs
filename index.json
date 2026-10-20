@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-20T10:35:19.533410+00:00",
+  "lastUpdated": "2026-10-20T10:40:21.898181+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "2b676cf7",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T10:33:20.553000+00:00",
+      "durationSeconds": 423,
+      "modelTier": "opus",
+      "projectName": "땅을 달래는 노래",
+      "toolCallCount": 66,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "dca98764",
       "date": "2026-10-20",
@@ -3256,16 +3268,6 @@
       "modelTier": "unknown",
       "projectName": "위성악보-역류",
       "toolCallCount": 84,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "4a301e4f",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T02:12:47.684000+00:00",
-      "durationSeconds": 233,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 24,
       "agentsUsed": []
     }
   ]
