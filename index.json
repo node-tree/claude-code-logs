@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-20T12:00:24.433129+00:00",
+  "lastUpdated": "2026-10-20T12:00:51.404032+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "befb2053",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T11:58:44.348000+00:00",
+      "durationSeconds": 127,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 16,
+      "agentsUsed": []
+    },
     {
       "sessionId": "3aa63984",
       "date": "2026-10-20",
@@ -3263,16 +3273,6 @@
       "modelTier": "unknown",
       "projectName": "위성악보-역류",
       "toolCallCount": 86,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c952c445",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T04:00:34.297000+00:00",
-      "durationSeconds": 15850,
-      "modelTier": "unknown",
-      "projectName": "pi-000-sim",
-      "toolCallCount": 108,
       "agentsUsed": []
     }
   ]
