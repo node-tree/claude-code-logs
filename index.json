@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-20T16:08:03.952430+00:00",
+  "lastUpdated": "2026-10-20T22:04:07.881420+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f1776c7f",
+      "date": "2026-10-20",
+      "startTime": "2026-10-20T22:03:12.240000+00:00",
+      "durationSeconds": 50,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 32,
+      "agentsUsed": []
+    },
     {
       "sessionId": "b296dca0",
       "date": "2026-10-20",
@@ -3276,16 +3286,6 @@
       "modelTier": "unknown",
       "projectName": "hardware",
       "toolCallCount": 27,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c0b76183",
-      "date": "2026-09-11",
-      "startTime": "2026-09-11T07:55:40.482000+00:00",
-      "durationSeconds": 545,
-      "modelTier": "unknown",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 42,
       "agentsUsed": []
     }
   ]
