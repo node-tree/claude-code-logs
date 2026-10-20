@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-20T06:46:27.689394+00:00",
+  "lastUpdated": "2026-10-20T07:15:49.937452+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0ad0150d",
       "date": "2026-10-20",
       "startTime": "2026-10-20T02:16:05.352000+00:00",
-      "durationSeconds": 9278,
+      "durationSeconds": 10999,
       "modelTier": "opus",
-      "projectName": "Obsidian Vault",
-      "toolCallCount": 449,
+      "projectName": "forum-video-20261019",
+      "toolCallCount": 577,
       "agentsUsed": [
         "general-purpose"
       ]
