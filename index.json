@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-10-21T05:54:20.477566+00:00",
+  "lastUpdated": "2026-10-21T05:56:49.328571+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "b0103409",
       "date": "2026-10-21",
       "startTime": "2026-10-21T05:48:18.562000+00:00",
-      "durationSeconds": 352,
+      "durationSeconds": 509,
       "modelTier": "sonnet",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 4,
-      "agentsUsed": []
+      "projectName": "media-reverse-lab",
+      "toolCallCount": 23,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "060d0706",
