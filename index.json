@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T02:26:37.258543+00:00",
+  "lastUpdated": "2026-10-21T02:27:56.941358+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -42,10 +42,10 @@
       "sessionId": "bb8d3189",
       "date": "2026-10-20",
       "startTime": "2026-10-20T23:45:58.084000+00:00",
-      "durationSeconds": 8297,
+      "durationSeconds": 8470,
       "modelTier": "opus",
-      "projectName": "공간조성",
-      "toolCallCount": 235,
+      "projectName": "imul-install-model-20261020",
+      "toolCallCount": 248,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
