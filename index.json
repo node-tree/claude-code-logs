@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T01:44:03.690173+00:00",
+  "lastUpdated": "2026-10-21T01:44:47.974108+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -136,10 +136,10 @@
       "sessionId": "3aa63984",
       "date": "2026-10-20",
       "startTime": "2026-10-20T11:45:10.405000+00:00",
-      "durationSeconds": 4828,
+      "durationSeconds": 5876,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 152,
+      "projectName": "4_그림_내부비교",
+      "toolCallCount": 191,
       "agentsUsed": [
         "general-purpose",
         "research"
