@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T15:26:38.053230+00:00",
+  "lastUpdated": "2026-10-21T15:32:40.774613+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -70,10 +70,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 25723,
+      "durationSeconds": 26086,
       "modelTier": "opus",
-      "projectName": "r3",
-      "toolCallCount": 633,
+      "projectName": "14-듀엣설계",
+      "toolCallCount": 637,
       "agentsUsed": [
         "general-purpose"
       ]
