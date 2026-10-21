@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-21T06:18:32.978706+00:00",
+  "lastUpdated": "2026-10-21T06:21:06.646084+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "757264db",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T06:10:46.395000+00:00",
+      "durationSeconds": 629,
+      "modelTier": "opus",
+      "projectName": "14-듀엣설계",
+      "toolCallCount": 37,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "22ab7e38",
       "date": "2026-10-21",
@@ -3290,18 +3302,6 @@
       "projectName": "pi-006-shadow-look",
       "toolCallCount": 279,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "5cd683bd",
-      "date": "2026-09-13",
-      "startTime": "2026-09-13T09:08:47.487000+00:00",
-      "durationSeconds": 7063,
-      "modelTier": "fable",
-      "projectName": "pi-006-shadow-look",
-      "toolCallCount": 68,
-      "agentsUsed": [
-        "generative-visual"
-      ]
     }
   ]
 }
