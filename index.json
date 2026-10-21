@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-21T04:52:56.248913+00:00",
+  "lastUpdated": "2026-10-21T04:56:19.886721+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "060d0706",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T04:51:33.830000+00:00",
+      "durationSeconds": 279,
+      "modelTier": "sonnet",
+      "projectName": "imul-install-model-20261020",
+      "toolCallCount": 38,
+      "agentsUsed": []
+    },
     {
       "sessionId": "a9b96302",
       "date": "2026-10-21",
@@ -3287,16 +3297,6 @@
       "modelTier": "unknown",
       "projectName": "정리",
       "toolCallCount": 100,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "4cff9815",
-      "date": "2026-09-12",
-      "startTime": "2026-09-12T22:03:06.040000+00:00",
-      "durationSeconds": 470,
-      "modelTier": "unknown",
-      "projectName": "",
-      "toolCallCount": 1,
       "agentsUsed": []
     }
   ]
