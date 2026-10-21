@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-21T06:10:32.941609+00:00",
+  "lastUpdated": "2026-10-21T06:11:38.547508+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "22ab7e38",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T06:10:05.221000+00:00",
+      "durationSeconds": 92,
+      "modelTier": "sonnet",
+      "projectName": "style-graffiti-20261021",
+      "toolCallCount": 12,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "b0103409",
       "date": "2026-10-21",
@@ -3290,16 +3302,6 @@
       "agentsUsed": [
         "generative-visual"
       ]
-    },
-    {
-      "sessionId": "58f95225",
-      "date": "2026-09-13",
-      "startTime": "2026-09-13T08:12:17.368000+00:00",
-      "durationSeconds": 56470,
-      "modelTier": "unknown",
-      "projectName": "정리",
-      "toolCallCount": 72,
-      "agentsUsed": []
     }
   ]
 }
