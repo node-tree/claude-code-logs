@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-21T23:36:06.315456+00:00",
+  "lastUpdated": "2026-10-21T23:37:53.104868+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "925fd1b6",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T23:31:37.181000+00:00",
+      "durationSeconds": 373,
+      "modelTier": "opus",
+      "projectName": "nodetreeHome",
+      "toolCallCount": 33,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "5ba19622",
       "date": "2026-10-21",
@@ -3296,16 +3308,6 @@
       "modelTier": "opus",
       "projectName": "yr-008-mudflat",
       "toolCallCount": 165,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "ee0b89b1",
-      "date": "2026-09-14",
-      "startTime": "2026-09-14T08:25:52.526000+00:00",
-      "durationSeconds": 2034,
-      "modelTier": "opus",
-      "projectName": "hero",
-      "toolCallCount": 110,
       "agentsUsed": []
     }
   ]
