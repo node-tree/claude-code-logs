@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-21T06:52:52.832333+00:00",
+  "lastUpdated": "2026-10-21T06:56:15.568732+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "7d12fde5",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:18:29.826000+00:00",
-      "durationSeconds": 1392,
+      "durationSeconds": 1809,
       "modelTier": "opus",
-      "projectName": "r4",
-      "toolCallCount": 79,
+      "projectName": "부식미장센",
+      "toolCallCount": 93,
       "agentsUsed": [
         "general-purpose"
       ]
