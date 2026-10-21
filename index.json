@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-21T23:58:55.140913+00:00",
+  "lastUpdated": "2026-10-21T23:59:25.337716+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "ba5701cd",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T23:32:28.995000+00:00",
+      "durationSeconds": 1632,
+      "modelTier": "sonnet",
+      "projectName": "K1_r2",
+      "toolCallCount": 168,
+      "agentsUsed": []
+    },
     {
       "sessionId": "925fd1b6",
       "date": "2026-10-21",
@@ -3299,16 +3309,6 @@
       "agentsUsed": [
         "research"
       ]
-    },
-    {
-      "sessionId": "26b7a860",
-      "date": "2026-09-14",
-      "startTime": "2026-09-14T12:44:29.044000+00:00",
-      "durationSeconds": 5368,
-      "modelTier": "opus",
-      "projectName": "yr-008-mudflat",
-      "toolCallCount": 165,
-      "agentsUsed": []
     }
   ]
 }
