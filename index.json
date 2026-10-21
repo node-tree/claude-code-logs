@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-21T14:37:49.960559+00:00",
+  "lastUpdated": "2026-10-21T14:42:16.311632+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6a17d018",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T14:28:32.379000+00:00",
+      "durationSeconds": 829,
+      "modelTier": "sonnet",
+      "projectName": "clips",
+      "toolCallCount": 90,
+      "agentsUsed": []
+    },
     {
       "sessionId": "d798fd24",
       "date": "2026-10-21",
@@ -3295,16 +3305,6 @@
       "modelTier": "opus",
       "projectName": "yr-007-driftwood",
       "toolCallCount": 151,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "00836f48",
-      "date": "2026-09-13",
-      "startTime": "2026-09-13T23:14:04.574000+00:00",
-      "durationSeconds": 2278,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 42,
       "agentsUsed": []
     }
   ]
