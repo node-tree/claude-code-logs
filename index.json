@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T12:21:27.019698+00:00",
+  "lastUpdated": "2026-10-21T12:22:12.709073+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 18677,
+      "durationSeconds": 18985,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 439,
+      "projectName": "서곡",
+      "toolCallCount": 442,
       "agentsUsed": [
         "general-purpose"
       ]
