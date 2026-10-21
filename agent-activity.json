@@ -1,4 +1,9 @@
 {
+  "sound-art": {
+    "lastActive": "2026-10-21T05:48:18.562000+00:00",
+    "lastProject": "kanghyunjung",
+    "sessionId": "b0103409"
+  },
   "evaluator": {
     "lastActive": "2026-10-20T23:45:58.084000+00:00",
     "lastProject": "imul-install-model-20261020",
@@ -43,11 +48,6 @@
     "lastActive": "2026-09-21T10:57:13.794000+00:00",
     "lastProject": "강사비",
     "sessionId": "0a58a92e"
-  },
-  "sound-art": {
-    "lastActive": "2026-09-21T10:10:24.239000+00:00",
-    "lastProject": "memory",
-    "sessionId": "c7b5dc09"
   },
   "film-production": {
     "lastActive": "2026-09-20T03:45:43.111000+00:00",
