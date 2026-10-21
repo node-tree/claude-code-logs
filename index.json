@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T09:28:55.899269+00:00",
+  "lastUpdated": "2026-10-21T09:29:35.488502+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 5318,
+      "durationSeconds": 10021,
       "modelTier": "opus",
-      "projectName": "서곡",
-      "toolCallCount": 153,
+      "projectName": "표기법조사",
+      "toolCallCount": 218,
       "agentsUsed": [
         "general-purpose"
       ]
