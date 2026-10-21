@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T23:15:40.657707+00:00",
+  "lastUpdated": "2026-10-21T23:22:17.749272+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -68,10 +68,10 @@
       "sessionId": "7d12fde5",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:18:29.826000+00:00",
-      "durationSeconds": 14337,
+      "durationSeconds": 15310,
       "modelTier": "opus",
-      "projectName": "c-floor",
-      "toolCallCount": 346,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 365,
       "agentsUsed": [
         "general-purpose"
       ]
