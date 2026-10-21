@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-21T00:37:27.248404+00:00",
+  "lastUpdated": "2026-10-21T00:49:21.662363+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "bb8d3189",
       "date": "2026-10-20",
       "startTime": "2026-10-20T23:45:58.084000+00:00",
-      "durationSeconds": 3619,
+      "durationSeconds": 4124,
       "modelTier": "opus",
-      "projectName": "imul-install-model-20261020",
-      "toolCallCount": 135,
+      "projectName": "이물",
+      "toolCallCount": 138,
       "agentsUsed": [
         "general-purpose"
       ]
