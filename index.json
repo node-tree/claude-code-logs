@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T13:53:23.181588+00:00",
+  "lastUpdated": "2026-10-21T13:56:16.262693+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -10,6 +10,16 @@
       "modelTier": "sonnet",
       "projectName": "blind",
       "toolCallCount": 79,
+      "agentsUsed": []
+    },
+    {
+      "sessionId": "cafe52cd",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T13:39:24.031000+00:00",
+      "durationSeconds": 1137,
+      "modelTier": "sonnet",
+      "projectName": "blind",
+      "toolCallCount": 114,
       "agentsUsed": []
     },
     {
@@ -3295,16 +3305,6 @@
       "modelTier": "unknown",
       "projectName": "kanghyunjung",
       "toolCallCount": 42,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "3e455907",
-      "date": "2026-09-13",
-      "startTime": "2026-09-13T23:08:18.366000+00:00",
-      "durationSeconds": 2947,
-      "modelTier": "unknown",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 37,
       "agentsUsed": []
     }
   ]
