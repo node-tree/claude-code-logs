@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T01:45:28.007524+00:00",
+  "lastUpdated": "2026-10-21T01:47:00.603776+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -136,10 +136,10 @@
       "sessionId": "3aa63984",
       "date": "2026-10-20",
       "startTime": "2026-10-20T11:45:10.405000+00:00",
-      "durationSeconds": 5918,
+      "durationSeconds": 6007,
       "modelTier": "opus",
-      "projectName": "4_그림_내부비교",
-      "toolCallCount": 192,
+      "projectName": "imul-visual-reset-20261018",
+      "toolCallCount": 197,
       "agentsUsed": [
         "general-purpose",
         "research"
