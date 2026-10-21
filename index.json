@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T09:36:03.218163+00:00",
+  "lastUpdated": "2026-10-21T09:36:11.230883+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 10021,
+      "durationSeconds": 10414,
       "modelTier": "opus",
-      "projectName": "표기법조사",
-      "toolCallCount": 218,
+      "projectName": "memory",
+      "toolCallCount": 222,
       "agentsUsed": [
         "general-purpose"
       ]
