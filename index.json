@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T14:51:31.093071+00:00",
+  "lastUpdated": "2026-10-21T14:55:20.420736+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -97,10 +97,10 @@
       "sessionId": "060d0706",
       "date": "2026-10-21",
       "startTime": "2026-10-21T04:51:33.830000+00:00",
-      "durationSeconds": 10245,
+      "durationSeconds": 10475,
       "modelTier": "opus",
-      "projectName": "final_6000",
-      "toolCallCount": 300,
+      "projectName": "이물_리플렛_최종",
+      "toolCallCount": 304,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
