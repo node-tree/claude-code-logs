@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-21T13:22:59.630186+00:00",
+  "lastUpdated": "2026-10-21T13:39:44.819486+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "ae4a95d7",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T13:28:01.441000+00:00",
+      "durationSeconds": 601,
+      "modelTier": "opus",
+      "projectName": "blind",
+      "toolCallCount": 24,
+      "agentsUsed": [
+        "generative-visual"
+      ]
+    },
     {
       "sessionId": "7d12fde5",
       "date": "2026-10-21",
@@ -3294,19 +3306,6 @@
       "projectName": "",
       "toolCallCount": 1,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "77b2d3a5",
-      "date": "2026-09-13",
-      "startTime": "2026-09-13T09:20:03.109000+00:00",
-      "durationSeconds": 30604,
-      "modelTier": "fable",
-      "projectName": "yr-005-titles",
-      "toolCallCount": 395,
-      "agentsUsed": [
-        "evaluator",
-        "generative-visual"
-      ]
     }
   ]
 }

@@ -1,4 +1,9 @@
 {
+  "generative-visual": {
+    "lastActive": "2026-10-21T13:28:01.441000+00:00",
+    "lastProject": "blind",
+    "sessionId": "ae4a95d7"
+  },
   "sound-art": {
     "lastActive": "2026-10-21T05:48:18.562000+00:00",
     "lastProject": "media-reverse-lab",
@@ -25,11 +30,6 @@
     "sessionId": "ca63c81b"
   },
   "doc-design": {
-    "lastActive": "2026-09-26T02:42:50.346000+00:00",
-    "lastProject": "디지털도화서_하반기아카데미",
-    "sessionId": "4f1e0543"
-  },
-  "generative-visual": {
     "lastActive": "2026-09-26T02:42:50.346000+00:00",
     "lastProject": "디지털도화서_하반기아카데미",
     "sessionId": "4f1e0543"
