@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-22T07:17:46.835009+00:00",
+  "lastUpdated": "2026-10-22T07:24:24.246034+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0912466d",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T07:10:31.714000+00:00",
+      "durationSeconds": 869,
+      "modelTier": "opus",
+      "projectName": "cases",
+      "toolCallCount": 87,
+      "agentsUsed": []
+    },
     {
       "sessionId": "e50db01c",
       "date": "2026-10-22",
@@ -3296,16 +3306,6 @@
       "modelTier": "opus",
       "projectName": "footage",
       "toolCallCount": 118,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "d52ed245",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T05:53:27.903000+00:00",
-      "durationSeconds": 7836,
-      "modelTier": "opus",
-      "projectName": "footage",
-      "toolCallCount": 201,
       "agentsUsed": []
     }
   ]
