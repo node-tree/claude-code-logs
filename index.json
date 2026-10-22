@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T01:15:51.511085+00:00",
+  "lastUpdated": "2026-10-22T01:17:51.518468+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -58,7 +58,7 @@
       "sessionId": "6a17d018",
       "date": "2026-10-21",
       "startTime": "2026-10-21T14:28:32.379000+00:00",
-      "durationSeconds": 829,
+      "durationSeconds": 1131,
       "modelTier": "sonnet",
       "projectName": "clips",
       "toolCallCount": 90,
