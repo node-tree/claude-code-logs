@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T00:13:06.695579+00:00",
+  "lastUpdated": "2026-10-22T00:14:23.390697+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -149,10 +149,10 @@
       "sessionId": "060d0706",
       "date": "2026-10-21",
       "startTime": "2026-10-21T04:51:33.830000+00:00",
-      "durationSeconds": 14902,
+      "durationSeconds": 15260,
       "modelTier": "opus",
-      "projectName": "final_6000",
-      "toolCallCount": 413,
+      "projectName": "이물",
+      "toolCallCount": 425,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
