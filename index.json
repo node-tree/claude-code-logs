@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-22T02:28:33.234217+00:00",
+  "lastUpdated": "2026-10-22T02:44:36.467208+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "eb04feb8",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T02:28:24.775000+00:00",
+      "durationSeconds": 964,
+      "modelTier": "sonnet",
+      "projectName": "k1-structure",
+      "toolCallCount": 150,
+      "agentsUsed": []
+    },
     {
       "sessionId": "6a8236b0",
       "date": "2026-10-22",
@@ -3297,16 +3307,6 @@
         "generative-visual",
         "sound-art"
       ]
-    },
-    {
-      "sessionId": "429cceca",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T00:12:38.934000+00:00",
-      "durationSeconds": 828,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 64,
-      "agentsUsed": []
     }
   ]
 }
