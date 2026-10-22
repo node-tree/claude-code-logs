@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-22T22:56:30.991539+00:00",
+  "lastUpdated": "2026-10-22T23:39:39.709819+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "4d1d314a",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T23:34:51.824000+00:00",
+      "durationSeconds": 308,
+      "modelTier": "opus",
+      "projectName": "heoeum-20261023-r2",
+      "toolCallCount": 46,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "c78c0749",
       "date": "2026-10-22",
@@ -3300,16 +3312,6 @@
       "modelTier": "opus",
       "projectName": "kanghyunjung",
       "toolCallCount": 35,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "85afd9e7",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T23:47:29.572000+00:00",
-      "durationSeconds": 1116,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 20,
       "agentsUsed": []
     }
   ]
