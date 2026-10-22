@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T00:06:21.845140+00:00",
+  "lastUpdated": "2026-10-22T00:06:55.969433+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -1260,10 +1260,10 @@
       "sessionId": "c5f97a19",
       "date": "2026-10-10",
       "startTime": "2026-10-10T02:00:36.156000+00:00",
-      "durationSeconds": 13169,
+      "durationSeconds": 13203,
       "modelTier": "sonnet",
       "projectName": "kanghyunjung",
-      "toolCallCount": 324,
+      "toolCallCount": 337,
       "agentsUsed": []
     },
     {
