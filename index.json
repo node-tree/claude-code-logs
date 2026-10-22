@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T06:57:42.156685+00:00",
+  "lastUpdated": "2026-10-22T07:00:10.944280+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -146,10 +146,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 44502,
+      "durationSeconds": 44651,
       "modelTier": "opus",
-      "projectName": "피그마용",
-      "toolCallCount": 1092,
+      "projectName": "원상",
+      "toolCallCount": 1098,
       "agentsUsed": [
         "general-purpose"
       ]
