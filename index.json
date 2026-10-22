@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T12:19:33.945741+00:00",
+  "lastUpdated": "2026-10-22T13:04:41.573101+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "58a06f98",
       "date": "2026-10-22",
       "startTime": "2026-10-22T10:49:47.866000+00:00",
-      "durationSeconds": 5467,
+      "durationSeconds": 7486,
       "modelTier": "opus",
-      "projectName": "리플렛이미지",
-      "toolCallCount": 258,
+      "projectName": "memory",
+      "toolCallCount": 314,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
