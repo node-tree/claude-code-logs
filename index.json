@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T00:06:55.969433+00:00",
+  "lastUpdated": "2026-10-22T00:08:03.810763+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "925fd1b6",
       "date": "2026-10-21",
       "startTime": "2026-10-21T23:31:37.181000+00:00",
-      "durationSeconds": 640,
+      "durationSeconds": 2293,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 49,
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 194,
       "agentsUsed": [
         "general-purpose"
       ]
