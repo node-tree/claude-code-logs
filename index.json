@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T02:08:34.962398+00:00",
+  "lastUpdated": "2026-10-22T02:09:25.632373+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -124,10 +124,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 35387,
+      "durationSeconds": 36022,
       "modelTier": "opus",
-      "projectName": "전곡미리보기",
-      "toolCallCount": 889,
+      "projectName": "악보",
+      "toolCallCount": 906,
       "agentsUsed": [
         "general-purpose"
       ]
