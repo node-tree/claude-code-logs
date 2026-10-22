@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T00:51:54.290131+00:00",
+  "lastUpdated": "2026-10-22T00:53:01.743714+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -149,10 +149,10 @@
       "sessionId": "060d0706",
       "date": "2026-10-21",
       "startTime": "2026-10-21T04:51:33.830000+00:00",
-      "durationSeconds": 17025,
+      "durationSeconds": 17092,
       "modelTier": "opus",
-      "projectName": "검토판",
-      "toolCallCount": 466,
+      "projectName": "이물_리플렛_최종",
+      "toolCallCount": 467,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
