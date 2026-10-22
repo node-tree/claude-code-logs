@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T00:12:13.869348+00:00",
+  "lastUpdated": "2026-10-22T00:12:43.737167+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "ba5701cd",
       "date": "2026-10-21",
       "startTime": "2026-10-21T23:32:28.995000+00:00",
-      "durationSeconds": 1632,
+      "durationSeconds": 2352,
       "modelTier": "sonnet",
-      "projectName": "K1_r2",
-      "toolCallCount": 168,
+      "projectName": "K1_r3",
+      "toolCallCount": 206,
       "agentsUsed": []
     },
     {
