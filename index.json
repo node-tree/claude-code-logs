@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T14:01:04.095482+00:00",
+  "lastUpdated": "2026-10-22T14:15:05.951716+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "58a06f98",
       "date": "2026-10-22",
       "startTime": "2026-10-22T10:49:47.866000+00:00",
-      "durationSeconds": 9069,
+      "durationSeconds": 9920,
       "modelTier": "opus",
-      "projectName": "우리기보",
-      "toolCallCount": 360,
+      "projectName": "리플렛이미지",
+      "toolCallCount": 409,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
