@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-22T00:08:25.798871+00:00",
+  "lastUpdated": "2026-10-22T00:09:08.397692+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "a11c1cf0",
+      "date": "2026-10-21",
+      "startTime": "2026-10-21T23:32:36.575000+00:00",
+      "durationSeconds": 1840,
+      "modelTier": "sonnet",
+      "projectName": "K3spike_r2",
+      "toolCallCount": 102,
+      "agentsUsed": []
+    },
     {
       "sessionId": "ba5701cd",
       "date": "2026-10-21",
@@ -3296,18 +3306,6 @@
       "toolCallCount": 138,
       "agentsUsed": [
         "doc-design"
-      ]
-    },
-    {
-      "sessionId": "824e3eff",
-      "date": "2026-09-15",
-      "startTime": "2026-09-15T22:04:29.911000+00:00",
-      "durationSeconds": 1111,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 1,
-      "agentsUsed": [
-        "research"
       ]
     }
   ]
