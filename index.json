@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T06:47:41.991409+00:00",
+  "lastUpdated": "2026-10-22T06:57:42.156685+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -146,10 +146,10 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 43940,
+      "durationSeconds": 44502,
       "modelTier": "opus",
-      "projectName": "14-듀엣설계",
-      "toolCallCount": 1079,
+      "projectName": "피그마용",
+      "toolCallCount": 1092,
       "agentsUsed": [
         "general-purpose"
       ]
