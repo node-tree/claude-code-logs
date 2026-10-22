@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T11:23:26.742947+00:00",
+  "lastUpdated": "2026-10-22T11:25:28.029357+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -11,6 +11,19 @@
       "projectName": "서곡",
       "toolCallCount": 109,
       "agentsUsed": [
+        "general-purpose"
+      ]
+    },
+    {
+      "sessionId": "58a06f98",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T10:49:47.866000+00:00",
+      "durationSeconds": 2222,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 186,
+      "agentsUsed": [
+        "evaluator",
         "general-purpose"
       ]
     },
@@ -3300,16 +3313,6 @@
       "agentsUsed": [
         "research"
       ]
-    },
-    {
-      "sessionId": "f43409a1",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T06:39:06.046000+00:00",
-      "durationSeconds": 26791,
-      "modelTier": "opus",
-      "projectName": "Obsidian Vault",
-      "toolCallCount": 658,
-      "agentsUsed": []
     }
   ]
 }

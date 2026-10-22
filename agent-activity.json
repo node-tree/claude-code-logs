@@ -1,4 +1,9 @@
 {
+  "evaluator": {
+    "lastActive": "2026-10-22T10:49:47.866000+00:00",
+    "lastProject": "memory",
+    "sessionId": "58a06f98"
+  },
   "research": {
     "lastActive": "2026-10-22T06:58:03.019000+00:00",
     "lastProject": "ls-000-foundation",
@@ -13,11 +18,6 @@
     "lastActive": "2026-10-21T05:48:18.562000+00:00",
     "lastProject": "media-reverse-lab",
     "sessionId": "b0103409"
-  },
-  "evaluator": {
-    "lastActive": "2026-10-21T04:51:33.830000+00:00",
-    "lastProject": "이물_리플렛_최종",
-    "sessionId": "060d0706"
   },
   "pr-content": {
     "lastActive": "2026-10-14T07:43:23.956000+00:00",
