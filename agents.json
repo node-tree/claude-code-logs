@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-22T06:26:51.649321+00:00",
-  "totalAgents": 114,
+  "lastUpdated": "2026-10-22T06:36:27.980808+00:00",
+  "totalAgents": 115,
   "agents": [
     {
       "id": "canvas-design",
@@ -81,6 +81,14 @@
       "name": "Korean Cinema",
       "desc": "한국 예술영화·독립영화·영화이론·미디어아트-영화 교차점. 트리거: 영화 비평, 감독 노트, 영상 설치 개념, 시나리오 방법론.",
       "emoji": "🎬"
+    },
+    {
+      "id": "media-replicate",
+      "type": "skill",
+      "category": "dev",
+      "name": "Media Replicate",
+      "desc": "레퍼런스 작품 복제(역산) 시스템 — 소리 · 영상 · 이미지 · 디자인 · 글을 같은 절차로 복제하고 규칙으로 뽑는다(복제 → 규칙 → 변이). 정본 ~/media-reverse-lab/system/(SYSTEM ",
+      "emoji": "🔹"
     },
     {
       "id": "media-research",
@@ -254,24 +262,6 @@
       "subSkillCount": 18
     },
     {
-      "id": "video-interaction-mapper",
-      "type": "skill",
-      "category": "dev",
-      "name": "Video Interaction Mapper",
-      "desc": ">",
-      "emoji": "🔹",
-      "parentPlugin": "figma"
-    },
-    {
-      "id": "generate-project-plan",
-      "type": "skill",
-      "category": "dev",
-      "name": "Generate Project Plan",
-      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
-      "emoji": "🔹",
-      "parentPlugin": "figma"
-    },
-    {
       "id": "figma-use-motion",
       "type": "skill",
       "category": "dev",
@@ -295,6 +285,15 @@
       "category": "dev",
       "name": "Figma Use Slides",
       "desc": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has ",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-spec",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Spec",
+      "desc": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD,",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
@@ -371,6 +370,15 @@
       "parentPlugin": "figma"
     },
     {
+      "id": "figma-code-workflows",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma Code Workflows",
+      "desc": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalo",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
       "id": "figma-use-figjam",
       "type": "skill",
       "category": "dev",
@@ -398,20 +406,20 @@
       "parentPlugin": "figma"
     },
     {
-      "id": "figma-spec",
+      "id": "video-interaction-mapper",
       "type": "skill",
       "category": "dev",
-      "name": "Figma Spec",
-      "desc": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD,",
+      "name": "Video Interaction Mapper",
+      "desc": ">",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
     {
-      "id": "figma-code-workflows",
+      "id": "generate-project-plan",
       "type": "skill",
       "category": "dev",
-      "name": "Figma Code Workflows",
-      "desc": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalo",
+      "name": "Generate Project Plan",
+      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
