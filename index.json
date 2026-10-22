@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-22T10:50:03.284879+00:00",
+  "lastUpdated": "2026-10-22T10:58:17.042624+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "3089125e",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T10:52:45.364000+00:00",
+      "durationSeconds": 344,
+      "modelTier": "opus",
+      "projectName": "서곡",
+      "toolCallCount": 25,
+      "agentsUsed": []
+    },
     {
       "sessionId": "6669f7dd",
       "date": "2026-10-22",
@@ -3298,18 +3308,6 @@
       "projectName": "Obsidian Vault",
       "toolCallCount": 658,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "4da9614a",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T06:36:54.392000+00:00",
-      "durationSeconds": 1830,
-      "modelTier": "fable",
-      "projectName": "memory",
-      "toolCallCount": 32,
-      "agentsUsed": [
-        "doc-design"
-      ]
     }
   ]
 }
