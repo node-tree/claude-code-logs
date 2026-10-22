@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-22T11:12:14.326221+00:00",
+  "lastUpdated": "2026-10-22T11:15:36.974756+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3089125e",
       "date": "2026-10-22",
       "startTime": "2026-10-22T10:52:45.364000+00:00",
-      "durationSeconds": 1203,
+      "durationSeconds": 1578,
       "modelTier": "opus",
-      "projectName": "서곡",
-      "toolCallCount": 56,
+      "projectName": "전자시안",
+      "toolCallCount": 65,
       "agentsUsed": [
         "general-purpose"
       ]
