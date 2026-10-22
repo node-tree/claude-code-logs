@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T01:33:41.711323+00:00",
+  "lastUpdated": "2026-10-22T01:34:41.030969+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -100,10 +100,10 @@
       "sessionId": "ae4a95d7",
       "date": "2026-10-21",
       "startTime": "2026-10-21T13:28:01.441000+00:00",
-      "durationSeconds": 11385,
+      "durationSeconds": 11856,
       "modelTier": "opus",
-      "projectName": "hq",
-      "toolCallCount": 312,
+      "projectName": "video",
+      "toolCallCount": 321,
       "agentsUsed": [
         "generative-visual"
       ]
