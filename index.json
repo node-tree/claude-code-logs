@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-22T04:10:18.316233+00:00",
+  "lastUpdated": "2026-10-22T04:11:21.447309+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "c7188e33",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T04:03:35.767000+00:00",
+      "durationSeconds": 458,
+      "modelTier": "opus",
+      "projectName": "rough",
+      "toolCallCount": 39,
+      "agentsUsed": []
+    },
     {
       "sessionId": "eb04feb8",
       "date": "2026-10-22",
@@ -3293,20 +3303,6 @@
       "projectName": "ref",
       "toolCallCount": 114,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "41dbbbbe",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T01:58:09.379000+00:00",
-      "durationSeconds": 25612,
-      "modelTier": "fable",
-      "projectName": "lead2",
-      "toolCallCount": 292,
-      "agentsUsed": [
-        "evaluator",
-        "generative-visual",
-        "sound-art"
-      ]
     }
   ]
 }
