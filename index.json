@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T00:37:56.186845+00:00",
+  "lastUpdated": "2026-10-22T00:45:42.737172+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -149,10 +149,10 @@
       "sessionId": "060d0706",
       "date": "2026-10-21",
       "startTime": "2026-10-21T04:51:33.830000+00:00",
-      "durationSeconds": 16306,
+      "durationSeconds": 16653,
       "modelTier": "opus",
-      "projectName": "r6.1",
-      "toolCallCount": 443,
+      "projectName": "final_6000",
+      "toolCallCount": 456,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
