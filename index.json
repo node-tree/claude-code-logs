@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T01:58:56.661500+00:00",
+  "lastUpdated": "2026-10-22T01:59:13.736868+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -38,10 +38,10 @@
       "sessionId": "925fd1b6",
       "date": "2026-10-21",
       "startTime": "2026-10-21T23:31:37.181000+00:00",
-      "durationSeconds": 5526,
+      "durationSeconds": 7700,
       "modelTier": "opus",
       "projectName": "memory",
-      "toolCallCount": 364,
+      "toolCallCount": 491,
       "agentsUsed": [
         "general-purpose"
       ]
