@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-22T07:15:05.155100+00:00",
+  "lastUpdated": "2026-10-22T07:17:18.576489+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "e50db01c",
+      "date": "2026-10-22",
+      "startTime": "2026-10-22T06:58:03.019000+00:00",
+      "durationSeconds": 1392,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 55,
+      "agentsUsed": [
+        "research"
+      ]
+    },
     {
       "sessionId": "c7188e33",
       "date": "2026-10-22",
@@ -3294,16 +3306,6 @@
       "modelTier": "opus",
       "projectName": "footage",
       "toolCallCount": 201,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "6dd10eb9",
-      "date": "2026-09-16",
-      "startTime": "2026-09-16T02:27:58.825000+00:00",
-      "durationSeconds": 1162,
-      "modelTier": "opus",
-      "projectName": "ref",
-      "toolCallCount": 114,
       "agentsUsed": []
     }
   ]
