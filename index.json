@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T06:36:51.728541+00:00",
+  "lastUpdated": "2026-10-23T06:37:46.093010+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "f9733667",
       "date": "2026-10-23",
       "startTime": "2026-10-23T01:11:40.711000+00:00",
-      "durationSeconds": 14765,
+      "durationSeconds": 14832,
       "modelTier": "opus",
       "projectName": "우리기보",
-      "toolCallCount": 496,
+      "toolCallCount": 508,
       "agentsUsed": [
         "general-purpose",
         "research"
