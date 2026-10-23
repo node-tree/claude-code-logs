@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T04:30:28.081494+00:00",
+  "lastUpdated": "2026-10-23T04:33:07.497564+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "f9733667",
       "date": "2026-10-23",
       "startTime": "2026-10-23T01:11:40.711000+00:00",
-      "durationSeconds": 7084,
+      "durationSeconds": 7398,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 249,
+      "projectName": "우리글자",
+      "toolCallCount": 262,
       "agentsUsed": [
         "general-purpose"
       ]
