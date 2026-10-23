@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-23T01:00:06.760222+00:00",
+  "lastUpdated": "2026-10-23T01:18:24.091588+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f9733667",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T01:11:40.711000+00:00",
+      "durationSeconds": 406,
+      "modelTier": "opus",
+      "projectName": "우리기보",
+      "toolCallCount": 67,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "35d2049e",
       "date": "2026-10-23",
@@ -3304,16 +3316,6 @@
       "modelTier": "fable",
       "projectName": "kanghyunjung",
       "toolCallCount": 12,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "9017fa21",
-      "date": "2026-09-17",
-      "startTime": "2026-09-17T01:20:23.961000+00:00",
-      "durationSeconds": 837,
-      "modelTier": "fable",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 16,
       "agentsUsed": []
     }
   ]
