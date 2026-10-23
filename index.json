@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T03:58:33.734628+00:00",
+  "lastUpdated": "2026-10-23T04:00:26.703501+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -61,10 +61,10 @@
       "sessionId": "4d1d314a",
       "date": "2026-10-22",
       "startTime": "2026-10-22T23:34:51.824000+00:00",
-      "durationSeconds": 10115,
+      "durationSeconds": 10228,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 557,
+      "projectName": "nagwon-caption-20261023",
+      "toolCallCount": 561,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
