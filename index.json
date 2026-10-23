@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T02:36:35.990228+00:00",
+  "lastUpdated": "2026-10-23T02:36:48.319277+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -51,10 +51,10 @@
       "sessionId": "4d1d314a",
       "date": "2026-10-22",
       "startTime": "2026-10-22T23:34:51.824000+00:00",
-      "durationSeconds": 8374,
+      "durationSeconds": 8386,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
-      "toolCallCount": 492,
+      "projectName": "nagwon-caption-20261023",
+      "toolCallCount": 493,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
