@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-23T02:21:37.842883+00:00",
+  "lastUpdated": "2026-10-23T02:22:35.003435+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "865b0b6a",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T02:14:36.918000+00:00",
+      "durationSeconds": 549,
+      "modelTier": "opus",
+      "projectName": "꿈다락",
+      "toolCallCount": 43,
+      "agentsUsed": []
+    },
     {
       "sessionId": "f9733667",
       "date": "2026-10-23",
@@ -3307,16 +3317,6 @@
         "evaluator",
         "film-production"
       ]
-    },
-    {
-      "sessionId": "2789729c",
-      "date": "2026-09-17",
-      "startTime": "2026-09-17T03:53:03.224000+00:00",
-      "durationSeconds": 432,
-      "modelTier": "fable",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 12,
-      "agentsUsed": []
     }
   ]
 }
