@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-23T03:09:24.403082+00:00",
+  "lastUpdated": "2026-10-23T03:34:43.486229+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0ac88962",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T02:55:15.773000+00:00",
+      "durationSeconds": 1310,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 99,
+      "agentsUsed": []
+    },
     {
       "sessionId": "865b0b6a",
       "date": "2026-10-23",
@@ -3304,19 +3314,6 @@
       "projectName": ".claude",
       "toolCallCount": 9,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "bdbbe774",
-      "date": "2026-09-17",
-      "startTime": "2026-09-17T11:15:10.687000+00:00",
-      "durationSeconds": 1546,
-      "modelTier": "opus",
-      "projectName": "C1762",
-      "toolCallCount": 7,
-      "agentsUsed": [
-        "evaluator",
-        "film-production"
-      ]
     }
   ]
 }
