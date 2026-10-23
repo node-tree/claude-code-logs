@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T13:28:47.432037+00:00",
+  "lastUpdated": "2026-10-23T13:30:38.218934+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "f9733667",
       "date": "2026-10-23",
       "startTime": "2026-10-23T01:11:40.711000+00:00",
-      "durationSeconds": 25066,
+      "durationSeconds": 25184,
       "modelTier": "opus",
-      "projectName": "시안",
-      "toolCallCount": 725,
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 735,
       "agentsUsed": [
         "general-purpose",
         "research"
