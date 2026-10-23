@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T12:52:22.134067+00:00",
+  "lastUpdated": "2026-10-23T12:57:34.242156+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "f9733667",
       "date": "2026-10-23",
       "startTime": "2026-10-23T01:11:40.711000+00:00",
-      "durationSeconds": 23403,
+      "durationSeconds": 23716,
       "modelTier": "opus",
-      "projectName": "r1-3_테두리없음",
-      "toolCallCount": 695,
+      "projectName": "본판",
+      "toolCallCount": 702,
       "agentsUsed": [
         "general-purpose",
         "research"
