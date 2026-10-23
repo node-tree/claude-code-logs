@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-23T16:24:59.223497+00:00",
+  "lastUpdated": "2026-10-23T22:05:52.283408+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f6fa9ee6",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T22:03:13.104000+00:00",
+      "durationSeconds": 159,
+      "modelTier": "sonnet",
+      "projectName": "보유종목",
+      "toolCallCount": 80,
+      "agentsUsed": []
+    },
     {
       "sessionId": "c3649352",
       "date": "2026-10-23",
@@ -3305,18 +3315,6 @@
       "toolCallCount": 123,
       "agentsUsed": [
         "evaluator"
-      ]
-    },
-    {
-      "sessionId": "2c191947",
-      "date": "2026-09-17",
-      "startTime": "2026-09-17T22:03:05.962000+00:00",
-      "durationSeconds": 399,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 2,
-      "agentsUsed": [
-        "research"
       ]
     }
   ]
