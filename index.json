@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-23T00:26:52.214285+00:00",
+  "lastUpdated": "2026-10-23T00:28:45.410153+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "35d2049e",
+      "date": "2026-10-23",
+      "startTime": "2026-10-23T00:23:01.456000+00:00",
+      "durationSeconds": 326,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 32,
+      "agentsUsed": [
+        "research"
+      ]
+    },
     {
       "sessionId": "a2d6a0b7",
       "date": "2026-10-22",
@@ -3302,18 +3314,6 @@
       "projectName": "kanghyunjung",
       "toolCallCount": 16,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "aefe323f",
-      "date": "2026-09-17",
-      "startTime": "2026-09-17T01:12:42.291000+00:00",
-      "durationSeconds": 308,
-      "modelTier": "opus",
-      "projectName": "증명사진",
-      "toolCallCount": 16,
-      "agentsUsed": [
-        "visual-design"
-      ]
     }
   ]
 }

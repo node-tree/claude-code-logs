@@ -1,13 +1,13 @@
 {
+  "research": {
+    "lastActive": "2026-10-23T00:23:01.456000+00:00",
+    "lastProject": "ls-000-foundation",
+    "sessionId": "35d2049e"
+  },
   "evaluator": {
     "lastActive": "2026-10-22T23:34:51.824000+00:00",
     "lastProject": "ediaphonic-caption-20261023",
     "sessionId": "4d1d314a"
-  },
-  "research": {
-    "lastActive": "2026-10-22T06:58:03.019000+00:00",
-    "lastProject": "ls-000-foundation",
-    "sessionId": "e50db01c"
   },
   "generative-visual": {
     "lastActive": "2026-10-22T04:03:35.767000+00:00",
