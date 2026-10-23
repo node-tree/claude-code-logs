@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T05:00:39.418066+00:00",
+  "lastUpdated": "2026-10-23T05:01:30.050892+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "f9733667",
       "date": "2026-10-23",
       "startTime": "2026-10-23T01:11:40.711000+00:00",
-      "durationSeconds": 8953,
+      "durationSeconds": 9128,
       "modelTier": "opus",
       "projectName": "전자시안",
-      "toolCallCount": 305,
+      "toolCallCount": 320,
       "agentsUsed": [
         "general-purpose"
       ]
