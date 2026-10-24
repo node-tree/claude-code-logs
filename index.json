@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-24T06:39:07.867941+00:00",
+  "lastUpdated": "2026-10-24T06:42:51.519236+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6c5c87f6",
+      "date": "2026-10-24",
+      "startTime": "2026-10-24T06:36:03.687000+00:00",
+      "durationSeconds": 381,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 58,
+      "agentsUsed": []
+    },
     {
       "sessionId": "60996d29",
       "date": "2026-10-24",
@@ -3297,16 +3307,6 @@
       "modelTier": "opus",
       "projectName": "_workspace",
       "toolCallCount": 32,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e9e5e7ea",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T04:23:40.167000+00:00",
-      "durationSeconds": 5049,
-      "modelTier": "opus",
-      "projectName": "tools",
-      "toolCallCount": 265,
       "agentsUsed": []
     }
   ]
