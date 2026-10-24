@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T10:28:05.927272+00:00",
+  "lastUpdated": "2026-10-24T10:35:56.831011+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -38,10 +38,10 @@
       "sessionId": "fbd7b83f",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:15:23.214000+00:00",
-      "durationSeconds": 13989,
+      "durationSeconds": 14343,
       "modelTier": "opus",
-      "projectName": "hangang-sonyeon",
-      "toolCallCount": 453,
+      "projectName": "media-reverse-lab",
+      "toolCallCount": 459,
       "agentsUsed": [
         "general-purpose",
         "generative-visual",
