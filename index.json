@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-24T06:23:06.264506+00:00",
+  "lastUpdated": "2026-10-24T06:27:18.176434+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "60996d29",
+      "date": "2026-10-24",
+      "startTime": "2026-10-24T06:18:36.937000+00:00",
+      "durationSeconds": 559,
+      "modelTier": "opus",
+      "projectName": "-Users-kanghyunjung",
+      "toolCallCount": 64,
+      "agentsUsed": []
+    },
     {
       "sessionId": "67adbf8a",
       "date": "2026-10-24",
@@ -3300,16 +3310,6 @@
         "grant-writer",
         "research"
       ]
-    },
-    {
-      "sessionId": "ba44359c",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T02:23:04.391000+00:00",
-      "durationSeconds": 1563,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 14,
-      "agentsUsed": []
     }
   ]
 }
