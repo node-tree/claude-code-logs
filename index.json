@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T09:02:29.371633+00:00",
+  "lastUpdated": "2026-10-24T09:06:16.046763+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -81,10 +81,10 @@
       "sessionId": "c3649352",
       "date": "2026-10-23",
       "startTime": "2026-10-23T13:34:45.444000+00:00",
-      "durationSeconds": 12005,
+      "durationSeconds": 12382,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 641,
+      "projectName": "23-리게티연주분석",
+      "toolCallCount": 658,
       "agentsUsed": [
         "general-purpose"
       ]
