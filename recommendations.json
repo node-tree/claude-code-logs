@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-23",
+  "lastUpdated": "2026-10-24",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "Trivy",
+          "name": "pa11y",
           "type": "tool",
-          "desc": "취약점·시크릿·설정 오류·라이선스를 파일시스템과 저장소 단위로 검사하는 보안 스캐너.",
-          "reason": "evaluator의 lens: code 판정에서 nodetreeHome 저장소의 의존성 취약점과 실수로 커밋된 키를 한 번에 점검해 PASS/REWORK 근거로 남길 수 있다. Vercel 배포 전 CLI 한 줄로 실행해 판정서에 결과를 붙인다.",
+          "desc": "웹 페이지 접근성을 명령줄에서 자동 검사하는 도구(HTML_CodeSniffer·axe 사용).",
+          "reason": "evaluator의 lens: design 판정에서 nodetree.kr 배포본의 대비·대체텍스트 오류를 URL 단위로 검사해 REWORK 사유로 붙일 수 있다. 결과가 JSON으로 나와 판정서에 그대로 인용된다.",
           "trend": "stable",
-          "url": "https://github.com/aquasecurity/trivy"
+          "url": "https://github.com/pa11y/pa11y"
         },
         {
-          "name": "jscpd",
+          "name": "StrykerJS",
           "type": "tool",
-          "desc": "소스 코드의 복사·붙여넣기 중복과 미사용 코드를 찾고 MCP 서버도 제공하는 검사기.",
-          "reason": "evaluator의 lens: code 판정에서 Three.js/TSL 비주얼 코드나 React 컴포넌트에 복제된 블록이 쌓였는지 수치로 확인할 수 있다. SARIF·JSON 리포트가 나와 REWORK 사유를 파일 단위로 적기 좋다.",
-          "trend": "rising",
-          "url": "https://github.com/kucherenko/jscpd"
+          "desc": "JavaScript·TypeScript 코드에 변이를 주입해 테스트가 실제로 결함을 잡는지 측정하는 변이 테스트 도구.",
+          "reason": "evaluator의 lens: code 판정에서 nodetreeHome의 API·유틸 테스트가 형식적으로만 통과하는지 변이 점수로 확인할 수 있다. 통과 여부만 보던 PASS 기준에 테스트 실효성 수치를 더한다.",
+          "trend": "stable",
+          "url": "https://github.com/stryker-mutator/stryker-js"
         },
         {
-          "name": "Nu Html Checker (vnu)",
+          "name": "BackstopJS",
           "type": "tool",
-          "desc": "HTML·CSS·SVG 문법 오류를 검사하는 W3C 계열 검증기.",
-          "reason": "evaluator의 lens: design 판정에서 nodetree.kr 페이지와 SVG로 조판한 홍보물의 마크업 오류를 자동으로 걸러낼 수 있다. 시각 검수 전에 기계적 오류를 먼저 제거해 판정이 구체적이 된다.",
+          "desc": "웹 화면을 스크린샷으로 찍어 승인된 기준 이미지와 비교하는 시각 회귀 테스트 도구.",
+          "reason": "evaluator의 lens: design 판정에서 nodetree.kr 수정 후 레이아웃이 의도치 않게 달라졌는지 기준 이미지와 차이로 확인할 수 있다. 반응형 뷰포트별 비교로 모바일 깨짐을 판정 전에 걸러낸다.",
           "trend": "stable",
-          "url": "https://github.com/validator/validator"
+          "url": "https://github.com/garris/BackstopJS"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "tdmcp",
-          "type": "mcp",
-          "desc": "TouchDesigner에 노드 네트워크를 만들고 검사·미리보기까지 하는 MCP 서버(MIDI/OSC/DMX 지원).",
-          "reason": "generative-visual이 Three.js WebGPU가 막힐 때 쓰는 TouchDesigner 대체 경로에서 오디오 반응형 네트워크 초안을 빠르게 만들 수 있다. 운영자 레퍼런스를 내장해 존재하지 않는 오퍼레이터를 쓰는 실수가 줄어든다.",
+          "name": "Pure Data",
+          "type": "tool",
+          "desc": "실시간 음악·오디오 처리를 위한 오픈소스 비주얼 프로그래밍 환경.",
+          "reason": "sound-art가 SuperCollider 외에 센서 입력을 받아 소리로 바꾸는 가벼운 설치용 패치를 만들 때 쓸 수 있다. 패치가 텍스트 파일이라 Claude Code가 생성·수정하기 쉽다.",
+          "trend": "stable",
+          "url": "https://github.com/pure-data/pure-data"
+        },
+        {
+          "name": "Theatre.js",
+          "type": "tool",
+          "desc": "코드와 시각 편집기로 정밀한 모션을 만드는 애니메이션 라이브러리(Three.js 연동 지원).",
+          "reason": "generative-visual이 Three.js WebGPU 장면의 카메라·오브젝트 움직임을 타임라인으로 설계하고 퍼포먼스 필름용 영상으로 렌더할 때 쓸 수 있다. 키프레임을 JSON으로 저장해 버전 관리가 된다.",
+          "trend": "stable",
+          "url": "https://github.com/theatre-js/theatre"
+        },
+        {
+          "name": "WLED",
+          "type": "tool",
+          "desc": "ESP32에서 동작하며 Art-Net·E1.31·DDP 등 실시간 프로토콜로 LED를 제어하는 오픈소스 펌웨어.",
+          "reason": "media-art-pipeline이 ESP32 기반 설치 작업에서 LED 매트릭스를 Art-Net으로 구동할 때 펌웨어를 직접 짜지 않고 쓸 수 있다. HTTP/JSON API가 있어 Claude Code가 상태를 제어하기 쉽다.",
           "trend": "rising",
-          "url": "https://github.com/pantani/tdmcp"
-        },
-        {
-          "name": "Sonic Pi",
-          "type": "tool",
-          "desc": "코드로 실시간 연주하는 오픈소스 라이브코딩 음악 환경.",
-          "reason": "sound-art가 SuperCollider·TidalCycles 외에 퍼포먼스용 라이브코딩 스케치를 빠르게 시도할 때 쓸 수 있다. 텍스트 코드라 Claude Code가 루프와 패턴을 생성하고 수정하기 쉽다.",
-          "trend": "stable",
-          "url": "https://github.com/sonic-pi-net/sonic-pi"
-        },
-        {
-          "name": "cables.gl",
-          "type": "tool",
-          "desc": "브라우저에서 노드로 인터랙티브 콘텐츠를 만드는 오픈소스 비주얼 툴.",
-          "reason": "media-art-pipeline이 설치용 센서 시각화나 웹 프로토타입을 노드 그래프로 빠르게 확인할 때 쓸 수 있다. 결과를 웹으로 내보내 전시 현장 디스플레이에 바로 올릴 수 있다.",
-          "trend": "stable",
-          "url": "https://github.com/cables-gl/cables"
+          "url": "https://github.com/wled/WLED"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Fabric.js",
+          "name": "pdf-lib",
           "type": "tool",
-          "desc": "HTML5 캔버스 객체 조작과 SVG 입출력을 지원하는 JavaScript 라이브러리(Node 패키지 포함).",
-          "reason": "visual-design이 포스터 템플릿에 텍스트와 이미지 레이어를 얹어 SNS 크기별 PNG를 서버 없이 일괄 생성할 때 쓸 수 있다. SVG로 내보내 Figma에서 후편집하는 흐름도 가능하다.",
+          "desc": "JavaScript로 PDF를 생성하고 수정하는 라이브러리(Node·브라우저 지원).",
+          "reason": "visual-design이 포스터와 도록 시안을 PDF로 조립하고 페이지·메타데이터를 코드로 수정할 때 쓸 수 있다. 서버 없이 Node 스크립트로 인쇄 입고용 PDF를 일괄 생성한다.",
           "trend": "stable",
-          "url": "https://github.com/fabricjs/fabric.js"
+          "url": "https://github.com/Hopding/pdf-lib"
         },
         {
-          "name": "opentype.js",
+          "name": "Paper.js",
           "type": "tool",
-          "desc": "OpenType 폰트를 읽어 텍스트를 벡터 경로로 변환하는 라이브러리.",
-          "reason": "visual-design이 전시 포스터의 제목 글자를 아웃라인 SVG로 바꾸고 자간·커닝을 코드로 제어할 때 쓸 수 있다. 인쇄 입고용 파일에서 폰트 누락 문제를 피하는 데 도움이 된다.",
+          "desc": "HTML5 Canvas 위에서 벡터 그래픽을 스크립트로 다루는 라이브러리.",
+          "reason": "visual-design이 키비주얼의 곡선·불리언 연산 같은 벡터 조형을 코드로 만들고 SVG로 내보내 Figma에서 후편집할 때 쓸 수 있다. 경로 단순화·교차 계산이 내장돼 있다.",
           "trend": "stable",
-          "url": "https://github.com/opentypejs/opentype.js"
+          "url": "https://github.com/paperjs/paper.js"
         },
         {
-          "name": "Motion",
+          "name": "canvas-sketch",
           "type": "tool",
-          "desc": "React와 JavaScript용 애니메이션 라이브러리로 에이전트용 도구도 제공한다.",
-          "reason": "visual-design이 홍보용 웹 키비주얼에 스크롤 연동과 레이아웃 전환 모션을 넣을 때 쓸 수 있다. Framer Motion의 후속이라 React 코드에 그대로 연결된다.",
-          "trend": "rising",
-          "url": "https://github.com/motiondivision/motion"
+          "desc": "인치·ppi 단위 설정과 고해상도 PNG 내보내기를 지원하는 브라우저 제너러티브 아트 프레임워크.",
+          "reason": "visual-design이 제너러티브 패턴을 A2 포스터 같은 인쇄 물리 크기로 정확히 뽑을 때 쓸 수 있다. 단위와 해상도가 코드에 선언돼 fig2mm 환산 실수를 줄인다.",
+          "trend": "stable",
+          "url": "https://github.com/mattdesl/canvas-sketch"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "kordoc",
-          "type": "mcp",
-          "desc": "HWP·HWPX·PDF를 Markdown으로 변환하고 양식 채우기·문서 비교·HWPX 생성을 지원하는 CLI 겸 MCP 서버.",
-          "reason": "doc-design이 받은 HWP 공문 양식을 읽어 필드를 채우고 HWPX로 되돌릴 때 쓸 수 있다. 공모 양식 두 버전의 차이를 비교하는 데도 쓸 수 있다.",
-          "trend": "hot",
-          "url": "https://github.com/chrisryugj/kordoc"
-        },
-        {
-          "name": "k-skill",
-          "type": "skill",
-          "desc": "한국 환경용 에이전트 스킬 모음으로 hwp, rhwp-edit 스킬을 포함한다.",
-          "reason": "doc-design이 기존 .hwp 파일의 본문과 표를 직접 수정하거나 서식 진단을 할 때 쓸 수 있다. grant-writer가 낸 원고를 지원서 양식에 반영하는 단계를 줄인다.",
-          "trend": "rising",
-          "url": "https://github.com/nomadamas/k-skill"
-        },
-        {
-          "name": "Obsidian Dataview",
+          "name": "Obsidian Tasks",
           "type": "plugin",
-          "desc": "Obsidian 노트의 메타데이터를 SQL 유사 문법으로 질의하는 플러그인.",
-          "reason": "project-planner가 Obsidian에 정리한 프로젝트 노트에서 마감일·담당자·예산 항목을 표로 자동 집계할 수 있다. Claude Code는 frontmatter만 맞춰 쓰면 일정 대시보드가 갱신된다.",
+          "desc": "옵시디안 볼트 전체의 할 일을 마감일·반복·쿼리로 추적하는 플러그인.",
+          "reason": "project-planner가 Obsidian에 쌓인 지원사업 준비 항목의 마감과 담당을 쿼리 한 줄로 모아 볼 때 쓸 수 있다. 마크다운 문법이라 Claude Code가 일정 노트를 직접 갱신할 수 있다.",
           "trend": "stable",
-          "url": "https://github.com/blacksmithgu/obsidian-dataview"
+          "url": "https://github.com/obsidian-tasks-group/obsidian-tasks"
+        },
+        {
+          "name": "mammoth.js",
+          "type": "tool",
+          "desc": "Word(.docx) 문서를 깨끗한 시맨틱 HTML로 변환하는 JavaScript 라이브러리.",
+          "reason": "doc-design이 외부에서 받은 .docx 양식이나 지원서 초안을 HTML로 뽑아 HWPX 변환 전 본문을 정리할 때 쓸 수 있다. 스타일 매핑으로 제목·목록 구조를 유지한다.",
+          "trend": "stable",
+          "url": "https://github.com/mwilliamson/mammoth.js"
+        },
+        {
+          "name": "ics",
+          "type": "tool",
+          "desc": "iCalendar(RFC 5545) 이벤트 파일을 생성하는 Node.js 라이브러리.",
+          "reason": "grant-writer와 project-planner가 지원서 마감·심사 일정을 .ics로 만들어 캘린더에 한 번에 등록할 때 쓸 수 있다. 공모 마감일 목록에서 스크립트로 일괄 생성된다.",
+          "trend": "stable",
+          "url": "https://github.com/adamgibbons/ics"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "Khoj",
+          "name": "Obsidian Web Clipper",
           "type": "tool",
-          "desc": "문서와 웹을 대상으로 답하는 오픈소스 셀프호스트 AI 비서로 Obsidian 연동을 지원한다.",
-          "reason": "research가 Obsidian에 쌓은 작가·이론 노트를 의미 검색해 작가노트 근거를 빠르게 찾을 때 쓸 수 있다. 자동 리서치와 뉴스레터 기능으로 공모 소식 모니터링에도 응용할 수 있다.",
-          "trend": "stable",
-          "url": "https://github.com/khoj-ai/khoj"
-        },
-        {
-          "name": "whisper.cpp",
-          "type": "tool",
-          "desc": "OpenAI Whisper 음성 인식을 로컬에서 돌리는 C/C++ 구현.",
-          "reason": "research가 작가 인터뷰·강연 영상의 녹취를 외부 전송 없이 로컬에서 처리해 Obsidian 노트로 만들 때 쓸 수 있다. 단어 단위 타임스탬프로 인용 위치를 찾기 쉽다.",
-          "trend": "stable",
-          "url": "https://github.com/ggml-org/whisper.cpp"
-        },
-        {
-          "name": "rerankers",
-          "type": "tool",
-          "desc": "여러 재순위화 방식을 하나의 인터페이스로 묶은 Python 라이브러리.",
-          "reason": "research의 공모 레이더가 수집한 공모·레지던시 후보를 NODE TREE 작업 설명과의 관련도로 재정렬할 때 쓸 수 있다. 검색 단계에서 놓친 적합 공모를 상위로 올리는 데 도움이 된다.",
+          "desc": "웹 페이지의 선택 영역을 마크다운으로 옵시디안에 저장하는 공식 브라우저 확장.",
+          "reason": "research가 작가·작품 페이지를 읽다가 템플릿 속성과 함께 옵시디안 자료실에 바로 저장할 때 쓸 수 있다. media-research 노트와 같은 볼트 구조로 모인다.",
           "trend": "rising",
-          "url": "https://github.com/AnswerDotAI/rerankers"
+          "url": "https://github.com/obsidianmd/obsidian-clipper"
+        },
+        {
+          "name": "Local Deep Research",
+          "type": "mcp",
+          "desc": "웹·학술·개인 문서를 에이전트가 검색해 보고서를 만드는 셀프호스트 리서치 도구(MCP 서버 제공).",
+          "reason": "research의 심층 리서치 모드에서 이론·기술 조사를 Claude Code가 MCP로 호출해 출처 달린 보고서로 받을 때 쓸 수 있다. 로컬 LLM도 지원해 비용 조절이 된다.",
+          "trend": "rising",
+          "url": "https://github.com/LearningCircuit/local-deep-research"
+        },
+        {
+          "name": "SingleFile",
+          "type": "tool",
+          "desc": "웹 페이지를 하나의 HTML 파일로 저장하는 브라우저 확장이자 CLI.",
+          "reason": "research의 공모 레이더가 공고 페이지를 마감 전에 원본 그대로 보존해 두고 나중에 조건을 대조할 때 쓸 수 있다. CLI로 공고 URL 목록을 일괄 저장한다.",
+          "trend": "stable",
+          "url": "https://github.com/gildas-lormeau/SingleFile"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "TanStack Router",
+          "name": "Lenis",
           "type": "tool",
-          "desc": "타입 안전한 라우팅과 스키마 검증 검색 파라미터를 제공하는 React 라우터.",
-          "reason": "nodetreehome-web이 /monitor 같은 페이지의 필터·탭 상태를 URL 검색 파라미터로 타입 안전하게 관리할 때 쓸 수 있다. 라우트 오류를 빌드 단계에서 잡아 Vercel 배포 실패를 줄인다.",
+          "desc": "브라우저 기본 스크롤을 유지하는 경량 스무스 스크롤 라이브러리(React 패키지 포함).",
+          "reason": "nodetreehome-web이 nodetree.kr의 작품 소개 페이지에 스크롤 연동 연출을 넣을 때 쓸 수 있다. React 래퍼가 있어 기존 구조에 적은 코드로 붙는다.",
           "trend": "rising",
-          "url": "https://github.com/TanStack/router"
+          "url": "https://github.com/darkroomengineering/lenis"
         },
         {
-          "name": "React Three Fiber",
+          "name": "Valibot",
           "type": "tool",
-          "desc": "Three.js를 React 컴포넌트로 선언하는 렌더러.",
-          "reason": "nodetreehome-web이 nodetree.kr의 실시간 시각화를 React 구조 안에서 컴포넌트로 관리할 때 쓸 수 있다. Drei와 postprocessing 같은 보조 라이브러리를 그대로 붙일 수 있다.",
+          "desc": "의존성 없는 TypeScript 런타임 스키마 검증 라이브러리.",
+          "reason": "nodetreehome-web이 Vercel API 라우트와 실시간 시각화 입력 데이터를 검증할 때 번들 크기를 작게 유지하며 쓸 수 있다. 스키마에서 타입이 추론돼 중복 선언이 없다.",
+          "trend": "rising",
+          "url": "https://github.com/fabian-hiller/valibot"
+        },
+        {
+          "name": "MSW",
+          "type": "tool",
+          "desc": "네트워크 수준에서 API 요청을 가로채 모킹하는 Mock Service Worker.",
+          "reason": "nodetreehome-web이 백엔드 없이 실시간 시각화 UI와 폼을 개발·테스트할 때 쓸 수 있다. 브라우저와 Node 테스트에서 같은 핸들러를 공유한다.",
           "trend": "stable",
-          "url": "https://github.com/pmndrs/react-three-fiber"
-        },
-        {
-          "name": "Zustand",
-          "type": "tool",
-          "desc": "프로바이더 없이 쓰는 React 상태 관리 라이브러리로 persist·devtools 미들웨어를 제공한다.",
-          "reason": "nodetreehome-web이 /monitor의 팀 필터·선택 상태를 가볍게 관리하고 새로고침 후에도 유지할 때 쓸 수 있다. 실시간 시각화 컴포넌트 사이의 파라미터 공유에도 쓸 수 있다.",
-          "trend": "rising",
-          "url": "https://github.com/pmndrs/zustand"
+          "url": "https://github.com/mswjs/msw"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "korean-jangbu-for (k-skill)",
-          "type": "skill",
-          "desc": "카드·계좌·영수증 자료를 표준 거래 원장과 세무사용 CSV로 정리하는 스킬.",
-          "reason": "saengsanso-accounting이 ㈜생산소 법인카드 내역을 계정과목별로 분류해 세무사에 넘길 CSV를 만들 때 쓸 수 있다. 직접 신고용이 아니라 장부 준비 단계에 맞춘 도구다.",
-          "trend": "rising",
-          "url": "https://github.com/nomadamas/k-skill"
+          "name": "Bigcapital",
+          "type": "tool",
+          "desc": "셀프호스트 가능한 장부·재고 관리 회계 소프트웨어(AGPL-3.0).",
+          "reason": "saengsanso-accounting이 ㈜생산소 장부를 API와 함께 관리하는 대안 구조를 검토할 때 쓸 수 있다. 명의별 조직 분리 방식이 노드트리와 분리 회계에 맞는지 비교해 볼 수 있다.",
+          "trend": "stable",
+          "url": "https://github.com/bigcapitalhq/bigcapital"
         },
         {
-          "name": "EasyOCR",
+          "name": "docTR",
           "type": "tool",
-          "desc": "80개 이상 언어를 지원하는 PyTorch 기반 OCR 라이브러리.",
-          "reason": "nodetree-accounting이 보조사업 정산용 영수증 사진에서 금액·날짜·상호를 추출해 집행 내역표에 옮길 때 쓸 수 있다. 추출값은 증빙 원본과 대조해 확인한다.",
+          "desc": "문서 텍스트 검출·인식과 핵심 정보 추출을 하는 PyTorch 기반 OCR 라이브러리.",
+          "reason": "nodetree-accounting이 보조사업 정산 증빙(영수증·세금계산서 스캔)에서 금액·날짜 항목을 추출해 지출내역서에 옮길 때 쓸 수 있다. 레이아웃 분석이 있어 표 형태 증빙에 맞다.",
           "trend": "stable",
-          "url": "https://github.com/JaidedAI/EasyOCR"
+          "url": "https://github.com/mindee/doctr"
         },
         {
-          "name": "Dolibarr",
+          "name": "XlsxWriter",
           "type": "tool",
-          "desc": "견적·청구·계약·재고를 관리하는 오픈소스 ERP/CRM.",
-          "reason": "nodetree-accounting이 노드트리 일반회계에서 용역 청구와 입금 내역을 한 곳에서 관리해야 할 때 후보가 된다. 두 명의에 맞춰 법인 단위로 분리해 운영할 수 있는지 먼저 확인해야 한다.",
+          "desc": "서식·수식·차트를 포함한 .xlsx를 생성하는 Python 라이브러리.",
+          "reason": "nodetree-accounting이 정산서와 예산표를 수식과 셀 서식까지 갖춘 엑셀로 스크립트 일괄 출력할 때 쓸 수 있다. 같은 틀로 두 명의 명의별 파일을 반복 생성할 수 있다.",
           "trend": "stable",
-          "url": "https://github.com/Dolibarr/dolibarr"
+          "url": "https://github.com/jmcnamara/XlsxWriter"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-10-24",
+      "names": [
+        "pa11y",
+        "StrykerJS",
+        "BackstopJS",
+        "Pure Data",
+        "Theatre.js",
+        "WLED",
+        "pdf-lib",
+        "Paper.js",
+        "canvas-sketch",
+        "Obsidian Tasks",
+        "mammoth.js",
+        "ics",
+        "Obsidian Web Clipper",
+        "Local Deep Research",
+        "SingleFile",
+        "Lenis",
+        "Valibot",
+        "MSW",
+        "Bigcapital",
+        "docTR",
+        "XlsxWriter"
+      ]
+    },
     {
       "date": "2026-10-23",
       "names": [
