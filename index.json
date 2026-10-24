@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T11:25:24.427154+00:00",
+  "lastUpdated": "2026-10-24T11:26:53.805759+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -38,10 +38,10 @@
       "sessionId": "fbd7b83f",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:15:23.214000+00:00",
-      "durationSeconds": 17016,
+      "durationSeconds": 17106,
       "modelTier": "opus",
-      "projectName": "craft",
-      "toolCallCount": 546,
+      "projectName": "hangang-sonyeon",
+      "toolCallCount": 550,
       "agentsUsed": [
         "general-purpose",
         "generative-visual",
