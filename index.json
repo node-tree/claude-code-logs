@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T07:29:00.318975+00:00",
+  "lastUpdated": "2026-10-24T07:32:58.984424+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -36,10 +36,10 @@
       "sessionId": "fbd7b83f",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:15:23.214000+00:00",
-      "durationSeconds": 4590,
+      "durationSeconds": 4856,
       "modelTier": "opus",
-      "projectName": "media",
-      "toolCallCount": 191,
+      "projectName": "omyo-poster",
+      "toolCallCount": 195,
       "agentsUsed": [
         "generative-visual",
         "visual-design"
