@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-24T11:45:36.962106+00:00",
+  "lastUpdated": "2026-10-24T11:45:56.509457+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "23cb6fe9",
+      "date": "2026-10-24",
+      "startTime": "2026-10-24T11:45:09.807000+00:00",
+      "durationSeconds": 36,
+      "modelTier": "opus",
+      "projectName": "22-본편",
+      "toolCallCount": 3,
+      "agentsUsed": []
+    },
     {
       "sessionId": "738fb33c",
       "date": "2026-10-24",
@@ -3299,19 +3309,6 @@
       "projectName": "ls-000-foundation",
       "toolCallCount": 423,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "10b1a49e",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T05:18:47.124000+00:00",
-      "durationSeconds": 2936,
-      "modelTier": "opus",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 45,
-      "agentsUsed": [
-        "evaluator",
-        "generative-visual"
-      ]
     }
   ]
 }
