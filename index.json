@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-24T02:50:37.747185+00:00",
+  "lastUpdated": "2026-10-24T02:59:36.144516+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "bb52baa9",
+      "date": "2026-10-24",
+      "startTime": "2026-10-24T02:47:48.686000+00:00",
+      "durationSeconds": 781,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 71,
+      "agentsUsed": []
+    },
     {
       "sessionId": "f6fa9ee6",
       "date": "2026-10-23",
@@ -3303,18 +3313,6 @@
         "doc-design",
         "evaluator",
         "research"
-      ]
-    },
-    {
-      "sessionId": "d23c5d41",
-      "date": "2026-09-17",
-      "startTime": "2026-09-17T23:56:32.470000+00:00",
-      "durationSeconds": 6846,
-      "modelTier": "opus",
-      "projectName": "C1762",
-      "toolCallCount": 123,
-      "agentsUsed": [
-        "evaluator"
       ]
     }
   ]
