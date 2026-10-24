@@ -1,4 +1,9 @@
 {
+  "research": {
+    "lastActive": "2026-10-24T07:24:06.573000+00:00",
+    "lastProject": "20261024-ttang-vocal-tune",
+    "sessionId": "738fb33c"
+  },
   "generative-visual": {
     "lastActive": "2026-10-24T06:15:23.214000+00:00",
     "lastProject": "photo-to-drawing",
@@ -13,11 +18,6 @@
     "lastActive": "2026-10-24T06:15:23.214000+00:00",
     "lastProject": "photo-to-drawing",
     "sessionId": "fbd7b83f"
-  },
-  "research": {
-    "lastActive": "2026-10-23T01:11:40.711000+00:00",
-    "lastProject": "nodetree-instagram",
-    "sessionId": "f9733667"
   },
   "evaluator": {
     "lastActive": "2026-10-22T23:34:51.824000+00:00",

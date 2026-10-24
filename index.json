@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-10-24T09:59:55.209965+00:00",
+  "lastUpdated": "2026-10-24T10:14:30.449098+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "738fb33c",
       "date": "2026-10-24",
       "startTime": "2026-10-24T07:24:06.573000+00:00",
-      "durationSeconds": 5870,
+      "durationSeconds": 8145,
       "modelTier": "opus",
       "projectName": "20261024-ttang-vocal-tune",
-      "toolCallCount": 331,
-      "agentsUsed": []
+      "toolCallCount": 395,
+      "agentsUsed": [
+        "research"
+      ]
     },
     {
       "sessionId": "6c5c87f6",
