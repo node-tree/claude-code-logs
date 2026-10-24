@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-24T12:32:23.186860+00:00",
+  "lastUpdated": "2026-10-24T12:45:40.223261+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "23cb6fe9",
       "date": "2026-10-24",
       "startTime": "2026-10-24T11:45:09.807000+00:00",
-      "durationSeconds": 658,
+      "durationSeconds": 1267,
       "modelTier": "opus",
-      "projectName": "음악",
-      "toolCallCount": 17,
+      "projectName": "22-본편",
+      "toolCallCount": 31,
       "agentsUsed": []
     },
     {
