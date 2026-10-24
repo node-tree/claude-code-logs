@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-24T16:58:07.609845+00:00",
+  "lastUpdated": "2026-10-24T22:04:09.833241+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "237af27a",
+      "date": "2026-10-24",
+      "startTime": "2026-10-24T22:03:12.187000+00:00",
+      "durationSeconds": 52,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 32,
+      "agentsUsed": []
+    },
     {
       "sessionId": "23cb6fe9",
       "date": "2026-10-24",
@@ -3301,16 +3311,6 @@
         "nodetreehome-web",
         "visual-design"
       ]
-    },
-    {
-      "sessionId": "822c1daa",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T05:39:03.681000+00:00",
-      "durationSeconds": 20914,
-      "modelTier": "opus",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 423,
-      "agentsUsed": []
     }
   ]
 }
