@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-24T14:56:18.430236+00:00",
+  "lastUpdated": "2026-10-24T14:58:47.444154+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "23cb6fe9",
       "date": "2026-10-24",
       "startTime": "2026-10-24T11:45:09.807000+00:00",
-      "durationSeconds": 4116,
+      "durationSeconds": 4260,
       "modelTier": "opus",
-      "projectName": "22-본편",
-      "toolCallCount": 111,
+      "projectName": "24-서사분석",
+      "toolCallCount": 123,
       "agentsUsed": [
         "research"
       ]
