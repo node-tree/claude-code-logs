@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-10-24T14:37:19.690404+00:00",
+  "lastUpdated": "2026-10-24T14:56:18.430236+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "23cb6fe9",
       "date": "2026-10-24",
       "startTime": "2026-10-24T11:45:09.807000+00:00",
-      "durationSeconds": 2760,
+      "durationSeconds": 4116,
       "modelTier": "opus",
       "projectName": "22-본편",
-      "toolCallCount": 50,
-      "agentsUsed": []
+      "toolCallCount": 111,
+      "agentsUsed": [
+        "research"
+      ]
     },
     {
       "sessionId": "738fb33c",
