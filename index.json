@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-24T07:48:40.932491+00:00",
+  "lastUpdated": "2026-10-24T07:49:05.760249+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "738fb33c",
       "date": "2026-10-24",
       "startTime": "2026-10-24T07:24:06.573000+00:00",
-      "durationSeconds": 270,
+      "durationSeconds": 1577,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 18,
+      "projectName": "20261024-ttang-vocal-tune",
+      "toolCallCount": 120,
       "agentsUsed": []
     },
     {
