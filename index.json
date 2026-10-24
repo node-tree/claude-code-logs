@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-24T07:25:29.869658+00:00",
+  "lastUpdated": "2026-10-24T07:25:36.443060+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "738fb33c",
+      "date": "2026-10-24",
+      "startTime": "2026-10-24T07:24:06.573000+00:00",
+      "durationSeconds": 80,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 9,
+      "agentsUsed": []
+    },
     {
       "sessionId": "6c5c87f6",
       "date": "2026-10-24",
@@ -3298,16 +3308,6 @@
         "evaluator",
         "generative-visual"
       ]
-    },
-    {
-      "sessionId": "0fefe116",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T04:49:50.017000+00:00",
-      "durationSeconds": 561,
-      "modelTier": "opus",
-      "projectName": "_workspace",
-      "toolCallCount": 32,
-      "agentsUsed": []
     }
   ]
 }
