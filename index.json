@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-24T11:08:02.907897+00:00",
+  "lastUpdated": "2026-10-24T11:08:43.361509+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "738fb33c",
       "date": "2026-10-24",
       "startTime": "2026-10-24T07:24:06.573000+00:00",
-      "durationSeconds": 10628,
+      "durationSeconds": 11306,
       "modelTier": "opus",
-      "projectName": "tune_r6",
-      "toolCallCount": 458,
+      "projectName": "ttang-pungmul-mr",
+      "toolCallCount": 492,
       "agentsUsed": [
         "research"
       ]
