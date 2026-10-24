@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T10:18:33.114640+00:00",
+  "lastUpdated": "2026-10-24T10:21:39.943572+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -38,10 +38,10 @@
       "sessionId": "fbd7b83f",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:15:23.214000+00:00",
-      "durationSeconds": 13789,
+      "durationSeconds": 13989,
       "modelTier": "opus",
-      "projectName": "projects",
-      "toolCallCount": 444,
+      "projectName": "hangang-sonyeon",
+      "toolCallCount": 453,
       "agentsUsed": [
         "general-purpose",
         "generative-visual",
