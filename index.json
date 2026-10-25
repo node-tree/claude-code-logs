@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-25T01:39:15.803924+00:00",
+  "lastUpdated": "2026-10-25T01:44:26.839214+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "e87de494",
+      "date": "2026-10-25",
+      "startTime": "2026-10-25T01:27:43.737000+00:00",
+      "durationSeconds": 475,
+      "modelTier": "opus",
+      "projectName": "사진",
+      "toolCallCount": 16,
+      "agentsUsed": []
+    },
     {
       "sessionId": "92a0f243",
       "date": "2026-10-25",
@@ -3293,22 +3303,6 @@
       "projectName": "현장사진",
       "toolCallCount": 285,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "3ea3acf8",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T07:08:13.792000+00:00",
-      "durationSeconds": 13995,
-      "modelTier": "opus",
-      "projectName": "_workspace",
-      "toolCallCount": 205,
-      "agentsUsed": [
-        "doc-design",
-        "evaluator",
-        "grant-writer",
-        "research",
-        "visual-design"
-      ]
     }
   ]
 }
