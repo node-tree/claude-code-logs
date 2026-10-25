@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T02:09:55.533682+00:00",
+  "lastUpdated": "2026-10-25T02:10:24.343321+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -94,10 +94,10 @@
       "sessionId": "fbd7b83f",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:15:23.214000+00:00",
-      "durationSeconds": 38672,
+      "durationSeconds": 38701,
       "modelTier": "opus",
-      "projectName": "audit",
-      "toolCallCount": 982,
+      "projectName": "drone_r8",
+      "toolCallCount": 983,
       "agentsUsed": [
         "general-purpose",
         "generative-visual",
