@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-10-25T01:20:08.154768+00:00",
+  "lastUpdated": "2026-10-25T01:21:34.902276+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "92a0f243",
+      "date": "2026-10-25",
+      "startTime": "2026-10-25T01:02:47.996000+00:00",
+      "durationSeconds": 1379,
+      "modelTier": "opus",
+      "projectName": "20261025-ttang-mv-scenario",
+      "toolCallCount": 108,
+      "agentsUsed": [
+        "general-purpose",
+        "research"
+      ]
+    },
     {
       "sessionId": "237af27a",
       "date": "2026-10-24",
@@ -3294,22 +3307,6 @@
         "evaluator",
         "grant-writer",
         "research",
-        "visual-design"
-      ]
-    },
-    {
-      "sessionId": "31aa097c",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T06:08:01.794000+00:00",
-      "durationSeconds": 9622,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 188,
-      "agentsUsed": [
-        "doc-design",
-        "evaluator",
-        "grant-writer",
-        "nodetreehome-web",
         "visual-design"
       ]
     }

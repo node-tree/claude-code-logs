@@ -1,10 +1,10 @@
 {
-  "evaluator": {
-    "lastActive": "2026-10-24T11:45:09.807000+00:00",
-    "lastProject": "25-겹견본",
-    "sessionId": "23cb6fe9"
-  },
   "research": {
+    "lastActive": "2026-10-25T01:02:47.996000+00:00",
+    "lastProject": "20261025-ttang-mv-scenario",
+    "sessionId": "92a0f243"
+  },
+  "evaluator": {
     "lastActive": "2026-10-24T11:45:09.807000+00:00",
     "lastProject": "25-겹견본",
     "sessionId": "23cb6fe9"
@@ -53,10 +53,5 @@
     "lastActive": "2026-09-20T03:45:43.111000+00:00",
     "lastProject": "kanghyunjung",
     "sessionId": "696c5047"
-  },
-  "nodetreehome-web": {
-    "lastActive": "2026-09-18T06:08:01.794000+00:00",
-    "lastProject": "memory",
-    "sessionId": "31aa097c"
   }
 }
