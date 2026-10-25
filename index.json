@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T23:59:36.963399+00:00",
+  "lastUpdated": "2026-10-25T00:05:23.123777+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,10 +28,10 @@
       "sessionId": "738fb33c",
       "date": "2026-10-24",
       "startTime": "2026-10-24T07:24:06.573000+00:00",
-      "durationSeconds": 20837,
+      "durationSeconds": 21186,
       "modelTier": "opus",
-      "projectName": "craft",
-      "toolCallCount": 741,
+      "projectName": "20261024-ttang-vocal-tune",
+      "toolCallCount": 770,
       "agentsUsed": [
         "research"
       ]
