@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T00:05:23.123777+00:00",
+  "lastUpdated": "2026-10-25T00:26:44.585008+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,11 +16,12 @@
       "sessionId": "23cb6fe9",
       "date": "2026-10-24",
       "startTime": "2026-10-24T11:45:09.807000+00:00",
-      "durationSeconds": 4260,
+      "durationSeconds": 6918,
       "modelTier": "opus",
-      "projectName": "24-서사분석",
-      "toolCallCount": 123,
+      "projectName": "memory",
+      "toolCallCount": 219,
       "agentsUsed": [
+        "evaluator",
         "research"
       ]
     },
