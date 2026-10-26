@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-26T11:39:16.846436+00:00",
+  "lastUpdated": "2026-10-26T11:44:25.210147+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "be29154d",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T11:32:50.183000+00:00",
+      "durationSeconds": 810,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 62,
+      "agentsUsed": []
+    },
     {
       "sessionId": "85c60699",
       "date": "2026-10-26",
@@ -3299,16 +3309,6 @@
       "modelTier": "opus",
       "projectName": "ls-000-foundation",
       "toolCallCount": 65,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "23000508",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T09:14:41.899000+00:00",
-      "durationSeconds": 1023,
-      "modelTier": "opus",
-      "projectName": "_workspace",
-      "toolCallCount": 30,
       "agentsUsed": []
     }
   ]
