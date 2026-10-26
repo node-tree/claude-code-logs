@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T14:17:51.804999+00:00",
+  "lastUpdated": "2026-10-26T14:19:29.208645+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -11,6 +11,18 @@
       "projectName": "kanghyunjung",
       "toolCallCount": 8,
       "agentsUsed": []
+    },
+    {
+      "sessionId": "4da59078",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T14:05:14.454000+00:00",
+      "durationSeconds": 942,
+      "modelTier": "opus",
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 90,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "be29154d",
@@ -3295,19 +3307,6 @@
       "toolCallCount": 98,
       "agentsUsed": [
         "evaluator",
-        "visual-design"
-      ]
-    },
-    {
-      "sessionId": "ae49f487",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T11:41:37.616000+00:00",
-      "durationSeconds": 3032,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 105,
-      "agentsUsed": [
-        "doc-design",
         "visual-design"
       ]
     }
