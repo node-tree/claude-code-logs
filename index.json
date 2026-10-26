@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-26T12:13:41.943681+00:00",
+  "lastUpdated": "2026-10-26T12:14:27.781202+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "be29154d",
       "date": "2026-10-26",
       "startTime": "2026-10-26T11:32:50.183000+00:00",
-      "durationSeconds": 2633,
+      "durationSeconds": 2684,
       "modelTier": "opus",
-      "projectName": "subtitles-r2",
-      "toolCallCount": 105,
+      "projectName": "sessions",
+      "toolCallCount": 114,
       "agentsUsed": []
     },
     {
