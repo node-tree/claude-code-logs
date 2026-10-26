@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-26T14:05:56.572316+00:00",
+  "lastUpdated": "2026-10-26T14:17:51.804999+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "be3030f2",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T14:15:25.042000+00:00",
+      "durationSeconds": 140,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 8,
+      "agentsUsed": []
+    },
     {
       "sessionId": "be29154d",
       "date": "2026-10-26",
@@ -3300,16 +3310,6 @@
         "doc-design",
         "visual-design"
       ]
-    },
-    {
-      "sessionId": "92e42e21",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T10:37:24.825000+00:00",
-      "durationSeconds": 1459,
-      "modelTier": "opus",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 65,
-      "agentsUsed": []
     }
   ]
 }
