@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-25",
+  "lastUpdated": "2026-10-26",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "Codex Plugin for Claude Code",
-          "type": "plugin",
-          "desc": "Claude Code 안에서 /codex:review, /codex:adversarial-review, /codex:rescue로 OpenAI Codex에 리뷰와 작업을 위임하는 플러그인입니다.",
-          "reason": "evaluator가 lens: code 판정을 내릴 때 Claude와 다른 모델의 적대적 리뷰를 두 번째 의견으로 붙일 수 있습니다. 판정 결과가 REWORK로 갈리는 경계 사례에서 Codex 의견을 교차 확인하는 용도입니다.",
-          "trend": "hot",
-          "url": "https://github.com/openai/codex-plugin-cc"
-        },
-        {
-          "name": "Claude Code Action",
+          "name": "ccusage",
           "type": "tool",
-          "desc": "GitHub 이슈와 PR에서 Claude Code를 러너 위에 실행해 질문 응답과 코드 수정을 처리하는 공식 GitHub Action입니다.",
-          "reason": "nodetree.kr PR이 올라올 때 evaluator의 코드 검수를 CI에서 자동 실행해 PASS/REWORK 코멘트를 남기게 할 수 있습니다. 리드가 직접 검수하는 양을 줄이고 웹 산출물 검수 기록을 PR에 남깁니다.",
-          "trend": "stable",
-          "url": "https://github.com/anthropics/claude-code-action"
+          "desc": "Claude Code, Codex 등 코딩 에이전트 CLI의 로컬 사용 기록에서 토큰 사용량과 비용을 집계하는 CLI입니다.",
+          "reason": "evaluator가 lens별 검수를 돌릴 때 Claude와 Codex가 각각 쓴 토큰과 비용을 기록으로 남길 수 있습니다. 리드가 직접 수행할 일과 위임할 일을 나누는 기준을 실제 사용량으로 잡는 데 씁니다.",
+          "trend": "rising",
+          "url": "https://github.com/ryoppippi/ccusage"
         },
         {
-          "name": "SonarQube MCP Server",
-          "type": "mcp",
-          "desc": "SonarQube 서버나 클라우드와 연결해 코드 품질·보안 이슈를 조회하고 코드 조각을 분석하는 MCP 서버입니다.",
-          "reason": "evaluator의 lens: code 판정에서 JavaScript·TypeScript·Python 산출물의 정적 분석 수치를 근거로 붙일 수 있습니다. 시크릿 노출과 보안 이슈를 사람이 읽기 전에 걸러냅니다.",
+          "name": "Claude Code Router",
+          "type": "tool",
+          "desc": "코딩 에이전트와 API 클라이언트가 원하는 모델 제공자를 쓰도록 라우팅과 장애 대체를 관리하는 로컬 게이트웨이입니다.",
+          "reason": "evaluator의 code 렌즈 검수처럼 가벼운 판정은 저렴한 모델로, 어려운 판정은 상위 모델로 보내는 구성을 시험할 수 있습니다. 모델 한도가 걸렸을 때 검수 작업이 멈추지 않게 하는 용도입니다.",
           "trend": "rising",
-          "url": "https://github.com/SonarSource/sonarqube-mcp-server"
+          "url": "https://github.com/musistudio/claude-code-router"
+        },
+        {
+          "name": "Repomix",
+          "type": "tool",
+          "desc": "저장소 전체를 AI가 읽기 좋은 단일 파일로 묶어 주는 오픈소스 도구입니다.",
+          "reason": "evaluator가 nodetree.kr 같은 웹 산출물의 코드 검수를 Codex에게 위임할 때 저장소 맥락을 한 파일로 전달할 수 있습니다. 두 번째 의견을 받을 때 파일 목록을 일일이 지정하는 수고를 줄입니다.",
+          "trend": "stable",
+          "url": "https://github.com/yamadashy/repomix"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "DaVinci Resolve MCP",
-          "type": "mcp",
-          "desc": "DaVinci Resolve Studio의 공식 스크립팅 API로 편집, 미디어 풀, 렌더, 색보정, Fairlight 오디오를 제어하는 MCP 서버입니다.",
-          "reason": "film-production이 Final Cut Pro로 편집한 퍼포먼스 필름의 색보정 단계를 Resolve에서 자동화할 수 있습니다. 렌더 프리셋과 마스터링 출력을 영화제 출품 규격별로 반복 실행하는 데 씁니다.",
-          "trend": "rising",
-          "url": "https://github.com/samuelgursky/davinci-resolve-mcp"
+          "name": "Motion Canvas",
+          "type": "tool",
+          "desc": "제너레이터 기반 TypeScript 코드로 벡터 애니메이션을 만들고 실시간 미리보기 편집기에서 확인하는 라이브러리입니다.",
+          "reason": "generative-visual이 Hyperframes 같은 프로그래밍 영상 작업에서 도식형 모션 그래픽을 코드로 만들 때 쓸 수 있습니다. 코드로 정의하므로 Claude Code가 수정과 재렌더를 반복하기 쉽습니다.",
+          "trend": "stable",
+          "url": "https://github.com/motion-canvas/motion-canvas"
         },
         {
-          "name": "Glicol",
+          "name": "Csound",
           "type": "tool",
-          "desc": "Rust로 만든 그래프 기반 라이브 코딩 언어이자 오디오 DSP 라이브러리로 브라우저, VST, Bela 보드에서 동작합니다.",
-          "reason": "sound-art가 SuperCollider 없이 브라우저에서 바로 돌아가는 사운드 스케치와 웹 퍼포먼스 음향을 만들 때 쓸 수 있습니다. Bela 보드로 옮기면 임베디드 설치 작업의 사운드에도 이어집니다.",
+          "desc": "사운드와 음악 연산을 위한 오래된 컴퓨터 음악 시스템으로 코어 라이브러리와 CLI를 제공합니다.",
+          "reason": "sound-art가 SuperCollider와 다른 방식의 스펙트럼·그래뉼러 합성을 텍스트 스코어로 시험할 때 쓸 수 있습니다. 렌더 결과를 파일로 뽑아 film-production의 믹싱 단계로 넘기기에도 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/chaosprint/glicol"
+          "url": "https://github.com/csound/csound"
         },
         {
-          "name": "ESPHome",
+          "name": "VCV Rack",
           "type": "tool",
-          "desc": "YAML 설정 파일로 ESP32 등 장치의 펌웨어를 구성하고 원격으로 관리하는 오픈소스 시스템입니다.",
-          "reason": "media-art-pipeline이 센서 노드 펌웨어를 코드 대신 설정 파일로 생성해 Claude Code가 반복 수정하게 할 수 있습니다. 설치작업마다 ESP32 보드가 늘어날 때 OSC 연동 전 단계의 펌웨어 관리를 줄여 줍니다.",
+          "desc": "모듈러 신시사이저를 소프트웨어로 구현한 가상 유로랙 스튜디오입니다.",
+          "reason": "sound-art가 Eurorack이나 Daisy 하드웨어 패치를 구성하기 전에 모듈 조합을 화면에서 먼저 검증할 수 있습니다. 설치작업용 사운드 시스템의 신호 흐름을 미리 설계하는 데 쓰입니다.",
           "trend": "stable",
-          "url": "https://github.com/esphome/esphome"
+          "url": "https://github.com/VCVRack/Rack"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Nano Banana Extension for Gemini CLI",
+          "name": "tldraw",
           "type": "tool",
-          "desc": "Gemini CLI에 Nano Banana 모델 기반의 이미지 생성, 편집, 복원 명령을 추가하는 확장입니다.",
-          "reason": "visual-design이 포스터 키비주얼 시안을 만들고 기존 이미지의 배경을 고치는 작업을 CLI에서 반복 실행할 수 있습니다. SNS 이미지의 변형 시안을 여러 장 빠르게 뽑는 데 맞습니다.",
-          "trend": "rising",
-          "url": "https://github.com/gemini-cli-extensions/nanobanana"
-        },
-        {
-          "name": "ComfyUI",
-          "type": "tool",
-          "desc": "노드 그래프로 이미지·영상·오디오·3D 확산 모델 워크플로를 구성하고 로컬 API로 호출할 수 있는 도구입니다.",
-          "reason": "visual-design이 comfy-cloud에 올리기 전에 로컬 GPU에서 키비주얼 워크플로를 시험하고 API로 일괄 생성할 수 있습니다. 전시 그래픽의 스타일 일관성을 워크플로 파일로 고정하는 데 씁니다.",
-          "trend": "hot",
-          "url": "https://github.com/Comfy-Org/ComfyUI"
-        },
-        {
-          "name": "rive-wasm",
-          "type": "tool",
-          "desc": "Rive 애니메이션을 WebAssembly 기반으로 JavaScript와 TypeScript에서 불러와 제어하는 런타임입니다.",
-          "reason": "pr-content와 visual-design이 만든 공연 홍보 그래픽을 상호작용형 모션으로 nodetree.kr 페이지에 올릴 때 쓸 수 있습니다. 정적 포스터를 움직이는 SNS 소재로 확장하는 데 맞습니다.",
+          "desc": "React로 무한 캔버스 앱을 만들 수 있는 오픈소스 SDK입니다.",
+          "reason": "visual-design이 포스터 구성 시안이나 전시 평면 스케치를 팀원과 함께 수정하는 웹 도구를 nodetree.kr에 붙일 수 있습니다. Figma에 올리기 전 러프 레이아웃 단계의 협업에 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/rive-app/rive-wasm"
+          "url": "https://github.com/tldraw/tldraw"
+        },
+        {
+          "name": "Upscayl",
+          "type": "tool",
+          "desc": "Real-ESRGAN과 Vulkan을 사용하는 무료 오픈소스 AI 이미지 업스케일러입니다.",
+          "reason": "visual-design이 AI로 생성한 키비주얼을 인쇄용 포스터 해상도로 키울 때 쓸 수 있습니다. comfy-cloud 결과물의 해상도 부족을 인쇄 단계 전에 보완합니다.",
+          "trend": "stable",
+          "url": "https://github.com/upscayl/upscayl"
+        },
+        {
+          "name": "Mixpost",
+          "type": "tool",
+          "desc": "PHP/Laravel로 만든 자체 호스팅 SNS 예약·관리 도구로 Buffer의 오픈소스 대안입니다.",
+          "reason": "pr-content가 전시 홍보 글을 여러 SNS 계정에 일정에 맞춰 예약 게시하는 흐름을 직접 운영할 수 있습니다. 홍보 문구와 이미지를 한곳에서 관리해 행사 전 게시 일정을 놓치지 않게 합니다.",
+          "trend": "stable",
+          "url": "https://github.com/inovector/mixpost"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "H2Orestart",
-          "type": "tool",
-          "desc": "LibreOffice에서 한컴오피스 문서를 읽어 ODT나 PDF로 변환하게 하는 GPL-3.0 확장입니다.",
-          "reason": "doc-design이 HWPX로 만든 공문과 지원서를 한글 프로그램 없이 PDF로 변환해 레이아웃을 미리 확인할 수 있습니다. 리눅스 환경의 Claude Code에서 HWPX 결과물 검수 렌더링에 씁니다.",
-          "trend": "rising",
-          "url": "https://github.com/ebandal/H2Orestart"
+          "name": "Templater",
+          "type": "plugin",
+          "desc": "Obsidian에서 변수와 JavaScript를 실행해 노트를 생성하는 템플릿 언어 플러그인입니다.",
+          "reason": "grant-writer가 지원서 초안과 작가노트의 공통 구조를 템플릿으로 만들어 공모마다 반복 생성할 수 있습니다. project-planner의 일정 노트에도 날짜와 역할 항목을 자동으로 채웁니다.",
+          "trend": "stable",
+          "url": "https://github.com/SilentVoid13/Templater"
         },
         {
-          "name": "Google Calendar MCP",
-          "type": "mcp",
-          "desc": "Google Calendar의 일정 관리, 빈 시간 확인, 여러 계정 연결을 처리하는 오픈소스 MCP 서버입니다.",
-          "reason": "project-planner가 공모 마감과 전시 설치 일정을 캘린더에 등록하고 겹치는 일정을 조회할 수 있습니다. Notion 일정표와 캘린더를 한 번에 맞추는 데 맞습니다.",
+          "name": "Obsidian Git",
+          "type": "plugin",
+          "desc": "Obsidian 보관함에 Git 버전 관리와 자동 커밋·동기화를 추가하는 커뮤니티 플러그인입니다.",
+          "reason": "grant-writer와 doc-design이 지원서 원고를 고칠 때마다 이력을 남겨 이전 문안으로 되돌릴 수 있습니다. Claude Code가 보관함을 수정한 변경 내역도 검토하기 쉬워집니다.",
           "trend": "stable",
-          "url": "https://github.com/nspady/google-calendar-mcp"
+          "url": "https://github.com/Vinzent03/obsidian-git"
         },
         {
-          "name": "Taskwarrior",
-          "type": "tool",
-          "desc": "명령줄에서 작업과 의존 관계, 기한, 우선순위를 관리하는 MIT 라이선스 도구입니다.",
-          "reason": "project-planner가 grant-writer의 지원서 작성 단계와 마감 의존 관계를 명령줄 작업으로 쪼개 Claude Code가 갱신하게 할 수 있습니다. 여러 공모를 동시에 진행할 때 남은 작업을 빠르게 뽑는 데 씁니다.",
+          "name": "Obsidian Kanban",
+          "type": "plugin",
+          "desc": "Markdown 파일을 기반으로 Obsidian에서 칸반 보드를 만드는 플러그인입니다.",
+          "reason": "project-planner가 공모 마감과 제작 단계를 칸반 보드로 관리하고 Claude Code가 마크다운으로 직접 갱신할 수 있습니다. 유지보수자를 구하는 중이라는 안내가 있어 장기 의존은 주의가 필요합니다.",
           "trend": "stable",
-          "url": "https://github.com/GothenburgBitFactory/taskwarrior"
+          "url": "https://github.com/mgmeyers/obsidian-kanban"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "korean-law-mcp",
+          "name": "Hugging Face MCP Server",
           "type": "mcp",
-          "desc": "법제처 Open API를 통해 법령, 판례, 자치법규를 검색하고 인용을 검증하는 MCP 서버입니다.",
-          "reason": "research의 공모 레이더가 공고문에서 인용한 법령 조항과 보조금 관련 규정을 바로 확인할 수 있습니다. 지원 자격과 정산 규정을 해석할 때 근거 조문을 붙이는 데 씁니다.",
+          "desc": "Hugging Face Hub와 Gradio AI 앱을 LLM에 연결하는 공식 MCP 서버입니다.",
+          "reason": "research가 오디오·비주얼 생성 모델과 논문을 조사할 때 Hub의 모델과 데이터셋을 바로 검색할 수 있습니다. 미디어아트에 쓸 새 모델을 비교하는 기술 리서치에 맞습니다.",
           "trend": "rising",
-          "url": "https://github.com/chrisryugj/korean-law-mcp"
+          "url": "https://github.com/huggingface/hf-mcp-server"
         },
         {
-          "name": "Semantic Scholar MCP Server",
-          "type": "mcp",
-          "desc": "Semantic Scholar에서 논문, 저자, 인용 데이터를 검색하고 가져오는 FastMCP 서버입니다.",
-          "reason": "research의 심층 리서치가 미디어아트와 사운드아트 이론 논문의 인용 관계를 따라가며 선행연구를 정리할 수 있습니다. 작가노트나 제안서에 넣을 이론 근거의 출처를 확인하는 데 맞습니다.",
+          "name": "Smart Connections",
+          "type": "plugin",
+          "desc": "로컬 임베딩 모델로 작성 중인 노트와 의미상 가까운 노트를 찾아 주는 Obsidian 플러그인입니다.",
+          "reason": "research가 옵시디안에 쌓은 작가·이론 노트에서 새 프로젝트와 관련된 자료를 의미 기반으로 찾을 수 있습니다. API 키 없이 로컬에서 돌아가 기존 자료실에 바로 적용됩니다.",
           "trend": "stable",
-          "url": "https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server"
+          "url": "https://github.com/brianpetro/obsidian-smart-connections"
         },
         {
-          "name": "Wikipedia MCP",
-          "type": "mcp",
-          "desc": "Wikipedia의 검색 결과, 문서 본문, 요약, 좌표를 LLM에 제공하는 MCP 서버로 언어판을 선택할 수 있습니다.",
-          "reason": "research가 작가와 작품, 부여 지역 조사에서 한국어판과 영어판 문서를 비교해 기초 사실을 빠르게 모을 수 있습니다. 옵시디안 정리 전 초벌 조사 단계에 맞습니다.",
+          "name": "Vane",
+          "type": "tool",
+          "desc": "로컬 또는 클라우드 LLM과 웹 검색을 결합해 출처가 달린 답을 내는 자체 호스팅 답변 엔진입니다.",
+          "reason": "research의 공모 레이더 모드에서 공모·레지던시 정보를 출처와 함께 빠르게 훑는 보조 검색으로 쓸 수 있습니다. 확인한 출처 링크는 이후 매칭 전략 노트에 그대로 옮깁니다.",
           "trend": "stable",
-          "url": "https://github.com/Rudra-ravi/wikipedia-mcp"
+          "url": "https://github.com/ItzCrazyKns/Perplexica"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Supabase MCP",
+          "name": "Cloudflare MCP Servers",
           "type": "mcp",
-          "desc": "Supabase 프로젝트의 테이블 관리, 설정 조회, 데이터 질의를 AI 어시스턴트에서 수행하는 MCP 서버입니다.",
-          "reason": "nodetreehome-web이 실시간 시각화에 쓰는 데이터와 방문 기록을 Vercel 배포 환경에서 DB로 저장할 때 스키마 작업을 맡길 수 있습니다. 모니터 페이지의 데이터 저장소를 코드 없이 점검하는 데 씁니다.",
-          "trend": "hot",
-          "url": "https://github.com/supabase-community/supabase-mcp"
-        },
-        {
-          "name": "Resend MCP",
-          "type": "mcp",
-          "desc": "Resend 플랫폼으로 이메일 발송과 조회, 연락처, 캠페인, 도메인을 관리하는 MCP 서버입니다.",
-          "reason": "nodetreehome-web의 문의 폼과 뉴스레터 발송을 Vercel 서버리스 함수와 연결해 Claude Code가 테스트 발송까지 확인할 수 있습니다. 전시 소식 메일 작성과 발송을 한 흐름으로 묶습니다.",
+          "desc": "Cloudflare 서비스를 자연어로 다루게 하는 도메인별 MCP 서버 모음입니다.",
+          "reason": "nodetreehome-web이 Vercel 배포 외에 DNS와 캐시 설정을 점검할 때 Claude Code가 직접 조회할 수 있습니다. nodetree.kr 도메인 관리 작업을 대화로 처리하는 용도입니다.",
           "trend": "rising",
-          "url": "https://github.com/resend/mcp-send-email"
+          "url": "https://github.com/cloudflare/mcp-server-cloudflare"
         },
         {
-          "name": "Socket.IO",
+          "name": "Next.js DevTools MCP",
+          "type": "mcp",
+          "desc": "실행 중인 Next.js 16 이상 개발 서버의 런타임 엔드포인트에 코딩 에이전트를 연결하는 경량 MCP 서버입니다.",
+          "reason": "nodetreehome-web이 Next.js로 전환하거나 별도 프로젝트를 만들 때 오류와 라우트 상태를 에이전트가 직접 읽을 수 있습니다. 현재 React 단일 앱에는 바로 쓰이지 않으므로 도입 시점은 따로 판단해야 합니다.",
+          "trend": "rising",
+          "url": "https://github.com/vercel/next-devtools-mcp"
+        },
+        {
+          "name": "shadcn/ui",
           "type": "tool",
-          "desc": "지연이 낮은 양방향 통신을 모든 플랫폼에서 제공하는 MIT 라이선스 라이브러리입니다.",
-          "reason": "nodetreehome-web의 실시간 시각화가 관객 입력이나 센서 값을 여러 브라우저에 동시에 전달할 때 쓸 수 있습니다. 설치작품의 웹 모니터링 화면을 구현하는 데 맞습니다.",
+          "desc": "복사해서 프로젝트에 넣고 수정하는 접근성 높은 UI 컴포넌트 모음입니다.",
+          "reason": "nodetreehome-web이 nodetree.kr의 관리 화면과 실시간 시각화 대시보드 컴포넌트를 빠르게 구성할 수 있습니다. 코드가 프로젝트 안에 들어오므로 Claude Code가 직접 수정하기 쉽습니다.",
           "trend": "stable",
-          "url": "https://github.com/socketio/socket.io"
+          "url": "https://github.com/shadcn-ui/ui"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "Odoo",
+          "name": "GnuCash",
           "type": "tool",
-          "desc": "청구와 회계 앱을 포함한 웹 기반 오픈소스 비즈니스 앱 모음입니다.",
-          "reason": "saengsanso-accounting이 ㈜생산소의 매출·매입 전표와 부가세 자료를 한 시스템에 모아 Claude Code로 점검할 수 있습니다. 법인카드 경비와 보조사업 집행 내역을 사업별로 구분하는 데 맞습니다.",
+          "desc": "개인과 소규모 사업체를 위한 복식부기 회계 프로그램입니다.",
+          "reason": "nodetree-accounting이 고유번호단체의 보조사업 집행 내역을 계정과목별로 정리하는 보조 장부로 쓸 수 있습니다. e나라도움 정산 전에 내부 대조용 원장을 만드는 데 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/odoo/odoo"
+          "url": "https://github.com/gnucash/gnucash"
         },
         {
-          "name": "Kimai",
+          "name": "InvoiceShelf",
           "type": "tool",
-          "desc": "JSON API를 제공하는 오픈소스 시간 기록 도구입니다.",
-          "reason": "nodetree-accounting이 보조사업 참여 인력의 투입 시간을 기록해 인건비 정산 근거를 만들 수 있습니다. 예술인 인건비 증빙에 필요한 작업 시간 자료를 API로 뽑는 데 씁니다.",
+          "desc": "프리랜서와 소규모 사업체가 청구서를 발행하고 수금과 비용을 관리하는 자체 호스팅 웹 앱입니다.",
+          "reason": "saengsanso-accounting이 ㈜생산소의 거래처별 청구와 입금 현황을 직접 관리할 수 있습니다. 기본 3.x 브랜치는 알파 단계라 실데이터 투입 전에 안정 버전을 확인해야 합니다.",
           "trend": "stable",
-          "url": "https://github.com/kimai/kimai"
+          "url": "https://github.com/InvoiceShelf/InvoiceShelf"
         },
         {
-          "name": "Ledger",
+          "name": "Sure",
           "type": "tool",
-          "desc": "계정과 거래를 담은 텍스트 파일로 보고서를 만드는 명령줄 복식부기 도구입니다.",
-          "reason": "nodetree-accounting이 고유번호단체의 일반회계를 텍스트로 관리하고 Git 이력으로 변경을 추적할 수 있습니다. e나라도움 정산용 집행 내역을 사업별 보고서로 뽑는 데 맞습니다.",
+          "desc": "폐기된 Maybe Finance를 이어받아 커뮤니티가 유지하는 자체 호스팅 개인 재무 앱입니다.",
+          "reason": "nodetree-accounting이 계좌 잔액과 지출 흐름을 한 화면에서 확인하는 보조 도구로 시험할 수 있습니다. 법인 회계 기준과는 다르므로 정산 증빙이 아니라 현금 흐름 참고용으로만 씁니다.",
           "trend": "stable",
-          "url": "https://github.com/ledger/ledger"
+          "url": "https://github.com/we-promise/sure"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-10-26",
+      "names": [
+        "ccusage",
+        "Claude Code Router",
+        "Repomix",
+        "Motion Canvas",
+        "Csound",
+        "VCV Rack",
+        "tldraw",
+        "Upscayl",
+        "Mixpost",
+        "Templater",
+        "Obsidian Git",
+        "Obsidian Kanban",
+        "Hugging Face MCP Server",
+        "Smart Connections",
+        "Vane",
+        "Cloudflare MCP Servers",
+        "Next.js DevTools MCP",
+        "shadcn/ui",
+        "GnuCash",
+        "InvoiceShelf",
+        "Sure"
+      ]
+    },
     {
       "date": "2026-10-25",
       "names": [
