@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-26T06:54:45.068281+00:00",
+  "lastUpdated": "2026-10-26T06:55:09.157325+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0a75b1ff",
       "date": "2026-10-26",
       "startTime": "2026-10-26T06:33:32.166000+00:00",
-      "durationSeconds": 1330,
+      "durationSeconds": 1420,
       "modelTier": "opus",
-      "projectName": "고향없는고향",
-      "toolCallCount": 90,
+      "projectName": "abysshin",
+      "toolCallCount": 92,
       "agentsUsed": [
         "general-purpose"
       ]
