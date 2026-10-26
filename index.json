@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T12:55:53.848092+00:00",
+  "lastUpdated": "2026-10-26T12:58:12.973463+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "0a75b1ff",
       "date": "2026-10-26",
       "startTime": "2026-10-26T06:33:32.166000+00:00",
-      "durationSeconds": 10904,
+      "durationSeconds": 11044,
       "modelTier": "opus",
-      "projectName": "motion_r2",
-      "toolCallCount": 243,
+      "projectName": "abysshin-av-reel",
+      "toolCallCount": 247,
       "agentsUsed": [
         "general-purpose"
       ]
