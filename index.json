@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-26T06:52:58.016044+00:00",
+  "lastUpdated": "2026-10-26T06:53:36.739006+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0a75b1ff",
       "date": "2026-10-26",
       "startTime": "2026-10-26T06:33:32.166000+00:00",
-      "durationSeconds": 1293,
+      "durationSeconds": 1330,
       "modelTier": "opus",
-      "projectName": "_자료",
-      "toolCallCount": 87,
+      "projectName": "고향없는고향",
+      "toolCallCount": 90,
       "agentsUsed": [
         "general-purpose"
       ]
