@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-26T08:24:07.256242+00:00",
+  "lastUpdated": "2026-10-26T08:27:46.406843+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "85c60699",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T08:27:00.336000+00:00",
+      "durationSeconds": 37,
+      "modelTier": "opus",
+      "projectName": "사업매칭",
+      "toolCallCount": 5,
+      "agentsUsed": []
+    },
     {
       "sessionId": "0a75b1ff",
       "date": "2026-10-26",
@@ -3299,16 +3309,6 @@
       "modelTier": "opus",
       "projectName": "_workspace",
       "toolCallCount": 30,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e1390d72",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T09:05:44.048000+00:00",
-      "durationSeconds": 638,
-      "modelTier": "opus",
-      "projectName": "위성악보시리즈-역류",
-      "toolCallCount": 27,
       "agentsUsed": []
     }
   ]
