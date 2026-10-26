@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-26T00:51:06.536663+00:00",
+  "lastUpdated": "2026-10-26T05:35:17.201558+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "defe3c95",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T05:34:58.695000+00:00",
+      "durationSeconds": 15,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 2,
+      "agentsUsed": []
+    },
     {
       "sessionId": "9a1357b0",
       "date": "2026-10-25",
@@ -3294,16 +3304,6 @@
       "modelTier": "opus",
       "projectName": "08_운영",
       "toolCallCount": 53,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "a6f19274",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T08:03:48.989000+00:00",
-      "durationSeconds": 3103,
-      "modelTier": "opus",
-      "projectName": "after",
-      "toolCallCount": 140,
       "agentsUsed": []
     }
   ]
