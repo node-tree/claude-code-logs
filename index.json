@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-26T14:28:39.889088+00:00",
+  "lastUpdated": "2026-10-26T22:04:23.771783+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "89695fdf",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T22:03:11.863000+00:00",
+      "durationSeconds": 67,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 33,
+      "agentsUsed": []
+    },
     {
       "sessionId": "be3030f2",
       "date": "2026-10-26",
@@ -3296,19 +3306,6 @@
       "projectName": "v2",
       "toolCallCount": 196,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "b555fbf4",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T12:34:44.146000+00:00",
-      "durationSeconds": 5389,
-      "modelTier": "opus",
-      "projectName": "v2",
-      "toolCallCount": 98,
-      "agentsUsed": [
-        "evaluator",
-        "visual-design"
-      ]
     }
   ]
 }
