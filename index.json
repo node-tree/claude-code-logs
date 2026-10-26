@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-26T06:48:39.686244+00:00",
+  "lastUpdated": "2026-10-26T06:52:56.910139+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0a75b1ff",
+      "date": "2026-10-26",
+      "startTime": "2026-10-26T06:33:32.166000+00:00",
+      "durationSeconds": 1293,
+      "modelTier": "opus",
+      "projectName": "_자료",
+      "toolCallCount": 87,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "5f8b4bc6",
       "date": "2026-10-26",
@@ -3296,16 +3308,6 @@
       "modelTier": "opus",
       "projectName": "위성악보시리즈-역류",
       "toolCallCount": 27,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "8cc17a62",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T08:31:31.162000+00:00",
-      "durationSeconds": 2764,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 158,
       "agentsUsed": []
     }
   ]
