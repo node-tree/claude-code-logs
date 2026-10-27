@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-27T22:04:09.919196+00:00",
+  "lastUpdated": "2026-10-27T23:49:34.656759+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f4bdc111",
+      "date": "2026-10-27",
+      "startTime": "2026-10-27T23:47:06.139000+00:00",
+      "durationSeconds": 153,
+      "modelTier": "opus",
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 25,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "07973ae7",
       "date": "2026-10-27",
@@ -3297,16 +3309,6 @@
       "modelTier": "opus",
       "projectName": "v2b",
       "toolCallCount": 80,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "2e12afef",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T13:52:59.549000+00:00",
-      "durationSeconds": 1402,
-      "modelTier": "opus",
-      "projectName": "v2",
-      "toolCallCount": 83,
       "agentsUsed": []
     }
   ]
