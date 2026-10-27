@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-27T15:31:04.811138+00:00",
+  "lastUpdated": "2026-10-27T22:04:09.919196+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "07973ae7",
+      "date": "2026-10-27",
+      "startTime": "2026-10-27T22:03:10.188000+00:00",
+      "durationSeconds": 54,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 34,
+      "agentsUsed": []
+    },
     {
       "sessionId": "0f104803",
       "date": "2026-10-27",
@@ -3297,16 +3307,6 @@
       "modelTier": "opus",
       "projectName": "v2",
       "toolCallCount": 83,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "8dddefe0",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T12:57:27.957000+00:00",
-      "durationSeconds": 4210,
-      "modelTier": "opus",
-      "projectName": "v2b",
-      "toolCallCount": 128,
       "agentsUsed": []
     }
   ]
