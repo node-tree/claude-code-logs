@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T08:07:18.230653+00:00",
+  "lastUpdated": "2026-10-27T14:41:40.346839+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -70,10 +70,10 @@
       "sessionId": "5f8b4bc6",
       "date": "2026-10-26",
       "startTime": "2026-10-26T06:15:46.105000+00:00",
-      "durationSeconds": 10673,
+      "durationSeconds": 11498,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 222,
+      "projectName": "26-본편r5",
+      "toolCallCount": 224,
       "agentsUsed": []
     },
     {
