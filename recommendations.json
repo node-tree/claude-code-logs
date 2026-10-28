@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-10-28",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "Aider",
+          "name": "Claude Squad",
           "type": "tool",
-          "desc": "터미널에서 LLM과 코드베이스를 함께 수정하는 오픈소스 AI 페어 프로그래밍 CLI입니다.",
-          "reason": "evaluator가 code 렌즈 검수에서 Claude, Codex와 다른 모델의 세 번째 의견이 필요할 때 비대화형으로 호출할 수 있습니다. 서로 다른 도구의 판정을 비교해 REWORK 여부를 가르는 근거로 씁니다.",
+          "desc": "Claude Code, Codex, Gemini 등 여러 에이전트를 각각 별도 git worktree와 tmux 세션에서 돌리는 터미널 앱입니다.",
+          "reason": "evaluator가 코드·웹 산출물을 렌즈별로 나눠 검수할 때 에이전트마다 격리된 작업 트리에서 실행해 서로의 파일을 건드리지 않게 할 수 있습니다. 리드가 위임한 병렬 검수 결과를 한 화면에서 비교하는 용도입니다.",
+          "trend": "rising",
+          "url": "https://github.com/smtg-ai/claude-squad"
+        },
+        {
+          "name": "Gemini CLI",
+          "type": "tool",
+          "desc": "터미널에서 Gemini를 쓰는 오픈소스 에이전트로 -p 옵션과 JSON 출력으로 스크립트에서 호출할 수 있습니다.",
+          "reason": "evaluator가 lens: code 판정에서 Claude와 Codex 외의 모델 의견을 비대화형으로 받아 PASS/REWORK 근거를 교차 확인할 때 씁니다. JSON 출력이라 판정 결과를 파이프라인에서 바로 집계할 수 있습니다.",
           "trend": "stable",
-          "url": "https://github.com/Aider-AI/aider"
+          "url": "https://github.com/google-gemini/gemini-cli"
         },
         {
-          "name": "goose",
-          "type": "agent",
-          "desc": "내 컴퓨터에서 실행되며 데스크톱·CLI·API로 코딩, 리서치, 자동화를 수행하는 범용 AI 에이전트입니다.",
-          "reason": "리드가 직접 수행하지 않고 위임할 하위 작업을 Claude Code나 Codex와 별도의 에이전트로 시험할 때 쓸 수 있습니다. 파이프라인 검수처럼 반복되는 판정 작업의 대체 실행기로 비교해 볼 수 있습니다.",
+          "name": "Pydantic AI",
+          "type": "tool",
+          "desc": "타입이 지정된 파이썬 에이전트 프레임워크로 에이전트 출력과 도구 호출 경로를 채점하는 pydantic-evals 패키지를 포함합니다.",
+          "reason": "evaluator가 미디어아트·문서 산출물 판정 기준을 데이터셋으로 만들어 판정 일관성을 반복 측정할 때 쓸 수 있습니다. 같은 산출물에 대한 REWORK 판정이 흔들리는지 확인하는 회귀 테스트에 맞습니다.",
           "trend": "rising",
-          "url": "https://github.com/block/goose"
-        },
-        {
-          "name": "OpenHands",
-          "type": "agent",
-          "desc": "로컬·원격·클라우드 백엔드에서 코딩 에이전트와 자동화를 실행하고 관리하는 셀프호스팅 제어 도구입니다.",
-          "reason": "evaluator가 웹·파이프라인 산출물을 여러 Generator 에이전트에 나눠 돌릴 때 실행 현황을 한곳에서 볼 수 있습니다. 샌드박스에서 돌려 검수 중 본 저장소가 오염되는 일을 막는 용도로 시험할 만합니다.",
-          "trend": "rising",
-          "url": "https://github.com/OpenHands/OpenHands"
+          "url": "https://github.com/pydantic/pydantic-ai"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "p5.js",
-          "type": "tool",
-          "desc": "예술가와 디자이너를 위한 Processing 계열의 JavaScript 크리에이티브 코딩 라이브러리입니다.",
-          "reason": "generative-visual의 p5.js 알고리즘 아트 작업에서 Claude Code가 스케치를 직접 생성하고 수정할 때 기준 라이브러리로 씁니다. Three.js로 옮기기 전 형태 실험을 빠르게 반복하는 용도입니다.",
-          "trend": "stable",
-          "url": "https://github.com/processing/p5.js"
+          "name": "osc-bridge",
+          "type": "mcp",
+          "desc": "하드웨어 신스와 DAW를 이름 있는 OSC 인터페이스로 묶고 Claude가 구동하는 MCP 서버를 포함한 오픈소스 도구입니다.",
+          "reason": "media-art-pipeline이 OSC 라우팅으로 Ableton과 외부 장비를 센서값에 연결할 때 장치별 JSON 드라이버로 매핑을 관리할 수 있습니다. sound-art가 Eurorack이나 MIDI 장비를 에이전트로 제어하는 시험에도 맞습니다. AGPL 라이선스에 유의해야 합니다.",
+          "trend": "rising",
+          "url": "https://github.com/roomi-fields/osc-bridge"
         },
         {
-          "name": "Mozzi",
+          "name": "BespokeSynth",
           "type": "tool",
-          "desc": "Arduino 계열 마이크로컨트롤러에서 소리 합성을 하는 오픈소스 라이브러리로 ESP32도 지원합니다.",
-          "reason": "media-art-pipeline이 ESP32와 센서로 만드는 설치 작업에서 PC 없이 보드 자체에서 소리를 내는 구성에 쓸 수 있습니다. 센서값을 합성 파라미터에 바로 매핑하는 소니피케이션 프로토타입에 맞습니다.",
+          "desc": "시각적 패치와 파이썬 스크립팅을 지원하는 오픈소스 소프트웨어 모듈러 신스입니다.",
+          "reason": "sound-art가 SuperCollider 외에 모듈러 구조를 빠르게 스케치하고 라이브 연주용 패치를 만들 때 쓸 수 있습니다. 센서에서 온 OSC 값을 패치에 연결하는 소니피케이션 시연에도 적합합니다.",
           "trend": "stable",
-          "url": "https://github.com/sensorium/Mozzi"
+          "url": "https://github.com/BespokeSynth/BespokeSynth"
         },
         {
-          "name": "openFrameworks",
+          "name": "three.js",
           "type": "tool",
-          "desc": "C++ 기반의 커뮤니티 크리에이티브 코딩 툴킷입니다.",
-          "reason": "generative-visual이 웹 대신 네이티브 성능이 필요한 대형 설치 영상을 다룰 때 Three.js 대안으로 비교할 수 있습니다. Claude Code가 C++ 프로젝트를 빌드하며 반복 수정하는 작업에 적합합니다.",
+          "desc": "WebGL과 WebGPU 렌더러를 제공하는 자바스크립트 3D 라이브러리입니다.",
+          "reason": "generative-visual이 WebGPU/TSL 컴퓨트 셰이더로 만드는 실시간 비주얼에서 Claude Code가 공식 예제와 최신 API를 기준으로 코드를 생성하도록 참조 저장소로 연결할 수 있습니다. 파티클과 컴퓨트 패스 작업에서 TSL 사용법을 확인하는 데 씁니다.",
           "trend": "stable",
-          "url": "https://github.com/openframeworks/openFrameworks"
+          "url": "https://github.com/mrdoob/three.js"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Penpot",
+          "name": "krita-ai-diffusion",
+          "type": "plugin",
+          "desc": "Krita 안에서 인페인팅과 아웃페인팅을 포함한 AI 이미지 생성을 하는 오픈소스 플러그인입니다.",
+          "reason": "visual-design이 포스터 키비주얼의 일부만 다시 그리거나 구도를 확장해야 할 때 comfy-cloud 결과물을 손으로 다듬는 용도로 씁니다. 로컬 백엔드도 지원해 시안 단계의 비용을 줄일 수 있습니다.",
+          "trend": "stable",
+          "url": "https://github.com/Acly/krita-ai-diffusion"
+        },
+        {
+          "name": "FLUX.2",
           "type": "tool",
-          "desc": "셀프호스팅 가능한 오픈소스 디자인 플랫폼으로 API와 MCP 서버를 제공합니다.",
-          "reason": "visual-design이 Figma로 만드는 포스터와 SNS 이미지를 오픈소스 환경에서도 에이전트가 직접 편집하도록 시험할 수 있습니다. Figma 사용량 한도가 걸릴 때의 대체 경로로 씁니다.",
+          "desc": "Black Forest Labs의 이미지 생성·편집 오픈 웨이트 모델 공식 추론 저장소입니다.",
+          "reason": "visual-design이 SNS 이미지와 전시 그래픽 배경을 생성할 때 기존 경로와 다른 모델로 같은 프롬프트를 비교할 수 있습니다. 4B 모델은 Apache 2.0이라 상업 홍보물에 쓰기 쉽습니다.",
           "trend": "rising",
-          "url": "https://github.com/penpot/penpot"
+          "url": "https://github.com/black-forest-labs/flux2"
         },
         {
-          "name": "InvokeAI",
-          "type": "tool",
-          "desc": "캔버스와 노드 기반 워크플로를 갖춘 오픈소스 AI 이미지 생성·편집 도구입니다.",
-          "reason": "visual-design이 키비주얼 초안을 만들 때 comfy-cloud와 다른 노드형 워크플로로 같은 구도를 반복 생성할 수 있습니다. 인쇄용 포스터의 배경 소재를 로컬에서 생성하는 데 맞습니다.",
-          "trend": "stable",
-          "url": "https://github.com/invoke-ai/InvokeAI"
-        },
-        {
-          "name": "Excalidraw",
-          "type": "tool",
-          "desc": "손그림 스타일의 다이어그램과 와이어프레임을 그리는 오픈소스 화이트보드이자 임베드용 npm 패키지입니다.",
-          "reason": "pr-content가 홍보 글에 넣을 작업 구조 도식과 전시 동선 스케치를 빠르게 만들 때 쓸 수 있습니다. 파일이 JSON이라 Claude Code가 직접 생성해 visual-design의 레이아웃 초안으로 넘기기 쉽습니다.",
-          "trend": "stable",
-          "url": "https://github.com/excalidraw/excalidraw"
+          "name": "HyperFrames",
+          "type": "skill",
+          "desc": "HTML과 CSS, 시크 가능한 애니메이션을 결정적인 MP4로 렌더링하는 Apache 2.0 프레임워크로 에이전트용 스킬을 제공합니다.",
+          "reason": "pr-content와 visual-design이 SNS용 공연 소개 영상이나 모션 포스터를 HTML로 작성하고 CLI로 렌더링할 때 쓸 수 있습니다. 프롬프트 없이 실행되는 CLI라 Claude Code가 수정과 재렌더링을 반복하기 좋습니다.",
+          "trend": "hot",
+          "url": "https://github.com/heygen-com/hyperframes"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "Obsidian Excalidraw Plugin",
+          "name": "claude-obsidian",
           "type": "plugin",
-          "desc": "Obsidian 안에서 Excalidraw 그림을 편집하고 볼 수 있게 하는 오픈소스 플러그인입니다.",
-          "reason": "project-planner가 Obsidian에 정리하는 일정·역할 문서에 작업 흐름도를 같은 노트 안에서 그려 넣을 수 있습니다. doc-design이 도록 기획 단계의 페이지 배치 스케치를 남기는 데도 씁니다.",
-          "trend": "stable",
-          "url": "https://github.com/zsviczian/obsidian-excalidraw-plugin"
+          "desc": "넣어둔 자료를 링크와 인용이 달린 마크다운 지식베이스로 정리하는 MIT 라이선스 Claude Code 플러그인입니다.",
+          "reason": "grant-writer가 과거 지원서와 작가노트를 볼트에 쌓아 두고 새 제안서에 근거 있는 문장을 인용해 쓸 때 활용할 수 있습니다. 끊어진 링크와 고아 노트를 점검해 도록 자료 관리에도 쓸 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/agricidaniel/claude-obsidian"
         },
         {
-          "name": "Baserow",
-          "type": "tool",
-          "desc": "셀프호스팅 가능한 오픈소스 노코드 데이터베이스로 REST API와 OpenAPI 스키마를 제공합니다.",
-          "reason": "project-planner가 프로젝트별 예산·역할·마감 표를 Notion 외의 API 가능한 DB로 관리해 볼 수 있습니다. grant-writer가 지원서 제출 이력과 상태를 표로 추적하는 데도 맞습니다.",
+          "name": "Claudian",
+          "type": "plugin",
+          "desc": "Claude Code와 Codex를 옵시디언 안의 협업자로 붙이는 MIT 라이선스 플러그인입니다.",
+          "reason": "project-planner가 일정표와 예산 노트를 옵시디언에서 열어 둔 채 에이전트에게 수정을 시킬 때 씁니다. 인라인 편집으로 문서 초안을 바로 고치는 흐름에 맞습니다.",
           "trend": "rising",
-          "url": "https://github.com/baserow/baserow"
+          "url": "https://github.com/YishenTu/claudian"
         },
         {
-          "name": "Docmost",
+          "name": "rhwp",
           "type": "tool",
-          "desc": "실시간 협업이 가능한 오픈소스 위키·문서 소프트웨어입니다.",
-          "reason": "doc-design이 포트폴리오와 기록집 초안을 팀원과 같이 고치는 공유 공간으로 시험할 수 있습니다. 지원서 공통 소개문 같은 반복 문서를 한곳에 두고 grant-writer가 가져다 쓰는 구성에 맞습니다.",
+          "desc": "HWP와 HWPX 문서를 읽고 렌더링하고 저장하며 SVG, PNG, PDF로 내보내는 러스트·WebAssembly 뷰어 겸 편집기입니다.",
+          "reason": "doc-design이 만든 HWPX 공문과 보고서가 한글에서 깨지지 않는지 PNG로 렌더링해 확인하는 검수에 쓸 수 있습니다. 한글 프로그램 없이 페이지 레이아웃을 이미지로 비교하는 용도입니다.",
           "trend": "rising",
-          "url": "https://github.com/docmost/docmost"
+          "url": "https://github.com/edwardkim/rhwp"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "GROBID",
+          "name": "STORM",
           "type": "tool",
-          "desc": "학술 PDF를 구조화된 XML/TEI로 변환해 서지와 본문 정보를 추출하는 기계학습 소프트웨어입니다.",
-          "reason": "research가 이론·기술 논문을 SLR로 정리할 때 참고문헌과 본문 구조를 자동 추출해 Obsidian 노트로 넘길 수 있습니다. 논문 수십 편의 인용 목록을 손으로 정리하는 시간을 줄입니다.",
+          "desc": "검색으로 주제를 조사해 출처가 달린 위키 형식 글을 작성하는 스탠퍼드의 MIT 라이선스 지식 정리 시스템입니다.",
+          "reason": "research가 작가나 이론을 처음 조사할 때 출처 있는 개요 초안을 만들어 옵시디언 노트의 뼈대로 쓸 수 있습니다. Co-STORM의 마인드맵은 심층 리서치 모드의 주제 구조화에 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/kermitt2/grobid"
+          "url": "https://github.com/stanford-oval/storm"
         },
         {
-          "name": "Kiwix Tools",
-          "type": "tool",
-          "desc": "오프라인 ZIM 파일을 관리·검색·서빙하는 명령행 도구 모음입니다.",
-          "reason": "research가 위키백과 같은 자료를 오프라인 색인으로 두고 작가·이론 조사를 반복 검색할 때 쓸 수 있습니다. Claude Code가 kiwix-search로 근거 문장을 바로 확인하게 하는 용도입니다.",
-          "trend": "stable",
-          "url": "https://github.com/kiwix/kiwix-tools"
-        },
-        {
-          "name": "WhisperX",
-          "type": "tool",
-          "desc": "Whisper에 단어 단위 타임스탬프와 화자 구분을 더하고 배치 처리로 속도를 높인 음성 인식 도구입니다.",
-          "reason": "research가 작가 인터뷰와 강연 녹음을 화자별 텍스트로 만들어 Obsidian에 정리할 때 쓸 수 있습니다. 한국어 정렬 지원은 직접 확인이 필요하므로 짧은 녹음으로 먼저 시험합니다.",
+          "name": "notebooklm-py",
+          "type": "skill",
+          "desc": "구글 노트북 기능을 파이썬 API와 CLI, 에이전트 스킬로 쓰게 해 주는 비공식 MIT 라이선스 도구입니다.",
+          "reason": "research가 공모 요강과 이론 논문 PDF를 한 노트북에 모아 질의하고 요약을 뽑을 때 Claude Code가 CLI로 구동할 수 있습니다. 비공식 도구라 중요 자료는 원문과 대조해야 합니다.",
           "trend": "rising",
-          "url": "https://github.com/m-bain/whisperX"
+          "url": "https://github.com/teng-lin/notebooklm-py"
+        },
+        {
+          "name": "kci-mcp",
+          "type": "mcp",
+          "desc": "한국학술지인용색인 KCI 논문을 검색하고 참고문헌과 저널 인용 지표를 조회하는 MIT 라이선스 MCP 서버입니다.",
+          "reason": "research가 국내 미디어아트·사운드아트 선행 연구를 조사할 때 논문 검색과 참고문헌 추적을 에이전트가 직접 하도록 할 수 있습니다. 작가노트와 지원서의 이론 근거를 찾는 데 맞습니다.",
+          "trend": "rising",
+          "url": "https://github.com/rubatoyd/KCI_openAPI"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Vite",
-          "type": "tool",
-          "desc": "Rolldown 기반 번들러와 빠른 개발 서버를 갖춘 프런트엔드 빌드 도구입니다.",
-          "reason": "nodetreehome-web이 nodetree.kr의 빌드와 개발 서버 속도를 점검할 때 기준 도구로 쓸 수 있습니다. 실시간 시각화 페이지의 HMR 반복을 Claude Code가 돌리기 쉽습니다.",
-          "trend": "stable",
-          "url": "https://github.com/vitejs/vite"
-        },
-        {
-          "name": "Turborepo",
-          "type": "tool",
-          "desc": "Rust로 작성된 JavaScript/TypeScript 모노레포 빌드 시스템입니다.",
-          "reason": "nodetreehome-web과 isoartlab처럼 여러 웹 프로젝트가 공통 코드를 쓸 때 빌드 캐시로 Vercel 배포 시간을 줄일 수 있습니다. 코딩 에이전트용 빌드 시스템을 표방해 Claude Code와 함께 쓰기 좋습니다.",
+          "name": "Vercel agent-skills",
+          "type": "skill",
+          "desc": "Vercel이 관리하는 React 성능, 웹 디자인 점검, Vercel 배포 스킬 모음입니다.",
+          "reason": "nodetreehome-web이 React 코드를 접근성과 성능 기준으로 점검하고 Vercel 배포를 정리할 때 쓸 수 있습니다. 배포 비용과 신뢰성 감사 스킬은 nodetree.kr 운영 점검에 맞습니다.",
           "trend": "rising",
-          "url": "https://github.com/vercel/turborepo"
+          "url": "https://github.com/vercel-labs/agent-skills"
         },
         {
-          "name": "Tailwind CSS",
+          "name": "PartyKit",
           "type": "tool",
-          "desc": "유틸리티 클래스 기반의 CSS 프레임워크입니다.",
-          "reason": "nodetreehome-web의 React 페이지 스타일을 Claude Code가 클래스 단위로 일관되게 수정할 때 쓸 수 있습니다. 작품 소개 페이지의 반응형 조정을 CSS 파일 없이 처리합니다.",
+          "desc": "Cloudflare Workers와 Durable Objects 위에서 실시간 앱을 만드는 라이브러리 모음입니다.",
+          "reason": "nodetreehome-web이 관객 참여형 실시간 시각화나 모니터 페이지의 상태 공유를 구현할 때 웹소켓 서버를 따로 운영하지 않고 시험할 수 있습니다. README가 작업 중이라 표시하므로 프로토타입에 적합합니다.",
           "trend": "stable",
-          "url": "https://github.com/tailwindlabs/tailwindcss"
+          "url": "https://github.com/cloudflare/partykit"
+        },
+        {
+          "name": "Colyseus",
+          "type": "tool",
+          "desc": "Node.js용 권위 서버 방식 멀티플레이어 프레임워크로 TypeScript와 Unity 클라이언트 SDK를 제공합니다.",
+          "reason": "nodetreehome-web이 여러 관객의 입력을 한 방의 상태로 합쳐 웹 시각화에 전달하는 설치 작업의 서버를 만들 때 쓸 수 있습니다. 상태 동기화를 직접 구현하지 않아도 됩니다.",
+          "trend": "stable",
+          "url": "https://github.com/colyseus/colyseus"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "Stirling-PDF",
-          "type": "tool",
-          "desc": "PDF 편집·서명·가림·변환·자동화를 REST API로 제공하는 셀프호스팅 오픈소스 플랫폼입니다.",
-          "reason": "nodetree-accounting이 보조사업 정산 증빙 PDF를 합치고 개인정보를 가리는 작업을 API로 자동화할 수 있습니다. saengsanso-accounting의 세금계산서와 경비 증빙 묶음 정리에도 맞습니다.",
+          "name": "Open-Dart-Plugin",
+          "type": "plugin",
+          "desc": "OpenDART API 85개 도구로 공시와 재무제표를 조회하고 재무제표 엑셀을 만드는 Claude Code·Codex 플러그인입니다.",
+          "reason": "saengsanso-accounting이 법인 거래처나 공모 협력 기업의 재무 상태를 확인해야 할 때 재무제표를 엑셀로 바로 뽑아 볼 수 있습니다. OpenDART API 키가 필요합니다.",
           "trend": "rising",
-          "url": "https://github.com/Stirling-Tools/Stirling-PDF"
+          "url": "https://github.com/gyeongmin100/Open-Dart-MCP"
         },
         {
-          "name": "csvkit",
+          "name": "Docspell",
           "type": "tool",
-          "desc": "CSV 변환과 처리를 위한 명령행 도구 모음입니다.",
-          "reason": "saengsanso-accounting이 법인카드 내역과 은행 거래 CSV를 합치고 열별로 걸러 부가세 자료로 만들 때 쓸 수 있습니다. 원천세 지급명세서용 인건비 목록의 열 점검에도 맞습니다.",
+          "desc": "스캔 문서에 OCR과 기계학습으로 태그와 거래처, 날짜를 제안하는 AGPL 셀프호스팅 문서 정리 도구입니다.",
+          "reason": "nodetree-accounting이 보조사업 정산용 영수증과 증빙 스캔을 거래처와 날짜별로 분류해 쌓을 때 쓸 수 있습니다. 두 법인의 증빙을 별도 보관함으로 나눠 관리하는 데 맞습니다.",
           "trend": "stable",
-          "url": "https://github.com/wireservice/csvkit"
+          "url": "https://github.com/eikek/docspell"
         },
         {
-          "name": "pikepdf",
+          "name": "Magika",
           "type": "tool",
-          "desc": "qpdf 기반으로 PDF를 읽고 쓰고 복구·변환하는 Python 라이브러리입니다.",
-          "reason": "nodetree-accounting이 e나라도움 정산 제출용 PDF를 페이지 단위로 재정렬하거나 손상 파일을 복구할 때 스크립트로 쓸 수 있습니다. 증빙 파일 수십 개를 한 번에 정리하는 반복 작업에 맞습니다.",
+          "desc": "AI로 파일 내용의 형식을 식별하는 구글의 Apache 2.0 도구입니다.",
+          "reason": "nodetree-accounting이 e나라도움이나 보탬e에 올릴 증빙을 정리하면서 확장자가 틀리거나 손상된 스캔 파일을 걸러낼 때 씁니다. 정산 제출 전 첨부 파일 형식 점검을 자동화합니다.",
           "trend": "stable",
-          "url": "https://github.com/pikepdf/pikepdf"
+          "url": "https://github.com/google/magika"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-10-28",
+      "names": [
+        "Claude Squad",
+        "Gemini CLI",
+        "Pydantic AI",
+        "osc-bridge",
+        "BespokeSynth",
+        "three.js",
+        "krita-ai-diffusion",
+        "FLUX.2",
+        "HyperFrames",
+        "claude-obsidian",
+        "Claudian",
+        "rhwp",
+        "STORM",
+        "notebooklm-py",
+        "kci-mcp",
+        "Vercel agent-skills",
+        "PartyKit",
+        "Colyseus",
+        "Open-Dart-Plugin",
+        "Docspell",
+        "Magika"
+      ]
+    },
     {
       "date": "2026-10-27",
       "names": [
