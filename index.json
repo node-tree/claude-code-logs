@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T05:06:18.068816+00:00",
+  "lastUpdated": "2026-10-28T05:19:31.510858+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,10 +28,10 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 15426,
+      "durationSeconds": 16802,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 564,
+      "projectName": "자료음원",
+      "toolCallCount": 575,
       "agentsUsed": [
         "general-purpose",
         "research"
