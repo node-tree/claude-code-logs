@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T23:20:16.734191+00:00",
+  "lastUpdated": "2026-10-28T23:29:26.166490+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -51,10 +51,10 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 37206,
+      "durationSeconds": 37705,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 1057,
+      "projectName": "듣기",
+      "toolCallCount": 1058,
       "agentsUsed": [
         "doc-design",
         "general-purpose",
