@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T04:28:59.994458+00:00",
+  "lastUpdated": "2026-10-28T05:05:03.522294+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,10 +28,10 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 13004,
+      "durationSeconds": 15351,
       "modelTier": "opus",
-      "projectName": "27-도파민주법",
-      "toolCallCount": 509,
+      "projectName": "memory",
+      "toolCallCount": 564,
       "agentsUsed": [
         "general-purpose",
         "research"
