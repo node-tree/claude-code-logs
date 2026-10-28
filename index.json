@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T06:01:51.342195+00:00",
+  "lastUpdated": "2026-10-28T06:02:08.802633+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,7 +28,7 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 19565,
+      "durationSeconds": 19583,
       "modelTier": "opus",
       "projectName": "리서치_도시소외계층_부산만주",
       "toolCallCount": 701,
