@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:17:47.974441+00:00",
+  "lastUpdated": "2026-10-28T11:32:43.188797+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,10 +41,10 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 30556,
+      "durationSeconds": 31065,
       "modelTier": "opus",
-      "projectName": "28-다섯악장",
-      "toolCallCount": 901,
+      "projectName": "떠난소리",
+      "toolCallCount": 902,
       "agentsUsed": [
         "doc-design",
         "general-purpose",
