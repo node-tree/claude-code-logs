@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-28T06:10:04.171696+00:00",
+  "lastUpdated": "2026-10-28T06:13:02.720058+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "2a9c8855",
+      "date": "2026-10-28",
+      "startTime": "2026-10-28T05:50:28.198000+00:00",
+      "durationSeconds": 1370,
+      "modelTier": "opus",
+      "projectName": "20261028-changchun-02-ig",
+      "toolCallCount": 114,
+      "agentsUsed": [
+        "evaluator"
+      ]
+    },
     {
       "sessionId": "f4bdc111",
       "date": "2026-10-27",
@@ -3300,16 +3312,6 @@
       "modelTier": "opus",
       "projectName": "memory",
       "toolCallCount": 52,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "edba7da5",
-      "date": "2026-09-18",
-      "startTime": "2026-09-18T14:05:16.694000+00:00",
-      "durationSeconds": 1092,
-      "modelTier": "opus",
-      "projectName": "v2b",
-      "toolCallCount": 80,
       "agentsUsed": []
     }
   ]
