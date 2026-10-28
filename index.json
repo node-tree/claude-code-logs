@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T04:08:54.952247+00:00",
+  "lastUpdated": "2026-10-28T04:22:23.854285+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,11 +28,12 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 11567,
+      "durationSeconds": 12587,
       "modelTier": "opus",
-      "projectName": "27-도파민주법",
-      "toolCallCount": 451,
+      "projectName": "음악",
+      "toolCallCount": 491,
       "agentsUsed": [
+        "general-purpose",
         "research"
       ]
     },
