@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T22:04:07.753029+00:00",
+  "lastUpdated": "2026-10-28T22:44:30.497393+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -51,10 +51,10 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 34521,
+      "durationSeconds": 35137,
       "modelTier": "opus",
-      "projectName": "28-다섯악장",
-      "toolCallCount": 994,
+      "projectName": "듣기",
+      "toolCallCount": 995,
       "agentsUsed": [
         "doc-design",
         "general-purpose",
