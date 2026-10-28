@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-10-28T23:40:02.007058+00:00",
+  "lastUpdated": "2026-10-28T23:43:10.283089+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "8179d22d",
+      "date": "2026-10-28",
+      "startTime": "2026-10-28T23:17:20.612000+00:00",
+      "durationSeconds": 1680,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 234,
+      "agentsUsed": [
+        "evaluator",
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "dbdadb28",
       "date": "2026-10-28",
@@ -3300,20 +3313,6 @@
       "agentsUsed": [
         "evaluator",
         "research"
-      ]
-    },
-    {
-      "sessionId": "439bc5cd",
-      "date": "2026-09-19",
-      "startTime": "2026-09-19T13:35:44.248000+00:00",
-      "durationSeconds": 11022,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 280,
-      "agentsUsed": [
-        "evaluator",
-        "research",
-        "visual-design"
       ]
     }
   ]
