@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-28T12:18:29.589330+00:00",
+  "lastUpdated": "2026-10-28T22:04:07.753029+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "dbdadb28",
+      "date": "2026-10-28",
+      "startTime": "2026-10-28T22:03:11.892000+00:00",
+      "durationSeconds": 51,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 25,
+      "agentsUsed": []
+    },
     {
       "sessionId": "2a9c8855",
       "date": "2026-10-28",
@@ -3305,16 +3315,6 @@
         "research",
         "visual-design"
       ]
-    },
-    {
-      "sessionId": "0b472339",
-      "date": "2026-09-19",
-      "startTime": "2026-09-19T13:31:07.615000+00:00",
-      "durationSeconds": 1498,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 52,
-      "agentsUsed": []
     }
   ]
 }
