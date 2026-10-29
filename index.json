@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T05:28:21.741048+00:00",
+  "lastUpdated": "2026-10-29T05:32:12.939691+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -74,10 +74,10 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 51432,
+      "durationSeconds": 51664,
       "modelTier": "opus",
-      "projectName": "2악장",
-      "toolCallCount": 1389,
+      "projectName": "28-다섯악장",
+      "toolCallCount": 1400,
       "agentsUsed": [
         "doc-design",
         "general-purpose",
