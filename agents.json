@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T13:18:00.492265+00:00",
+  "lastUpdated": "2026-10-29T13:28:03.264603+00:00",
   "totalAgents": 115,
   "agents": [
     {
@@ -63,7 +63,7 @@
       "type": "skill",
       "category": "art",
       "name": "Image",
-      "desc": "Generate images using MindLogic KNUH API with Nano Banana 2 (gemini-3.1-flash-image-preview). NODE TREE 이미지 생성 1순위 경로(20",
+      "desc": "NODE TREE 이미지 생성 1순위 경로 — 기본 Codex 내장 image_generation(codex exec, 참조 이미지 -i). KNUH Nano Banana 2(gemini-3.1-flash-image",
       "emoji": "🖼"
     },
     {
@@ -207,7 +207,7 @@
       "type": "skill",
       "category": "audio",
       "name": "Video",
-      "desc": "KNUH(MindLogic) 게이트웨이 영상 생성 — 기본 Seedance 2.5(bytedance/seedance-2.5, 이미지·영상 레퍼런스), 옵션 MiniMax H3(minimax/h3-max-turbo, ",
+      "desc": "NODE TREE 영상 생성 1순위 경로 — 기본 Sunra API Seedance 2.5(bytedance/seedance-2.5, text·image·reference-to-video, 이미지·영상·오디오 레퍼런",
       "emoji": "🎬"
     },
     {
