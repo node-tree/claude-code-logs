@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-29T08:38:53.583088+00:00",
+  "lastUpdated": "2026-10-29T08:44:46.191861+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "a91e3961",
       "date": "2026-10-29",
       "startTime": "2026-10-29T07:27:56.894000+00:00",
-      "durationSeconds": 4225,
+      "durationSeconds": 4600,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 131,
+      "projectName": "컷",
+      "toolCallCount": 144,
       "agentsUsed": [
         "general-purpose"
       ]
