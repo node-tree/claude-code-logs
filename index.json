@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-29T05:32:12.939691+00:00",
+  "lastUpdated": "2026-10-29T06:10:32.460354+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6349a601",
+      "date": "2026-10-29",
+      "startTime": "2026-10-29T06:05:07.263000+00:00",
+      "durationSeconds": 360,
+      "modelTier": "opus",
+      "projectName": "ls-000-foundation",
+      "toolCallCount": 50,
+      "agentsUsed": []
+    },
     {
       "sessionId": "d41a66e3",
       "date": "2026-10-29",
@@ -3300,16 +3310,6 @@
       "modelTier": "sonnet",
       "projectName": "industry-briefing",
       "toolCallCount": 21,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "a829d2a9",
-      "date": "2026-09-19",
-      "startTime": "2026-09-19T14:18:43.776000+00:00",
-      "durationSeconds": 321,
-      "modelTier": "sonnet",
-      "projectName": "five",
-      "toolCallCount": 27,
       "agentsUsed": []
     }
   ]
