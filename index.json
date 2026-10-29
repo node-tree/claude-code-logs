@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-29T14:25:57.429866+00:00",
+  "lastUpdated": "2026-10-29T14:26:25.978491+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "e2bc6f63",
       "date": "2026-10-29",
       "startTime": "2026-10-29T12:08:22.632000+00:00",
-      "durationSeconds": 2888,
+      "durationSeconds": 3022,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 204,
+      "projectName": "gen-route-sunra-20261029",
+      "toolCallCount": 211,
       "agentsUsed": []
     },
     {
