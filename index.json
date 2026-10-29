@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-29T15:23:12.926008+00:00",
+  "lastUpdated": "2026-10-29T22:04:17.001789+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "e1ec658f",
+      "date": "2026-10-29",
+      "startTime": "2026-10-29T22:03:12.704000+00:00",
+      "durationSeconds": 59,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 39,
+      "agentsUsed": []
+    },
     {
       "sessionId": "6b9bff13",
       "date": "2026-10-29",
@@ -3301,16 +3311,6 @@
         "research",
         "sound-art"
       ]
-    },
-    {
-      "sessionId": "662ccd8f",
-      "date": "2026-09-19",
-      "startTime": "2026-09-19T15:00:57.630000+00:00",
-      "durationSeconds": 187,
-      "modelTier": "sonnet",
-      "projectName": "industry-briefing",
-      "toolCallCount": 23,
-      "agentsUsed": []
     }
   ]
 }
