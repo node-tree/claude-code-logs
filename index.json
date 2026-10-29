@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T15:05:55.117119+00:00",
+  "lastUpdated": "2026-10-29T15:07:27.380253+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "e2bc6f63",
       "date": "2026-10-29",
       "startTime": "2026-10-29T12:08:22.632000+00:00",
-      "durationSeconds": 5480,
+      "durationSeconds": 5569,
       "modelTier": "opus",
       "projectName": "영상-sunra-mcp-r1",
-      "toolCallCount": 309,
+      "toolCallCount": 311,
       "agentsUsed": []
     },
     {
