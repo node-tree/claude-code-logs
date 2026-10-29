@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-29T14:28:47.835841+00:00",
+  "lastUpdated": "2026-10-29T14:31:47.407233+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6b9bff13",
+      "date": "2026-10-29",
+      "startTime": "2026-10-29T14:29:07.372000+00:00",
+      "durationSeconds": 173,
+      "modelTier": "opus",
+      "projectName": "claude",
+      "toolCallCount": 38,
+      "agentsUsed": []
+    },
     {
       "sessionId": "e2bc6f63",
       "date": "2026-10-29",
@@ -3301,18 +3311,6 @@
       "projectName": "industry-briefing",
       "toolCallCount": 23,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "f2ed7bd5",
-      "date": "2026-09-19",
-      "startTime": "2026-09-19T14:45:39.594000+00:00",
-      "durationSeconds": 8946,
-      "modelTier": "sonnet",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 122,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
