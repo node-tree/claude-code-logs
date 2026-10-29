@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-29T14:35:19.849838+00:00",
+  "lastUpdated": "2026-10-29T14:37:09.774235+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "6b9bff13",
       "date": "2026-10-29",
       "startTime": "2026-10-29T14:29:07.372000+00:00",
-      "durationSeconds": 173,
+      "durationSeconds": 490,
       "modelTier": "opus",
       "projectName": "claude",
-      "toolCallCount": 38,
+      "toolCallCount": 71,
       "agentsUsed": []
     },
     {
