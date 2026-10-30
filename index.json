@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-30T00:43:35.418487+00:00",
+  "lastUpdated": "2026-10-30T02:12:06.835748+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "885056fe",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T01:54:16.259000+00:00",
+      "durationSeconds": 638,
+      "modelTier": "opus",
+      "projectName": "r8",
+      "toolCallCount": 55,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "efa143b7",
       "date": "2026-10-30",
@@ -3295,16 +3307,6 @@
       "modelTier": "sonnet",
       "projectName": "anim",
       "toolCallCount": 53,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "218dc9e1",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T07:37:47.423000+00:00",
-      "durationSeconds": 99746,
-      "modelTier": "opus",
-      "projectName": "위성악보시리즈-역류",
-      "toolCallCount": 1398,
       "agentsUsed": []
     }
   ]
