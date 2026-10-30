@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T07:11:15.707161+00:00",
+  "lastUpdated": "2026-10-30T07:12:11.410457+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "3d25dc5e",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T07:11:28.713000+00:00",
+      "durationSeconds": 29,
+      "modelTier": "opus",
+      "projectName": "Downloads",
+      "toolCallCount": 2,
+      "agentsUsed": []
+    },
     {
       "sessionId": "a06c27f6",
       "date": "2026-10-30",
@@ -3302,16 +3312,6 @@
       "modelTier": "sonnet",
       "projectName": "_큐레이터용_캡처",
       "toolCallCount": 65,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "20a8358c",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T12:47:00.127000+00:00",
-      "durationSeconds": 906,
-      "modelTier": "sonnet",
-      "projectName": "_큐레이터용_캡처",
-      "toolCallCount": 69,
       "agentsUsed": []
     }
   ]
