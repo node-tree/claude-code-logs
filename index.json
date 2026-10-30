@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-30T04:36:44.839367+00:00",
+  "lastUpdated": "2026-10-30T04:37:49.579598+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "70b9d928",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:10:50.506000+00:00",
-      "durationSeconds": 1602,
+      "durationSeconds": 1666,
       "modelTier": "opus",
       "projectName": "3회차_유산모델",
-      "toolCallCount": 139,
+      "toolCallCount": 145,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
