@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-29",
+  "lastUpdated": "2026-10-30",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "claude-code-templates",
-          "type": "tool",
-          "desc": "Claude Code용 에이전트·훅·스킬·MCP 템플릿을 CLI로 설치하고 사용 현황을 모니터링하는 카탈로그입니다.",
-          "reason": "evaluator가 lens별 판정 에이전트와 훅을 구성할 때 검증된 템플릿을 출발점으로 삼을 수 있습니다. 설치 상태 점검 기능으로 하네스 구성 누락을 확인합니다.",
-          "trend": "hot",
-          "url": "https://github.com/davila7/claude-code-templates"
+          "name": "adamsreview",
+          "type": "plugin",
+          "desc": "병렬 서브에이전트 검출, 검증, 자동 수정 루프를 한 번에 돌리는 Claude Code 코드 리뷰 플러그인입니다.",
+          "reason": "evaluator의 code 렌즈가 웹·파이프라인 산출물을 판정할 때 여러 관점을 병렬로 돌리고 오탐을 걸러내는 구조로 참고할 수 있습니다. codex-review 명령이 있어 Codex와 함께 쓰는 교차 검수에도 연결됩니다.",
+          "trend": "rising",
+          "url": "https://github.com/adamjgmiller/adamsreview"
         },
         {
-          "name": "claude-code-hooks-mastery",
-          "type": "skill",
-          "desc": "Claude Code의 13개 훅 이벤트 예제와 서브에이전트·출력 스타일·상태줄 가이드를 담은 저장소입니다.",
-          "reason": "evaluator의 PASS/REWORK 판정을 산출물 저장 직후 훅으로 자동 실행하는 구조를 설계할 때 참고할 수 있습니다. 코드·문서 렌즈별 검수 단계를 훅으로 나누는 예제로 쓰입니다.",
+          "name": "plugin-eval (wshobson/agents)",
+          "type": "tool",
+          "desc": "스킬과 플러그인의 품질을 정적 검사와 LLM 판정으로 점수화하는 평가 플러그인입니다.",
+          "reason": "하네스에 쌓인 스킬 폴더가 SKILL.md 구조와 트리거 설명을 제대로 갖췄는지 evaluator가 정기 점검할 때 쓸 수 있습니다. 모델 호출 없는 정적 검사만으로도 누락된 항목을 찾을 수 있습니다.",
           "trend": "rising",
-          "url": "https://github.com/disler/claude-code-hooks-mastery"
+          "url": "https://github.com/wshobson/agents"
         },
         {
-          "name": "Agent Skills 사양",
+          "name": "promptfoo",
           "type": "tool",
-          "desc": "폴더 기반 Agent Skills 형식의 공개 사양과 문서입니다.",
-          "reason": "NODE TREE가 쓰는 Claude Code와 Codex가 같은 스킬 폴더를 공유하도록 SKILL.md 구조를 표준에 맞출 때 기준이 됩니다. 하네스 스킬을 두 도구에서 함께 쓰는 작업에 연결됩니다.",
-          "trend": "rising",
-          "url": "https://github.com/agentskills/agentskills"
+          "desc": "프롬프트와 모델 출력을 테스트 케이스로 비교하고 레드팀 점검까지 하는 CLI입니다.",
+          "reason": "evaluator의 doc·design 렌즈 판정 프롬프트가 같은 산출물에 일관되게 PASS/REWORK를 내리는지 회귀 테스트로 확인할 수 있습니다. Claude와 Codex 응답을 같은 케이스로 나란히 비교하는 데도 쓰입니다.",
+          "trend": "stable",
+          "url": "https://github.com/promptfoo/promptfoo"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "Magenta RealTime",
-          "type": "tool",
-          "desc": "Python과 C++로 추론하는 오픈 가중치 실시간 음악 생성 모델 툴킷입니다.",
-          "reason": "sound-art가 SuperCollider 라이브 퍼포먼스에서 생성 음향 소스를 실시간으로 섞는 실험에 쓸 수 있습니다. Apple Silicon 추론을 지원해 현장 노트북에서 돌려볼 수 있습니다.",
-          "trend": "hot",
-          "url": "https://github.com/magenta/magenta-realtime"
-        },
-        {
-          "name": "stable-audio-tools",
-          "type": "tool",
-          "desc": "오디오 생성 모델의 학습과 추론을 위한 Stability AI의 오픈소스 도구입니다.",
-          "reason": "sound-art가 직접 만든 사운드 샘플로 소규모 모델을 파인튜닝해 설치작업용 앰비언스를 만드는 실험에 연결됩니다. 생성 결과를 Ableton 트랙 소재로 가져와 편곡할 수 있습니다.",
-          "trend": "stable",
-          "url": "https://github.com/Stability-AI/stable-audio-tools"
-        },
-        {
-          "name": "Revideo",
-          "type": "tool",
-          "desc": "TypeScript로 장면을 작성해 영상을 렌더링하는 MIT 라이선스 엔진입니다.",
-          "reason": "generative-visual이 Three.js 결과물을 코드 기반 타임라인으로 묶어 퍼포먼스 필름의 인트로·타이틀 시퀀스를 만들 때 쓸 수 있습니다. film-production이 Final Cut Pro로 넘길 소스 클립을 재현 가능하게 렌더링합니다.",
+          "name": "TDPilot",
+          "type": "plugin",
+          "desc": "실행 중인 TouchDesigner 세션에서 노드를 만들고 연결하며 스크린샷으로 결과를 자가 검증하는 MCP 플러그인입니다.",
+          "reason": "generative-visual이 TouchDesigner를 Three.js의 대체 경로로 쓸 때 오퍼레이터 생성과 롤백 가능한 수정을 맡길 수 있습니다. /td-audio-reactive 같은 명령이 사운드 반응형 비주얼 작업에 바로 대응합니다.",
           "trend": "rising",
-          "url": "https://github.com/redotvideo/revideo"
+          "url": "https://github.com/dreamrec/tdpilot"
+        },
+        {
+          "name": "Pedalboard",
+          "type": "tool",
+          "desc": "Spotify가 만든 Python 오디오 라이브러리로 이펙트 체인, VST3 호스팅, 파일 입출력을 지원합니다.",
+          "reason": "sound-art가 SuperCollider로 뽑은 스템에 리버브와 리미터를 배치 처리하거나 film-production의 믹싱 전 소재를 일괄 정리할 때 쓸 수 있습니다. VST3를 스크립트로 불러 Ableton 없이 렌더링하는 작업도 가능합니다.",
+          "trend": "stable",
+          "url": "https://github.com/spotify/pedalboard"
+        },
+        {
+          "name": "Basic Pitch",
+          "type": "tool",
+          "desc": "오디오를 피치벤드 포함 MIDI로 변환하는 Spotify의 경량 음악 전사 라이브러리입니다.",
+          "reason": "sound-art가 현장 녹음이나 보컬 소재를 MIDI로 바꿔 Ableton 편곡이나 SuperCollider 패턴의 씨앗으로 쓰는 작업에 연결됩니다. CLI가 있어 media-art-pipeline의 소니피케이션 전처리에도 넣을 수 있습니다.",
+          "trend": "stable",
+          "url": "https://github.com/spotify/basic-pitch"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Lottie Web",
+          "name": "Figma MCP 서버 가이드",
           "type": "tool",
-          "desc": "After Effects 애니메이션을 JSON으로 내보내 브라우저에서 재생하는 라이브러리입니다.",
-          "reason": "visual-design이 만든 SNS 홍보 이미지의 짧은 모션 버전을 웹과 인스타그램용으로 변환할 때 쓸 수 있습니다. nodetree.kr 홍보 배너를 용량 부담 없이 움직이게 하는 데 연결됩니다.",
-          "trend": "stable",
-          "url": "https://github.com/airbnb/lottie-web"
+          "desc": "Figma 공식 MCP 서버의 도구 구성, 프롬프트 규칙, Claude Code 설치 방법을 정리한 공식 저장소입니다.",
+          "reason": "visual-design이 use_figma로 포스터를 편집할 때 변수와 스타일을 get_variable_defs로 읽어 색과 타이포를 맞추는 규칙을 가져올 수 있습니다. 프로젝트 규칙 예시를 참고해 Code Connect 연결도 정리할 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/figma/mcp-server-guide"
         },
         {
-          "name": "chroma.js",
-          "type": "tool",
-          "desc": "색상 변환, 보간, 색상 스케일 계산을 제공하는 의존성 없는 JavaScript 라이브러리입니다.",
-          "reason": "visual-design이 포스터 키비주얼의 팔레트를 코드로 생성하고 명도 대비를 계산할 때 쓸 수 있습니다. HTML/SVG 조판 단계에서 전시 그래픽 색을 일관되게 유지합니다.",
-          "trend": "stable",
-          "url": "https://github.com/gka/chroma.js"
+          "name": "Figwright",
+          "type": "mcp",
+          "desc": "로컬 WebSocket으로 Figma 캔버스를 읽고 쓰는 오픈소스 양방향 MCP 서버입니다.",
+          "reason": "visual-design이 Dev Mode 좌석 없이도 포스터 프레임과 오토레이아웃을 코드로 생성하고 design_diff로 변경분만 반영할 수 있습니다. 여러 에이전트가 파일을 나눠 맡는 SNS 이미지 세트 제작에 맞습니다.",
+          "trend": "rising",
+          "url": "https://github.com/awdr74100/figwright"
         },
         {
-          "name": "Scribus(GitHub 미러)",
+          "name": "Satori",
           "type": "tool",
-          "desc": "오픈소스 데스크톱 출판 앱 Scribus의 비공식 GitHub 미러로, 공식 저장소는 SVN입니다.",
-          "reason": "visual-design이 인쇄용 포스터와 리플릿을 CMYK·물리 단위로 조판할 때 Figma 대안으로 검토할 수 있습니다. 미러는 수동 갱신되므로 버그는 공식 트래커에 올려야 합니다.",
+          "desc": "HTML과 CSS를 SVG로 변환하는 Vercel의 라이브러리입니다.",
+          "reason": "pr-content가 쓴 홍보 문구를 템플릿에 넣어 SNS용 카드 이미지를 일괄 생성하는 파이프라인을 만들 수 있습니다. 한글 폰트를 직접 지정해 전시 일정 카드처럼 반복되는 홍보물에 적합합니다.",
           "trend": "stable",
-          "url": "https://github.com/scribusproject/scribus"
+          "url": "https://github.com/vercel/satori"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "hwp.js",
+          "name": "Pandoc",
           "type": "tool",
-          "desc": "브라우저에서 한글(.hwp) 문서를 열고 구문 분석하는 Apache-2.0 JavaScript 라이브러리입니다.",
-          "reason": "doc-design이 받은 공문·양식 .hwp 파일의 내용을 읽어 HWPX 문서로 옮겨 쓸 때 원문 추출 단계에 쓸 수 있습니다. 지원서 양식 항목을 grant-writer에게 넘기는 작업에 연결됩니다.",
+          "desc": "Markdown, DOCX, HTML, Typst 등 수십 개 형식을 서로 변환하는 범용 문서 변환기입니다.",
+          "reason": "grant-writer가 마크다운으로 쓴 지원서와 작가노트를 DOCX나 PDF 제출본으로 변환하는 단계에 쓸 수 있습니다. doc-design이 HWPX로 옮기기 전 중간 형식으로 정리하는 데도 연결됩니다.",
           "trend": "stable",
-          "url": "https://github.com/hahnlee/hwp.js"
+          "url": "https://github.com/jgm/pandoc"
         },
         {
-          "name": "Mermaid",
+          "name": "MarkItDown",
           "type": "tool",
-          "desc": "마크다운식 텍스트로 플로차트·간트·타임라인 등을 그리는 다이어그램 도구입니다.",
-          "reason": "project-planner가 사업 일정과 역할 분담을 간트 차트 텍스트로 만들어 Obsidian이나 Notion 계획서에 넣을 수 있습니다. 지원서 첨부용 추진 일정표를 빠르게 수정하는 데 연결됩니다.",
-          "trend": "stable",
-          "url": "https://github.com/mermaid-js/mermaid"
+          "desc": "PDF, DOCX, PPTX, XLSX를 Markdown으로 바꿔 LLM에 넘기는 Microsoft의 Python 도구입니다.",
+          "reason": "grant-writer가 공모 요강 첨부파일과 이전 지원서를 읽어 본문 초안의 근거로 삼을 때 쓸 수 있습니다. project-planner가 받은 견적서 엑셀을 일정·예산표 작성 입력으로 변환하는 데도 맞습니다.",
+          "trend": "hot",
+          "url": "https://github.com/microsoft/markitdown"
         },
         {
-          "name": "LibreOffice",
+          "name": "Docling",
           "type": "tool",
-          "desc": "오픈소스 오피스 스위트이며 공식 코드는 Gerrit로 관리되고 GitHub는 읽기 전용 미러입니다.",
-          "reason": "doc-design이 도록·기록집 원고를 docx·odt로 열어 레이아웃을 확인하고 PDF로 내보내는 검수 단계에 쓸 수 있습니다. HWPX 생성 결과를 다른 뷰어에서 교차 확인하는 용도로 연결됩니다.",
-          "trend": "stable",
-          "url": "https://github.com/LibreOffice/core"
+          "desc": "PDF의 레이아웃, 표, 읽기 순서를 구조화해 추출하고 MCP 서버도 제공하는 문서 처리 프로젝트입니다.",
+          "reason": "doc-design이 기존 도록과 기록집 PDF의 표와 캡션을 구조째 뽑아 재편집 원본으로 만들 때 쓸 수 있습니다. 스캔된 공문에는 OCR이 적용됩니다.",
+          "trend": "rising",
+          "url": "https://github.com/docling-project/docling"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "Apify MCP Server",
+          "name": "Zotero MCP",
           "type": "mcp",
-          "desc": "Apify Store의 스크레이퍼와 자동화 도구를 AI 에이전트가 검색하고 실행하게 하는 MCP 서버입니다.",
-          "reason": "research의 공모 레이더 모드가 공모·레지던시 공고 사이트를 정기 수집해 마감 추적표를 갱신하는 작업에 쓸 수 있습니다. 사이트별 스크레이퍼를 직접 짜지 않고 기존 도구를 호출합니다.",
+          "desc": "Zotero 라이브러리를 검색, 읽기, 주석, 추가할 수 있게 하는 MCP 서버와 CLI입니다.",
+          "reason": "research가 작가·이론 조사에서 모은 논문과 도서를 의미 검색으로 다시 찾고 BibTeX를 뽑아 작가노트 인용에 쓸 수 있습니다. Claude Code용 zotero-cli 스킬 설치를 지원합니다.",
           "trend": "rising",
-          "url": "https://github.com/apify/apify-mcp-server"
+          "url": "https://github.com/54yyyu/zotero-mcp"
         },
         {
-          "name": "internetarchive",
-          "type": "tool",
-          "desc": "Archive.org용 Python 라이브러리이자 ia 명령줄 도구입니다.",
-          "reason": "research가 작가·작품 조사에서 사라진 전시 페이지나 옛 자료를 Archive.org에서 내려받아 옵시디안 노트로 정리할 때 쓸 수 있습니다. v5.4.2 이상으로 설치해야 합니다.",
-          "trend": "stable",
-          "url": "https://github.com/jjjake/internetarchive"
+          "name": "Firecrawl MCP Server",
+          "type": "mcp",
+          "desc": "웹 검색, 스크랩, 사이트 크롤, 페이지 변경 모니터링을 제공하는 MCP 서버입니다.",
+          "reason": "research의 공모 레이더가 레지던시와 어워드 공고 사이트를 구조화해 수집하고 마감 페이지 변경을 감시하는 데 쓸 수 있습니다. 키 없는 호스팅 엔드포인트로 스크랩부터 시험할 수 있습니다.",
+          "trend": "hot",
+          "url": "https://github.com/firecrawl/firecrawl-mcp-server"
         },
         {
-          "name": "waybackpy",
-          "type": "tool",
-          "desc": "Wayback Machine의 Save·CDX·Availability API를 다루는 Python 패키지이자 CLI입니다.",
-          "reason": "research가 URL 분석 모드에서 링크가 깨진 인용 출처의 과거 스냅샷을 찾아 근거로 보존할 때 쓸 수 있습니다. 지원서에 넣을 참고 자료의 저장 시점을 남기는 데 연결됩니다.",
-          "trend": "stable",
-          "url": "https://github.com/akamhy/waybackpy"
+          "name": "arxiv-mcp-server",
+          "type": "mcp",
+          "desc": "arXiv 논문을 검색해 LaTeX 섹션 단위로 읽고 BibTeX를 내보내며 주제 알림을 저장하는 MCP 서버입니다.",
+          "reason": "research가 오디오·생성모델 기술 논문을 섹션별로 읽고 SLR 표에 정리하는 작업에 맞습니다. watch_topic으로 관심 키워드의 신규 논문을 추적할 수 있습니다.",
+          "trend": "rising",
+          "url": "https://github.com/blazickjp/arxiv-mcp-server"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Workflow SDK",
-          "type": "tool",
-          "desc": "TypeScript 함수를 내구성 있게 만들어 진행 상태 저장, 실패 단계 재시도, 관측을 제공하는 Vercel의 SDK입니다.",
-          "reason": "nodetreehome-web이 Vercel에 올린 실시간 시각화 API의 외부 호출 단계를 재시도 가능한 흐름으로 바꿀 때 쓸 수 있습니다. 배포 후 오래 걸리는 데이터 수집 작업의 실패 지점을 추적합니다.",
-          "trend": "rising",
-          "url": "https://github.com/vercel/workflow"
+          "name": "Chrome DevTools MCP",
+          "type": "mcp",
+          "desc": "실행 중인 Chrome을 제어하며 성능 트레이스, 네트워크, 콘솔을 에이전트가 읽게 하는 공식 MCP 서버입니다.",
+          "reason": "nodetreehome-web이 nodetree.kr의 실시간 시각화 페이지에서 LCP와 메모리 누수를 확인하고 Vercel 배포 전에 고치는 데 쓸 수 있습니다. 접근성 감사 스킬도 함께 제공됩니다.",
+          "trend": "hot",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
         },
         {
-          "name": "skills CLI",
-          "type": "tool",
-          "desc": "npx skills 명령으로 Claude Code와 Codex용 스킬 파일을 찾고 설치·갱신·삭제하는 Vercel Labs 도구입니다.",
-          "reason": "nodetreehome-web이 React·Vercel 모범 사례 스킬을 프로젝트별로 갱신해 두 에이전트에 같은 지침을 줄 때 쓸 수 있습니다. 설치된 스킬 버전을 한 곳에서 관리합니다.",
-          "trend": "rising",
-          "url": "https://github.com/vercel-labs/skills"
-        },
-        {
-          "name": "pnpm",
-          "type": "tool",
-          "desc": "디스크 공간을 절약하는 Node.js 패키지 매니저입니다.",
-          "reason": "nodetreehome-web이 의존성이 큰 React·Three.js 프로젝트의 설치 시간과 Vercel 빌드 캐시 용량을 줄이는 데 쓸 수 있습니다. isoartlab 등 여러 저장소를 같은 규칙으로 관리하는 작업에 연결됩니다.",
+          "name": "Sentry MCP",
+          "type": "mcp",
+          "desc": "Sentry 이슈, 트레이스, 로그를 코딩 에이전트가 조회하게 하는 MCP 서버와 Claude Code 플러그인입니다.",
+          "reason": "nodetreehome-web이 배포 후 나온 런타임 오류를 스택 트레이스와 함께 읽고 수정하는 흐름에 쓸 수 있습니다. React 프런트엔드의 API 오류 추적에 연결됩니다.",
           "trend": "stable",
-          "url": "https://github.com/pnpm/pnpm"
+          "url": "https://github.com/getsentry/sentry-mcp"
+        },
+        {
+          "name": "agent-browser",
+          "type": "tool",
+          "desc": "접근성 트리 스냅샷으로 브라우저를 조작하는 Vercel Labs의 Rust CLI이며 MCP 서버로도 동작합니다.",
+          "reason": "nodetreehome-web이 배포된 페이지를 화면 스냅샷과 axe-core 감사로 확인하는 검증 단계에 쓸 수 있습니다. HAR 녹화와 콘솔 로그로 WebGPU 페이지의 오류를 재현하는 데도 맞습니다.",
+          "trend": "rising",
+          "url": "https://github.com/vercel-labs/agent-browser"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "beangulp",
+          "name": "paperless-ngx",
           "type": "tool",
-          "desc": "계좌 명세서와 문서에서 거래를 Beancount 장부로 가져오는 임포터 프레임워크입니다.",
-          "reason": "nodetree-accounting이 보조사업 통장 거래내역을 계정과목별 장부로 일괄 입력하는 작업에 쓸 수 있습니다. 은행 CSV 형식별 임포터를 한 번 만들어 정산 때마다 재사용합니다.",
+          "desc": "스캔한 문서를 OCR로 색인해 검색 가능한 아카이브로 만드는 오픈소스 문서 관리 시스템입니다.",
+          "reason": "nodetree-accounting이 보조사업 정산용 증빙과 지출결의서를 사업별 태그로 보관하고 찾는 데 쓸 수 있습니다. saengsanso-accounting의 법인 세금계산서도 명의별로 분리해 보관할 수 있습니다.",
           "trend": "stable",
-          "url": "https://github.com/beancount/beangulp"
+          "url": "https://github.com/paperless-ngx/paperless-ngx"
         },
         {
-          "name": "smart_importer",
-          "type": "tool",
-          "desc": "Beancount 임포터에 scikit-learn 기반 로컬 머신러닝으로 계정과 거래처를 예측하게 하는 확장입니다.",
-          "reason": "saengsanso-accounting이 법인카드 경비 내역의 계정과목을 과거 분류 기록으로 자동 제안받는 데 쓸 수 있습니다. 베타 단계이므로 제안 결과는 사람이 확인해야 합니다.",
-          "trend": "stable",
-          "url": "https://github.com/beancount/smart_importer"
+          "name": "paperless-mcp",
+          "type": "mcp",
+          "desc": "Paperless-ngx의 문서, 태그, 연락처, 사용자 지정 필드를 조회하고 수정하는 MCP 서버입니다.",
+          "reason": "saengsanso-accounting이 법인카드 영수증을 거래처와 월별 태그로 분류하고 부가세 신고용 증빙을 모으는 작업을 에이전트에 맡길 수 있습니다. 사용자 지정 필드로 e나라도움 집행 항목 번호를 붙이는 용도에도 맞습니다.",
+          "trend": "rising",
+          "url": "https://github.com/baruchiro/paperless-mcp"
         },
         {
-          "name": "Receipt Wrangler",
+          "name": "Firefly III Data Importer",
           "type": "tool",
-          "desc": "영수증을 관리하는 오픈소스 모노레포이며 API와 데스크톱·모바일 앱을 포함합니다.",
-          "reason": "nodetree-accounting이 행사 현장에서 받은 영수증을 모아 보조사업 증빙 목록과 맞춰 볼 때 쓸 수 있습니다. 사업별로 증빙 누락 여부를 확인하는 작업에 연결됩니다.",
+          "desc": "CSV와 CAMT 은행 내역을 Firefly III로 규칙 매핑해 가져오는 공식 가져오기 도구입니다.",
+          "reason": "nodetree-accounting이 통장 거래내역 CSV를 보조금 계정과 일반회계로 규칙에 따라 분류해 가져오는 데 쓸 수 있습니다. 명령줄 가져오기가 있어 월말 정산 자동화에 연결됩니다.",
           "trend": "stable",
-          "url": "https://github.com/Receipt-Wrangler/receipt-wrangler-api"
+          "url": "https://github.com/firefly-iii/data-importer"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-10-30",
+      "names": [
+        "adamsreview",
+        "plugin-eval (wshobson/agents)",
+        "promptfoo",
+        "TDPilot",
+        "Pedalboard",
+        "Basic Pitch",
+        "Figma MCP 서버 가이드",
+        "Figwright",
+        "Satori",
+        "Pandoc",
+        "MarkItDown",
+        "Docling",
+        "Zotero MCP",
+        "Firecrawl MCP Server",
+        "arxiv-mcp-server",
+        "Chrome DevTools MCP",
+        "Sentry MCP",
+        "agent-browser",
+        "paperless-ngx",
+        "paperless-mcp",
+        "Firefly III Data Importer"
+      ]
+    },
     {
       "date": "2026-10-29",
       "names": [
@@ -549,32 +575,6 @@
         "hledger",
         "OCRmyPDF",
         "pdfplumber"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "names": [
-        "Inspect AI",
-        "DeepEval",
-        "ast-grep MCP",
-        "OpenTimelineIO",
-        "Essentia",
-        "LYGIA",
-        "rembg",
-        "Real-ESRGAN",
-        "resvg",
-        "Typst",
-        "Paged.js",
-        "mcp-obsidian",
-        "Exa MCP Server",
-        "GPT Researcher",
-        "yt-dlp",
-        "Biome",
-        "Knip",
-        "Stagehand",
-        "Camelot",
-        "DuckDB MCP Server",
-        "Fava"
       ]
     }
   ]
