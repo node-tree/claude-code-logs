@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T05:49:07.573548+00:00",
+  "lastUpdated": "2026-10-30T06:08:47.906422+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "70b9d928",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:10:50.506000+00:00",
-      "durationSeconds": 3302,
+      "durationSeconds": 3710,
       "modelTier": "opus",
       "projectName": "insta-1080",
-      "toolCallCount": 218,
+      "toolCallCount": 244,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
