@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-30T05:00:35.974974+00:00",
+  "lastUpdated": "2026-10-30T05:03:13.407934+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0599153d",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:32:36.401000+00:00",
-      "durationSeconds": 1582,
+      "durationSeconds": 1878,
       "modelTier": "opus",
-      "projectName": "2027-주요업무계획",
-      "toolCallCount": 126,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 128,
       "agentsUsed": []
     },
     {
