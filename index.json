@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T07:55:25.693896+00:00",
+  "lastUpdated": "2026-10-30T07:57:22.468699+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "de3aec49",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T07:56:07.536000+00:00",
+      "durationSeconds": 67,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 23,
+      "agentsUsed": []
+    },
     {
       "sessionId": "6fda29db",
       "date": "2026-10-30",
@@ -3302,16 +3312,6 @@
       "modelTier": "sonnet",
       "projectName": "_shots",
       "toolCallCount": 200,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "7b2b8111",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T13:22:31.368000+00:00",
-      "durationSeconds": 37504,
-      "modelTier": "opus",
-      "projectName": "yr-013-v106-animatic",
-      "toolCallCount": 832,
       "agentsUsed": []
     }
   ]
