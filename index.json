@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T08:01:42.203146+00:00",
+  "lastUpdated": "2026-10-30T08:47:39.073500+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -50,6 +50,16 @@
       "modelTier": "opus",
       "projectName": "Downloads",
       "toolCallCount": 12,
+      "agentsUsed": []
+    },
+    {
+      "sessionId": "cec54ef2",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T06:36:28.596000+00:00",
+      "durationSeconds": 1832,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 94,
       "agentsUsed": []
     },
     {
@@ -3302,16 +3312,6 @@
       "modelTier": "sonnet",
       "projectName": "memory",
       "toolCallCount": 45,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c2aa15db",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T17:28:04.454000+00:00",
-      "durationSeconds": 4578,
-      "modelTier": "sonnet",
-      "projectName": "_shots",
-      "toolCallCount": 200,
       "agentsUsed": []
     }
   ]
