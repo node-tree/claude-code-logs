@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T05:43:18.248972+00:00",
+  "lastUpdated": "2026-10-30T05:45:24.998087+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "70b9d928",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:10:50.506000+00:00",
-      "durationSeconds": 2891,
+      "durationSeconds": 3302,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 198,
+      "projectName": "insta-1080",
+      "toolCallCount": 218,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
