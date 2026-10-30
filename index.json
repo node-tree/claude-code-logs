@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T13:56:22.000388+00:00",
+  "lastUpdated": "2026-10-30T13:58:02.741251+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "cd4334b6",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T13:28:11.402000+00:00",
+      "durationSeconds": 2067,
+      "modelTier": "opus",
+      "projectName": "20261030-keyring",
+      "toolCallCount": 124,
+      "agentsUsed": []
+    },
     {
       "sessionId": "de3aec49",
       "date": "2026-10-30",
@@ -3302,16 +3312,6 @@
       "modelTier": "sonnet",
       "projectName": "",
       "toolCallCount": 21,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "4ebd8bb9",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T20:53:37.343000+00:00",
-      "durationSeconds": 535,
-      "modelTier": "sonnet",
-      "projectName": "memory",
-      "toolCallCount": 45,
       "agentsUsed": []
     }
   ]
