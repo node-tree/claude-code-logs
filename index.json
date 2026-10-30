@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T00:20:15.488314+00:00",
+  "lastUpdated": "2026-10-30T00:23:56.974623+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "efa143b7",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T00:17:59.221000+00:00",
+      "durationSeconds": 329,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 23,
+      "agentsUsed": []
+    },
     {
       "sessionId": "e1ec658f",
       "date": "2026-10-29",
@@ -3294,23 +3304,6 @@
       "projectName": "위성악보시리즈-역류",
       "toolCallCount": 1398,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "696c5047",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T03:45:43.111000+00:00",
-      "durationSeconds": 88382,
-      "modelTier": "fable",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 1115,
-      "agentsUsed": [
-        "doc-design",
-        "evaluator",
-        "film-production",
-        "generative-visual",
-        "research",
-        "sound-art"
-      ]
     }
   ]
 }
