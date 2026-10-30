@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T08:47:39.073500+00:00",
+  "lastUpdated": "2026-10-30T08:49:10.846744+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -56,10 +56,10 @@
       "sessionId": "cec54ef2",
       "date": "2026-10-30",
       "startTime": "2026-10-30T06:36:28.596000+00:00",
-      "durationSeconds": 1832,
+      "durationSeconds": 1924,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 94,
+      "projectName": "kkumdarak-forms",
+      "toolCallCount": 97,
       "agentsUsed": []
     },
     {
