@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T14:34:31.399338+00:00",
+  "lastUpdated": "2026-10-30T22:05:23.432969+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "185753b0",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T22:03:10.710000+00:00",
+      "durationSeconds": 125,
+      "modelTier": "sonnet",
+      "projectName": "보유종목",
+      "toolCallCount": 46,
+      "agentsUsed": []
+    },
     {
       "sessionId": "cd4334b6",
       "date": "2026-10-30",
@@ -3303,16 +3313,6 @@
         "evaluator",
         "media-art-pipeline"
       ]
-    },
-    {
-      "sessionId": "b56d32ab",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T22:03:11.714000+00:00",
-      "durationSeconds": 218,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 21,
-      "agentsUsed": []
     }
   ]
 }
