@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T04:18:41.897919+00:00",
+  "lastUpdated": "2026-10-30T04:22:51.896412+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -30,10 +30,10 @@
       "sessionId": "885056fe",
       "date": "2026-10-30",
       "startTime": "2026-10-30T01:54:16.259000+00:00",
-      "durationSeconds": 4417,
+      "durationSeconds": 4998,
       "modelTier": "opus",
-      "projectName": "review-r3",
-      "toolCallCount": 219,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 241,
       "agentsUsed": [
         "general-purpose"
       ]
