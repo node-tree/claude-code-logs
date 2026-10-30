@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-30T04:48:54.337312+00:00",
+  "lastUpdated": "2026-10-30T04:49:58.064201+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "70b9d928",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:10:50.506000+00:00",
-      "durationSeconds": 1666,
+      "durationSeconds": 2271,
       "modelTier": "opus",
-      "projectName": "3회차_유산모델",
-      "toolCallCount": 145,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 167,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
