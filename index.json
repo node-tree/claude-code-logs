@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T04:53:50.676997+00:00",
+  "lastUpdated": "2026-10-30T04:57:27.365309+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0599153d",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T04:32:36.401000+00:00",
+      "durationSeconds": 1547,
+      "modelTier": "opus",
+      "projectName": "2027-주요업무계획",
+      "toolCallCount": 125,
+      "agentsUsed": []
+    },
     {
       "sessionId": "70b9d928",
       "date": "2026-10-30",
@@ -3302,16 +3312,6 @@
       "modelTier": "opus",
       "projectName": "촬영",
       "toolCallCount": 1202,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "7c971dab",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T08:19:27.728000+00:00",
-      "durationSeconds": 802,
-      "modelTier": "sonnet",
-      "projectName": "anim",
-      "toolCallCount": 55,
       "agentsUsed": []
     }
   ]
