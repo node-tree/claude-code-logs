@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T14:27:20.377205+00:00",
+  "lastUpdated": "2026-10-30T14:34:31.399338+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -111,10 +111,10 @@
       "sessionId": "885056fe",
       "date": "2026-10-30",
       "startTime": "2026-10-30T01:54:16.259000+00:00",
-      "durationSeconds": 9128,
+      "durationSeconds": 9483,
       "modelTier": "opus",
-      "projectName": "review-창r41",
-      "toolCallCount": 377,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 394,
       "agentsUsed": [
         "general-purpose"
       ]
