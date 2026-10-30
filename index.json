@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T07:29:55.368540+00:00",
+  "lastUpdated": "2026-10-30T07:30:50.522956+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "6fda29db",
+      "date": "2026-10-30",
+      "startTime": "2026-10-30T07:24:41.785000+00:00",
+      "durationSeconds": 372,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 61,
+      "agentsUsed": []
+    },
     {
       "sessionId": "3d25dc5e",
       "date": "2026-10-30",
@@ -3302,16 +3312,6 @@
       "modelTier": "opus",
       "projectName": "yr-013-v106-animatic",
       "toolCallCount": 832,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "dea99f6e",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T13:00:22.133000+00:00",
-      "durationSeconds": 602,
-      "modelTier": "sonnet",
-      "projectName": "_큐레이터용_캡처",
-      "toolCallCount": 65,
       "agentsUsed": []
     }
   ]
