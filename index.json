@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-30T07:13:05.561178+00:00",
+  "lastUpdated": "2026-10-30T07:13:25.851377+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3d25dc5e",
       "date": "2026-10-30",
       "startTime": "2026-10-30T07:11:28.713000+00:00",
-      "durationSeconds": 29,
+      "durationSeconds": 110,
       "modelTier": "opus",
       "projectName": "Downloads",
-      "toolCallCount": 2,
+      "toolCallCount": 5,
       "agentsUsed": []
     },
     {
