@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-31T04:49:34.609584+00:00",
+  "lastUpdated": "2026-10-31T04:50:45.007728+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "bd85c8df",
+      "date": "2026-10-31",
+      "startTime": "2026-10-31T04:48:22.742000+00:00",
+      "durationSeconds": 154,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 40,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "7db6e058",
       "date": "2026-10-31",
@@ -3303,16 +3315,6 @@
       "modelTier": "opus",
       "projectName": "yr-014-gaetgol-to-sphere",
       "toolCallCount": 775,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "3ae8c5c5",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T07:54:58.352000+00:00",
-      "durationSeconds": 1801,
-      "modelTier": "sonnet",
-      "projectName": "memory",
-      "toolCallCount": 120,
       "agentsUsed": []
     }
   ]
