@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-31T04:21:44.117140+00:00",
+  "lastUpdated": "2026-10-31T04:44:27.704116+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7db6e058",
+      "date": "2026-10-31",
+      "startTime": "2026-10-31T04:42:48.439000+00:00",
+      "durationSeconds": 88,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 3,
+      "agentsUsed": []
+    },
     {
       "sessionId": "2890235b",
       "date": "2026-10-31",
@@ -3301,16 +3311,6 @@
       "modelTier": "sonnet",
       "projectName": "memory",
       "toolCallCount": 120,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "1f0feb47",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T05:37:31.789000+00:00",
-      "durationSeconds": 2835,
-      "modelTier": "sonnet",
-      "projectName": "yr-016-bridge-on-river",
-      "toolCallCount": 174,
       "agentsUsed": []
     }
   ]
