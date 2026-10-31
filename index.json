@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-31T17:13:13.732135+00:00",
+  "lastUpdated": "2026-10-31T22:04:08.250658+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "fd720aa8",
+      "date": "2026-10-31",
+      "startTime": "2026-10-31T22:03:13.472000+00:00",
+      "durationSeconds": 49,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 31,
+      "agentsUsed": []
+    },
     {
       "sessionId": "0381ff06",
       "date": "2026-10-31",
@@ -3301,20 +3311,6 @@
       "projectName": "위성악보-역류",
       "toolCallCount": 56,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "0a58a92e",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T10:57:13.794000+00:00",
-      "durationSeconds": 12294,
-      "modelTier": "fable",
-      "projectName": "강사비",
-      "toolCallCount": 97,
-      "agentsUsed": [
-        "doc-design",
-        "evaluator",
-        "nodetree-accounting"
-      ]
     }
   ]
 }
