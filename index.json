@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T05:15:37.204124+00:00",
+  "lastUpdated": "2026-10-31T05:21:19.066995+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "bd85c8df",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:48:22.742000+00:00",
-      "durationSeconds": 752,
+      "durationSeconds": 1492,
       "modelTier": "opus",
-      "projectName": "14-듀엣설계",
-      "toolCallCount": 50,
+      "projectName": "서곡",
+      "toolCallCount": 147,
       "agentsUsed": [
         "general-purpose"
       ]
