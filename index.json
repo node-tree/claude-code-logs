@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-10-31T06:32:02.298183+00:00",
+  "lastUpdated": "2026-10-31T06:35:36.805748+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0381ff06",
+      "date": "2026-10-31",
+      "startTime": "2026-10-31T06:13:56.917000+00:00",
+      "durationSeconds": 1733,
+      "modelTier": "opus",
+      "projectName": "join",
+      "toolCallCount": 160,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "21ace4b8",
       "date": "2026-10-31",
@@ -3302,19 +3314,6 @@
         "doc-design",
         "evaluator",
         "nodetree-accounting"
-      ]
-    },
-    {
-      "sessionId": "c7b5dc09",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T10:10:24.239000+00:00",
-      "durationSeconds": 19855,
-      "modelTier": "fable",
-      "projectName": "memory",
-      "toolCallCount": 139,
-      "agentsUsed": [
-        "evaluator",
-        "sound-art"
       ]
     }
   ]
