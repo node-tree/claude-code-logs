@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-31T03:32:54.473880+00:00",
+  "lastUpdated": "2026-10-31T03:33:04.970177+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "2890235b",
       "date": "2026-10-31",
       "startTime": "2026-10-31T03:10:41.841000+00:00",
-      "durationSeconds": 1286,
+      "durationSeconds": 1406,
       "modelTier": "opus",
-      "projectName": "gohyang-research-ig-20261023",
-      "toolCallCount": 140,
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 148,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
