@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T05:22:42.946865+00:00",
+  "lastUpdated": "2026-10-31T05:24:55.148013+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "bd85c8df",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:48:22.742000+00:00",
-      "durationSeconds": 1578,
+      "durationSeconds": 1779,
       "modelTier": "opus",
-      "projectName": "서곡",
-      "toolCallCount": 147,
+      "projectName": "리서치_도시소외계층_부산만주",
+      "toolCallCount": 160,
       "agentsUsed": [
         "general-purpose"
       ]
