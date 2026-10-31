@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-10-31T13:30:09.237201+00:00",
+  "lastUpdated": "2026-10-31T13:30:18.220606+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0381ff06",
       "date": "2026-10-31",
       "startTime": "2026-10-31T06:13:56.917000+00:00",
-      "durationSeconds": 4351,
+      "durationSeconds": 4854,
       "modelTier": "opus",
       "projectName": "톤잠식-시험-r1",
-      "toolCallCount": 258,
+      "toolCallCount": 260,
       "agentsUsed": [
         "general-purpose"
       ]
