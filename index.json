@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T04:52:05.399785+00:00",
+  "lastUpdated": "2026-10-31T04:55:08.352544+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "7db6e058",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:42:48.439000+00:00",
-      "durationSeconds": 357,
+      "durationSeconds": 739,
       "modelTier": "opus",
-      "projectName": "현대음악-오케스트레이션",
-      "toolCallCount": 29,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 66,
       "agentsUsed": [
         "general-purpose"
       ]
