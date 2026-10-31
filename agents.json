@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:36:50.993231+00:00",
+  "lastUpdated": "2026-10-31T16:37:33.746650+00:00",
   "totalAgents": 115,
   "agents": [
     {
@@ -262,6 +262,24 @@
       "subSkillCount": 18
     },
     {
+      "id": "video-interaction-mapper",
+      "type": "skill",
+      "category": "dev",
+      "name": "Video Interaction Mapper",
+      "desc": ">",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "generate-project-plan",
+      "type": "skill",
+      "category": "dev",
+      "name": "Generate Project Plan",
+      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
+      "emoji": "🔹",
+      "parentPlugin": "figma"
+    },
+    {
       "id": "figma-use-motion",
       "type": "skill",
       "category": "dev",
@@ -285,15 +303,6 @@
       "category": "dev",
       "name": "Figma Use Slides",
       "desc": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has ",
-      "emoji": "🔹",
-      "parentPlugin": "figma"
-    },
-    {
-      "id": "figma-spec",
-      "type": "skill",
-      "category": "dev",
-      "name": "Figma Spec",
-      "desc": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD,",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
@@ -370,15 +379,6 @@
       "parentPlugin": "figma"
     },
     {
-      "id": "figma-code-workflows",
-      "type": "skill",
-      "category": "dev",
-      "name": "Figma Code Workflows",
-      "desc": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalo",
-      "emoji": "🔹",
-      "parentPlugin": "figma"
-    },
-    {
       "id": "figma-use-figjam",
       "type": "skill",
       "category": "dev",
@@ -406,20 +406,20 @@
       "parentPlugin": "figma"
     },
     {
-      "id": "video-interaction-mapper",
+      "id": "figma-spec",
       "type": "skill",
       "category": "dev",
-      "name": "Video Interaction Mapper",
-      "desc": ">",
+      "name": "Figma Spec",
+      "desc": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD,",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
     {
-      "id": "generate-project-plan",
+      "id": "figma-code-workflows",
       "type": "skill",
       "category": "dev",
-      "name": "Generate Project Plan",
-      "desc": "Generate a FigJam project plan board from a PRD plus codebase context. Interactive flow: research → propose sections → p",
+      "name": "Figma Code Workflows",
+      "desc": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalo",
       "emoji": "🔹",
       "parentPlugin": "figma"
     },
