@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T05:07:33.828286+00:00",
+  "lastUpdated": "2026-10-31T05:10:31.114702+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "bd85c8df",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:48:22.742000+00:00",
-      "durationSeconds": 543,
+      "durationSeconds": 706,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 42,
+      "projectName": "14-듀엣설계",
+      "toolCallCount": 50,
       "agentsUsed": [
         "general-purpose"
       ]
