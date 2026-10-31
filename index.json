@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-10-31T00:17:50.708109+00:00",
+  "lastUpdated": "2026-10-31T00:19:01.599846+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "46a2d8db",
+      "date": "2026-10-31",
+      "startTime": "2026-10-31T00:15:37.069000+00:00",
+      "durationSeconds": 178,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 38,
+      "agentsUsed": []
+    },
     {
       "sessionId": "185753b0",
       "date": "2026-10-30",
@@ -3299,20 +3309,6 @@
       "projectName": "yr-016-bridge-on-river",
       "toolCallCount": 185,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "c3eefa47",
-      "date": "2026-09-20",
-      "startTime": "2026-09-20T23:34:33.140000+00:00",
-      "durationSeconds": 7459,
-      "modelTier": "fable",
-      "projectName": "interaction-mic",
-      "toolCallCount": 133,
-      "agentsUsed": [
-        "doc-design",
-        "evaluator",
-        "media-art-pipeline"
-      ]
     }
   ]
 }
