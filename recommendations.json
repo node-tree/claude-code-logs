@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-10-31",
+  "lastUpdated": "2026-11-01",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "DeepEval",
+          "name": "Langfuse",
           "type": "tool",
-          "desc": "pytest 방식으로 LLM 출력과 에이전트 동작을 지표 기반으로 채점하는 Python 평가 프레임워크다.",
-          "reason": "evaluator가 문서·홍보 텍스트 산출물에 PASS/REWORK를 판정할 때 주관 판단 대신 재현 가능한 점수 기준을 만들 수 있다. CI에서 Claude Code나 Codex가 호출해 회귀를 잡는 용도로 쓴다.",
-          "trend": "hot",
-          "url": "https://pypi.org/project/deepeval/"
-        },
-        {
-          "name": "Inspect AI",
-          "type": "tool",
-          "desc": "영국 AI Security Institute가 만든 LLM·에이전트 평가 프레임워크로 샌드박스 실행과 도구 호출 평가를 지원한다.",
-          "reason": "evaluator의 lens 판정 절차를 평가 태스크로 고정해 Generator 에이전트가 바뀌어도 같은 기준으로 비교할 수 있다. 에이전트가 코드를 실행하는 검수 과정을 샌드박스에서 돌릴 수 있다.",
+          "desc": "LLM 앱의 추적, 프롬프트 관리, 평가, 데이터셋을 한곳에서 다루는 MIT 라이선스 오픈소스 플랫폼으로 셀프호스팅과 OpenAPI·Python/JS SDK를 제공한다.",
+          "reason": "evaluator가 lens별 PASS/REWORK 판정을 내릴 때 입력·산출물·판정 근거를 trace로 남겨 같은 기준으로 다시 비교할 수 있다. Generator 에이전트가 바뀐 뒤에도 판정이 흔들렸는지 데이터셋 단위로 확인한다.",
           "trend": "rising",
-          "url": "https://pypi.org/project/inspect-ai/"
+          "url": "https://github.com/langfuse/langfuse"
         },
         {
-          "name": "Hypothesis",
+          "name": "Ragas",
           "type": "tool",
-          "desc": "입력을 자동 생성해 반례를 찾아주는 Python 속성 기반 테스트 라이브러리다.",
-          "reason": "evaluator의 code 렌즈로 데이터 파이프라인과 OSC 메시지 파서를 검수할 때 경계값 입력을 자동으로 만들어 숨은 오류를 찾는다. 사람이 쓴 몇 개의 예시 테스트로는 놓치는 케이스를 보완한다.",
+          "desc": "LLM 애플리케이션 평가용 지표와 테스트 데이터 생성을 제공하는 Apache-2.0 Python 툴킷이다.",
+          "reason": "evaluator의 doc 렌즈에서 지원서·보도자료 초안이 근거 자료에 충실한지를 지표로 점검하는 용도로 쓴다. 판정 기준을 스크립트로 고정하면 Claude Code와 Codex가 같은 방식으로 호출할 수 있다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/hypothesis/"
+          "url": "https://github.com/explodinggradients/ragas"
+        },
+        {
+          "name": "Arize Phoenix",
+          "type": "mcp",
+          "desc": "트레이싱, 평가, 실험, 프롬프트 관리를 갖춘 오픈소스 AI 관측 플랫폼이며 서버의 /mcp 엔드포인트로 Claude Code가 trace와 실험을 조회할 수 있다.",
+          "reason": "evaluator가 REWORK를 반복한 에이전트 호출 기록을 Claude Code에서 직접 조회해 원인을 좁힐 수 있다. 하네스 위임 체인이 어디서 막히는지 trace로 확인하는 데 쓴다.",
+          "trend": "rising",
+          "url": "https://github.com/Arize-ai/phoenix"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "OpenTimelineIO",
+          "name": "LYGIA",
           "type": "tool",
-          "desc": "편집 타임라인(클립 순서·길이·미디어 참조)을 도구 간에 주고받는 Apache 라이선스 교환 포맷과 Python API다.",
-          "reason": "film-production이 Final Cut Pro 편집본의 컷 정보를 스크립트로 읽고 변환해 영화제 출품용 버전 관리나 컷 리스트 검증에 쓸 수 있다. 어댑터를 통해 다른 편집기와 컷 정보를 교환한다.",
+          "desc": "GLSL, HLSL, Metal, WGSL, WESL, CUDA를 지원하고 TSL과의 호환을 맞추는 파일 단위 셰이더 함수 라이브러리다.",
+          "reason": "generative-visual이 Three.js WebGPU/TSL 컴퓨트 셰이더를 작성할 때 노이즈, 색 공간, 필터 함수를 직접 짜지 않고 가져와 쓸 수 있다. WGSL 버전이 있어 WebGPU 경로에 바로 붙인다.",
           "trend": "rising",
-          "url": "https://pypi.org/project/OpenTimelineIO/"
+          "url": "https://github.com/patriciogonzalezvivo/lygia"
         },
         {
-          "name": "Essentia",
+          "name": "librosa",
           "type": "tool",
-          "desc": "오디오 분석과 음악 정보 검색을 위한 C++ 라이브러리로 Python 바인딩을 제공한다.",
-          "reason": "sound-art와 media-art-pipeline이 녹음 소스의 스펙트럼·리듬·음색 특징을 추출해 센서·비주얼 매핑 파라미터로 쓰는 소니피케이션 작업에 연결된다. SuperCollider 합성 결과를 수치로 점검하는 용도로도 쓴다.",
+          "desc": "음악·오디오 신호 분석을 위한 Python 라이브러리다.",
+          "reason": "sound-art와 media-art-pipeline이 녹음 소스에서 비트, 크로마, 스펙트럴 특징을 뽑아 OSC로 비주얼 파라미터에 보내는 소니피케이션 매핑 설계에 쓴다. SuperCollider로 합성한 결과를 수치로 점검하는 분석 스크립트에도 맞는다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/essentia/"
+          "url": "https://github.com/librosa/librosa"
         },
         {
-          "name": "auto-editor",
+          "name": "MediaPipe",
           "type": "tool",
-          "desc": "소리 크기나 모션을 분석해 무음·정지 구간을 자동으로 잘라내고 Final Cut Pro 등으로 타임라인을 내보내는 CLI다.",
-          "reason": "film-production이 긴 공연 촬영본에서 빈 구간을 걸러 러프 컷을 만들고 Final Cut Pro로 불러와 편집 시간을 줄일 수 있다. 컷 구간만 먼저 미리보기로 내보내 검토하는 옵션도 있다.",
+          "desc": "손, 얼굴, 포즈 인식 같은 온디바이스 ML 솔루션을 Python, 웹, 모바일에서 실행하는 Google의 Apache-2.0 프레임워크다.",
+          "reason": "media-art-pipeline이 카메라 입력에서 관객의 몸과 손 움직임을 추출해 OSC로 넘기는 인터랙티브 설치에 쓴다. 브라우저에서 돌아가므로 Three.js 비주얼과 같은 페이지에서 연결된다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/auto-editor/"
+          "url": "https://github.com/google-ai-edge/mediapipe"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "rembg",
+          "name": "sharp",
           "type": "tool",
-          "desc": "이미지 배경을 제거하는 CLI·Python 라이브러리·HTTP 서버로 로컬 ONNX 모델을 쓴다.",
-          "reason": "visual-design이 전시 포스터와 SNS 이미지를 만들 때 공연 사진과 설치 작품 사진의 배경을 일괄 분리해 Figma에 넣을 수 있다. 폴더 단위 처리(rembg p)로 여러 장을 한 번에 돌린다.",
+          "desc": "JPEG, PNG, WebP, AVIF, TIFF를 libvips로 빠르게 리사이즈·변환하는 Node.js 이미지 처리 라이브러리다.",
+          "reason": "visual-design이 포스터와 SNS 이미지를 해상도별로 일괄 내보내거나 nodetree.kr용 WebP·AVIF로 변환하는 스크립트에 쓴다. Claude Code가 Node 스크립트로 바로 호출할 수 있다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/rembg/"
+          "url": "https://github.com/lovell/sharp"
         },
         {
-          "name": "CairoSVG",
+          "name": "SVGO",
           "type": "tool",
-          "desc": "SVG를 PDF·EPS·PNG로 변환하는 Python 도구다.",
-          "reason": "visual-design의 HTML/SVG 조판 결과를 인쇄용 PDF나 고해상도 PNG로 내보내는 단계를 스크립트로 자동화할 수 있다. 포스터 시안을 여러 크기로 일괄 출력할 때 쓴다.",
+          "desc": "SVG에서 편집기 메타데이터와 불필요한 요소를 제거하는 Node.js CLI이자 라이브러리다.",
+          "reason": "visual-design이 Figma에서 내보낸 SVG 로고와 HTML/SVG 조판 결과를 웹에 올리기 전에 용량을 줄이는 단계에 쓴다. 폴더 단위 재귀 처리를 지원해 포스터 에셋을 한 번에 정리한다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/CairoSVG/"
+          "url": "https://github.com/svg/svgo"
         },
         {
-          "name": "pyvips",
+          "name": "Paged.js",
           "type": "tool",
-          "desc": "libvips 기반의 빠르고 메모리를 적게 쓰는 Python 이미지 처리 라이브러리다.",
-          "reason": "visual-design이 큰 해상도의 인쇄용 포스터 원본을 축소·크롭·포맷 변환해 SNS 규격으로 뽑을 때 메모리 부담이 적다. 수십 장의 제너러티브 렌더 결과를 일괄 처리하는 파이프라인에도 맞다.",
-          "trend": "rising",
-          "url": "https://pypi.org/project/pyvips/"
+          "desc": "@page 같은 Paged Media CSS를 브라우저에서 구현해 HTML로 인쇄용 책을 만드는 오픈소스 JavaScript 라이브러리다.",
+          "reason": "visual-design이 HTML/SVG 조판으로 전시 리플릿과 포스터 시리즈를 만들 때 쪽 번호와 재단 영역을 CSS로 제어하는 데 쓴다. 별도 프로젝트 pagedjs-cli로 PDF 출력을 자동화할 수 있다.",
+          "trend": "stable",
+          "url": "https://github.com/pagedjs/pagedjs"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "icalendar",
+          "name": "Typst",
           "type": "tool",
-          "desc": "RFC 5545 iCalendar(.ics) 파일을 읽고 생성하는 Python 패키지다.",
-          "reason": "project-planner가 Obsidian/Notion에 정리한 공모 마감과 설치 일정을 .ics로 내보내 캘린더에 연동할 수 있다. 지원서 제출 마감 알림을 파일 하나로 배포하는 용도다.",
-          "trend": "stable",
-          "url": "https://pypi.org/project/icalendar/"
+          "desc": "LaTeX 수준의 조판을 더 쉬운 마크업과 스크립트로 제공하며 typst compile 명령으로 PDF를 만드는 조판 시스템이다.",
+          "reason": "doc-design이 포트폴리오와 기록집처럼 반복 구조가 많은 문서를 템플릿 파일과 데이터로 일괄 생성하는 데 쓴다. 폰트 경로 지정을 지원해 한글 서체를 고정할 수 있다.",
+          "trend": "rising",
+          "url": "https://github.com/typst/typst"
         },
         {
-          "name": "pypdf",
+          "name": "Marp CLI",
           "type": "tool",
-          "desc": "PDF 분할·병합·텍스트 추출·폼 처리를 하는 순수 Python 라이브러리다.",
-          "reason": "doc-design이 포트폴리오와 도록 PDF를 병합하고 지원서 첨부용 페이지를 추려내는 작업을 스크립트로 반복할 수 있다. 공모 양식 PDF의 필드를 채우는 grant-writer 작업에도 맞다.",
+          "desc": "Markdown 슬라이드를 HTML, PDF, PPTX, 이미지로 변환하는 명령줄 도구다.",
+          "reason": "grant-writer가 쓴 제안서 본문을 심사 발표용 슬라이드로 빠르게 옮길 때 쓴다. project-planner가 일정 요약을 Markdown에서 곧바로 PDF 발표 자료로 만드는 데도 맞는다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/pypdf/"
+          "url": "https://github.com/marp-team/marp-cli"
         },
         {
-          "name": "python-pptx",
+          "name": "pdfplumber",
           "type": "tool",
-          "desc": "PowerPoint(.pptx) 파일을 코드로 생성·수정하는 Python 라이브러리다.",
-          "reason": "grant-writer가 공모 심사용 발표 자료와 제안서 슬라이드를 템플릿에서 자동으로 채워 만들 수 있다. 작품 이미지와 예산표를 반복 삽입하는 doc-design 작업을 줄인다.",
+          "desc": "PDF의 글자, 선, 표 위치를 상세히 추출하고 CSV·JSON으로 내보내는 MIT 라이선스 Python 라이브러리다.",
+          "reason": "grant-writer와 project-planner가 공모 공고 PDF의 지원 자격과 예산 항목 표를 구조화된 데이터로 뽑는 데 쓴다. 스캔본이 아니라 기계 생성 PDF에서 잘 동작한다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/python-pptx/"
+          "url": "https://github.com/jsvine/pdfplumber"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "yt-dlp",
-          "type": "tool",
-          "desc": "YouTube 등 다수 사이트의 영상·오디오·자막을 내려받는 CLI다.",
-          "reason": "research가 작가 인터뷰와 강연 영상의 자막을 받아 옵시디안 자료 노트로 정리하는 심층 리서치에 쓸 수 있다. 자막만 추출(--write-subs --skip-download)하면 용량 없이 분석할 수 있다.",
+          "name": "Crawl4AI",
+          "type": "mcp",
+          "desc": "웹 페이지를 LLM용 깨끗한 Markdown으로 변환하고 심층 크롤링과 MCP 엔드포인트를 제공하는 오픈소스 크롤러다.",
+          "reason": "research의 공모 레이더 모드가 공모·레지던시 공고 사이트를 주기적으로 크롤링해 Markdown으로 모으는 데 쓴다. 심층 리서치에서는 작가와 이론 자료 사이트를 한 번에 수집한다.",
           "trend": "hot",
-          "url": "https://pypi.org/project/yt-dlp/"
+          "url": "https://github.com/unclecode/crawl4ai"
         },
         {
-          "name": "Trafilatura",
-          "type": "tool",
-          "desc": "웹 페이지에서 본문·메타데이터를 추출해 Markdown·JSON 등으로 변환하는 Python 패키지이자 CLI다.",
-          "reason": "research가 공모·레지던시 공고 페이지와 작가 기사에서 광고를 제외한 본문만 뽑아 매칭 전략 분석에 넣을 수 있다. 여러 URL을 일괄 변환해 자료실 노트를 만드는 흐름에 맞다.",
+          "name": "Exa MCP Server",
+          "type": "mcp",
+          "desc": "web_search_exa와 web_fetch_exa 도구로 웹 검색과 페이지 본문 가져오기를 제공하는 원격 MCP 서버다.",
+          "reason": "research가 작가·작품·미디어아트 이론을 조사할 때 의미 기반 검색으로 관련 페이지를 찾고 본문을 바로 가져온다. 날짜와 도메인 필터를 켜면 최근 공모 공고만 걸러낸다.",
           "trend": "rising",
-          "url": "https://pypi.org/project/trafilatura/"
+          "url": "https://github.com/exa-labs/exa-mcp-server"
         },
         {
-          "name": "feedparser",
-          "type": "tool",
-          "desc": "RSS·Atom 등 웹 피드를 파싱하는 Python 라이브러리다.",
-          "reason": "research의 공모 레이더가 공모·재단 사이트의 RSS 피드를 주기적으로 읽어 새 공고와 마감일을 추적할 수 있다. 피드가 있는 사이트는 스크래핑 없이 안정적으로 수집된다.",
-          "trend": "stable",
-          "url": "https://pypi.org/project/feedparser/"
+          "name": "Tavily MCP",
+          "type": "mcp",
+          "desc": "검색, 추출, 사이트 맵, 크롤링 도구를 제공하며 npx나 원격 서버로 쓰는 MIT 라이선스 MCP 서버다.",
+          "reason": "research가 해외 레지던시와 어워드 사이트 구조를 map으로 파악한 뒤 마감일 정보를 extract로 가져오는 공모 발굴에 쓴다. Claude Code와 Codex 양쪽에서 같은 설정으로 쓸 수 있다.",
+          "trend": "rising",
+          "url": "https://github.com/tavily-ai/tavily-mcp"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Knip",
+          "name": "Vitest",
           "type": "tool",
-          "desc": "TypeScript·JavaScript 프로젝트에서 쓰지 않는 의존성·export·파일을 찾아주는 도구다.",
-          "reason": "nodetreehome-web의 React 프로젝트에서 누적된 미사용 컴포넌트와 패키지를 정리해 Vercel 번들과 빌드 시간을 줄일 수 있다. Claude Code가 만든 코드의 잔여물을 점검하는 데 맞다.",
-          "trend": "rising",
-          "url": "https://knip.dev"
-        },
-        {
-          "name": "Biome",
-          "type": "tool",
-          "desc": "포매터와 린터를 하나로 제공하는 Rust 기반 웹 툴체인이다.",
-          "reason": "nodetreehome-web의 포맷·린트 단계를 하나의 빠른 CLI로 통일해 Claude Code와 Codex가 같은 규칙으로 코드를 고치게 할 수 있다. 커밋 전 훅에서 실행하기에 부담이 적다.",
-          "trend": "rising",
-          "url": "https://biomejs.dev"
-        },
-        {
-          "name": "MCP Inspector",
-          "type": "tool",
-          "desc": "MCP 서버의 도구·리소스를 브라우저 UI나 CLI로 호출해 디버깅하는 공식 도구다.",
-          "reason": "nodetreehome-web이 만드는 자체 MCP 서버나 실시간 시각화 API를 Claude에 연결하기 전에 입출력을 확인할 수 있다. 이미 쓰는 TouchDesigner·SuperCollider MCP의 동작 점검에도 쓴다.",
+          "desc": "Vite 설정을 그대로 쓰는 JavaScript 테스트 프레임워크로 브라우저 모드와 V8 커버리지를 지원한다.",
+          "reason": "nodetreehome-web이 nodetree.kr의 React 컴포넌트와 실시간 시각화 데이터 처리를 배포 전에 테스트하는 데 쓴다. Vite 프로젝트라면 설정을 추가하지 않고 시작한다.",
           "trend": "stable",
-          "url": "https://github.com/modelcontextprotocol/inspector"
+          "url": "https://github.com/vitest-dev/vitest"
+        },
+        {
+          "name": "Oxc (Oxlint)",
+          "type": "tool",
+          "desc": "Rust로 만든 JavaScript·TypeScript 도구 모음이며 npx oxlint와 npx oxfmt로 린트와 포맷을 실행한다.",
+          "reason": "nodetreehome-web이 Claude Code가 수정한 React 코드를 Vercel 배포 전에 빠르게 린트하는 단계에 쓴다. 실행이 빨라 hook으로 매 수정마다 돌려도 부담이 적다.",
+          "trend": "rising",
+          "url": "https://github.com/oxc-project/oxc"
+        },
+        {
+          "name": "Lighthouse",
+          "type": "tool",
+          "desc": "웹 페이지의 성능, 접근성, SEO를 감사하고 JSON·HTML 보고서를 내는 Google의 Node CLI다.",
+          "reason": "nodetreehome-web이 WebGPU 시각화가 들어간 nodetree.kr 페이지의 로딩 성능을 배포 때마다 수치로 확인하는 데 쓴다. --only-categories 옵션으로 필요한 항목만 점검한다.",
+          "trend": "stable",
+          "url": "https://github.com/GoogleChrome/lighthouse"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "Fava",
+          "name": "OCRmyPDF",
           "type": "tool",
-          "desc": "Beancount 장부를 브라우저에서 조회하는 웹 인터페이스다.",
-          "reason": "nodetree-accounting과 saengsanso-accounting이 명의별 장부를 분리해 두고 계정별 잔액과 보조사업 집행 내역을 눈으로 검토할 수 있다. Claude Code가 수정한 장부가 맞는지 사람이 확인하는 화면으로 쓴다.",
+          "desc": "스캔 PDF에 검색 가능한 텍스트 층을 추가하고 PDF/A 출력을 지원하며 Tesseract 언어팩으로 한글을 처리하는 CLI다.",
+          "reason": "nodetree-accounting이 보조사업 정산 증빙으로 받은 스캔 영수증과 계약서를 검색 가능한 PDF로 바꿔 보관하는 데 쓴다. saengsanso-accounting도 법인카드 증빙 정리에 같은 방식으로 쓴다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/fava/"
+          "url": "https://github.com/ocrmypdf/OCRmyPDF"
         },
         {
-          "name": "PaddleOCR",
+          "name": "DuckDB",
           "type": "tool",
-          "desc": "PDF와 이미지를 Markdown·JSON으로 구조화하는 OCR·문서 파싱 툴킷으로 한국어를 지원하는 모델이 있다.",
-          "reason": "nodetree-accounting이 보조사업 정산 증빙(영수증·거래명세서 스캔)에서 금액과 날짜를 뽑아 집행 내역과 대조할 수 있다. saengsanso-accounting의 법인카드 영수증 처리에도 맞다.",
+          "desc": "CSV, Excel, Parquet, JSON 파일을 SQL로 바로 조회하는 인프로세스 분석 데이터베이스다.",
+          "reason": "saengsanso-accounting이 은행 거래내역 CSV와 법인카드 내역을 SQL로 합산해 부가세 신고 전 대조에 쓴다. nodetree-accounting은 보조사업 비목별 집행액을 파일 그대로 집계한다.",
           "trend": "rising",
-          "url": "https://pypi.org/project/paddleocr/"
+          "url": "https://github.com/duckdb/duckdb"
         },
         {
-          "name": "Camelot",
+          "name": "hledger",
           "type": "tool",
-          "desc": "PDF의 표를 추출해 pandas DataFrame·CSV·Excel로 내보내는 Python 라이브러리다.",
-          "reason": "saengsanso-accounting이 은행·카드사 PDF 명세서의 표를 장부 입력용 CSV로 바꾸는 작업에 쓸 수 있다. 격자선이 있는 표에 특히 정확하다.",
+          "desc": "텍스트 파일에 복식부기를 기록하고 CSV 가져오기와 JSON·HTML 출력을 지원하는 GPL-3.0 회계 도구다.",
+          "reason": "nodetree-accounting이 고유번호단체 일반회계를 텍스트 장부로 관리하고 Claude Code가 항목을 검토하게 하는 데 쓴다. 장부가 텍스트라 Git으로 변경 이력이 남는다.",
           "trend": "stable",
-          "url": "https://pypi.org/project/camelot-py/"
+          "url": "https://github.com/simonmichael/hledger"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-11-01",
+      "names": [
+        "Langfuse",
+        "Ragas",
+        "Arize Phoenix",
+        "LYGIA",
+        "librosa",
+        "MediaPipe",
+        "sharp",
+        "SVGO",
+        "Paged.js",
+        "Typst",
+        "Marp CLI",
+        "pdfplumber",
+        "Crawl4AI",
+        "Exa MCP Server",
+        "Tavily MCP",
+        "Vitest",
+        "Oxc (Oxlint)",
+        "Lighthouse",
+        "OCRmyPDF",
+        "DuckDB",
+        "hledger"
+      ]
+    },
     {
       "date": "2026-10-31",
       "names": [
@@ -549,32 +575,6 @@
         "Firefly III",
         "invoice2data",
         "Tesseract"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "names": [
-        "Opik",
-        "OpenLLMetry",
-        "Giskard",
-        "Meyda",
-        "FluCoMa",
-        "Demucs",
-        "Framelink Figma MCP",
-        "kiwipiepy",
-        "VTracer",
-        "python-hwpx",
-        "Vale",
-        "Marker",
-        "PaperQA2",
-        "PyAlex",
-        "Perplexity MCP",
-        "React Doctor",
-        "Neon MCP",
-        "React Scan",
-        "Beancount",
-        "Excel MCP Server",
-        "Actual Budget"
       ]
     }
   ]
