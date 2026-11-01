@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T01:40:46.910535+00:00",
+  "lastUpdated": "2026-11-01T04:16:55.519709+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -48,10 +48,10 @@
       "sessionId": "bd85c8df",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:48:22.742000+00:00",
-      "durationSeconds": 22592,
+      "durationSeconds": 23686,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 1090,
+      "projectName": "시안-영상-원형",
+      "toolCallCount": 1152,
       "agentsUsed": [
         "general-purpose"
       ]
