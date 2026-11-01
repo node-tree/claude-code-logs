@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-01T11:19:08.369640+00:00",
+  "lastUpdated": "2026-11-01T11:47:44.011261+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "7d0b9375",
       "date": "2026-11-01",
       "startTime": "2026-11-01T08:56:20.455000+00:00",
-      "durationSeconds": 4192,
+      "durationSeconds": 5313,
       "modelTier": "opus",
       "projectName": "kanghyunjung",
-      "toolCallCount": 421,
+      "toolCallCount": 469,
       "agentsUsed": []
     },
     {
