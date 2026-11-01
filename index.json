@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-01T07:57:06.115415+00:00",
+  "lastUpdated": "2026-11-01T09:03:29.074160+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7d0b9375",
+      "date": "2026-11-01",
+      "startTime": "2026-11-01T08:56:20.455000+00:00",
+      "durationSeconds": 439,
+      "modelTier": "opus",
+      "projectName": "20261101-madmapper-mcp",
+      "toolCallCount": 93,
+      "agentsUsed": []
+    },
     {
       "sessionId": "d39a84ce",
       "date": "2026-11-01",
@@ -3300,16 +3310,6 @@
       "modelTier": "sonnet",
       "projectName": "",
       "toolCallCount": 30,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "a6decfee",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T13:01:04.220000+00:00",
-      "durationSeconds": 7307,
-      "modelTier": "sonnet",
-      "projectName": "memory",
-      "toolCallCount": 312,
       "agentsUsed": []
     }
   ]
