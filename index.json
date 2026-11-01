@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-01T01:03:35.881015+00:00",
+  "lastUpdated": "2026-11-01T01:21:00.080444+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "d39a84ce",
+      "date": "2026-11-01",
+      "startTime": "2026-11-01T01:14:03.403000+00:00",
+      "durationSeconds": 497,
+      "modelTier": "opus",
+      "projectName": "claude",
+      "toolCallCount": 71,
+      "agentsUsed": []
+    },
     {
       "sessionId": "fd720aa8",
       "date": "2026-10-31",
@@ -3300,16 +3310,6 @@
       "modelTier": "sonnet",
       "projectName": "memory",
       "toolCallCount": 312,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "7812109b",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T12:14:36.711000+00:00",
-      "durationSeconds": 447,
-      "modelTier": "sonnet",
-      "projectName": "위성악보-역류",
-      "toolCallCount": 56,
       "agentsUsed": []
     }
   ]
