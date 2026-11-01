@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T04:16:55.519709+00:00",
+  "lastUpdated": "2026-11-01T04:29:07.818784+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -48,10 +48,10 @@
       "sessionId": "bd85c8df",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:48:22.742000+00:00",
-      "durationSeconds": 23686,
+      "durationSeconds": 24479,
       "modelTier": "opus",
-      "projectName": "시안-영상-원형",
-      "toolCallCount": 1152,
+      "projectName": "20261031-score-reels",
+      "toolCallCount": 1192,
       "agentsUsed": [
         "general-purpose"
       ]
