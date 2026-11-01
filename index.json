@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-01T12:52:14.998548+00:00",
+  "lastUpdated": "2026-11-01T22:04:19.056657+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "d33731f8",
+      "date": "2026-11-01",
+      "startTime": "2026-11-01T22:03:12.737000+00:00",
+      "durationSeconds": 60,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 31,
+      "agentsUsed": []
+    },
     {
       "sessionId": "7d0b9375",
       "date": "2026-11-01",
@@ -3303,16 +3313,6 @@
       "modelTier": "fable",
       "projectName": "ls-000-foundation",
       "toolCallCount": 19,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "0133db2a",
-      "date": "2026-09-21",
-      "startTime": "2026-09-21T22:03:14.022000+00:00",
-      "durationSeconds": 170,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 30,
       "agentsUsed": []
     }
   ]
