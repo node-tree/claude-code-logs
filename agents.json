@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-02T10:41:53.297300+00:00",
-  "totalAgents": 116,
+  "lastUpdated": "2026-11-02T10:47:25.508663+00:00",
+  "totalAgents": 113,
   "agents": [
     {
       "id": "canvas-design",
@@ -184,14 +184,6 @@
       "category": "dev",
       "name": "Unity Cli",
       "desc": "Use when interacting with Unity CLI from the terminal, or to control a running/connected Unity Editor from the command l",
-      "emoji": "🔹"
-    },
-    {
-      "id": "value-for-fable",
-      "type": "skill",
-      "category": "dev",
-      "name": "Value For Fable",
-      "desc": "Sonnet 모델 세션에 Fable 5의 운영 구조(outcome-first 커뮤니케이션·검증 규율·도구 병렬화·최종메시지 완결성·가독성 우선 토큰 절약)를 입히는 세션 모드 — 현재 세션에 직접 적용한다(독립작업 ",
       "emoji": "🔹"
     },
     {
@@ -778,22 +770,6 @@
       "type": "mcp",
       "category": "dev",
       "name": "notion",
-      "desc": "MCP 서버",
-      "emoji": "🔌"
-    },
-    {
-      "id": "mcp-github",
-      "type": "mcp",
-      "category": "dev",
-      "name": "github",
-      "desc": "MCP 서버",
-      "emoji": "🔌"
-    },
-    {
-      "id": "mcp-sequential-thinking",
-      "type": "mcp",
-      "category": "dev",
-      "name": "sequential-thinking",
       "desc": "MCP 서버",
       "emoji": "🔌"
     },
