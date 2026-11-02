@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-02T10:23:39.465542+00:00",
+  "lastUpdated": "2026-11-02T10:24:34.114616+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "98a993a0",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T10:10:55.682000+00:00",
+      "durationSeconds": 890,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 107,
+      "agentsUsed": []
+    },
     {
       "sessionId": "266544b7",
       "date": "2026-11-02",
@@ -3305,16 +3315,6 @@
       "modelTier": "opus",
       "projectName": "hgis",
       "toolCallCount": 386,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "69fd24e2",
-      "date": "2026-09-22",
-      "startTime": "2026-09-22T12:24:27.491000+00:00",
-      "durationSeconds": 10593,
-      "modelTier": "opus",
-      "projectName": "yr-018-wayu-score",
-      "toolCallCount": 304,
       "agentsUsed": []
     }
   ]
