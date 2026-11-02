@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-02T12:41:13.664030+00:00",
+  "lastUpdated": "2026-11-02T12:59:35.906972+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "cf152381",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T12:44:56.884000+00:00",
+      "durationSeconds": 883,
+      "modelTier": "opus",
+      "projectName": "측정",
+      "toolCallCount": 63,
+      "agentsUsed": []
+    },
     {
       "sessionId": "7056efbb",
       "date": "2026-11-02",
@@ -3305,19 +3315,6 @@
       "projectName": "kanghyunjung",
       "toolCallCount": 0,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "51dd1f70",
-      "date": "2026-09-22",
-      "startTime": "2026-09-22T23:04:06.670000+00:00",
-      "durationSeconds": 4791,
-      "modelTier": "opus",
-      "projectName": "임천보부상_포스터",
-      "toolCallCount": 61,
-      "agentsUsed": [
-        "evaluator",
-        "visual-design"
-      ]
     }
   ]
 }
