@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-02T11:34:25.313743+00:00",
+  "lastUpdated": "2026-11-02T11:35:22.598709+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7056efbb",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T11:13:47.794000+00:00",
+      "durationSeconds": 361,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 4,
+      "agentsUsed": []
+    },
     {
       "sessionId": "82450186",
       "date": "2026-11-02",
@@ -3308,16 +3318,6 @@
         "evaluator",
         "visual-design"
       ]
-    },
-    {
-      "sessionId": "f1a96954",
-      "date": "2026-09-22",
-      "startTime": "2026-09-22T22:03:10.418000+00:00",
-      "durationSeconds": 177,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 26,
-      "agentsUsed": []
     }
   ]
 }
