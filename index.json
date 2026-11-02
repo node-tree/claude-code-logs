@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T13:48:28.286175+00:00",
+  "lastUpdated": "2026-11-02T13:52:24.720778+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "a26ed2f2",
       "date": "2026-11-02",
       "startTime": "2026-11-02T12:57:59.725000+00:00",
-      "durationSeconds": 3357,
+      "durationSeconds": 3596,
       "modelTier": "opus",
-      "projectName": "_tmp_renders",
-      "toolCallCount": 227,
+      "projectName": "20261102-seoul-nadeuri",
+      "toolCallCount": 257,
       "agentsUsed": [
         "general-purpose"
       ]
