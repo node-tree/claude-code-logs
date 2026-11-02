@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-01T22:04:19.056657+00:00",
+  "lastUpdated": "2026-11-02T10:14:46.026644+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "134af19a",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T10:05:09.928000+00:00",
+      "durationSeconds": 666,
+      "modelTier": "opus",
+      "projectName": "2026-09-10-gunsan-ebb",
+      "toolCallCount": 101,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "d33731f8",
       "date": "2026-11-01",
@@ -3303,16 +3315,6 @@
       "modelTier": "opus",
       "projectName": "무제 프로젝트_수정안2.fcpxmld",
       "toolCallCount": 122,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "9a29dfbf",
-      "date": "2026-09-22",
-      "startTime": "2026-09-22T00:18:13.882000+00:00",
-      "durationSeconds": 874,
-      "modelTier": "fable",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 19,
       "agentsUsed": []
     }
   ]
