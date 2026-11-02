@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-11-01",
+  "lastUpdated": "2026-11-02",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "Langfuse",
-          "type": "tool",
-          "desc": "LLM 앱의 추적, 프롬프트 관리, 평가, 데이터셋을 한곳에서 다루는 MIT 라이선스 오픈소스 플랫폼으로 셀프호스팅과 OpenAPI·Python/JS SDK를 제공한다.",
-          "reason": "evaluator가 lens별 PASS/REWORK 판정을 내릴 때 입력·산출물·판정 근거를 trace로 남겨 같은 기준으로 다시 비교할 수 있다. Generator 에이전트가 바뀐 뒤에도 판정이 흔들렸는지 데이터셋 단위로 확인한다.",
-          "trend": "rising",
-          "url": "https://github.com/langfuse/langfuse"
-        },
-        {
-          "name": "Ragas",
-          "type": "tool",
-          "desc": "LLM 애플리케이션 평가용 지표와 테스트 데이터 생성을 제공하는 Apache-2.0 Python 툴킷이다.",
-          "reason": "evaluator의 doc 렌즈에서 지원서·보도자료 초안이 근거 자료에 충실한지를 지표로 점검하는 용도로 쓴다. 판정 기준을 스크립트로 고정하면 Claude Code와 Codex가 같은 방식으로 호출할 수 있다.",
-          "trend": "stable",
-          "url": "https://github.com/explodinggradients/ragas"
-        },
-        {
-          "name": "Arize Phoenix",
+          "name": "Opik",
           "type": "mcp",
-          "desc": "트레이싱, 평가, 실험, 프롬프트 관리를 갖춘 오픈소스 AI 관측 플랫폼이며 서버의 /mcp 엔드포인트로 Claude Code가 trace와 실험을 조회할 수 있다.",
-          "reason": "evaluator가 REWORK를 반복한 에이전트 호출 기록을 Claude Code에서 직접 조회해 원인을 좁힐 수 있다. 하네스 위임 체인이 어디서 막히는지 trace로 확인하는 데 쓴다.",
+          "desc": "Apache-2.0 오픈소스 LLM 관측·평가 플랫폼으로 셀프호스팅과 opik-mcp 서버, Python·TypeScript SDK를 제공한다.",
+          "reason": "evaluator가 code·design·doc 렌즈로 내린 PASS/REWORK 판정을 trace와 평가 결과로 남겨 두고 Claude Code에서 opik-mcp로 조회할 수 있다. 판정이 반복해서 뒤집히는 Generator를 데이터로 찾는 데 쓴다.",
           "trend": "rising",
-          "url": "https://github.com/Arize-ai/phoenix"
+          "url": "https://github.com/comet-ml/opik"
+        },
+        {
+          "name": "Evidently",
+          "type": "tool",
+          "desc": "ML·LLM 시스템의 평가, 테스트, 모니터링을 위한 Apache-2.0 Python 프레임워크다.",
+          "reason": "evaluator가 홍보 글이나 지원서 초안의 품질 지표를 스크립트로 고정해 매번 같은 기준으로 비교하는 데 쓴다. Claude Code와 Codex가 같은 리포트를 생성해 판정 근거로 첨부한다.",
+          "trend": "stable",
+          "url": "https://github.com/evidentlyai/evidently"
+        },
+        {
+          "name": "OpenLLMetry",
+          "type": "tool",
+          "desc": "OpenTelemetry 기반으로 LLM 애플리케이션의 호출을 계측하는 Apache-2.0 관측 도구 모음이다.",
+          "reason": "하네스가 리드에서 전문 에이전트로 위임하는 호출 체인을 span 단위로 기록해 어느 단계에서 REWORK가 생기는지 추적한다. 기존 OpenTelemetry 수집기에 그대로 연결할 수 있다.",
+          "trend": "stable",
+          "url": "https://github.com/traceloop/openllmetry"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "LYGIA",
+          "name": "Tweakpane",
           "type": "tool",
-          "desc": "GLSL, HLSL, Metal, WGSL, WESL, CUDA를 지원하고 TSL과의 호환을 맞추는 파일 단위 셰이더 함수 라이브러리다.",
-          "reason": "generative-visual이 Three.js WebGPU/TSL 컴퓨트 셰이더를 작성할 때 노이즈, 색 공간, 필터 함수를 직접 짜지 않고 가져와 쓸 수 있다. WGSL 버전이 있어 WebGPU 경로에 바로 붙인다.",
-          "trend": "rising",
-          "url": "https://github.com/patriciogonzalezvivo/lygia"
+          "desc": "값을 조절하고 모니터링하는 의존성 없는 MIT 라이선스 GUI 라이브러리다.",
+          "reason": "generative-visual이 Three.js WebGPU/TSL 셰이더의 uniform과 p5.js 스케치의 파라미터를 라이브 슬라이더로 노출해 공연 중 즉석 조정하는 데 쓴다. 확정한 값은 JSON으로 저장해 렌더 재현에 쓴다.",
+          "trend": "stable",
+          "url": "https://github.com/cocopon/tweakpane"
         },
         {
-          "name": "librosa",
+          "name": "Meyda",
           "type": "tool",
-          "desc": "음악·오디오 신호 분석을 위한 Python 라이브러리다.",
-          "reason": "sound-art와 media-art-pipeline이 녹음 소스에서 비트, 크로마, 스펙트럴 특징을 뽑아 OSC로 비주얼 파라미터에 보내는 소니피케이션 매핑 설계에 쓴다. SuperCollider로 합성한 결과를 수치로 점검하는 분석 스크립트에도 맞는다.",
+          "desc": "Web Audio API로 오프라인과 실시간 오디오 특징을 추출하는 MIT 라이선스 JavaScript 라이브러리다.",
+          "reason": "media-art-pipeline이 브라우저에서 마이크나 SuperCollider 출력의 특징값을 뽑아 Three.js 비주얼 파라미터에 바로 매핑하는 소니피케이션에 쓴다. 별도 서버 없이 같은 페이지에서 동작한다.",
           "trend": "stable",
-          "url": "https://github.com/librosa/librosa"
+          "url": "https://github.com/meyda/meyda"
         },
         {
-          "name": "MediaPipe",
+          "name": "python-osc",
           "type": "tool",
-          "desc": "손, 얼굴, 포즈 인식 같은 온디바이스 ML 솔루션을 Python, 웹, 모바일에서 실행하는 Google의 Apache-2.0 프레임워크다.",
-          "reason": "media-art-pipeline이 카메라 입력에서 관객의 몸과 손 움직임을 추출해 OSC로 넘기는 인터랙티브 설치에 쓴다. 브라우저에서 돌아가므로 Three.js 비주얼과 같은 페이지에서 연결된다.",
+          "desc": "외부 의존성 없이 OSC 서버와 클라이언트를 구현한 순수 Python 라이브러리다.",
+          "reason": "media-art-pipeline이 ESP32 센서 값을 받아 SuperCollider와 TouchDesigner로 OSC를 중계하는 라우팅 스크립트를 짧게 작성하는 데 쓴다. Claude Code가 바로 실행해 테스트 메시지를 보낼 수 있다.",
           "trend": "stable",
-          "url": "https://github.com/google-ai-edge/mediapipe"
+          "url": "https://github.com/attwad/python-osc"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "sharp",
+          "name": "resvg",
           "type": "tool",
-          "desc": "JPEG, PNG, WebP, AVIF, TIFF를 libvips로 빠르게 리사이즈·변환하는 Node.js 이미지 처리 라이브러리다.",
-          "reason": "visual-design이 포스터와 SNS 이미지를 해상도별로 일괄 내보내거나 nodetree.kr용 WebP·AVIF로 변환하는 스크립트에 쓴다. Claude Code가 Node 스크립트로 바로 호출할 수 있다.",
-          "trend": "stable",
-          "url": "https://github.com/lovell/sharp"
+          "desc": "정적 SVG를 렌더링하는 Apache-2.0/MIT 듀얼 라이선스 라이브러리이며 명령줄 렌더러를 포함한다.",
+          "reason": "visual-design이 HTML/SVG로 조판한 포스터를 브라우저 없이 PNG로 같은 결과가 나오게 래스터화하는 데 쓴다. 해상도를 지정해 SNS 규격 이미지를 일괄 출력한다.",
+          "trend": "rising",
+          "url": "https://github.com/linebender/resvg"
         },
         {
-          "name": "SVGO",
+          "name": "ImageMagick",
           "type": "tool",
-          "desc": "SVG에서 편집기 메타데이터와 불필요한 요소를 제거하는 Node.js CLI이자 라이브러리다.",
-          "reason": "visual-design이 Figma에서 내보낸 SVG 로고와 HTML/SVG 조판 결과를 웹에 올리기 전에 용량을 줄이는 단계에 쓴다. 폴더 단위 재귀 처리를 지원해 포스터 에셋을 한 번에 정리한다.",
+          "desc": "이미지 편집·변환을 위한 오픈소스 도구 모음으로 명령줄 인터페이스를 제공한다.",
+          "reason": "visual-design이 포스터 시안의 몽타주 시트, 색 프로파일 변환, 인쇄용 TIFF 변환을 한 줄 명령으로 처리하는 데 쓴다. Claude Code가 셸에서 바로 호출한다.",
           "trend": "stable",
-          "url": "https://github.com/svg/svgo"
+          "url": "https://github.com/ImageMagick/ImageMagick"
         },
         {
-          "name": "Paged.js",
+          "name": "Konva",
           "type": "tool",
-          "desc": "@page 같은 Paged Media CSS를 브라우저에서 구현해 HTML로 인쇄용 책을 만드는 오픈소스 JavaScript 라이브러리다.",
-          "reason": "visual-design이 HTML/SVG 조판으로 전시 리플릿과 포스터 시리즈를 만들 때 쪽 번호와 재단 영역을 CSS로 제어하는 데 쓴다. 별도 프로젝트 pagedjs-cli로 PDF 출력을 자동화할 수 있다.",
+          "desc": "HTML5 canvas 기반 인터랙티브 2D 그래픽을 위한 MIT 라이선스 JavaScript 프레임워크이며 node-canvas 등으로 Node에서도 렌더할 수 있다.",
+          "reason": "visual-design이 전시 안내 그래픽과 SNS 카드 템플릿을 코드로 만들어 텍스트만 바꿔 여러 장을 출력하는 데 쓴다. pr-content가 쓴 문구를 템플릿에 넣는 흐름에 맞는다.",
           "trend": "stable",
-          "url": "https://github.com/pagedjs/pagedjs"
+          "url": "https://github.com/konvajs/konva"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "Typst",
+          "name": "docx",
           "type": "tool",
-          "desc": "LaTeX 수준의 조판을 더 쉬운 마크업과 스크립트로 제공하며 typst compile 명령으로 PDF를 만드는 조판 시스템이다.",
-          "reason": "doc-design이 포트폴리오와 기록집처럼 반복 구조가 많은 문서를 템플릿 파일과 데이터로 일괄 생성하는 데 쓴다. 폰트 경로 지정을 지원해 한글 서체를 고정할 수 있다.",
+          "desc": "Node.js와 브라우저에서 Word(.docx) 파일을 생성·수정하는 MIT 라이선스 JavaScript/TypeScript 라이브러리다.",
+          "reason": "doc-design이 HWPX로 제출하기 전 협력기관 검토용 Word 사본이나 보고서 양식을 코드로 생성하는 데 쓴다. 표와 머리글을 데이터에서 채워 도록 원고 초안을 만든다.",
+          "trend": "stable",
+          "url": "https://github.com/dolanmiu/docx"
+        },
+        {
+          "name": "pdfme",
+          "type": "tool",
+          "desc": "JSON 템플릿으로 브라우저와 Node에서 PDF를 만들고 시각적 템플릿 디자이너를 포함하는 MIT 라이선스 툴킷이다.",
+          "reason": "doc-design이 포트폴리오 표지와 공문 양식처럼 반복되는 레이아웃을 템플릿으로 고정하고 값만 바꿔 출력하는 데 쓴다. project-planner의 일정표 PDF도 같은 방식으로 뽑는다.",
+          "trend": "stable",
+          "url": "https://github.com/pdfme/pdfme"
+        },
+        {
+          "name": "Marker",
+          "type": "tool",
+          "desc": "PDF, 이미지, PPTX, DOCX, XLSX, HTML, EPUB를 마크다운·JSON으로 변환하는 도구다(코드 Apache-2.0, 모델 가중치는 별도 라이선스).",
+          "reason": "grant-writer가 공모 요강과 지난 지원서 PDF를 마크다운으로 바꿔 항목별 요건을 대조하며 본문을 쓰는 데 쓴다. 모델 가중치 라이선스는 상업 이용 전에 확인해야 한다.",
           "trend": "rising",
-          "url": "https://github.com/typst/typst"
-        },
-        {
-          "name": "Marp CLI",
-          "type": "tool",
-          "desc": "Markdown 슬라이드를 HTML, PDF, PPTX, 이미지로 변환하는 명령줄 도구다.",
-          "reason": "grant-writer가 쓴 제안서 본문을 심사 발표용 슬라이드로 빠르게 옮길 때 쓴다. project-planner가 일정 요약을 Markdown에서 곧바로 PDF 발표 자료로 만드는 데도 맞는다.",
-          "trend": "stable",
-          "url": "https://github.com/marp-team/marp-cli"
-        },
-        {
-          "name": "pdfplumber",
-          "type": "tool",
-          "desc": "PDF의 글자, 선, 표 위치를 상세히 추출하고 CSV·JSON으로 내보내는 MIT 라이선스 Python 라이브러리다.",
-          "reason": "grant-writer와 project-planner가 공모 공고 PDF의 지원 자격과 예산 항목 표를 구조화된 데이터로 뽑는 데 쓴다. 스캔본이 아니라 기계 생성 PDF에서 잘 동작한다.",
-          "trend": "stable",
-          "url": "https://github.com/jsvine/pdfplumber"
+          "url": "https://github.com/datalab-to/marker"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "Crawl4AI",
-          "type": "mcp",
-          "desc": "웹 페이지를 LLM용 깨끗한 Markdown으로 변환하고 심층 크롤링과 MCP 엔드포인트를 제공하는 오픈소스 크롤러다.",
-          "reason": "research의 공모 레이더 모드가 공모·레지던시 공고 사이트를 주기적으로 크롤링해 Markdown으로 모으는 데 쓴다. 심층 리서치에서는 작가와 이론 자료 사이트를 한 번에 수집한다.",
+          "name": "GPT Researcher",
+          "type": "agent",
+          "desc": "여러 LLM 제공자와 함께 쓰는 Apache-2.0 심층 리서치 에이전트이며 MCP를 지원한다.",
+          "reason": "research의 심층 리서치 모드에서 작가·이론 조사 초안을 출처 목록과 함께 만들어 옵시디안 정리 전 1차 자료로 쓴다. 공모 레이더 모드의 후보 조사에도 돌려 본다.",
           "trend": "hot",
-          "url": "https://github.com/unclecode/crawl4ai"
+          "url": "https://github.com/assafelovic/gpt-researcher"
         },
         {
-          "name": "Exa MCP Server",
-          "type": "mcp",
-          "desc": "web_search_exa와 web_fetch_exa 도구로 웹 검색과 페이지 본문 가져오기를 제공하는 원격 MCP 서버다.",
-          "reason": "research가 작가·작품·미디어아트 이론을 조사할 때 의미 기반 검색으로 관련 페이지를 찾고 본문을 바로 가져온다. 날짜와 도메인 필터를 켜면 최근 공모 공고만 걸러낸다.",
+          "name": "Open Deep Research",
+          "type": "agent",
+          "desc": "여러 모델과 검색 도구를 설정해 쓰는 MIT 라이선스 딥리서치 에이전트로 MCP 호환을 내세운다.",
+          "reason": "research가 미디어아트 기술 동향 조사를 검색 도구별로 나눠 돌리고 결과를 비교하는 데 쓴다. GPT Researcher와 같은 질문으로 돌려 누락된 출처를 확인한다.",
           "trend": "rising",
-          "url": "https://github.com/exa-labs/exa-mcp-server"
+          "url": "https://github.com/langchain-ai/open_deep_research"
         },
         {
-          "name": "Tavily MCP",
-          "type": "mcp",
-          "desc": "검색, 추출, 사이트 맵, 크롤링 도구를 제공하며 npx나 원격 서버로 쓰는 MIT 라이선스 MCP 서버다.",
-          "reason": "research가 해외 레지던시와 어워드 사이트 구조를 map으로 파악한 뒤 마감일 정보를 extract로 가져오는 공모 발굴에 쓴다. Claude Code와 Codex 양쪽에서 같은 설정으로 쓸 수 있다.",
+          "name": "PaperQA2",
+          "type": "tool",
+          "desc": "과학 논문과 문서에 대한 고정밀 RAG를 위한 Apache-2.0 Python 패키지다.",
+          "reason": "research가 수집한 논문 PDF 묶음에서 소니피케이션이나 미디어 이론 관련 질문에 출처 인용과 함께 답을 얻는 데 쓴다. SLR 정리 단계에서 인용 근거를 확인한다.",
           "trend": "rising",
-          "url": "https://github.com/tavily-ai/tavily-mcp"
+          "url": "https://github.com/Future-House/paper-qa"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Vitest",
+          "name": "Storybook",
           "type": "tool",
-          "desc": "Vite 설정을 그대로 쓰는 JavaScript 테스트 프레임워크로 브라우저 모드와 V8 커버리지를 지원한다.",
-          "reason": "nodetreehome-web이 nodetree.kr의 React 컴포넌트와 실시간 시각화 데이터 처리를 배포 전에 테스트하는 데 쓴다. Vite 프로젝트라면 설정을 추가하지 않고 시작한다.",
+          "desc": "UI 컴포넌트를 격리해 만들고 문서화·테스트하는 MIT 라이선스 프런트엔드 워크숍이다.",
+          "reason": "nodetreehome-web이 nodetree.kr의 작품 카드와 실시간 시각화 컴포넌트를 페이지와 분리해 상태별로 확인하는 데 쓴다. 시각 변경을 배포 전에 눈으로 점검한다.",
           "trend": "stable",
-          "url": "https://github.com/vitest-dev/vitest"
+          "url": "https://github.com/storybookjs/storybook"
         },
         {
-          "name": "Oxc (Oxlint)",
+          "name": "React Scan",
           "type": "tool",
-          "desc": "Rust로 만든 JavaScript·TypeScript 도구 모음이며 npx oxlint와 npx oxfmt로 린트와 포맷을 실행한다.",
-          "reason": "nodetreehome-web이 Claude Code가 수정한 React 코드를 Vercel 배포 전에 빠르게 린트하는 단계에 쓴다. 실행이 빨라 hook으로 매 수정마다 돌려도 부담이 적다.",
+          "desc": "코드 변경 없이 React 성능 문제를 감지해 표시하는 MIT 라이선스 도구이며 CLI로 설정한다.",
+          "reason": "nodetreehome-web에서 실시간 시각화 컴포넌트가 불필요하게 재렌더링되는 지점을 찾는 데 쓴다. Vercel 배포 전 성능 점검 단계에 넣는다.",
           "trend": "rising",
-          "url": "https://github.com/oxc-project/oxc"
+          "url": "https://github.com/aidenybai/react-scan"
         },
         {
-          "name": "Lighthouse",
+          "name": "fast-check",
           "type": "tool",
-          "desc": "웹 페이지의 성능, 접근성, SEO를 감사하고 JSON·HTML 보고서를 내는 Google의 Node CLI다.",
-          "reason": "nodetreehome-web이 WebGPU 시각화가 들어간 nodetree.kr 페이지의 로딩 성능을 배포 때마다 수치로 확인하는 데 쓴다. --only-categories 옵션으로 필요한 항목만 점검한다.",
+          "desc": "JavaScript·TypeScript용 속성 기반 테스트 프레임워크로 MIT 라이선스다.",
+          "reason": "nodetreehome-web의 OSC 메시지 파서나 데이터 변환 함수를 무작위 입력으로 검증해 경계 사례를 찾는 데 쓴다. 기존 테스트 러너에 붙여 쓴다.",
           "trend": "stable",
-          "url": "https://github.com/GoogleChrome/lighthouse"
+          "url": "https://github.com/dubzzz/fast-check"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "OCRmyPDF",
+          "name": "Beancount",
           "type": "tool",
-          "desc": "스캔 PDF에 검색 가능한 텍스트 층을 추가하고 PDF/A 출력을 지원하며 Tesseract 언어팩으로 한글을 처리하는 CLI다.",
-          "reason": "nodetree-accounting이 보조사업 정산 증빙으로 받은 스캔 영수증과 계약서를 검색 가능한 PDF로 바꿔 보관하는 데 쓴다. saengsanso-accounting도 법인카드 증빙 정리에 같은 방식으로 쓴다.",
+          "desc": "텍스트 파일의 거래를 읽어 복식부기 보고서를 만드는 GPLv2 전용 도구다.",
+          "reason": "nodetree-accounting이 보조사업 집행 내역을 비목별 텍스트 원장으로 남기고 정산 대조용 보고서를 뽑는 데 쓴다. 파일이 텍스트라 Claude Code가 항목을 직접 검토한다.",
           "trend": "stable",
-          "url": "https://github.com/ocrmypdf/OCRmyPDF"
+          "url": "https://github.com/beancount/beancount"
         },
         {
-          "name": "DuckDB",
+          "name": "Actual Budget",
           "type": "tool",
-          "desc": "CSV, Excel, Parquet, JSON 파일을 SQL로 바로 조회하는 인프로세스 분석 데이터베이스다.",
-          "reason": "saengsanso-accounting이 은행 거래내역 CSV와 법인카드 내역을 SQL로 합산해 부가세 신고 전 대조에 쓴다. nodetree-accounting은 보조사업 비목별 집행액을 파일 그대로 집계한다.",
-          "trend": "rising",
-          "url": "https://github.com/duckdb/duckdb"
+          "desc": "로컬 우선 방식의 MIT 라이선스 오픈소스 개인 재무 앱이다.",
+          "reason": "nodetree-accounting이 고유번호단체의 월별 예산 대비 지출을 단순하게 추적하는 보조 도구로 쓴다. 법인 회계 원장은 아니며 예산 관리 용도로 한정한다.",
+          "trend": "stable",
+          "url": "https://github.com/actualbudget/actual"
         },
         {
-          "name": "hledger",
+          "name": "LedgerSMB",
           "type": "tool",
-          "desc": "텍스트 파일에 복식부기를 기록하고 CSV 가져오기와 JSON·HTML 출력을 지원하는 GPL-3.0 회계 도구다.",
-          "reason": "nodetree-accounting이 고유번호단체 일반회계를 텍스트 장부로 관리하고 Claude Code가 항목을 검토하게 하는 데 쓴다. 장부가 텍스트라 Git으로 변경 이력이 남는다.",
+          "desc": "중소기업용 웹 기반 복식부기 회계·ERP 시스템으로 GPLv2 라이선스다.",
+          "reason": "saengsanso-accounting이 ㈜생산소의 매입·매출 전표와 계정별 원장을 웹에서 관리하는 대안으로 검토한다. 한국 세무 양식은 직접 대응되지 않아 세금계산서 연동은 별도 확인이 필요하다.",
           "trend": "stable",
-          "url": "https://github.com/simonmichael/hledger"
+          "url": "https://github.com/ledgersmb/LedgerSMB"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-11-02",
+      "names": [
+        "Opik",
+        "Evidently",
+        "OpenLLMetry",
+        "Tweakpane",
+        "Meyda",
+        "python-osc",
+        "resvg",
+        "ImageMagick",
+        "Konva",
+        "docx",
+        "pdfme",
+        "Marker",
+        "GPT Researcher",
+        "Open Deep Research",
+        "PaperQA2",
+        "Storybook",
+        "React Scan",
+        "fast-check",
+        "Beancount",
+        "Actual Budget",
+        "LedgerSMB"
+      ]
+    },
     {
       "date": "2026-11-01",
       "names": [
@@ -549,32 +575,6 @@
         "Popbill SDK for Python",
         "Codef API SDK (easycodef-python)",
         "ERPNext"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "names": [
-        "autoevals",
-        "Guardrails AI",
-        "TruLens",
-        "tsl-textures",
-        "aubio",
-        "Rerun",
-        "fontTools",
-        "culori",
-        "Pretendard",
-        "WeasyPrint",
-        "pyhwp",
-        "Plane",
-        "SearXNG",
-        "Jina Reader",
-        "ArchiveBox",
-        "Vercel AI SDK",
-        "Drizzle ORM",
-        "Size Limit",
-        "Firefly III",
-        "invoice2data",
-        "Tesseract"
       ]
     }
   ]
