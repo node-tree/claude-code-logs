@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-02T10:14:46.026644+00:00",
+  "lastUpdated": "2026-11-02T10:19:25.674104+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "266544b7",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T10:09:42.392000+00:00",
+      "durationSeconds": 710,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 120,
+      "agentsUsed": []
+    },
     {
       "sessionId": "134af19a",
       "date": "2026-11-02",
@@ -3305,16 +3315,6 @@
       "modelTier": "opus",
       "projectName": "yr-018-wayu-score",
       "toolCallCount": 304,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "a776ac5b",
-      "date": "2026-09-22",
-      "startTime": "2026-09-22T02:23:33.159000+00:00",
-      "durationSeconds": 3742,
-      "modelTier": "opus",
-      "projectName": "무제 프로젝트_수정안2.fcpxmld",
-      "toolCallCount": 122,
       "agentsUsed": []
     }
   ]
