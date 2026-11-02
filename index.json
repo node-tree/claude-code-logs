@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T13:04:29.572052+00:00",
+  "lastUpdated": "2026-11-02T13:04:38.424286+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "cf152381",
       "date": "2026-11-02",
       "startTime": "2026-11-02T12:44:56.884000+00:00",
-      "durationSeconds": 883,
+      "durationSeconds": 1189,
       "modelTier": "opus",
       "projectName": "측정",
-      "toolCallCount": 63,
+      "toolCallCount": 76,
       "agentsUsed": []
     },
     {
