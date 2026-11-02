@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-02T23:47:05.045954+00:00",
+  "lastUpdated": "2026-11-02T23:54:05.161041+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b9a64c86",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T23:47:06.975000+00:00",
+      "durationSeconds": 414,
+      "modelTier": "opus",
+      "projectName": "ref",
+      "toolCallCount": 137,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "f1c09661",
       "date": "2026-11-02",
@@ -3308,20 +3320,6 @@
         "evaluator",
         "grant-writer",
         "research"
-      ]
-    },
-    {
-      "sessionId": "3a632862",
-      "date": "2026-09-25",
-      "startTime": "2026-09-25T05:08:10.488000+00:00",
-      "durationSeconds": 18022,
-      "modelTier": "opus",
-      "projectName": "repetition-sources-20260926",
-      "toolCallCount": 201,
-      "agentsUsed": [
-        "evaluator",
-        "general-purpose",
-        "generative-visual"
       ]
     }
   ]
