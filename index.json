@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-02T10:24:34.114616+00:00",
+  "lastUpdated": "2026-11-02T10:25:32.000874+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "82450186",
+      "date": "2026-11-02",
+      "startTime": "2026-11-02T10:19:05.204000+00:00",
+      "durationSeconds": 409,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 54,
+      "agentsUsed": []
+    },
     {
       "sessionId": "98a993a0",
       "date": "2026-11-02",
@@ -3305,16 +3315,6 @@
       "modelTier": "sonnet",
       "projectName": "",
       "toolCallCount": 26,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "0eb68249",
-      "date": "2026-09-22",
-      "startTime": "2026-09-22T13:17:37.635000+00:00",
-      "durationSeconds": 11700,
-      "modelTier": "opus",
-      "projectName": "hgis",
-      "toolCallCount": 386,
       "agentsUsed": []
     }
   ]
