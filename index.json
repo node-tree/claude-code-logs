@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-03T12:54:06.426427+00:00",
+  "lastUpdated": "2026-11-03T12:56:03.285766+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "411f5e0a",
       "date": "2026-11-03",
       "startTime": "2026-11-03T12:52:18.024000+00:00",
-      "durationSeconds": 88,
+      "durationSeconds": 215,
       "modelTier": "opus",
-      "projectName": "꿈다락",
-      "toolCallCount": 9,
+      "projectName": "kanghyunjung",
+      "toolCallCount": 13,
       "agentsUsed": []
     },
     {
