@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T00:44:01.466961+00:00",
+  "lastUpdated": "2026-11-03T00:48:12.639796+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "b9a64c86",
       "date": "2026-11-02",
       "startTime": "2026-11-02T23:47:06.975000+00:00",
-      "durationSeconds": 3593,
+      "durationSeconds": 3847,
       "modelTier": "opus",
-      "projectName": "claude",
-      "toolCallCount": 263,
+      "projectName": "디지털도화서",
+      "toolCallCount": 264,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
