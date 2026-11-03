@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-03T02:16:59.560975+00:00",
+  "lastUpdated": "2026-11-03T02:17:10.999169+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "4ae84146",
+      "date": "2026-11-03",
+      "startTime": "2026-11-03T02:15:57.466000+00:00",
+      "durationSeconds": 71,
+      "modelTier": "fable",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 3,
+      "agentsUsed": []
+    },
     {
       "sessionId": "fd3d352a",
       "date": "2026-11-03",
@@ -3307,16 +3317,6 @@
       "modelTier": "sonnet",
       "projectName": "repetition-sources-20260926",
       "toolCallCount": 41,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "b2e70f48",
-      "date": "2026-09-25",
-      "startTime": "2026-09-25T15:55:41.027000+00:00",
-      "durationSeconds": 635,
-      "modelTier": "sonnet",
-      "projectName": "sheets",
-      "toolCallCount": 51,
       "agentsUsed": []
     }
   ]
