@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-03T10:58:01.451482+00:00",
+  "lastUpdated": "2026-11-03T12:54:06.426427+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "411f5e0a",
+      "date": "2026-11-03",
+      "startTime": "2026-11-03T12:52:18.024000+00:00",
+      "durationSeconds": 88,
+      "modelTier": "opus",
+      "projectName": "꿈다락",
+      "toolCallCount": 9,
+      "agentsUsed": []
+    },
     {
       "sessionId": "52bb25d5",
       "date": "2026-11-03",
@@ -3308,16 +3318,6 @@
         "research",
         "visual-design"
       ]
-    },
-    {
-      "sessionId": "48ff8bac",
-      "date": "2026-09-25",
-      "startTime": "2026-09-25T22:03:12.349000+00:00",
-      "durationSeconds": 391,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 62,
-      "agentsUsed": []
     }
   ]
 }
