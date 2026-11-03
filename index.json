@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-03T00:02:54.187600+00:00",
+  "lastUpdated": "2026-11-03T00:05:37.545242+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "87a668ee",
+      "date": "2026-11-03",
+      "startTime": "2026-11-03T00:02:51.633000+00:00",
+      "durationSeconds": 155,
+      "modelTier": "fable",
+      "projectName": "build",
+      "toolCallCount": 32,
+      "agentsUsed": []
+    },
     {
       "sessionId": "4626a1b4",
       "date": "2026-11-02",
@@ -3307,16 +3317,6 @@
       "modelTier": "sonnet",
       "projectName": "repetition-sources-20260926",
       "toolCallCount": 43,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "fb32f033",
-      "date": "2026-09-25",
-      "startTime": "2026-09-25T15:54:40.836000+00:00",
-      "durationSeconds": 545,
-      "modelTier": "sonnet",
-      "projectName": "repetition-sources-20260926",
-      "toolCallCount": 42,
       "agentsUsed": []
     }
   ]
