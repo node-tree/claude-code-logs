@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-03T23:39:59.152081+00:00",
+  "lastUpdated": "2026-11-03T23:47:01.928154+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f5588d08",
+      "date": "2026-11-03",
+      "startTime": "2026-11-03T23:39:08.576000+00:00",
+      "durationSeconds": 490,
+      "modelTier": "opus",
+      "projectName": "kkumdarak-poster-dasi-20261020",
+      "toolCallCount": 95,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "f8882473",
       "date": "2026-11-03",
@@ -3299,18 +3311,6 @@
       "projectName": "memory",
       "toolCallCount": 128,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "7bda76e4",
-      "date": "2026-09-26",
-      "startTime": "2026-09-26T08:20:06.567000+00:00",
-      "durationSeconds": 14168,
-      "modelTier": "opus",
-      "projectName": "yr-018-wayu-score",
-      "toolCallCount": 358,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
