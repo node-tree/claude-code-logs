@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-03T12:56:03.285766+00:00",
+  "lastUpdated": "2026-11-03T22:04:26.202779+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f8882473",
+      "date": "2026-11-03",
+      "startTime": "2026-11-03T22:03:13.375000+00:00",
+      "durationSeconds": 64,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 34,
+      "agentsUsed": []
+    },
     {
       "sessionId": "411f5e0a",
       "date": "2026-11-03",
@@ -3300,23 +3310,6 @@
       "toolCallCount": 358,
       "agentsUsed": [
         "general-purpose"
-      ]
-    },
-    {
-      "sessionId": "4f1e0543",
-      "date": "2026-09-26",
-      "startTime": "2026-09-26T02:42:50.346000+00:00",
-      "durationSeconds": 3767,
-      "modelTier": "opus",
-      "projectName": "디지털도화서_하반기아카데미",
-      "toolCallCount": 60,
-      "agentsUsed": [
-        "doc-design",
-        "evaluator",
-        "generative-visual",
-        "media-art-pipeline",
-        "research",
-        "visual-design"
       ]
     }
   ]
