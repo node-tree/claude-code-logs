@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-04T15:02:44.877743+00:00",
+  "lastUpdated": "2026-11-04T15:03:19.657441+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "56f5b15d",
+      "date": "2026-11-04",
+      "startTime": "2026-11-04T15:03:04.206000+00:00",
+      "durationSeconds": 5,
+      "modelTier": "haiku",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 2,
+      "agentsUsed": []
+    },
     {
       "sessionId": "82f41289",
       "date": "2026-11-04",
@@ -3306,16 +3316,6 @@
       "modelTier": "opus",
       "projectName": "paddy-shaft-20260927",
       "toolCallCount": 373,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c8577da7",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T02:28:29.878000+00:00",
-      "durationSeconds": 15697,
-      "modelTier": "opus",
-      "projectName": "paddy-shaft-20260927",
-      "toolCallCount": 345,
       "agentsUsed": []
     }
   ]
