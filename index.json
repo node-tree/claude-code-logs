@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T11:35:50.218132+00:00",
+  "lastUpdated": "2026-11-04T11:40:29.280575+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,10 +41,10 @@
       "sessionId": "f5588d08",
       "date": "2026-11-03",
       "startTime": "2026-11-03T23:39:08.576000+00:00",
-      "durationSeconds": 22282,
+      "durationSeconds": 22941,
       "modelTier": "opus",
       "projectName": "20261104-dasi-poster-characters",
-      "toolCallCount": 921,
+      "toolCallCount": 951,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
