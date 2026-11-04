@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-04T08:25:34.785933+00:00",
+  "lastUpdated": "2026-11-04T08:27:08.678053+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3134b665",
       "date": "2026-11-04",
       "startTime": "2026-11-04T07:06:48.114000+00:00",
-      "durationSeconds": 4704,
+      "durationSeconds": 4811,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 104,
+      "projectName": "감각번역",
+      "toolCallCount": 107,
       "agentsUsed": []
     },
     {
