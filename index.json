@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-04T07:20:58.550022+00:00",
+  "lastUpdated": "2026-11-04T07:21:47.427654+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3134b665",
       "date": "2026-11-04",
       "startTime": "2026-11-04T07:06:48.114000+00:00",
-      "durationSeconds": 804,
+      "durationSeconds": 917,
       "modelTier": "opus",
-      "projectName": "증빙",
-      "toolCallCount": 61,
+      "projectName": "꿈다락",
+      "toolCallCount": 65,
       "agentsUsed": []
     },
     {
