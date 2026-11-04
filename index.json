@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-04T07:57:47.249756+00:00",
+  "lastUpdated": "2026-11-04T07:58:02.989763+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3134b665",
       "date": "2026-11-04",
       "startTime": "2026-11-04T07:06:48.114000+00:00",
-      "durationSeconds": 3046,
+      "durationSeconds": 3067,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 78,
+      "projectName": "증빙",
+      "toolCallCount": 79,
       "agentsUsed": []
     },
     {
