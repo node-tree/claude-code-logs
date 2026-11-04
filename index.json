@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T13:13:57.986308+00:00",
+  "lastUpdated": "2026-11-04T13:16:52.870737+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "0905f501",
       "date": "2026-11-04",
       "startTime": "2026-11-04T11:52:28.901000+00:00",
-      "durationSeconds": 2355,
+      "durationSeconds": 3301,
       "modelTier": "opus",
-      "projectName": "20261104-ttang-narration-voice",
-      "toolCallCount": 79,
+      "projectName": "frames",
+      "toolCallCount": 108,
       "agentsUsed": [
         "general-purpose"
       ]
