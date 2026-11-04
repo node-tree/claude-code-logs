@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-04T04:20:10.801624+00:00",
+  "lastUpdated": "2026-11-04T04:22:06.984101+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7aa94d7d",
+      "date": "2026-11-04",
+      "startTime": "2026-11-04T04:01:13.358000+00:00",
+      "durationSeconds": 1320,
+      "modelTier": "opus",
+      "projectName": "20261104-insight-poster-nov",
+      "toolCallCount": 93,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "f5588d08",
       "date": "2026-11-03",
@@ -3300,16 +3312,6 @@
       "modelTier": "opus",
       "projectName": "memory",
       "toolCallCount": 143,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "72cb9883",
-      "date": "2026-09-26",
-      "startTime": "2026-09-26T08:22:36.069000+00:00",
-      "durationSeconds": 5756,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 128,
       "agentsUsed": []
     }
   ]
