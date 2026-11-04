@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-04T14:40:50.204649+00:00",
+  "lastUpdated": "2026-11-04T14:44:50.138633+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "82f41289",
+      "date": "2026-11-04",
+      "startTime": "2026-11-04T14:36:57.850000+00:00",
+      "durationSeconds": 508,
+      "modelTier": "opus",
+      "projectName": "hooks",
+      "toolCallCount": 49,
+      "agentsUsed": []
+    },
     {
       "sessionId": "add1cf2a",
       "date": "2026-11-04",
@@ -3307,18 +3317,6 @@
       "projectName": "paddy-shaft-20260927",
       "toolCallCount": 345,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "10d991db",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T01:22:14.357000+00:00",
-      "durationSeconds": 18569,
-      "modelTier": "opus",
-      "projectName": "위성악보-역류",
-      "toolCallCount": 256,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
