@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-04T15:24:14.124594+00:00",
+  "lastUpdated": "2026-11-04T22:04:22.267280+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "70a3ff3a",
+      "date": "2026-11-04",
+      "startTime": "2026-11-04T22:03:11.770000+00:00",
+      "durationSeconds": 63,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 31,
+      "agentsUsed": []
+    },
     {
       "sessionId": "56f5b15d",
       "date": "2026-11-04",
@@ -3306,16 +3316,6 @@
       "modelTier": "opus",
       "projectName": "Obsidian Vault",
       "toolCallCount": 12,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "8af94279",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T02:28:29.878000+00:00",
-      "durationSeconds": 18346,
-      "modelTier": "opus",
-      "projectName": "paddy-shaft-20260927",
-      "toolCallCount": 373,
       "agentsUsed": []
     }
   ]
