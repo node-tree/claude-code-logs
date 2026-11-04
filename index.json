@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-04T11:52:01.419259+00:00",
+  "lastUpdated": "2026-11-04T11:56:08.285332+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "e640c924",
       "date": "2026-11-04",
       "startTime": "2026-11-04T10:50:45.098000+00:00",
-      "durationSeconds": 1953,
+      "durationSeconds": 3213,
       "modelTier": "opus",
-      "projectName": "20261104-bobusang-gongmunje",
-      "toolCallCount": 131,
+      "projectName": "memory",
+      "toolCallCount": 211,
       "agentsUsed": [
         "general-purpose"
       ]
