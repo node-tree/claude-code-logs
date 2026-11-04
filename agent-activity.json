@@ -1,13 +1,13 @@
 {
+  "research": {
+    "lastActive": "2026-11-04T04:01:13.358000+00:00",
+    "lastProject": "20261104-insight-poster-nov",
+    "sessionId": "7aa94d7d"
+  },
   "evaluator": {
     "lastActive": "2026-11-02T23:47:06.975000+00:00",
     "lastProject": "20261103-insight-lecture-nov",
     "sessionId": "b9a64c86"
-  },
-  "research": {
-    "lastActive": "2026-11-01T08:56:20.455000+00:00",
-    "lastProject": "memory",
-    "sessionId": "7d0b9375"
   },
   "doc-design": {
     "lastActive": "2026-10-27T14:42:08.580000+00:00",
