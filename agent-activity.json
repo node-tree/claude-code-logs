@@ -1,13 +1,13 @@
 {
+  "research": {
+    "lastActive": "2026-11-05T15:23:26.598000+00:00",
+    "lastProject": "memory",
+    "sessionId": "4320fddc"
+  },
   "evaluator": {
     "lastActive": "2026-11-05T00:26:54.759000+00:00",
     "lastProject": "20261105-dasi-web-invite",
     "sessionId": "b9371469"
-  },
-  "research": {
-    "lastActive": "2026-11-04T04:01:13.358000+00:00",
-    "lastProject": "20261104-insight-poster-nov",
-    "sessionId": "7aa94d7d"
   },
   "doc-design": {
     "lastActive": "2026-10-27T14:42:08.580000+00:00",
