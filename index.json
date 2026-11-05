@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T03:57:32.744363+00:00",
+  "lastUpdated": "2026-11-05T03:58:31.918678+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "c497eb6c",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T03:49:55.524000+00:00",
+      "durationSeconds": 588,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 56,
+      "agentsUsed": []
+    },
     {
       "sessionId": "cee316f3",
       "date": "2026-11-05",
@@ -3312,18 +3322,6 @@
       "projectName": "water-bolero-20260927",
       "toolCallCount": 44,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "da3a1477",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T10:41:21.850000+00:00",
-      "durationSeconds": 5774,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 375,
-      "agentsUsed": [
-        "research"
-      ]
     }
   ]
 }
