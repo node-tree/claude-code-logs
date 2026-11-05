@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-05T00:26:00.739770+00:00",
+  "lastUpdated": "2026-11-05T00:32:20.088271+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b9371469",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T00:26:54.759000+00:00",
+      "durationSeconds": 318,
+      "modelTier": "opus",
+      "projectName": "claude",
+      "toolCallCount": 34,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "fb5a2409",
       "date": "2026-11-05",
@@ -3306,16 +3318,6 @@
       "modelTier": "fable",
       "projectName": "cnma-forum-2026",
       "toolCallCount": 60,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "06c06772",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T08:32:13.476000+00:00",
-      "durationSeconds": 11683,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 200,
       "agentsUsed": []
     }
   ]
