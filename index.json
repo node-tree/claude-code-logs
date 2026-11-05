@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T04:56:31.265124+00:00",
+  "lastUpdated": "2026-11-05T04:58:34.688440+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b5441aac",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T04:57:21.905000+00:00",
+      "durationSeconds": 63,
+      "modelTier": "opus",
+      "projectName": "사업매칭",
+      "toolCallCount": 12,
+      "agentsUsed": []
+    },
     {
       "sessionId": "c497eb6c",
       "date": "2026-11-05",
@@ -3311,16 +3321,6 @@
       "modelTier": "sonnet",
       "projectName": "",
       "toolCallCount": 19,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "12c677a5",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T14:42:08.077000+00:00",
-      "durationSeconds": 2511,
-      "modelTier": "fable",
-      "projectName": "water-bolero-20260927",
-      "toolCallCount": 44,
       "agentsUsed": []
     }
   ]
