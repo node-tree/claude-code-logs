@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-04T23:49:18.725213+00:00",
+  "lastUpdated": "2026-11-05T00:10:41.873767+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "44efb325",
+      "date": "2026-11-04",
+      "startTime": "2026-11-04T23:58:32.930000+00:00",
+      "durationSeconds": 721,
+      "modelTier": "opus",
+      "projectName": "20261104-insight-poster-nov",
+      "toolCallCount": 106,
+      "agentsUsed": []
+    },
     {
       "sessionId": "70a3ff3a",
       "date": "2026-11-04",
@@ -3306,16 +3316,6 @@
       "modelTier": "opus",
       "projectName": "water-bolero-20260927",
       "toolCallCount": 101,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "f8765a9a",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T04:19:39.887000+00:00",
-      "durationSeconds": 740,
-      "modelTier": "opus",
-      "projectName": "Obsidian Vault",
-      "toolCallCount": 12,
       "agentsUsed": []
     }
   ]
