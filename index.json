@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T11:28:34.972676+00:00",
+  "lastUpdated": "2026-11-05T12:08:41.620516+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7b95c55b",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T12:04:49.640000+00:00",
+      "durationSeconds": 174,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 9,
+      "agentsUsed": []
+    },
     {
       "sessionId": "e3648bfc",
       "date": "2026-11-05",
@@ -3314,16 +3324,6 @@
         "general-purpose",
         "research"
       ]
-    },
-    {
-      "sessionId": "53b18f75",
-      "date": "2026-09-28",
-      "startTime": "2026-09-28T11:14:22.295000+00:00",
-      "durationSeconds": 2455,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 31,
-      "agentsUsed": []
     }
   ]
 }
