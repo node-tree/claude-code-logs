@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T00:10:41.873767+00:00",
+  "lastUpdated": "2026-11-05T00:26:00.739770+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "fb5a2409",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T00:14:01.253000+00:00",
+      "durationSeconds": 825,
+      "modelTier": "opus",
+      "projectName": "nodetree-instagram",
+      "toolCallCount": 65,
+      "agentsUsed": []
+    },
     {
       "sessionId": "44efb325",
       "date": "2026-11-04",
@@ -3306,16 +3316,6 @@
       "modelTier": "opus",
       "projectName": "kanghyunjung",
       "toolCallCount": 200,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "5783fc21",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T06:40:14.253000+00:00",
-      "durationSeconds": 6545,
-      "modelTier": "opus",
-      "projectName": "water-bolero-20260927",
-      "toolCallCount": 101,
       "agentsUsed": []
     }
   ]
