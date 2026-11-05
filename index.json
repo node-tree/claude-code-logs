@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T05:07:15.445462+00:00",
+  "lastUpdated": "2026-11-05T06:35:30.368587+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "e3ecd201",
+      "date": "2026-11-05",
+      "startTime": "2026-11-05T06:01:34.058000+00:00",
+      "durationSeconds": 388,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 16,
+      "agentsUsed": []
+    },
     {
       "sessionId": "b5441aac",
       "date": "2026-11-05",
@@ -3312,16 +3322,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "e9bbc08f",
-      "date": "2026-09-27",
-      "startTime": "2026-09-27T22:03:10.939000+00:00",
-      "durationSeconds": 124,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 19,
-      "agentsUsed": []
     }
   ]
 }
