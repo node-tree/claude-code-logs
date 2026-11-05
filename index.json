@@ -1,16 +1,17 @@
 {
-  "lastUpdated": "2026-11-05T00:48:18.762234+00:00",
+  "lastUpdated": "2026-11-05T01:01:56.516775+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "b9371469",
       "date": "2026-11-05",
       "startTime": "2026-11-05T00:26:54.759000+00:00",
-      "durationSeconds": 1093,
+      "durationSeconds": 1635,
       "modelTier": "opus",
       "projectName": "20261105-dasi-web-invite",
-      "toolCallCount": 105,
+      "toolCallCount": 161,
       "agentsUsed": [
+        "evaluator",
         "general-purpose"
       ]
     },
