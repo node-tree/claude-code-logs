@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T01:22:18.355619+00:00",
+  "lastUpdated": "2026-11-05T01:28:00.421212+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -19,11 +19,13 @@
       "sessionId": "fb5a2409",
       "date": "2026-11-05",
       "startTime": "2026-11-05T00:14:01.253000+00:00",
-      "durationSeconds": 1322,
+      "durationSeconds": 2576,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
-      "toolCallCount": 66,
-      "agentsUsed": []
+      "projectName": "_tmp_renders",
+      "toolCallCount": 121,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "44efb325",
