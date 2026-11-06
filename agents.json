@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-02T10:47:25.508663+00:00",
-  "totalAgents": 113,
+  "lastUpdated": "2026-11-06T08:42:25.778653+00:00",
+  "totalAgents": 115,
   "agents": [
     {
       "id": "canvas-design",
@@ -465,17 +465,17 @@
       "type": "plugin",
       "category": "dev",
       "name": "Unity",
-      "desc": "31개 스킬 포함",
+      "desc": "33개 스킬 포함",
       "emoji": "🔹",
-      "version": "0.1.6-beta",
-      "subSkillCount": 31
+      "version": "0.1.9-beta",
+      "subSkillCount": 33
     },
     {
       "id": "build-live-game",
       "type": "skill",
       "category": "dev",
       "name": "Build Live Game",
-      "desc": "Build and operate a live game using Unity Services. Use when the user needs to implement, connect, or debug backend-driv",
+      "desc": "Builds and operates a live game's backend with Unity Gaming Services. Make sure to use this skill when the user wants tr",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -484,7 +484,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Optimize Web",
-      "desc": "Optimizes Unity 6 WebGL and WebGPU builds for smaller download size, faster initial load, and efficient browser runtime ",
+      "desc": "Optimizes Unity WebGL and WebGPU builds for smaller downloads, faster loading, and smoother browser performance. Use whe",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -493,7 +493,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Ui Ugui",
-      "desc": "Unity uGUI (Canvas-based) UI expert. Understands, edits, and generates Canvas hierarchies, RectTransforms, Layout Groups",
+      "desc": "Understands, edits, and generates Unity uGUI Canvas hierarchies, RectTransforms, Layout Groups, and prefab UI. Use for r",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -502,7 +502,7 @@
       "type": "skill",
       "category": "dev",
       "name": "New Unity Project",
-      "desc": "Use when starting a brand-new Unity game or project from scratch — \"make/start/create a new game\", \"bootstrap a Unity pr",
+      "desc": "Guides creating a new Unity project, gathering concept, platforms, and monetization before setting up the project, sourc",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -511,7 +511,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Ui",
-      "desc": "Unity UI expert for menus, HUDs, screens, panels, buttons, labels, and all visual interface elements. Handles questions ",
+      "desc": "Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions. ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -520,7 +520,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Urp Postprocessing",
-      "desc": "Sets up, configures, and debugs URP post-processing effects using the Volume framework. Use when the user asks about blo",
+      "desc": "Sets up, configures, and debugs URP post-processing with the Volume framework. Use for bloom, tonemapping, color adjustm",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -529,16 +529,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Validate Urp Render Graph Renderer Feature",
-      "desc": "Use when the user wants to review or validate a Unity 6+ URP ScriptableRendererFeature that uses the Render Graph API. C",
-      "emoji": "🔹",
-      "parentPlugin": "unity"
-    },
-    {
-      "id": "tilemap-palette-create",
-      "type": "skill",
-      "category": "dev",
-      "name": "Tilemap Palette Create",
-      "desc": "Creates a Tile Palette asset. Use when the user wants to organize tiles for 2D level design or create a new Tile Palette",
+      "desc": "Reviews a Unity 6 URP ScriptableRendererFeature that uses the Render Graph API, checking resource wiring, material bindi",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -547,7 +538,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Optimize Audio",
-      "desc": "Optimizes Unity 6 audio memory, CPU cost, and playback quality through correct import settings and mixer configuration. ",
+      "desc": "Optimizes audio memory, CPU cost, and playback quality through import settings and mixer configuration. Use when asked t",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -556,16 +547,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Setup Vivox Voice Chat",
-      "desc": "Add and configure in-game voice chat and text chat for Unity multiplayer games using Unity Vivox. Covers microphone setu",
-      "emoji": "🔹",
-      "parentPlugin": "unity"
-    },
-    {
-      "id": "tilemap-ruletile-createfromsegment",
-      "type": "skill",
-      "category": "dev",
-      "name": "Tilemap Ruletile Createfromsegment",
-      "desc": "Use when the user wants tiles that auto-tile (autotile) as they paint, wants a RuleTile built from existing terrain or e",
+      "desc": "Adds and configures in-game voice and text chat with Unity Vivox. Use when the user asks about voice chat, microphone pe",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -574,16 +556,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Setup Multiplayer Services",
-      "desc": ">-",
-      "emoji": "🔹",
-      "parentPlugin": "unity"
-    },
-    {
-      "id": "tilemap-ruletile-createempty",
-      "type": "skill",
-      "category": "dev",
-      "name": "Tilemap Ruletile Createempty",
-      "desc": "Creates an empty RuleTile asset without Sprite or Spritesheet inputs. Use ONLY when the user wants a blank RuleTile, Hex",
+      "desc": "Guides real-time online multiplayer with Unity Multiplayer Services. Use when the user asks about network topology, host",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -592,7 +565,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Unity Package Management",
-      "desc": "Use when adding, removing, upgrading, or discovering Unity (UPM) packages programmatically from outside the Editor — hea",
+      "desc": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor, with the Pipeline package commands ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -601,7 +574,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Physics 3D Collision",
-      "desc": "3D PhysX collision and trigger diagnostics for MonoBehaviour-based Unity projects. Primary scope: OnCollisionEnter / OnT",
+      "desc": "Diagnoses 3D PhysX collision and trigger problems. Use when OnCollisionEnter or OnTriggerEnter doesn't fire, objects pas",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -610,7 +583,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Generate Editor Search Query",
-      "desc": "Generates Unity Search / Quick Search queries and opens the Unity Search window for read-only Unity Editor asset or scen",
+      "desc": "Generates Unity Search queries and opens the Search window to find assets or scene objects. Use when the user asks to fi",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -619,7 +592,25 @@
       "type": "skill",
       "category": "dev",
       "name": "Levelplay Unity Integration",
-      "desc": "Integrates the LevelPlay Mediation SDK via the Ads Mediation UPM package. Use when a developer asks about adding ads to ",
+      "desc": "Integrates the LevelPlay ad mediation SDK via the Ads Mediation package. Use when the user asks about adding rewarded, i",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "build-gtk",
+      "type": "skill",
+      "category": "dev",
+      "name": "Build Gtk",
+      "desc": ">-",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "craft-game-floors",
+      "type": "skill",
+      "category": "dev",
+      "name": "Craft Game Floors",
+      "desc": "Makes a Unity game look and feel finished: art style, lighting, juice, sound, menus, saves and look scoring. Use when bu",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -628,7 +619,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Migrate Birp To Urp",
-      "desc": "Plans, executes, and troubleshoots Unity projects moving from the Built-in Render Pipeline (BiRP/BIRP/Built-in RP) to th",
+      "desc": "Plans, executes, and troubleshoots migration from the Built-in Render Pipeline to URP. Use when asked to convert a proje",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -637,7 +628,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Manage Sprite Atlas",
-      "desc": "Manage SpriteAtlas using prebuild pipeline with IPreprocessBuildWithReport (DEFAULT approach). Use it to configure maste",
+      "desc": "Manages SpriteAtlas assets through a prebuild pipeline, covering master and variant atlases, packing settings, and platf",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -646,7 +637,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Shader Graph Create Custom Node",
-      "desc": "Generates custom Shader Graph nodes from HLSL code. Use when the user wants to create a new Shader Graph node or make ex",
+      "desc": "Generates custom Shader Graph nodes from HLSL code. Use when the user wants a new Shader Graph node or to make existing ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -655,7 +646,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Ui Uitk",
-      "desc": "Unity UI Toolkit expert for Unity 6.0+. Understands, edits, and generates UXML and USS files with flex-based layouts. Us",
+      "desc": "Understands, edits, and generates Unity UI Toolkit UXML and USS with flex layouts. Use for requests involving UI Toolkit",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -664,7 +655,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Implement In App Purchases",
-      "desc": "Implement, configure, and debug Unity In-App Purchases (IAP) — store connection, product catalog, consumable/non-consuma",
+      "desc": "Implements, configures, and debugs Unity In-App Purchases, including subscriptions, receipt validation, and direct-to-cu",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -673,7 +664,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Audio Setup Mixers",
-      "desc": "Scans the scene and audio assets to appropriately route Audio Sources into existing Audio Mixer Groups, classifying each",
+      "desc": "Routes Audio Sources into existing Audio Mixer Groups, classifying each source by what it plays. Use when the user asks ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -682,7 +673,25 @@
       "type": "skill",
       "category": "dev",
       "name": "Optimize Text Mesh Pro",
-      "desc": ">",
+      "desc": "Optimizes TextMeshPro rendering, memory, and font setup, including font asset stacks, fallback atlases, SDF quality, and",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "create-2d-physics",
+      "type": "skill",
+      "category": "dev",
+      "name": "Create 2D Physics",
+      "desc": "Creates and fixes Unity 2D physics in both systems, 2D Physics Core and the legacy Rigidbody 2D system. Use when the use",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "create-tile-palette-or-rule-tiles",
+      "type": "skill",
+      "category": "dev",
+      "name": "Create Tile Palette Or Rule Tiles",
+      "desc": "Create a 2D tile palette from sprites or textures, or make tiles change based on their neighbours. Use for tile palettes",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -691,7 +700,16 @@
       "type": "skill",
       "category": "dev",
       "name": "Ui Imgui",
-      "desc": "Unity IMGUI (Immediate Mode GUI) expert for legacy editor tools using OnGUI/immediate mode. Generates and modifies IMGUI",
+      "desc": "Generates and modifies Unity IMGUI editor code such as EditorWindows, custom Inspectors, PropertyDrawers, and OnGUI scri",
+      "emoji": "🔹",
+      "parentPlugin": "unity"
+    },
+    {
+      "id": "asset-transformer-toolkit",
+      "type": "skill",
+      "category": "dev",
+      "name": "Asset Transformer Toolkit",
+      "desc": ">-",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -700,7 +718,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Sprite Segment 3X3Grid",
-      "desc": "Analyze Sprite textures and output a 3x3 grid representation based on color matching. Segments a Sprite into a 3x3 grid,",
+      "desc": "Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell's color. Use when the ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -709,7 +727,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Sprite Editor",
-      "desc": "Edits Unity sprite properties by generating C# editor scripts using ISpriteEditorDataProvider APIs. Handles sprite recta",
+      "desc": "Edits Unity sprite rectangles, borders, pivots, outlines, and slicing by generating C# scripts. Use when the user works ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -718,7 +736,7 @@
       "type": "skill",
       "category": "dev",
       "name": "2D Pixel Perfect",
-      "desc": "Sets up, diagnoses, and fixes pixel perfect 2D rendering in Unity projects. Use when working on any retro-style or pixel",
+      "desc": "Sets up, diagnoses, and fixes pixel perfect 2D rendering with PixelPerfectCamera in URP or Built-in. Use when a retro-st",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -727,7 +745,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Unity Cli",
-      "desc": "Use when interacting with Unity CLI from the terminal, or to control a running/connected Unity Editor from the command l",
+      "desc": "Controls the Unity Editor and projects from the command line, driving a running Editor to edit scenes and assets or run ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -736,7 +754,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Localization",
-      "desc": "Sets up and configures Unity Localization, including locales, String/Asset Tables, CJK font support, and Addressables wo",
+      "desc": "Sets up and configures Unity Localization, including locales, String and Asset Tables, and CJK fonts. Use when the user ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
@@ -745,7 +763,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Initialize Ai Navigation",
-      "desc": "Sets up and configures the Unity AI Navigation system — NavMesh surfaces, NavMesh agents, obstacles, links, modifiers, a",
+      "desc": "Sets up and configures Unity AI Navigation, including NavMesh surfaces, agents, obstacles, and links. Use when the user ",
       "emoji": "🔹",
       "parentPlugin": "unity"
     },
