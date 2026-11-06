@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-06T00:01:31.977457+00:00",
+  "lastUpdated": "2026-11-06T00:10:54.464797+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "5d20b7eb",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T00:05:06.640000+00:00",
+      "durationSeconds": 339,
+      "modelTier": "opus",
+      "projectName": "20261103-insight-lecture-nov",
+      "toolCallCount": 56,
+      "agentsUsed": []
+    },
     {
       "sessionId": "e15f7a53",
       "date": "2026-11-05",
@@ -3311,16 +3321,6 @@
       "modelTier": "sonnet",
       "projectName": "",
       "toolCallCount": 19,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "4c5eaf75",
-      "date": "2026-09-28",
-      "startTime": "2026-09-28T15:48:06.910000+00:00",
-      "durationSeconds": 116,
-      "modelTier": "opus",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 0,
       "agentsUsed": []
     }
   ]
