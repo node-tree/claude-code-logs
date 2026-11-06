@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-06T11:37:19.803735+00:00",
+  "lastUpdated": "2026-11-06T11:45:11.608162+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "d612c63f",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T11:22:52.233000+00:00",
+      "durationSeconds": 1196,
+      "modelTier": "opus",
+      "projectName": "claude",
+      "toolCallCount": 70,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "84b26092",
       "date": "2026-11-06",
@@ -3316,16 +3328,6 @@
       "modelTier": "opus",
       "projectName": "kanghyunjung",
       "toolCallCount": 202,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "598409b4",
-      "date": "2026-09-29",
-      "startTime": "2026-09-29T22:03:11.853000+00:00",
-      "durationSeconds": 41,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 15,
       "agentsUsed": []
     }
   ]
