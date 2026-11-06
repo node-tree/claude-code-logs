@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T10:57:05.428695+00:00",
+  "lastUpdated": "2026-11-06T10:58:49.654806+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,11 +16,12 @@
       "sessionId": "5da3d89c",
       "date": "2026-11-06",
       "startTime": "2026-11-06T10:46:49.006000+00:00",
-      "durationSeconds": 651,
+      "durationSeconds": 758,
       "modelTier": "opus",
       "projectName": "20261106-ahneunme-direction",
-      "toolCallCount": 29,
+      "toolCallCount": 31,
       "agentsUsed": [
+        "general-purpose",
         "research"
       ]
     },
