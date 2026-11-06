@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "LiteLLM",
+          "name": "OpenAI Agents SDK",
           "type": "tool",
-          "desc": "100개 이상의 LLM 제공자를 OpenAI 형식으로 호출하게 해 주는 오픈소스 AI 게이트웨이이자 Python SDK다.",
-          "reason": "evaluator가 같은 산출물을 Claude와 Codex 양쪽 모델로 교차 판정할 때 호출 형식을 하나로 맞추는 데 쓴다. 모델별 호출 로그도 한곳에 모여 code 렌즈 검수에서 비용을 확인한다.",
+          "desc": "여러 에이전트의 핸드오프·가드레일·트레이싱을 제공하는 경량 멀티 에이전트 워크플로우 프레임워크다.",
+          "reason": "evaluator가 code·design·doc 렌즈별 판정자를 에이전트로 분리해 PASS/REWORK를 구조화된 출력으로 받는 구성에 쓸 수 있다. Codex와 같은 계열이라 Claude 판정과 교차 검증하는 두 번째 심사 경로로 적합하다.",
           "trend": "rising",
-          "url": "https://github.com/BerriAI/litellm"
+          "url": "https://github.com/openai/openai-agents-python"
         },
         {
-          "name": "TruLens",
+          "name": "Pydantic Logfire",
           "type": "tool",
-          "desc": "LLM 실험과 에이전트를 OpenTelemetry 기반으로 평가·추적하는 MIT 라이선스 도구다.",
-          "reason": "evaluator의 PASS/REWORK 판정이 에이전트의 어느 단계에서 갈렸는지 추적해 기록하는 데 쓴다. film-production처럼 단계가 긴 작업의 중간 산출물 검수 기준을 다듬을 때 근거가 된다.",
-          "trend": "stable",
-          "url": "https://github.com/truera/trulens"
+          "desc": "OpenTelemetry 기반으로 Python 앱의 트레이스·로그·메트릭을 수집하는 오픈소스 SDK다.",
+          "reason": "evaluator의 렌즈별 판정 호출 시간과 실패 지점을 트레이스로 남겨 REWORK가 반복되는 지점을 찾는 데 쓴다. 하네스 스크립트의 병목을 숫자로 확인할 수 있다.",
+          "trend": "rising",
+          "url": "https://github.com/pydantic/logfire"
         },
         {
-          "name": "ShellCheck",
+          "name": "Vale",
           "type": "tool",
-          "desc": "bash·sh 스크립트의 오류와 위험한 패턴을 찾는 GPL-3.0 정적 분석 도구다.",
-          "reason": "evaluator가 code 렌즈로 미디어아트 파이프라인과 배포용 셸 스크립트를 판정하기 전에 기계적으로 먼저 돌린다. CLI라 Claude Code가 결과를 읽고 바로 수정한다.",
+          "desc": "마크업과 소스 주석의 문장을 팀 스타일 규칙으로 검사하는 오프라인 CLI 린터다.",
+          "reason": "evaluator의 doc 렌즈에서 공문·지원서 초안의 금지 표현과 용어 통일을 규칙 파일로 자동 검사하는 데 쓴다. 사람이 읽기 전에 문체 오류를 먼저 걸러 REWORK 횟수를 줄인다.",
           "trend": "stable",
-          "url": "https://github.com/koalaman/shellcheck"
+          "url": "https://github.com/vale-cli/vale"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "Hydra",
+          "name": "Tone.js",
           "type": "tool",
-          "desc": "브라우저에서 네트워크 연동 비주얼을 라이브코딩하는 AGPL-3.0 도구다.",
-          "reason": "generative-visual이 공연 현장에서 빠르게 스케치하는 시각 레이어로 쓴다. Three.js WebGPU 장면에 들어갈 피드백·색 변조 아이디어를 먼저 확인한다.",
+          "desc": "브라우저에서 신스·이펙트·트랜스포트 스케줄링으로 음악을 만드는 JavaScript 라이브러리다.",
+          "reason": "sound-art가 웹 기반 설치작품에서 SuperCollider 없이 시퀀스와 신스를 직접 구동할 때 쓴다. 센서 값을 받아 음을 바꾸는 media-art-pipeline의 소니피케이션 프로토타입에도 맞다.",
           "trend": "stable",
-          "url": "https://github.com/hydra-synth/hydra"
+          "url": "https://github.com/Tonejs/Tone.js"
         },
         {
-          "name": "MoviePy",
+          "name": "FFmpeg",
           "type": "tool",
-          "desc": "Python으로 컷 편집, 이어붙이기, 자막과 합성을 처리하는 MIT 라이선스 영상 편집 라이브러리다.",
-          "reason": "film-production이 Final Cut Pro로 가기 전에 촬영본 컷 목록으로 프록시나 러프 컷을 일괄 생성하는 데 쓴다. 코드로 쓰므로 Claude Code가 반복 편집 작업을 스크립트로 만든다.",
+          "desc": "오디오·비디오·자막을 처리하는 오픈소스 라이브러리이자 CLI 도구 모음이다.",
+          "reason": "film-production이 퍼포먼스 필름 마스터의 loudnorm으로 LUFS를 실측하고 코덱을 변환해 영화제 출품본을 만드는 데 쓴다. Claude Code가 명령줄로 바로 호출할 수 있어 Final Cut Pro 내보내기 후 검수 단계를 자동화한다.",
           "trend": "stable",
-          "url": "https://github.com/Zulko/moviepy"
+          "url": "https://github.com/FFmpeg/FFmpeg"
         },
         {
-          "name": "Faust",
-          "type": "tool",
-          "desc": "실시간 오디오 DSP를 기술하는 함수형 언어로 C++, WebAssembly, SuperCollider 플러그인 등으로 컴파일된다.",
-          "reason": "sound-art가 SuperCollider에서 만든 DSP 아이디어를 Daisy 하드웨어나 웹 오디오용 코드로 옮길 때 쓴다. 하나의 DSP 정의로 여러 타깃을 뽑아 media-art-pipeline의 설치 작업에 재사용한다.",
-          "trend": "stable",
-          "url": "https://github.com/grame-cncm/faust"
+          "name": "WebGPU Inspector",
+          "type": "plugin",
+          "desc": "어떤 페이지에서든 WebGPU 호출을 검사·프로파일·캡처하는 브라우저 확장이자 Claude Code 플러그인이다.",
+          "reason": "generative-visual이 Three.js WebGPU/TSL 컴퓨트 셰이더의 파이프라인과 버퍼 상태를 디버깅하는 데 쓴다. 렌더가 비는 문제를 스크린샷 대신 호출 기록으로 추적할 수 있다.",
+          "trend": "hot",
+          "url": "https://github.com/brendan-duncan/webgpu_inspector"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Paper Shaders",
+          "name": "Postiz",
           "type": "tool",
-          "desc": "npm으로 설치하는 의존성 없는 캔버스 셰이더 모음으로 Apache 2.0 라이선스다.",
-          "reason": "visual-design이 포스터용 그라데이션·메시 배경을 코드로 생성하고 Figma에 올릴 키비주얼 소스를 만드는 데 쓴다. 같은 셰이더를 홍보용 웹페이지에서도 재사용한다.",
+          "desc": "공개 API와 CLI·MCP를 제공하는 오픈소스 소셜 미디어 예약 발행 도구다.",
+          "reason": "pr-content가 쓴 SNS 홍보 글과 visual-design이 만든 이미지를 전시 일정에 맞춰 예약 발행하는 데 쓴다. MCP로 Claude Code가 직접 게시물을 등록할 수 있다.",
           "trend": "rising",
-          "url": "https://github.com/paper-design/shaders"
+          "url": "https://github.com/gitroomhq/postiz-app"
         },
         {
-          "name": "Inkscape",
+          "name": "Color.js",
           "type": "tool",
-          "desc": "벡터 이미지 편집기로 GitLab에서 소스가 공개되어 있다.",
-          "reason": "visual-design이 SVG 포스터 원본을 인쇄용으로 점검하고 선·패스를 정리하는 데 쓴다. AI 생성물을 벡터로 바꾼 뒤 Figma로 넘기기 전 마무리 단계에서 쓴다.",
+          "desc": "CSS Color 명세 편집자들이 만든, 여러 색 공간 간 변환과 보간을 지원하는 의존성 없는 JS 라이브러리다.",
+          "reason": "visual-design이 포스터 키비주얼의 팔레트를 OKLCH로 조정하고 인쇄용 대비를 계산하는 데 쓴다. 웹과 인쇄물의 색을 같은 기준으로 맞출 수 있다.",
           "trend": "stable",
-          "url": "https://gitlab.com/inkscape/inkscape"
+          "url": "https://github.com/color-js/color.js"
         },
         {
-          "name": "py-hanspell",
+          "name": "Pretendard",
           "type": "tool",
-          "desc": "네이버 맞춤법 검사기를 사용하는 MIT 라이선스 한국어 맞춤법 검사 Python 라이브러리다.",
-          "reason": "pr-content가 SNS 게시글과 보도자료 초안의 맞춤법·띄어쓰기를 발행 전에 일괄 점검하는 데 쓴다. 외부 서비스에 의존하므로 결과를 evaluator 판정 전 참고용으로 쓴다.",
+          "desc": "SIL OFL 라이선스의 한글·라틴 겸용 서체로 CDN·npm·시스템 설치를 지원한다.",
+          "reason": "visual-design이 포스터와 SNS 이미지의 한글 본문 서체를 상업 이용 걱정 없이 고르는 데 쓴다. 웹 폰트로도 쓸 수 있어 홍보 페이지와 인쇄물 서체를 통일하기 쉽다.",
           "trend": "stable",
-          "url": "https://github.com/ssut/py-hanspell"
+          "url": "https://github.com/orioncactus/pretendard"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "WeasyPrint",
+          "name": "Frappe Gantt",
           "type": "tool",
-          "desc": "HTML과 CSS를 PDF로 렌더링하는 BSD-3-Clause 라이선스 Python 도구다.",
-          "reason": "doc-design이 포트폴리오와 도록 초안을 HTML/CSS로 조판해 PDF로 내보내는 데 쓴다. 페이지 크기와 여백을 CSS로 지정해 인쇄 규격을 맞춘다.",
+          "desc": "MIT 라이선스의 커스터마이즈 가능한 간트 차트용 JavaScript 라이브러리다.",
+          "reason": "project-planner가 사업 일정을 HTML 간트로 렌더링해 지원사업 제출본 일정표 이미지로 쓰는 데 맞다. 의존 관계가 있는 설치 일정도 코드로 바로 생성한다.",
           "trend": "stable",
-          "url": "https://github.com/Kozea/WeasyPrint"
+          "url": "https://github.com/frappe/gantt"
         },
         {
-          "name": "Quarto",
+          "name": "Vikunja",
           "type": "tool",
-          "desc": "Pandoc 기반의 과학·기술 문서 출판 시스템으로 MIT 라이선스다.",
-          "reason": "grant-writer와 doc-design이 하나의 마크다운 원고에서 지원서 PDF와 웹 버전을 함께 뽑는 데 쓴다. 작가노트와 기록집처럼 형식을 바꿔 재사용하는 문서에 맞는다.",
-          "trend": "stable",
-          "url": "https://github.com/quarto-dev/quarto-cli"
+          "desc": "REST API가 문서화된 오픈소스 셀프호스팅 할 일 관리 앱이다.",
+          "reason": "project-planner가 Obsidian 일정과 별개로 역할별 할 일을 API로 등록하고 진행 상태를 읽어 오는 데 쓴다. 팀 단위 진행 점검을 Claude Code가 자동화하기 쉽다.",
+          "trend": "rising",
+          "url": "https://github.com/go-vikunja/vikunja"
         },
         {
-          "name": "Gotenberg",
+          "name": "DocuSeal",
           "type": "tool",
-          "desc": "여러 문서 형식을 PDF로 바꿔 주는 Docker 기반 MIT 라이선스 API 서비스다.",
-          "reason": "project-planner가 만든 일정표와 예산 문서를 HTTP 호출 한 번으로 제출용 PDF로 변환하는 데 쓴다. doc-design의 반복 변환을 서버 호출로 자동화한다.",
-          "trend": "stable",
-          "url": "https://github.com/gotenberg/gotenberg"
+          "desc": "API와 웹훅을 제공하는 오픈소스 셀프호스팅 전자서명 플랫폼이다.",
+          "reason": "doc-design이 만든 협약서·참여 동의서 PDF에 서명 필드를 붙여 참여 작가에게 보내는 데 쓴다. 서명 완료 파일을 정산 증빙으로 바로 보관할 수 있다.",
+          "trend": "rising",
+          "url": "https://github.com/docusealco/docuseal"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "ArchiveBox",
-          "type": "tool",
-          "desc": "웹 페이지를 HTML, PDF, PNG, WARC 형식으로 보존하는 MIT 라이선스 셀프호스팅 아카이브 도구다.",
-          "reason": "research가 작가·이론 조사에서 인용한 URL을 사라지기 전에 보존하는 데 쓴다. 공모 요강 페이지도 마감 전후 버전을 남겨 매칭 전략의 근거로 쓴다.",
-          "trend": "stable",
-          "url": "https://github.com/ArchiveBox/ArchiveBox"
-        },
-        {
-          "name": "Open Notebook",
-          "type": "tool",
-          "desc": "여러 AI 제공자를 쓰고 데이터를 직접 보관하는 MIT 라이선스 셀프호스팅 리서치 어시스턴트다.",
-          "reason": "research가 이론서와 논문 PDF를 한곳에 모아 질의하는 심층 리서치 작업에 쓴다. 자료를 외부에 올리지 않고 작가별 노트로 정리한다.",
+          "name": "Perplexity MCP Server",
+          "type": "mcp",
+          "desc": "검색·질의·심층 리서치·추론 도구를 제공하는 Perplexity 공식 MCP 서버다.",
+          "reason": "research가 작가·이론 조사에서 출처가 붙은 1차 검색 결과를 빠르게 모으는 데 쓴다. 공모 레이더의 마감과 자격 조건 확인에도 perplexity_search가 맞다.",
           "trend": "rising",
-          "url": "https://github.com/lfnovo/open-notebook"
+          "url": "https://github.com/perplexityai/modelcontextprotocol"
         },
         {
-          "name": "MinerU",
+          "name": "Karakeep",
           "type": "tool",
-          "desc": "복잡한 PDF와 오피스 문서를 LLM용 마크다운이나 JSON으로 변환하는 도구로 Apache 2.0 기반의 별도 라이선스를 쓴다.",
-          "reason": "research가 수식과 표가 섞인 기술 논문을 구조를 살려 텍스트로 추출하는 데 쓴다. 이 결과를 Obsidian 노트로 정리해 SLR 작업에 넘긴다.",
-          "trend": "hot",
-          "url": "https://github.com/opendatalab/MinerU"
+          "desc": "REST API와 CLI를 갖추고 AI 자동 태깅을 지원하는 셀프호스팅 북마크 앱이다.",
+          "reason": "research가 작가·작품 레퍼런스 링크를 모으고 AI 태그로 분류한 뒤 Obsidian 정리의 입력으로 쓰는 데 맞다. CLI가 있어 Claude Code가 링크를 직접 저장하고 검색한다.",
+          "trend": "rising",
+          "url": "https://github.com/karakeep-app/karakeep"
+        },
+        {
+          "name": "Linkwarden",
+          "type": "tool",
+          "desc": "페이지의 스크린샷·PDF·읽기용 사본을 보존하는 오픈소스 셀프호스팅 북마크 관리자다.",
+          "reason": "research가 공모 공고 페이지가 내려가도 증빙으로 남도록 원문을 보존하는 데 쓴다. 작가 인터뷰 기사 같은 외부 자료를 인용할 때 링크 소실을 막는다.",
+          "trend": "stable",
+          "url": "https://github.com/linkwarden/linkwarden"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Mastra",
+          "name": "Hono",
           "type": "tool",
-          "desc": "AI 에이전트와 애플리케이션을 만드는 TypeScript 프레임워크로 핵심은 Apache 2.0이다.",
-          "reason": "nodetreehome-web에 방문자 질의용 작품 안내 에이전트를 붙여 보는 실험에 쓴다. Vercel 배포와 같은 TypeScript 스택이라 합치기 쉽다.",
-          "trend": "hot",
-          "url": "https://github.com/mastra-ai/mastra"
+          "desc": "여러 JavaScript 런타임에서 웹 표준 API로 동작하는 경량 TypeScript 웹 프레임워크다.",
+          "reason": "nodetreehome-web이 Vercel에서 실시간 시각화용 API 라우트를 가볍게 구성하는 데 쓴다. 타입 지원이 좋아 Claude Code가 라우트를 생성할 때 오류가 적다.",
+          "trend": "rising",
+          "url": "https://github.com/honojs/hono"
         },
         {
-          "name": "Changesets",
+          "name": "Zod",
           "type": "tool",
-          "desc": "버전과 변경 기록을 관리하는 MIT 라이선스 도구로 모노레포에 특화됐다.",
-          "reason": "nodetreehome-web과 isoartlab 코드를 함께 관리할 때 배포 단위별 변경 기록을 남기는 데 쓴다. Vercel 배포 전에 무엇이 바뀌었는지 Claude Code가 요약하기 쉽다.",
+          "desc": "데이터를 스키마로 검증하고 TypeScript 타입을 추론하는 라이브러리다.",
+          "reason": "nodetreehome-web이 recommendations.json 같은 JSON 데이터를 화면에 그리기 전에 구조를 검증하는 데 쓴다. 필드 누락으로 모니터 페이지가 깨지는 일을 막는다.",
           "trend": "stable",
-          "url": "https://github.com/changesets/changesets"
+          "url": "https://github.com/colinhacks/zod"
         },
         {
-          "name": "Renovate",
+          "name": "TanStack Query",
           "type": "tool",
-          "desc": "오래된 의존성을 찾아 업데이트 PR을 자동으로 여는 AGPL-3.0 도구다.",
-          "reason": "nodetreehome-web의 React와 Three.js 의존성 갱신을 자동 PR로 받아 하네스 검수에 올린다. 직접 챙기기 어려운 보안 업데이트를 놓치지 않는다.",
+          "desc": "React 등에서 서버 상태의 가져오기·캐싱·동기화를 처리하는 라이브러리다.",
+          "reason": "nodetreehome-web의 모니터 페이지가 agents.json 같은 데이터를 주기적으로 갱신하며 로딩·오류 상태를 일관되게 다루는 데 쓴다. 폴링 로직을 직접 쓰는 부담을 줄인다.",
           "trend": "stable",
-          "url": "https://github.com/renovatebot/renovate"
+          "url": "https://github.com/TanStack/query"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "Firefly III",
+          "name": "Metabase",
           "type": "tool",
-          "desc": "셀프호스팅 재무 관리 프로그램으로 AGPL-3.0 라이선스다.",
-          "reason": "nodetree-accounting이 노드트리 일반회계의 입출금 내역을 분류하는 보조 장부로 쓴다. 보조사업 정산 전에 항목별 합계를 대조한다.",
+          "desc": "SQL 없이도 질의와 대시보드를 만드는 오픈소스 BI 도구다.",
+          "reason": "nodetree-accounting이 보조사업 비목별 집행 현황을 대시보드로 보는 데 쓴다. saengsanso-accounting은 법인 경비를 월별로 비교해 부가세 신고 전 점검에 쓸 수 있다.",
           "trend": "stable",
-          "url": "https://github.com/firefly-iii/firefly-iii"
+          "url": "https://github.com/metabase/metabase"
         },
         {
-          "name": "Akaunting",
+          "name": "Tabula",
           "type": "tool",
-          "desc": "소규모 사업자와 프리랜서용 온라인 회계 소프트웨어로 Business Source License로 배포된다.",
-          "reason": "saengsanso-accounting이 ㈜생산소의 매출·매입 기록을 정리하는 후보로 검토한다. 라이선스가 BSL이라 사용 조건을 먼저 확인해야 한다.",
+          "desc": "텍스트 기반 PDF의 표를 CSV로 추출하는 MIT 라이선스 로컬 도구다.",
+          "reason": "nodetree-accounting이 은행·카드사 PDF 명세서를 정산용 CSV로 바꾸는 데 쓴다. 증빙 대조 작업의 수기 입력을 줄인다.",
           "trend": "stable",
-          "url": "https://github.com/akaunting/akaunting"
+          "url": "https://github.com/tabulapdf/tabula"
         },
         {
-          "name": "Invoice Ninja",
+          "name": "Evidence",
           "type": "tool",
-          "desc": "청구서, 견적, 프로젝트, 시간 추적을 다루는 Laravel 기반 앱으로 Elastic License로 공개된다.",
-          "reason": "saengsanso-accounting이 외주 견적서와 청구서 발행을 관리하는 데 쓴다. 발행 내역을 세금계산서 작업 전에 대조하는 용도다.",
-          "trend": "stable",
-          "url": "https://github.com/invoiceninja/invoiceninja"
+          "desc": "SQL과 마크다운으로 보고서를 만드는 MIT 라이선스 코드 기반 BI 도구다.",
+          "reason": "saengsanso-accounting이 월별 법인카드·경비 보고서를 마크다운 코드로 관리해 변경 이력을 남기는 데 쓴다. 정산 보고서를 반복 생성하는 작업을 Claude Code가 수정하기 쉽다.",
+          "trend": "rising",
+          "url": "https://github.com/evidence-dev/evidence"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-11-06",
+      "names": [
+        "OpenAI Agents SDK",
+        "Pydantic Logfire",
+        "Vale",
+        "Tone.js",
+        "FFmpeg",
+        "WebGPU Inspector",
+        "Postiz",
+        "Color.js",
+        "Pretendard",
+        "Frappe Gantt",
+        "Vikunja",
+        "DocuSeal",
+        "Perplexity MCP Server",
+        "Karakeep",
+        "Linkwarden",
+        "Hono",
+        "Zod",
+        "TanStack Query",
+        "Metabase",
+        "Tabula",
+        "Evidence"
+      ]
+    },
     {
       "date": "2026-11-05",
       "names": [
@@ -549,32 +575,6 @@
         "Bigcapital",
         "docTR",
         "XlsxWriter"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "names": [
-        "Trivy",
-        "jscpd",
-        "Nu Html Checker (vnu)",
-        "tdmcp",
-        "Sonic Pi",
-        "cables.gl",
-        "Fabric.js",
-        "opentype.js",
-        "Motion",
-        "kordoc",
-        "k-skill",
-        "Obsidian Dataview",
-        "Khoj",
-        "whisper.cpp",
-        "rerankers",
-        "TanStack Router",
-        "React Three Fiber",
-        "Zustand",
-        "korean-jangbu-for (k-skill)",
-        "EasyOCR",
-        "Dolibarr"
       ]
     }
   ]
