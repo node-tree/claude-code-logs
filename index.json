@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-06T10:52:15.380293+00:00",
+  "lastUpdated": "2026-11-06T10:52:23.347563+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "5da3d89c",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T10:46:49.006000+00:00",
+      "durationSeconds": 361,
+      "modelTier": "opus",
+      "projectName": "20261106-ahneunme-direction",
+      "toolCallCount": 28,
+      "agentsUsed": [
+        "research"
+      ]
+    },
     {
       "sessionId": "7531985a",
       "date": "2026-11-06",
@@ -3317,16 +3329,6 @@
         "general-purpose",
         "research"
       ]
-    },
-    {
-      "sessionId": "fbb16f7b",
-      "date": "2026-09-29",
-      "startTime": "2026-09-29T13:08:24.888000+00:00",
-      "durationSeconds": 1332,
-      "modelTier": "opus",
-      "projectName": "yr-015-strips",
-      "toolCallCount": 34,
-      "agentsUsed": []
     }
   ]
 }
