@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-11-06T00:25:29.912169+00:00",
+  "lastUpdated": "2026-11-06T00:34:29.470089+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "8263d2ce",
       "date": "2026-11-06",
       "startTime": "2026-11-06T00:07:27.354000+00:00",
-      "durationSeconds": 1260,
+      "durationSeconds": 1809,
       "modelTier": "opus",
       "projectName": "20261106-heritage-digital-images",
-      "toolCallCount": 93,
-      "agentsUsed": []
+      "toolCallCount": 121,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "5d20b7eb",
