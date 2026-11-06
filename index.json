@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T11:51:25.386167+00:00",
+  "lastUpdated": "2026-11-06T11:57:13.697449+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -28,10 +28,10 @@
       "sessionId": "5da3d89c",
       "date": "2026-11-06",
       "startTime": "2026-11-06T10:46:49.006000+00:00",
-      "durationSeconds": 3668,
+      "durationSeconds": 4090,
       "modelTier": "opus",
-      "projectName": "20261106-ahneunme-direction",
-      "toolCallCount": 113,
+      "projectName": "자료실",
+      "toolCallCount": 132,
       "agentsUsed": [
         "general-purpose",
         "research"
