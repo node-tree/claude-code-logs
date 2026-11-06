@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-06T08:33:56.891647+00:00",
+  "lastUpdated": "2026-11-06T08:42:15.770735+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7531985a",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T08:32:55.911000+00:00",
+      "durationSeconds": 565,
+      "modelTier": "opus",
+      "projectName": "memory",
+      "toolCallCount": 52,
+      "agentsUsed": []
+    },
     {
       "sessionId": "aa4dfa33",
       "date": "2026-11-06",
@@ -3315,16 +3325,6 @@
       "durationSeconds": 1332,
       "modelTier": "opus",
       "projectName": "yr-015-strips",
-      "toolCallCount": 34,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e29e925d",
-      "date": "2026-09-29",
-      "startTime": "2026-09-29T11:29:51.044000+00:00",
-      "durationSeconds": 1495,
-      "modelTier": "opus",
-      "projectName": "꿈다락",
       "toolCallCount": 34,
       "agentsUsed": []
     }
