@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-06T02:23:47.795408+00:00",
+  "lastUpdated": "2026-11-06T08:33:56.891647+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "aa4dfa33",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T08:29:39.437000+00:00",
+      "durationSeconds": 212,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 35,
+      "agentsUsed": []
+    },
     {
       "sessionId": "3895d1fc",
       "date": "2026-11-06",
@@ -3316,16 +3326,6 @@
       "modelTier": "opus",
       "projectName": "꿈다락",
       "toolCallCount": 34,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "ac6c1410",
-      "date": "2026-09-29",
-      "startTime": "2026-09-29T05:03:18.071000+00:00",
-      "durationSeconds": 7331,
-      "modelTier": "opus",
-      "projectName": "narration-tts-20260929",
-      "toolCallCount": 125,
       "agentsUsed": []
     }
   ]
