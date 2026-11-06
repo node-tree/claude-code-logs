@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-06T12:32:38.177379+00:00",
+  "lastUpdated": "2026-11-06T12:36:35.427303+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "d612c63f",
       "date": "2026-11-06",
       "startTime": "2026-11-06T11:22:52.233000+00:00",
-      "durationSeconds": 2871,
+      "durationSeconds": 3109,
       "modelTier": "opus",
-      "projectName": "_tmp_renders",
-      "toolCallCount": 176,
+      "projectName": "20261106-yesulje-bungeoppang",
+      "toolCallCount": 221,
       "agentsUsed": [
         "general-purpose"
       ]
