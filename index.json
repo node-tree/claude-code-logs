@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T01:14:20.160245+00:00",
+  "lastUpdated": "2026-11-06T01:17:49.914623+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "8263d2ce",
       "date": "2026-11-06",
       "startTime": "2026-11-06T00:07:27.354000+00:00",
-      "durationSeconds": 4071,
+      "durationSeconds": 4309,
       "modelTier": "opus",
-      "projectName": "frag",
-      "toolCallCount": 228,
+      "projectName": "20261106-heritage-digital-images",
+      "toolCallCount": 248,
       "agentsUsed": [
         "general-purpose"
       ]
