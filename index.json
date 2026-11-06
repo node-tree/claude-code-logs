@@ -1,16 +1,17 @@
 {
-  "lastUpdated": "2026-11-06T01:22:38.469937+00:00",
+  "lastUpdated": "2026-11-06T01:37:58.033000+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "3895d1fc",
       "date": "2026-11-06",
       "startTime": "2026-11-06T01:03:57.286000+00:00",
-      "durationSeconds": 1045,
+      "durationSeconds": 1978,
       "modelTier": "opus",
-      "projectName": "assets",
-      "toolCallCount": 69,
+      "projectName": "figma-r20",
+      "toolCallCount": 115,
       "agentsUsed": [
+        "evaluator",
         "general-purpose"
       ]
     },

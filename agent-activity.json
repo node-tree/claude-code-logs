@@ -1,13 +1,13 @@
 {
+  "evaluator": {
+    "lastActive": "2026-11-06T01:03:57.286000+00:00",
+    "lastProject": "figma-r20",
+    "sessionId": "3895d1fc"
+  },
   "research": {
     "lastActive": "2026-11-05T15:23:26.598000+00:00",
     "lastProject": "memory",
     "sessionId": "4320fddc"
-  },
-  "evaluator": {
-    "lastActive": "2026-11-05T00:26:54.759000+00:00",
-    "lastProject": "20261105-dasi-web-invite",
-    "sessionId": "b9371469"
   },
   "doc-design": {
     "lastActive": "2026-10-27T14:42:08.580000+00:00",
