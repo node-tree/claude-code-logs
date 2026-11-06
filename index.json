@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-06T00:10:54.464797+00:00",
+  "lastUpdated": "2026-11-06T00:18:06.877163+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "8263d2ce",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T00:07:27.354000+00:00",
+      "durationSeconds": 767,
+      "modelTier": "opus",
+      "projectName": "20261106-heritage-digital-images",
+      "toolCallCount": 61,
+      "agentsUsed": []
+    },
     {
       "sessionId": "5d20b7eb",
       "date": "2026-11-06",
@@ -3311,16 +3321,6 @@
       "modelTier": "opus",
       "projectName": "USB_2회차",
       "toolCallCount": 268,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "fed93f1c",
-      "date": "2026-09-28",
-      "startTime": "2026-09-28T22:03:10.952000+00:00",
-      "durationSeconds": 92,
-      "modelTier": "sonnet",
-      "projectName": "",
-      "toolCallCount": 19,
       "agentsUsed": []
     }
   ]
