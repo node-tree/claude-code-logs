@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-06T00:34:29.470089+00:00",
+  "lastUpdated": "2026-11-06T01:08:46.802436+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "3895d1fc",
+      "date": "2026-11-06",
+      "startTime": "2026-11-06T01:03:57.286000+00:00",
+      "durationSeconds": 290,
+      "modelTier": "opus",
+      "projectName": "20261106-dasi-a4-invite",
+      "toolCallCount": 35,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "8263d2ce",
       "date": "2026-11-06",
@@ -3313,16 +3325,6 @@
       "modelTier": "opus",
       "projectName": "narration-tts-20260929",
       "toolCallCount": 125,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "a2745dd1",
-      "date": "2026-09-28",
-      "startTime": "2026-09-28T23:44:03.380000+00:00",
-      "durationSeconds": 6960,
-      "modelTier": "opus",
-      "projectName": "USB_2회차",
-      "toolCallCount": 268,
       "agentsUsed": []
     }
   ]
