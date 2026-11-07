@@ -1,16 +1,17 @@
 {
-  "lastUpdated": "2026-11-07T13:56:00.357433+00:00",
+  "lastUpdated": "2026-11-07T13:58:22.937768+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "25eeca72",
       "date": "2026-11-07",
       "startTime": "2026-11-07T11:59:45.229000+00:00",
-      "durationSeconds": 7037,
+      "durationSeconds": 7179,
       "modelTier": "opus",
-      "projectName": "claude",
-      "toolCallCount": 322,
+      "projectName": "20261101-madmapper-mcp",
+      "toolCallCount": 330,
       "agentsUsed": [
+        "general-purpose",
         "research"
       ]
     },
