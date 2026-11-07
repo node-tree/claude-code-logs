@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-07T08:19:37.189914+00:00",
+  "lastUpdated": "2026-11-07T12:02:53.521636+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "25eeca72",
+      "date": "2026-11-07",
+      "startTime": "2026-11-07T11:59:45.229000+00:00",
+      "durationSeconds": 179,
+      "modelTier": "opus",
+      "projectName": "dmxtest",
+      "toolCallCount": 19,
+      "agentsUsed": []
+    },
     {
       "sessionId": "a2bedc7c",
       "date": "2026-11-07",
@@ -3317,16 +3327,6 @@
       "modelTier": "sonnet",
       "projectName": "",
       "toolCallCount": 19,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "56a7e867",
-      "date": "2026-09-30",
-      "startTime": "2026-09-30T01:04:23.444000+00:00",
-      "durationSeconds": 199,
-      "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 10,
       "agentsUsed": []
     }
   ]
