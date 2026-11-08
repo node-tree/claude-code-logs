@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-08T09:46:10.235848+00:00",
+  "lastUpdated": "2026-11-08T10:22:18.710439+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "8167c40e",
+      "date": "2026-11-08",
+      "startTime": "2026-11-08T10:20:25.384000+00:00",
+      "durationSeconds": 104,
+      "modelTier": "opus",
+      "projectName": "꿈다락 문화예술학교_BI",
+      "toolCallCount": 17,
+      "agentsUsed": []
+    },
     {
       "sessionId": "a00607ab",
       "date": "2026-11-08",
@@ -3319,18 +3329,6 @@
       "projectName": ".claude",
       "toolCallCount": 18,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "3cd2e1f3",
-      "date": "2026-10-01",
-      "startTime": "2026-10-01T05:32:48.702000+00:00",
-      "durationSeconds": 3368,
-      "modelTier": "opus",
-      "projectName": "Obsidian Vault",
-      "toolCallCount": 166,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
