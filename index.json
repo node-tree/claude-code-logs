@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-08T15:06:04.901880+00:00",
+  "lastUpdated": "2026-11-08T22:04:21.545714+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "c7f347ac",
+      "date": "2026-11-08",
+      "startTime": "2026-11-08T22:03:13.843000+00:00",
+      "durationSeconds": 60,
+      "modelTier": "sonnet",
+      "projectName": "",
+      "toolCallCount": 27,
+      "agentsUsed": []
+    },
     {
       "sessionId": "7f428776",
       "date": "2026-11-08",
@@ -3319,16 +3329,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "cbf510d8",
-      "date": "2026-10-01",
-      "startTime": "2026-10-01T07:26:06.687000+00:00",
-      "durationSeconds": 181,
-      "modelTier": "opus",
-      "projectName": "03_블렌더",
-      "toolCallCount": 12,
-      "agentsUsed": []
     }
   ]
 }
