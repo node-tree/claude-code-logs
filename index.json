@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T10:22:36.541146+00:00",
+  "lastUpdated": "2026-11-08T10:24:02.180356+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -11,6 +11,18 @@
       "projectName": "꿈다락 문화예술학교_BI",
       "toolCallCount": 18,
       "agentsUsed": []
+    },
+    {
+      "sessionId": "e8597b1a",
+      "date": "2026-11-08",
+      "startTime": "2026-11-08T09:46:42.250000+00:00",
+      "durationSeconds": 2495,
+      "modelTier": "opus",
+      "projectName": "_tmp_renders",
+      "toolCallCount": 178,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "a00607ab",
@@ -3319,16 +3331,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "6c00a43f",
-      "date": "2026-10-01",
-      "startTime": "2026-10-01T05:43:21.158000+00:00",
-      "durationSeconds": 1039,
-      "modelTier": "opus",
-      "projectName": ".claude",
-      "toolCallCount": 18,
-      "agentsUsed": []
     }
   ]
 }
