@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-08T04:20:05.729470+00:00",
+  "lastUpdated": "2026-11-08T04:23:52.468132+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "a00607ab",
       "date": "2026-11-08",
       "startTime": "2026-11-08T03:20:51.591000+00:00",
-      "durationSeconds": 3229,
+      "durationSeconds": 3465,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 110,
+      "projectName": "industry-briefing",
+      "toolCallCount": 122,
       "agentsUsed": []
     },
     {
