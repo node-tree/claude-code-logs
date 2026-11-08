@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-08T12:44:48.424529+00:00",
+  "lastUpdated": "2026-11-08T12:47:53.232724+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7f428776",
+      "date": "2026-11-08",
+      "startTime": "2026-11-08T12:45:03.841000+00:00",
+      "durationSeconds": 143,
+      "modelTier": "opus",
+      "projectName": "kanghyunjung",
+      "toolCallCount": 11,
+      "agentsUsed": []
+    },
     {
       "sessionId": "8167c40e",
       "date": "2026-11-08",
@@ -3319,18 +3329,6 @@
       "projectName": "03_블렌더",
       "toolCallCount": 12,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "34bc8b7d",
-      "date": "2026-10-01",
-      "startTime": "2026-10-01T06:04:05.832000+00:00",
-      "durationSeconds": 1941,
-      "modelTier": "opus",
-      "projectName": "out",
-      "toolCallCount": 52,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
