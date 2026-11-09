@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-09T02:24:54.227517+00:00",
+  "lastUpdated": "2026-11-09T02:25:54.026768+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "64beac6a",
+      "date": "2026-11-09",
+      "startTime": "2026-11-09T02:17:00.242000+00:00",
+      "durationSeconds": 543,
+      "modelTier": "opus",
+      "projectName": "20261109-insight-a4-nov",
+      "toolCallCount": 55,
+      "agentsUsed": []
+    },
     {
       "sessionId": "6e06d71d",
       "date": "2026-11-09",
@@ -3317,18 +3327,6 @@
       "projectName": ".claude",
       "toolCallCount": 40,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "ce8ed56f",
-      "date": "2026-10-01",
-      "startTime": "2026-10-01T14:32:50.435000+00:00",
-      "durationSeconds": 696,
-      "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 17,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
