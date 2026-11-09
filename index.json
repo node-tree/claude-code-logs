@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-11-09T07:42:06.059400+00:00",
+  "lastUpdated": "2026-11-09T07:44:31.676235+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "04d8608c",
+      "date": "2026-11-09",
+      "startTime": "2026-11-09T07:36:11.003000+00:00",
+      "durationSeconds": 537,
+      "modelTier": "opus",
+      "projectName": "20261109-video-form-research",
+      "toolCallCount": 45,
+      "agentsUsed": [
+        "general-purpose",
+        "research"
+      ]
+    },
     {
       "sessionId": "64beac6a",
       "date": "2026-11-09",
@@ -3316,16 +3329,6 @@
       "modelTier": "opus",
       "projectName": "memory",
       "toolCallCount": 377,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "f49da25d",
-      "date": "2026-10-01",
-      "startTime": "2026-10-01T15:06:01.679000+00:00",
-      "durationSeconds": 566,
-      "modelTier": "opus",
-      "projectName": ".claude",
-      "toolCallCount": 40,
       "agentsUsed": []
     }
   ]
