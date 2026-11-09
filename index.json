@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-09T09:06:19.596710+00:00",
+  "lastUpdated": "2026-11-09T09:32:33.857425+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "04d8608c",
       "date": "2026-11-09",
       "startTime": "2026-11-09T07:36:11.003000+00:00",
-      "durationSeconds": 2678,
+      "durationSeconds": 4314,
       "modelTier": "opus",
-      "projectName": "memory",
-      "toolCallCount": 108,
+      "projectName": "20261109-video-form-research",
+      "toolCallCount": 163,
       "agentsUsed": [
         "general-purpose",
         "research"
