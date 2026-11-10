@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T03:43:48.358127+00:00",
+  "lastUpdated": "2026-11-10T03:46:55.528672+00:00",
   "teams": [
     {
       "id": "harness",
@@ -25,19 +25,9 @@
       "desc": "실시간 비주얼(Three.js WebGPU/TSL) · 사운드(SuperCollider · Ableton) · 설치 센서 · OSC · 퍼포먼스 필름 편집(FCP)",
       "agents": [
         {
-          "id": "film-production",
-          "name": "film-production",
-          "desc": "NODE TREE 퍼포먼스 필름 제작 전담 — 촬영 계획, 편집(Final Cut Pro 직접 제어), 색보정, 사운드 믹싱(LUFS 실측), 마스터링·코덱, 영화제 출품"
-        },
-        {
           "id": "generative-visual",
           "name": "generative-visual",
           "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. 1순위 Three.js+WebGPU/TSL 컴퓨트 셰이더, p5.js 알고리즘 아트, Hydra, GLSL, Blender 3D 조형, 프로그래밍 영상(Hyp"
-        },
-        {
-          "id": "media-art-pipeline",
-          "name": "media-art-pipeline",
-          "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV/DAC 하드웨어, 센서, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-"
         },
         {
           "id": "sound-art",
@@ -57,7 +47,7 @@
         {
           "id": "pr-content",
           "name": "pr-content",
-          "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성"
+          "desc": "NODE TREE 글 작성 — 홍보 텍스트(SNS·웹·언론)와 설득형 글 본문(지원서·작가노트·제안서·artist statement)"
         },
         {
           "id": "visual-design",
@@ -78,16 +68,6 @@
           "id": "doc-design",
           "name": "doc-design",
           "desc": "레이아웃·양식 문서 제작 — 포트폴리오, 도록, 기록집, 공문, 보고서, HWPX, Figma 디지털도화서"
-        },
-        {
-          "id": "grant-writer",
-          "name": "grant-writer",
-          "desc": "NODE TREE 설득형 글 작성 — 지원서·작가노트·제안서·artist statement 본문 텍스트"
-        },
-        {
-          "id": "project-planner",
-          "name": "project-planner",
-          "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian/Notion)"
         }
       ]
     },
@@ -102,7 +82,7 @@
         {
           "id": "research",
           "name": "research",
-          "desc": "NODE TREE 리서치 통합 에이전트 — 두 모드. ①심층 리서치: 작가·작품·이론·기술·지역 조사, URL 분석, 옵시디안 정리, SLR. ②공모 레이더: 공모·레지던시·어워드 발굴·매칭 전략·마감 추적, gra"
+          "desc": "NODE TREE 리서치 통합 에이전트 — 두 모드. ①심층 리서치: 작가·작품·이론·기술·지역 조사, URL 분석, 옵시디안 정리, SLR. ②공모 레이더: 공모·레지던시·어워드 발굴·매칭 전략·마감 추적(요청 때"
         }
       ]
     },
@@ -113,13 +93,7 @@
       "color": "#1d4ed8",
       "bg": "#eff6ff",
       "desc": "nodetree.kr · isoartlab(React · Vercel) · 작업용 스크립트",
-      "agents": [
-        {
-          "id": "nodetreehome-web",
-          "name": "nodetreehome-web",
-          "desc": "nodetreeHome 웹 프로젝트 개발·배포 전담. React·API·실시간 시각화·Vercel"
-        }
-      ]
+      "agents": []
     },
     {
       "id": "accounting",

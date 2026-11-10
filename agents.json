@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-10T01:31:46.169391+00:00",
-  "totalAgents": 115,
+  "lastUpdated": "2026-11-10T03:46:55.528672+00:00",
+  "totalAgents": 110,
   "agents": [
     {
       "id": "canvas-design",
@@ -890,38 +890,11 @@
       "category": "harness"
     },
     {
-      "id": "film-production",
-      "type": "agent",
-      "team": "art",
-      "name": "film-production",
-      "desc": "NODE TREE 퍼포먼스 필름 제작 전담 — 촬영 계획, 편집(Final Cut Pro 직접 제어), 색보정, 사운드 믹싱(LUFS 실측), 마스터링·코덱, 영화제 출품",
-      "emoji": "▲",
-      "category": "art"
-    },
-    {
       "id": "generative-visual",
       "type": "agent",
       "team": "art",
       "name": "generative-visual",
       "desc": "NODE TREE 제너러티브 비주얼·실시간 그래픽 전담. 1순위 Three.js+WebGPU/TSL 컴퓨트 셰이더, p5.js 알고리즘 아트, Hydra, GLSL, Blender 3D 조형, 프로그래밍 영상(Hyp",
-      "emoji": "▲",
-      "category": "art"
-    },
-    {
-      "id": "grant-writer",
-      "type": "agent",
-      "team": "docs",
-      "name": "grant-writer",
-      "desc": "NODE TREE 설득형 글 작성 — 지원서·작가노트·제안서·artist statement 본문 텍스트",
-      "emoji": "◆",
-      "category": "docs"
-    },
-    {
-      "id": "media-art-pipeline",
-      "type": "agent",
-      "team": "art",
-      "name": "media-art-pipeline",
-      "desc": "미디어아트 통합·소니피케이션 지휘자. 데이터→감각 매핑 설계, OSC/ArtNet 라우팅, ESP32/CV/DAC 하드웨어, 센서, 시스템 통합. 사운드 구현은 sound-art, 비주얼 구현은 generative-",
       "emoji": "▲",
       "category": "art"
     },
@@ -935,38 +908,20 @@
       "category": "accounting"
     },
     {
-      "id": "nodetreehome-web",
-      "type": "agent",
-      "team": "dev",
-      "name": "nodetreehome-web",
-      "desc": "nodetreeHome 웹 프로젝트 개발·배포 전담. React·API·실시간 시각화·Vercel",
-      "emoji": "■",
-      "category": "dev"
-    },
-    {
       "id": "pr-content",
       "type": "agent",
       "team": "design",
       "name": "pr-content",
-      "desc": "NODE TREE SNS·웹·언론용 홍보 텍스트 작성",
+      "desc": "NODE TREE 글 작성 — 홍보 텍스트(SNS·웹·언론)와 설득형 글 본문(지원서·작가노트·제안서·artist statement)",
       "emoji": "●",
       "category": "design"
-    },
-    {
-      "id": "project-planner",
-      "type": "agent",
-      "team": "docs",
-      "name": "project-planner",
-      "desc": "프로젝트 일정·예산·역할·진행관리 (Obsidian/Notion)",
-      "emoji": "◆",
-      "category": "docs"
     },
     {
       "id": "research",
       "type": "agent",
       "team": "research",
       "name": "research",
-      "desc": "NODE TREE 리서치 통합 에이전트 — 두 모드. ①심층 리서치: 작가·작품·이론·기술·지역 조사, URL 분석, 옵시디안 정리, SLR. ②공모 레이더: 공모·레지던시·어워드 발굴·매칭 전략·마감 추적, gra",
+      "desc": "NODE TREE 리서치 통합 에이전트 — 두 모드. ①심층 리서치: 작가·작품·이론·기술·지역 조사, URL 분석, 옵시디안 정리, SLR. ②공모 레이더: 공모·레지던시·어워드 발굴·매칭 전략·마감 추적(요청 때",
       "emoji": "○",
       "category": "research"
     },
