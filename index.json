@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T02:41:28.172517+00:00",
+  "lastUpdated": "2026-11-10T02:48:18.402046+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -18,10 +18,10 @@
       "sessionId": "020e8950",
       "date": "2026-11-10",
       "startTime": "2026-11-10T00:29:46.656000+00:00",
-      "durationSeconds": 5274,
+      "durationSeconds": 5687,
       "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 304,
+      "projectName": "nodetree.kr",
+      "toolCallCount": 334,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
