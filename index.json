@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T13:04:08.472310+00:00",
+  "lastUpdated": "2026-11-10T13:06:04.953313+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,10 +41,10 @@
       "sessionId": "f3974b17",
       "date": "2026-11-10",
       "startTime": "2026-11-10T04:34:46.633000+00:00",
-      "durationSeconds": 12920,
+      "durationSeconds": 13037,
       "modelTier": "opus",
       "projectName": "하네스 · 운영",
-      "toolCallCount": 386,
+      "toolCallCount": 391,
       "agentsUsed": [
         "general-purpose"
       ]
