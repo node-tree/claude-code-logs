@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T03:43:57.216904+00:00",
+  "lastUpdated": "2026-11-10T03:44:50.192389+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -53,10 +53,10 @@
       "sessionId": "04d8608c",
       "date": "2026-11-09",
       "startTime": "2026-11-09T07:36:11.003000+00:00",
-      "durationSeconds": 10951,
+      "durationSeconds": 11578,
       "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 387,
+      "projectName": "공생직조 〈이물〉",
+      "toolCallCount": 414,
       "agentsUsed": [
         "general-purpose",
         "research"
