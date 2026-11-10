@@ -1,33 +1,33 @@
 {
-  "lastUpdated": "2026-11-09",
+  "lastUpdated": "2026-11-10",
   "recommendations": [
     {
       "teamId": "harness",
       "teamName": "하네스",
       "items": [
         {
-          "name": "oh-my-claudecode",
-          "type": "plugin",
-          "desc": "Claude Code용 멀티에이전트 오케스트레이션 플러그인으로, Codex·Gemini 같은 외부 CLI 워커를 tmux 창에서 함께 돌린다.",
-          "reason": "하네스 리드가 evaluator에 판정을 위임할 때 Claude와 Codex를 병렬 워커로 띄워 같은 산출물을 교차 검수하는 구조를 시험할 수 있다. 검수 결과가 구조화된 verdict 파일로 리더에게 돌아오는 방식이라 PASS/REWORK 판정 집계에 맞는다.",
-          "trend": "hot",
-          "url": "https://github.com/yeachan-heo/oh-my-claudecode"
-        },
-        {
-          "name": "claude-code-action",
+          "name": "axe-core",
           "type": "tool",
-          "desc": "Anthropic이 만든 GitHub Action으로, PR과 이슈에서 Claude Code가 코드 리뷰와 구현을 수행한다.",
-          "reason": "evaluator의 lens: code 검수를 PR 단위로 자동 실행해 nodetreeHome 웹 변경에 대한 리뷰 기록을 남길 수 있다. 진행 체크리스트와 JSON 구조화 출력이 있어 판정 결과를 후속 자동화에 넘기기 쉽다.",
+          "desc": "웹 페이지의 접근성 위반을 자동으로 검사하는 오픈소스 엔진이다.",
+          "reason": "evaluator의 design·code 렌즈에서 nodetree.kr과 웹 산출물의 대비·라벨·키보드 접근성을 PASS/REWORK 근거로 수치화할 수 있다. Playwright와 함께 돌리면 판정이 주관에 흐르지 않는다.",
           "trend": "stable",
-          "url": "https://github.com/anthropics/claude-code-action"
+          "url": "https://github.com/dequelabs/axe-core"
         },
         {
-          "name": "ARIS (Auto-Research-In-Sleep)",
-          "type": "skill",
-          "desc": "Markdown만으로 구성된 스킬 모음으로, 모델 간 교차 리뷰 루프와 장시간 자동 작업을 지원한다.",
-          "reason": "Claude가 만든 산출물을 Codex가 다시 검토하게 하는 교차 리뷰 루프를 evaluator 판정 절차에 참고할 수 있다. 같은 모델의 자기 평가 편향을 줄이는 방법을 하네스에 도입하는 데 쓸모가 있다.",
+          "name": "CodeRabbit skills",
+          "type": "plugin",
+          "desc": "CodeRabbit CLI로 코드 리뷰와 PR 리뷰 스레드 자동 수정을 수행하는 Claude Code 플러그인이다.",
+          "reason": "evaluator의 code 렌즈에서 웹·파이프라인 산출물 판정 전에 독립된 리뷰어 관점을 한 번 더 확보할 수 있다. REWORK 사유를 PR 스레드 단위로 정리해 수정 에이전트에 넘기기 쉽다.",
           "trend": "rising",
-          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep"
+          "url": "https://github.com/coderabbitai/skills"
+        },
+        {
+          "name": "claude-code-security-review",
+          "type": "tool",
+          "desc": "Claude로 PR 변경분의 보안 취약점을 검사하고 코멘트를 남기는 GitHub Action이다.",
+          "reason": "nodetree.kr의 API와 Vercel 배포 코드를 evaluator code 렌즈로 판정할 때 보안 항목을 자동 점검한다. 배포 전 REWORK 사유로 바로 쓸 수 있는 근거가 남는다.",
+          "trend": "stable",
+          "url": "https://github.com/anthropics/claude-code-security-review"
         }
       ]
     },
@@ -36,28 +36,28 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "webgpu-claude-skill",
-          "type": "skill",
-          "desc": "Three.js WebGPU 렌더러와 TSL 셰이더, 컴퓨트 셰이더, 후처리 작성법을 담은 Claude 스킬로 r183 이후 API에 맞춰져 있다.",
-          "reason": "generative-visual의 1순위 경로인 Three.js WebGPU/TSL 컴퓨트 파티클 작업에서 최신 API 변경과 장치 손실 복구 패턴을 참조할 수 있다. 기존 webgpu-creative 스킬의 함정 사전과 대조해 빠진 항목을 보강하기 좋다.",
+          "name": "Wokwi CLI",
+          "type": "mcp",
+          "desc": "ESP32 펌웨어를 헤드리스로 시뮬레이션하고 실험적 MCP 서버(wokwi-cli mcp)를 제공하는 CLI이다.",
+          "reason": "media-art-pipeline이 설치 현장 없이 ESP32 센서·OSC 송신 로직을 먼저 검증할 수 있다. 시리얼 출력 기대값 검사로 하드웨어 연결 전 회귀 테스트가 가능하다.",
           "trend": "rising",
-          "url": "https://github.com/dgreenheck/webgpu-claude-skill"
+          "url": "https://github.com/wokwi/wokwi-cli"
         },
         {
-          "name": "DaVinci Resolve MCP",
-          "type": "mcp",
-          "desc": "DaVinci Resolve Studio를 공식 스크립팅 API로 제어하는 MCP 서버로 편집·색보정·Fairlight 오디오를 다룬다.",
-          "reason": "film-production이 Final Cut Pro에서 편집한 퍼포먼스 필름의 색보정과 LUFS 믹싱을 Resolve에서 교차 검증하는 보조 경로로 쓸 수 있다. 소스 미디어를 읽기 전용으로 두고 위험 작업에 보호 장치가 있어 원본 영상 작업에 안전하다.",
+          "name": "ACE-Step",
+          "type": "tool",
+          "desc": "Apache-2.0 라이선스의 오픈소스 음악 생성 파운데이션 모델이다(v1.5).",
+          "reason": "sound-art가 SuperCollider 작업의 소스 소재나 스케치 텍스처를 로컬에서 생성해 Ableton으로 가져오는 용도로 쓸 수 있다. 로컬 실행이라 저작권과 비용 부담 없이 반복 실험이 가능하다.",
           "trend": "rising",
-          "url": "https://github.com/samuelgursky/davinci-resolve-mcp"
+          "url": "https://github.com/ace-step/ACE-Step"
         },
         {
-          "name": "comfyui-mcp",
-          "type": "mcp",
-          "desc": "ComfyUI 워크플로 작성·실행·모델 관리를 MCP로 제어하고 Claude Code 플러그인도 제공한다.",
-          "reason": "generative-visual이 이미지·영상 소스를 만들 때 ComfyUI 그래프를 Claude Code에서 바로 생성하고 반복 실행할 수 있다. 로컬 또는 Comfy Cloud를 모두 대상으로 해서 기존 comfy-cloud 경로와 병행하기 쉽다.",
-          "trend": "rising",
-          "url": "https://github.com/artokun/comfyui-mcp"
+          "name": "LTX-2",
+          "type": "tool",
+          "desc": "음성과 영상을 함께 생성하는 Lightricks의 오픈 오디오-비디오 모델과 추론 코드이다.",
+          "reason": "generative-visual이 Three.js 렌더 결과를 입력 삼아 보조 영상 레이어나 퍼포먼스 필름용 배경 소스를 만들 수 있다. film-production은 ComfyUI 연동으로 컷 사이 전환 소스를 시험할 수 있다.",
+          "trend": "hot",
+          "url": "https://github.com/Lightricks/LTX-2"
         }
       ]
     },
@@ -66,28 +66,28 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "inksmcp",
+          "name": "Stitch SDK",
           "type": "mcp",
-          "desc": "Inkscape로 SVG를 만들고 편집해 PNG·PDF로 내보내는 MCP 서버로, 텍스트 경계 측정과 겹침 경고를 제공한다.",
-          "reason": "visual-design이 포스터와 전시 그래픽을 SVG로 조판할 때 텍스트 겹침을 자동으로 잡아내고 인쇄용 PDF로 바로 내보낼 수 있다. 데이터 행마다 템플릿을 반복하는 기능은 SNS 이미지 시리즈를 한 번에 만드는 데 맞는다.",
+          "desc": "텍스트 프롬프트로 UI 화면을 생성하고 HTML과 스크린샷을 추출하는 Google Labs의 TypeScript SDK이며 Stitch MCP 서버와 통신한다.",
+          "reason": "visual-design이 전시 웹 랜딩이나 SNS용 레이아웃 시안을 변형 여러 개로 빠르게 뽑아 Figma 작업 전 방향을 정할 수 있다. 공식 지원 제품이 아니므로 시안 탐색용으로만 쓴다.",
           "trend": "rising",
-          "url": "https://github.com/bhanutpt/inksmcp"
+          "url": "https://github.com/google-labs-code/stitch-sdk"
         },
         {
-          "name": "OpenPencil",
+          "name": "Framelink MCP for Figma",
+          "type": "mcp",
+          "desc": "Figma 레이아웃 데이터를 코딩 에이전트에 전달하는 오픈소스 MCP 서버이다.",
+          "reason": "visual-design이 만든 Figma 키비주얼과 포스터 구조를 nodetree.kr 페이지 구현으로 정확히 옮길 때 쓸 수 있다. 기존 Figma 스킬과 달리 선택한 프레임의 레이아웃 정보만 간결하게 가져온다.",
+          "trend": "stable",
+          "url": "https://github.com/GLips/Figma-Context-MCP"
+        },
+        {
+          "name": "tldraw",
           "type": "tool",
-          "desc": "MIT 라이선스의 오픈소스 디자인 편집기로 .fig 파일을 열고 MCP와 CLI로 AI가 편집하도록 한다.",
-          "reason": "visual-design이 Figma 파일(.fig)을 CLI로 검사하고 PNG·SVG로 내보내며 색과 타이포 분석을 돌리는 데 쓸 수 있다. Figma 사용량 제한이나 오프라인 환경에서의 보조 편집 경로로 유용하다.",
+          "desc": "캔버스 SDK로, 에이전트가 캔버스 내용을 읽고 수정하는 Agent 스타터킷을 제공한다.",
+          "reason": "visual-design이 포스터 구성안을 캔버스에서 에이전트와 함께 러프 스케치하는 작업 보드로 쓸 수 있다. 전시 그래픽 레이아웃 논의를 AI가 바로 수정하는 형태로 진행할 수 있다.",
           "trend": "rising",
-          "url": "https://github.com/open-pencil/open-pencil"
-        },
-        {
-          "name": "Kinocut (mcp-video)",
-          "type": "mcp",
-          "desc": "FFmpeg 작업을 MCP 도구와 kino CLI로 노출하고 렌더 전 점검과 편집 기록을 남기는 영상 편집 서버다.",
-          "reason": "pr-content와 visual-design이 공연 영상에서 SNS용 세로 클립과 자막 번인 영상을 뽑을 때 반복 작업을 줄인다. 오디오 정규화와 렌더 전 점검이 있어 홍보 영상 규격 검수에도 맞는다.",
-          "trend": "rising",
-          "url": "https://github.com/KyaniteLabs/mcp-video"
+          "url": "https://github.com/tldraw/tldraw"
         }
       ]
     },
@@ -96,28 +96,28 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "kordoc",
+          "name": "korean-report-hwpx",
           "type": "mcp",
-          "desc": "HWP·HWPX·PDF·Office 문서를 Markdown으로 읽고 Markdown에서 HWPX를 생성하는 CLI이자 MCP 서버다.",
-          "reason": "doc-design이 기존 공문과 지원서 양식을 읽어 구조를 파악하고 HWPX로 되돌려 쓸 때 쓸 수 있다. 예산 계산 검증과 공문 표기 점검 기능이 있어 grant-writer의 제출 전 확인에도 맞는다.",
+          "desc": "기관 서식의 보고서·보도자료·기안문을 HWPX 파일로 생성하는 로컬 MCP 서버이다.",
+          "reason": "doc-design이 공문과 보고서 HWPX를 서식 규칙 검증(check_structure)과 함께 만들 수 있다. API 키 없이 로컬에서 동작해 지원 서류 원고가 외부로 나가지 않는다.",
           "trend": "hot",
-          "url": "https://github.com/chrisryugj/kordoc"
+          "url": "https://github.com/UpstageAI/korean-report-hwpx"
         },
         {
-          "name": "Hangeul-mcp",
-          "type": "mcp",
-          "desc": "HWPX 양식의 빈칸, 병합 셀, 체크박스를 찾아 채우는 로컬 MCP 서버로 개인정보 스캔도 한다.",
-          "reason": "doc-design이 공모 지원서 HWPX 양식을 원본 보존 상태로 채우고 새 파일로 저장하는 작업에 쓸 수 있다. 한글 프로그램 없이 동작해 macOS에서도 돌릴 수 있다. 다만 프리알파 단계라 결과 검수가 필요하다.",
-          "trend": "rising",
-          "url": "https://github.com/pblsketch/Hangeul-mcp"
+          "name": "Google Workspace CLI (gws)",
+          "type": "tool",
+          "desc": "Google Workspace 전체를 CLI로 다루고 100개 이상의 에이전트 스킬을 포함한 오픈소스 도구이다.",
+          "reason": "project-planner가 일정은 Calendar, 예산표는 Sheets로 읽고 쓰며 진행 현황을 갱신할 수 있다. 공식 Google 제품은 아니라는 점을 감안해 읽기 위주로 먼저 쓴다.",
+          "trend": "hot",
+          "url": "https://github.com/googleworkspace/cli"
         },
         {
-          "name": "obsidian-mcp-server",
+          "name": "Knowledge Graph Memory Server",
           "type": "mcp",
-          "desc": "Obsidian 볼트의 노트·태그·프론트매터를 읽고 섹션 단위로 수정하는 MCP 서버다.",
-          "reason": "project-planner가 Obsidian에 쌓은 일정·예산·역할 노트를 제목 단위로 갱신하고 진행 상태를 반영할 수 있다. 폴더별 읽기·쓰기 허용 목록이 있어 도록과 공모 자료가 섞인 볼트에서도 범위를 제한해 쓸 수 있다.",
+          "desc": "엔티티·관계·관찰을 로컬 파일에 저장해 세션 간 기억을 유지하는 MCP 참조 서버이다.",
+          "reason": "grant-writer가 작가노트와 지원서 반복 작성 시 작품 개념·수상 이력·문장 톤 결정을 세션 사이에 유지할 수 있다. project-planner의 역할·결정 기록도 같은 그래프에 쌓는다.",
           "trend": "stable",
-          "url": "https://github.com/cyanheads/obsidian-mcp-server"
+          "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
         }
       ]
     },
@@ -126,28 +126,28 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "paper-search-mcp",
+          "name": "semantic-scholar-mcp",
           "type": "mcp",
-          "desc": "arXiv·Semantic Scholar·Crossref·OpenAlex 등 다수 소스를 한 번에 검색하고 PDF를 내려받는 MCP·CLI·스킬이다.",
-          "reason": "research의 심층 리서치 모드에서 미디어아트·소니피케이션 관련 논문을 여러 소스에서 중복 없이 모으고 인용 관계를 따라갈 때 쓴다. 키 없이 시작할 수 있어 SLR 초안 단계의 부담이 적다.",
-          "trend": "rising",
-          "url": "https://github.com/openags/paper-search-mcp"
-        },
-        {
-          "name": "Scholar MCP",
-          "type": "mcp",
-          "desc": "OpenAlex·Semantic Scholar·PubMed 등을 통합 검색하고 논문 라이브러리를 Obsidian·Zotero와 동기화하는 MCP 서버다.",
-          "reason": "research가 작가와 이론 조사 결과를 옵시디언 노트로 정리하는 흐름에 라이브러리 동기화를 연결할 수 있다. 라이선스가 비영리 조건이라 ㈜생산소 명의 업무에는 상용 라이선스 확인이 필요하다.",
-          "trend": "rising",
-          "url": "https://github.com/Liyux3/scholar-mcp"
-        },
-        {
-          "name": "ntis-mcp",
-          "type": "mcp",
-          "desc": "NTIS 공개 검색 페이지를 읽어 국가 R&D 과제와 공고, 사업을 조회하는 비공식 MCP 서버다.",
-          "reason": "research의 공모 레이더 모드에서 미디어아트와 기술 융합 성격의 R&D 공고를 키 없이 훑어 마감 추적 후보를 만들 수 있다. 버전 0.1이고 스크래핑 기반이라 공식 공고와 대조가 필요하다.",
+          "desc": "Semantic Scholar API로 논문 검색·상세·저자·인용 서식(BibTeX 등)을 제공하는 MCP 서버이다.",
+          "reason": "research 에이전트의 심층 리서치에서 소니피케이션·미디어아트 이론 문헌을 찾고 인용 정보를 바로 정리할 수 있다. 키 없이는 5분당 100회 제한이 있어 소량 조사에 적합하다.",
           "trend": "stable",
-          "url": "https://github.com/vertical-mcp/ntis-mcp"
+          "url": "https://github.com/FujishigeTemma/semantic-scholar-mcp"
+        },
+        {
+          "name": "Wikipedia MCP",
+          "type": "mcp",
+          "desc": "위키백과 문서 검색·요약·섹션·핵심 사실 추출을 제공하는 MIT 라이선스 MCP 서버이다.",
+          "reason": "research 에이전트가 작가·작품·지역 조사의 초기 배경 파악을 언어판별로 빠르게 수행할 수 있다. 한국어판 지원은 문서에 명시되지 않아 먼저 확인이 필요하다.",
+          "trend": "stable",
+          "url": "https://github.com/Rudra-ravi/wikipedia-mcp"
+        },
+        {
+          "name": "Browser Use",
+          "type": "tool",
+          "desc": "AI 브라우저 에이전트 라이브러리이며 Claude Code·Codex에 브라우저 접근을 주는 CLI와 MCP 서버를 제공한다.",
+          "reason": "research 에이전트의 공모 레이더가 로그인이나 동적 렌더링이 필요한 공모 공고 페이지를 직접 열어 마감일과 요건을 수집할 수 있다. 기존 검색 MCP가 놓치는 게시판형 페이지에 쓴다.",
+          "trend": "rising",
+          "url": "https://github.com/browser-use/browser-use"
         }
       ]
     },
@@ -156,28 +156,28 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "GitHub MCP Server",
+          "name": "Supabase MCP Server",
           "type": "mcp",
-          "desc": "GitHub이 공식 제공하는 MCP 서버로 저장소, 이슈, PR, Actions를 읽기 전용 모드까지 포함해 제어한다.",
-          "reason": "nodetreehome-web이 Vercel 배포 실패 때 Actions 로그와 PR 상태를 한곳에서 확인하는 데 쓸 수 있다. 도구 묶음을 선택할 수 있어 배포 담당 에이전트에는 읽기 전용으로 제한하기 좋다.",
-          "trend": "stable",
-          "url": "https://github.com/github/github-mcp-server"
-        },
-        {
-          "name": "Stagehand",
-          "type": "tool",
-          "desc": "자연어 act·observe·extract와 browse CLI로 브라우저를 조작하는 Browserbase의 오픈소스 SDK다.",
-          "reason": "nodetreehome-web이 nodetree.kr 모니터 페이지의 실시간 시각화를 배포 후 실제 브라우저에서 조작하고 스크린샷으로 확인하는 데 쓸 수 있다. 로컬 모드는 LLM 키 없이 동작하는 browse CLI를 제공한다.",
+          "desc": "Supabase 프로젝트의 테이블 관리·설정 조회·쿼리를 AI 어시스턴트에 연결하는 호스티드 MCP 서버이다.",
+          "reason": "nodetreehome-web이 nodetree.kr의 모니터·실시간 데이터 저장소가 필요할 때 읽기 전용 모드로 스키마를 점검하며 붙일 수 있다. project_ref와 read_only 옵션으로 접근 범위를 제한한다.",
           "trend": "rising",
-          "url": "https://github.com/browserbase/stagehand"
+          "url": "https://github.com/supabase-community/supabase-mcp"
         },
         {
-          "name": "FieldCure MCP PublicData.Kr",
-          "type": "mcp",
-          "desc": "data.go.kr의 공공데이터 API 8만여 개를 검색·설명·호출하는 MCP 서버다.",
-          "reason": "nodetreehome-web이 실시간 시각화에 쓸 지역 공공 데이터 API를 찾아 응답 필드를 확인하고 호출 테스트까지 하는 데 쓴다. API 키가 모델에 노출되지 않아 배포 환경 설정이 안전하다.",
+          "name": "shadcn/ui skills",
+          "type": "skill",
+          "desc": "shadcn/ui 저장소가 포함한 에이전트용 skills 폴더(shadcn, migrate-radix-to-base)이다.",
+          "reason": "nodetreehome-web이 React 컴포넌트 추가와 Radix에서 base로의 마이그레이션을 관례에 맞게 수행할 수 있다. 내용은 폴더 이름 외에 확인하지 못했으므로 적용 전 SKILL.md를 읽어야 한다.",
+          "trend": "rising",
+          "url": "https://github.com/shadcn-ui/ui/tree/main/skills"
+        },
+        {
+          "name": "dependency-cruiser",
+          "type": "tool",
+          "desc": "JS·TS 프로젝트의 의존성을 규칙으로 검증하고 시각화하는 도구이다.",
+          "reason": "nodetreehome-web의 실시간 시각화 코드가 커질 때 순환 의존과 금지된 import를 CI에서 걸러낼 수 있다. Vercel 배포 전 구조 점검 용도로 쓴다.",
           "trend": "stable",
-          "url": "https://github.com/fieldcure/fieldcure-mcp-publicdata"
+          "url": "https://github.com/sverweij/dependency-cruiser"
         }
       ]
     },
@@ -186,33 +186,59 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "data-go-mcp NTS 사업자등록 진위확인",
+          "name": "korean-tax-mcp",
           "type": "mcp",
-          "desc": "국세청 사업자등록 진위확인·상태조회 API를 MCP로 감싼 서버로 최대 100건을 일괄 조회한다.",
-          "reason": "nodetree-accounting과 saengsanso-accounting이 보조사업 정산 전 거래처의 휴폐업 여부와 과세유형을 한꺼번에 확인할 수 있다. 지급명세서와 세금계산서 대조 전에 사업자번호 오류를 걸러낸다.",
+          "desc": "시행일 기준 법령, 국세청 예규, 판례, 조약을 근거와 함께 조회하는 25개 도구의 MCP 서버이다(v0.12.0).",
+          "reason": "nodetree-accounting과 saengsanso-accounting가 원천세·부가세 처리 근거를 조문과 예규 번호로 확인할 수 있다. 세무 자문이 아니므로 최종 판단은 세무사와 확인한다.",
+          "trend": "rising",
+          "url": "https://github.com/UpstageAI/korean-tax-mcp"
+        },
+        {
+          "name": "korean-tax-calc-mcp",
+          "type": "mcp",
+          "desc": "법인세·소득세·원천세·부가세를 코드로 계산하고 근거 조문을 제시하는 MCP 서버이다.",
+          "reason": "saengsanso-accounting가 법인 원천세와 일용근로 원천징수 계산을 검산하고 엑셀 워크북으로 내보낼 수 있다. 4대보험은 다루지 않으므로 별도 확인이 필요하다.",
+          "trend": "rising",
+          "url": "https://github.com/UpstageAI/korean-tax-calc-mcp"
+        },
+        {
+          "name": "mcp-upstage",
+          "type": "mcp",
+          "desc": "Upstage Document Parse로 PDF·이미지를 구조화하고 스키마 기반 정보 추출을 하는 MCP 서버이다.",
+          "reason": "nodetree-accounting이 보조사업 정산용 영수증·증빙 스캔에서 금액·거래처를 추출해 집행 내역과 대조할 수 있다. 파일은 50MB, 100쪽 미만 제한이 있다.",
           "trend": "stable",
-          "url": "https://github.com/Koomook/data-go-mcp-servers"
-        },
-        {
-          "name": "fin-law-mcp",
-          "type": "mcp",
-          "desc": "세무·회계 법령 조문, 국세청 유권해석, 별표를 조회하고 인용 존재 여부를 검증하는 MCP 서버다.",
-          "reason": "saengsanso-accounting이 법인세·원천세 처리 근거 조문과 해석례를 시점 기준으로 찾아 메모에 인용할 수 있다. 접대비 한도와 감가상각 계산 도구가 있으나 원문 확인은 필요하다.",
-          "trend": "rising",
-          "url": "https://github.com/dolseom/fin-law-mcp"
-        },
-        {
-          "name": "korean-law-mcp",
-          "type": "mcp",
-          "desc": "법제처 API를 도구 10개로 묶어 법령, 판례, 조세심판원 결정, 해석례를 검색하는 MCP 서버다.",
-          "reason": "nodetree-accounting이 면세사업자 원천세나 보조금 집행 관련 해석례와 조세심판 결정을 근거로 찾는 데 쓸 수 있다. 특정 날짜 시행 법령을 확인하는 기능이 있어 과거 연도 정산 검토에도 맞다.",
-          "trend": "rising",
-          "url": "https://github.com/chrisryugj/korean-law-mcp"
+          "url": "https://github.com/UpstageAI/mcp-upstage"
         }
       ]
     }
   ],
   "history": [
+    {
+      "date": "2026-11-10",
+      "names": [
+        "axe-core",
+        "CodeRabbit skills",
+        "claude-code-security-review",
+        "Wokwi CLI",
+        "ACE-Step",
+        "LTX-2",
+        "Stitch SDK",
+        "Framelink MCP for Figma",
+        "tldraw",
+        "korean-report-hwpx",
+        "Google Workspace CLI (gws)",
+        "Knowledge Graph Memory Server",
+        "semantic-scholar-mcp",
+        "Wikipedia MCP",
+        "Browser Use",
+        "Supabase MCP Server",
+        "shadcn/ui skills",
+        "dependency-cruiser",
+        "korean-tax-mcp",
+        "korean-tax-calc-mcp",
+        "mcp-upstage"
+      ]
+    },
     {
       "date": "2026-11-09",
       "names": [
@@ -549,32 +575,6 @@
         "Open-Dart-Plugin",
         "Docspell",
         "Magika"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "names": [
-        "Aider",
-        "goose",
-        "OpenHands",
-        "p5.js",
-        "Mozzi",
-        "openFrameworks",
-        "Penpot",
-        "InvokeAI",
-        "Excalidraw",
-        "Obsidian Excalidraw Plugin",
-        "Baserow",
-        "Docmost",
-        "GROBID",
-        "Kiwix Tools",
-        "WhisperX",
-        "Vite",
-        "Turborepo",
-        "Tailwind CSS",
-        "Stirling-PDF",
-        "csvkit",
-        "pikepdf"
       ]
     }
   ]
