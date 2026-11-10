@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-10T12:49:35.030063+00:00",
+  "lastUpdated": "2026-11-10T12:51:03.033908+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "121aab0c",
+      "date": "2026-11-10",
+      "startTime": "2026-11-10T12:41:21.213000+00:00",
+      "durationSeconds": 466,
+      "modelTier": "opus",
+      "projectName": "생산소 게시물",
+      "toolCallCount": 20,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "7af934b3",
       "date": "2026-11-10",
@@ -3323,16 +3335,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "29793177",
-      "date": "2026-10-02",
-      "startTime": "2026-10-02T22:03:11.620000+00:00",
-      "durationSeconds": 93,
-      "modelTier": "sonnet",
-      "projectName": "기타",
-      "toolCallCount": 34,
-      "agentsUsed": []
     }
   ]
 }
