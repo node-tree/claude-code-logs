@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T04:22:21.959805+00:00",
+  "lastUpdated": "2026-11-10T04:34:41.181934+00:00",
   "models": {
     "claude": [
       {
@@ -169,12 +169,12 @@
     ],
     "limits": {
       "claude": {
-        "used": 20,
+        "used": 21,
         "elapsed": 38
       },
       "codex": {
         "used": 8,
-        "elapsed": 10
+        "elapsed": 11
       }
     }
   },
@@ -532,8 +532,8 @@
       },
       {
         "lens": "code",
-        "pass": 2,
-        "rework": 3
+        "pass": 3,
+        "rework": 2
       },
       {
         "lens": "doc+design",
@@ -634,8 +634,8 @@
       },
       {
         "date": "2026-11-10",
-        "pass": 0,
-        "rework": 1
+        "pass": 1,
+        "rework": 0
       }
     ]
   },
