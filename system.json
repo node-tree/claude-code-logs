@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T02:58:53.396921+00:00",
+  "lastUpdated": "2026-11-10T03:38:37.876955+00:00",
   "models": {
     "claude": [
       {
@@ -117,8 +117,8 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 10.47,
-    "codexOut": 1.7,
+    "claudeOut": 10.74,
+    "codexOut": 1.76,
     "codexShare": 14,
     "target": [
       45,
@@ -127,7 +127,7 @@
     "activeFrom": "2026-11-16",
     "runs": {
       "claudeSessions": 51,
-      "codexExec": 253,
+      "codexExec": 258,
       "codexDirect": 159
     },
     "days": [
@@ -163,14 +163,14 @@
       },
       {
         "date": "2026-11-10",
-        "claude": 0.33,
-        "codex": 0.04
+        "claude": 0.6,
+        "codex": 0.1
       }
     ],
     "limits": {
       "claude": {
         "used": 18,
-        "elapsed": 37
+        "elapsed": 38
       },
       "codex": {
         "used": 5,
@@ -510,20 +510,6 @@
         {
           "h": 9,
           "m": 5
-        }
-      ],
-      "loaded": true
-    },
-    {
-      "id": "cloud-grants",
-      "name": "공모 레이더",
-      "where": "cloud",
-      "kind": "calendar",
-      "times": [
-        {
-          "h": 9,
-          "m": 0,
-          "wd": 1
         }
       ],
       "loaded": true
