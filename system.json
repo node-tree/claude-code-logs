@@ -1,0 +1,876 @@
+{
+  "lastUpdated": "2026-11-10T01:06:17.538021+00:00",
+  "models": {
+    "claude": [
+      {
+        "family": "opus",
+        "id": "claude-opus-5-5",
+        "name": "Opus 5.5",
+        "seat": "메인 세션",
+        "role": "개념 · 뼈대 · 통합 · 검수(code)"
+      },
+      {
+        "family": "fable",
+        "id": "claude-fable-5-2",
+        "name": "Fable 5.2",
+        "seat": "짧은 단건",
+        "role": "밖으로 나가는 글 · 작품 안 글 의견 · 비주얼 의견",
+        "note": "11-15까지 확대"
+      },
+      {
+        "family": "sonnet",
+        "id": "claude-sonnet-5-5",
+        "name": "Sonnet 5.5",
+        "seat": "서브에이전트",
+        "role": "원자료 좁히기 · 대량 분석"
+      },
+      {
+        "family": "haiku",
+        "id": "claude-haiku-5-5",
+        "name": "Haiku 5.5",
+        "seat": "서브에이전트",
+        "role": "대량 분석 · 경로 탐색"
+      }
+    ],
+    "codex": [
+      {
+        "family": "sol",
+        "id": "gpt-6.1-sol",
+        "name": "GPT-6.1 Sol",
+        "seat": "기본",
+        "role": "공개 자료 확인 · 스크립트 · 가벼운 일",
+        "note": "기본값"
+      },
+      {
+        "family": "astra",
+        "id": "gpt-6-astra",
+        "name": "GPT-6 Astra",
+        "seat": "high",
+        "role": "비주얼 · 웹 · 코드 구조 제작"
+      },
+      {
+        "family": "terra",
+        "id": "gpt-6.1-terra",
+        "name": "GPT-6.1 Terra",
+        "seat": "대량",
+        "role": "대량 반복 분석 · 형식 변환"
+      }
+    ],
+    "cli": {
+      "claude": "2.1.321",
+      "codex": "0.167.0"
+    }
+  },
+  "flow": [
+    {
+      "key": "research",
+      "name": "첫 리서치",
+      "who": "두 모델이 다른 자료 범위를 맡고 한 담당이 근거표로 통합"
+    },
+    {
+      "key": "skeleton",
+      "name": "뼈대",
+      "who": "개념 · 논지는 Claude, 시스템 구조는 Codex. 상대는 독자 대안"
+    },
+    {
+      "key": "result",
+      "name": "결과물",
+      "who": "비주얼 · 웹은 Codex Astra가 만들고 Fable이 보고 의견"
+    },
+    {
+      "key": "review",
+      "name": "검수",
+      "who": "evaluator 한 명이 lens code · design · doc 으로 판정"
+    },
+    {
+      "key": "judge",
+      "name": "작가 판정",
+      "who": "채택은 nt accept, 반려는 nt reject"
+    }
+  ],
+  "share": {
+    "windowDays": 7,
+    "claudeOut": 10.39,
+    "codexOut": 1.66,
+    "codexShare": 14,
+    "target": [
+      45,
+      55
+    ],
+    "activeFrom": "2026-11-16",
+    "runs": {
+      "claudeSessions": 50,
+      "codexExec": 251,
+      "codexDirect": 159
+    },
+    "days": [
+      {
+        "date": "2026-11-04",
+        "claude": 2.74,
+        "codex": 1.04
+      },
+      {
+        "date": "2026-11-05",
+        "claude": 1.3,
+        "codex": 0.13
+      },
+      {
+        "date": "2026-11-06",
+        "claude": 2.24,
+        "codex": 0.2
+      },
+      {
+        "date": "2026-11-07",
+        "claude": 1.29,
+        "codex": 0.04
+      },
+      {
+        "date": "2026-11-08",
+        "claude": 0.82,
+        "codex": 0.12
+      },
+      {
+        "date": "2026-11-09",
+        "claude": 1.75,
+        "codex": 0.13
+      },
+      {
+        "date": "2026-11-10",
+        "claude": 0.24,
+        "codex": 0.0
+      }
+    ],
+    "limits": {
+      "claude": {
+        "used": 16,
+        "elapsed": 36
+      },
+      "codex": {
+        "used": 2,
+        "elapsed": 9
+      }
+    }
+  },
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "name": "시작",
+      "hooks": [
+        {
+          "id": "bridge",
+          "desc": "Codex와 작업 공유 · 파일 담당 지키기"
+        },
+        {
+          "id": "work-share",
+          "desc": "Claude · Codex 비중 재기"
+        },
+        {
+          "id": "feature-watch",
+          "desc": "주 1회 새 기능 살피기"
+        }
+      ]
+    },
+    {
+      "event": "UserPromptSubmit",
+      "name": "입력",
+      "hooks": [
+        {
+          "id": "quality-gate",
+          "desc": "검증 · 판정 없이 끝내기 막기"
+        },
+        {
+          "id": "session-start",
+          "desc": "설정 맞추기 · 시작 점검"
+        },
+        {
+          "id": "work-share",
+          "desc": "Claude · Codex 비중 재기"
+        },
+        {
+          "id": "bridge",
+          "desc": "Codex와 작업 공유 · 파일 담당 지키기"
+        }
+      ]
+    },
+    {
+      "event": "PreToolUse",
+      "name": "실행 전",
+      "hooks": [
+        {
+          "id": "security-guard",
+          "desc": "위험한 명령 · 비밀값 출력 막기"
+        },
+        {
+          "id": "file-safety",
+          "desc": "문서 덮어쓰기 전 자동 백업"
+        },
+        {
+          "id": "freeze-guard",
+          "desc": "동결 · 검수 중인 폴더 잠금"
+        },
+        {
+          "id": "work-share",
+          "desc": "Claude · Codex 비중 재기"
+        },
+        {
+          "id": "rule-guard",
+          "desc": "글로만 있던 규칙을 장치로"
+        },
+        {
+          "id": "bridge",
+          "desc": "Codex와 작업 공유 · 파일 담당 지키기"
+        }
+      ]
+    },
+    {
+      "event": "PostToolUse",
+      "name": "실행 뒤",
+      "hooks": [
+        {
+          "id": "obsidian-sync",
+          "desc": "옵시디안 노트 자동 저장"
+        },
+        {
+          "id": "rule-guard",
+          "desc": "글로만 있던 규칙을 장치로"
+        },
+        {
+          "id": "quality-gate",
+          "desc": "검증 · 판정 없이 끝내기 막기"
+        },
+        {
+          "id": "bridge",
+          "desc": "Codex와 작업 공유 · 파일 담당 지키기"
+        }
+      ]
+    },
+    {
+      "event": "Stop",
+      "name": "멈춤",
+      "hooks": [
+        {
+          "id": "session-stop",
+          "desc": "세션 기록 · 모니터 갱신"
+        },
+        {
+          "id": "quality-gate",
+          "desc": "검증 · 판정 없이 끝내기 막기"
+        },
+        {
+          "id": "rule-guard",
+          "desc": "글로만 있던 규칙을 장치로"
+        },
+        {
+          "id": "bridge",
+          "desc": "Codex와 작업 공유 · 파일 담당 지키기"
+        }
+      ]
+    },
+    {
+      "event": "SessionEnd",
+      "name": "끝",
+      "hooks": [
+        {
+          "id": "bridge",
+          "desc": "Codex와 작업 공유 · 파일 담당 지키기"
+        }
+      ]
+    },
+    {
+      "event": "StopFailure",
+      "name": "한도 실패",
+      "hooks": [
+        {
+          "id": "knuh-fallback-notify",
+          "desc": "한도 때 대체 경로 알림"
+        }
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "id": "claude-config-sync",
+      "name": "설정 동기화",
+      "where": "mac",
+      "loaded": true,
+      "kind": "interval",
+      "intervalSec": 3600
+    },
+    {
+      "id": "claude-secrets",
+      "name": "비밀값 불러오기",
+      "where": "mac",
+      "loaded": true,
+      "kind": "login"
+    },
+    {
+      "id": "disk-watch",
+      "name": "디스크 점검",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 21,
+          "m": 30
+        }
+      ]
+    },
+    {
+      "id": "private-1",
+      "name": "기타",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 7,
+          "m": 3
+        }
+      ]
+    },
+    {
+      "id": "model-autoupdate",
+      "name": "모델 자동 갱신",
+      "where": "mac",
+      "loaded": true,
+      "kind": "interval",
+      "intervalSec": 10800
+    },
+    {
+      "id": "nfc-desktop",
+      "name": "바탕화면 파일 이름 정리",
+      "where": "mac",
+      "loaded": true,
+      "kind": "interval",
+      "intervalSec": 120
+    },
+    {
+      "id": "private-2",
+      "name": "기타",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 8,
+          "m": 30
+        },
+        {
+          "h": 18,
+          "m": 30
+        }
+      ]
+    },
+    {
+      "id": "telegram-claude-bot",
+      "name": "텔레그램 연결",
+      "where": "mac",
+      "loaded": true,
+      "kind": "always"
+    },
+    {
+      "id": "weekly-cleanup",
+      "name": "주간 정리",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 10,
+          "m": 0,
+          "wd": 0
+        }
+      ]
+    },
+    {
+      "id": "work-share-notify",
+      "name": "비중 알림",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 9,
+          "m": 0
+        },
+        {
+          "h": 13,
+          "m": 0
+        },
+        {
+          "h": 19,
+          "m": 0
+        }
+      ]
+    },
+    {
+      "id": "english-weekly",
+      "name": "영어 공부 게시",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 8,
+          "m": 5
+        },
+        {
+          "h": 13,
+          "m": 5
+        },
+        {
+          "h": 20,
+          "m": 5
+        }
+      ]
+    },
+    {
+      "id": "ig-schedule",
+      "name": "인스타 예약 게시",
+      "where": "mac",
+      "loaded": true,
+      "kind": "interval",
+      "intervalSec": 300
+    },
+    {
+      "id": "obsidian-watcher",
+      "name": "옵시디안 감시",
+      "where": "mac",
+      "loaded": false,
+      "kind": "login"
+    },
+    {
+      "id": "remind-kkumdarak-nov",
+      "name": "꿈다락 11월 알림",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 9,
+          "m": 7
+        }
+      ]
+    },
+    {
+      "id": "works-notify",
+      "name": "작품 대장 알림",
+      "where": "mac",
+      "loaded": true,
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 8,
+          "m": 40
+        }
+      ]
+    },
+    {
+      "id": "works-scan",
+      "name": "작품 대장 살피기",
+      "where": "mac",
+      "loaded": true,
+      "kind": "interval",
+      "intervalSec": 3600
+    },
+    {
+      "id": "cloud-recommend",
+      "name": "팀별 AI 도구 추천",
+      "where": "cloud",
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 9,
+          "m": 5
+        }
+      ],
+      "loaded": true
+    },
+    {
+      "id": "cloud-grants",
+      "name": "공모 레이더",
+      "where": "cloud",
+      "kind": "calendar",
+      "times": [
+        {
+          "h": 9,
+          "m": 0,
+          "wd": 1
+        }
+      ],
+      "loaded": true
+    }
+  ],
+  "verdicts": {
+    "windowDays": 30,
+    "total": 38,
+    "byLens": [
+      {
+        "lens": "design",
+        "pass": 18,
+        "rework": 5
+      },
+      {
+        "lens": "doc",
+        "pass": 8,
+        "rework": 1
+      },
+      {
+        "lens": "code",
+        "pass": 2,
+        "rework": 2
+      },
+      {
+        "lens": "doc+design",
+        "pass": 2,
+        "rework": 0
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-10-14",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-15",
+        "pass": 3,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-16",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-19",
+        "pass": 0,
+        "rework": 1
+      },
+      {
+        "date": "2026-10-20",
+        "pass": 3,
+        "rework": 2
+      },
+      {
+        "date": "2026-10-21",
+        "pass": 2,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-22",
+        "pass": 3,
+        "rework": 3
+      },
+      {
+        "date": "2026-10-23",
+        "pass": 5,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-25",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-28",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-29",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-30",
+        "pass": 2,
+        "rework": 0
+      },
+      {
+        "date": "2026-10-31",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-11-02",
+        "pass": 0,
+        "rework": 2
+      },
+      {
+        "date": "2026-11-03",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-11-04",
+        "pass": 1,
+        "rework": 0
+      },
+      {
+        "date": "2026-11-05",
+        "pass": 3,
+        "rework": 0
+      },
+      {
+        "date": "2026-11-06",
+        "pass": 1,
+        "rework": 0
+      }
+    ]
+  },
+  "workspace": {
+    "projects": [
+      {
+        "slug": "busan-gohyang",
+        "name": "부산항, 고향 없는 고향",
+        "count": 18,
+        "first": "2026-10-03",
+        "last": "2026-11-09",
+        "dates": [
+          "2026-10-03",
+          "2026-10-03",
+          "2026-10-13",
+          "2026-10-13",
+          "2026-10-14",
+          "2026-10-26",
+          "2026-10-28",
+          "2026-10-30",
+          "2026-10-30",
+          "2026-10-31",
+          "2026-10-31",
+          "2026-10-31",
+          "2026-10-31",
+          "2026-11-01",
+          "2026-11-02",
+          "2026-11-04",
+          "2026-11-06",
+          "2026-11-09"
+        ]
+      },
+      {
+        "slug": "kkumdarak",
+        "name": "꿈다락 〈손의 기억〉",
+        "count": 15,
+        "first": "2026-10-13",
+        "last": "2026-11-06",
+        "dates": [
+          "2026-10-13",
+          "2026-10-20",
+          "2026-10-20",
+          "2026-10-20",
+          "2026-10-24",
+          "2026-10-25",
+          "2026-10-26",
+          "2026-10-26",
+          "2026-11-04",
+          "2026-11-04",
+          "2026-11-04",
+          "2026-11-05",
+          "2026-11-05",
+          "2026-11-06",
+          "2026-11-06"
+        ]
+      },
+      {
+        "slug": "dohwaseo",
+        "name": "디지털도화서",
+        "count": 9,
+        "first": "2026-10-29",
+        "last": "2026-11-09",
+        "dates": [
+          "2026-10-29",
+          "2026-10-30",
+          "2026-11-03",
+          "2026-11-03",
+          "2026-11-04",
+          "2026-11-05",
+          "2026-11-06",
+          "2026-11-06",
+          "2026-11-09"
+        ]
+      },
+      {
+        "slug": "harness",
+        "name": "하네스 · 운영",
+        "count": 9,
+        "first": "2026-10-15",
+        "last": "2026-11-10",
+        "dates": [
+          "2026-10-15",
+          "2026-10-16",
+          "2026-10-21",
+          "2026-10-21",
+          "2026-10-24",
+          "2026-10-26",
+          "2026-11-02",
+          "2026-11-04",
+          "2026-11-10"
+        ]
+      },
+      {
+        "slug": "isoartlab",
+        "name": "isoartlab",
+        "count": 4,
+        "first": "2026-10-15",
+        "last": "2026-10-20",
+        "dates": [
+          "2026-10-15",
+          "2026-10-20",
+          "2026-10-20",
+          "2026-10-20"
+        ]
+      },
+      {
+        "slug": "saengsanso",
+        "name": "생산소 게시물",
+        "count": 4,
+        "first": "2026-11-02",
+        "last": "2026-11-06",
+        "dates": [
+          "2026-11-02",
+          "2026-11-04",
+          "2026-11-05",
+          "2026-11-06"
+        ]
+      },
+      {
+        "slug": "buheung",
+        "name": "부흥여지도",
+        "count": 2,
+        "first": "2026-10-15",
+        "last": "2026-10-16",
+        "dates": [
+          "2026-10-15",
+          "2026-10-16"
+        ]
+      },
+      {
+        "slug": "busan-imul",
+        "name": "공생직조 〈이물〉",
+        "count": 2,
+        "first": "2026-11-09",
+        "last": "2026-11-09",
+        "dates": [
+          "2026-11-09",
+          "2026-11-09"
+        ]
+      },
+      {
+        "slug": "design-system",
+        "name": "디자인 시스템",
+        "count": 2,
+        "first": "2026-11-02",
+        "last": "2026-11-02",
+        "dates": [
+          "2026-11-02",
+          "2026-11-02"
+        ]
+      },
+      {
+        "slug": "kimnari-solo",
+        "name": "〈보름-동지 만들기〉",
+        "count": 2,
+        "first": "2026-10-31",
+        "last": "2026-11-01",
+        "dates": [
+          "2026-10-31",
+          "2026-11-01"
+        ]
+      },
+      {
+        "slug": "other",
+        "name": "기타",
+        "count": 2,
+        "first": "2026-11-02",
+        "last": "2026-11-08",
+        "dates": [
+          "2026-11-02",
+          "2026-11-08"
+        ]
+      },
+      {
+        "slug": "bobusang",
+        "name": "임천보부상 키링",
+        "count": 1,
+        "first": "2026-10-30",
+        "last": "2026-10-30",
+        "dates": [
+          "2026-10-30"
+        ]
+      },
+      {
+        "slug": "cnma-forum",
+        "name": "충남미술관 포럼",
+        "count": 1,
+        "first": "2026-10-26",
+        "last": "2026-10-26",
+        "dates": [
+          "2026-10-26"
+        ]
+      },
+      {
+        "slug": "english",
+        "name": "영어 공부",
+        "count": 1,
+        "first": "2026-11-02",
+        "last": "2026-11-02",
+        "dates": [
+          "2026-11-02"
+        ]
+      },
+      {
+        "slug": "itorok",
+        "name": "이토록고요한파동",
+        "count": 1,
+        "first": "2026-10-21",
+        "last": "2026-10-21",
+        "dates": [
+          "2026-10-21"
+        ]
+      },
+      {
+        "slug": "po400",
+        "name": "PO Modular 400",
+        "count": 1,
+        "first": "2026-10-16",
+        "last": "2026-10-16",
+        "dates": [
+          "2026-10-16"
+        ]
+      },
+      {
+        "slug": "singamuak",
+        "name": "신가무악",
+        "count": 1,
+        "first": "2026-11-06",
+        "last": "2026-11-06",
+        "dates": [
+          "2026-11-06"
+        ]
+      },
+      {
+        "slug": "sumbi",
+        "name": "섬비엔날레",
+        "count": 1,
+        "first": "2026-11-08",
+        "last": "2026-11-08",
+        "dates": [
+          "2026-11-08"
+        ]
+      },
+      {
+        "slug": "yangbo",
+        "name": "양보의 날",
+        "count": 1,
+        "first": "2026-10-29",
+        "last": "2026-10-29",
+        "dates": [
+          "2026-10-29"
+        ]
+      }
+    ],
+    "totalTasks": 77
+  }
+}

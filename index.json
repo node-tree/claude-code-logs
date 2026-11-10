@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-11-10T00:30:35.651255+00:00",
+  "lastUpdated": "2026-11-10T01:06:17.335055+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "1e72b408",
       "date": "2026-11-09",
       "startTime": "2026-11-09T22:03:14.597000+00:00",
-      "durationSeconds": 66,
+      "durationSeconds": 72,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 39,
       "agentsUsed": []
     },
@@ -16,9 +16,9 @@
       "sessionId": "6714cdb6",
       "date": "2026-11-09",
       "startTime": "2026-11-09T14:14:23.231000+00:00",
-      "durationSeconds": 3827,
+      "durationSeconds": 4014,
       "modelTier": "opus",
-      "projectName": "20261109-yanji-07-ig",
+      "projectName": "부산항, 고향 없는 고향",
       "toolCallCount": 247,
       "agentsUsed": [
         "general-purpose"
@@ -28,9 +28,9 @@
       "sessionId": "04d8608c",
       "date": "2026-11-09",
       "startTime": "2026-11-09T07:36:11.003000+00:00",
-      "durationSeconds": 10467,
+      "durationSeconds": 10951,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 387,
       "agentsUsed": [
         "general-purpose",
@@ -41,9 +41,9 @@
       "sessionId": "64beac6a",
       "date": "2026-11-09",
       "startTime": "2026-11-09T02:17:00.242000+00:00",
-      "durationSeconds": 1497,
+      "durationSeconds": 1691,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 80,
       "agentsUsed": []
     },
@@ -51,9 +51,9 @@
       "sessionId": "6e06d71d",
       "date": "2026-11-09",
       "startTime": "2026-11-09T02:08:04.906000+00:00",
-      "durationSeconds": 23288,
+      "durationSeconds": 23471,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 997,
       "agentsUsed": [
         "general-purpose"
@@ -63,9 +63,9 @@
       "sessionId": "c7f347ac",
       "date": "2026-11-08",
       "startTime": "2026-11-08T22:03:13.843000+00:00",
-      "durationSeconds": 60,
+      "durationSeconds": 68,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 27,
       "agentsUsed": []
     },
@@ -73,9 +73,9 @@
       "sessionId": "7f428776",
       "date": "2026-11-08",
       "startTime": "2026-11-08T12:45:03.841000+00:00",
-      "durationSeconds": 143,
+      "durationSeconds": 170,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 11,
       "agentsUsed": []
     },
@@ -83,9 +83,9 @@
       "sessionId": "8167c40e",
       "date": "2026-11-08",
       "startTime": "2026-11-08T10:20:25.384000+00:00",
-      "durationSeconds": 129,
+      "durationSeconds": 132,
       "modelTier": "opus",
-      "projectName": "꿈다락 문화예술학교_BI",
+      "projectName": "기타",
       "toolCallCount": 18,
       "agentsUsed": []
     },
@@ -93,9 +93,9 @@
       "sessionId": "e8597b1a",
       "date": "2026-11-08",
       "startTime": "2026-11-08T09:46:42.250000+00:00",
-      "durationSeconds": 8283,
+      "durationSeconds": 8468,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 345,
       "agentsUsed": [
         "general-purpose"
@@ -105,9 +105,9 @@
       "sessionId": "a00607ab",
       "date": "2026-11-08",
       "startTime": "2026-11-08T03:20:51.591000+00:00",
-      "durationSeconds": 14490,
+      "durationSeconds": 14689,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 363,
       "agentsUsed": []
     },
@@ -115,9 +115,9 @@
       "sessionId": "94fd2590",
       "date": "2026-11-07",
       "startTime": "2026-11-07T22:03:12.303000+00:00",
-      "durationSeconds": 57,
+      "durationSeconds": 64,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 36,
       "agentsUsed": []
     },
@@ -125,9 +125,9 @@
       "sessionId": "25eeca72",
       "date": "2026-11-07",
       "startTime": "2026-11-07T11:59:45.229000+00:00",
-      "durationSeconds": 12599,
+      "durationSeconds": 12600,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 488,
       "agentsUsed": [
         "general-purpose",
@@ -138,9 +138,9 @@
       "sessionId": "a2bedc7c",
       "date": "2026-11-07",
       "startTime": "2026-11-07T00:57:52.616000+00:00",
-      "durationSeconds": 13030,
+      "durationSeconds": 13031,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 628,
       "agentsUsed": [
         "general-purpose"
@@ -150,9 +150,9 @@
       "sessionId": "bb296c9d",
       "date": "2026-11-06",
       "startTime": "2026-11-06T22:03:13.195000+00:00",
-      "durationSeconds": 134,
+      "durationSeconds": 143,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 65,
       "agentsUsed": []
     },
@@ -160,9 +160,9 @@
       "sessionId": "d612c63f",
       "date": "2026-11-06",
       "startTime": "2026-11-06T11:22:52.233000+00:00",
-      "durationSeconds": 8019,
+      "durationSeconds": 8021,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 446,
       "agentsUsed": [
         "general-purpose"
@@ -172,9 +172,9 @@
       "sessionId": "84b26092",
       "date": "2026-11-06",
       "startTime": "2026-11-06T10:52:08.031000+00:00",
-      "durationSeconds": 1604,
+      "durationSeconds": 1609,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 111,
       "agentsUsed": []
     },
@@ -182,9 +182,9 @@
       "sessionId": "5da3d89c",
       "date": "2026-11-06",
       "startTime": "2026-11-06T10:46:49.006000+00:00",
-      "durationSeconds": 5895,
+      "durationSeconds": 5900,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 160,
       "agentsUsed": [
         "general-purpose",
@@ -195,9 +195,9 @@
       "sessionId": "7531985a",
       "date": "2026-11-06",
       "startTime": "2026-11-06T08:32:55.911000+00:00",
-      "durationSeconds": 565,
+      "durationSeconds": 582,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 52,
       "agentsUsed": []
     },
@@ -205,9 +205,9 @@
       "sessionId": "aa4dfa33",
       "date": "2026-11-06",
       "startTime": "2026-11-06T08:29:39.437000+00:00",
-      "durationSeconds": 595,
+      "durationSeconds": 635,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 40,
       "agentsUsed": []
     },
@@ -215,9 +215,9 @@
       "sessionId": "3895d1fc",
       "date": "2026-11-06",
       "startTime": "2026-11-06T01:03:57.286000+00:00",
-      "durationSeconds": 2870,
+      "durationSeconds": 2879,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 140,
       "agentsUsed": [
         "evaluator",
@@ -228,9 +228,9 @@
       "sessionId": "8263d2ce",
       "date": "2026-11-06",
       "startTime": "2026-11-06T00:07:27.354000+00:00",
-      "durationSeconds": 4598,
+      "durationSeconds": 4784,
       "modelTier": "opus",
-      "projectName": "20261106-heritage-digital-images",
+      "projectName": "디지털도화서",
       "toolCallCount": 258,
       "agentsUsed": [
         "general-purpose"
@@ -240,9 +240,9 @@
       "sessionId": "5d20b7eb",
       "date": "2026-11-06",
       "startTime": "2026-11-06T00:05:06.640000+00:00",
-      "durationSeconds": 339,
+      "durationSeconds": 531,
       "modelTier": "opus",
-      "projectName": "20261103-insight-lecture-nov",
+      "projectName": "디지털도화서",
       "toolCallCount": 56,
       "agentsUsed": []
     },
@@ -250,9 +250,9 @@
       "sessionId": "e15f7a53",
       "date": "2026-11-05",
       "startTime": "2026-11-05T23:33:52.354000+00:00",
-      "durationSeconds": 1347,
+      "durationSeconds": 1360,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 131,
       "agentsUsed": []
     },
@@ -260,9 +260,9 @@
       "sessionId": "83fcb3ea",
       "date": "2026-11-05",
       "startTime": "2026-11-05T22:03:12.986000+00:00",
-      "durationSeconds": 93,
+      "durationSeconds": 99,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 35,
       "agentsUsed": []
     },
@@ -270,9 +270,9 @@
       "sessionId": "a959a6ff",
       "date": "2026-11-05",
       "startTime": "2026-11-05T15:41:05.241000+00:00",
-      "durationSeconds": 22,
+      "durationSeconds": 209,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 3,
       "agentsUsed": []
     },
@@ -282,7 +282,7 @@
       "startTime": "2026-11-05T15:23:26.598000+00:00",
       "durationSeconds": 5067,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 311,
       "agentsUsed": [
         "general-purpose",
@@ -293,9 +293,9 @@
       "sessionId": "7b95c55b",
       "date": "2026-11-05",
       "startTime": "2026-11-05T12:04:49.640000+00:00",
-      "durationSeconds": 4325,
+      "durationSeconds": 4534,
       "modelTier": "opus",
-      "projectName": "3mm Black Walnut Plywood",
+      "projectName": "기타",
       "toolCallCount": 123,
       "agentsUsed": []
     },
@@ -303,9 +303,9 @@
       "sessionId": "e3648bfc",
       "date": "2026-11-05",
       "startTime": "2026-11-05T10:56:51.297000+00:00",
-      "durationSeconds": 1732,
+      "durationSeconds": 2034,
       "modelTier": "opus",
-      "projectName": "허리",
+      "projectName": "기타",
       "toolCallCount": 48,
       "agentsUsed": []
     },
@@ -313,9 +313,9 @@
       "sessionId": "29a2df1f",
       "date": "2026-11-05",
       "startTime": "2026-11-05T09:03:26.318000+00:00",
-      "durationSeconds": 379,
+      "durationSeconds": 695,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 42,
       "agentsUsed": [
         "general-purpose"
@@ -325,9 +325,9 @@
       "sessionId": "f6e408eb",
       "date": "2026-11-05",
       "startTime": "2026-11-05T07:24:59.613000+00:00",
-      "durationSeconds": 13504,
+      "durationSeconds": 13505,
       "modelTier": "opus",
-      "projectName": "20261031-edit3-corrosion",
+      "projectName": "부산항, 고향 없는 고향",
       "toolCallCount": 659,
       "agentsUsed": [
         "general-purpose"
@@ -337,9 +337,9 @@
       "sessionId": "e3ecd201",
       "date": "2026-11-05",
       "startTime": "2026-11-05T06:01:34.058000+00:00",
-      "durationSeconds": 923,
+      "durationSeconds": 1123,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 19,
       "agentsUsed": []
     },
@@ -347,9 +347,9 @@
       "sessionId": "b5441aac",
       "date": "2026-11-05",
       "startTime": "2026-11-05T04:57:21.905000+00:00",
-      "durationSeconds": 109,
+      "durationSeconds": 295,
       "modelTier": "opus",
-      "projectName": "사업매칭",
+      "projectName": "기타",
       "toolCallCount": 13,
       "agentsUsed": []
     },
@@ -357,9 +357,9 @@
       "sessionId": "c497eb6c",
       "date": "2026-11-05",
       "startTime": "2026-11-05T03:49:55.524000+00:00",
-      "durationSeconds": 588,
+      "durationSeconds": 788,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 56,
       "agentsUsed": []
     },
@@ -367,9 +367,9 @@
       "sessionId": "cee316f3",
       "date": "2026-11-05",
       "startTime": "2026-11-05T03:36:55.427000+00:00",
-      "durationSeconds": 3342,
+      "durationSeconds": 3353,
       "modelTier": "opus",
-      "projectName": "20261105-youngartist-talk-photos",
+      "projectName": "생산소 게시물",
       "toolCallCount": 171,
       "agentsUsed": [
         "general-purpose"
@@ -379,9 +379,9 @@
       "sessionId": "b9371469",
       "date": "2026-11-05",
       "startTime": "2026-11-05T00:26:54.759000+00:00",
-      "durationSeconds": 4258,
+      "durationSeconds": 4453,
       "modelTier": "opus",
-      "projectName": "20261105-dasi-web-invite",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 335,
       "agentsUsed": [
         "evaluator",
@@ -392,9 +392,9 @@
       "sessionId": "fb5a2409",
       "date": "2026-11-05",
       "startTime": "2026-11-05T00:14:01.253000+00:00",
-      "durationSeconds": 3407,
+      "durationSeconds": 3408,
       "modelTier": "opus",
-      "projectName": "_tmp_renders",
+      "projectName": "생산소 게시물",
       "toolCallCount": 157,
       "agentsUsed": [
         "general-purpose"
@@ -404,9 +404,9 @@
       "sessionId": "44efb325",
       "date": "2026-11-04",
       "startTime": "2026-11-04T23:58:32.930000+00:00",
-      "durationSeconds": 721,
+      "durationSeconds": 735,
       "modelTier": "opus",
-      "projectName": "20261104-insight-poster-nov",
+      "projectName": "디지털도화서",
       "toolCallCount": 106,
       "agentsUsed": []
     },
@@ -414,9 +414,9 @@
       "sessionId": "70a3ff3a",
       "date": "2026-11-04",
       "startTime": "2026-11-04T22:03:11.770000+00:00",
-      "durationSeconds": 63,
+      "durationSeconds": 71,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 31,
       "agentsUsed": []
     },
@@ -424,9 +424,9 @@
       "sessionId": "56f5b15d",
       "date": "2026-11-04",
       "startTime": "2026-11-04T15:03:04.206000+00:00",
-      "durationSeconds": 5,
+      "durationSeconds": 15,
       "modelTier": "haiku",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 2,
       "agentsUsed": []
     },
@@ -434,9 +434,9 @@
       "sessionId": "82f41289",
       "date": "2026-11-04",
       "startTime": "2026-11-04T14:36:57.850000+00:00",
-      "durationSeconds": 3189,
+      "durationSeconds": 3383,
       "modelTier": "opus",
-      "projectName": ".claude",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 186,
       "agentsUsed": []
     },
@@ -444,9 +444,9 @@
       "sessionId": "add1cf2a",
       "date": "2026-11-04",
       "startTime": "2026-11-04T12:42:19.277000+00:00",
-      "durationSeconds": 395,
+      "durationSeconds": 405,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 37,
       "agentsUsed": []
     },
@@ -454,9 +454,9 @@
       "sessionId": "0905f501",
       "date": "2026-11-04",
       "startTime": "2026-11-04T11:52:28.901000+00:00",
-      "durationSeconds": 9756,
+      "durationSeconds": 9949,
       "modelTier": "opus",
-      "projectName": "20261104-ttang-title-r5",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 264,
       "agentsUsed": [
         "general-purpose"
@@ -466,9 +466,9 @@
       "sessionId": "e640c924",
       "date": "2026-11-04",
       "startTime": "2026-11-04T10:50:45.098000+00:00",
-      "durationSeconds": 5972,
+      "durationSeconds": 6159,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 328,
       "agentsUsed": [
         "general-purpose"
@@ -478,9 +478,9 @@
       "sessionId": "3134b665",
       "date": "2026-11-04",
       "startTime": "2026-11-04T07:06:48.114000+00:00",
-      "durationSeconds": 5143,
+      "durationSeconds": 5151,
       "modelTier": "opus",
-      "projectName": "증빙",
+      "projectName": "기타",
       "toolCallCount": 112,
       "agentsUsed": []
     },
@@ -488,9 +488,9 @@
       "sessionId": "7aa94d7d",
       "date": "2026-11-04",
       "startTime": "2026-11-04T04:01:13.358000+00:00",
-      "durationSeconds": 26710,
+      "durationSeconds": 26894,
       "modelTier": "opus",
-      "projectName": "20261104-insight-poster-nov",
+      "projectName": "디지털도화서",
       "toolCallCount": 1023,
       "agentsUsed": [
         "general-purpose",
@@ -501,9 +501,9 @@
       "sessionId": "f5588d08",
       "date": "2026-11-03",
       "startTime": "2026-11-03T23:39:08.576000+00:00",
-      "durationSeconds": 33476,
+      "durationSeconds": 33667,
       "modelTier": "opus",
-      "projectName": "codex-r16b-copy",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 1290,
       "agentsUsed": [
         "evaluator",
@@ -514,9 +514,9 @@
       "sessionId": "f8882473",
       "date": "2026-11-03",
       "startTime": "2026-11-03T22:03:13.375000+00:00",
-      "durationSeconds": 64,
+      "durationSeconds": 73,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -524,9 +524,9 @@
       "sessionId": "411f5e0a",
       "date": "2026-11-03",
       "startTime": "2026-11-03T12:52:18.024000+00:00",
-      "durationSeconds": 215,
+      "durationSeconds": 408,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 13,
       "agentsUsed": []
     },
@@ -534,9 +534,9 @@
       "sessionId": "52bb25d5",
       "date": "2026-11-03",
       "startTime": "2026-11-03T10:41:29.773000+00:00",
-      "durationSeconds": 697,
+      "durationSeconds": 915,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 20,
       "agentsUsed": []
     },
@@ -544,9 +544,9 @@
       "sessionId": "4ae84146",
       "date": "2026-11-03",
       "startTime": "2026-11-03T02:15:57.466000+00:00",
-      "durationSeconds": 104,
+      "durationSeconds": 107,
       "modelTier": "fable",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 6,
       "agentsUsed": []
     },
@@ -554,9 +554,9 @@
       "sessionId": "fd3d352a",
       "date": "2026-11-03",
       "startTime": "2026-11-03T02:08:50.140000+00:00",
-      "durationSeconds": 43,
+      "durationSeconds": 45,
       "modelTier": "fable",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 6,
       "agentsUsed": []
     },
@@ -564,9 +564,9 @@
       "sessionId": "87a668ee",
       "date": "2026-11-03",
       "startTime": "2026-11-03T00:02:51.633000+00:00",
-      "durationSeconds": 155,
+      "durationSeconds": 166,
       "modelTier": "fable",
-      "projectName": "build",
+      "projectName": "디지털도화서",
       "toolCallCount": 32,
       "agentsUsed": []
     },
@@ -574,9 +574,9 @@
       "sessionId": "4626a1b4",
       "date": "2026-11-02",
       "startTime": "2026-11-02T23:53:45.255000+00:00",
-      "durationSeconds": 79,
+      "durationSeconds": 84,
       "modelTier": "fable",
-      "projectName": "_hwpx-gen",
+      "projectName": "기타",
       "toolCallCount": 6,
       "agentsUsed": []
     },
@@ -584,9 +584,9 @@
       "sessionId": "b9a64c86",
       "date": "2026-11-02",
       "startTime": "2026-11-02T23:47:06.975000+00:00",
-      "durationSeconds": 10723,
+      "durationSeconds": 10724,
       "modelTier": "opus",
-      "projectName": "20261103-insight-lecture-nov",
+      "projectName": "디지털도화서",
       "toolCallCount": 566,
       "agentsUsed": [
         "evaluator",
@@ -597,9 +597,9 @@
       "sessionId": "f1c09661",
       "date": "2026-11-02",
       "startTime": "2026-11-02T22:40:20.901000+00:00",
-      "durationSeconds": 646,
+      "durationSeconds": 831,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 88,
       "agentsUsed": [
         "general-purpose"
@@ -609,9 +609,9 @@
       "sessionId": "d947e746",
       "date": "2026-11-02",
       "startTime": "2026-11-02T22:03:14.529000+00:00",
-      "durationSeconds": 66,
+      "durationSeconds": 74,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 38,
       "agentsUsed": []
     },
@@ -619,9 +619,9 @@
       "sessionId": "12764cc7",
       "date": "2026-11-02",
       "startTime": "2026-11-02T13:05:43.283000+00:00",
-      "durationSeconds": 8829,
+      "durationSeconds": 9318,
       "modelTier": "opus",
-      "projectName": "figma-kit",
+      "projectName": "디지털도화서",
       "toolCallCount": 382,
       "agentsUsed": [
         "general-purpose"
@@ -633,7 +633,7 @@
       "startTime": "2026-11-02T12:57:59.725000+00:00",
       "durationSeconds": 4855,
       "modelTier": "opus",
-      "projectName": "20261031-hunchun-04-ig",
+      "projectName": "부산항, 고향 없는 고향",
       "toolCallCount": 345,
       "agentsUsed": [
         "general-purpose"
@@ -643,9 +643,9 @@
       "sessionId": "cf152381",
       "date": "2026-11-02",
       "startTime": "2026-11-02T12:44:56.884000+00:00",
-      "durationSeconds": 13871,
+      "durationSeconds": 14055,
       "modelTier": "opus",
-      "projectName": "음악",
+      "projectName": "기타",
       "toolCallCount": 466,
       "agentsUsed": [
         "general-purpose"
@@ -655,9 +655,9 @@
       "sessionId": "7056efbb",
       "date": "2026-11-02",
       "startTime": "2026-11-02T11:13:47.794000+00:00",
-      "durationSeconds": 3383,
+      "durationSeconds": 3573,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 75,
       "agentsUsed": []
     },
@@ -665,9 +665,9 @@
       "sessionId": "82450186",
       "date": "2026-11-02",
       "startTime": "2026-11-02T10:19:05.204000+00:00",
-      "durationSeconds": 4726,
+      "durationSeconds": 5226,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 276,
       "agentsUsed": [
         "evaluator"
@@ -677,9 +677,9 @@
       "sessionId": "98a993a0",
       "date": "2026-11-02",
       "startTime": "2026-11-02T10:10:55.682000+00:00",
-      "durationSeconds": 890,
+      "durationSeconds": 1105,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 107,
       "agentsUsed": []
     },
@@ -687,9 +687,9 @@
       "sessionId": "266544b7",
       "date": "2026-11-02",
       "startTime": "2026-11-02T10:09:42.392000+00:00",
-      "durationSeconds": 710,
+      "durationSeconds": 911,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 120,
       "agentsUsed": []
     },
@@ -697,9 +697,9 @@
       "sessionId": "134af19a",
       "date": "2026-11-02",
       "startTime": "2026-11-02T10:05:09.928000+00:00",
-      "durationSeconds": 4779,
+      "durationSeconds": 5265,
       "modelTier": "opus",
-      "projectName": "check",
+      "projectName": "디자인 시스템",
       "toolCallCount": 604,
       "agentsUsed": [
         "general-purpose"
@@ -709,9 +709,9 @@
       "sessionId": "d33731f8",
       "date": "2026-11-01",
       "startTime": "2026-11-01T22:03:12.737000+00:00",
-      "durationSeconds": 60,
+      "durationSeconds": 66,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 31,
       "agentsUsed": []
     },
@@ -719,9 +719,9 @@
       "sessionId": "7d0b9375",
       "date": "2026-11-01",
       "startTime": "2026-11-01T08:56:20.455000+00:00",
-      "durationSeconds": 11488,
+      "durationSeconds": 11489,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 969,
       "agentsUsed": [
         "general-purpose",
@@ -732,9 +732,9 @@
       "sessionId": "d39a84ce",
       "date": "2026-11-01",
       "startTime": "2026-11-01T01:14:03.403000+00:00",
-      "durationSeconds": 1264,
+      "durationSeconds": 1447,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 109,
       "agentsUsed": []
     },
@@ -742,9 +742,9 @@
       "sessionId": "fd720aa8",
       "date": "2026-10-31",
       "startTime": "2026-10-31T22:03:13.472000+00:00",
-      "durationSeconds": 49,
+      "durationSeconds": 55,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 31,
       "agentsUsed": []
     },
@@ -752,9 +752,9 @@
       "sessionId": "0381ff06",
       "date": "2026-10-31",
       "startTime": "2026-10-31T06:13:56.917000+00:00",
-      "durationSeconds": 4854,
+      "durationSeconds": 4856,
       "modelTier": "opus",
-      "projectName": "톤잠식-시험-r1",
+      "projectName": "부산항, 고향 없는 고향",
       "toolCallCount": 260,
       "agentsUsed": [
         "general-purpose"
@@ -764,9 +764,9 @@
       "sessionId": "21ace4b8",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:59:23.132000+00:00",
-      "durationSeconds": 146,
+      "durationSeconds": 181,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 0,
       "agentsUsed": []
     },
@@ -774,9 +774,9 @@
       "sessionId": "bd85c8df",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:48:22.742000+00:00",
-      "durationSeconds": 26900,
+      "durationSeconds": 26902,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 1255,
       "agentsUsed": [
         "general-purpose"
@@ -786,9 +786,9 @@
       "sessionId": "7db6e058",
       "date": "2026-10-31",
       "startTime": "2026-10-31T04:42:48.439000+00:00",
-      "durationSeconds": 5925,
+      "durationSeconds": 5926,
       "modelTier": "opus",
-      "projectName": "claude",
+      "projectName": "〈보름-동지 만들기〉",
       "toolCallCount": 458,
       "agentsUsed": [
         "general-purpose"
@@ -800,7 +800,7 @@
       "startTime": "2026-10-31T03:10:41.841000+00:00",
       "durationSeconds": 4181,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 289,
       "agentsUsed": [
         "evaluator",
@@ -811,9 +811,9 @@
       "sessionId": "46a2d8db",
       "date": "2026-10-31",
       "startTime": "2026-10-31T00:15:37.069000+00:00",
-      "durationSeconds": 1572,
+      "durationSeconds": 1586,
       "modelTier": "opus",
-      "projectName": ".claude",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 160,
       "agentsUsed": []
     },
@@ -821,9 +821,9 @@
       "sessionId": "185753b0",
       "date": "2026-10-30",
       "startTime": "2026-10-30T22:03:10.710000+00:00",
-      "durationSeconds": 125,
+      "durationSeconds": 133,
       "modelTier": "sonnet",
-      "projectName": "보유종목",
+      "projectName": "옵시디안",
       "toolCallCount": 46,
       "agentsUsed": []
     },
@@ -831,9 +831,9 @@
       "sessionId": "cd4334b6",
       "date": "2026-10-30",
       "startTime": "2026-10-30T13:28:11.402000+00:00",
-      "durationSeconds": 2800,
+      "durationSeconds": 3105,
       "modelTier": "opus",
-      "projectName": "20261030-keyring",
+      "projectName": "임천보부상 키링",
       "toolCallCount": 134,
       "agentsUsed": []
     },
@@ -841,9 +841,9 @@
       "sessionId": "de3aec49",
       "date": "2026-10-30",
       "startTime": "2026-10-30T07:56:07.536000+00:00",
-      "durationSeconds": 330,
+      "durationSeconds": 336,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 55,
       "agentsUsed": []
     },
@@ -853,7 +853,7 @@
       "startTime": "2026-10-30T07:24:41.785000+00:00",
       "durationSeconds": 1874,
       "modelTier": "opus",
-      "projectName": "projects",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 121,
       "agentsUsed": []
     },
@@ -861,9 +861,9 @@
       "sessionId": "3d25dc5e",
       "date": "2026-10-30",
       "startTime": "2026-10-30T07:11:28.713000+00:00",
-      "durationSeconds": 110,
+      "durationSeconds": 117,
       "modelTier": "opus",
-      "projectName": "Downloads",
+      "projectName": "기타",
       "toolCallCount": 5,
       "agentsUsed": []
     },
@@ -871,9 +871,9 @@
       "sessionId": "a06c27f6",
       "date": "2026-10-30",
       "startTime": "2026-10-30T07:04:15.708000+00:00",
-      "durationSeconds": 5474,
+      "durationSeconds": 5477,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 158,
       "agentsUsed": []
     },
@@ -881,9 +881,9 @@
       "sessionId": "6503936c",
       "date": "2026-10-30",
       "startTime": "2026-10-30T07:00:25.808000+00:00",
-      "durationSeconds": 376,
+      "durationSeconds": 382,
       "modelTier": "opus",
-      "projectName": "Downloads",
+      "projectName": "기타",
       "toolCallCount": 12,
       "agentsUsed": []
     },
@@ -891,9 +891,9 @@
       "sessionId": "cec54ef2",
       "date": "2026-10-30",
       "startTime": "2026-10-30T06:36:28.596000+00:00",
-      "durationSeconds": 2296,
+      "durationSeconds": 2298,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 113,
       "agentsUsed": []
     },
@@ -901,9 +901,9 @@
       "sessionId": "0599153d",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:32:36.401000+00:00",
-      "durationSeconds": 4501,
+      "durationSeconds": 4502,
       "modelTier": "opus",
-      "projectName": "2027-주요업무계획",
+      "projectName": "기타",
       "toolCallCount": 238,
       "agentsUsed": []
     },
@@ -911,9 +911,9 @@
       "sessionId": "70b9d928",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:10:50.506000+00:00",
-      "durationSeconds": 3710,
+      "durationSeconds": 3716,
       "modelTier": "opus",
-      "projectName": "insta-1080",
+      "projectName": "디지털도화서",
       "toolCallCount": 244,
       "agentsUsed": [
         "evaluator",
@@ -924,9 +924,9 @@
       "sessionId": "22365f43",
       "date": "2026-10-30",
       "startTime": "2026-10-30T04:05:37.045000+00:00",
-      "durationSeconds": 8191,
+      "durationSeconds": 8192,
       "modelTier": "opus",
-      "projectName": "figma-원상-겹-r1",
+      "projectName": "부산항, 고향 없는 고향",
       "toolCallCount": 306,
       "agentsUsed": [
         "general-purpose"
@@ -936,9 +936,9 @@
       "sessionId": "885056fe",
       "date": "2026-10-30",
       "startTime": "2026-10-30T01:54:16.259000+00:00",
-      "durationSeconds": 13263,
+      "durationSeconds": 13264,
       "modelTier": "opus",
-      "projectName": "20261030-edit2-reference",
+      "projectName": "부산항, 고향 없는 고향",
       "toolCallCount": 472,
       "agentsUsed": [
         "general-purpose"
@@ -948,10 +948,10 @@
       "sessionId": "efa143b7",
       "date": "2026-10-30",
       "startTime": "2026-10-30T00:17:59.221000+00:00",
-      "durationSeconds": 1380,
+      "durationSeconds": 1444,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 89,
+      "projectName": "홈",
+      "toolCallCount": 100,
       "agentsUsed": [
         "general-purpose"
       ]
@@ -960,9 +960,9 @@
       "sessionId": "e1ec658f",
       "date": "2026-10-29",
       "startTime": "2026-10-29T22:03:12.704000+00:00",
-      "durationSeconds": 59,
+      "durationSeconds": 65,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 39,
       "agentsUsed": []
     },
@@ -970,9 +970,9 @@
       "sessionId": "6b9bff13",
       "date": "2026-10-29",
       "startTime": "2026-10-29T14:29:07.372000+00:00",
-      "durationSeconds": 490,
+      "durationSeconds": 502,
       "modelTier": "opus",
-      "projectName": "claude",
+      "projectName": "양보의 날",
       "toolCallCount": 71,
       "agentsUsed": []
     },
@@ -980,9 +980,9 @@
       "sessionId": "e2bc6f63",
       "date": "2026-10-29",
       "startTime": "2026-10-29T12:08:22.632000+00:00",
-      "durationSeconds": 5918,
+      "durationSeconds": 6111,
       "modelTier": "opus",
-      "projectName": "편집본-r2",
+      "projectName": "양보의 날",
       "toolCallCount": 339,
       "agentsUsed": []
     },
@@ -990,9 +990,9 @@
       "sessionId": "a91e3961",
       "date": "2026-10-29",
       "startTime": "2026-10-29T07:27:56.894000+00:00",
-      "durationSeconds": 12513,
+      "durationSeconds": 12514,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 453,
       "agentsUsed": [
         "general-purpose"
@@ -1002,19 +1002,19 @@
       "sessionId": "6349a601",
       "date": "2026-10-29",
       "startTime": "2026-10-29T06:05:07.263000+00:00",
-      "durationSeconds": 3278,
+      "durationSeconds": 4090,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
-      "toolCallCount": 131,
+      "projectName": "livesound",
+      "toolCallCount": 150,
       "agentsUsed": []
     },
     {
       "sessionId": "d41a66e3",
       "date": "2026-10-29",
       "startTime": "2026-10-29T00:38:53.969000+00:00",
-      "durationSeconds": 583,
+      "durationSeconds": 781,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 35,
       "agentsUsed": []
     },
@@ -1022,9 +1022,9 @@
       "sessionId": "8179d22d",
       "date": "2026-10-28",
       "startTime": "2026-10-28T23:17:20.612000+00:00",
-      "durationSeconds": 4949,
+      "durationSeconds": 5437,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 468,
       "agentsUsed": [
         "evaluator",
@@ -1035,9 +1035,9 @@
       "sessionId": "dbdadb28",
       "date": "2026-10-28",
       "startTime": "2026-10-28T22:03:11.892000+00:00",
-      "durationSeconds": 51,
+      "durationSeconds": 56,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 25,
       "agentsUsed": []
     },
@@ -1045,9 +1045,9 @@
       "sessionId": "2a9c8855",
       "date": "2026-10-28",
       "startTime": "2026-10-28T05:50:28.198000+00:00",
-      "durationSeconds": 2905,
+      "durationSeconds": 3095,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 223,
       "agentsUsed": [
         "evaluator",
@@ -1058,9 +1058,9 @@
       "sessionId": "f4bdc111",
       "date": "2026-10-27",
       "startTime": "2026-10-27T23:47:06.139000+00:00",
-      "durationSeconds": 1218,
+      "durationSeconds": 1225,
       "modelTier": "opus",
-      "projectName": "20261026-saengsanso-forum-review",
+      "projectName": "충남미술관 포럼",
       "toolCallCount": 61,
       "agentsUsed": [
         "general-purpose"
@@ -1070,9 +1070,9 @@
       "sessionId": "07973ae7",
       "date": "2026-10-27",
       "startTime": "2026-10-27T22:03:10.188000+00:00",
-      "durationSeconds": 54,
+      "durationSeconds": 60,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -1080,9 +1080,9 @@
       "sessionId": "0f104803",
       "date": "2026-10-27",
       "startTime": "2026-10-27T14:42:08.580000+00:00",
-      "durationSeconds": 78961,
+      "durationSeconds": 79447,
       "modelTier": "opus",
-      "projectName": "28-다섯악장",
+      "projectName": "기타",
       "toolCallCount": 1951,
       "agentsUsed": [
         "doc-design",
@@ -1094,9 +1094,9 @@
       "sessionId": "89695fdf",
       "date": "2026-10-26",
       "startTime": "2026-10-26T22:03:11.863000+00:00",
-      "durationSeconds": 67,
+      "durationSeconds": 72,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 33,
       "agentsUsed": []
     },
@@ -1104,9 +1104,9 @@
       "sessionId": "be3030f2",
       "date": "2026-10-26",
       "startTime": "2026-10-26T14:15:25.042000+00:00",
-      "durationSeconds": 520,
+      "durationSeconds": 528,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 21,
       "agentsUsed": []
     },
@@ -1114,9 +1114,9 @@
       "sessionId": "4da59078",
       "date": "2026-10-26",
       "startTime": "2026-10-26T14:05:14.454000+00:00",
-      "durationSeconds": 9309,
+      "durationSeconds": 9512,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 184,
       "agentsUsed": [
         "general-purpose"
@@ -1126,9 +1126,9 @@
       "sessionId": "be29154d",
       "date": "2026-10-26",
       "startTime": "2026-10-26T11:32:50.183000+00:00",
-      "durationSeconds": 2684,
+      "durationSeconds": 2689,
       "modelTier": "opus",
-      "projectName": "sessions",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 114,
       "agentsUsed": []
     },
@@ -1136,9 +1136,9 @@
       "sessionId": "85c60699",
       "date": "2026-10-26",
       "startTime": "2026-10-26T08:27:00.336000+00:00",
-      "durationSeconds": 8181,
+      "durationSeconds": 8187,
       "modelTier": "opus",
-      "projectName": "증빙",
+      "projectName": "기타",
       "toolCallCount": 267,
       "agentsUsed": []
     },
@@ -1146,9 +1146,9 @@
       "sessionId": "0a75b1ff",
       "date": "2026-10-26",
       "startTime": "2026-10-26T06:33:32.166000+00:00",
-      "durationSeconds": 12906,
+      "durationSeconds": 13090,
       "modelTier": "opus",
-      "projectName": "motion_r3",
+      "projectName": "역산 실험실",
       "toolCallCount": 271,
       "agentsUsed": [
         "general-purpose"
@@ -1160,7 +1160,7 @@
       "startTime": "2026-10-26T06:15:46.105000+00:00",
       "durationSeconds": 11498,
       "modelTier": "opus",
-      "projectName": "26-본편r5",
+      "projectName": "기타",
       "toolCallCount": 224,
       "agentsUsed": []
     },
@@ -1168,9 +1168,9 @@
       "sessionId": "defe3c95",
       "date": "2026-10-26",
       "startTime": "2026-10-26T05:34:58.695000+00:00",
-      "durationSeconds": 22279,
+      "durationSeconds": 22468,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 1438,
       "agentsUsed": [
         "general-purpose",
@@ -1181,9 +1181,9 @@
       "sessionId": "9a1357b0",
       "date": "2026-10-25",
       "startTime": "2026-10-25T23:42:57.544000+00:00",
-      "durationSeconds": 4515,
+      "durationSeconds": 4817,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 345,
       "agentsUsed": [
         "general-purpose"
@@ -1193,9 +1193,9 @@
       "sessionId": "ed22afc9",
       "date": "2026-10-25",
       "startTime": "2026-10-25T22:03:11.652000+00:00",
-      "durationSeconds": 51,
+      "durationSeconds": 56,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -1203,9 +1203,9 @@
       "sessionId": "66c19d70",
       "date": "2026-10-25",
       "startTime": "2026-10-25T10:54:42.740000+00:00",
-      "durationSeconds": 406,
+      "durationSeconds": 592,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 19,
       "agentsUsed": []
     },
@@ -1213,9 +1213,9 @@
       "sessionId": "4156587e",
       "date": "2026-10-25",
       "startTime": "2026-10-25T10:16:00.523000+00:00",
-      "durationSeconds": 2091,
+      "durationSeconds": 2109,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 147,
       "agentsUsed": []
     },
@@ -1223,9 +1223,9 @@
       "sessionId": "5043e675",
       "date": "2026-10-25",
       "startTime": "2026-10-25T01:48:27.263000+00:00",
-      "durationSeconds": 2193,
+      "durationSeconds": 2389,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 44,
       "agentsUsed": []
     },
@@ -1233,9 +1233,9 @@
       "sessionId": "e87de494",
       "date": "2026-10-25",
       "startTime": "2026-10-25T01:27:43.737000+00:00",
-      "durationSeconds": 475,
+      "durationSeconds": 658,
       "modelTier": "opus",
-      "projectName": "사진",
+      "projectName": "기타",
       "toolCallCount": 16,
       "agentsUsed": []
     },
@@ -1243,9 +1243,9 @@
       "sessionId": "92a0f243",
       "date": "2026-10-25",
       "startTime": "2026-10-25T01:02:47.996000+00:00",
-      "durationSeconds": 5783,
+      "durationSeconds": 5973,
       "modelTier": "opus",
-      "projectName": "20261025-ttang-mv-scenario",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 229,
       "agentsUsed": [
         "general-purpose",
@@ -1256,9 +1256,9 @@
       "sessionId": "237af27a",
       "date": "2026-10-24",
       "startTime": "2026-10-24T22:03:12.187000+00:00",
-      "durationSeconds": 52,
+      "durationSeconds": 58,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 32,
       "agentsUsed": []
     },
@@ -1266,9 +1266,9 @@
       "sessionId": "23cb6fe9",
       "date": "2026-10-24",
       "startTime": "2026-10-24T11:45:09.807000+00:00",
-      "durationSeconds": 14837,
+      "durationSeconds": 14838,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 373,
       "agentsUsed": [
         "evaluator",
@@ -1279,9 +1279,9 @@
       "sessionId": "738fb33c",
       "date": "2026-10-24",
       "startTime": "2026-10-24T07:24:06.573000+00:00",
-      "durationSeconds": 21682,
+      "durationSeconds": 21683,
       "modelTier": "opus",
-      "projectName": "20261024-ttang-vocal-tune",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 771,
       "agentsUsed": [
         "research"
@@ -1291,9 +1291,9 @@
       "sessionId": "6c5c87f6",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:36:03.687000+00:00",
-      "durationSeconds": 1128,
+      "durationSeconds": 1614,
       "modelTier": "opus",
-      "projectName": "꿈다락",
+      "projectName": "옵시디안",
       "toolCallCount": 74,
       "agentsUsed": []
     },
@@ -1303,7 +1303,7 @@
       "startTime": "2026-10-24T06:18:36.937000+00:00",
       "durationSeconds": 12386,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 505,
       "agentsUsed": []
     },
@@ -1311,9 +1311,9 @@
       "sessionId": "fbd7b83f",
       "date": "2026-10-24",
       "startTime": "2026-10-24T06:15:23.214000+00:00",
-      "durationSeconds": 43195,
+      "durationSeconds": 43197,
       "modelTier": "opus",
-      "projectName": "audit",
+      "projectName": "역산 실험실",
       "toolCallCount": 1034,
       "agentsUsed": [
         "general-purpose",
@@ -1326,9 +1326,9 @@
       "sessionId": "67adbf8a",
       "date": "2026-10-24",
       "startTime": "2026-10-24T04:18:39.332000+00:00",
-      "durationSeconds": 8421,
+      "durationSeconds": 8422,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 379,
       "agentsUsed": []
     },
@@ -1336,9 +1336,9 @@
       "sessionId": "bb52baa9",
       "date": "2026-10-24",
       "startTime": "2026-10-24T02:47:48.686000+00:00",
-      "durationSeconds": 5558,
+      "durationSeconds": 5750,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 306,
       "agentsUsed": []
     },
@@ -1346,9 +1346,9 @@
       "sessionId": "f6fa9ee6",
       "date": "2026-10-23",
       "startTime": "2026-10-23T22:03:13.104000+00:00",
-      "durationSeconds": 159,
+      "durationSeconds": 160,
       "modelTier": "sonnet",
-      "projectName": "보유종목",
+      "projectName": "옵시디안",
       "toolCallCount": 80,
       "agentsUsed": []
     },
@@ -1356,9 +1356,9 @@
       "sessionId": "c3649352",
       "date": "2026-10-23",
       "startTime": "2026-10-23T13:34:45.444000+00:00",
-      "durationSeconds": 14305,
+      "durationSeconds": 14489,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 670,
       "agentsUsed": [
         "general-purpose"
@@ -1368,9 +1368,9 @@
       "sessionId": "0ac88962",
       "date": "2026-10-23",
       "startTime": "2026-10-23T02:55:15.773000+00:00",
-      "durationSeconds": 1310,
+      "durationSeconds": 1496,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 99,
       "agentsUsed": []
     },
@@ -1378,9 +1378,9 @@
       "sessionId": "865b0b6a",
       "date": "2026-10-23",
       "startTime": "2026-10-23T02:14:36.918000+00:00",
-      "durationSeconds": 549,
+      "durationSeconds": 750,
       "modelTier": "opus",
-      "projectName": "꿈다락",
+      "projectName": "옵시디안",
       "toolCallCount": 43,
       "agentsUsed": []
     },
@@ -1388,9 +1388,9 @@
       "sessionId": "f9733667",
       "date": "2026-10-23",
       "startTime": "2026-10-23T01:11:40.711000+00:00",
-      "durationSeconds": 25184,
+      "durationSeconds": 25186,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 735,
       "agentsUsed": [
         "general-purpose",
@@ -1401,9 +1401,9 @@
       "sessionId": "35d2049e",
       "date": "2026-10-23",
       "startTime": "2026-10-23T00:23:01.456000+00:00",
-      "durationSeconds": 31248,
+      "durationSeconds": 31250,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 1080,
       "agentsUsed": [
         "general-purpose",
@@ -1415,9 +1415,9 @@
       "sessionId": "a2d6a0b7",
       "date": "2026-10-22",
       "startTime": "2026-10-22T23:38:05.240000+00:00",
-      "durationSeconds": 351,
+      "durationSeconds": 370,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 30,
       "agentsUsed": []
     },
@@ -1425,9 +1425,9 @@
       "sessionId": "4d1d314a",
       "date": "2026-10-22",
       "startTime": "2026-10-22T23:34:51.824000+00:00",
-      "durationSeconds": 13916,
+      "durationSeconds": 13917,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 690,
       "agentsUsed": [
         "evaluator",
@@ -1438,9 +1438,9 @@
       "sessionId": "c78c0749",
       "date": "2026-10-22",
       "startTime": "2026-10-22T22:03:12.344000+00:00",
-      "durationSeconds": 61,
+      "durationSeconds": 66,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -1448,9 +1448,9 @@
       "sessionId": "3089125e",
       "date": "2026-10-22",
       "startTime": "2026-10-22T10:52:45.364000+00:00",
-      "durationSeconds": 2062,
+      "durationSeconds": 2566,
       "modelTier": "opus",
-      "projectName": "서곡",
+      "projectName": "기타",
       "toolCallCount": 109,
       "agentsUsed": [
         "general-purpose"
@@ -1460,9 +1460,9 @@
       "sessionId": "58a06f98",
       "date": "2026-10-22",
       "startTime": "2026-10-22T10:49:47.866000+00:00",
-      "durationSeconds": 12271,
+      "durationSeconds": 12456,
       "modelTier": "opus",
-      "projectName": "리플렛이미지",
+      "projectName": "기타",
       "toolCallCount": 546,
       "agentsUsed": [
         "evaluator",
@@ -1473,9 +1473,9 @@
       "sessionId": "6669f7dd",
       "date": "2026-10-22",
       "startTime": "2026-10-22T09:28:43.571000+00:00",
-      "durationSeconds": 12556,
+      "durationSeconds": 12744,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 421,
       "agentsUsed": [
         "general-purpose"
@@ -1485,9 +1485,9 @@
       "sessionId": "fd260337",
       "date": "2026-10-22",
       "startTime": "2026-10-22T07:49:31.388000+00:00",
-      "durationSeconds": 595,
+      "durationSeconds": 1223,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 54,
       "agentsUsed": []
     },
@@ -1495,9 +1495,9 @@
       "sessionId": "0912466d",
       "date": "2026-10-22",
       "startTime": "2026-10-22T07:10:31.714000+00:00",
-      "durationSeconds": 869,
+      "durationSeconds": 1051,
       "modelTier": "opus",
-      "projectName": "cases",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 87,
       "agentsUsed": []
     },
@@ -1505,9 +1505,9 @@
       "sessionId": "e50db01c",
       "date": "2026-10-22",
       "startTime": "2026-10-22T06:58:03.019000+00:00",
-      "durationSeconds": 18841,
+      "durationSeconds": 19025,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 560,
       "agentsUsed": [
         "general-purpose",
@@ -1518,9 +1518,9 @@
       "sessionId": "c7188e33",
       "date": "2026-10-22",
       "startTime": "2026-10-22T04:03:35.767000+00:00",
-      "durationSeconds": 7268,
+      "durationSeconds": 7269,
       "modelTier": "opus",
-      "projectName": "media-reverse-lab",
+      "projectName": "역산 실험실",
       "toolCallCount": 266,
       "agentsUsed": [
         "generative-visual"
@@ -1530,9 +1530,9 @@
       "sessionId": "eb04feb8",
       "date": "2026-10-22",
       "startTime": "2026-10-22T02:28:24.775000+00:00",
-      "durationSeconds": 964,
+      "durationSeconds": 974,
       "modelTier": "sonnet",
-      "projectName": "k1-structure",
+      "projectName": "역산 실험실",
       "toolCallCount": 150,
       "agentsUsed": []
     },
@@ -1540,9 +1540,9 @@
       "sessionId": "6a8236b0",
       "date": "2026-10-22",
       "startTime": "2026-10-22T01:14:08.683000+00:00",
-      "durationSeconds": 6613,
+      "durationSeconds": 6800,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 315,
       "agentsUsed": [
         "general-purpose"
@@ -1552,9 +1552,9 @@
       "sessionId": "a11c1cf0",
       "date": "2026-10-21",
       "startTime": "2026-10-21T23:32:36.575000+00:00",
-      "durationSeconds": 4357,
+      "durationSeconds": 4358,
       "modelTier": "sonnet",
-      "projectName": "K3spike_v1",
+      "projectName": "역산 실험실",
       "toolCallCount": 266,
       "agentsUsed": []
     },
@@ -1562,9 +1562,9 @@
       "sessionId": "ba5701cd",
       "date": "2026-10-21",
       "startTime": "2026-10-21T23:32:28.995000+00:00",
-      "durationSeconds": 5236,
+      "durationSeconds": 5238,
       "modelTier": "sonnet",
-      "projectName": "K1_s2",
+      "projectName": "역산 실험실",
       "toolCallCount": 436,
       "agentsUsed": []
     },
@@ -1572,9 +1572,9 @@
       "sessionId": "925fd1b6",
       "date": "2026-10-21",
       "startTime": "2026-10-21T23:31:37.181000+00:00",
-      "durationSeconds": 8636,
+      "durationSeconds": 8820,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 600,
       "agentsUsed": [
         "general-purpose"
@@ -1584,9 +1584,9 @@
       "sessionId": "5ba19622",
       "date": "2026-10-21",
       "startTime": "2026-10-21T22:03:12.366000+00:00",
-      "durationSeconds": 77,
+      "durationSeconds": 82,
       "modelTier": "sonnet",
-      "projectName": "보유종목",
+      "projectName": "옵시디안",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -1594,9 +1594,9 @@
       "sessionId": "3926ceca",
       "date": "2026-10-21",
       "startTime": "2026-10-21T14:45:07.860000+00:00",
-      "durationSeconds": 625,
+      "durationSeconds": 636,
       "modelTier": "sonnet",
-      "projectName": "clips",
+      "projectName": "역산 실험실",
       "toolCallCount": 68,
       "agentsUsed": []
     },
@@ -1604,9 +1604,9 @@
       "sessionId": "6a17d018",
       "date": "2026-10-21",
       "startTime": "2026-10-21T14:28:32.379000+00:00",
-      "durationSeconds": 1131,
+      "durationSeconds": 1135,
       "modelTier": "sonnet",
-      "projectName": "clips",
+      "projectName": "역산 실험실",
       "toolCallCount": 90,
       "agentsUsed": []
     },
@@ -1614,9 +1614,9 @@
       "sessionId": "d798fd24",
       "date": "2026-10-21",
       "startTime": "2026-10-21T13:39:27.167000+00:00",
-      "durationSeconds": 6909,
+      "durationSeconds": 6910,
       "modelTier": "sonnet",
-      "projectName": "blind",
+      "projectName": "역산 실험실",
       "toolCallCount": 174,
       "agentsUsed": []
     },
@@ -1624,9 +1624,9 @@
       "sessionId": "cafe52cd",
       "date": "2026-10-21",
       "startTime": "2026-10-21T13:39:24.031000+00:00",
-      "durationSeconds": 1180,
+      "durationSeconds": 1181,
       "modelTier": "sonnet",
-      "projectName": "blind",
+      "projectName": "역산 실험실",
       "toolCallCount": 116,
       "agentsUsed": []
     },
@@ -1634,9 +1634,9 @@
       "sessionId": "ae4a95d7",
       "date": "2026-10-21",
       "startTime": "2026-10-21T13:28:01.441000+00:00",
-      "durationSeconds": 15906,
+      "durationSeconds": 15907,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 414,
       "agentsUsed": [
         "generative-visual"
@@ -1646,9 +1646,9 @@
       "sessionId": "7d12fde5",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:18:29.826000+00:00",
-      "durationSeconds": 15979,
+      "durationSeconds": 16163,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 370,
       "agentsUsed": [
         "general-purpose"
@@ -1658,9 +1658,9 @@
       "sessionId": "757264db",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:46.395000+00:00",
-      "durationSeconds": 50661,
+      "durationSeconds": 50663,
       "modelTier": "opus",
-      "projectName": "원상",
+      "projectName": "기타",
       "toolCallCount": 1306,
       "agentsUsed": [
         "general-purpose"
@@ -1670,9 +1670,9 @@
       "sessionId": "22ab7e38",
       "date": "2026-10-21",
       "startTime": "2026-10-21T06:10:05.221000+00:00",
-      "durationSeconds": 2010,
+      "durationSeconds": 2022,
       "modelTier": "opus",
-      "projectName": "kkumdarak-poster-dasi-20261020",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 36,
       "agentsUsed": [
         "general-purpose"
@@ -1682,9 +1682,9 @@
       "sessionId": "b0103409",
       "date": "2026-10-21",
       "startTime": "2026-10-21T05:48:18.562000+00:00",
-      "durationSeconds": 13979,
+      "durationSeconds": 14162,
       "modelTier": "opus",
-      "projectName": "media-reverse-lab",
+      "projectName": "역산 실험실",
       "toolCallCount": 281,
       "agentsUsed": [
         "general-purpose",
@@ -1695,9 +1695,9 @@
       "sessionId": "060d0706",
       "date": "2026-10-21",
       "startTime": "2026-10-21T04:51:33.830000+00:00",
-      "durationSeconds": 17092,
+      "durationSeconds": 17094,
       "modelTier": "opus",
-      "projectName": "이물_리플렛_최종",
+      "projectName": "기타",
       "toolCallCount": 467,
       "agentsUsed": [
         "evaluator",
@@ -1708,9 +1708,9 @@
       "sessionId": "a9b96302",
       "date": "2026-10-21",
       "startTime": "2026-10-21T04:18:45.329000+00:00",
-      "durationSeconds": 1989,
+      "durationSeconds": 2003,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 109,
       "agentsUsed": []
     },
@@ -1718,9 +1718,9 @@
       "sessionId": "e07547ad",
       "date": "2026-10-21",
       "startTime": "2026-10-21T02:12:51.962000+00:00",
-      "durationSeconds": 3848,
+      "durationSeconds": 3849,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 205,
       "agentsUsed": [
         "general-purpose"
@@ -1730,9 +1730,9 @@
       "sessionId": "e132f0e5",
       "date": "2026-10-21",
       "startTime": "2026-10-21T01:34:11.726000+00:00",
-      "durationSeconds": 6302,
+      "durationSeconds": 6303,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 242,
       "agentsUsed": [
         "general-purpose"
@@ -1742,9 +1742,9 @@
       "sessionId": "3862c67a",
       "date": "2026-10-21",
       "startTime": "2026-10-21T00:44:09.599000+00:00",
-      "durationSeconds": 2341,
+      "durationSeconds": 2357,
       "modelTier": "opus",
-      "projectName": "NODE TREE",
+      "projectName": "옵시디안",
       "toolCallCount": 126,
       "agentsUsed": [
         "general-purpose"
@@ -1754,9 +1754,9 @@
       "sessionId": "bb8d3189",
       "date": "2026-10-20",
       "startTime": "2026-10-20T23:45:58.084000+00:00",
-      "durationSeconds": 12228,
+      "durationSeconds": 12230,
       "modelTier": "opus",
-      "projectName": "imul-install-model-20261020",
+      "projectName": "기타",
       "toolCallCount": 318,
       "agentsUsed": [
         "evaluator",
@@ -1767,9 +1767,9 @@
       "sessionId": "5b668ca0",
       "date": "2026-10-20",
       "startTime": "2026-10-20T22:50:23.500000+00:00",
-      "durationSeconds": 2406,
+      "durationSeconds": 2448,
       "modelTier": "opus",
-      "projectName": ".claude",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 101,
       "agentsUsed": [
         "evaluator"
@@ -1779,9 +1779,9 @@
       "sessionId": "f1776c7f",
       "date": "2026-10-20",
       "startTime": "2026-10-20T22:03:12.240000+00:00",
-      "durationSeconds": 50,
+      "durationSeconds": 56,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 32,
       "agentsUsed": []
     },
@@ -1791,7 +1791,7 @@
       "startTime": "2026-10-20T14:48:27.017000+00:00",
       "durationSeconds": 5664,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 249,
       "agentsUsed": [
         "general-purpose"
@@ -1801,9 +1801,9 @@
       "sessionId": "78046af9",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:59:13.135000+00:00",
-      "durationSeconds": 3641,
+      "durationSeconds": 3826,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 143,
       "agentsUsed": [
         "general-purpose"
@@ -1813,9 +1813,9 @@
       "sessionId": "d2941d3b",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:55:45.676000+00:00",
-      "durationSeconds": 5989,
+      "durationSeconds": 6484,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 229,
       "agentsUsed": []
     },
@@ -1823,9 +1823,9 @@
       "sessionId": "1eed4370",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:24:19.486000+00:00",
-      "durationSeconds": 20048,
+      "durationSeconds": 20049,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 1068,
       "agentsUsed": [
         "general-purpose",
@@ -1836,9 +1836,9 @@
       "sessionId": "d8571713",
       "date": "2026-10-20",
       "startTime": "2026-10-20T13:01:21.341000+00:00",
-      "durationSeconds": 12446,
+      "durationSeconds": 12747,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 502,
       "agentsUsed": [
         "Explore",
@@ -1850,9 +1850,9 @@
       "sessionId": "befb2053",
       "date": "2026-10-20",
       "startTime": "2026-10-20T11:58:44.348000+00:00",
-      "durationSeconds": 127,
+      "durationSeconds": 310,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 16,
       "agentsUsed": []
     },
@@ -1860,9 +1860,9 @@
       "sessionId": "3aa63984",
       "date": "2026-10-20",
       "startTime": "2026-10-20T11:45:10.405000+00:00",
-      "durationSeconds": 8593,
+      "durationSeconds": 8601,
       "modelTier": "opus",
-      "projectName": "imul-visual-reset-20261018",
+      "projectName": "기타",
       "toolCallCount": 233,
       "agentsUsed": [
         "general-purpose",
@@ -1873,9 +1873,9 @@
       "sessionId": "de3ed320",
       "date": "2026-10-20",
       "startTime": "2026-10-20T11:34:32.349000+00:00",
-      "durationSeconds": 4854,
+      "durationSeconds": 4855,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 341,
       "agentsUsed": [
         "evaluator",
@@ -1886,9 +1886,9 @@
       "sessionId": "2b676cf7",
       "date": "2026-10-20",
       "startTime": "2026-10-20T10:33:20.553000+00:00",
-      "durationSeconds": 9984,
+      "durationSeconds": 10189,
       "modelTier": "opus",
-      "projectName": "kkumdarak-poster-dasi-20261020",
+      "projectName": "꿈다락 〈손의 기억〉",
       "toolCallCount": 502,
       "agentsUsed": [
         "evaluator",
@@ -1899,9 +1899,9 @@
       "sessionId": "dca98764",
       "date": "2026-10-20",
       "startTime": "2026-10-20T10:29:51.691000+00:00",
-      "durationSeconds": 664,
+      "durationSeconds": 855,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 45,
       "agentsUsed": []
     },
@@ -1909,9 +1909,9 @@
       "sessionId": "7f93cee1",
       "date": "2026-10-20",
       "startTime": "2026-10-20T08:34:07.103000+00:00",
-      "durationSeconds": 553,
+      "durationSeconds": 1039,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 53,
       "agentsUsed": []
     },
@@ -1919,10 +1919,10 @@
       "sessionId": "cefead63",
       "date": "2026-10-20",
       "startTime": "2026-10-20T08:23:47.163000+00:00",
-      "durationSeconds": 2092,
+      "durationSeconds": 2965,
       "modelTier": "opus",
-      "projectName": "site-itorok-20261020",
-      "toolCallCount": 186,
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 222,
       "agentsUsed": [
         "general-purpose"
       ]
@@ -1931,9 +1931,9 @@
       "sessionId": "0ad0150d",
       "date": "2026-10-20",
       "startTime": "2026-10-20T02:16:05.352000+00:00",
-      "durationSeconds": 12922,
+      "durationSeconds": 12924,
       "modelTier": "opus",
-      "projectName": "forum-pptx-20261020",
+      "projectName": "충남미술관 포럼",
       "toolCallCount": 753,
       "agentsUsed": [
         "general-purpose"
@@ -1943,9 +1943,9 @@
       "sessionId": "c39a836d",
       "date": "2026-10-20",
       "startTime": "2026-10-20T00:21:59.148000+00:00",
-      "durationSeconds": 3015,
+      "durationSeconds": 3500,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 245,
       "agentsUsed": [
         "evaluator",
@@ -1956,9 +1956,9 @@
       "sessionId": "936b642d",
       "date": "2026-10-19",
       "startTime": "2026-10-19T23:43:03.250000+00:00",
-      "durationSeconds": 2407,
+      "durationSeconds": 2422,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 114,
       "agentsUsed": [
         "general-purpose"
@@ -1968,9 +1968,9 @@
       "sessionId": "34ca5e0a",
       "date": "2026-10-19",
       "startTime": "2026-10-19T22:03:11.435000+00:00",
-      "durationSeconds": 67,
+      "durationSeconds": 77,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 33,
       "agentsUsed": []
     },
@@ -1978,10 +1978,10 @@
       "sessionId": "9b5bdfa6",
       "date": "2026-10-19",
       "startTime": "2026-10-19T12:44:26.993000+00:00",
-      "durationSeconds": 9955,
+      "durationSeconds": 10030,
       "modelTier": "opus",
-      "projectName": "포럼.fcpxmld",
-      "toolCallCount": 459,
+      "projectName": "기타",
+      "toolCallCount": 462,
       "agentsUsed": [
         "general-purpose"
       ]
@@ -1990,9 +1990,9 @@
       "sessionId": "548d122d",
       "date": "2026-10-19",
       "startTime": "2026-10-19T12:30:05.467000+00:00",
-      "durationSeconds": 756,
+      "durationSeconds": 770,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 37,
       "agentsUsed": []
     },
@@ -2000,9 +2000,9 @@
       "sessionId": "b259e0a0",
       "date": "2026-10-19",
       "startTime": "2026-10-19T06:44:54.206000+00:00",
-      "durationSeconds": 15644,
+      "durationSeconds": 15828,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 651,
       "agentsUsed": [
         "Explore",
@@ -2013,9 +2013,9 @@
       "sessionId": "23c99585",
       "date": "2026-10-19",
       "startTime": "2026-10-19T03:21:11.970000+00:00",
-      "durationSeconds": 42311,
+      "durationSeconds": 42312,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 1126,
       "agentsUsed": [
         "evaluator",
@@ -2027,9 +2027,9 @@
       "sessionId": "47f8887d",
       "date": "2026-10-19",
       "startTime": "2026-10-19T02:20:00.293000+00:00",
-      "durationSeconds": 26711,
+      "durationSeconds": 27013,
       "modelTier": "opus",
-      "projectName": "imul-visual-reset-20261018",
+      "projectName": "기타",
       "toolCallCount": 701,
       "agentsUsed": [
         "general-purpose"
@@ -2039,9 +2039,9 @@
       "sessionId": "8e33cc43",
       "date": "2026-10-19",
       "startTime": "2026-10-19T02:12:37.473000+00:00",
-      "durationSeconds": 3077,
+      "durationSeconds": 3260,
       "modelTier": "opus",
-      "projectName": "mpoi-rebuild",
+      "projectName": "공생직조",
       "toolCallCount": 124,
       "agentsUsed": []
     },
@@ -2049,9 +2049,9 @@
       "sessionId": "f151fba7",
       "date": "2026-10-19",
       "startTime": "2026-10-19T00:51:52.637000+00:00",
-      "durationSeconds": 92,
+      "durationSeconds": 284,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 9,
       "agentsUsed": []
     },
@@ -2059,9 +2059,9 @@
       "sessionId": "7625e446",
       "date": "2026-10-18",
       "startTime": "2026-10-18T22:03:12.098000+00:00",
-      "durationSeconds": 48,
+      "durationSeconds": 54,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 33,
       "agentsUsed": []
     },
@@ -2069,9 +2069,9 @@
       "sessionId": "0241c268",
       "date": "2026-10-18",
       "startTime": "2026-10-18T13:15:21.788000+00:00",
-      "durationSeconds": 15075,
+      "durationSeconds": 15259,
       "modelTier": "opus",
-      "projectName": "po400-pcb-20261016",
+      "projectName": "PO Modular 400",
       "toolCallCount": 571,
       "agentsUsed": [
         "general-purpose"
@@ -2081,9 +2081,9 @@
       "sessionId": "5bfd166d",
       "date": "2026-10-18",
       "startTime": "2026-10-18T11:00:12.358000+00:00",
-      "durationSeconds": 16976,
+      "durationSeconds": 17161,
       "modelTier": "opus",
-      "projectName": "figma-worknote",
+      "projectName": "기타",
       "toolCallCount": 797,
       "agentsUsed": [
         "general-purpose",
@@ -2094,9 +2094,9 @@
       "sessionId": "05c7eaf5",
       "date": "2026-10-18",
       "startTime": "2026-10-18T10:57:43.550000+00:00",
-      "durationSeconds": 15305,
+      "durationSeconds": 15793,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 755,
       "agentsUsed": [
         "general-purpose"
@@ -2106,9 +2106,9 @@
       "sessionId": "e7c806da",
       "date": "2026-10-18",
       "startTime": "2026-10-18T10:57:16.812000+00:00",
-      "durationSeconds": 3899,
+      "durationSeconds": 3907,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 149,
       "agentsUsed": [
         "general-purpose"
@@ -2118,9 +2118,9 @@
       "sessionId": "3ffd62fb",
       "date": "2026-10-17",
       "startTime": "2026-10-17T22:26:30.501000+00:00",
-      "durationSeconds": 2153,
+      "durationSeconds": 2154,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 31,
       "agentsUsed": []
     },
@@ -2128,9 +2128,9 @@
       "sessionId": "6c623635",
       "date": "2026-10-16",
       "startTime": "2026-10-16T22:03:12.014000+00:00",
-      "durationSeconds": 50,
+      "durationSeconds": 55,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -2138,19 +2138,19 @@
       "sessionId": "40ece953",
       "date": "2026-10-16",
       "startTime": "2026-10-16T14:37:33.764000+00:00",
-      "durationSeconds": 1197,
+      "durationSeconds": 4325,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
-      "toolCallCount": 32,
+      "projectName": "홈",
+      "toolCallCount": 38,
       "agentsUsed": []
     },
     {
       "sessionId": "ad1ecff7",
       "date": "2026-10-16",
       "startTime": "2026-10-16T14:18:22.585000+00:00",
-      "durationSeconds": 13137,
+      "durationSeconds": 13321,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 549,
       "agentsUsed": [
         "general-purpose"
@@ -2160,9 +2160,9 @@
       "sessionId": "3cf92087",
       "date": "2026-10-16",
       "startTime": "2026-10-16T09:41:52.359000+00:00",
-      "durationSeconds": 2018,
+      "durationSeconds": 2324,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 72,
       "agentsUsed": []
     },
@@ -2170,9 +2170,9 @@
       "sessionId": "34467eab",
       "date": "2026-10-16",
       "startTime": "2026-10-16T08:47:13.610000+00:00",
-      "durationSeconds": 3663,
+      "durationSeconds": 3859,
       "modelTier": "opus",
-      "projectName": "pend2s",
+      "projectName": "공생직조",
       "toolCallCount": 80,
       "agentsUsed": []
     },
@@ -2180,9 +2180,9 @@
       "sessionId": "b7752ed7",
       "date": "2026-10-16",
       "startTime": "2026-10-16T07:27:04.578000+00:00",
-      "durationSeconds": 3584,
+      "durationSeconds": 3605,
       "modelTier": "opus",
-      "projectName": "nodetreeHome",
+      "projectName": "nodetree.kr",
       "toolCallCount": 383,
       "agentsUsed": []
     },
@@ -2190,9 +2190,9 @@
       "sessionId": "7f8a6a0c",
       "date": "2026-10-16",
       "startTime": "2026-10-16T07:20:04.518000+00:00",
-      "durationSeconds": 2725,
+      "durationSeconds": 2921,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 92,
       "agentsUsed": []
     },
@@ -2200,9 +2200,9 @@
       "sessionId": "3d308542",
       "date": "2026-10-16",
       "startTime": "2026-10-16T07:18:26.495000+00:00",
-      "durationSeconds": 1174,
+      "durationSeconds": 1184,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 43,
       "agentsUsed": []
     },
@@ -2210,9 +2210,9 @@
       "sessionId": "5cbc8499",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:22:23.208000+00:00",
-      "durationSeconds": 29839,
+      "durationSeconds": 30024,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 1126,
       "agentsUsed": [
         "general-purpose",
@@ -2223,9 +2223,9 @@
       "sessionId": "8e7be45d",
       "date": "2026-10-16",
       "startTime": "2026-10-16T06:21:12.945000+00:00",
-      "durationSeconds": 14168,
+      "durationSeconds": 14653,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 493,
       "agentsUsed": [
         "Explore",
@@ -2237,9 +2237,9 @@
       "sessionId": "056c5752",
       "date": "2026-10-16",
       "startTime": "2026-10-16T04:15:30.956000+00:00",
-      "durationSeconds": 10056,
+      "durationSeconds": 10057,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 431,
       "agentsUsed": []
     },
@@ -2247,9 +2247,9 @@
       "sessionId": "268e294c",
       "date": "2026-10-16",
       "startTime": "2026-10-16T02:20:18.952000+00:00",
-      "durationSeconds": 2370,
+      "durationSeconds": 2375,
       "modelTier": "opus",
-      "projectName": "리서치_도시소외계층_부산만주",
+      "projectName": "옵시디안",
       "toolCallCount": 143,
       "agentsUsed": [
         "general-purpose"
@@ -2259,9 +2259,9 @@
       "sessionId": "ee4193f7",
       "date": "2026-10-16",
       "startTime": "2026-10-16T02:06:52.735000+00:00",
-      "durationSeconds": 4425,
+      "durationSeconds": 4435,
       "modelTier": "opus",
-      "projectName": "nodetree-sync",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 298,
       "agentsUsed": []
     },
@@ -2269,9 +2269,9 @@
       "sessionId": "820cdb16",
       "date": "2026-10-16",
       "startTime": "2026-10-16T01:19:21.139000+00:00",
-      "durationSeconds": 4155,
+      "durationSeconds": 4338,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 199,
       "agentsUsed": []
     },
@@ -2279,9 +2279,9 @@
       "sessionId": "4e4a8e2e",
       "date": "2026-10-16",
       "startTime": "2026-10-16T00:39:09.099000+00:00",
-      "durationSeconds": 213,
+      "durationSeconds": 221,
       "modelTier": "opus",
-      "projectName": "digital-canvas",
+      "projectName": "기타",
       "toolCallCount": 19,
       "agentsUsed": []
     },
@@ -2289,9 +2289,9 @@
       "sessionId": "43ecf7f1",
       "date": "2026-10-16",
       "startTime": "2026-10-16T00:19:43.463000+00:00",
-      "durationSeconds": 2254,
+      "durationSeconds": 2452,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 166,
       "agentsUsed": [
         "evaluator"
@@ -2301,9 +2301,9 @@
       "sessionId": "4251c024",
       "date": "2026-10-15",
       "startTime": "2026-10-15T22:03:12.122000+00:00",
-      "durationSeconds": 54,
+      "durationSeconds": 58,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 26,
       "agentsUsed": []
     },
@@ -2311,9 +2311,9 @@
       "sessionId": "008c57ed",
       "date": "2026-10-15",
       "startTime": "2026-10-15T13:32:58.688000+00:00",
-      "durationSeconds": 449,
+      "durationSeconds": 636,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 37,
       "agentsUsed": []
     },
@@ -2321,9 +2321,9 @@
       "sessionId": "cedfb988",
       "date": "2026-10-15",
       "startTime": "2026-10-15T11:14:23.019000+00:00",
-      "durationSeconds": 16644,
+      "durationSeconds": 16645,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 566,
       "agentsUsed": [
         "Explore",
@@ -2335,9 +2335,9 @@
       "sessionId": "c2875a51",
       "date": "2026-10-15",
       "startTime": "2026-10-15T11:13:44.843000+00:00",
-      "durationSeconds": 2241,
+      "durationSeconds": 2254,
       "modelTier": "opus",
-      "projectName": "cnma-forum-2026",
+      "projectName": "충남미술관 포럼",
       "toolCallCount": 92,
       "agentsUsed": []
     },
@@ -2345,9 +2345,9 @@
       "sessionId": "8eab869b",
       "date": "2026-10-15",
       "startTime": "2026-10-15T08:46:41.445000+00:00",
-      "durationSeconds": 1490,
+      "durationSeconds": 1686,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 45,
       "agentsUsed": []
     },
@@ -2355,9 +2355,9 @@
       "sessionId": "cb4a0992",
       "date": "2026-10-15",
       "startTime": "2026-10-15T08:37:04.629000+00:00",
-      "durationSeconds": 13538,
+      "durationSeconds": 14023,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 742,
       "agentsUsed": [
         "evaluator",
@@ -2368,9 +2368,9 @@
       "sessionId": "84d7707e",
       "date": "2026-10-15",
       "startTime": "2026-10-15T08:34:48.739000+00:00",
-      "durationSeconds": 4047,
+      "durationSeconds": 4061,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 81,
       "agentsUsed": []
     },
@@ -2378,9 +2378,9 @@
       "sessionId": "bc4f3980",
       "date": "2026-10-15",
       "startTime": "2026-10-15T08:29:34.962000+00:00",
-      "durationSeconds": 125,
+      "durationSeconds": 131,
       "modelTier": "fable",
-      "projectName": "db-backup",
+      "projectName": "isoartlab",
       "toolCallCount": 30,
       "agentsUsed": []
     },
@@ -2388,9 +2388,9 @@
       "sessionId": "17deae0b",
       "date": "2026-10-15",
       "startTime": "2026-10-15T08:29:32.030000+00:00",
-      "durationSeconds": 477,
+      "durationSeconds": 482,
       "modelTier": "fable",
-      "projectName": "db-backup",
+      "projectName": "isoartlab",
       "toolCallCount": 20,
       "agentsUsed": []
     },
@@ -2400,7 +2400,7 @@
       "startTime": "2026-10-15T07:16:21.017000+00:00",
       "durationSeconds": 208,
       "modelTier": "sonnet",
-      "projectName": "Kkumdarak",
+      "projectName": "nodetree.kr",
       "toolCallCount": 88,
       "agentsUsed": []
     },
@@ -2408,9 +2408,9 @@
       "sessionId": "152e8a88",
       "date": "2026-10-15",
       "startTime": "2026-10-15T07:07:42.943000+00:00",
-      "durationSeconds": 2536,
+      "durationSeconds": 2550,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 127,
       "agentsUsed": [
         "research"
@@ -2420,9 +2420,9 @@
       "sessionId": "ed6fd552",
       "date": "2026-10-15",
       "startTime": "2026-10-15T07:00:08.072000+00:00",
-      "durationSeconds": 2669,
+      "durationSeconds": 2874,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 233,
       "agentsUsed": []
     },
@@ -2432,7 +2432,7 @@
       "startTime": "2026-10-15T06:20:47.416000+00:00",
       "durationSeconds": 208,
       "modelTier": "fable",
-      "projectName": "refs",
+      "projectName": "부흥여지도",
       "toolCallCount": 30,
       "agentsUsed": []
     },
@@ -2442,7 +2442,7 @@
       "startTime": "2026-10-15T06:20:36.727000+00:00",
       "durationSeconds": 1898,
       "modelTier": "fable",
-      "projectName": "refs",
+      "projectName": "부흥여지도",
       "toolCallCount": 74,
       "agentsUsed": []
     },
@@ -2450,9 +2450,9 @@
       "sessionId": "e20abf55",
       "date": "2026-10-15",
       "startTime": "2026-10-15T06:10:08.415000+00:00",
-      "durationSeconds": 13203,
+      "durationSeconds": 13386,
       "modelTier": "opus",
-      "projectName": "s1",
+      "projectName": "isoartlab",
       "toolCallCount": 667,
       "agentsUsed": [
         "evaluator",
@@ -2464,9 +2464,9 @@
       "sessionId": "f80363dd",
       "date": "2026-10-15",
       "startTime": "2026-10-15T06:06:44.684000+00:00",
-      "durationSeconds": 8026,
+      "durationSeconds": 8211,
       "modelTier": "opus",
-      "projectName": "cnma-forum-2026",
+      "projectName": "충남미술관 포럼",
       "toolCallCount": 225,
       "agentsUsed": [
         "general-purpose"
@@ -2476,9 +2476,9 @@
       "sessionId": "a9d9765c",
       "date": "2026-10-15",
       "startTime": "2026-10-15T05:03:33.296000+00:00",
-      "durationSeconds": 7589,
+      "durationSeconds": 7773,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 257,
       "agentsUsed": [
         "general-purpose",
@@ -2491,7 +2491,7 @@
       "startTime": "2026-10-15T01:07:16.283000+00:00",
       "durationSeconds": 209,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -2501,7 +2501,7 @@
       "startTime": "2026-10-14T22:03:09.838000+00:00",
       "durationSeconds": 101,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 38,
       "agentsUsed": []
     },
@@ -2511,7 +2511,7 @@
       "startTime": "2026-10-14T13:07:11.505000+00:00",
       "durationSeconds": 16290,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 607,
       "agentsUsed": [
         "Explore",
@@ -2524,7 +2524,7 @@
       "startTime": "2026-10-14T12:24:52.763000+00:00",
       "durationSeconds": 4469,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 105,
       "agentsUsed": [
         "research"
@@ -2536,7 +2536,7 @@
       "startTime": "2026-10-14T08:39:21.479000+00:00",
       "durationSeconds": 6568,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 261,
       "agentsUsed": [
         "claude",
@@ -2549,7 +2549,7 @@
       "startTime": "2026-10-14T07:43:23.956000+00:00",
       "durationSeconds": 9963,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 334,
       "agentsUsed": [
         "Explore",
@@ -2562,7 +2562,7 @@
       "startTime": "2026-10-14T05:39:24.083000+00:00",
       "durationSeconds": 5885,
       "modelTier": "opus",
-      "projectName": "nodetreeHome",
+      "projectName": "nodetree.kr",
       "toolCallCount": 233,
       "agentsUsed": [
         "evaluator",
@@ -2575,7 +2575,7 @@
       "startTime": "2026-10-14T05:21:38.670000+00:00",
       "durationSeconds": 3548,
       "modelTier": "opus",
-      "projectName": "리서치_도시소외계층_부산만주",
+      "projectName": "옵시디안",
       "toolCallCount": 115,
       "agentsUsed": []
     },
@@ -2585,7 +2585,7 @@
       "startTime": "2026-10-14T04:15:30.017000+00:00",
       "durationSeconds": 5714,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 166,
       "agentsUsed": [
         "general-purpose",
@@ -2598,7 +2598,7 @@
       "startTime": "2026-10-14T01:22:59.392000+00:00",
       "durationSeconds": 2171,
       "modelTier": "opus",
-      "projectName": "15_imonghak",
+      "projectName": "nodetree.kr",
       "toolCallCount": 81,
       "agentsUsed": [
         "general-purpose"
@@ -2610,7 +2610,7 @@
       "startTime": "2026-10-13T22:03:13.551000+00:00",
       "durationSeconds": 55,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 17,
       "agentsUsed": []
     },
@@ -2620,7 +2620,7 @@
       "startTime": "2026-10-13T12:35:02.671000+00:00",
       "durationSeconds": 10643,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 341,
       "agentsUsed": [
         "general-purpose"
@@ -2632,7 +2632,7 @@
       "startTime": "2026-10-13T11:22:51.123000+00:00",
       "durationSeconds": 2952,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 87,
       "agentsUsed": []
     },
@@ -2642,7 +2642,7 @@
       "startTime": "2026-10-13T11:22:22.452000+00:00",
       "durationSeconds": 14406,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 548,
       "agentsUsed": [
         "claude",
@@ -2655,7 +2655,7 @@
       "startTime": "2026-10-13T08:44:51.624000+00:00",
       "durationSeconds": 2145,
       "modelTier": "opus",
-      "projectName": "queue",
+      "projectName": "인스타그램",
       "toolCallCount": 44,
       "agentsUsed": [
         "general-purpose"
@@ -2667,7 +2667,7 @@
       "startTime": "2026-10-13T08:31:17.089000+00:00",
       "durationSeconds": 334,
       "modelTier": "opus",
-      "projectName": "8_엔딩크레딧_r4",
+      "projectName": "기타",
       "toolCallCount": 17,
       "agentsUsed": []
     },
@@ -2677,7 +2677,7 @@
       "startTime": "2026-10-13T07:16:43.061000+00:00",
       "durationSeconds": 161,
       "modelTier": "sonnet",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 46,
       "agentsUsed": []
     },
@@ -2687,7 +2687,7 @@
       "startTime": "2026-10-13T07:01:58.003000+00:00",
       "durationSeconds": 23931,
       "modelTier": "opus",
-      "projectName": "reel-wisung-yeokryu-20261013",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 888,
       "agentsUsed": [
         "claude",
@@ -2702,7 +2702,7 @@
       "startTime": "2026-10-13T06:12:47.729000+00:00",
       "durationSeconds": 2138,
       "modelTier": "opus",
-      "projectName": "최종_20261002",
+      "projectName": "기타",
       "toolCallCount": 84,
       "agentsUsed": [
         "general-purpose"
@@ -2714,7 +2714,7 @@
       "startTime": "2026-10-13T05:18:22.424000+00:00",
       "durationSeconds": 1605,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 84,
       "agentsUsed": []
     },
@@ -2724,7 +2724,7 @@
       "startTime": "2026-10-12T23:52:20.367000+00:00",
       "durationSeconds": 3941,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 136,
       "agentsUsed": []
     },
@@ -2734,7 +2734,7 @@
       "startTime": "2026-10-12T22:03:13+00:00",
       "durationSeconds": 73,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 20,
       "agentsUsed": []
     },
@@ -2744,7 +2744,7 @@
       "startTime": "2026-10-12T10:28:49.253000+00:00",
       "durationSeconds": 9769,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 305,
       "agentsUsed": []
     },
@@ -2754,7 +2754,7 @@
       "startTime": "2026-10-12T01:18:23.497000+00:00",
       "durationSeconds": 6144,
       "modelTier": "opus",
-      "projectName": "최종_20261002",
+      "projectName": "기타",
       "toolCallCount": 226,
       "agentsUsed": [
         "general-purpose"
@@ -2766,7 +2766,7 @@
       "startTime": "2026-10-12T00:09:42.358000+00:00",
       "durationSeconds": 582,
       "modelTier": "opus",
-      "projectName": ".claude",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 6,
       "agentsUsed": []
     },
@@ -2776,7 +2776,7 @@
       "startTime": "2026-10-11T22:03:12.849000+00:00",
       "durationSeconds": 65,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 21,
       "agentsUsed": []
     },
@@ -2786,7 +2786,7 @@
       "startTime": "2026-10-11T15:01:19.959000+00:00",
       "durationSeconds": 19579,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 801,
       "agentsUsed": [
         "general-purpose"
@@ -2798,7 +2798,7 @@
       "startTime": "2026-10-11T12:01:19.121000+00:00",
       "durationSeconds": 1743,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 55,
       "agentsUsed": []
     },
@@ -2808,7 +2808,7 @@
       "startTime": "2026-10-10T22:28:46.079000+00:00",
       "durationSeconds": 1095,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 26,
       "agentsUsed": []
     },
@@ -2818,7 +2818,7 @@
       "startTime": "2026-10-10T02:00:36.156000+00:00",
       "durationSeconds": 14990,
       "modelTier": "sonnet",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 361,
       "agentsUsed": []
     },
@@ -2828,7 +2828,7 @@
       "startTime": "2026-10-09T22:06:54.066000+00:00",
       "durationSeconds": 1430,
       "modelTier": "sonnet",
-      "projectName": "보유종목",
+      "projectName": "옵시디안",
       "toolCallCount": 40,
       "agentsUsed": []
     },
@@ -2838,7 +2838,7 @@
       "startTime": "2026-10-09T01:09:32.343000+00:00",
       "durationSeconds": 4889,
       "modelTier": "opus",
-      "projectName": "_collab",
+      "projectName": "기타",
       "toolCallCount": 124,
       "agentsUsed": []
     },
@@ -2848,7 +2848,7 @@
       "startTime": "2026-10-08T22:25:12.402000+00:00",
       "durationSeconds": 18892,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 580,
       "agentsUsed": [
         "general-purpose",
@@ -2862,7 +2862,7 @@
       "startTime": "2026-10-08T22:03:12.560000+00:00",
       "durationSeconds": 70,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 20,
       "agentsUsed": []
     },
@@ -2872,7 +2872,7 @@
       "startTime": "2026-10-08T02:54:38.677000+00:00",
       "durationSeconds": 5462,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 77,
       "agentsUsed": []
     },
@@ -2882,7 +2882,7 @@
       "startTime": "2026-10-07T22:03:12.899000+00:00",
       "durationSeconds": 63,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 19,
       "agentsUsed": []
     },
@@ -2892,7 +2892,7 @@
       "startTime": "2026-10-07T12:52:54.422000+00:00",
       "durationSeconds": 3668,
       "modelTier": "opus",
-      "projectName": "8_엔딩크레딧",
+      "projectName": "기타",
       "toolCallCount": 160,
       "agentsUsed": [
         "research"
@@ -2904,7 +2904,7 @@
       "startTime": "2026-10-07T11:31:22.351000+00:00",
       "durationSeconds": 2225,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 121,
       "agentsUsed": [
         "general-purpose"
@@ -2916,7 +2916,7 @@
       "startTime": "2026-10-07T09:02:10.643000+00:00",
       "durationSeconds": 4678,
       "modelTier": "opus",
-      "projectName": "shots",
+      "projectName": "기타",
       "toolCallCount": 165,
       "agentsUsed": [
         "general-purpose"
@@ -2928,7 +2928,7 @@
       "startTime": "2026-10-07T08:07:48.402000+00:00",
       "durationSeconds": 2464,
       "modelTier": "opus",
-      "projectName": "leaflet-panel3-20261007",
+      "projectName": "역류",
       "toolCallCount": 112,
       "agentsUsed": []
     },
@@ -2938,7 +2938,7 @@
       "startTime": "2026-10-07T06:46:39.428000+00:00",
       "durationSeconds": 2076,
       "modelTier": "opus",
-      "projectName": "claude",
+      "projectName": "역류",
       "toolCallCount": 120,
       "agentsUsed": []
     },
@@ -2948,7 +2948,7 @@
       "startTime": "2026-10-07T04:57:24.945000+00:00",
       "durationSeconds": 3130,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 134,
       "agentsUsed": [
         "evaluator",
@@ -2961,7 +2961,7 @@
       "startTime": "2026-10-07T03:47:43.201000+00:00",
       "durationSeconds": 2134,
       "modelTier": "opus",
-      "projectName": "nodetreeHome-walk",
+      "projectName": "nodetree.kr",
       "toolCallCount": 116,
       "agentsUsed": [
         "pr-content"
@@ -2973,7 +2973,7 @@
       "startTime": "2026-10-06T22:46:00.785000+00:00",
       "durationSeconds": 6602,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 83,
       "agentsUsed": []
     },
@@ -2983,7 +2983,7 @@
       "startTime": "2026-10-06T22:03:12.001000+00:00",
       "durationSeconds": 56,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 18,
       "agentsUsed": []
     },
@@ -2993,7 +2993,7 @@
       "startTime": "2026-10-06T12:19:23.711000+00:00",
       "durationSeconds": 3578,
       "modelTier": "sonnet",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 124,
       "agentsUsed": []
     },
@@ -3003,7 +3003,7 @@
       "startTime": "2026-10-06T11:51:53.153000+00:00",
       "durationSeconds": 48,
       "modelTier": "sonnet",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 0,
       "agentsUsed": []
     },
@@ -3013,7 +3013,7 @@
       "startTime": "2026-10-06T11:07:03.012000+00:00",
       "durationSeconds": 4378,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 151,
       "agentsUsed": []
     },
@@ -3023,7 +3023,7 @@
       "startTime": "2026-10-06T08:51:37.566000+00:00",
       "durationSeconds": 263,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 3,
       "agentsUsed": []
     },
@@ -3033,7 +3033,7 @@
       "startTime": "2026-10-06T08:07:36.455000+00:00",
       "durationSeconds": 2230,
       "modelTier": "opus",
-      "projectName": "사업매칭",
+      "projectName": "기타",
       "toolCallCount": 72,
       "agentsUsed": []
     },
@@ -3043,7 +3043,7 @@
       "startTime": "2026-10-06T06:33:48.516000+00:00",
       "durationSeconds": 1603,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 59,
       "agentsUsed": []
     },
@@ -3053,7 +3053,7 @@
       "startTime": "2026-10-06T04:58:10.779000+00:00",
       "durationSeconds": 14537,
       "modelTier": "opus",
-      "projectName": "walk-sound-20261006",
+      "projectName": "역류",
       "toolCallCount": 303,
       "agentsUsed": [
         "general-purpose"
@@ -3065,7 +3065,7 @@
       "startTime": "2026-10-06T03:42:51.319000+00:00",
       "durationSeconds": 5356,
       "modelTier": "opus",
-      "projectName": "nodetree-instagram",
+      "projectName": "인스타그램",
       "toolCallCount": 189,
       "agentsUsed": [
         "pr-content",
@@ -3078,7 +3078,7 @@
       "startTime": "2026-10-06T02:28:17.700000+00:00",
       "durationSeconds": 2414,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 121,
       "agentsUsed": []
     },
@@ -3088,7 +3088,7 @@
       "startTime": "2026-10-06T01:45:58.793000+00:00",
       "durationSeconds": 1546,
       "modelTier": "fable",
-      "projectName": "fable",
+      "projectName": "역류",
       "toolCallCount": 94,
       "agentsUsed": []
     },
@@ -3098,7 +3098,7 @@
       "startTime": "2026-10-06T00:35:34.965000+00:00",
       "durationSeconds": 346,
       "modelTier": "fable",
-      "projectName": "banner-600x1800-20261006",
+      "projectName": "역류",
       "toolCallCount": 16,
       "agentsUsed": []
     },
@@ -3108,7 +3108,7 @@
       "startTime": "2026-10-06T00:16:55.726000+00:00",
       "durationSeconds": 6315,
       "modelTier": "opus",
-      "projectName": "leaflet-a2-20261006",
+      "projectName": "역류",
       "toolCallCount": 220,
       "agentsUsed": [
         "visual-design"
@@ -3120,7 +3120,7 @@
       "startTime": "2026-10-05T22:03:12.656000+00:00",
       "durationSeconds": 41,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 15,
       "agentsUsed": []
     },
@@ -3130,7 +3130,7 @@
       "startTime": "2026-10-05T11:46:27.283000+00:00",
       "durationSeconds": 18483,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 401,
       "agentsUsed": []
     },
@@ -3140,7 +3140,7 @@
       "startTime": "2026-10-05T09:33:19.044000+00:00",
       "durationSeconds": 13569,
       "modelTier": "opus",
-      "projectName": "interaction-organ",
+      "projectName": "기타",
       "toolCallCount": 291,
       "agentsUsed": [
         "general-purpose"
@@ -3152,7 +3152,7 @@
       "startTime": "2026-10-05T09:20:33.637000+00:00",
       "durationSeconds": 22923,
       "modelTier": "opus",
-      "projectName": "r4",
+      "projectName": "nodetree.kr",
       "toolCallCount": 377,
       "agentsUsed": [
         "general-purpose"
@@ -3164,7 +3164,7 @@
       "startTime": "2026-10-05T08:16:40.121000+00:00",
       "durationSeconds": 1113,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 79,
       "agentsUsed": [
         "research"
@@ -3176,7 +3176,7 @@
       "startTime": "2026-10-05T08:02:19.768000+00:00",
       "durationSeconds": 3157,
       "modelTier": "opus",
-      "projectName": "2026",
+      "projectName": "기타",
       "toolCallCount": 80,
       "agentsUsed": []
     },
@@ -3186,7 +3186,7 @@
       "startTime": "2026-10-05T07:57:00.806000+00:00",
       "durationSeconds": 251,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 21,
       "agentsUsed": []
     },
@@ -3196,7 +3196,7 @@
       "startTime": "2026-10-05T07:46:38.025000+00:00",
       "durationSeconds": 513,
       "modelTier": "opus",
-      "projectName": "kanghyunjung",
+      "projectName": "홈",
       "toolCallCount": 49,
       "agentsUsed": []
     },
@@ -3206,7 +3206,7 @@
       "startTime": "2026-10-05T04:17:30.814000+00:00",
       "durationSeconds": 18314,
       "modelTier": "opus",
-      "projectName": "floor-4tv-20261005",
+      "projectName": "역류",
       "toolCallCount": 374,
       "agentsUsed": [
         "general-purpose"
@@ -3218,7 +3218,7 @@
       "startTime": "2026-10-04T22:03:11.312000+00:00",
       "durationSeconds": 47,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 16,
       "agentsUsed": []
     },
@@ -3228,7 +3228,7 @@
       "startTime": "2026-10-04T13:01:07.035000+00:00",
       "durationSeconds": 14640,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 378,
       "agentsUsed": []
     },
@@ -3238,7 +3238,7 @@
       "startTime": "2026-10-04T05:19:36.851000+00:00",
       "durationSeconds": 925,
       "modelTier": "opus",
-      "projectName": "위성악보시리즈-역류",
+      "projectName": "역류",
       "toolCallCount": 33,
       "agentsUsed": []
     },
@@ -3248,7 +3248,7 @@
       "startTime": "2026-10-03T22:03:11.997000+00:00",
       "durationSeconds": 43,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 17,
       "agentsUsed": []
     },
@@ -3258,7 +3258,7 @@
       "startTime": "2026-10-03T01:24:10.709000+00:00",
       "durationSeconds": 9318,
       "modelTier": "opus",
-      "projectName": "paddy-repetition-20260926",
+      "projectName": "역류",
       "toolCallCount": 398,
       "agentsUsed": [
         "general-purpose"
@@ -3270,7 +3270,7 @@
       "startTime": "2026-10-02T22:03:11.620000+00:00",
       "durationSeconds": 93,
       "modelTier": "sonnet",
-      "projectName": "",
+      "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
     },
@@ -3280,7 +3280,7 @@
       "startTime": "2026-10-02T14:18:40.959000+00:00",
       "durationSeconds": 3948,
       "modelTier": "opus",
-      "projectName": "ls-000-foundation",
+      "projectName": "livesound",
       "toolCallCount": 110,
       "agentsUsed": [
         "general-purpose"
@@ -3292,7 +3292,7 @@
       "startTime": "2026-10-02T14:05:35.955000+00:00",
       "durationSeconds": 21506,
       "modelTier": "opus",
-      "projectName": "floor-review-20261002",
+      "projectName": "역류",
       "toolCallCount": 440,
       "agentsUsed": [
         "Explore",
@@ -3305,7 +3305,7 @@
       "startTime": "2026-10-02T06:02:11.011000+00:00",
       "durationSeconds": 20847,
       "modelTier": "opus",
-      "projectName": "claude",
+      "projectName": "기타",
       "toolCallCount": 432,
       "agentsUsed": [
         "general-purpose"
@@ -3317,7 +3317,7 @@
       "startTime": "2026-10-02T04:30:56.985000+00:00",
       "durationSeconds": 7929,
       "modelTier": "opus",
-      "projectName": "tv-frame-20261002",
+      "projectName": "역류",
       "toolCallCount": 190,
       "agentsUsed": []
     },
@@ -3327,7 +3327,7 @@
       "startTime": "2026-10-02T01:05:49.724000+00:00",
       "durationSeconds": 1128,
       "modelTier": "opus",
-      "projectName": "memory",
+      "projectName": "하네스 · 운영",
       "toolCallCount": 100,
       "agentsUsed": [
         "general-purpose"
