@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T22:48:20.155264+00:00",
+  "lastUpdated": "2026-11-10T22:54:26.559810+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -51,10 +51,10 @@
       "sessionId": "f3974b17",
       "date": "2026-11-10",
       "startTime": "2026-11-10T04:34:46.633000+00:00",
-      "durationSeconds": 16838,
+      "durationSeconds": 17205,
       "modelTier": "opus",
-      "projectName": "양보의 날",
-      "toolCallCount": 534,
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 546,
       "agentsUsed": [
         "general-purpose"
       ]
