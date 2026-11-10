@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T01:06:17.538021+00:00",
+  "lastUpdated": "2026-11-10T01:19:37.026929+00:00",
   "models": {
     "claude": [
       {
@@ -7,7 +7,13 @@
         "id": "claude-opus-5-5",
         "name": "Opus 5.5",
         "seat": "메인 세션",
-        "role": "개념 · 뼈대 · 통합 · 검수(code)"
+        "role": "개념 · 뼈대 · 통합 · 검수(code)",
+        "stages": [
+          "skeleton",
+          "result",
+          "review"
+        ],
+        "lead": true
       },
       {
         "family": "fable",
@@ -15,6 +21,11 @@
         "name": "Fable 5.2",
         "seat": "짧은 단건",
         "role": "밖으로 나가는 글 · 작품 안 글 의견 · 비주얼 의견",
+        "stages": [
+          "skeleton",
+          "result",
+          "review"
+        ],
         "note": "11-15까지 확대"
       },
       {
@@ -22,14 +33,20 @@
         "id": "claude-sonnet-5-5",
         "name": "Sonnet 5.5",
         "seat": "서브에이전트",
-        "role": "원자료 좁히기 · 대량 분석"
+        "role": "원자료 좁히기 · 대량 분석",
+        "stages": [
+          "research"
+        ]
       },
       {
         "family": "haiku",
         "id": "claude-haiku-5-5",
         "name": "Haiku 5.5",
         "seat": "서브에이전트",
-        "role": "대량 분석 · 경로 탐색"
+        "role": "대량 분석 · 경로 탐색",
+        "stages": [
+          "research"
+        ]
       }
     ],
     "codex": [
@@ -39,6 +56,9 @@
         "name": "GPT-6.1 Sol",
         "seat": "기본",
         "role": "공개 자료 확인 · 스크립트 · 가벼운 일",
+        "stages": [
+          "research"
+        ],
         "note": "기본값"
       },
       {
@@ -46,14 +66,21 @@
         "id": "gpt-6-astra",
         "name": "GPT-6 Astra",
         "seat": "high",
-        "role": "비주얼 · 웹 · 코드 구조 제작"
+        "role": "비주얼 · 웹 · 코드 구조 제작",
+        "stages": [
+          "skeleton",
+          "result"
+        ]
       },
       {
         "family": "terra",
         "id": "gpt-6.1-terra",
         "name": "GPT-6.1 Terra",
         "seat": "대량",
-        "role": "대량 반복 분석 · 형식 변환"
+        "role": "대량 반복 분석 · 형식 변환",
+        "stages": [
+          "research"
+        ]
       }
     ],
     "cli": {
@@ -143,7 +170,7 @@
     "limits": {
       "claude": {
         "used": 16,
-        "elapsed": 36
+        "elapsed": 37
       },
       "codex": {
         "used": 2,
