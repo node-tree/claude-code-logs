@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T02:48:28.521237+00:00",
+  "lastUpdated": "2026-11-10T02:58:53.396921+00:00",
   "models": {
     "claude": [
       {
@@ -545,8 +545,8 @@
       },
       {
         "lens": "code",
-        "pass": 2,
-        "rework": 3
+        "pass": 3,
+        "rework": 2
       },
       {
         "lens": "doc+design",
@@ -647,8 +647,8 @@
       },
       {
         "date": "2026-11-10",
-        "pass": 0,
-        "rework": 1
+        "pass": 1,
+        "rework": 0
       }
     ]
   },
