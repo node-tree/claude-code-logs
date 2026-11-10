@@ -1,13 +1,13 @@
 {
+  "evaluator": {
+    "lastActive": "2026-11-10T00:29:46.656000+00:00",
+    "lastProject": "하네스 · 운영",
+    "sessionId": "020e8950"
+  },
   "research": {
     "lastActive": "2026-11-09T07:36:11.003000+00:00",
     "lastProject": "하네스 · 운영",
     "sessionId": "04d8608c"
-  },
-  "evaluator": {
-    "lastActive": "2026-11-06T01:03:57.286000+00:00",
-    "lastProject": "하네스 · 운영",
-    "sessionId": "3895d1fc"
   },
   "doc-design": {
     "lastActive": "2026-10-27T14:42:08.580000+00:00",
