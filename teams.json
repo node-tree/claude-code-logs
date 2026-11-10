@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T07:35:11.568393+00:00",
+  "lastUpdated": "2026-11-10T03:43:48.358127+00:00",
   "teams": [
     {
       "id": "harness",
@@ -7,7 +7,7 @@
       "emoji": "◎",
       "color": "#6b7280",
       "bg": "#f9fafb",
-      "desc": "검수 판정(lens code·design·doc) · 리드가 직접 수행하고 필요할 때만 위임",
+      "desc": "Claude Code · Codex 협업 하네스, 훅 · 검수(evaluator) · 작업 폴더 · 자동 일정",
       "agents": [
         {
           "id": "evaluator",
@@ -22,7 +22,7 @@
       "emoji": "▲",
       "color": "#7c3aed",
       "bg": "#f5f3ff",
-      "desc": "제너러티브 비주얼 · 사운드 · 미디어아트 통합 · 퍼포먼스 필름",
+      "desc": "실시간 비주얼(Three.js WebGPU/TSL) · 사운드(SuperCollider · Ableton) · 설치 센서 · OSC · 퍼포먼스 필름 편집(FCP)",
       "agents": [
         {
           "id": "film-production",
@@ -52,7 +52,7 @@
       "emoji": "●",
       "color": "#e11d48",
       "bg": "#fff1f2",
-      "desc": "포스터 · SNS 이미지 · 홍보 글",
+      "desc": "포스터 · 인스타 이미지 · 피그마 디자인 시스템 · 홍보 글",
       "agents": [
         {
           "id": "pr-content",
@@ -72,7 +72,7 @@
       "emoji": "◆",
       "color": "#0891b2",
       "bg": "#ecfeff",
-      "desc": "지원서 · 도록 · 공문 · 일정",
+      "desc": "지원서 · 작가노트 · 도록 · 공문(HWPX) · 일정 계획",
       "agents": [
         {
           "id": "doc-design",
@@ -97,7 +97,7 @@
       "emoji": "○",
       "color": "#b45309",
       "bg": "#fffbeb",
-      "desc": "작가 · 이론 · 기술 리서치 · 공모 발굴",
+      "desc": "작가 · 이론 · 기술 · 지역 리서치, 옵시디안 자료실 정리",
       "agents": [
         {
           "id": "research",
@@ -112,7 +112,7 @@
       "emoji": "■",
       "color": "#1d4ed8",
       "bg": "#eff6ff",
-      "desc": "nodetree.kr · isoartlab · 배포",
+      "desc": "nodetree.kr · isoartlab(React · Vercel) · 작업용 스크립트",
       "agents": [
         {
           "id": "nodetreehome-web",
@@ -127,7 +127,7 @@
       "emoji": "□",
       "color": "#059669",
       "bg": "#ecfdf5",
-      "desc": "노드트리 · ㈜생산소 명의별 회계",
+      "desc": "노드트리 · ㈜생산소 명의별 회계 · 보조사업 정산(e나라도움 · 보탬e)",
       "agents": [
         {
           "id": "nodetree-accounting",
