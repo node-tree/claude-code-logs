@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-10T07:08:19.162026+00:00",
+  "lastUpdated": "2026-11-10T07:11:56.943292+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "f3974b17",
       "date": "2026-11-10",
       "startTime": "2026-11-10T04:34:46.633000+00:00",
-      "durationSeconds": 6037,
+      "durationSeconds": 6255,
       "modelTier": "opus",
       "projectName": "양보의 날",
-      "toolCallCount": 195,
+      "toolCallCount": 207,
       "agentsUsed": [
         "general-purpose"
       ]
