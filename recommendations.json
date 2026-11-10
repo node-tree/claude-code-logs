@@ -1,4 +1,5 @@
 {
+  "month": "2026-11",
   "lastUpdated": "2026-11-10",
   "recommendations": [
     {
@@ -6,28 +7,65 @@
       "teamName": "하네스",
       "items": [
         {
-          "name": "axe-core",
-          "type": "tool",
-          "desc": "웹 페이지의 접근성 위반을 자동으로 검사하는 오픈소스 엔진이다.",
-          "reason": "evaluator의 design·code 렌즈에서 nodetree.kr과 웹 산출물의 대비·라벨·키보드 접근성을 PASS/REWORK 근거로 수치화할 수 있다. Playwright와 함께 돌리면 판정이 주관에 흐르지 않는다.",
-          "trend": "stable",
-          "url": "https://github.com/dequelabs/axe-core"
+          "id": "2026-11-harness-1",
+          "name": "ccusage",
+          "type": "cli",
+          "desc": "Claude Code와 Codex의 로컬 사용 기록에서 토큰 사용량과 비용을 일·주·월·세션별로 집계하는 CLI.",
+          "reason": "Opus·Sonnet·Fable과 Codex CLI를 함께 쓰는 하네스에서 어느 모델과 작업이 한도를 많이 쓰는지 지금은 눈으로 가늠할 뿐이다. ccusage는 로컬 기록만 읽어 두 도구의 사용량을 같은 표로 보여주므로 evaluator 호출 빈도 조정의 근거가 된다.",
+          "trend": "hot",
+          "url": "https://github.com/ryoppippi/ccusage",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "npx ccusage@latest daily",
+              "npx ccusage@latest codex daily"
+            ],
+            "cost": "무료(MIT), 계정·API 키 불필요",
+            "replaces": "새 기능(agents.json에 사용량 집계 도구 없음)",
+            "trial": "지난주 하루 단위 사용량 표를 뽑아 evaluator를 많이 부른 날의 비용을 확인한다.",
+            "risk": "로컬 파일만 읽는 읽기 전용 도구이며 npx 캐시 삭제로 제거된다."
+          }
         },
         {
-          "name": "CodeRabbit skills",
-          "type": "plugin",
-          "desc": "CodeRabbit CLI로 코드 리뷰와 PR 리뷰 스레드 자동 수정을 수행하는 Claude Code 플러그인이다.",
-          "reason": "evaluator의 code 렌즈에서 웹·파이프라인 산출물 판정 전에 독립된 리뷰어 관점을 한 번 더 확보할 수 있다. REWORK 사유를 PR 스레드 단위로 정리해 수정 에이전트에 넘기기 쉽다.",
+          "id": "2026-11-harness-2",
+          "name": "ccstatusline",
+          "type": "cli",
+          "desc": "Claude Code 하단 상태줄을 모델·git·토큰·비용·컨텍스트 위젯으로 꾸미는 TUI 설정 도구.",
+          "reason": "긴 작업 세션에서 컨텍스트 잔량과 현재 브랜치를 확인하려면 지금은 별도 명령을 쳐야 한다. 상태줄에 상시 표시하면 compact 시점과 모델 전환 시점을 놓치지 않는다.",
           "trend": "rising",
-          "url": "https://github.com/coderabbitai/skills"
+          "url": "https://github.com/sirmalloc/ccstatusline",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "npx -y ccstatusline@latest",
+              "TUI에서 위젯을 고르고 Install to Claude Code 항목을 선택한다(~/.claude/settings.json에 statusLine이 기록됨)"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "Claude Code 기본 상태줄",
+            "trial": "설치 후 새 세션을 열어 모델·git 브랜치·컨텍스트 사용률이 하단에 보이는지 확인한다.",
+            "risk": "settings.json의 statusLine만 바꾸므로 해당 키를 지우면 원복되며, 설치 전 파일을 백업해 둔다."
+          }
         },
         {
-          "name": "claude-code-security-review",
-          "type": "tool",
-          "desc": "Claude로 PR 변경분의 보안 취약점을 검사하고 코멘트를 남기는 GitHub Action이다.",
-          "reason": "nodetree.kr의 API와 Vercel 배포 코드를 evaluator code 렌즈로 판정할 때 보안 항목을 자동 점검한다. 배포 전 REWORK 사유로 바로 쓸 수 있는 근거가 남는다.",
-          "trend": "stable",
-          "url": "https://github.com/anthropics/claude-code-security-review"
+          "id": "2026-11-harness-3",
+          "name": "Backlog.md",
+          "type": "mcp",
+          "desc": "작업을 마크다운 파일로 저장하고 터미널 칸반과 MCP로 에이전트가 읽고 갱신하는 작업 관리 CLI.",
+          "reason": "공생직조 같은 여러 세션에 걸친 작업의 할 일이 지금은 세션 기록과 메모에 흩어져 있다. 저장소 안의 마크다운 태스크로 두면 Claude Code와 Codex가 같은 목록과 완료 기준(acceptance criteria)을 공유한다.",
+          "trend": "rising",
+          "url": "https://github.com/MrLesk/Backlog.md",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "brew install backlog-md",
+              "cd <작업 저장소> && backlog init",
+              "claude mcp add backlog --scope user -- backlog mcp start"
+            ],
+            "cost": "무료(MIT), 서버·계정·텔레메트리 없음",
+            "replaces": "project-planning 스킬이 만드는 일회성 일정표",
+            "trial": "작업 저장소에서 backlog init 후 태스크 3개를 만들고 backlog board로 칸반을 확인한다.",
+            "risk": "저장소에 backlog/ 폴더가 생기며 폴더 삭제와 claude mcp remove backlog로 되돌린다."
+          }
         }
       ]
     },
@@ -36,28 +74,64 @@
       "teamName": "예술작업",
       "items": [
         {
-          "name": "Wokwi CLI",
-          "type": "mcp",
-          "desc": "ESP32 펌웨어를 헤드리스로 시뮬레이션하고 실험적 MCP 서버(wokwi-cli mcp)를 제공하는 CLI이다.",
-          "reason": "media-art-pipeline이 설치 현장 없이 ESP32 센서·OSC 송신 로직을 먼저 검증할 수 있다. 시리얼 출력 기대값 검사로 하드웨어 연결 전 회귀 테스트가 가능하다.",
-          "trend": "rising",
-          "url": "https://github.com/wokwi/wokwi-cli"
+          "id": "2026-11-art-1",
+          "name": "postprocessing",
+          "type": "cli",
+          "desc": "three.js용 후처리 효과 라이브러리(블룸·글리치·색수차·노이즈·픽셀화 등)를 EffectComposer로 합치는 npm 패키지.",
+          "reason": "현재 비주얼의 글리치·그레인·블룸을 셰이더로 직접 쓰고 있다면 효과 병합과 검증된 구현을 얻는다. 단 README는 WebGLRenderer 기준이고 WebGPU/TSL 지원은 확인하지 못했으므로 WebGL 폴백 장면이나 오프라인 렌더에 먼저 시험한다.",
+          "trend": "stable",
+          "url": "https://github.com/pmndrs/postprocessing",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "cd <비주얼 프로젝트> && npm install three postprocessing"
+            ],
+            "cost": "무료(Zlib)",
+            "replaces": "직접 작성한 후처리 셰이더(WebGL 경로 한정)",
+            "trial": "WebGL 장면 하나에 BloomEffect와 GlitchEffect를 붙여 프레임 시간이 어떻게 달라지는지 본다.",
+            "risk": "WebGPU 렌더러에서는 동작하지 않을 수 있으니 별도 브랜치에서 시험하고 npm uninstall postprocessing으로 제거한다."
+          }
         },
         {
-          "name": "ACE-Step",
-          "type": "tool",
-          "desc": "Apache-2.0 라이선스의 오픈소스 음악 생성 파운데이션 모델이다(v1.5).",
-          "reason": "sound-art가 SuperCollider 작업의 소스 소재나 스케치 텍스처를 로컬에서 생성해 Ableton으로 가져오는 용도로 쓸 수 있다. 로컬 실행이라 저작권과 비용 부담 없이 반복 실험이 가능하다.",
-          "trend": "rising",
-          "url": "https://github.com/ace-step/ACE-Step"
+          "id": "2026-11-art-2",
+          "name": "CommandPost",
+          "type": "service",
+          "desc": "Final Cut Pro 작업을 빠르게 하는 macOS 자동화 도구 모음(오픈소스, 플러그인 구조).",
+          "reason": "퍼포먼스 필름 편집은 지금 finalcutpro MCP로 접근하지만 단축키·브라우저 위치·오버레이 같은 편집 보조 자동화는 따로 없다. CommandPost는 FCP 전용 단축 동작과 매크로를 추가해 반복 편집 시간을 줄인다.",
+          "trend": "stable",
+          "url": "https://github.com/CommandPost/CommandPost",
+          "apply": {
+            "how": "service",
+            "steps": [
+              "https://commandpost.io/download 에서 최신 앱을 내려받아 /Applications로 옮긴다",
+              "처음 실행 때 시스템 설정 > 개인정보 보호 및 보안에서 손쉬운 사용 권한을 허용한다"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "finalcutpro MCP와 일부 겹침, 편집 보조 단축 기능은 새로움",
+            "trial": "FCP 프로젝트를 열고 CommandPost 메뉴의 단축 기능 하나를 켜서 반복 동작이 줄어드는지 본다.",
+            "risk": "손쉬운 사용 권한이 필요하며 앱 삭제와 권한 해제로 되돌린다."
+          }
         },
         {
-          "name": "LTX-2",
-          "type": "tool",
-          "desc": "음성과 영상을 함께 생성하는 Lightricks의 오픈 오디오-비디오 모델과 추론 코드이다.",
-          "reason": "generative-visual이 Three.js 렌더 결과를 입력 삼아 보조 영상 레이어나 퍼포먼스 필름용 배경 소스를 만들 수 있다. film-production은 ComfyUI 연동으로 컷 사이 전환 소스를 시험할 수 있다.",
-          "trend": "hot",
-          "url": "https://github.com/Lightricks/LTX-2"
+          "id": "2026-11-art-3",
+          "name": "sc3-plugins",
+          "type": "service",
+          "desc": "SuperCollider 커뮤니티 UGen 약 300종 모음(Gendy4, FoaPanB 앰비소닉스 등).",
+          "reason": "supercollider MCP로 SynthDef을 짤 때 기본 UGen만으로 부족한 확률적 합성과 공간 음향 UGen을 채운다. 실험 사운드와 설치 작업의 음원 재료가 늘어난다.",
+          "trend": "stable",
+          "url": "https://github.com/supercollider/sc3-plugins",
+          "apply": {
+            "how": "service",
+            "steps": [
+              "https://github.com/supercollider/sc3-plugins/releases 에서 macOS 디스크 이미지를 내려받는다",
+              "SuperCollider에서 Platform.userExtensionDir.postln 을 실행해 경로를 확인한다(없으면 File.mkdir(Platform.userExtensionDir))",
+              "이미지의 SC3plugins 폴더를 그 경로로 복사하고 서버를 재부팅한다"
+            ],
+            "cost": "무료(GPL-2.0)",
+            "replaces": "supercollider-sound-art 스킬의 기본 UGen만 쓰는 범위",
+            "trial": "{ Gendy4.ar(1,1,0.5,0.5,200,800)!2 * 0.1 }.play 를 실행해 소리가 나는지 확인한다.",
+            "risk": "README에 따르면 일부 UGen은 안정성이 낮으니 공연 전에 검증하고, Extensions 폴더에서 SC3plugins를 지우면 원복된다."
+          }
         }
       ]
     },
@@ -66,28 +140,67 @@
       "teamName": "디자인홍보",
       "items": [
         {
-          "name": "Stitch SDK",
+          "id": "2026-11-design-1",
+          "name": "Figma Console MCP",
           "type": "mcp",
-          "desc": "텍스트 프롬프트로 UI 화면을 생성하고 HTML과 스크린샷을 추출하는 Google Labs의 TypeScript SDK이며 Stitch MCP 서버와 통신한다.",
-          "reason": "visual-design이 전시 웹 랜딩이나 SNS용 레이아웃 시안을 변형 여러 개로 빠르게 뽑아 Figma 작업 전 방향을 정할 수 있다. 공식 지원 제품이 아니므로 시안 탐색용으로만 쓴다.",
+          "desc": "Figma 변수·컴포넌트·스타일을 읽고 쓰며 접근성·디자인 시스템 상태를 점검하는 MCP 서버.",
+          "reason": "이미 쓰는 Figma 플러그인 스킬은 파일 편집 중심이다. 이 서버는 변수·토큰 내보내기와 디자인 시스템 건강 점검, 디자인-코드 일치 확인을 더해 포스터 시스템의 토큰 관리를 맡긴다.",
           "trend": "rising",
-          "url": "https://github.com/google-labs-code/stitch-sdk"
+          "url": "https://github.com/southleft/figma-console-mcp",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "Figma 개인 액세스 토큰(figd_로 시작, 읽기 범위)을 발급한다",
+              "claude mcp add figma-console -s user -e FIGMA_ACCESS_TOKEN=<토큰> -e ENABLE_MCP_APPS=true -- npx -y figma-console-mcp@latest",
+              "Figma Desktop에서 README의 Desktop Bridge 플러그인을 가져와 실행한다"
+            ],
+            "cost": "무료(MIT), Figma 개인 토큰 필요(Variables 범위는 Enterprise 플랜)",
+            "replaces": "Figma 플러그인과 일부 겹침, 토큰 점검은 새 기능",
+            "trial": "디자인 시스템 파일의 변수를 JSON으로 내보내고 접근성 점검을 한 번 돌린다.",
+            "risk": "토큰은 환경변수로만 넣고 저장소에 적지 않으며 claude mcp remove figma-console 후 토큰을 폐기한다."
+          }
         },
         {
-          "name": "Framelink MCP for Figma",
+          "id": "2026-11-design-2",
+          "name": "Penpot MCP",
           "type": "mcp",
-          "desc": "Figma 레이아웃 데이터를 코딩 에이전트에 전달하는 오픈소스 MCP 서버이다.",
-          "reason": "visual-design이 만든 Figma 키비주얼과 포스터 구조를 nodetree.kr 페이지 구현으로 정확히 옮길 때 쓸 수 있다. 기존 Figma 스킬과 달리 선택한 프레임의 레이아웃 정보만 간결하게 가져온다.",
+          "desc": "오픈소스 디자인 도구 Penpot에 에이전트가 연결해 디자인을 읽고 만드는 MCP 서버.",
+          "reason": "Figma 외에 셀프호스팅 가능한 오픈소스 디자인 도구로 포스터·키비주얼 작업 경로를 하나 더 확보한다. 디자인과 코드를 오가는 흐름을 공식 MCP로 시험할 수 있다.",
+          "trend": "rising",
+          "url": "https://github.com/penpot/penpot",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "npx -y @penpot/mcp@latest 로 MCP 서버와 플러그인 서버를 띄운다",
+              "Penpot에서 디자인 파일을 열고 플러그인 메뉴에 http://localhost:4400/manifest.json 을 불러온 뒤 Connect to MCP server를 누른다",
+              "claude mcp add --transport http penpot http://localhost:4401/mcp"
+            ],
+            "cost": "무료(MPL-2.0), Penpot 계정 필요",
+            "replaces": "Figma 플러그인(대체가 아닌 보조 경로)",
+            "trial": "빈 파일에 A4 포스터 프레임과 제목 텍스트 하나를 만들게 한다.",
+            "risk": "Penpot 탭을 열어 둔 동안만 연결되고 localhost로만 열린다. claude mcp remove penpot로 해제한다. 설치 단계의 Claude Code 명령은 일반 HTTP 클라이언트 지침에서 가져온 것이니 처음에 연결 확인을 한다."
+          }
+        },
+        {
+          "id": "2026-11-design-3",
+          "name": "ColorMcp",
+          "type": "mcp",
+          "desc": "조화 팔레트 생성, WCAG 대비 검사, 22종 이상 색 공간 변환(CMYK·OKLCH 포함), CSS·Tailwind 내보내기를 하는 MCP 서버.",
+          "reason": "포스터는 화면 RGB와 인쇄 CMYK를 오가야 하는데 지금은 색을 사람이 옮긴다. 대비 검사와 팔레트 PNG 생성을 도구로 맡기면 홍보물 접근성과 색 일관성을 확인할 수 있다.",
           "trend": "stable",
-          "url": "https://github.com/GLips/Figma-Context-MCP"
-        },
-        {
-          "name": "tldraw",
-          "type": "tool",
-          "desc": "캔버스 SDK로, 에이전트가 캔버스 내용을 읽고 수정하는 Agent 스타터킷을 제공한다.",
-          "reason": "visual-design이 포스터 구성안을 캔버스에서 에이전트와 함께 러프 스케치하는 작업 보드로 쓸 수 있다. 전시 그래픽 레이아웃 논의를 AI가 바로 수정하는 형태로 진행할 수 있다.",
-          "trend": "rising",
-          "url": "https://github.com/tldraw/tldraw"
+          "url": "https://github.com/keyurgolani/ColorMcp",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "git clone https://github.com/keyurgolani/ColorMcp ~/mcp-servers/ColorMcp",
+              "cd ~/mcp-servers/ColorMcp && npm install && npm run build",
+              "claude mcp add color -s user -- node ~/mcp-servers/ColorMcp/dist/index.js"
+            ],
+            "cost": "무료(MIT), Node.js 20 이상",
+            "replaces": "수동 색 변환",
+            "trial": "포스터 주조색 하나로 조화 팔레트를 만들고 흰 배경 대비 비율을 검사시킨다.",
+            "risk": "로컬 실행이라 외부 전송이 없다. 빌드 산출물 경로는 README 기준이므로 dist/index.js 존재를 확인하고, claude mcp remove color와 폴더 삭제로 되돌린다."
+          }
         }
       ]
     },
@@ -96,28 +209,66 @@
       "teamName": "문서기획",
       "items": [
         {
-          "name": "korean-report-hwpx",
-          "type": "mcp",
-          "desc": "기관 서식의 보고서·보도자료·기안문을 HWPX 파일로 생성하는 로컬 MCP 서버이다.",
-          "reason": "doc-design이 공문과 보고서 HWPX를 서식 규칙 검증(check_structure)과 함께 만들 수 있다. API 키 없이 로컬에서 동작해 지원 서류 원고가 외부로 나가지 않는다.",
-          "trend": "hot",
-          "url": "https://github.com/UpstageAI/korean-report-hwpx"
-        },
-        {
-          "name": "Google Workspace CLI (gws)",
-          "type": "tool",
-          "desc": "Google Workspace 전체를 CLI로 다루고 100개 이상의 에이전트 스킬을 포함한 오픈소스 도구이다.",
-          "reason": "project-planner가 일정은 Calendar, 예산표는 Sheets로 읽고 쓰며 진행 현황을 갱신할 수 있다. 공식 Google 제품은 아니라는 점을 감안해 읽기 위주로 먼저 쓴다.",
-          "trend": "hot",
-          "url": "https://github.com/googleworkspace/cli"
-        },
-        {
-          "name": "Knowledge Graph Memory Server",
-          "type": "mcp",
-          "desc": "엔티티·관계·관찰을 로컬 파일에 저장해 세션 간 기억을 유지하는 MCP 참조 서버이다.",
-          "reason": "grant-writer가 작가노트와 지원서 반복 작성 시 작품 개념·수상 이력·문장 톤 결정을 세션 사이에 유지할 수 있다. project-planner의 역할·결정 기록도 같은 그래프에 쌓는다.",
+          "id": "2026-11-docs-1",
+          "name": "hwpxlib",
+          "type": "cli",
+          "desc": "한글 HWPX 파일을 읽고 쓰는 Java 라이브러리(객체 탐색·빈 파일 생성·텍스트 추출).",
+          "reason": "지금 hwpx 스킬은 템플릿 치환 중심인데 hwpxlib은 문서 객체를 직접 읽고 쓰는 저수준 API라서 공문 양식의 표·문단 구조를 정밀하게 다룰 수 있다. 다만 Java 환경이 필요하므로 스킬이 막힌 양식 편집에만 보조로 쓴다.",
           "trend": "stable",
-          "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
+          "url": "https://github.com/neolord0/hwpxlib",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "brew install openjdk maven",
+              "git clone https://github.com/neolord0/hwpxlib ~/tools/hwpxlib",
+              "cd ~/tools/hwpxlib && mvn -q package -DskipTests"
+            ],
+            "cost": "무료(Apache-2.0)",
+            "replaces": "hwpx 스킬의 템플릿 치환으로 안 되는 편집",
+            "trial": "양식 hwpx 하나를 읽어 텍스트를 추출해 표 안의 값을 확인한다.",
+            "risk": "읽기·쓰기 모두 원본을 복사본에 적용하고 결과를 한글에서 열어 확인하며, 폴더 삭제로 되돌린다."
+          }
+        },
+        {
+          "id": "2026-11-docs-2",
+          "name": "markdownify-mcp",
+          "type": "mcp",
+          "desc": "PDF·이미지·오디오·웹·Office 문서를 마크다운으로 바꾸는 MCP 서버(MarkItDown 기반).",
+          "reason": "도록·지원서 작업에서 받은 공고문·참고 PDF를 대화 안에서 바로 마크다운으로 바꿔 본문에 인용할 수 있다. 지금은 pdf 스킬로 따로 추출하는 단계가 필요하다.",
+          "trend": "stable",
+          "url": "https://github.com/zcaceres/markdownify-mcp",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "brew install bun",
+              "git clone https://github.com/zcaceres/markdownify-mcp ~/mcp-servers/markdownify-mcp",
+              "cd ~/mcp-servers/markdownify-mcp && bun install && bun run build",
+              "claude mcp add markdownify -s user -- node ~/mcp-servers/markdownify-mcp/dist/index.js"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "pdf 스킬의 추출 단계 일부",
+            "trial": "공모 안내 PDF 하나를 변환해 표와 제목 구조가 남는지 본다.",
+            "risk": "preinstall이 Python 가상환경을 만들어 패키지를 설치하니 전용 폴더에서만 실행하고, 폴더 삭제와 claude mcp remove markdownify로 되돌린다."
+          }
+        },
+        {
+          "id": "2026-11-docs-3",
+          "name": "Excalidraw MCP",
+          "type": "mcp",
+          "desc": "손그림 스타일 다이어그램을 대화로 그리고 편집하는 공식 MCP 앱.",
+          "reason": "일정 계획과 도록 구조, 설치 배선 개념도를 문서에 넣을 때 지금은 Figma나 Mermaid를 따로 써야 한다. 손그림 느낌의 다이어그램을 대화에서 바로 만들면 기획 문서의 초안 속도가 빨라진다.",
+          "trend": "rising",
+          "url": "https://github.com/excalidraw/excalidraw-mcp",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "claude mcp add --transport http excalidraw https://mcp.excalidraw.com"
+            ],
+            "cost": "무료(MIT), 계정 불필요",
+            "replaces": "Mermaid 다이어그램(손그림 스타일은 새로움)",
+            "trial": "전시 설치 일정 흐름도를 한 장 그리게 하고 PNG로 내보낸다.",
+            "risk": "README는 원격 URL을 일반 MCP 커넥터로 추가하라고만 안내한다. Claude Code 명령은 이를 옮긴 것이므로 연결 확인이 필요하고, 내용이 원격 서버를 거치니 비공개 문서는 넣지 않는다. claude mcp remove excalidraw로 해제한다."
+          }
         }
       ]
     },
@@ -126,28 +277,64 @@
       "teamName": "리서치",
       "items": [
         {
-          "name": "semantic-scholar-mcp",
+          "id": "2026-11-research-1",
+          "name": "Are.na MCP",
           "type": "mcp",
-          "desc": "Semantic Scholar API로 논문 검색·상세·저자·인용 서식(BibTeX 등)을 제공하는 MCP 서버이다.",
-          "reason": "research 에이전트의 심층 리서치에서 소니피케이션·미디어아트 이론 문헌을 찾고 인용 정보를 바로 정리할 수 있다. 키 없이는 5분당 100회 제한이 있어 소량 조사에 적합하다.",
-          "trend": "stable",
-          "url": "https://github.com/FujishigeTemma/semantic-scholar-mcp"
-        },
-        {
-          "name": "Wikipedia MCP",
-          "type": "mcp",
-          "desc": "위키백과 문서 검색·요약·섹션·핵심 사실 추출을 제공하는 MIT 라이선스 MCP 서버이다.",
-          "reason": "research 에이전트가 작가·작품·지역 조사의 초기 배경 파악을 언어판별로 빠르게 수행할 수 있다. 한국어판 지원은 문서에 명시되지 않아 먼저 확인이 필요하다.",
-          "trend": "stable",
-          "url": "https://github.com/Rudra-ravi/wikipedia-mcp"
-        },
-        {
-          "name": "Browser Use",
-          "type": "tool",
-          "desc": "AI 브라우저 에이전트 라이브러리이며 Claude Code·Codex에 브라우저 접근을 주는 CLI와 MCP 서버를 제공한다.",
-          "reason": "research 에이전트의 공모 레이더가 로그인이나 동적 렌더링이 필요한 공모 공고 페이지를 직접 열어 마감일과 요건을 수집할 수 있다. 기존 검색 MCP가 놓치는 게시판형 페이지에 쓴다.",
+          "desc": "Are.na 채널·블록 검색과 연결을 하는 공식 원격 MCP 서버.",
+          "reason": "작가·이론 레퍼런스를 모으는 작업에서 Are.na 채널에 쌓은 이미지와 링크를 에이전트가 직접 검색하고 채널 요약을 받을 수 있다. 지금 쓰는 옵시디안 자료실은 문서 중심이라 시각 레퍼런스 모음과 역할이 다르다.",
           "trend": "rising",
-          "url": "https://github.com/browser-use/browser-use"
+          "url": "https://github.com/aredotna/mcp",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "claude mcp add --transport http --scope user arena https://mcp.are.na/mcp",
+              "Claude Code에서 /mcp 를 실행하고 arena를 골라 Are.na 계정으로 로그인한다"
+            ],
+            "cost": "무료(Are.na 계정 필요, 서버 라이선스 표기 없음)",
+            "replaces": "media-research 스킬의 옵시디안 정리를 보완",
+            "trial": "내 채널 하나를 골라 channelDigest로 요약을 받아 본다.",
+            "risk": "OAuth 범위를 읽기로 제한하고 쓸 일이 없으면 write를 주지 않으며, claude mcp remove arena로 해제한다."
+          }
+        },
+        {
+          "id": "2026-11-research-2",
+          "name": "Wikidata MCP Server",
+          "type": "mcp",
+          "desc": "Wikidata 엔티티 검색·진술 조회·SPARQL 질의·외부 ID(DOI 등) 해석을 하는 MCP 서버.",
+          "reason": "작가·작품·장소 조사에서 생몰년, 소속, 전시 이력, 지명 정보를 구조화된 데이터로 확인할 수 있다. 웹 검색 결과를 읽는 것보다 출처가 일정하다.",
+          "trend": "stable",
+          "url": "https://github.com/cyanheads/wikidata-mcp-server",
+          "apply": {
+            "how": "mcp",
+            "steps": [
+              "claude mcp add wikidata-mcp-server -- npx -y @cyanheads/wikidata-mcp-server"
+            ],
+            "cost": "무료(Apache-2.0), 계정 불필요",
+            "replaces": "웹 검색에 의존하는 인물·작품 정보 확인",
+            "trial": "부여 관련 인물 한 명의 Wikidata 진술을 조회해 출생지와 소속을 확인한다.",
+            "risk": "공개 Wikidata를 질의하는 읽기 전용 도구다. 호스팅 서버 대신 npx 로컬 실행을 쓰고 claude mcp remove로 해제한다."
+          }
+        },
+        {
+          "id": "2026-11-research-3",
+          "name": "obsidian-skills",
+          "type": "skill",
+          "desc": "옵시디안 마크다운·Bases·JSON Canvas·CLI와 웹 정리(defuddle) 스킬 모음(옵시디안 CEO 저장소).",
+          "reason": "자료실 정리에서 위키링크, 속성, Bases 뷰, Canvas 문법을 에이전트가 정확히 쓰게 해 노트가 깨지지 않는다. 지금은 media-research 스킬이 노트를 만들지만 옵시디안 문법 자체의 정본 지침은 없다.",
+          "trend": "rising",
+          "url": "https://github.com/kepano/obsidian-skills",
+          "apply": {
+            "how": "skill",
+            "steps": [
+              "Claude Code에서 /plugin marketplace add kepano/obsidian-skills",
+              "/plugin install obsidian@obsidian-skills",
+              "Codex용은 저장소의 skills 폴더를 ~/.codex/skills 로 복사한다"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "media-research의 노트 형식 지침을 보완",
+            "trial": "웹 문서 하나를 defuddle로 정리해 속성이 달린 노트를 만들고 옵시디안에서 열어 본다.",
+            "risk": "스킬은 지침 파일이라 /plugin uninstall로 제거된다. 자료실 볼트에 직접 쓰기 전에 백업한다."
+          }
         }
       ]
     },
@@ -156,28 +343,67 @@
       "teamName": "개발",
       "items": [
         {
-          "name": "Supabase MCP Server",
-          "type": "mcp",
-          "desc": "Supabase 프로젝트의 테이블 관리·설정 조회·쿼리를 AI 어시스턴트에 연결하는 호스티드 MCP 서버이다.",
-          "reason": "nodetreehome-web이 nodetree.kr의 모니터·실시간 데이터 저장소가 필요할 때 읽기 전용 모드로 스키마를 점검하며 붙일 수 있다. project_ref와 read_only 옵션으로 접근 범위를 제한한다.",
+          "id": "2026-11-dev-1",
+          "name": "React Doctor",
+          "type": "cli",
+          "desc": "React 코드를 상태·성능·구조·보안·접근성·유지보수 6개 영역으로 검사하고 에이전트 스킬도 설치하는 CLI.",
+          "reason": "nodetree.kr와 isoartlab에는 지금 React 전용 정적 검사 단계가 없고 vercel-react-best-practices 스킬은 지침뿐이다. 이 CLI는 결정론적 검사로 실제 문제 위치를 알려 준다.",
           "trend": "rising",
-          "url": "https://github.com/supabase-community/supabase-mcp"
+          "url": "https://github.com/millionco/react-doctor",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "cd <사이트 저장소>",
+              "npx react-doctor@latest",
+              "npx react-doctor@latest install"
+            ],
+            "cost": "무료(MIT), 원치 않으면 --no-telemetry",
+            "replaces": "vercel-react-best-practices 스킬(지침)을 실행형 검사로 보완",
+            "trial": "nodetree.kr에서 한 번 실행해 상위 지적 3건을 읽는다.",
+            "risk": "install은 에이전트 스킬 파일을 추가하니 변경분을 git으로 확인하고 되돌린다. 텔레메트리는 옵션으로 끈다."
+          }
         },
         {
-          "name": "shadcn/ui skills",
-          "type": "skill",
-          "desc": "shadcn/ui 저장소가 포함한 에이전트용 skills 폴더(shadcn, migrate-radix-to-base)이다.",
-          "reason": "nodetreehome-web이 React 컴포넌트 추가와 Radix에서 base로의 마이그레이션을 관례에 맞게 수행할 수 있다. 내용은 폴더 이름 외에 확인하지 못했으므로 적용 전 SKILL.md를 읽어야 한다.",
-          "trend": "rising",
-          "url": "https://github.com/shadcn-ui/ui/tree/main/skills"
-        },
-        {
-          "name": "dependency-cruiser",
-          "type": "tool",
-          "desc": "JS·TS 프로젝트의 의존성을 규칙으로 검증하고 시각화하는 도구이다.",
-          "reason": "nodetreehome-web의 실시간 시각화 코드가 커질 때 순환 의존과 금지된 import를 CI에서 걸러낼 수 있다. Vercel 배포 전 구조 점검 용도로 쓴다.",
+          "id": "2026-11-dev-2",
+          "name": "size-limit",
+          "type": "cli",
+          "desc": "빌드 번들의 크기와 실행 시간 예산을 정하고 초과하면 실패시키는 도구.",
+          "reason": "WebGPU·three.js를 얹은 사이트는 번들이 쉽게 커지는데 지금은 Vercel 배포 뒤에야 로딩이 느린 것을 안다. 번들 예산을 두면 배포 전에 막을 수 있다.",
           "trend": "stable",
-          "url": "https://github.com/sverweij/dependency-cruiser"
+          "url": "https://github.com/ai/size-limit",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "cd <사이트 저장소> && npm install --save-dev size-limit @size-limit/file",
+              "package.json에 \"size-limit\": [{\"path\": \"dist/assets/*.js\", \"limit\": \"500 kB\"}] 와 \"size\": \"npm run build && size-limit\" 스크립트를 추가한다",
+              "npm run size"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "없음(번들 예산 점검은 새 기능)",
+            "trial": "현재 번들 크기를 측정해 한도를 현재값 +10%로 정한다.",
+            "risk": "devDependency라 배포물에 영향이 없고 package.json 변경을 되돌리면 된다."
+          }
+        },
+        {
+          "id": "2026-11-dev-3",
+          "name": "Pagefind",
+          "type": "cli",
+          "desc": "빌드된 정적 사이트에 서버 없이 쓰는 전문 검색 색인과 UI를 만드는 CLI.",
+          "reason": "작품·프로젝트 아카이브가 늘어나는 nodetree.kr에 한글 포함 검색을 서버나 외부 서비스 없이 붙일 수 있다. 지금 사이트에는 전문 검색이 없다. 공식 문서 도메인이 이 세션에서 열리지 않아 README 확인만 했으니 첫 사용 때 최신 문서로 확인한다.",
+          "trend": "rising",
+          "url": "https://github.com/Pagefind/pagefind",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "cd <사이트 저장소> && npm run build",
+              "npx -y pagefind --site dist",
+              "생성된 dist/pagefind 폴더를 불러와 검색 UI를 붙인다(문서: https://pagefind.app/docs/)"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "없음(사이트 검색 새 기능)",
+            "trial": "빌드 산출물에 색인을 만들고 작품 제목 하나로 검색이 되는지 확인한다.",
+            "risk": "빌드 뒤 산출물만 추가되며 스크립트 한 줄 삭제로 되돌린다. SPA 라우팅 사이트는 색인 대상이 정적 HTML인지 먼저 확인한다."
+          }
         }
       ]
     },
@@ -186,36 +412,96 @@
       "teamName": "회계",
       "items": [
         {
-          "name": "korean-tax-mcp",
-          "type": "mcp",
-          "desc": "시행일 기준 법령, 국세청 예규, 판례, 조약을 근거와 함께 조회하는 25개 도구의 MCP 서버이다(v0.12.0).",
-          "reason": "nodetree-accounting과 saengsanso-accounting가 원천세·부가세 처리 근거를 조문과 예규 번호로 확인할 수 있다. 세무 자문이 아니므로 최종 판단은 세무사와 확인한다.",
-          "trend": "rising",
-          "url": "https://github.com/UpstageAI/korean-tax-mcp"
-        },
-        {
-          "name": "korean-tax-calc-mcp",
-          "type": "mcp",
-          "desc": "법인세·소득세·원천세·부가세를 코드로 계산하고 근거 조문을 제시하는 MCP 서버이다.",
-          "reason": "saengsanso-accounting가 법인 원천세와 일용근로 원천징수 계산을 검산하고 엑셀 워크북으로 내보낼 수 있다. 4대보험은 다루지 않으므로 별도 확인이 필요하다.",
-          "trend": "rising",
-          "url": "https://github.com/UpstageAI/korean-tax-calc-mcp"
-        },
-        {
-          "name": "mcp-upstage",
-          "type": "mcp",
-          "desc": "Upstage Document Parse로 PDF·이미지를 구조화하고 스키마 기반 정보 추출을 하는 MCP 서버이다.",
-          "reason": "nodetree-accounting이 보조사업 정산용 영수증·증빙 스캔에서 금액·거래처를 추출해 집행 내역과 대조할 수 있다. 파일은 50MB, 100쪽 미만 제한이 있다.",
+          "id": "2026-11-accounting-1",
+          "name": "csvkit",
+          "type": "cli",
+          "desc": "CSV를 열 선택·조인·집계·SQL 질의하는 명령줄 도구 모음.",
+          "reason": "e나라도움·보탬e·은행 거래내역을 내려받은 CSV를 명의별로 합치고 비목별로 집계하는 일을 수작업 엑셀에 의존한다. csvkit은 같은 절차를 스크립트로 남겨 정산 재현성을 높인다.",
           "trend": "stable",
-          "url": "https://github.com/UpstageAI/mcp-upstage"
+          "url": "https://github.com/wireservice/csvkit",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "brew install csvkit",
+              "csvstat 거래내역.csv",
+              "csvsql --query \"select 비목, sum(금액) from 거래내역 group by 비목\" 거래내역.csv"
+            ],
+            "cost": "무료(MIT)",
+            "replaces": "xlsx 스킬의 수작업 집계",
+            "trial": "은행 거래내역 CSV 한 개의 비목별 합계를 구해 정산표와 대조한다.",
+            "risk": "읽기 전용 집계이며 한글 CSV는 인코딩(-e cp949 등)을 지정한다. brew uninstall csvkit로 제거한다. 설치 명령은 일반 Homebrew 공식 포뮬러명 기준이다."
+          }
+        },
+        {
+          "id": "2026-11-accounting-2",
+          "name": "rclone",
+          "type": "cli",
+          "desc": "클라우드 저장소와 로컬을 암호화(crypt)·양방향 동기화(bisync)하는 CLI.",
+          "reason": "정산 증빙은 보존 의무가 있는 자료인데 지금은 백업 경로가 명의별로 정해져 있지 않다. 암호화한 원격 폴더로 증빙을 주기적으로 동기화하면 노트북 분실에 대비할 수 있다.",
+          "trend": "stable",
+          "url": "https://github.com/rclone/rclone",
+          "apply": {
+            "how": "cli",
+            "steps": [
+              "brew install rclone",
+              "rclone config 에서 저장소를 등록하고 crypt 원격을 만든다(rclone.org/crypt/)",
+              "rclone sync ~/증빙 노드트리암호화원격:증빙 --dry-run"
+            ],
+            "cost": "무료(MIT), 저장소 계정 필요(용량 요금은 서비스별)",
+            "replaces": "없음(증빙 백업 새 기능)",
+            "trial": "빈 테스트 폴더로 sync --dry-run을 먼저 돌려 동작을 확인한다.",
+            "risk": "잘못된 sync는 대상을 지우므로 항상 --dry-run을 먼저 하고 crypt 비밀번호를 분실하면 복구할 수 없다. 공식 문서 도메인이 세션에서 열리지 않아 brew 명령은 일반 설치법 기준이다."
+          }
+        },
+        {
+          "id": "2026-11-accounting-3",
+          "name": "Stirling-PDF",
+          "type": "service",
+          "desc": "PDF 병합·분할·OCR·변환·마스킹을 웹 UI와 REST API로 처리하는 오픈코어 도구.",
+          "reason": "증빙 PDF를 정산 제출 양식 순서로 합치고 개인정보를 가리는 일을 지금은 수작업으로 한다. 로컬 Docker로 띄우면 외부 서버로 파일을 보내지 않고 처리하며 API로 반복 자동화도 가능하다.",
+          "trend": "hot",
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "apply": {
+            "how": "service",
+            "steps": [
+              "Docker Desktop을 설치한다",
+              "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf",
+              "브라우저에서 http://localhost:8080 을 연다"
+            ],
+            "cost": "무료(오픈코어, 일부 기능은 유료일 수 있어 LICENSE 확인)",
+            "replaces": "pdf 스킬의 병합·분할을 UI·API로 보완",
+            "trial": "증빙 PDF 5장을 병합하고 주민번호 영역을 마스킹해 본다.",
+            "risk": "컨테이너는 docker stop으로 종료한다. OCR의 한글 지원은 README에서 확인하지 못했으니 시험 때 확인한다."
+          }
         }
       ]
     }
   ],
   "history": [
     {
-      "date": "2026-11-10",
+      "month": "2026-11",
       "names": [
+        "ccusage",
+        "ccstatusline",
+        "Backlog.md",
+        "postprocessing",
+        "CommandPost",
+        "sc3-plugins",
+        "Figma Console MCP",
+        "Penpot MCP",
+        "ColorMcp",
+        "hwpxlib",
+        "markdownify-mcp",
+        "Excalidraw MCP",
+        "Are.na MCP",
+        "Wikidata MCP Server",
+        "obsidian-skills",
+        "React Doctor",
+        "size-limit",
+        "Pagefind",
+        "csvkit",
+        "rclone",
+        "Stirling-PDF",
         "axe-core",
         "CodeRabbit skills",
         "claude-code-security-review",
@@ -236,12 +522,7 @@
         "dependency-cruiser",
         "korean-tax-mcp",
         "korean-tax-calc-mcp",
-        "mcp-upstage"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "names": [
+        "mcp-upstage",
         "oh-my-claudecode",
         "claude-code-action",
         "ARIS (Auto-Research-In-Sleep)",
@@ -262,12 +543,7 @@
         "FieldCure MCP PublicData.Kr",
         "data-go-mcp NTS 사업자등록 진위확인",
         "fin-law-mcp",
-        "korean-law-mcp"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "names": [
+        "korean-law-mcp",
         "CrewAI",
         "smolagents",
         "ast-grep",
@@ -288,12 +564,7 @@
         "MSW",
         "Grist",
         "NocoDB",
-        "Bigcapital"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "names": [
+        "Bigcapital",
         "LangGraph",
         "DSPy",
         "Semgrep",
@@ -314,12 +585,7 @@
         "Astro",
         "Dolibarr",
         "ezBookkeeping",
-        "n8n"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "names": [
+        "n8n",
         "OpenAI Agents SDK",
         "Pydantic Logfire",
         "Vale",
@@ -340,12 +606,7 @@
         "TanStack Query",
         "Metabase",
         "Tabula",
-        "Evidence"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "names": [
+        "Evidence",
         "LiteLLM",
         "TruLens",
         "ShellCheck",
@@ -366,12 +627,7 @@
         "Renovate",
         "Firefly III",
         "Akaunting",
-        "Invoice Ninja"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "names": [
+        "Invoice Ninja",
         "Guardrails AI",
         "Helicone",
         "OpenAI Evals",
@@ -392,12 +648,7 @@
         "Rolldown",
         "Frappe Books",
         "ERPNext",
-        "invoice2data"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "names": [
+        "invoice2data",
         "Giskard",
         "garak",
         "autoevals",
@@ -418,12 +669,7 @@
         "Neon MCP Server",
         "Tesseract",
         "OpenRefine",
-        "Polars"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "names": [
+        "Polars",
         "Opik",
         "Evidently",
         "OpenLLMetry",
@@ -444,12 +690,7 @@
         "fast-check",
         "Beancount",
         "Actual Budget",
-        "LedgerSMB"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "names": [
+        "LedgerSMB",
         "Langfuse",
         "Ragas",
         "Arize Phoenix",
@@ -474,7 +715,7 @@
       ]
     },
     {
-      "date": "2026-10-31",
+      "month": "2026-10",
       "names": [
         "DeepEval",
         "Inspect AI",
@@ -496,12 +737,7 @@
         "MCP Inspector",
         "Fava",
         "PaddleOCR",
-        "Camelot"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "names": [
+        "Camelot",
         "adamsreview",
         "plugin-eval (wshobson/agents)",
         "promptfoo",
@@ -522,12 +758,7 @@
         "agent-browser",
         "paperless-ngx",
         "paperless-mcp",
-        "Firefly III Data Importer"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "names": [
+        "Firefly III Data Importer",
         "claude-code-templates",
         "claude-code-hooks-mastery",
         "Agent Skills 사양",
@@ -548,12 +779,7 @@
         "pnpm",
         "beangulp",
         "smart_importer",
-        "Receipt Wrangler"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "names": [
+        "Receipt Wrangler",
         "Claude Squad",
         "Gemini CLI",
         "Pydantic AI",
