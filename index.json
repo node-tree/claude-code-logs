@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-10T04:37:35.322368+00:00",
+  "lastUpdated": "2026-11-10T04:39:59.437238+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f3974b17",
+      "date": "2026-11-10",
+      "startTime": "2026-11-10T04:34:46.633000+00:00",
+      "durationSeconds": 337,
+      "modelTier": "opus",
+      "projectName": "양보의 날",
+      "toolCallCount": 34,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "6de9eb37",
       "date": "2026-11-10",
@@ -3321,18 +3333,6 @@
       "toolCallCount": 440,
       "agentsUsed": [
         "Explore",
-        "general-purpose"
-      ]
-    },
-    {
-      "sessionId": "f6a272b6",
-      "date": "2026-10-02",
-      "startTime": "2026-10-02T06:02:11.011000+00:00",
-      "durationSeconds": 20847,
-      "modelTier": "opus",
-      "projectName": "기타",
-      "toolCallCount": 432,
-      "agentsUsed": [
         "general-purpose"
       ]
     }
