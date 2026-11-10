@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-10T13:45:42.286634+00:00",
+  "lastUpdated": "2026-11-10T13:49:53.877262+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "121aab0c",
       "date": "2026-11-10",
       "startTime": "2026-11-10T12:41:21.213000+00:00",
-      "durationSeconds": 2492,
+      "durationSeconds": 2745,
       "modelTier": "opus",
       "projectName": "생산소 게시물",
-      "toolCallCount": 137,
+      "toolCallCount": 179,
       "agentsUsed": [
         "general-purpose"
       ]
