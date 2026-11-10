@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T04:34:41.181934+00:00",
+  "lastUpdated": "2026-11-10T04:40:09.562570+00:00",
   "models": {
     "claude": [
       {
@@ -173,7 +173,7 @@
         "elapsed": 38
       },
       "codex": {
-        "used": 8,
+        "used": 9,
         "elapsed": 11
       }
     }
@@ -810,6 +810,17 @@
         ]
       },
       {
+        "slug": "yangbo",
+        "name": "양보의 날",
+        "count": 2,
+        "first": "2026-10-29",
+        "last": "2026-11-10",
+        "dates": [
+          "2026-10-29",
+          "2026-11-10"
+        ]
+      },
+      {
         "slug": "bobusang",
         "name": "임천보부상 키링",
         "count": 1,
@@ -878,19 +889,9 @@
         "dates": [
           "2026-11-08"
         ]
-      },
-      {
-        "slug": "yangbo",
-        "name": "양보의 날",
-        "count": 1,
-        "first": "2026-10-29",
-        "last": "2026-10-29",
-        "dates": [
-          "2026-10-29"
-        ]
       }
     ],
-    "totalTasks": 77
+    "totalTasks": 78
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
