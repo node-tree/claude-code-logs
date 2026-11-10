@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-10T10:35:24.512413+00:00",
+  "lastUpdated": "2026-11-10T10:37:26.551669+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7af934b3",
+      "date": "2026-11-10",
+      "startTime": "2026-11-10T10:12:42.040000+00:00",
+      "durationSeconds": 1519,
+      "modelTier": "opus",
+      "projectName": "꿈다락 〈손의 기억〉",
+      "toolCallCount": 132,
+      "agentsUsed": [
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "6526f9f2",
       "date": "2026-11-10",
@@ -3320,18 +3332,6 @@
       "projectName": "기타",
       "toolCallCount": 34,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "6471d636",
-      "date": "2026-10-02",
-      "startTime": "2026-10-02T14:18:40.959000+00:00",
-      "durationSeconds": 3948,
-      "modelTier": "opus",
-      "projectName": "livesound",
-      "toolCallCount": 110,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
