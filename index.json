@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-11-10T22:54:26.559810+00:00",
+  "lastUpdated": "2026-11-11T00:12:52.833615+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "d40fe734",
+      "date": "2026-11-11",
+      "startTime": "2026-11-11T00:01:00.179000+00:00",
+      "durationSeconds": 749,
+      "modelTier": "opus",
+      "projectName": "공생직조 〈이물〉",
+      "toolCallCount": 105,
+      "agentsUsed": [
+        "Explore",
+        "general-purpose"
+      ]
+    },
     {
       "sessionId": "a5568b2a",
       "date": "2026-11-10",
@@ -3322,16 +3335,6 @@
       "modelTier": "opus",
       "projectName": "역류",
       "toolCallCount": 33,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "abba5305",
-      "date": "2026-10-03",
-      "startTime": "2026-10-03T22:03:11.997000+00:00",
-      "durationSeconds": 43,
-      "modelTier": "sonnet",
-      "projectName": "기타",
-      "toolCallCount": 17,
       "agentsUsed": []
     }
   ]
