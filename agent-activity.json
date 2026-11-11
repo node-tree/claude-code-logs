@@ -1,13 +1,13 @@
 {
+  "research": {
+    "lastActive": "2026-11-11T23:34:33.268000+00:00",
+    "lastProject": "livesound",
+    "sessionId": "1abe7c26"
+  },
   "evaluator": {
     "lastActive": "2026-11-11T04:47:03.632000+00:00",
     "lastProject": "yeokryu",
     "sessionId": "abfcb7f1"
-  },
-  "research": {
-    "lastActive": "2026-11-09T07:36:11.003000+00:00",
-    "lastProject": "하네스 · 운영",
-    "sessionId": "04d8608c"
   },
   "doc-design": {
     "lastActive": "2026-10-27T14:42:08.580000+00:00",
