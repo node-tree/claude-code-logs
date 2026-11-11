@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-11T01:04:41.796870+00:00",
+  "lastUpdated": "2026-11-11T05:55:47.275798+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "abfcb7f1",
+      "date": "2026-11-11",
+      "startTime": "2026-11-11T04:47:03.632000+00:00",
+      "durationSeconds": 2971,
+      "modelTier": "opus",
+      "projectName": "yeokryu",
+      "toolCallCount": 153,
+      "agentsUsed": [
+        "evaluator"
+      ]
+    },
     {
       "sessionId": "d40fe734",
       "date": "2026-11-11",
@@ -3325,16 +3337,6 @@
       "modelTier": "opus",
       "projectName": "livesound",
       "toolCallCount": 378,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "f8f0901b",
-      "date": "2026-10-04",
-      "startTime": "2026-10-04T05:19:36.851000+00:00",
-      "durationSeconds": 925,
-      "modelTier": "opus",
-      "projectName": "역류",
-      "toolCallCount": 33,
       "agentsUsed": []
     }
   ]
