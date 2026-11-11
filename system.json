@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T22:54:36.572938+00:00",
+  "lastUpdated": "2026-11-11T00:13:03.022716+00:00",
   "models": {
     "claude": [
       {
@@ -85,7 +85,7 @@
     ],
     "cli": {
       "claude": "2.1.322",
-      "codex": "0.167.0"
+      "codex": "0.167.1"
     }
   },
   "flow": [
@@ -117,7 +117,7 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 10.19,
+    "claudeOut": 10.2,
     "codexOut": 1.04,
     "codexShare": 9,
     "target": [
@@ -163,18 +163,18 @@
       },
       {
         "date": "2026-11-11",
-        "claude": 0.01,
+        "claude": 0.02,
         "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
         "used": 32,
-        "elapsed": 49
+        "elapsed": 50
       },
       "codex": {
         "used": 16,
-        "elapsed": 21
+        "elapsed": 22
       }
     }
   },
@@ -758,6 +758,18 @@
         ]
       },
       {
+        "slug": "busan-imul",
+        "name": "공생직조 〈이물〉",
+        "count": 3,
+        "first": "2026-11-09",
+        "last": "2026-11-11",
+        "dates": [
+          "2026-11-09",
+          "2026-11-09",
+          "2026-11-11"
+        ]
+      },
+      {
         "slug": "buheung",
         "name": "부흥여지도",
         "count": 2,
@@ -766,17 +778,6 @@
         "dates": [
           "2026-10-15",
           "2026-10-16"
-        ]
-      },
-      {
-        "slug": "busan-imul",
-        "name": "공생직조 〈이물〉",
-        "count": 2,
-        "first": "2026-11-09",
-        "last": "2026-11-09",
-        "dates": [
-          "2026-11-09",
-          "2026-11-09"
         ]
       },
       {
@@ -894,7 +895,7 @@
         ]
       }
     ],
-    "totalTasks": 81
+    "totalTasks": 82
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
