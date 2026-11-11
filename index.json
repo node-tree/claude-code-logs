@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T07:23:09.648950+00:00",
+  "lastUpdated": "2026-11-11T08:08:42.481806+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -11,6 +11,18 @@
       "projectName": "홈",
       "toolCallCount": 0,
       "agentsUsed": []
+    },
+    {
+      "sessionId": "e37b4b09",
+      "date": "2026-11-11",
+      "startTime": "2026-11-11T07:14:11.815000+00:00",
+      "durationSeconds": 2644,
+      "modelTier": "opus",
+      "projectName": "livesound",
+      "toolCallCount": 254,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "abfcb7f1",
@@ -3328,16 +3340,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "c736a128",
-      "date": "2026-10-04",
-      "startTime": "2026-10-04T22:03:11.312000+00:00",
-      "durationSeconds": 47,
-      "modelTier": "sonnet",
-      "projectName": "기타",
-      "toolCallCount": 16,
-      "agentsUsed": []
     }
   ]
 }
