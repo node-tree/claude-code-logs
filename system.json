@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T07:53:26.821449+00:00",
+  "lastUpdated": "2026-11-12T08:05:53.098369+00:00",
   "models": {
     "claude": [
       {
@@ -173,7 +173,7 @@
         "elapsed": 69
       },
       "codex": {
-        "used": 40,
+        "used": 41,
         "elapsed": 41
       }
     }
@@ -887,6 +887,16 @@
         ]
       },
       {
+        "slug": "portfolio",
+        "name": "portfolio",
+        "count": 1,
+        "first": "2026-11-12",
+        "last": "2026-11-12",
+        "dates": [
+          "2026-11-12"
+        ]
+      },
+      {
         "slug": "singamuak",
         "name": "신가무악",
         "count": 1,
@@ -917,7 +927,7 @@
         ]
       }
     ],
-    "totalTasks": 90
+    "totalTasks": 91
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
