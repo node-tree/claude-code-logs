@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T14:18:46.531489+00:00",
+  "lastUpdated": "2026-11-12T15:06:06.480070+00:00",
   "models": {
     "claude": [
       {
@@ -117,25 +117,20 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 13.62,
-    "codexOut": 1.89,
-    "codexShare": 12,
+    "claudeOut": 11.38,
+    "codexOut": 1.7,
+    "codexShare": 13,
     "target": [
       45,
       55
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 48,
-      "codexExec": 287,
-      "codexDirect": 42
+      "claudeSessions": 36,
+      "codexExec": 246,
+      "codexDirect": 0
     },
     "days": [
-      {
-        "date": "2026-11-06",
-        "claude": 2.24,
-        "codex": 0.2
-      },
       {
         "date": "2026-11-07",
         "claude": 1.29,
@@ -165,11 +160,16 @@
         "date": "2026-11-12",
         "claude": 3.06,
         "codex": 0.8
+      },
+      {
+        "date": "2026-11-13",
+        "claude": 0.0,
+        "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
-        "used": 55,
+        "used": 56,
         "elapsed": 73
       },
       "codex": {
@@ -518,7 +518,7 @@
   ],
   "verdicts": {
     "windowDays": 30,
-    "total": 42,
+    "total": 41,
     "byLens": [
       {
         "lens": "design",
@@ -532,7 +532,7 @@
       },
       {
         "lens": "code",
-        "pass": 3,
+        "pass": 2,
         "rework": 2
       },
       {
@@ -542,11 +542,6 @@
       }
     ],
     "days": [
-      {
-        "date": "2026-10-14",
-        "pass": 1,
-        "rework": 0
-      },
       {
         "date": "2026-10-15",
         "pass": 3,
@@ -684,9 +679,9 @@
       {
         "slug": "kkumdarak",
         "name": "꿈다락 〈손의 기억〉",
-        "count": 20,
+        "count": 21,
         "first": "2026-10-13",
-        "last": "2026-11-12",
+        "last": "2026-11-13",
         "dates": [
           "2026-10-13",
           "2026-10-20",
@@ -707,7 +702,8 @@
           "2026-11-11",
           "2026-11-12",
           "2026-11-12",
-          "2026-11-12"
+          "2026-11-12",
+          "2026-11-13"
         ]
       },
       {
@@ -933,7 +929,7 @@
         ]
       }
     ],
-    "totalTasks": 92
+    "totalTasks": 93
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
