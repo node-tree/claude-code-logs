@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-12T14:38:44.551988+00:00",
+  "lastUpdated": "2026-11-12T14:53:01.468276+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "7d6fd068",
+      "date": "2026-11-12",
+      "startTime": "2026-11-12T14:52:37.284000+00:00",
+      "durationSeconds": 20,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 2,
+      "agentsUsed": []
+    },
     {
       "sessionId": "4fbd6846",
       "date": "2026-11-12",
@@ -3335,18 +3345,6 @@
       "projectName": "역류",
       "toolCallCount": 16,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "ca63c81b",
-      "date": "2026-10-06",
-      "startTime": "2026-10-06T00:16:55.726000+00:00",
-      "durationSeconds": 6315,
-      "modelTier": "opus",
-      "projectName": "역류",
-      "toolCallCount": 220,
-      "agentsUsed": [
-        "visual-design"
-      ]
     }
   ]
 }
