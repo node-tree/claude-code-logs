@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T23:57:34.677061+00:00",
+  "lastUpdated": "2026-11-12T00:10:37.265184+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -41,10 +41,10 @@
       "sessionId": "af5b191c",
       "date": "2026-11-11",
       "startTime": "2026-11-11T13:49:34.085000+00:00",
-      "durationSeconds": 8206,
+      "durationSeconds": 9116,
       "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 396,
+      "projectName": "꿈다락 〈손의 기억〉",
+      "toolCallCount": 468,
       "agentsUsed": [
         "general-purpose"
       ]
