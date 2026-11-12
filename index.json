@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T08:30:16.065894+00:00",
+  "lastUpdated": "2026-11-12T08:33:26.471615+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -50,10 +50,10 @@
       "sessionId": "12cced69",
       "date": "2026-11-11",
       "startTime": "2026-11-11T23:37:03.995000+00:00",
-      "durationSeconds": 6484,
+      "durationSeconds": 6901,
       "modelTier": "opus",
       "projectName": "꿈다락 〈손의 기억〉",
-      "toolCallCount": 137,
+      "toolCallCount": 140,
       "agentsUsed": [
         "research"
       ]
