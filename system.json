@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T14:13:11.031660+00:00",
+  "lastUpdated": "2026-11-12T14:16:53.001925+00:00",
   "models": {
     "claude": [
       {
@@ -117,7 +117,7 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 13.6,
+    "claudeOut": 13.62,
     "codexOut": 1.89,
     "codexShare": 12,
     "target": [
@@ -163,7 +163,7 @@
       },
       {
         "date": "2026-11-12",
-        "claude": 3.04,
+        "claude": 3.06,
         "codex": 0.8
       }
     ],
