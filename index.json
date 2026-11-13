@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-13T07:57:34.749494+00:00",
+  "lastUpdated": "2026-11-13T07:59:22.182029+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "2bb6cda0",
+      "date": "2026-11-13",
+      "startTime": "2026-11-13T07:57:06.366000+00:00",
+      "durationSeconds": 97,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 24,
+      "agentsUsed": []
+    },
     {
       "sessionId": "18c07004",
       "date": "2026-11-12",
@@ -3336,19 +3346,6 @@
       "toolCallCount": 303,
       "agentsUsed": [
         "general-purpose"
-      ]
-    },
-    {
-      "sessionId": "e6a28792",
-      "date": "2026-10-06",
-      "startTime": "2026-10-06T03:42:51.319000+00:00",
-      "durationSeconds": 5356,
-      "modelTier": "opus",
-      "projectName": "인스타그램",
-      "toolCallCount": 189,
-      "agentsUsed": [
-        "pr-content",
-        "research"
       ]
     }
   ]
