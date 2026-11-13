@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T14:51:43.774252+00:00",
+  "lastUpdated": "2026-11-13T22:06:39.965233+00:00",
   "models": {
     "claude": [
       {
@@ -84,8 +84,7 @@
       }
     ],
     "cli": {
-      "claude": "2.1.323",
-      "codex": "0.169.0"
+      "claude": "2.1.325"
     }
   },
   "flow": [
@@ -117,25 +116,20 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 12.04,
-    "codexOut": 1.75,
-    "codexShare": 13,
+    "claudeOut": 10.75,
+    "codexOut": 1.71,
+    "codexShare": 14,
     "target": [
       45,
       55
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 44,
-      "codexExec": 259,
+      "claudeSessions": 40,
+      "codexExec": 240,
       "codexDirect": 0
     },
     "days": [
-      {
-        "date": "2026-11-07",
-        "claude": 1.29,
-        "codex": 0.04
-      },
       {
         "date": "2026-11-08",
         "claude": 0.82,
@@ -165,16 +159,21 @@
         "date": "2026-11-13",
         "claude": 0.59,
         "codex": 0.05
+      },
+      {
+        "date": "2026-11-14",
+        "claude": 0.0,
+        "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
         "used": 58,
-        "elapsed": 87
+        "elapsed": 92
       },
       "codex": {
         "used": 52,
-        "elapsed": 60
+        "elapsed": 64
       }
     }
   },
@@ -518,11 +517,11 @@
   ],
   "verdicts": {
     "windowDays": 30,
-    "total": 44,
+    "total": 41,
     "byLens": [
       {
         "lens": "design",
-        "pass": 22,
+        "pass": 21,
         "rework": 7
       },
       {
@@ -534,19 +533,9 @@
         "lens": "code",
         "pass": 2,
         "rework": 2
-      },
-      {
-        "lens": "doc+design",
-        "pass": 2,
-        "rework": 0
       }
     ],
     "days": [
-      {
-        "date": "2026-10-15",
-        "pass": 3,
-        "rework": 0
-      },
       {
         "date": "2026-10-16",
         "pass": 1,
