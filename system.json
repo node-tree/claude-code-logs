@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T08:56:10.924576+00:00",
+  "lastUpdated": "2026-11-13T10:25:26.142761+00:00",
   "models": {
     "claude": [
       {
@@ -117,7 +117,7 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 11.85,
+    "claudeOut": 11.92,
     "codexOut": 1.75,
     "codexShare": 13,
     "target": [
@@ -127,7 +127,7 @@
     "activeFrom": "2026-11-16",
     "runs": {
       "claudeSessions": 44,
-      "codexExec": 255,
+      "codexExec": 256,
       "codexDirect": 0
     },
     "days": [
@@ -163,18 +163,18 @@
       },
       {
         "date": "2026-11-13",
-        "claude": 0.4,
+        "claude": 0.47,
         "codex": 0.05
       }
     ],
     "limits": {
       "claude": {
         "used": 58,
-        "elapsed": 84
+        "elapsed": 85
       },
       "codex": {
         "used": 52,
-        "elapsed": 56
+        "elapsed": 57
       }
     }
   },
