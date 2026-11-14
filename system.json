@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T13:18:00.801255+00:00",
+  "lastUpdated": "2026-11-14T14:02:29.838929+00:00",
   "models": {
     "claude": [
       {
@@ -169,7 +169,7 @@
     ],
     "limits": {
       "claude": {
-        "used": 1,
+        "used": 2,
         "elapsed": 1
       },
       "codex": {
