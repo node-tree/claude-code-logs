@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T10:36:28.592720+00:00",
+  "lastUpdated": "2026-11-14T11:03:04.066218+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -36,11 +36,13 @@
       "sessionId": "f3a92ed3",
       "date": "2026-11-14",
       "startTime": "2026-11-14T06:16:21.882000+00:00",
-      "durationSeconds": 7607,
+      "durationSeconds": 8185,
       "modelTier": "opus",
       "projectName": "r1-laser",
-      "toolCallCount": 325,
-      "agentsUsed": []
+      "toolCallCount": 334,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "299af234",
