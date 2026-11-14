@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T14:02:19.761595+00:00",
+  "lastUpdated": "2026-11-14T14:04:37.756495+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -36,10 +36,10 @@
       "sessionId": "f3a92ed3",
       "date": "2026-11-14",
       "startTime": "2026-11-14T06:16:21.882000+00:00",
-      "durationSeconds": 13736,
+      "durationSeconds": 13874,
       "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 550,
+      "projectName": "r1-laser",
+      "toolCallCount": 552,
       "agentsUsed": [
         "general-purpose"
       ]
