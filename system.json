@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T09:09:57.964776+00:00",
+  "lastUpdated": "2026-11-14T09:23:47.402202+00:00",
   "models": {
     "claude": [
       {
@@ -169,12 +169,12 @@
     ],
     "limits": {
       "claude": {
-        "used": 61,
+        "used": 62,
         "elapsed": 98
       },
       "codex": {
-        "used": 52,
-        "elapsed": 70
+        "used": 53,
+        "elapsed": 71
       }
     }
   },
@@ -905,6 +905,16 @@
         ]
       },
       {
+        "slug": "r1-laser",
+        "name": "r1-laser",
+        "count": 1,
+        "first": "2026-11-14",
+        "last": "2026-11-14",
+        "dates": [
+          "2026-11-14"
+        ]
+      },
+      {
         "slug": "singamuak",
         "name": "신가무악",
         "count": 1,
@@ -935,7 +945,7 @@
         ]
       }
     ],
-    "totalTasks": 99
+    "totalTasks": 100
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
