@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T09:51:49.654382+00:00",
+  "lastUpdated": "2026-11-14T10:36:38.718626+00:00",
   "models": {
     "claude": [
       {
@@ -834,6 +834,17 @@
         ]
       },
       {
+        "slug": "r1-laser",
+        "name": "r1-laser",
+        "count": 2,
+        "first": "2026-11-14",
+        "last": "2026-11-14",
+        "dates": [
+          "2026-11-14",
+          "2026-11-14"
+        ]
+      },
+      {
         "slug": "yangbo",
         "name": "양보의 날",
         "count": 2,
@@ -905,16 +916,6 @@
         ]
       },
       {
-        "slug": "r1-laser",
-        "name": "r1-laser",
-        "count": 1,
-        "first": "2026-11-14",
-        "last": "2026-11-14",
-        "dates": [
-          "2026-11-14"
-        ]
-      },
-      {
         "slug": "singamuak",
         "name": "신가무악",
         "count": 1,
@@ -945,7 +946,7 @@
         ]
       }
     ],
-    "totalTasks": 100
+    "totalTasks": 101
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
