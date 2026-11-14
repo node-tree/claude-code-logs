@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T11:19:08.946375+00:00",
+  "lastUpdated": "2026-11-14T11:20:17.673044+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -36,10 +36,10 @@
       "sessionId": "f3a92ed3",
       "date": "2026-11-14",
       "startTime": "2026-11-14T06:16:21.882000+00:00",
-      "durationSeconds": 8994,
+      "durationSeconds": 9058,
       "modelTier": "opus",
-      "projectName": "홈",
-      "toolCallCount": 356,
+      "projectName": "r1-laser",
+      "toolCallCount": 359,
       "agentsUsed": [
         "general-purpose"
       ]
