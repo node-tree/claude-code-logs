@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T03:26:07.976948+00:00",
+  "lastUpdated": "2026-11-14T03:28:27.495624+00:00",
   "models": {
     "claude": [
       {
@@ -169,7 +169,7 @@
     ],
     "limits": {
       "claude": {
-        "used": 60,
+        "used": 61,
         "elapsed": 95
       },
       "codex": {
@@ -522,8 +522,8 @@
     "byLens": [
       {
         "lens": "design",
-        "pass": 21,
-        "rework": 8
+        "pass": 22,
+        "rework": 7
       },
       {
         "lens": "doc",
@@ -639,8 +639,8 @@
       },
       {
         "date": "2026-11-14",
-        "pass": 0,
-        "rework": 1
+        "pass": 1,
+        "rework": 0
       }
     ]
   },
