@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T11:37:41.062342+00:00",
+  "lastUpdated": "2026-11-14T11:39:37.875415+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -183,10 +183,10 @@
       "sessionId": "a83b0c44",
       "date": "2026-11-12",
       "startTime": "2026-11-12T07:40:53.920000+00:00",
-      "durationSeconds": 8862,
+      "durationSeconds": 9299,
       "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 262,
+      "projectName": "프리비즈",
+      "toolCallCount": 272,
       "agentsUsed": [
         "general-purpose"
       ]
