@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-11-13T22:06:21.584109+00:00",
+  "lastUpdated": "2026-11-14T02:21:57.131693+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "a177069e",
+      "date": "2026-11-14",
+      "startTime": "2026-11-14T02:07:08.295000+00:00",
+      "durationSeconds": 1003,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 99,
+      "agentsUsed": [
+        "Explore"
+      ]
+    },
     {
       "sessionId": "8b5c8962",
       "date": "2026-11-13",
@@ -3336,16 +3348,6 @@
       "modelTier": "opus",
       "projectName": "홈",
       "toolCallCount": 151,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "e49ae41b",
-      "date": "2026-10-06",
-      "startTime": "2026-10-06T08:51:37.566000+00:00",
-      "durationSeconds": 263,
-      "modelTier": "opus",
-      "projectName": "홈",
-      "toolCallCount": 3,
       "agentsUsed": []
     }
   ]
