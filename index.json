@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-15T11:19:05.700320+00:00",
+  "lastUpdated": "2026-11-15T11:24:46.367263+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "897faa43",
       "date": "2026-11-15",
       "startTime": "2026-11-15T11:18:13.527000+00:00",
-      "durationSeconds": 39,
+      "durationSeconds": 388,
       "modelTier": "opus",
-      "projectName": "〈보름-동지 만들기〉",
-      "toolCallCount": 3,
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 12,
       "agentsUsed": []
     },
     {
