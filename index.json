@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-15T04:26:30.132294+00:00",
+  "lastUpdated": "2026-11-15T11:19:05.700320+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "897faa43",
+      "date": "2026-11-15",
+      "startTime": "2026-11-15T11:18:13.527000+00:00",
+      "durationSeconds": 39,
+      "modelTier": "opus",
+      "projectName": "〈보름-동지 만들기〉",
+      "toolCallCount": 3,
+      "agentsUsed": []
+    },
     {
       "sessionId": "dd12cc45",
       "date": "2026-11-14",
@@ -3337,19 +3347,6 @@
       "projectName": "역류",
       "toolCallCount": 120,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "9c356721",
-      "date": "2026-10-07",
-      "startTime": "2026-10-07T04:57:24.945000+00:00",
-      "durationSeconds": 3130,
-      "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 134,
-      "agentsUsed": [
-        "evaluator",
-        "pr-content"
-      ]
     }
   ]
 }
