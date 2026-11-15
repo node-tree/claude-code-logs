@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-15T11:52:56.654508+00:00",
+  "lastUpdated": "2026-11-15T12:04:43.190317+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "61d3f3e7",
+      "date": "2026-11-15",
+      "startTime": "2026-11-15T11:54:41.946000+00:00",
+      "durationSeconds": 611,
+      "modelTier": "opus",
+      "projectName": "꿈다락 〈손의 기억〉",
+      "toolCallCount": 59,
+      "agentsUsed": []
+    },
     {
       "sessionId": "897faa43",
       "date": "2026-11-15",
@@ -3336,16 +3346,6 @@
       "modelTier": "opus",
       "projectName": "역류",
       "toolCallCount": 112,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "52b2091b",
-      "date": "2026-10-07",
-      "startTime": "2026-10-07T06:46:39.428000+00:00",
-      "durationSeconds": 2076,
-      "modelTier": "opus",
-      "projectName": "역류",
-      "toolCallCount": 120,
       "agentsUsed": []
     }
   ]
