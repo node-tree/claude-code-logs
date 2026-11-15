@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T14:02:27.387764+00:00",
+  "lastUpdated": "2026-11-15T15:36:41.981640+00:00",
   "models": {
     "claude": [
       {
@@ -22,11 +22,8 @@
         "seat": "짧은 단건",
         "role": "밖으로 나가는 글 · 작품 안 글 의견 · 비주얼 의견",
         "stages": [
-          "skeleton",
-          "result",
-          "review"
-        ],
-        "note": "11-15까지 확대"
+          "result"
+        ]
       },
       {
         "family": "sonnet",
@@ -117,25 +114,20 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 11.88,
-    "codexOut": 1.73,
-    "codexShare": 13,
+    "claudeOut": 10.37,
+    "codexOut": 1.65,
+    "codexShare": 14,
     "target": [
       45,
       55
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 46,
-      "codexExec": 257,
+      "claudeSessions": 41,
+      "codexExec": 228,
       "codexDirect": 0
     },
     "days": [
-      {
-        "date": "2026-11-09",
-        "claude": 1.75,
-        "codex": 0.13
-      },
       {
         "date": "2026-11-10",
         "claude": 2.78,
@@ -163,18 +155,23 @@
       },
       {
         "date": "2026-11-15",
-        "claude": 0.58,
-        "codex": 0.02
+        "claude": 0.78,
+        "codex": 0.06
+      },
+      {
+        "date": "2026-11-16",
+        "claude": 0.04,
+        "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
-        "used": 6,
+        "used": 7,
         "elapsed": 16
       },
       "codex": {
         "used": 59,
-        "elapsed": 88
+        "elapsed": 89
       }
     }
   },
@@ -407,27 +404,6 @@
           "h": 10,
           "m": 0,
           "wd": 0
-        }
-      ]
-    },
-    {
-      "id": "work-share-notify",
-      "name": "비중 알림",
-      "where": "mac",
-      "loaded": true,
-      "kind": "calendar",
-      "times": [
-        {
-          "h": 9,
-          "m": 0
-        },
-        {
-          "h": 13,
-          "m": 0
-        },
-        {
-          "h": 19,
-          "m": 0
         }
       ]
     },
