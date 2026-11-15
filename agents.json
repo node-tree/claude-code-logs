@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-10T03:46:55.528672+00:00",
-  "totalAgents": 110,
+  "lastUpdated": "2026-11-15T13:14:09.857117+00:00",
+  "totalAgents": 111,
   "agents": [
     {
       "id": "canvas-design",
@@ -868,6 +868,14 @@
       "type": "mcp",
       "category": "dev",
       "name": "resolume",
+      "desc": "MCP 서버",
+      "emoji": "🔌"
+    },
+    {
+      "id": "mcp-suno",
+      "type": "mcp",
+      "category": "dev",
+      "name": "suno",
       "desc": "MCP 서버",
       "emoji": "🔌"
     },
