@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-15T11:33:51.479426+00:00",
+  "lastUpdated": "2026-11-15T11:37:21.608654+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "897faa43",
       "date": "2026-11-15",
       "startTime": "2026-11-15T11:18:13.527000+00:00",
-      "durationSeconds": 959,
+      "durationSeconds": 1162,
       "modelTier": "opus",
       "projectName": "〈보름-동지 만들기〉",
-      "toolCallCount": 32,
+      "toolCallCount": 34,
       "agentsUsed": []
     },
     {
