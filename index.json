@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T12:51:29.222382+00:00",
+  "lastUpdated": "2026-11-16T12:57:10.729533+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -214,10 +214,10 @@
       "sessionId": "18c07004",
       "date": "2026-11-12",
       "startTime": "2026-11-12T22:43:58.541000+00:00",
-      "durationSeconds": 36716,
+      "durationSeconds": 37069,
       "modelTier": "opus",
-      "projectName": "portfolio",
-      "toolCallCount": 2572,
+      "projectName": "인스타그램",
+      "toolCallCount": 2582,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
