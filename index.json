@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-11-16T00:09:30.284342+00:00",
+  "lastUpdated": "2026-11-16T00:28:41.857224+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "2d360c30",
       "date": "2026-11-15",
       "startTime": "2026-11-15T23:42:40.547000+00:00",
-      "durationSeconds": 1482,
+      "durationSeconds": 2649,
       "modelTier": "opus",
       "projectName": "생산소 게시물",
-      "toolCallCount": 120,
-      "agentsUsed": []
+      "toolCallCount": 174,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "103db996",
