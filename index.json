@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-16T10:18:39.888811+00:00",
+  "lastUpdated": "2026-11-16T10:20:31.629440+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "97dcc570",
       "date": "2026-11-16",
       "startTime": "2026-11-16T10:17:04.207000+00:00",
-      "durationSeconds": 76,
+      "durationSeconds": 189,
       "modelTier": "opus",
       "projectName": "홈",
-      "toolCallCount": 19,
+      "toolCallCount": 31,
       "agentsUsed": []
     },
     {
