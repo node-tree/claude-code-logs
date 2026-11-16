@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-16T00:38:25.111105+00:00",
+  "lastUpdated": "2026-11-16T00:47:16.702745+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "2d360c30",
       "date": "2026-11-15",
       "startTime": "2026-11-15T23:42:40.547000+00:00",
-      "durationSeconds": 3304,
+      "durationSeconds": 3844,
       "modelTier": "opus",
       "projectName": "인스타그램",
-      "toolCallCount": 224,
+      "toolCallCount": 277,
       "agentsUsed": [
         "general-purpose"
       ]
