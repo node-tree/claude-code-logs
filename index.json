@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T13:48:59.432970+00:00",
+  "lastUpdated": "2026-11-16T13:50:33.563056+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -16,10 +16,10 @@
       "sessionId": "cdf79917",
       "date": "2026-11-16",
       "startTime": "2026-11-16T13:31:56.587000+00:00",
-      "durationSeconds": 583,
+      "durationSeconds": 1152,
       "modelTier": "opus",
-      "projectName": "portfolio",
-      "toolCallCount": 24,
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 43,
       "agentsUsed": []
     },
     {
