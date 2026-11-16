@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T02:25:05.827292+00:00",
+  "lastUpdated": "2026-11-16T02:34:57.636610+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -174,10 +174,10 @@
       "sessionId": "18c07004",
       "date": "2026-11-12",
       "startTime": "2026-11-12T22:43:58.541000+00:00",
-      "durationSeconds": 10258,
+      "durationSeconds": 10863,
       "modelTier": "opus",
-      "projectName": "portfolio",
-      "toolCallCount": 492,
+      "projectName": "옵시디안",
+      "toolCallCount": 518,
       "agentsUsed": [
         "evaluator",
         "general-purpose"
