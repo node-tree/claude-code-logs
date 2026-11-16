@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-16T13:34:32.302612+00:00",
+  "lastUpdated": "2026-11-16T13:41:24.656092+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "cdf79917",
       "date": "2026-11-16",
       "startTime": "2026-11-16T13:31:56.587000+00:00",
-      "durationSeconds": 152,
+      "durationSeconds": 583,
       "modelTier": "opus",
-      "projectName": "홈",
-      "toolCallCount": 11,
+      "projectName": "portfolio",
+      "toolCallCount": 24,
       "agentsUsed": []
     },
     {
