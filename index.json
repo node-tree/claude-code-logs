@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-16T10:30:11.273774+00:00",
+  "lastUpdated": "2026-11-16T10:33:25.303931+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "97dcc570",
       "date": "2026-11-16",
       "startTime": "2026-11-16T10:17:04.207000+00:00",
-      "durationSeconds": 867,
+      "durationSeconds": 1068,
       "modelTier": "opus",
       "projectName": "디지털도화서",
-      "toolCallCount": 99,
+      "toolCallCount": 114,
       "agentsUsed": []
     },
     {
