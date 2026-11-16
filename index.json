@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-16T09:39:56.189318+00:00",
+  "lastUpdated": "2026-11-16T10:18:39.888811+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "97dcc570",
+      "date": "2026-11-16",
+      "startTime": "2026-11-16T10:17:04.207000+00:00",
+      "durationSeconds": 76,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 19,
+      "agentsUsed": []
+    },
     {
       "sessionId": "820104d0",
       "date": "2026-11-16",
@@ -3333,16 +3343,6 @@
         "pr-content",
         "research"
       ]
-    },
-    {
-      "sessionId": "202bddf9",
-      "date": "2026-10-08",
-      "startTime": "2026-10-08T22:03:12.560000+00:00",
-      "durationSeconds": 70,
-      "modelTier": "sonnet",
-      "projectName": "기타",
-      "toolCallCount": 20,
-      "agentsUsed": []
     }
   ]
 }
