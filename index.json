@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-11-16T22:59:57.238193+00:00",
+  "lastUpdated": "2026-11-16T23:36:03.522597+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "f6ed34c0",
       "date": "2026-11-16",
       "startTime": "2026-11-16T22:54:21.237000+00:00",
-      "durationSeconds": 324,
+      "durationSeconds": 1641,
       "modelTier": "opus",
       "projectName": "인스타그램",
-      "toolCallCount": 62,
-      "agentsUsed": []
+      "toolCallCount": 141,
+      "agentsUsed": [
+        "general-purpose"
+      ]
     },
     {
       "sessionId": "40d7ae25",
