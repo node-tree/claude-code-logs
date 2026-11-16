@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-16T14:00:51.788169+00:00",
+  "lastUpdated": "2026-11-16T22:06:11.802444+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "40d7ae25",
+      "date": "2026-11-16",
+      "startTime": "2026-11-16T22:03:14.406000+00:00",
+      "durationSeconds": 170,
+      "modelTier": "sonnet",
+      "projectName": "기타",
+      "toolCallCount": 41,
+      "agentsUsed": []
+    },
     {
       "sessionId": "d60159b4",
       "date": "2026-11-16",
@@ -3328,16 +3338,6 @@
       "modelTier": "sonnet",
       "projectName": "기타",
       "toolCallCount": 26,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c5f97a19",
-      "date": "2026-10-10",
-      "startTime": "2026-10-10T02:00:36.156000+00:00",
-      "durationSeconds": 14990,
-      "modelTier": "sonnet",
-      "projectName": "홈",
-      "toolCallCount": 361,
       "agentsUsed": []
     }
   ]
