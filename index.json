@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-16T13:47:46.569801+00:00",
+  "lastUpdated": "2026-11-16T13:48:59.432970+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "1189298d",
+      "date": "2026-11-16",
+      "startTime": "2026-11-16T13:48:31.405000+00:00",
+      "durationSeconds": 24,
+      "modelTier": "opus",
+      "projectName": "r1-laser",
+      "toolCallCount": 4,
+      "agentsUsed": []
+    },
     {
       "sessionId": "cdf79917",
       "date": "2026-11-16",
@@ -3328,16 +3338,6 @@
       "modelTier": "sonnet",
       "projectName": "옵시디안",
       "toolCallCount": 40,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "ede0c150",
-      "date": "2026-10-09",
-      "startTime": "2026-10-09T01:09:32.343000+00:00",
-      "durationSeconds": 4889,
-      "modelTier": "opus",
-      "projectName": "기타",
-      "toolCallCount": 124,
       "agentsUsed": []
     }
   ]
