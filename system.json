@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T22:51:14.328493+00:00",
+  "lastUpdated": "2026-11-16T00:09:40.399820+00:00",
   "models": {
     "claude": [
       {
@@ -114,7 +114,7 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 10.44,
+    "claudeOut": 10.46,
     "codexOut": 1.65,
     "codexShare": 14,
     "target": [
@@ -123,7 +123,7 @@
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 41,
+      "claudeSessions": 43,
       "codexExec": 229,
       "codexDirect": 0
     },
@@ -160,18 +160,18 @@
       },
       {
         "date": "2026-11-16",
-        "claude": 0.11,
+        "claude": 0.13,
         "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
         "used": 8,
-        "elapsed": 21
+        "elapsed": 22
       },
       "codex": {
         "used": 59,
-        "elapsed": 93
+        "elapsed": 94
       }
     }
   },
@@ -727,6 +727,21 @@
         ]
       },
       {
+        "slug": "saengsanso",
+        "name": "생산소 게시물",
+        "count": 6,
+        "first": "2026-11-02",
+        "last": "2026-11-16",
+        "dates": [
+          "2026-11-02",
+          "2026-11-04",
+          "2026-11-05",
+          "2026-11-06",
+          "2026-11-10",
+          "2026-11-16"
+        ]
+      },
+      {
         "slug": "busan-imul",
         "name": "공생직조 〈이물〉",
         "count": 5,
@@ -738,20 +753,6 @@
           "2026-11-11",
           "2026-11-12",
           "2026-11-12"
-        ]
-      },
-      {
-        "slug": "saengsanso",
-        "name": "생산소 게시물",
-        "count": 5,
-        "first": "2026-11-02",
-        "last": "2026-11-10",
-        "dates": [
-          "2026-11-02",
-          "2026-11-04",
-          "2026-11-05",
-          "2026-11-06",
-          "2026-11-10"
         ]
       },
       {
@@ -924,7 +925,7 @@
         ]
       }
     ],
-    "totalTasks": 103
+    "totalTasks": 104
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
