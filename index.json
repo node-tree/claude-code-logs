@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-16T07:55:40.159116+00:00",
+  "lastUpdated": "2026-11-16T07:56:16.601687+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "4f5daabb",
+      "date": "2026-11-16",
+      "startTime": "2026-11-16T07:52:19.975000+00:00",
+      "durationSeconds": 249,
+      "modelTier": "opus",
+      "projectName": "기타",
+      "toolCallCount": 33,
+      "agentsUsed": []
+    },
     {
       "sessionId": "85e9327b",
       "date": "2026-11-16",
@@ -3332,16 +3342,6 @@
       "modelTier": "opus",
       "projectName": "livesound",
       "toolCallCount": 77,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "c16ef5b8",
-      "date": "2026-10-07",
-      "startTime": "2026-10-07T22:03:12.899000+00:00",
-      "durationSeconds": 63,
-      "modelTier": "sonnet",
-      "projectName": "기타",
-      "toolCallCount": 19,
       "agentsUsed": []
     }
   ]
