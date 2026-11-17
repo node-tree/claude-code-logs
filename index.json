@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-17T02:23:10.861264+00:00",
+  "lastUpdated": "2026-11-17T02:27:08.502652+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "9e0bcd69",
       "date": "2026-11-17",
       "startTime": "2026-11-17T01:28:15.636000+00:00",
-      "durationSeconds": 2944,
+      "durationSeconds": 3589,
       "modelTier": "opus",
       "projectName": "프리비즈",
-      "toolCallCount": 144,
+      "toolCallCount": 165,
       "agentsUsed": [
         "evaluator"
       ]
