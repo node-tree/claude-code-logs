@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-17T00:33:20.557604+00:00",
+  "lastUpdated": "2026-11-17T00:47:13.168594+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "3d78f07d",
+      "date": "2026-11-17",
+      "startTime": "2026-11-17T00:43:47.863000+00:00",
+      "durationSeconds": 175,
+      "modelTier": "opus",
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 18,
+      "agentsUsed": []
+    },
     {
       "sessionId": "da02c5d7",
       "date": "2026-11-16",
@@ -3329,18 +3339,6 @@
       "projectName": "기타",
       "toolCallCount": 21,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "76b7e4e1",
-      "date": "2026-10-11",
-      "startTime": "2026-10-11T15:01:19.959000+00:00",
-      "durationSeconds": 19579,
-      "modelTier": "opus",
-      "projectName": "인스타그램",
-      "toolCallCount": 801,
-      "agentsUsed": [
-        "general-purpose"
-      ]
     }
   ]
 }
