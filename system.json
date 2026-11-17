@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T07:43:22.622345+00:00",
+  "lastUpdated": "2026-11-17T08:34:01.534930+00:00",
   "models": {
     "claude": [
       {
@@ -114,7 +114,7 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 11.65,
+    "claudeOut": 11.66,
     "codexOut": 1.4,
     "codexShare": 11,
     "target": [
@@ -160,18 +160,18 @@
       },
       {
         "date": "2026-11-17",
-        "claude": 1.78,
+        "claude": 1.79,
         "codex": 0.07
       }
     ],
     "limits": {
       "claude": {
         "used": 53,
-        "elapsed": 40
+        "elapsed": 41
       },
       "codex": {
         "used": 3,
-        "elapsed": 12
+        "elapsed": 13
       }
     }
   },
@@ -630,7 +630,7 @@
       {
         "slug": "busan-gohyang",
         "name": "부산항, 고향 없는 고향",
-        "count": 25,
+        "count": 26,
         "first": "2026-10-03",
         "last": "2026-11-17",
         "dates": [
@@ -657,6 +657,7 @@
           "2026-11-11",
           "2026-11-15",
           "2026-11-16",
+          "2026-11-17",
           "2026-11-17",
           "2026-11-17"
         ]
@@ -935,7 +936,7 @@
         ]
       }
     ],
-    "totalTasks": 109
+    "totalTasks": 110
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
