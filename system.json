@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T14:54:36.150213+00:00",
+  "lastUpdated": "2026-11-17T22:05:12.442405+00:00",
   "models": {
     "claude": [
       {
@@ -49,8 +49,8 @@
     "codex": [
       {
         "family": "sol",
-        "id": "gpt-6.1-sol",
-        "name": "GPT-6.1 Sol",
+        "id": "gpt-6.2-sol",
+        "name": "GPT-6.2 Sol",
         "seat": "기본",
         "role": "공개 자료 확인 · 스크립트 · 가벼운 일",
         "stages": [
@@ -60,8 +60,8 @@
       },
       {
         "family": "astra",
-        "id": "gpt-6-astra",
-        "name": "GPT-6 Astra",
+        "id": "gpt-6.2-astra",
+        "name": "GPT-6.2 Astra",
         "seat": "high",
         "role": "비주얼 · 웹 · 코드 구조 제작",
         "stages": [
@@ -81,8 +81,7 @@
       }
     ],
     "cli": {
-      "claude": "2.1.326",
-      "codex": "0.169.0"
+      "claude": "2.1.326"
     }
   },
   "flow": [
@@ -114,8 +113,8 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 11.99,
-    "codexOut": 1.47,
+    "claudeOut": 10.32,
+    "codexOut": 1.28,
     "codexShare": 11,
     "target": [
       45,
@@ -123,16 +122,11 @@
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 53,
-      "codexExec": 230,
+      "claudeSessions": 46,
+      "codexExec": 203,
       "codexDirect": 0
     },
     "days": [
-      {
-        "date": "2026-11-11",
-        "claude": 1.68,
-        "codex": 0.18
-      },
       {
         "date": "2026-11-12",
         "claude": 3.13,
@@ -160,18 +154,23 @@
       },
       {
         "date": "2026-11-17",
-        "claude": 2.12,
+        "claude": 2.13,
         "codex": 0.14
+      },
+      {
+        "date": "2026-11-18",
+        "claude": 0.0,
+        "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
-        "used": 61,
-        "elapsed": 45
+        "used": 63,
+        "elapsed": 49
       },
       "codex": {
         "used": 6,
-        "elapsed": 16
+        "elapsed": 21
       }
     }
   },
@@ -494,7 +493,7 @@
   ],
   "verdicts": {
     "windowDays": 30,
-    "total": 43,
+    "total": 42,
     "byLens": [
       {
         "lens": "design",
@@ -504,7 +503,7 @@
       {
         "lens": "doc",
         "pass": 8,
-        "rework": 1
+        "rework": 0
       },
       {
         "lens": "code",
@@ -513,11 +512,6 @@
       }
     ],
     "days": [
-      {
-        "date": "2026-10-19",
-        "pass": 0,
-        "rework": 1
-      },
       {
         "date": "2026-10-20",
         "pass": 3,
