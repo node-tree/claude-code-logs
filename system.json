@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T04:43:29.174408+00:00",
+  "lastUpdated": "2026-11-17T05:18:28.515583+00:00",
   "models": {
     "claude": [
       {
@@ -114,8 +114,8 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 11.07,
-    "codexOut": 1.35,
+    "claudeOut": 11.33,
+    "codexOut": 1.38,
     "codexShare": 11,
     "target": [
       45,
@@ -124,7 +124,7 @@
     "activeFrom": "2026-11-16",
     "runs": {
       "claudeSessions": 49,
-      "codexExec": 217,
+      "codexExec": 220,
       "codexDirect": 0
     },
     "days": [
@@ -160,18 +160,18 @@
       },
       {
         "date": "2026-11-17",
-        "claude": 1.21,
-        "codex": 0.02
+        "claude": 1.47,
+        "codex": 0.05
       }
     ],
     "limits": {
       "claude": {
-        "used": 50,
+        "used": 51,
         "elapsed": 39
       },
       "codex": {
         "used": 3,
-        "elapsed": 10
+        "elapsed": 11
       }
     }
   },
@@ -664,9 +664,9 @@
       {
         "slug": "kkumdarak",
         "name": "꿈다락 〈손의 기억〉",
-        "count": 23,
+        "count": 24,
         "first": "2026-10-13",
-        "last": "2026-11-15",
+        "last": "2026-11-17",
         "dates": [
           "2026-10-13",
           "2026-10-20",
@@ -690,7 +690,8 @@
           "2026-11-12",
           "2026-11-13",
           "2026-11-13",
-          "2026-11-15"
+          "2026-11-15",
+          "2026-11-17"
         ]
       },
       {
@@ -934,7 +935,7 @@
         ]
       }
     ],
-    "totalTasks": 108
+    "totalTasks": 109
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
