@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-18T07:37:14.618168+00:00",
+  "lastUpdated": "2026-11-18T07:44:05.771517+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "9234ce76",
+      "date": "2026-11-18",
+      "startTime": "2026-11-18T07:40:33.406000+00:00",
+      "durationSeconds": 209,
+      "modelTier": "opus",
+      "projectName": "기타",
+      "toolCallCount": 29,
+      "agentsUsed": []
+    },
     {
       "sessionId": "b65d4b52",
       "date": "2026-11-18",
@@ -3324,18 +3334,6 @@
       "toolCallCount": 548,
       "agentsUsed": [
         "claude",
-        "general-purpose"
-      ]
-    },
-    {
-      "sessionId": "804985e5",
-      "date": "2026-10-13",
-      "startTime": "2026-10-13T08:44:51.624000+00:00",
-      "durationSeconds": 2145,
-      "modelTier": "opus",
-      "projectName": "인스타그램",
-      "toolCallCount": 44,
-      "agentsUsed": [
         "general-purpose"
       ]
     }
