@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T23:29:08.181038+00:00",
+  "lastUpdated": "2026-11-18T23:55:04.043399+00:00",
   "models": {
     "claude": [
       {
@@ -845,6 +845,17 @@
         ]
       },
       {
+        "slug": "portfolio",
+        "name": "portfolio",
+        "count": 2,
+        "first": "2026-11-12",
+        "last": "2026-11-19",
+        "dates": [
+          "2026-11-12",
+          "2026-11-19"
+        ]
+      },
+      {
         "slug": "yangbo",
         "name": "양보의 날",
         "count": 2,
@@ -906,16 +917,6 @@
         ]
       },
       {
-        "slug": "portfolio",
-        "name": "portfolio",
-        "count": 1,
-        "first": "2026-11-12",
-        "last": "2026-11-12",
-        "dates": [
-          "2026-11-12"
-        ]
-      },
-      {
         "slug": "singamuak",
         "name": "신가무악",
         "count": 1,
@@ -946,7 +947,7 @@
         ]
       }
     ],
-    "totalTasks": 125
+    "totalTasks": 126
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
