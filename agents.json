@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-15T13:14:09.857117+00:00",
-  "totalAgents": 111,
+  "lastUpdated": "2026-11-18T22:04:35.940838+00:00",
+  "totalAgents": 112,
   "agents": [
     {
       "id": "canvas-design",
@@ -248,10 +248,10 @@
       "type": "plugin",
       "category": "dev",
       "name": "Figma",
-      "desc": "18개 스킬 포함",
+      "desc": "19개 스킬 포함",
       "emoji": "🎭",
-      "version": "2.2.157",
-      "subSkillCount": 18
+      "version": "2.2.211",
+      "subSkillCount": 19
     },
     {
       "id": "figma-use-motion",
@@ -359,6 +359,15 @@
       "name": "Figma Use",
       "desc": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` direc",
       "emoji": "🔗",
+      "parentPlugin": "figma"
+    },
+    {
+      "id": "figma-3d-transforms",
+      "type": "skill",
+      "category": "dev",
+      "name": "Figma 3D Transforms",
+      "desc": "Add or edit 3D transforms — depth, perspective, z-axis rotation, tilt, isometric, and parallax looks that flat 2D rotati",
+      "emoji": "🔹",
       "parentPlugin": "figma"
     },
     {
