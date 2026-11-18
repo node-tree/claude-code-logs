@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-18T09:45:06.889750+00:00",
+  "lastUpdated": "2026-11-18T09:45:55.966999+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "0cea9f26",
+      "date": "2026-11-18",
+      "startTime": "2026-11-18T09:45:12.121000+00:00",
+      "durationSeconds": 31,
+      "modelTier": "opus",
+      "projectName": "livesound",
+      "toolCallCount": 8,
+      "agentsUsed": []
+    },
     {
       "sessionId": "bb753f62",
       "date": "2026-11-18",
@@ -3323,16 +3333,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "824081fc",
-      "date": "2026-10-13",
-      "startTime": "2026-10-13T11:22:51.123000+00:00",
-      "durationSeconds": 2952,
-      "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 87,
-      "agentsUsed": []
     }
   ]
 }
