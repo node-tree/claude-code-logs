@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T07:37:24.784548+00:00",
+  "lastUpdated": "2026-11-18T07:44:15.962532+00:00",
   "models": {
     "claude": [
       {
@@ -114,8 +114,8 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 10.83,
-    "codexOut": 1.69,
+    "claudeOut": 10.87,
+    "codexOut": 1.7,
     "codexShare": 14,
     "target": [
       45,
@@ -123,8 +123,8 @@
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 51,
-      "codexExec": 228,
+      "claudeSessions": 52,
+      "codexExec": 229,
       "codexDirect": 6
     },
     "days": [
@@ -160,7 +160,7 @@
       },
       {
         "date": "2026-11-18",
-        "claude": 0.51,
+        "claude": 0.55,
         "codex": 0.41
       }
     ],
@@ -696,7 +696,7 @@
       {
         "slug": "harness",
         "name": "하네스 · 운영",
-        "count": 15,
+        "count": 16,
         "first": "2026-10-15",
         "last": "2026-11-18",
         "dates": [
@@ -714,6 +714,7 @@
           "2026-11-14",
           "2026-11-14",
           "2026-11-14",
+          "2026-11-18",
           "2026-11-18"
         ]
       },
@@ -942,7 +943,7 @@
         ]
       }
     ],
-    "totalTasks": 121
+    "totalTasks": 122
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
