@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-18T13:37:15.478067+00:00",
+  "lastUpdated": "2026-11-18T13:39:09.050235+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "81e82243",
       "date": "2026-11-18",
       "startTime": "2026-11-18T13:31:55.754000+00:00",
-      "durationSeconds": 319,
+      "durationSeconds": 424,
       "modelTier": "opus",
       "projectName": "기타",
-      "toolCallCount": 38,
+      "toolCallCount": 51,
       "agentsUsed": []
     },
     {
