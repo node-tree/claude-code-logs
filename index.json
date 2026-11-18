@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-18T09:51:02.670350+00:00",
+  "lastUpdated": "2026-11-18T09:52:52.736087+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "0cea9f26",
       "date": "2026-11-18",
       "startTime": "2026-11-18T09:45:12.121000+00:00",
-      "durationSeconds": 31,
+      "durationSeconds": 428,
       "modelTier": "opus",
       "projectName": "livesound",
-      "toolCallCount": 8,
+      "toolCallCount": 38,
       "agentsUsed": []
     },
     {
