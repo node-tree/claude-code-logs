@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T13:08:46.293148+00:00",
+  "lastUpdated": "2026-11-18T13:09:20.794564+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -36,10 +36,10 @@
       "sessionId": "b65d4b52",
       "date": "2026-11-18",
       "startTime": "2026-11-18T07:04:06.735000+00:00",
-      "durationSeconds": 6400,
+      "durationSeconds": 6441,
       "modelTier": "opus",
       "projectName": "모션 영상",
-      "toolCallCount": 130,
+      "toolCallCount": 131,
       "agentsUsed": []
     },
     {
