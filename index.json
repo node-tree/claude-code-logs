@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-18T07:02:20.483402+00:00",
+  "lastUpdated": "2026-11-18T07:14:36.110210+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "b65d4b52",
+      "date": "2026-11-18",
+      "startTime": "2026-11-18T07:04:06.735000+00:00",
+      "durationSeconds": 615,
+      "modelTier": "opus",
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 32,
+      "agentsUsed": []
+    },
     {
       "sessionId": "44ebce77",
       "date": "2026-11-18",
@@ -3328,16 +3338,6 @@
       "agentsUsed": [
         "general-purpose"
       ]
-    },
-    {
-      "sessionId": "845cad66",
-      "date": "2026-10-13",
-      "startTime": "2026-10-13T08:31:17.089000+00:00",
-      "durationSeconds": 334,
-      "modelTier": "opus",
-      "projectName": "기타",
-      "toolCallCount": 17,
-      "agentsUsed": []
     }
   ]
 }
