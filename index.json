@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-19T03:55:42.723514+00:00",
+  "lastUpdated": "2026-11-19T03:57:51.827773+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "8e32a69e",
+      "date": "2026-11-19",
+      "startTime": "2026-11-19T03:56:21.876000+00:00",
+      "durationSeconds": 80,
+      "modelTier": "opus",
+      "projectName": "livesound",
+      "toolCallCount": 6,
+      "agentsUsed": []
+    },
     {
       "sessionId": "f9cafb02",
       "date": "2026-11-19",
@@ -3309,19 +3319,6 @@
       "agentsUsed": [
         "claude",
         "research"
-      ]
-    },
-    {
-      "sessionId": "a32413e0",
-      "date": "2026-10-14",
-      "startTime": "2026-10-14T07:43:23.956000+00:00",
-      "durationSeconds": 9963,
-      "modelTier": "opus",
-      "projectName": "인스타그램",
-      "toolCallCount": 334,
-      "agentsUsed": [
-        "Explore",
-        "pr-content"
       ]
     }
   ]
