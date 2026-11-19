@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T00:37:08.020325+00:00",
+  "lastUpdated": "2026-11-19T01:00:45.850385+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -106,10 +106,10 @@
       "sessionId": "2085f902",
       "date": "2026-11-17",
       "startTime": "2026-11-17T23:35:35.845000+00:00",
-      "durationSeconds": 14731,
+      "durationSeconds": 15525,
       "modelTier": "opus",
       "projectName": "공생직조 〈이물〉",
-      "toolCallCount": 348,
+      "toolCallCount": 349,
       "agentsUsed": []
     },
     {
