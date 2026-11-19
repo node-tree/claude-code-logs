@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-19T16:01:00.008574+00:00",
+  "lastUpdated": "2026-11-19T22:04:45.702168+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "06798d08",
+      "date": "2026-11-19",
+      "startTime": "2026-11-19T22:03:10.105000+00:00",
+      "durationSeconds": 89,
+      "modelTier": "sonnet",
+      "projectName": "기타",
+      "toolCallCount": 40,
+      "agentsUsed": []
+    },
     {
       "sessionId": "47d4ebcb",
       "date": "2026-11-19",
@@ -3302,16 +3312,6 @@
         "general-purpose",
         "research"
       ]
-    },
-    {
-      "sessionId": "6f0d8f5a",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T01:07:16.283000+00:00",
-      "durationSeconds": 209,
-      "modelTier": "opus",
-      "projectName": "홈",
-      "toolCallCount": 34,
-      "agentsUsed": []
     }
   ]
 }
