@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T07:02:08.408225+00:00",
+  "lastUpdated": "2026-11-19T07:04:45.079689+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "f9cafb02",
       "date": "2026-11-19",
       "startTime": "2026-11-19T03:43:26.423000+00:00",
-      "durationSeconds": 4144,
+      "durationSeconds": 4450,
       "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 123,
+      "projectName": "홈",
+      "toolCallCount": 140,
       "agentsUsed": []
     },
     {
