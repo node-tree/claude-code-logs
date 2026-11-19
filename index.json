@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T01:22:47.016338+00:00",
+  "lastUpdated": "2026-11-19T01:22:50.432455+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "d3f3a49b",
       "date": "2026-11-18",
       "startTime": "2026-11-18T23:50:09.244000+00:00",
-      "durationSeconds": 4245,
+      "durationSeconds": 4605,
       "modelTier": "opus",
       "projectName": "portfolio",
-      "toolCallCount": 209,
+      "toolCallCount": 221,
       "agentsUsed": []
     },
     {
