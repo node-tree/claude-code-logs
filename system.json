@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T16:01:10.148266+00:00",
+  "lastUpdated": "2026-11-19T22:05:01.172777+00:00",
   "models": {
     "claude": [
       {
@@ -81,8 +81,7 @@
       }
     ],
     "cli": {
-      "claude": "2.1.328",
-      "codex": "0.170.0"
+      "claude": "2.1.328"
     }
   },
   "flow": [
@@ -167,11 +166,11 @@
     "limits": {
       "claude": {
         "used": 75,
-        "elapsed": 74
+        "elapsed": 77
       },
       "codex": {
         "used": 29,
-        "elapsed": 46
+        "elapsed": 49
       }
     }
   },
