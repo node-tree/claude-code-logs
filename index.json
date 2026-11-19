@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-19T13:36:17.137862+00:00",
+  "lastUpdated": "2026-11-19T13:40:54.660728+00:00",
   "totalSessions": 300,
   "sessions": [
     {
       "sessionId": "47d4ebcb",
       "date": "2026-11-19",
       "startTime": "2026-11-19T10:41:44.447000+00:00",
-      "durationSeconds": 1743,
+      "durationSeconds": 2021,
       "modelTier": "opus",
-      "projectName": "부산항, 고향 없는 고향",
-      "toolCallCount": 112,
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 126,
       "agentsUsed": []
     },
     {
