@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-19T10:47:42.621728+00:00",
+  "lastUpdated": "2026-11-19T10:48:05.557019+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "47d4ebcb",
+      "date": "2026-11-19",
+      "startTime": "2026-11-19T10:41:44.447000+00:00",
+      "durationSeconds": 374,
+      "modelTier": "opus",
+      "projectName": "부산항, 고향 없는 고향",
+      "toolCallCount": 50,
+      "agentsUsed": []
+    },
     {
       "sessionId": "59e33e79",
       "date": "2026-11-19",
@@ -3301,16 +3311,6 @@
       "modelTier": "opus",
       "projectName": "홈",
       "toolCallCount": 34,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "fa301832",
-      "date": "2026-10-14",
-      "startTime": "2026-10-14T22:03:09.838000+00:00",
-      "durationSeconds": 101,
-      "modelTier": "sonnet",
-      "projectName": "기타",
-      "toolCallCount": 38,
       "agentsUsed": []
     }
   ]
