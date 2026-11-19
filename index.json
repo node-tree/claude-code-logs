@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T01:10:45.498574+00:00",
+  "lastUpdated": "2026-11-19T01:11:39.889851+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -26,10 +26,10 @@
       "sessionId": "d3f3a49b",
       "date": "2026-11-18",
       "startTime": "2026-11-18T23:50:09.244000+00:00",
-      "durationSeconds": 3825,
+      "durationSeconds": 3906,
       "modelTier": "opus",
       "projectName": "nodetree.kr",
-      "toolCallCount": 190,
+      "toolCallCount": 196,
       "agentsUsed": []
     },
     {
