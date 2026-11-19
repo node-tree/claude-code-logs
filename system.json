@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T00:37:18.141506+00:00",
+  "lastUpdated": "2026-11-19T01:02:55.905992+00:00",
   "models": {
     "claude": [
       {
@@ -856,6 +856,17 @@
         ]
       },
       {
+        "slug": "sumbi",
+        "name": "섬비엔날레",
+        "count": 2,
+        "first": "2026-11-08",
+        "last": "2026-11-19",
+        "dates": [
+          "2026-11-08",
+          "2026-11-19"
+        ]
+      },
+      {
         "slug": "yangbo",
         "name": "양보의 날",
         "count": 2,
@@ -927,16 +938,6 @@
         ]
       },
       {
-        "slug": "sumbi",
-        "name": "섬비엔날레",
-        "count": 1,
-        "first": "2026-11-08",
-        "last": "2026-11-08",
-        "dates": [
-          "2026-11-08"
-        ]
-      },
-      {
         "slug": "yeokryu",
         "name": "yeokryu",
         "count": 1,
@@ -947,7 +948,7 @@
         ]
       }
     ],
-    "totalTasks": 126
+    "totalTasks": 127
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
