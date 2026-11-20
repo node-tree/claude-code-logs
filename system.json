@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T06:14:28.875263+00:00",
+  "lastUpdated": "2026-11-20T06:20:46.828477+00:00",
   "models": {
     "claude": [
       {
@@ -494,12 +494,12 @@
   ],
   "verdicts": {
     "windowDays": 30,
-    "total": 36,
+    "total": 37,
     "byLens": [
       {
         "lens": "design",
         "pass": 19,
-        "rework": 5
+        "rework": 6
       },
       {
         "lens": "doc",
@@ -610,6 +610,11 @@
       },
       {
         "date": "2026-11-18",
+        "pass": 0,
+        "rework": 1
+      },
+      {
+        "date": "2026-11-20",
         "pass": 0,
         "rework": 1
       }
