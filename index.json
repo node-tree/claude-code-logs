@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T10:55:17.398524+00:00",
+  "lastUpdated": "2026-11-20T13:54:44.422724+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "9cdd270e",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T13:53:41.217000+00:00",
+      "durationSeconds": 36,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 5,
+      "agentsUsed": []
+    },
     {
       "sessionId": "16979f1f",
       "date": "2026-11-20",
@@ -3295,18 +3305,6 @@
       "projectName": "nodetree.kr",
       "toolCallCount": 88,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "152e8a88",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T07:07:42.943000+00:00",
-      "durationSeconds": 2550,
-      "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 127,
-      "agentsUsed": [
-        "research"
-      ]
     }
   ]
 }
