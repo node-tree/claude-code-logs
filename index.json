@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T10:20:42.095065+00:00",
+  "lastUpdated": "2026-11-20T10:22:29.643727+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "16979f1f",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T10:22:03.901000+00:00",
+      "durationSeconds": 21,
+      "modelTier": "opus",
+      "projectName": "부산항, 고향 없는 고향",
+      "toolCallCount": 4,
+      "agentsUsed": []
+    },
     {
       "sessionId": "baa4e453",
       "date": "2026-11-20",
@@ -3297,16 +3307,6 @@
       "agentsUsed": [
         "research"
       ]
-    },
-    {
-      "sessionId": "ed6fd552",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T07:00:08.072000+00:00",
-      "durationSeconds": 2874,
-      "modelTier": "opus",
-      "projectName": "하네스 · 운영",
-      "toolCallCount": 233,
-      "agentsUsed": []
     }
   ]
 }
