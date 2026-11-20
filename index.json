@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T03:12:43.205897+00:00",
+  "lastUpdated": "2026-11-20T03:40:21.613017+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "a396c1a7",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T03:33:49.285000+00:00",
+      "durationSeconds": 370,
+      "modelTier": "opus",
+      "projectName": "기타",
+      "toolCallCount": 36,
+      "agentsUsed": []
+    },
     {
       "sessionId": "66ceb37c",
       "date": "2026-11-20",
@@ -3296,18 +3306,6 @@
         "evaluator",
         "general-purpose",
         "research"
-      ]
-    },
-    {
-      "sessionId": "f80363dd",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T06:06:44.684000+00:00",
-      "durationSeconds": 8211,
-      "modelTier": "opus",
-      "projectName": "충남미술관 포럼",
-      "toolCallCount": 225,
-      "agentsUsed": [
-        "general-purpose"
       ]
     }
   ]
