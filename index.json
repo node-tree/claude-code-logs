@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T15:17:13.798533+00:00",
+  "lastUpdated": "2026-11-20T22:05:22.456106+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "2ff45de4",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T22:03:14.874000+00:00",
+      "durationSeconds": 121,
+      "modelTier": "sonnet",
+      "projectName": "옵시디안",
+      "toolCallCount": 54,
+      "agentsUsed": []
+    },
     {
       "sessionId": "71be4800",
       "date": "2026-11-20",
@@ -3294,16 +3304,6 @@
       "modelTier": "fable",
       "projectName": "isoartlab",
       "toolCallCount": 30,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "17deae0b",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T08:29:32.030000+00:00",
-      "durationSeconds": 482,
-      "modelTier": "fable",
-      "projectName": "isoartlab",
-      "toolCallCount": 20,
       "agentsUsed": []
     }
   ]
