@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T22:05:01.172777+00:00",
+  "lastUpdated": "2026-11-20T00:57:51.850143+00:00",
   "models": {
     "claude": [
       {
@@ -81,7 +81,8 @@
       }
     ],
     "cli": {
-      "claude": "2.1.328"
+      "claude": "2.1.329",
+      "codex": "0.170.0"
     }
   },
   "flow": [
@@ -113,7 +114,7 @@
   ],
   "share": {
     "windowDays": 7,
-    "claudeOut": 8.7,
+    "claudeOut": 8.71,
     "codexOut": 1.75,
     "codexShare": 17,
     "target": [
@@ -122,7 +123,7 @@
     ],
     "activeFrom": "2026-11-16",
     "runs": {
-      "claudeSessions": 51,
+      "claudeSessions": 52,
       "codexExec": 227,
       "codexDirect": 58
     },
@@ -159,18 +160,18 @@
       },
       {
         "date": "2026-11-20",
-        "claude": 0.0,
+        "claude": 0.01,
         "codex": 0.0
       }
     ],
     "limits": {
       "claude": {
         "used": 75,
-        "elapsed": 77
+        "elapsed": 79
       },
       "codex": {
         "used": 29,
-        "elapsed": 49
+        "elapsed": 51
       }
     }
   },
@@ -446,7 +447,7 @@
       "id": "remind-kkumdarak-nov",
       "name": "꿈다락 11월 알림",
       "where": "mac",
-      "loaded": true,
+      "loaded": false,
       "kind": "calendar",
       "times": [
         {
