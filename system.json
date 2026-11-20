@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T06:50:47.373714+00:00",
+  "lastUpdated": "2026-11-20T06:53:29.319424+00:00",
   "models": {
     "claude": [
       {
@@ -819,6 +819,18 @@
         ]
       },
       {
+        "slug": "yeokryu",
+        "name": "yeokryu",
+        "count": 3,
+        "first": "2026-11-11",
+        "last": "2026-11-20",
+        "dates": [
+          "2026-11-11",
+          "2026-11-20",
+          "2026-11-20"
+        ]
+      },
+      {
         "slug": "buheung",
         "name": "부흥여지도",
         "count": 2,
@@ -885,17 +897,6 @@
         ]
       },
       {
-        "slug": "yeokryu",
-        "name": "yeokryu",
-        "count": 2,
-        "first": "2026-11-11",
-        "last": "2026-11-20",
-        "dates": [
-          "2026-11-11",
-          "2026-11-20"
-        ]
-      },
-      {
         "slug": "bobusang",
         "name": "임천보부상 키링",
         "count": 1,
@@ -956,7 +957,7 @@
         ]
       }
     ],
-    "totalTasks": 135
+    "totalTasks": 136
   },
   "recStatus": {
     "2026-11-harness-1": "대기",
