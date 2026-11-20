@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T02:23:47.584406+00:00",
+  "lastUpdated": "2026-11-20T02:28:26.189606+00:00",
   "models": {
     "claude": [
       {
@@ -169,7 +169,10 @@
         "used": 75,
         "elapsed": 80
       },
-      "codex": null
+      "codex": {
+        "used": 29,
+        "elapsed": 52
+      }
     }
   },
   "hooks": [
