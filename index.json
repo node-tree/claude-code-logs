@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T03:40:21.613017+00:00",
+  "lastUpdated": "2026-11-20T03:43:01.566596+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -11,6 +11,18 @@
       "projectName": "기타",
       "toolCallCount": 36,
       "agentsUsed": []
+    },
+    {
+      "sessionId": "c57ff549",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T03:16:25.583000+00:00",
+      "durationSeconds": 1765,
+      "modelTier": "opus",
+      "projectName": "부산항, 고향 없는 고향",
+      "toolCallCount": 100,
+      "agentsUsed": [
+        "web-fetch"
+      ]
     },
     {
       "sessionId": "66ceb37c",
@@ -3293,20 +3305,6 @@
       "projectName": "부흥여지도",
       "toolCallCount": 74,
       "agentsUsed": []
-    },
-    {
-      "sessionId": "e20abf55",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T06:10:08.415000+00:00",
-      "durationSeconds": 13386,
-      "modelTier": "opus",
-      "projectName": "isoartlab",
-      "toolCallCount": 667,
-      "agentsUsed": [
-        "evaluator",
-        "general-purpose",
-        "research"
-      ]
     }
   ]
 }
