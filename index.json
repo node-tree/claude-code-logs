@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T05:31:18.283138+00:00",
+  "lastUpdated": "2026-11-20T06:01:06.985568+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "95de24eb",
+      "date": "2026-11-20",
+      "startTime": "2026-11-20T05:50:43.945000+00:00",
+      "durationSeconds": 683,
+      "modelTier": "opus",
+      "projectName": "livesound",
+      "toolCallCount": 24,
+      "agentsUsed": []
+    },
     {
       "sessionId": "a396c1a7",
       "date": "2026-11-20",
@@ -3294,16 +3304,6 @@
       "modelTier": "fable",
       "projectName": "부흥여지도",
       "toolCallCount": 30,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "daed1eef",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T06:20:36.727000+00:00",
-      "durationSeconds": 1898,
-      "modelTier": "fable",
-      "projectName": "부흥여지도",
-      "toolCallCount": 74,
       "agentsUsed": []
     }
   ]
