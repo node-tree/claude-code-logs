@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T10:42:19.036566+00:00",
+  "lastUpdated": "2026-11-21T10:45:52.779551+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -108,10 +108,10 @@
       "sessionId": "c57ff549",
       "date": "2026-11-20",
       "startTime": "2026-11-20T03:16:25.583000+00:00",
-      "durationSeconds": 20162,
+      "durationSeconds": 20376,
       "modelTier": "opus",
       "projectName": "부산항, 고향 없는 고향",
-      "toolCallCount": 580,
+      "toolCallCount": 587,
       "agentsUsed": [
         "web-fetch"
       ]
