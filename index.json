@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T01:56:51.470230+00:00",
+  "lastUpdated": "2026-11-21T02:08:33.328479+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -100,10 +100,10 @@
       "sessionId": "66ceb37c",
       "date": "2026-11-20",
       "startTime": "2026-11-20T02:26:42.107000+00:00",
-      "durationSeconds": 7692,
+      "durationSeconds": 8681,
       "modelTier": "opus",
       "projectName": "섬비엔날레",
-      "toolCallCount": 257,
+      "toolCallCount": 280,
       "agentsUsed": []
     },
     {
