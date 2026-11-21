@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T22:04:35.940838+00:00",
+  "lastUpdated": "2026-11-21T07:53:10.456638+00:00",
   "totalAgents": 112,
   "agents": [
     {
@@ -15,7 +15,7 @@
       "type": "skill",
       "category": "dev",
       "name": "Codex",
-      "desc": "OpenAI Codex CLI(gpt-6.1 Sol·gpt-6 Astra·gpt-6.1 Terra)를 비대화형으로 호출해 코딩·리뷰·리서치 하위작업을 위임하거나 두 번째 의견을 받는다. 트리거: 코덱스, codex,",
+      "desc": "OpenAI Codex CLI(gpt-6.2 Sol·gpt-6.2 Astra·gpt-6.1 Terra)를 비대화형으로 호출해 코딩·리뷰·리서치 하위작업을 위임하거나 두 번째 의견을 받는다. 트리거: 코덱스, code",
       "emoji": "🔹"
     },
     {
