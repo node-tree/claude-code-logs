@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-21T10:45:52.779551+00:00",
+  "lastUpdated": "2026-11-21T11:52:30.916359+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f6f8b0ed",
+      "date": "2026-11-21",
+      "startTime": "2026-11-21T10:53:28.785000+00:00",
+      "durationSeconds": 830,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 39,
+      "agentsUsed": []
+    },
     {
       "sessionId": "8aa50ab1",
       "date": "2026-11-21",
@@ -3293,16 +3303,6 @@
       "modelTier": "opus",
       "projectName": "충남미술관 포럼",
       "toolCallCount": 92,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "8eab869b",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T08:46:41.445000+00:00",
-      "durationSeconds": 1686,
-      "modelTier": "opus",
-      "projectName": "livesound",
-      "toolCallCount": 45,
       "agentsUsed": []
     }
   ]
