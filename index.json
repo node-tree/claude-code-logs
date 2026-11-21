@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T02:15:54.868547+00:00",
+  "lastUpdated": "2026-11-21T02:18:08.789549+00:00",
   "totalSessions": 300,
   "sessions": [
     {
@@ -100,10 +100,10 @@
       "sessionId": "66ceb37c",
       "date": "2026-11-20",
       "startTime": "2026-11-20T02:26:42.107000+00:00",
-      "durationSeconds": 9129,
+      "durationSeconds": 9266,
       "modelTier": "opus",
-      "projectName": "섬비엔날레",
-      "toolCallCount": 301,
+      "projectName": "하네스 · 운영",
+      "toolCallCount": 309,
       "agentsUsed": []
     },
     {
