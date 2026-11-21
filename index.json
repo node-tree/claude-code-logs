@@ -1,7 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T22:05:22.456106+00:00",
+  "lastUpdated": "2026-11-21T01:56:51.470230+00:00",
   "totalSessions": 300,
   "sessions": [
+    {
+      "sessionId": "f30d2f0e",
+      "date": "2026-11-21",
+      "startTime": "2026-11-21T01:56:17.066000+00:00",
+      "durationSeconds": 30,
+      "modelTier": "opus",
+      "projectName": "홈",
+      "toolCallCount": 4,
+      "agentsUsed": []
+    },
     {
       "sessionId": "2ff45de4",
       "date": "2026-11-20",
@@ -3294,16 +3304,6 @@
       "modelTier": "opus",
       "projectName": "인스타그램",
       "toolCallCount": 81,
-      "agentsUsed": []
-    },
-    {
-      "sessionId": "bc4f3980",
-      "date": "2026-10-15",
-      "startTime": "2026-10-15T08:29:34.962000+00:00",
-      "durationSeconds": 131,
-      "modelTier": "fable",
-      "projectName": "isoartlab",
-      "toolCallCount": 30,
       "agentsUsed": []
     }
   ]
